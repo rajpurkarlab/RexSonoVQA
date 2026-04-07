@@ -1,0 +1,212 @@
+[
+  {
+    "start": 0.05,
+    "end": 5.89,
+    "action": "Place the probe on the abdomen. Attempt to locate the pancreas on the screen.",
+    "interpretation": "Identify the initial position of the pancreas."
+  },
+  {
+    "start": 6.47,
+    "end": 14.28,
+    "action": "Scan specifically for anatomical landmarks.",
+    "interpretation": "Look for the splenic vein and portal confluence to orient the view."
+  },
+  {
+    "start": 14.4,
+    "end": 19.04,
+    "action": "Assess the position of the organ on the display.",
+    "interpretation": "Observe that the pancreas is located at the very anterior portion of the screen."
+  },
+  {
+    "start": 19.64,
+    "end": 28.72,
+    "action": "Adjust depth and focus prior to detailed scanning.",
+    "interpretation": "Ensure settings match the specific anatomy being visualized."
+  },
+  {
+    "start": 29.84,
+    "end": 36.23,
+    "action": "Plan the transverse interrogation to scan in sections. Isolate the pancreatic head first.",
+    "interpretation": "Break up the interrogation to examine the head independently."
+  },
+  {
+    "start": 36.85,
+    "end": 42.39,
+    "action": "Instruct patient: 'Take a big breath in and hold that breath in'.",
+    "interpretation": "Use inspiration to displace bowel gas and optimize the window."
+  },
+  {
+    "start": 43.17,
+    "end": 46.7,
+    "action": "Focus attention exclusively on the pancreatic head.",
+    "interpretation": "Isolate the pancreatic head for the first sweep."
+  },
+  {
+    "start": 47.12,
+    "end": 55.14,
+    "action": "Sweep the probe all the way through the tissue and then sweep all the way back up.",
+    "interpretation": "Complete a full sweep through the pancreatic head tissue."
+  },
+  {
+    "start": 56.81,
+    "end": 59.29,
+    "action": "Instruct patient: 'Breathe'.",
+    "interpretation": "Allow patient to relax between sweeps."
+  },
+  {
+    "start": 60.29,
+    "end": 66.16,
+    "action": "Shift focus to the body and tail of the pancreas for the next interrogation.",
+    "interpretation": "Prepare to scan the remaining portions of the gland."
+  },
+  {
+    "start": 66.64,
+    "end": 71.24,
+    "action": "Instruct patient: 'Big breath in and hold that breath'.",
+    "interpretation": "Re-establish the acoustic window."
+  },
+  {
+    "start": 71.96,
+    "end": 82.57,
+    "action": "Start superiorly and sweep inferiorly. Adjust depth dynamically while sweeping through the tail, then sweep back up.",
+    "interpretation": "Visualize the tail of the pancreas, modifying depth to accommodate anatomical changes during the sweep."
+  },
+  {
+    "start": 84.91,
+    "end": 90.31,
+    "action": "Prepare for longitudinal interrogation before capturing images.",
+    "interpretation": "Switch planes to ensure complete assessment."
+  },
+  {
+    "start": 90.35,
+    "end": 98.44,
+    "action": "Rotate transducer to the longitudinal plane. Locate the pancreatic head.",
+    "interpretation": "Identify the pancreatic head anterior to the IVC."
+  },
+  {
+    "start": 98.98,
+    "end": 103.76,
+    "action": "Instruct patient: 'Big breath'. Correct instruction: 'Sorry, breathe normally'.",
+    "interpretation": "Adjust patient breathing instructions based on image optimization needs."
+  },
+  {
+    "start": 104.98,
+    "end": 106.32,
+    "action": "Begin the longitudinal sweep.",
+    "interpretation": "Initiate scan in the longitudinal plane."
+  },
+  {
+    "start": 108.6,
+    "end": 115.2,
+    "action": "Move focus and depth continuously to match the anatomy while sweeping.",
+    "interpretation": "Maintain optimal resolution throughout the longitudinal sweep."
+  },
+  {
+    "start": 115.22,
+    "end": 121.47,
+    "action": "Sweep out and return to the starting position.",
+    "interpretation": "Complete the longitudinal interrogation loop."
+  },
+  {
+    "start": 122.49,
+    "end": 124.38,
+    "action": "Instruct patient: 'Breathe'.",
+    "interpretation": "End breath hold."
+  },
+  {
+    "start": 141.59,
+    "end": 145.35,
+    "action": "Prepare to capture an overall image of the gland in the transverse plane.",
+    "interpretation": "Set up for the general survey image."
+  },
+  {
+    "start": 145.79,
+    "end": 149.66,
+    "action": "Instruct patient: 'Nice big breath when you're ready. Hold that breath in'.",
+    "interpretation": "Optimize view for image capture."
+  },
+  {
+    "start": 151.88,
+    "end": 158.69,
+    "action": "Freeze image.",
+    "interpretation": "Visualize the pancreatic body and tail."
+  },
+  {
+    "start": 158.93,
+    "end": 163.59,
+    "action": "Instruct patient: 'Breathe normally'. Annotate image: 'Trans Pancreas'.",
+    "interpretation": "Label the overall gland shot."
+  },
+  {
+    "start": 165.19,
+    "end": 168.77,
+    "action": "Prepare to capture an image specifically of the pancreatic head.",
+    "interpretation": "Isolate the head for documentation."
+  },
+  {
+    "start": 169.15,
+    "end": 172.38,
+    "action": "Instruct patient: 'Big breath and hold it'.",
+    "interpretation": "Optimize window for the pancreatic head."
+  },
+  {
+    "start": 175.3,
+    "end": 181.61,
+    "action": "Adjust depth to match the specific structure being imaged. Instruct patient: 'Breathe normally'.",
+    "interpretation": "Ensure depth is optimized for the head."
+  },
+  {
+    "start": 182.57,
+    "end": 189.77,
+    "action": "Annotate image: 'Trans Pancreas' and add 'H' for Head.",
+    "interpretation": "Specific annotation for the pancreatic head image."
+  },
+  {
+    "start": 190.75,
+    "end": 195.59,
+    "action": "Prepare to capture body and tail. Instruct patient: 'Big breath'.",
+    "interpretation": "Target the body and tail for the next image."
+  },
+  {
+    "start": 198.79,
+    "end": 213.08,
+    "action": "Angle the transducer to visualize the tail along with the body. Instruct patient: 'Breathe'. Capture the image.",
+    "interpretation": "Visualize the pancreatic tail and body."
+  },
+  {
+    "start": 214.36,
+    "end": 229.37,
+    "action": "Rotate to longitudinal. Freeze image at the level of the head. Annotate: 'Long' or 'Sag Panc Head'.",
+    "interpretation": "Document the pancreatic head in the longitudinal plane."
+  },
+  {
+    "start": 230.15,
+    "end": 236.5,
+    "action": "Move probe to target the body of the pancreas.",
+    "interpretation": "Note that the body is quite thin compared to the head and tail."
+  },
+  {
+    "start": 237.32,
+    "end": 241.54,
+    "action": "Instruct patient: 'Big breath in for me... and hold that breath'.",
+    "interpretation": "Prepare for longitudinal body image capture."
+  },
+  {
+    "start": 243.81,
+    "end": 245.31,
+    "action": "Freeze image.",
+    "interpretation": "Capture the longitudinal view of the pancreatic body."
+  },
+  {
+    "start": 246.29,
+    "end": 250.42,
+    "action": "Move probe to target the tail of the pancreas.",
+    "interpretation": "Transition to the final segment."
+  },
+  {
+    "start": 252.07,
+    "end": 263.49,
+    "action": "Adjust depth and focus. Instruct patient: 'Breathe'. Ensure focus is placed at the posterior aspect of the target.",
+    "interpretation": "Optimize the final image, ensuring the focus marker aligns with the posterior anatomy."
+  }
+]

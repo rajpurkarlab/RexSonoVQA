@@ -1,0 +1,218 @@
+[
+  {
+    "start": 0.69,
+    "end": 9.5,
+    "action": "Place probe in the median of the body, specifically the right epigastrium. Instruct patient: 'Take a deep breath and hold it'.",
+    "interpretation": "Prepare to scan the liver from the epigastric window."
+  },
+  {
+    "start": 11.14,
+    "end": 15.12,
+    "action": "Orient probe to obtain a cross-section (transverse view) of the left liver lobe.",
+    "interpretation": "Visualize the transverse cross-section of the left liver lobe."
+  },
+  {
+    "start": 19.1,
+    "end": 29.43,
+    "action": "Instruct patient: 'Exhale, then inhale again and hold it'. Move probe to the right epigastrium.",
+    "interpretation": "Reposition to the right epigastrium to transition views."
+  },
+  {
+    "start": 32.78,
+    "end": 34.77,
+    "action": "Maintain position in the right epigastrium.",
+    "interpretation": "Evaluate the right liver lobe."
+  },
+  {
+    "start": 35.09,
+    "end": 44.79,
+    "action": "Assess image quality for obstructions.",
+    "interpretation": "Note if visualization is difficult or if there are 'blank parts' in the right liver lobe due to air in the colon or post-prandial status (patient ate two hours ago)."
+  },
+  {
+    "start": 45.59,
+    "end": 49.28,
+    "action": "Instruct patient: 'Put your right arm over your head'.",
+    "interpretation": "Modify patient position to open intercostal spaces."
+  },
+  {
+    "start": 51.16,
+    "end": 52.12,
+    "action": "Instruct patient: 'Take a deep breath again'.",
+    "interpretation": "Utilize inspiration to push the liver inferiorly."
+  },
+  {
+    "start": 53.84,
+    "end": 57.06,
+    "action": "Observe the monitor while maintaining probe position.",
+    "interpretation": "Confirm that the picture quality is improving."
+  },
+  {
+    "start": 60.6,
+    "end": 62.92,
+    "action": "Assess the view.",
+    "interpretation": "Determine that the view is still not optimal."
+  },
+  {
+    "start": 63.54,
+    "end": 66.8,
+    "action": "Instruct patient: 'Can you turn around to the left side a little bit?'. Confirm position: 'Yeah, that's good'.",
+    "interpretation": "Reposition patient into Left Lateral Decubitus (LLD) to displace bowel gas."
+  },
+  {
+    "start": 69.2,
+    "end": 70.17,
+    "action": "Instruct patient: 'Take a deep breath again'.",
+    "interpretation": "Re-establish inspiration in the new position."
+  },
+  {
+    "start": 76.41,
+    "end": 78.79,
+    "action": "Scan the right liver lobe.",
+    "interpretation": "Visualize the right liver with improved clarity."
+  },
+  {
+    "start": 79.59,
+    "end": 83.62,
+    "action": "Move probe to obtain standard cross-sections of the center of the liver.",
+    "interpretation": "Transition to standard central liver views."
+  },
+  {
+    "start": 84.88,
+    "end": 102.37,
+    "action": "Angle probe cranially to the most superior cross-section.",
+    "interpretation": "Visualize the 'liver vein star' (hepatic veins) joining into the Inferior Vena Cava (IVC). Identify the IVC structure."
+  },
+  {
+    "start": 103.93,
+    "end": 108.17,
+    "action": "Instruct patient: 'Exhale again, take a deep breath, and hold it'.",
+    "interpretation": "Refresh the breath-hold to maintain the window."
+  },
+  {
+    "start": 109.23,
+    "end": 115.04,
+    "action": "Slide probe inferiorly to the next standard cross-section.",
+    "interpretation": "Identify the 'jumping stag sign'."
+  },
+  {
+    "start": 115.74,
+    "end": 128.27,
+    "action": "Hold probe steady on the stag sign.",
+    "interpretation": "Visualize the components of the stag: horns, body, and legs. Identify this structure as the portal vein branching in the center of the liver."
+  },
+  {
+    "start": 128.63,
+    "end": 131.4,
+    "action": "Instruct patient: 'Exhale again'. Then: 'Take a deep breath again'.",
+    "interpretation": "Prepare for the next anatomical landmark."
+  },
+  {
+    "start": 132.71,
+    "end": 145.49,
+    "action": "Scan to locate the boundary between lobes.",
+    "interpretation": "Evaluate the echogenic line between the right and left liver lobes. Identify this as the interlobar ligament, ending in the teres hepatis ligament."
+  },
+  {
+    "start": 147.05,
+    "end": 149.79,
+    "action": "Instruct patient: 'Exhale again'. Then: 'Take a deep breath again'.",
+    "interpretation": "Refresh the breath-hold."
+  },
+  {
+    "start": 150.77,
+    "end": 161.92,
+    "action": "Follow the anatomy corresponding to the 'tail' of the jumping stag sign. Instruct patient: 'Exhale again'.",
+    "interpretation": "Locate the gallbladder at the end of the stag's tail."
+  },
+  {
+    "start": 163.84,
+    "end": 169.84,
+    "action": "Rotate probe to a long section (longitudinal) through the body.",
+    "interpretation": "Prepare to evaluate the left liver lobe in a long section."
+  },
+  {
+    "start": 170.52,
+    "end": 172.36,
+    "action": "Instruct patient: 'Take a deep breath again and hold it'.",
+    "interpretation": "Optimize the longitudinal window."
+  },
+  {
+    "start": 173.12,
+    "end": 181.17,
+    "action": "Scan the left side of the image.",
+    "interpretation": "Visualize the filled stomach on the right side of the screen and identify the entrance into the stomach."
+  },
+  {
+    "start": 183.01,
+    "end": 190.57,
+    "action": "Focus on the boundary between thoracic and abdominal cavities. Instruct patient: 'Exhale again'.",
+    "interpretation": "Identify the diaphragm as a small echogenic line between the heart and the liver."
+  },
+  {
+    "start": 192.23,
+    "end": 193.11,
+    "action": "Instruct patient: 'Take a deep breath again'.",
+    "interpretation": "Re-inflate lungs to displace liver inferiorly."
+  },
+  {
+    "start": 194.76,
+    "end": 200.96,
+    "action": "Push the probe towards the patient's right side to reach the liver center.",
+    "interpretation": "Visualize two distinct vascular structures."
+  },
+  {
+    "start": 201.48,
+    "end": 215.43,
+    "action": "Compare the walls of the visible vessels.",
+    "interpretation": "Identify the echogenic circling (connective tissue) around the portal vein branch. Contrast this with the structure having NO echogenic structure around it."
+  },
+  {
+    "start": 215.91,
+    "end": 225.67,
+    "action": "Maintain view of the hepatic vasculature.",
+    "interpretation": "Identify the vessel without connective tissue as a liver vein (hepatic vein). Confirm the difference: Portal veins have connective tissue (echogenic walls), liver veins do not."
+  },
+  {
+    "start": 228.0,
+    "end": 230.24,
+    "action": "Instruct patient: 'Exhale again'. Then: 'Take a deep breath again'.",
+    "interpretation": "Prepare to move to the right lobe."
+  },
+  {
+    "start": 231.08,
+    "end": 243.05,
+    "action": "Move probe further to the patient's right.",
+    "interpretation": "Visualize the right liver lobe, specifically the right portal vein and the gallbladder."
+  },
+  {
+    "start": 245.5,
+    "end": 248.87,
+    "action": "Move probe gradually down (inferiorly) towards the liver edge.",
+    "interpretation": "Scan to the caudal end of the liver."
+  },
+  {
+    "start": 249.55,
+    "end": 250.62,
+    "action": "Hold position at the inferior liver edge.",
+    "interpretation": "Visualize the right kidney appearing."
+  },
+  {
+    "start": 252.16,
+    "end": 255.03,
+    "action": "Instruct patient: 'Exhale again and lie back'.",
+    "interpretation": "Relax the patient; scan complete for this position."
+  },
+  {
+    "start": 256.44,
+    "end": 267.58,
+    "action": "Move probe to a transcostal (intercostal) position.",
+    "interpretation": "Adopt a transcostal view if anterior views are obscured by 'too much air in the colon'."
+  },
+  {
+    "start": 268.26,
+    "end": 284.82,
+    "action": "Find a sound window between ribs. Tilt the probe while maintaining position.",
+    "interpretation": "Evaluate the right liver lobe and central structures (like the portal vein) through the costal window."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe sweep pattern is being performed while keeping the same imaging plane, and what is the goal of doing this?",
+    "answer": "The operator sweeps across the target organ while maintaining the long-axis (sagittal) orientation. The goal is to scan through the entire organ from one border to the other to ensure complete parenchymal coverage.",
+    "groundtruth": "The probe is swept fully in one direction and back while maintaining sagittal orientation to scan through the entire right kidney from anterior to posterior borders.",
+    "time_start": 23.46,
+    "time_end": 29.91,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 23.46,
+    "original_time_end": 29.91,
+    "model_prediction": "The sweep performed is **tilting (fanning/rocking) sweep**: the probe is kept at the same fixed skin contact point, and angled back and forth without shifting its position on the skin, while maintaining the same imaging plane orientation.\nThe goal of this sweep is to fully scan through the entire volume of the target organ (the kidney, visible in this clip) to visualize all its internal structures (parenchyma, collecting system) systematically, ensuring no focal abnormalities are missed across the full extent of the organ.",
+    "inference_metadata": {
+      "raw_response": "The sweep performed is **tilting (fanning/rocking) sweep**: the probe is kept at the same fixed skin contact point, and angled back and forth without shifting its position on the skin, while maintaining the same imaging plane orientation.\nThe goal of this sweep is to fully scan through the entire volume of the target organ (the kidney, visible in this clip) to visualize all its internal structures (parenchyma, collecting system) systematically, ensuring no focal abnormalities are missed across the full extent of the organ.",
+      "latency_ms": 76674.03483390808,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.449999999999999,
+    "judge_explanation": "The AI correctly identifies the sweep pattern (fanning/tilting to sweep across the organ while maintaining the same imaging plane) and accurately describes the goal (to scan through the entire volume/parenchyma of the organ to ensure complete coverage).",
+    "judge_error_type": "none"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient repositioning strategy is used, and what imaging limitation is it meant to address?",
+    "answer": "The patient is repositioned onto their side while the operator adjusts probe placement. This is done to improve visualization of the entire target organ, especially when body habitus makes the view incomplete.",
+    "groundtruth": "The patient rolls onto their side and the probe position is adjusted to compensate for body habitus and improve visualization of the entire right kidney.",
+    "time_start": 35.75,
+    "time_end": 48.28,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 35.75,
+    "original_time_end": 48.28,
+    "model_prediction": "The patient repositioning strategy used is raising their arms behind/above their head.\nThis is intended to address poor acoustic window for upper abdominal imaging: raising the arms lowers the diaphragm, shifts upper abdominal structures caudally, and reduces obscuration from rib shadowing or overlying bowel gas to improve visualization of target organs like the liver, gallbladder, or right kidney.",
+    "inference_metadata": {
+      "raw_response": "The patient repositioning strategy used is raising their arms behind/above their head.\nThis is intended to address poor acoustic window for upper abdominal imaging: raising the arms lowers the diaphragm, shifts upper abdominal structures caudally, and reduces obscuration from rib shadowing or overlying bowel gas to improve visualization of target organs like the liver, gallbladder, or right kidney.",
+      "latency_ms": 143887.23993301392,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.530000000000001,
+    "judge_explanation": "The AI prediction incorrectly identifies the repositioning strategy as raising the arms above the head, whereas the ground truth states the patient is repositioned onto their side. Both the visual evidence and the conclusion are incorrect.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the two-step strategy being used to re-acquire a comprehensive diagnostic view, and what the overall objective is.",
+    "answer": "The operator first positions to use a better acoustic window, then has the patient take a deep breath in while scanning through the organ in long axis. The objective is to re-evaluate the target comprehensively with improved clarity and full coverage.",
+    "groundtruth": "After repositioning to use the liver window, the patient performs a deep inspiration while the operator scans comprehensively from anterior to posterior in sagittal to re-evaluate the right kidney with a clearer window.",
+    "time_start": 49.8,
+    "time_end": 67.88,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 49.8,
+    "original_time_end": 67.88,
+    "model_prediction": "1. First, the operator performs a side-to-side fanning/angulation sweep of the transabdominal ultrasound probe across the right upper quadrant scanning window to survey the tissue and locate the target structures (the liver and adjacent right kidney, the hepatorenal interface region).\n2. Second, once the target cross-section is identified, the operator fine-adjusts and stabilizes the probe position to hold a clear, consistent full cross-sectional view of these structures.\n\nThe overall objective is to acquire a complete, high-quality diagnostic view of this right upper abdominal region to assess organ anatomy and screen for potential pathology.",
+    "inference_metadata": {
+      "raw_response": "1. First, the operator performs a side-to-side fanning/angulation sweep of the transabdominal ultrasound probe across the right upper quadrant scanning window to survey the tissue and locate the target structures (the liver and adjacent right kidney, the hepatorenal interface region).\n2. Second, once the target cross-section is identified, the operator fine-adjusts and stabilizes the probe position to hold a clear, consistent full cross-sectional view of these structures.\n\nThe overall objective is to acquire a complete, high-quality diagnostic view of this right upper abdominal region to assess organ anatomy and screen for potential pathology.",
+      "latency_ms": 359330.23405075073,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 18.08,
+    "judge_explanation": "The AI prediction fails to identify the correct two-step strategy, missing both the repositioning for a better acoustic window and the crucial step of having the patient take a deep breath. The described steps of fanning and stabilizing do not match the ground truth.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweep direction strategy is used in the new plane, and what coverage goal does it achieve?",
+    "answer": "The operator sweeps through the target from one extreme end to the other in the transverse plane. This ensures the full extent is visualized, including both ends of the organ.",
+    "groundtruth": "In transverse orientation, the probe is swept superiorly and inferiorly to visualize the full kidney from upper pole to lower pole and ensure complete coverage.",
+    "time_start": 74.94,
+    "time_end": 83.04,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 74.94,
+    "original_time_end": 83.04,
+    "model_prediction": "The sweep is a side-to-side (medial to lateral) fan/rocking sweep performed in a transverse (axial) imaging plane. This sweep achieves complete, gap-free coverage of the full cross-sectional extent of the imaged upper abdominal structures (the liver and right renal/adjacent retroperitoneal structures visible here) to ensure no portion of the region of interest is omitted from evaluation.",
+    "inference_metadata": {
+      "raw_response": "The sweep is a side-to-side (medial to lateral) fan/rocking sweep performed in a transverse (axial) imaging plane. This sweep achieves complete, gap-free coverage of the full cross-sectional extent of the imaged upper abdominal structures (the liver and right renal/adjacent retroperitoneal structures visible here) to ensure no portion of the region of interest is omitted from evaluation.",
+      "latency_ms": 98671.00381851196,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.100000000000009,
+    "judge_explanation": "The AI prediction correctly identifies the sweep direction strategy (side-to-side/medial to lateral in the transverse plane) and the coverage goal (complete coverage of the full extent of the structures), which matches the ground truth.",
+    "judge_error_type": "none"
+  }
+]

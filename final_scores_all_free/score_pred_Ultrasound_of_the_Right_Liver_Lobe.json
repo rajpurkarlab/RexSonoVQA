@@ -1,0 +1,254 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what imaging control is adjusted right as the sweep begins, and what scanning goal does that support?",
+    "answer": "The depth (and related viewing setup) is adjusted to frame the anatomy appropriately before and during an inferior sweep. This supports complete coverage from superior to inferior without losing the target region off-screen.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Depth is adjusted and the scan begins superior to the liver, then the probe sweeps inferiorly to cover the liver volume from top to bottom.",
+    "time_start": 14.19,
+    "time_end": 19.28,
+    "model_prediction": "Based on the video, the depth is decreased (from 18cm to 16cm) just as the sweep begins. This adjustment supports the scanning goal of optimizing the view to focus on the anterior structures, specifically the liver parenchyma, by removing unnecessary deeper space and potentially improving the frame rate or resolution for the area of interest.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the depth is decreased (from 18cm to 16cm) just as the sweep begins. This adjustment supports the scanning goal of optimizing the view to focus on the anterior structures, specifically the liver parenchyma, by removing unnecessary deeper space and potentially improving the frame rate or resolution for the area of interest.",
+      "latency_ms": 6513.589143753052,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.090000000000002,
+    "judge_explanation": "The AI correctly identifies the imaging control being adjusted as the depth. It provides specific details (decreasing from 18cm to 16cm) and correctly explains the scanning goal as optimizing the view to frame the anatomy (removing unnecessary deeper space), which aligns with the ground truth's explanation of framing the anatomy appropriately.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, the operator pauses and repositions, then repeats the same sweeping action again. What workflow problem is being addressed, and what is the goal of restarting?",
+    "answer": "They are resetting because the prior breath-hold/sweep was not sustainable as one continuous pass. Restarting allows a clean, continuous superior-to-inferior sweep for full coverage.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After allowing the patient to resume normal breathing, the probe is returned to the top of the liver to restart the sweep so a continuous superior-to-inferior pass can be completed without an overly long breath hold.",
+    "time_start": 29.0,
+    "time_end": 47.31,
+    "model_prediction": "Based on the video, the operator is addressing the problem of **bowel gas artifact obscuring the view of the inferior liver and right kidney**.\n\nAt the beginning of the clip, the sweep starts well, showing clear liver parenchyma. However, as the probe moves inferiorly (around the 7-second mark), a large shadow from bowel gas completely blocks the visualization of the structures below. Recognizing this, the operator pauses, lifts the probe, repositions back to the starting point superiorly, and restarts the sweep. The goal is to find a better acoustic window—likely by applying more pressure to displace the gas or slightly changing the angle—to obtain a complete, unobstructed sweep of the entire right liver lobe from superior to inferior.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is addressing the problem of **bowel gas artifact obscuring the view of the inferior liver and right kidney**.\n\nAt the beginning of the clip, the sweep starts well, showing clear liver parenchyma. However, as the probe moves inferiorly (around the 7-second mark), a large shadow from bowel gas completely blocks the visualization of the structures below. Recognizing this, the operator pauses, lifts the probe, repositions back to the starting point superiorly, and restarts the sweep. The goal is to find a better acoustic window—likely by applying more pressure to displace the gas or slightly changing the angle—to obtain a complete, unobstructed sweep of the entire right liver lobe from superior to inferior.",
+      "latency_ms": 8849.942922592163,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 18.310000000000002,
+    "judge_explanation": "The AI correctly identifies the goal of the action (restarting to obtain a complete, continuous sweep). However, it incorrectly identifies the workflow problem as 'bowel gas artifact,' whereas the ground truth attributes the reset to the prior breath-hold or sweep continuity being unsustainable.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator prioritizing during this ongoing sweep, and why is that prioritization used?",
+    "answer": "They prioritize keeping the mid-parenchymal portion centered during the sweep. The edges are intentionally deferred because they will be covered in later targeted passes.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The sweep continues inferiorly with attention kept on the middle liver parenchyma, while the edges are intentionally ignored because they will be captured in later sweeps.",
+    "time_start": 47.43,
+    "time_end": 59.85,
+    "model_prediction": "Based on the video, the operator is prioritizing holding the probe steady during patient inspiration (breathing in) to push the liver and kidney inferiorly into view. This prioritization is used because the deep inspiration lowers the diaphragm, bringing the superior portions of the liver and the right kidney out from under the rib cage for better visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is prioritizing holding the probe steady during patient inspiration (breathing in) to push the liver and kidney inferiorly into view. This prioritization is used because the deep inspiration lowers the diaphragm, bringing the superior portions of the liver and the right kidney out from under the rib cage for better visualization.",
+      "latency_ms": 8132.185935974121,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.420000000000002,
+    "judge_explanation": "The AI prediction completely misses the specific technical prioritization described in the ground truth. The ground truth states the operator is prioritizing keeping the mid-parenchymal portion centered during the sweep and deferring edges. The AI incorrectly guesses that the operator is prioritizing holding the probe steady during patient inspiration. Both the action and the reasoning are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweep direction is performed after the landmark is identified, and what viewing objective is being maintained during that motion?",
+    "answer": "The probe sweeps superiorly from the landmark. The objective is to keep the liver border consistently visible while moving upward.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the right portal vein in view, depth is adjusted and the probe sweeps superiorly while maintaining the liver border on-screen.",
+    "time_start": 83.27,
+    "time_end": 90.72,
+    "model_prediction": "Based on the video, the operator performs a **transverse sweep superiorly** (towards the patient's head). During this motion, the objective is to **maintain the diaphragm** in view at the bottom of the screen to ensure the full posterior extent of the liver is visualized.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a **transverse sweep superiorly** (towards the patient's head). During this motion, the objective is to **maintain the diaphragm** in view at the bottom of the screen to ensure the full posterior extent of the liver is visualized.",
+      "latency_ms": 6342.079162597656,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.450000000000003,
+    "judge_explanation": "The AI correctly identifies the sweep direction (superiorly). The AI's stated objective (maintaining the diaphragm in view) aligns with the Ground Truth's objective (keeping the liver border visible), as the diaphragm forms the superior/posterior border of the liver that is tracked during a superior sweep.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, after reaching the superior limit of the window, what reset action is performed and what is it preparing for next?",
+    "answer": "The operator sweeps back down to re-find the same landmark and relaxes the breathing phase. This resets the starting point for the next inferior sweep that extends further downward for complete coverage.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe sweeps back inferiorly until the portal vein is seen again and the patient is allowed to breathe normally, returning to the landmark to prepare for the next planned inferior sweep.",
+    "time_start": 96.86,
+    "time_end": 101.75,
+    "model_prediction": "Based on the video, after reaching the superior limit of the window (where the lung curtain obscures the liver view), the sonographer slides the probe inferiorly to reset the view. This action is preparing for a new sweep superiorly to image the more medial aspect of the liver.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after reaching the superior limit of the window (where the lung curtain obscures the liver view), the sonographer slides the probe inferiorly to reset the view. This action is preparing for a new sweep superiorly to image the more medial aspect of the liver.",
+      "latency_ms": 6553.688049316406,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 4.890000000000001,
+    "judge_explanation": "The AI correctly identifies the reset action (sliding the probe inferiorly/sweeping back down). However, it incorrectly identifies the subsequent preparation, stating it is for a 'sweep superiorly', whereas the ground truth specifies it is resetting for the 'next inferior sweep' to extend further downward.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what landmark is being used to plan the next pass, and what key boundary is the operator trying to keep continuously in view during that pass?",
+    "answer": "The portal vein is used as the landmark to start the sweep. The operator aims to keep the diaphragm visible throughout to ensure the superior boundary remains included while scanning down.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Using the portal vein as a landmark, the operator prepares for an inferior sweep toward the kidney while ensuring the diaphragm remains visible on the image during the pass.",
+    "time_start": 102.85,
+    "time_end": 113.95,
+    "model_prediction": "Based on the video, the operator identifies the gallbladder as a landmark to plan the next pass. The key boundary the operator is trying to keep continuously in view is the diaphragm, which appears as the bright, curved echogenic line at the deeper aspect of the liver image.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator identifies the gallbladder as a landmark to plan the next pass. The key boundary the operator is trying to keep continuously in view is the diaphragm, which appears as the bright, curved echogenic line at the deeper aspect of the liver image.",
+      "latency_ms": 6423.4418869018555,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 11.100000000000009,
+    "judge_explanation": "The AI correctly identified the diaphragm as the key boundary to keep in view. However, it incorrectly identified the starting landmark as the gallbladder, whereas the ground truth specifies the portal vein. This represents a misidentification of the anatomical structure used for planning.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator applies noticeably stronger transducer pressure while sweeping past the farthest extent and then returns. What is being done, and why does it improve completeness of the exam?",
+    "answer": "They press firmly and sweep completely out past the inferior tip, then sweep back up to the landmark. This ensures the most inferior portion is fully interrogated rather than being missed at the edge of the sweep.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The sweep continues completely out of the liver inferiorly, significant pressure is applied, and the probe then sweeps back superiorly to the portal vein; this confirms complete interrogation of the inferior tip before resuming normal breathing.",
+    "time_start": 128.01,
+    "time_end": 139.8,
+    "model_prediction": "Based on the video, the operator is performing **compression scanning**. This technique involves applying increased pressure with the transducer to displace bowel gas or abdominal fat, bringing the probe closer to the posterior structures of the liver and reducing the distance sound waves must travel, which improves image clarity and ensures visualization of deeper anatomical borders.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing **compression scanning**. This technique involves applying increased pressure with the transducer to displace bowel gas or abdominal fat, bringing the probe closer to the posterior structures of the liver and reducing the distance sound waves must travel, which improves image clarity and ensures visualization of deeper anatomical borders.",
+      "latency_ms": 8737.262725830078,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 11.79000000000002,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as generic 'compression scanning' to displace gas or fat for clarity. The Ground Truth specifies that the operator is sweeping completely past the inferior tip of the organ and back to ensure the most inferior portion is fully interrogated and not missed. The AI misses the critical aspect of sweeping past the anatomical boundary for completeness.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what internal landmark is identified in longitudinal view to orient the sweep, and what probe angulation strategy follows?",
+    "answer": "A major central vein (the IVC) is identified as the reference landmark. The probe then fans/angles toward the patient’s right to sweep through the superior liver parenchyma.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In longitudinal scanning, the IVC is located and the probe is angled (fanned) toward the patient’s right to begin a sweep focusing on the superior liver parenchyma.",
+    "time_start": 161.7,
+    "time_end": 173.13,
+    "model_prediction": "Based on the video clip, the inferior vena cava (IVC) is the internal landmark identified in a longitudinal view to orient the sweep. Once the IVC is located in long axis, the probe is turned 90 degrees counter-clockwise to a transverse orientation, and the probe is then angled superiorly to begin the sweep down through the liver.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the inferior vena cava (IVC) is the internal landmark identified in a longitudinal view to orient the sweep. Once the IVC is located in long axis, the probe is turned 90 degrees counter-clockwise to a transverse orientation, and the probe is then angled superiorly to begin the sweep down through the liver.",
+      "latency_ms": 6820.256948471069,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 11.430000000000007,
+    "judge_explanation": "The AI correctly identifies the Inferior Vena Cava (IVC) as the internal landmark. However, the AI describes an incorrect probe angulation strategy (rotating to transverse and sweeping superiorly) compared to the ground truth, which specifies fanning/angling toward the patient's right while maintaining the view.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator transitions attention from the superior region to a lower region using two landmarks. What phase is this, and what is the next logical scanning objective?",
+    "answer": "This is a planned transition to the inferior right-lobe survey. The next objective is to establish the inferior starting view using the kidney and central venous landmark, then sweep across the inferior volume for complete coverage.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator targets the inferior portion of the liver using the kidney and IVC as landmarks, setting up for an inferior sweep of the right lobe.",
+    "time_start": 194.66,
+    "time_end": 214.52,
+    "model_prediction": "Based on the video, the operator begins by imaging the transverse right liver at the level of the porta hepatis, where the gallbladder and portal vein are clearly visible as landmarks. The probe is then moved inferiorly to visualize the right kidney and the inferior tip of the liver. This transition represents the **survey phase** of the examination, where the sonographer is getting a general overview of the anatomy. The next logical scanning objective after surveying the inferior tip would be to **sweep back superiorly** through the liver to ensure complete visualization of the parenchyma.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator begins by imaging the transverse right liver at the level of the porta hepatis, where the gallbladder and portal vein are clearly visible as landmarks. The probe is then moved inferiorly to visualize the right kidney and the inferior tip of the liver. This transition represents the **survey phase** of the examination, where the sonographer is getting a general overview of the anatomy. The next logical scanning objective after surveying the inferior tip would be to **sweep back superiorly** through the liver to ensure complete visualization of the parenchyma.",
+      "latency_ms": 7397.411108016968,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 19.860000000000014,
+    "judge_explanation": "The AI correctly identifies the anatomical context (liver, kidney) and the movement of the probe (superior to inferior). However, the AI's conclusion regarding the next scanning objective is incorrect. The ground truth specifies the next step is to sweep across the 'inferior volume', whereas the AI suggests sweeping 'back superiorly'.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the probe angulation/sweep pattern across the inferior region, and what is the purpose of keeping a consistent endpoint in view?",
+    "answer": "The probe angles/sweeps fully toward the patient’s right (lateral) and then sweeps back. Keeping the inferior tip consistently on-screen ensures the entire inferior volume is interrogated without dropping the most distal portion.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps laterally and back while maintaining the liver tip on-screen, ensuring the full inferior volume is examined before allowing the patient to breathe normally.",
+    "time_start": 220.58,
+    "time_end": 233.85,
+    "model_prediction": "Based on the video, the probe is fanned inferiorly to obtain a transverse view through the inferior pole of the right kidney. The operator maintains the kidney in view as a consistent endpoint to ensure that the entire inferior extent of the liver (Riedel's lobe or inferior tip) is fully visualized and swept through relative to that landmark.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is fanned inferiorly to obtain a transverse view through the inferior pole of the right kidney. The operator maintains the kidney in view as a consistent endpoint to ensure that the entire inferior extent of the liver (Riedel's lobe or inferior tip) is fully visualized and swept through relative to that landmark.",
+      "latency_ms": 8477.931022644043,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 13.269999999999982,
+    "judge_explanation": "The AI correctly identifies the purpose of the maneuver (to ensure the entire volume/extent is visualized), but it incorrectly describes the probe movement as 'fanned inferiorly' whereas the ground truth specifies a sweep toward the patient's 'right (lateral)'.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what on-screen optimization actions are performed during a brief still/held segment, and what imaging goal do they serve?",
+    "answer": "Depth and focal zone are adjusted while the image is held steady. The goal is to clearly display multiple hepatic vein branches in one optimized view for documentation.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "During a brief hold, the operator adjusts depth and moves the focus, then resumes breathing, optimizing the view to demonstrate all three hepatic vein branches clearly.",
+    "time_start": 259.04,
+    "time_end": 269.72,
+    "model_prediction": "Based on the video, the image freezes (cine loop is paused), and calipers are placed to measure the length of the liver. This action serves the imaging goal of quantifying organ size, specifically to assess for hepatomegaly or verify normal liver dimensions.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the image freezes (cine loop is paused), and calipers are placed to measure the length of the liver. This action serves the imaging goal of quantifying organ size, specifically to assess for hepatomegaly or verify normal liver dimensions.",
+      "latency_ms": 7326.523065567017,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.680000000000007,
+    "judge_explanation": "The AI prediction is completely incorrect. It describes placing calipers to measure liver length, whereas the ground truth indicates that depth and focal zone adjustments are made to optimize the view of hepatic vein branches. Both the visual evidence cited and the conclusion regarding the imaging goal are wrong.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what composite view is being obtained at the end, and what clinical comparison is it intended to support?",
+    "answer": "A combined view showing liver tissue alongside the kidney is obtained. It is intended to compare liver echogenicity to the renal cortex and confirm normal appearance at the interface.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is angled to show the liver and kidney simultaneously so the echogenicity of liver parenchyma can be compared with the kidney cortex while confirming normal kidney appearance.",
+    "time_start": 428.66,
+    "time_end": 441.13,
+    "model_prediction": "Based on the video clip, the composite view obtained at the end is the **hepatorenal recess view** (often colloquially referred to as Morrison's Pouch view, though specifically focusing on the interface here).\n\nThis view captures both the **liver** (left/upper part of the screen) and the **right kidney** (right/lower part of the screen) in the same frame. The clinical comparison this view is intended to support is the assessment of **echogenicity (brightness) between the liver parenchyma and the renal cortex.** In a normal patient, the liver should be isoechoic or slightly hyperechoic (brighter) compared to the renal cortex. This comparison helps in diagnosing conditions like fatty liver disease (hepatic steatosis), where the liver becomes significantly brighter than the kidney.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the composite view obtained at the end is the **hepatorenal recess view** (often colloquially referred to as Morrison's Pouch view, though specifically focusing on the interface here).\n\nThis view captures both the **liver** (left/upper part of the screen) and the **right kidney** (right/lower part of the screen) in the same frame. The clinical comparison this view is intended to support is the assessment of **echogenicity (brightness) between the liver parenchyma and the renal cortex.** In a normal patient, the liver should be isoechoic or slightly hyperechoic (brighter) compared to the renal cortex. This comparison helps in diagnosing conditions like fatty liver disease (hepatic steatosis), where the liver becomes significantly brighter than the kidney.",
+      "latency_ms": 8468.78719329834,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 12.46999999999997,
+    "judge_explanation": "The AI correctly identifies the composite view as showing the liver and kidney (specifically the hepatorenal interface) and accurately states that the clinical purpose is to compare the echogenicity of the liver parenchyma to the renal cortex, matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

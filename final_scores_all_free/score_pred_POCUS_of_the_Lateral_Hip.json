@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is being performed, and what acquisition goal is it trying to achieve along the underlying bone?",
+    "answer": "The probe is slid proximally along the lateral hip. The goal is to follow the changing cortical contour until reaching a more irregular, pointy bony prominence used as a key landmark for the rest of the exam.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides the probe proximally, watching the cortical profile change from a smoother shaft appearance to a more irregular/pointy prominence to reach a key bony landmark.",
+    "time_start": 0.91,
+    "time_end": 18.1,
+    "model_prediction": "Based on the video clip, the probe movement being performed is a **medial-to-lateral slide** (or translation). The acquisition goal is to scan the **greater tuberosity** of the humerus to visualize the insertion footprint of the supraspinatus tendon.\n\nThe video shows the probe sliding sideways, following the bright, curved hyperechoic line of the humeral head until the bone contour drops off or flattens, revealing the facet of the greater tuberosity where the rotator cuff tendon inserts. This sliding motion allows the clinician to evaluate the entire width of the tendon attachment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe movement being performed is a **medial-to-lateral slide** (or translation). The acquisition goal is to scan the **greater tuberosity** of the humerus to visualize the insertion footprint of the supraspinatus tendon.\n\nThe video shows the probe sliding sideways, following the bright, curved hyperechoic line of the humeral head until the bone contour drops off or flattens, revealing the facet of the greater tuberosity where the rotator cuff tendon inserts. This sliding motion allows the clinician to evaluate the entire width of the tendon attachment.",
+      "latency_ms": 7436.669111251831,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 17.19,
+    "judge_explanation": "The AI completely misidentified the anatomical region, claiming it was the shoulder (humerus/greater tuberosity) instead of the lateral hip as stated in the ground truth. Consequently, the described probe movement and acquisition goal were also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is being performed across this segment, and what is the next scanning objective that this setup enables?",
+    "answer": "This segment is landmark-finding and confirmation on bone before tendon evaluation. Once the landmark is secured, the next objective is to reposition to bring the relevant lateral hip tendon(s) into view for assessment.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first slides proximally to find the characteristic bony landmark and then holds to confirm it is the greater trochanter, setting up the subsequent tendon-focused scan.",
+    "time_start": 0.91,
+    "time_end": 25.02,
+    "model_prediction": "Based on the video clip, the phase of the exam being performed is the initial localization and positioning of the supraspinatus tendon in its long axis (longitudinal view). The visible landmarks include the humeral head (the curved, bright hyperechoic line at the bottom), the supraspinatus tendon sitting atop it (the beak-shaped, fibrillar structure), and the deltoid muscle more superficially.\n\nThe red dot appearing in the later frames indicates the clinician is marking or centering on a specific point of interest, likely a calcification or a specific part of the tendon footprint. This setup and centering maneuver enable the next scanning objective: obtaining a transverse (short-axis) view of the same structure by rotating the probe 90 degrees, or preparing for an intervention/injection at that specific site. However, in a standard diagnostic protocol, this long-axis localization is the precursor to a detailed evaluation of the tendon's integrity and then rotating for orthogonal views.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the phase of the exam being performed is the initial localization and positioning of the supraspinatus tendon in its long axis (longitudinal view). The visible landmarks include the humeral head (the curved, bright hyperechoic line at the bottom), the supraspinatus tendon sitting atop it (the beak-shaped, fibrillar structure), and the deltoid muscle more superficially.\n\nThe red dot appearing in the later frames indicates the clinician is marking or centering on a specific point of interest, likely a calcification or a specific part of the tendon footprint. This setup and centering maneuver enable the next scanning objective: obtaining a transverse (short-axis) view of the same structure by rotating the probe 90 degrees, or preparing for an intervention/injection at that specific site. However, in a standard diagnostic protocol, this long-axis localization is the precursor to a detailed evaluation of the tendon's integrity and then rotating for orthogonal views.",
+      "latency_ms": 7210.113048553467,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 24.11,
+    "judge_explanation": "The AI completely misidentified the anatomical region. The ground truth identifies the scan as a lateral hip examination (landmark finding before tendon evaluation), whereas the AI incorrectly identified it as a shoulder examination (supraspinatus tendon). Therefore, both the visual interpretation and the conclusion are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning pattern is being used over the tendon, and what pathology-oriented feature is the operator trying to detect with this pass?",
+    "answer": "The operator sweeps the probe slightly proximal and distal (with small lateral adjustments) to scan through the tendon’s full cross-section. The goal is to detect abnormal enlargement/shape change (e.g., increased cross-sectional area or a convex, swollen appearance) and echogenicity changes.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is moved up and down (proximal/distal) with slight lateral adjustment to scan the entire tendon, looking for echogenicity changes and swelling such as increased cross-sectional area or a convex tendon contour.",
+    "time_start": 48.68,
+    "time_end": 74.05,
+    "model_prediction": "Based on the video clip, the operator is performing a **sweeping or fanning scan** (rocking the probe to change the angle of insonation) over the tendon, likely the supraspinatus tendon of the shoulder.\n\nThe operator is trying to detect **anisotropy**. By changing the angle of the probe relative to the tendon fibers, the echogenicity of the tendon changes. Healthy tendon fibers appear hyperechoic (bright) when the ultrasound beam is perpendicular to them, but become hypoechoic (dark) when the angle is oblique. This maneuver helps distinguish true pathology (like a tear or tendinosis, which remains hypoechoic regardless of angle) from artifactual hypoechogenicity caused by the angle of insonation.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing a **sweeping or fanning scan** (rocking the probe to change the angle of insonation) over the tendon, likely the supraspinatus tendon of the shoulder.\n\nThe operator is trying to detect **anisotropy**. By changing the angle of the probe relative to the tendon fibers, the echogenicity of the tendon changes. Healthy tendon fibers appear hyperechoic (bright) when the ultrasound beam is perpendicular to them, but become hypoechoic (dark) when the angle is oblique. This maneuver helps distinguish true pathology (like a tear or tendinosis, which remains hypoechoic regardless of angle) from artifactual hypoechogenicity caused by the angle of insonation.",
+      "latency_ms": 7636.245012283325,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 25.369999999999997,
+    "judge_explanation": "The AI misidentifies both the scanning maneuver and the specific diagnostic goal. The ground truth describes a proximal-distal sweep intended to visualize the full cross-section to detect enlargement or shape changes. The AI incorrectly describes a fanning/rocking motion intended to detect anisotropy.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what additional structure is being scrutinized beneath the tendon, and what diagnostic question is this meant to answer?",
+    "answer": "The cortical bone surface deep to the tendon is being evaluated. The goal is to determine whether the cortex appears smooth/regular versus irregular, which can support or refute abnormal insertional change.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Attention is directed to the bone surface under the tendon to assess whether the cortex is regular or irregular as part of the tendon insertion assessment.",
+    "time_start": 74.59,
+    "time_end": 80.47,
+    "model_prediction": "Based on the video clip, the additional structure being scrutinized beneath the tendon is the **cartilage interface** (specifically the hyaline cartilage covering the humeral head). The sonographer is carefully scanning this deep margin to assess the thickness and integrity of the cartilage and to check for the presence of a fluid layer or cortical irregularity, which would answer the diagnostic question of whether there is an **articular-sided tear** of the rotator cuff tendon.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the additional structure being scrutinized beneath the tendon is the **cartilage interface** (specifically the hyaline cartilage covering the humeral head). The sonographer is carefully scanning this deep margin to assess the thickness and integrity of the cartilage and to check for the presence of a fluid layer or cortical irregularity, which would answer the diagnostic question of whether there is an **articular-sided tear** of the rotator cuff tendon.",
+      "latency_ms": 5558.748960494995,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.8799999999999955,
+    "judge_explanation": "The AI identifies the structure being scrutinized as the cartilage interface and the diagnostic question as checking for an articular-sided tear. The ground truth states the structure is the cortical bone surface and the goal is to evaluate for smoothness versus irregularity (insertional changes). The AI fails to identify the correct anatomical focus and the specific diagnostic intent described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transition in exam target is occurring here, and what is the immediate objective after the plane change?",
+    "answer": "The operator returns from the prior target and reorients back into a transverse view to move to the adjacent lateral facet region. The immediate objective is to set up visualization of the next overlying gluteal structure for evaluation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is moved back to the prior region and rotated back to transverse to visualize the lateral facet of the greater trochanter, transitioning the exam to the next overlying gluteal structure.",
+    "time_start": 117.64,
+    "time_end": 140.9,
+    "model_prediction": "Based on the video, the transition occurring is from a **long-axis view of the supraspinatus tendon to a short-axis view** of the same structure. The immediate objective after rotating the probe 90 degrees is to visualize the tendon in the transverse plane, often to perform a \"tire on the rim\" assessment of the supraspinatus interval or rotator cuff interval.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the transition occurring is from a **long-axis view of the supraspinatus tendon to a short-axis view** of the same structure. The immediate objective after rotating the probe 90 degrees is to visualize the tendon in the transverse plane, often to perform a \"tire on the rim\" assessment of the supraspinatus interval or rotator cuff interval.",
+      "latency_ms": 6397.444009780884,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 23.260000000000005,
+    "judge_explanation": "The AI incorrectly identified the anatomical region as the shoulder (supraspinatus tendon), whereas the ground truth indicates the exam is performed in the gluteal region. Consequently, the description of the transition and objective is entirely incorrect due to the wrong anatomical context.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparison is being made between two adjacent structures, and why is that comparison helpful for interpretation?",
+    "answer": "The operator compares echotexture/brightness between the current structure and the previously scanned one. This helps correctly identify normal relative echogenic differences (here, the current one appears a bit more hyperechoic than the prior, which was slightly more hypoechoic) and reduces the risk of miscalling normal variation as pathology.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The probe is slid proximally over the gluteus medius and its echogenicity is compared with the prior structure, noting the gluteus medius appears slightly more hyperechoic while the prior (gluteus minimus) appeared slightly more hypoechoic.",
+    "time_start": 141.32,
+    "time_end": 154.58,
+    "model_prediction": "Based on the video, the operator is performing a comparison scan between the **left and right suprascapular nerves**.\n\nThis side-to-side comparison is helpful because nerves can have variable appearances in different patients. By comparing the symptomatic side to the asymptomatic contralateral side, the clinician can better detect subtle abnormalities such as nerve enlargement, changes in echotexture (swelling), or compression that might indicate entrapment or neuropathy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a comparison scan between the **left and right suprascapular nerves**.\n\nThis side-to-side comparison is helpful because nerves can have variable appearances in different patients. By comparing the symptomatic side to the asymptomatic contralateral side, the clinician can better detect subtle abnormalities such as nerve enlargement, changes in echotexture (swelling), or compression that might indicate entrapment or neuropathy.",
+      "latency_ms": 6403.497934341431,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 13.26000000000002,
+    "judge_explanation": "The AI incorrectly identifies the comparison as a side-to-side evaluation of the left and right suprascapular nerves. The ground truth states that the comparison is being made regarding the echotexture/brightness between the current structure and a previously scanned one (likely adjacent tissues) to assess relative echogenicity and avoid misinterpreting normal variation.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is used to confirm the expected baseline appearance of the current target, and what is being confirmed?",
+    "answer": "The operator slides through the region of interest to sample the structure in multiple adjacent slices. This confirms the tendon/muscle appearance is consistently within normal expectations (here, a normal hyperechoic appearance).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides over the gluteus medius region to confirm the expected normal hyperechoic appearance rather than a focal abnormality.",
+    "time_start": 155.54,
+    "time_end": 168.53,
+    "model_prediction": "Based on the video clip, the probe motion being used is **toggling** (or tilting/fanning) the transducer. This maneuver is performed to confirm the presence of **anisotropy** in the target structure, which is a peripheral nerve. By changing the angle of insonation, the nerve's appearance shifts from hyperechoic (bright) to hypoechoic (dark), a characteristic feature used to distinguish nerves and tendons from surrounding tissue.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe motion being used is **toggling** (or tilting/fanning) the transducer. This maneuver is performed to confirm the presence of **anisotropy** in the target structure, which is a peripheral nerve. By changing the angle of insonation, the nerve's appearance shifts from hyperechoic (bright) to hypoechoic (dark), a characteristic feature used to distinguish nerves and tendons from surrounding tissue.",
+      "latency_ms": 6393.984079360962,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.990000000000009,
+    "judge_explanation": "The AI incorrectly identifies the probe motion as 'toggling' to check for 'anisotropy' in a 'nerve', whereas the ground truth states the motion is 'sliding' to confirm the consistent 'hyperechoic appearance' of a 'tendon/muscle'. Both the identified motion and the clinical purpose are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what tissue feature is being closely evaluated in this segment, and what major abnormality is this meant to rule in/out?",
+    "answer": "The internal tendon texture/echogenic pattern is being scrutinized. The intent is to detect signs consistent with partial- or full-thickness tearing/rupture versus normal fibrillar architecture.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator scrutinizes the tendon’s internal texture for echogenicity changes and signs of partial or full rupture.",
+    "time_start": 176.97,
+    "time_end": 184.65,
+    "model_prediction": "Based on the video, the tissue feature being closely evaluated is the **hypoechoic rim** or halo surrounding the temporal artery. This specific evaluation is used to rule in or out **Giant Cell Arteritis (GCA)** (also known as temporal arteritis), where a characteristic \"halo sign\" indicates vessel wall edema and inflammation.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the tissue feature being closely evaluated is the **hypoechoic rim** or halo surrounding the temporal artery. This specific evaluation is used to rule in or out **Giant Cell Arteritis (GCA)** (also known as temporal arteritis), where a characteristic \"halo sign\" indicates vessel wall edema and inflammation.",
+      "latency_ms": 5674.221038818359,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.680000000000007,
+    "judge_explanation": "The AI prediction identifies the anatomy as the temporal artery and the pathology as Giant Cell Arteritis, whereas the ground truth states the video shows a tendon evaluation for tearing/rupture. The AI completely misidentified the anatomical structure and the clinical question.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, after completing transverse assessment of size and internal texture, what is the next verification step and broader objective?",
+    "answer": "The next step is to rotate into a longitudinal view and track along the structure. The broader objective is to confirm continuity and follow it proximally toward the musculotendinous region as part of a complete tendon evaluation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After assessing morphology and internal texture, the operator rotates to longitudinal view and slides proximally to follow the gluteus medius along its long axis.",
+    "time_start": 168.54,
+    "time_end": 201.37,
+    "model_prediction": "Based on the video clip, the next verification step is to rotate the probe 90 degrees to obtain a longitudinal view to confirm continuity, and the broader objective is to trace the nerve proximally and distally to identify entrapment sites or other pathologies.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the next verification step is to rotate the probe 90 degrees to obtain a longitudinal view to confirm continuity, and the broader objective is to trace the nerve proximally and distally to identify entrapment sites or other pathologies.",
+      "latency_ms": 5573.1751918792725,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 32.83000000000001,
+    "judge_explanation": "The AI correctly identifies the next procedural step (rotating to a longitudinal view). However, it incorrectly identifies the anatomical structure as a nerve (mentioning entrapment sites) whereas the ground truth specifies it is a tendon (mentioning the musculotendinous region).",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "start": 0.03,
+    "end": 1.85,
+    "action": "Place probe on the right flank.",
+    "interpretation": "Initiate scanning of the right flank region."
+  },
+  {
+    "start": 2.35,
+    "end": 9.23,
+    "action": "Slide the probe slightly posteriorly. Orient the probe to obtain a sagittal view.",
+    "interpretation": "Visualize the right kidney in the sagittal plane."
+  },
+  {
+    "start": 9.26,
+    "end": 23.0,
+    "action": "Instruct patient: 'Take a deep breath in.' Maintain probe position.",
+    "interpretation": "Observe the kidney descend below the diaphragm. Confirm the image becomes clearer due to the displacement."
+  },
+  {
+    "start": 23.46,
+    "end": 29.91,
+    "action": "Sweep the probe all the way anteriorly, then sweep all the way posteriorly while maintaining sagittal orientation.",
+    "interpretation": "Scan through the entire kidney parenchyma from the anterior to the posterior border."
+  },
+  {
+    "start": 34.49,
+    "end": 34.93,
+    "action": "Instruct patient: 'Breathe'.",
+    "interpretation": "Allow patient to relax breath hold."
+  },
+  {
+    "start": 35.75,
+    "end": 48.28,
+    "action": "Instruct patient: 'Roll onto your side'. Adjust probe position based on patient body habitus.",
+    "interpretation": "Reposition to ensure visualization of the entire kidney, compensating for body habitus variations."
+  },
+  {
+    "start": 49.8,
+    "end": 57.59,
+    "action": "Maneuver the probe to use the liver as an acoustic window.",
+    "interpretation": "Utilize the liver to provide a clear image of the adjacent kidney."
+  },
+  {
+    "start": 57.65,
+    "end": 67.88,
+    "action": "Instruct patient: 'Take a deep breath in'. Scan comprehensively from anterior to posterior in sagittal.",
+    "interpretation": "Re-evaluate the kidney in the sagittal plane using the liver window and breath hold."
+  },
+  {
+    "start": 67.9,
+    "end": 74.26,
+    "action": "Rotate the probe 90 degrees.",
+    "interpretation": "Convert the view of the kidney from sagittal to transverse orientation."
+  },
+  {
+    "start": 74.94,
+    "end": 83.04,
+    "action": "Sweep the probe superiorly to the upper pole and inferiorly down to the lower pole.",
+    "interpretation": "Visualize the full extent of the kidney in transverse, ensuring coverage of both poles."
+  }
+]

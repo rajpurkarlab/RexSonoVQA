@@ -1,0 +1,50 @@
+[
+  {
+    "start": 0.03,
+    "end": 8.42,
+    "action": "Place the probe on the left flank. Angle the probe obliquely to align the footprint with the intercostal spaces (ribs).",
+    "interpretation": "Establish an acoustic window ensuring visualization of all anatomical parts of the kidney."
+  },
+  {
+    "start": 8.5,
+    "end": 11.42,
+    "action": "Instruct patient: 'Take a nice deep breath in and hold'.",
+    "interpretation": "Prepare to shift anatomical structures to optimize the scanning window."
+  },
+  {
+    "start": 12.32,
+    "end": 16.3,
+    "action": "Maintain probe position while the patient inspires.",
+    "interpretation": "Observe the kidney displacing inferiorly, moving below the echogenic diaphragm and clearing overlying bowel gas."
+  },
+  {
+    "start": 17.08,
+    "end": 25.57,
+    "action": "Perform a complete sweep in the sagittal plane. Fan or slide from the anterior cortex of the kidney all the way through to the posterior cortex.",
+    "interpretation": "Visualize the entire renal parenchyma in the longitudinal axis, ensuring no pathology is missed from front to back."
+  },
+  {
+    "start": 26.93,
+    "end": 32.62,
+    "action": "Rotate the scanner exactly 90 degrees.",
+    "interpretation": "Change the plane of section to view the kidney in the transverse (short) axis."
+  },
+  {
+    "start": 33.68,
+    "end": 39.55,
+    "action": "Sweep the probe continuously from the upper pole of the kidney down to the lower pole.",
+    "interpretation": "Scan through the full length of the kidney in cross-section to assess the entire organ."
+  },
+  {
+    "start": 40.55,
+    "end": 47.86,
+    "action": "Adjust the probe angle or slide to different intercostal windows to navigate around rib shadows. Specifically isolate the lower pole and the upper pole.",
+    "interpretation": "Identify acoustic shadowing from the ribs obscuring the view and utilize alternative windows to visualize the poles clearly."
+  },
+  {
+    "start": 47.92,
+    "end": 53.62,
+    "action": "Manipulate the probe position dynamically.",
+    "interpretation": "Obtain a high-quality, clear view of all renal structures, ensuring the image is free of artifacts."
+  }
+]

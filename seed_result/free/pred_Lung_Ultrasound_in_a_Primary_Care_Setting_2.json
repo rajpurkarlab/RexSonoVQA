@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what motion-related sign is the operator assessing at the key interface, and what clinical conclusion is being made from it?",
+    "answer": "They are watching for visible sliding/shimmering motion of the pleural interface. Seeing this supports pleural apposition and is used to exclude pneumothorax at that site.",
+    "groundtruth": "The operator observes the pleural line for shimmering (lung sliding) to confirm pleural movement and concludes there is no pneumothorax based on the presence of sliding.",
+    "time_start": 7.4,
+    "time_end": 16.84,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 7.4,
+    "original_time_end": 16.84,
+    "model_prediction": "The operator is assessing for lung sliding, the normal rhythmic respiratory motion of the apposed visceral and parietal pleura (the bright echogenic key interface seen between the chest wall soft tissues and lung in the clip). Normal lung sliding is observed, so the clinical conclusion is that there is no pneumothorax at this scanned chest site, as lung sliding confirms no air is separating the two pleural layers.",
+    "inference_metadata": {
+      "raw_response": "The operator is assessing for lung sliding, the normal rhythmic respiratory motion of the apposed visceral and parietal pleura (the bright echogenic key interface seen between the chest wall soft tissues and lung in the clip). Normal lung sliding is observed, so the clinical conclusion is that there is no pneumothorax at this scanned chest site, as lung sliding confirms no air is separating the two pleural layers.",
+      "latency_ms": 297717.3283100128,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what imaging mode change is being initiated, and why would this help confirm what was seen in real-time imaging?",
+    "answer": "They are switching from standard 2D viewing to motion mode (M-mode). This provides an objective time-based record to confirm true motion at the interface rather than relying only on subjective real-time appearance.",
+    "groundtruth": "The operator prepares to change to M-mode to objectively confirm pleural motion that was observed in 2D imaging.",
+    "time_start": 27.04,
+    "time_end": 32.68,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 27.04,
+    "original_time_end": 32.68,
+    "model_prediction": "The imaging mode being initiated is M-mode (motion mode).\n\nM-mode captures movement of structures along the fixed, selected sampling line over time, so it will produce a permanent visual record of the dynamic pleural line movement (lung sliding) seen in real-time B-mode. This can confirm normal pleural motion via the characteristic \"seashore sign\" or identify absent motion (concerning for pathology like pneumothorax) reliably.",
+    "inference_metadata": {
+      "raw_response": "The imaging mode being initiated is M-mode (motion mode).\n\nM-mode captures movement of structures along the fixed, selected sampling line over time, so it will produce a permanent visual record of the dynamic pleural line movement (lung sliding) seen in real-time B-mode. This can confirm normal pleural motion via the characteristic \"seashore sign\" or identify absent motion (concerning for pathology like pneumothorax) reliably.",
+      "latency_ms": 119525.15006065369,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what stabilization maneuver is performed during motion-mode acquisition, and what image-quality problem is it meant to prevent?",
+    "answer": "The probe is held completely still and the image is frozen to capture the tracing. This minimizes operator-induced motion that would blur or falsely distort the motion-mode pattern.",
+    "groundtruth": "The operator holds the probe absolutely still to maintain the slice and then freezes the image, ensuring the M-mode tracing is clear and not corrupted by artifactual probe motion.",
+    "time_start": 38.57,
+    "time_end": 43.91,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 38.57,
+    "original_time_end": 43.91,
+    "model_prediction": "The stabilization maneuver performed is holding the ultrasound probe completely stationary, with no movement relative to the patient's body wall, during acquisition. This prevents probe motion artifact, which would distort the M-mode time-motion tracing, create blurring/abnormal line artifactual changes, and lead to incorrect interpretation of underlying tissue motion, such as false apparent loss of lung sliding for pleural evaluation in this case.",
+    "inference_metadata": {
+      "raw_response": "The stabilization maneuver performed is holding the ultrasound probe completely stationary, with no movement relative to the patient's body wall, during acquisition. This prevents probe motion artifact, which would distort the M-mode time-motion tracing, create blurring/abnormal line artifactual changes, and lead to incorrect interpretation of underlying tissue motion, such as false apparent loss of lung sliding for pleural evaluation in this case.",
+      "latency_ms": 123116.74809455872,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, summarize the multi-step transition that occurs and state the next intended output the operator is trying to obtain for interpretation.",
+    "answer": "They transition into motion mode, position the sampling line over the key interface, then keep the probe steady and freeze. The goal is to produce a clean M-mode tracing that can be interpreted as objective evidence of motion versus no motion.",
+    "groundtruth": "The operator moves from planning M-mode to placing the M-mode cursor over the pleural line, then holds the probe steady and freezes to capture a stable M-mode tracing for interpretation.",
+    "time_start": 27.04,
+    "time_end": 43.91,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 27.04,
+    "original_time_end": 43.91,
+    "model_prediction": "First, the clip begins in standard 2D B-mode grayscale ultrasound, visualizing superficial soft tissue over a bright echogenic pleural line. The operator then accesses the imaging mode menu, selects M-mode (motion mode), places the M-mode sampling cursor over the pleural line, and the display transitions to a split screen: the left retains the B-mode view with the sampling line, while the right populates with real-time M-mode tracing of movement along the cursor over time. The operator intends to interpret this M-mode pleural pattern to evaluate for normal lung sliding (to rule out pneumothorax, assessing for the normal \"seashore sign\" of intact pleural motion).",
+    "inference_metadata": {
+      "raw_response": "First, the clip begins in standard 2D B-mode grayscale ultrasound, visualizing superficial soft tissue over a bright echogenic pleural line. The operator then accesses the imaging mode menu, selects M-mode (motion mode), places the M-mode sampling cursor over the pleural line, and the display transitions to a split screen: the left retains the B-mode view with the sampling line, while the right populates with real-time M-mode tracing of movement along the cursor over time. The operator intends to interpret this M-mode pleural pattern to evaluate for normal lung sliding (to rule out pneumothorax, assessing for the normal \"seashore sign\" of intact pleural motion).",
+      "latency_ms": 366727.25081443787,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

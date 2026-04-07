@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is being performed, and what is the imaging goal?",
+    "answer": "The probe is angled/tilted to use an adjacent homogeneous tissue window. The goal is to improve visualization of the kidney by scanning through a better acoustic window.",
+    "groundtruth": "The operator angles the probe upward and uses the right lobe of the liver as an acoustic window to better visualize the kidney.",
+    "time_start": 25.91,
+    "time_end": 34.15,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is being performed, and why is it done this way?",
+    "answer": "A continuous sweep is performed along the organ until it is completely passed out of view. This ensures the entire kidney is evaluated from one end to the other without skipping regions.",
+    "groundtruth": "The operator scans through to the lower pole and continues scanning until completely out of the kidney to ensure full anatomic coverage.",
+    "time_start": 46.76,
+    "time_end": 54.8,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is the operator entering, and what is the next imaging objective?",
+    "answer": "They are transitioning from a general survey to the documentation phase. The next objective is to obtain and save representative longitudinal images.",
+    "groundtruth": "The operator prepares to capture images and transitions to obtaining longitudinal images as part of documentation.",
+    "time_start": 65.61,
+    "time_end": 71.77,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging control is adjusted, and why does it help?",
+    "answer": "The sector width is reduced slightly. This improves frame rate and concentrates the image on the region of interest for better detail.",
+    "groundtruth": "The operator decreases the sector width slightly to optimize frame rate and focus for imaging.",
+    "time_start": 78.67,
+    "time_end": 81.75,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what alignment-correction maneuver is performed, and why is it important?",
+    "answer": "The operator fine-tunes probe alignment to avoid an oblique cut through the organ. This is important to ensure symmetric parenchyma through the image and prevent inaccurate assessment or measurement from an off-axis view.",
+    "groundtruth": "The operator checks and adjusts probe alignment to ensure there is no obliquing, confirming an even amount of parenchyma is visible throughout the kidney.",
+    "time_start": 102.7,
+    "time_end": 115.58,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what action is being performed and what is the goal?",
+    "answer": "Calipers are placed to measure the organ from one end to the other. The goal is to document kidney length as part of the standard exam.",
+    "groundtruth": "The operator places calipers and measures from the upper pole to the lower pole to obtain the kidney length measurement.",
+    "time_start": 128.7,
+    "time_end": 136.57,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe repositioning and sweep are shown, and what is the objective?",
+    "answer": "The probe is moved laterally and a sweep is performed from a more central position out toward the side. The objective is to evaluate and document the lateral parenchyma in longitudinal view.",
+    "groundtruth": "The operator moves the probe laterally and sweeps from medial to lateral to visualize the parenchyma and isolate the lateral portion for assessment.",
+    "time_start": 153.4,
+    "time_end": 169.46,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what exam phase transition is occurring, and what is the scanning plan?",
+    "answer": "The operator is transitioning into transverse documentation. The plan is a methodical top-to-bottom sweep with breath coordination to obtain representative transverse images across the full organ.",
+    "groundtruth": "The operator prepares for transverse images and scans methodically from top to bottom, coordinating breath-hold and using a window through adjacent tissue to obtain a representative upper portion view.",
+    "time_start": 209.99,
+    "time_end": 241.26,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-setting adjustment is made during the sweep, and why?",
+    "answer": "The imaging depth is adjusted while scanning inferiorly. This helps keep the entire organ appropriately framed and outlined as the view changes during the sweep.",
+    "groundtruth": "The operator scans inferiorly and adjusts depth to better outline the kidney during the downward sweep.",
+    "time_start": 286.61,
+    "time_end": 293.23,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the multi-step optimization sequence shown and the overall objective of this segment.",
+    "answer": "The operator returns to grayscale scanning, sweeps to the lower portion, then repeats the image with focal zone and depth adjustments to improve resolution and framing. The overall objective is to obtain a clear view and confirm the organ has been completely surveyed.",
+    "groundtruth": "The operator turns off Color Doppler and scans down to the lower pole, then repeats the image while moving the focal zone higher and increasing depth to optimize clarity; they finish with an additional sweep to confirm the kidney has been fully surveyed.",
+    "time_start": 383.96,
+    "time_end": 437.1,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

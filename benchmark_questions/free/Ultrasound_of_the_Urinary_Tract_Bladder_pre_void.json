@@ -1,0 +1,101 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what imaging orientation is the operator establishing at the start of the exam, and what is the purpose of beginning this way?",
+    "answer": "They begin in a transverse (short-axis) orientation to establish a consistent left\u2013right and anterior\u2013posterior reference before surveying the organ.",
+    "groundtruth": "The operator begins scanning in a transverse view to establish the initial transverse orientation before continuing the exam.",
+    "time_start": 0.53,
+    "time_end": 3.59,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning maneuver is used to evaluate one lateral side in the long-axis orientation, and what is the goal of sweeping beyond the visible borders?",
+    "answer": "They sweep laterally from the midline out to one side and continue until the probe passes fully beyond the organ margins to ensure the entire lateral extent has been surveyed.",
+    "groundtruth": "In longitudinal view, the operator sweeps from the midline toward the patient\u2019s right side and scans completely out of the bladder to survey the right lateral aspect.",
+    "time_start": 44.5,
+    "time_end": 50.52,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scan path is performed after returning through the midline, and what coverage objective does it serve?",
+    "answer": "They sweep from the midline out to the opposite lateral side to complete bilateral long-axis coverage of the organ.",
+    "groundtruth": "The operator sweeps back through the midline in longitudinal view and scans outward to the patient\u2019s left to survey the left lateral aspect of the bladder.",
+    "time_start": 52.03,
+    "time_end": 59.73,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what subtle probe angulation is performed, and what additional posterior structure is the operator trying to bring into view relative to the bladder?",
+    "answer": "The probe is angled slightly posteriorly to include the posterior region behind the bladder, aiming to visualize the prostate gland situated posterior to it.",
+    "groundtruth": "The operator angles the probe slightly posteriorly to visualize the prostate gland located posterior to the bladder.",
+    "time_start": 73.79,
+    "time_end": 86.94,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-optimization changes are made immediately before documentation, and why are they done prior to freezing/capturing?",
+    "answer": "Focus and gain are adjusted to improve clarity and contrast so the saved still image is a high-quality representative view.",
+    "groundtruth": "The operator scans slightly and adjusts focus and gain to optimize clarity, then freezes and captures a representative transverse bladder image.",
+    "time_start": 87.96,
+    "time_end": 102.77,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what workflow step the operator is performing from re-orienting the probe through saving an image, and what the deliverable of this step is.",
+    "answer": "They return to a standardized transverse view, fine-tune image quality, and then freeze/save a representative still as documentation of the exam findings in that plane.",
+    "groundtruth": "The operator transitions back to transverse orientation, optimizes the view with posterior angulation and image settings, and captures a representative transverse image for documentation.",
+    "time_start": 64.68,
+    "time_end": 102.77,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, an image-quality pattern appears during the lateral long-axis documentation. What artifact is it, and what underlying situation most likely contributes to it here?",
+    "answer": "This is reverberation artifact, which is commonly accentuated when the bladder is extremely distended and fluid-filled, promoting multiple reflections.",
+    "groundtruth": "During the right-sided longitudinal imaging, a reverberation artifact is present, attributed to the bladder being extremely full, while the right aspect is documented with a captured image.",
+    "time_start": 121.56,
+    "time_end": 135.42,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what mode change and probe repositioning occur, and what specific functional assessment does this enable?",
+    "answer": "Color Doppler is activated and the probe is moved to the bladder base to assess for ureteric jets entering the bladder.",
+    "groundtruth": "The operator turns on Color Doppler and moves the probe to the base of the bladder to prepare to assess for ureteric jets.",
+    "time_start": 149.08,
+    "time_end": 160.3,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what assessment sequence is being completed when the operator activates color, observes bilateral events, captures them, and then re-checks them? What is the broader objective of this sequence?",
+    "answer": "This is the ureteric-jet assessment sequence: confirm and document bilateral ureteral outflow into the bladder as evidence of functional patency.",
+    "groundtruth": "The operator uses Color Doppler at the bladder base to observe and identify right and left ureteric jets, captures documentation, and then reconfirms both jets for final verification of ureteric function.",
+    "time_start": 149.08,
+    "time_end": 222.51,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what physical probe maneuver is performed to transition into the next measurement plane, and what is the immediate goal before placing calipers?",
+    "answer": "They rotate the transducer clockwise into a longitudinal orientation and re-find the midline so measurements are taken in a standardized long-axis plane.",
+    "groundtruth": "The operator turns the transducer clockwise to a longitudinal position and locates the midline to orient correctly for subsequent measurements.",
+    "time_start": 254.9,
+    "time_end": 263.37,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the overall measurement strategy being performed across transverse and longitudinal views, and why are multiple orthogonal dimensions needed?",
+    "answer": "They measure three orthogonal bladder dimensions (transverse width, anterior\u2013posterior depth, and craniocaudal length) to compute pre-void bladder volume using a standard volume approximation.",
+    "groundtruth": "For pre-void volume calculation, the operator measures the transverse width in transverse view, then in longitudinal view measures anterior\u2013posterior and craniocaudal dimensions to calculate total bladder volume.",
+    "time_start": 240.22,
+    "time_end": 281.97,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

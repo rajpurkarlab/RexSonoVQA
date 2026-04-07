@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe placement/maneuver is being performed, and what acquisition goal does it serve for the rest of the exam?",
+    "answer": "The operator starts at the most distal posterior ankle and uses a strong bony landmark as a reference point. The goal is to identify the tendon’s distal attachment so the tendon can be followed and assessed from its insertion upward.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is placed at the distal posterior ankle to locate the calcaneal bone and then visualize the tendon’s insertion there, using the bright bony line with shadowing as the confirming landmark.",
+    "time_start": 0.53,
+    "time_end": 8.11,
+    "model_prediction": "Based on the video clip, the answer is:\n\n**The clinician is performing an initial transverse sweep (likely superior-to-inferior) of the thyroid gland to orient themselves and identify key landmarks.**\n\n**Explanation:**\n1.  **Visual Evidence:** The video shows a grayscale ultrasound image typical of the neck region. The probe is moving, causing the anatomy to scroll on the screen.\n2.  **Anatomy:** You can clearly see the hyperechoic, curvilinear structure of the tracheal rings (likely the cricoid cartilage or upper tracheal rings) with posterior shadowing on the right side of the screen. Overlying and adjacent to this is the homogeneous, slightly hyperechoic tissue characteristic of the thyroid gland (specifically the isthmus and a lobe).\n3.  **Maneuver:** The continuous sliding motion without rotating the probe suggests a \"sweep.\" This is standard protocol at the beginning of a thyroid ultrasound to assess the general size, echotexture, and presence of any obvious nodules in the isthmus and lobes before focusing on specific measurements or pathology. The goal is to obtain a rapid overview of the thyroid anatomy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the answer is:\n\n**The clinician is performing an initial transverse sweep (likely superior-to-inferior) of the thyroid gland to orient themselves and identify key landmarks.**\n\n**Explanation:**\n1.  **Visual Evidence:** The video shows a grayscale ultrasound image typical of the neck region. The probe is moving, causing the anatomy to scroll on the screen.\n2.  **Anatomy:** You can clearly see the hyperechoic, curvilinear structure of the tracheal rings (likely the cricoid cartilage or upper tracheal rings) with posterior shadowing on the right side of the screen. Overlying and adjacent to this is the homogeneous, slightly hyperechoic tissue characteristic of the thyroid gland (specifically the isthmus and a lobe).\n3.  **Maneuver:** The continuous sliding motion without rotating the probe suggests a \"sweep.\" This is standard protocol at the beginning of a thyroid ultrasound to assess the general size, echotexture, and presence of any obvious nodules in the isthmus and lobes before focusing on specific measurements or pathology. The goal is to obtain a rapid overview of the thyroid anatomy.",
+      "latency_ms": 7468.889951705933,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.579999999999999,
+    "judge_explanation": "The AI completely misidentified the anatomical region shown in the video. It identified the scan as a thyroid ultrasound showing the trachea, whereas the ground truth confirms it is a scan of the distal posterior ankle. Consequently, both the visual evidence cited and the conclusion are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what assessment is being performed while scanning, and what abnormal finding is the operator specifically trying to rule in/out?",
+    "answer": "The operator is surveying the tendon’s fiber continuity during the sweep. The goal is to detect or exclude a rupture by looking for a focal break in the normal continuous fiber pattern.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "While scanning, the operator inspects tissue integrity to evaluate for rupture, which would appear as interrupted longitudinal fibers with an intervening anechoic/echolucent gap.",
+    "time_start": 18.76,
+    "time_end": 27.6,
+    "model_prediction": "Based on the video, the operator is performing a **dynamic assessment of the Achilles tendon** (likely the Thompson test or a variation of it) by squeezing the calf muscles while observing the tendon's movement. The operator is specifically trying to rule in or out an **Achilles tendon rupture** (specifically a complete tear) by checking for the presence or absence of tendon gliding and continuity during muscle compression.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a **dynamic assessment of the Achilles tendon** (likely the Thompson test or a variation of it) by squeezing the calf muscles while observing the tendon's movement. The operator is specifically trying to rule in or out an **Achilles tendon rupture** (specifically a complete tear) by checking for the presence or absence of tendon gliding and continuity during muscle compression.",
+      "latency_ms": 6080.7859897613525,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.84,
+    "judge_explanation": "The AI correctly identifies the assessment being performed (evaluating tendon continuity) and the specific abnormal finding to rule out (tendon rupture/tear). The AI's description of checking for continuity matches the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on this early sequence, what phase of the exam is the operator in, and what is the next logical scanning step after these actions?",
+    "answer": "This is the setup/landmarking and image-optimization phase to establish a reliable starting reference and appropriate near-field settings. Next, the operator proceeds to systematically follow the tendon along its length to evaluate it throughout.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first identifies the distal bony landmark and tendon insertion, then optimizes depth and focus for superficial imaging; the workflow then proceeds to tracing the tendon’s length for full evaluation.",
+    "time_start": 0.53,
+    "time_end": 10.49,
+    "model_prediction": "Based on the visual evidence, the operator is in the **pre-scanning or setup phase**, specifically performing \"touch prep\" or screen calibration checks. The small, erratic orange circles appearing on the screen indicate the operator is touching the touchscreen interface to adjust settings (likely depth, gain, or focus) or verifying touch responsiveness before actively scanning the patient. The next logical step would be to apply gel to the probe/patient and begin the actual anatomical survey.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the operator is in the **pre-scanning or setup phase**, specifically performing \"touch prep\" or screen calibration checks. The small, erratic orange circles appearing on the screen indicate the operator is touching the touchscreen interface to adjust settings (likely depth, gain, or focus) or verifying touch responsiveness before actively scanning the patient. The next logical step would be to apply gel to the probe/patient and begin the actual anatomical survey.",
+      "latency_ms": 6619.688987731934,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.96,
+    "judge_explanation": "The AI incorrectly interprets the visual evidence as a pre-scanning touchscreen calibration ('touch prep') and suggests the next step is to apply gel. The ground truth indicates the operator is already scanning (landmarking and optimizing the image of a tendon), and the next step is to follow the tendon along its length.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what optimization/verification approach is being used to improve diagnostic confidence, and what problem is it intended to address?",
+    "answer": "The operator continues assessing the tendon in an orthogonal (cross-sectional) view to better characterize internal contour and fiber organization. This helps avoid missing subtle focal deformities that may be less apparent when viewed in only one plane.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The scan continues in transverse to examine the tendon’s cross-section for deformities within the fibers, using the short-axis view to evaluate internal integrity.",
+    "time_start": 41.78,
+    "time_end": 47.69,
+    "model_prediction": "Based on the video clip, the operator is applying **compression** with the ultrasound transducer. This technique is intended to address the problem of distinguishing a fluid-filled cystic structure (like an abscess) from a solid mass or normal tissue.\n\nHere is the breakdown of the visual evidence:\n*   **Action:** The probe is rhythmically pressed down onto the tissue, causing the superficial layers to indent and the deeper structures to deform.\n*   **Result:** The hypoechoic (dark) circular structure in the center of the image compresses significantly, suggesting it contains fluid or semi-solid material (pus/debris) rather than being a rigid solid mass. Additionally, the swirling of internal echoes (squish sign) during compression further supports the diagnosis of a fluid collection like an abscess.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is applying **compression** with the ultrasound transducer. This technique is intended to address the problem of distinguishing a fluid-filled cystic structure (like an abscess) from a solid mass or normal tissue.\n\nHere is the breakdown of the visual evidence:\n*   **Action:** The probe is rhythmically pressed down onto the tissue, causing the superficial layers to indent and the deeper structures to deform.\n*   **Result:** The hypoechoic (dark) circular structure in the center of the image compresses significantly, suggesting it contains fluid or semi-solid material (pus/debris) rather than being a rigid solid mass. Additionally, the swirling of internal echoes (squish sign) during compression further supports the diagnosis of a fluid collection like an abscess.",
+      "latency_ms": 6319.7340965271,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.909999999999997,
+    "judge_explanation": "The AI completely misinterprets the video clip. It describes a compression maneuver used to distinguish fluid from solid (abscess), whereas the ground truth indicates the operator is obtaining an orthogonal (cross-sectional) view of a tendon to better characterize its structure. The action, intent, and anatomical context are all incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what is the operator doing by centering attention on a single prominent interface, and what is the goal?\nA. Optimizing depth and focal zone to maximize pleural-line detail in order to better detect B-lines or pleural irregularity\nB. Centering the pleural line to evaluate for pleural thickening and small subpleural consolidations rather than motion\nC. Aligning the probe to bring the diaphragm\u2013liver interface into view to assess for a small pleural effusion at the lung base\nD. Establish the key lung surface interface as a reference line for subsequent motion assessment",
+    "answer": "D",
+    "groundtruth": "The operator focuses attention on the central bright horizontal interface to identify it as the pleural line, establishing the key reference structure for lung ultrasound interpretation.",
+    "time_start": 1.07,
+    "time_end": 7.38,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what orientation check is performed at the margins of the ultrasound image, and why?\nA. Confirm probe-marker orientation by fanning or sliding slightly and ensuring the expected anatomical side moves on the corresponding side of the screen\nB. Confirm nearby bony landmarks (with expected shadowing) to ensure the scan is between them and properly aligned\nC. Check depth and focal zone at the image margins to ensure the target and its posterior boundary are fully visualized without clipping\nD. Use brief color Doppler at the margins to exclude adjacent vessels being mistaken for the intended structure and confirm surrounding anatomy",
+    "answer": "B",
+    "groundtruth": "The operator inspects the lateral edges of the image to see the characteristic acoustic shadowing from ribs flanking the pleural line, using these landmarks to orient the lung scan.",
+    "time_start": 17.39,
+    "time_end": 23.47,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, where is the motion-mode sampling line positioned, and what is the purpose?\nA. Placed over an adjacent rib shadow to create a stationary reference pattern and confirm probe stability.\nB. Placed through the diaphragm\u2013liver interface to assess diaphragmatic excursion rather than pleural motion.\nC. Placed only along the pleural line to quantify pleural sliding velocity without including superficial soft tissues.\nD. Placed through the central target interface so the tracing samples both superficial tissues and the moving lung surface",
+    "answer": "D",
+    "groundtruth": "The operator activates the M-mode cursor and drops the sampling line in the middle of the screen so it crosses the pleural line and underlying lung tissue for an interpretable M-mode tracing.",
+    "time_start": 34.43,
+    "time_end": 37.21,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip segment, which workflow phase is being demonstrated and what is the main objective?\nA. Pleural fluid evaluation phase involving fanning through the costophrenic recess to identify and estimate the size of an effusion\nB. Image optimization phase to center and sharpen the pleural line by adjusting depth and gain before any diagnostic interpretation\nC. Focused pneumothorax assessment phase aimed at locating a lung point by sweeping laterally across rib spaces\nD. Initial lung-interface identification followed by real-time motion assessment to determine whether pleural sliding is present",
+    "answer": "D",
+    "groundtruth": "The operator first identifies the pleural line in the center of the image and then assesses it for sliding motion, using this to support the conclusion that pneumothorax is not present at that location.",
+    "time_start": 1.07,
+    "time_end": 16.84,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the frozen motion-mode display, what does a uniformly static superficial pattern represent, and what does it indicate?\nA. Superficial soft tissues with no motion over time, a normal expected finding\nB. Absence of pleural sliding producing a \u201cbarcode/stratosphere\u201d pattern, suggesting pneumothorax.\nC. An artifact from excessive probe pressure or poor probe-skin coupling that suppresses visible motion, falsely suggesting no movement.\nD. Absent lung sliding from complete atelectasis or mainstem intubation, indicating nonventilated lung on that side.",
+    "answer": "A",
+    "groundtruth": "The operator analyzes the near-field of the frozen M-mode image, notes it contains horizontal lines indicating no motion over time, and identifies this region as normal muscle and soft tissue.",
+    "time_start": 44.83,
+    "time_end": 56.8,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing immediately after locating the main bony landmark, and what imaging target are they trying to bring into view?",
+    "answer": "They keep the probe just proximal to the bony landmark and focus on the superficial soft tissues above it to visualize the quadriceps tendon and its characteristic fibrillar pattern.",
+    "groundtruth": "With the probe maintained proximal to the patella, the operator targets the soft tissues superior to the bone to visualize the quadriceps tendon and confirm its normal striated appearance.",
+    "time_start": 8.35,
+    "time_end": 16.41,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is being used during the dynamic sweep, and what is the diagnostic goal of doing this?",
+    "answer": "They fan/angle the probe through the region to systematically survey for anechoic fluid, aiming to rule out an effusion.",
+    "groundtruth": "The operator fans the probe through the suprapatellar region to search across planes for anechoic fluid that would indicate an effusion.",
+    "time_start": 27.85,
+    "time_end": 38.67,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what anatomic space is being specifically surveyed at this point, and what clinical question is being answered?",
+    "answer": "They survey the suprapatellar recess (the potential space between the quadriceps tendon and femur) to confirm there is no knee effusion.",
+    "groundtruth": "The operator interrogates the suprapatellar recess\u2014the potential space between tendon and femur\u2014to confirm the absence of knee effusion.",
+    "time_start": 39.81,
+    "time_end": 50.8,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator notes an apparent finding within a linear soft-tissue structure. What is it being recognized as, and what technical factor produces it?",
+    "answer": "It is recognized as anisotropy, caused by the ultrasound beam striking the tendon at a non-perpendicular angle, creating an artifactual hypoechoic/anechoic appearance.",
+    "groundtruth": "The operator identifies an anechoic-appearing area within the tendon and interprets it as anisotropy due to non-perpendicular insonation rather than true pathology.",
+    "time_start": 52.65,
+    "time_end": 70.11,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video segment, how does the operator use a brief sequence of maneuvers to decide whether a questionable finding is real versus artifact?",
+    "answer": "They change the insonation angle with a small rocking maneuver and then hold the corrected angle; resolution of the finding indicates anisotropy rather than true pathology.",
+    "groundtruth": "After recognizing a suspicious-appearing area as likely anisotropy, the operator corrects the angle with heel-toe rocking and holds it to confirm the artifact disappears, demonstrating it is a normal tendon property.",
+    "time_start": 52.65,
+    "time_end": 85.91,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what general scanning \u201crule\u201d is being emphasized for future views, and what workflow purpose does it serve?",
+    "answer": "Whenever a hypoechoic area is seen within a tendon, the operator repeats a small rocking/angle-correction maneuver to ensure perpendicular insonation, helping distinguish anisotropy from true tendon pathology.",
+    "groundtruth": "The operator emphasizes that tendons commonly show anisotropy; therefore, when a hypoechoic area appears, they should rock the probe to achieve perpendicular insonation and verify whether the finding is artifact or real.",
+    "time_start": 70.43,
+    "time_end": 91.91,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

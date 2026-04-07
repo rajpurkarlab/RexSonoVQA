@@ -1,0 +1,134 @@
+[
+  {
+    "question": "[MCQ] Based on the video, what patient repositioning maneuver is performed, and what is the primary imaging benefit?\nA) Roll the patient onto their left side to improve the acoustic window to the target region\nB) Roll the patient onto their right side to shift anatomy and attempt to open a clearer window to the target region\nC) Place the patient in Trendelenburg to increase venous return and enhance visualization of central venous structures\nD) Sit the patient upright to alter diaphragmatic position and reduce lung interference with the insonation window",
+    "answer": "A",
+    "groundtruth": "The operator positions the patient in a left lateral decubitus position to improve the acoustic window and make the target easier to visualize.",
+    "time_start": 0.69,
+    "time_end": 3.79,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 0.69,
+    "original_time_end": 3.79,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe observed anatomic shifting in the clip is consistent with rolling the patient onto their right side. This maneuver shifts abdominal viscera to the dependent (right) side, moving overlying interfering structures out of the path of the ultrasound beam to create a clearer acoustic window for the target region of interest.",
+      "latency_ms": 62659.46698188782,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 3.1
+  },
+  {
+    "question": "[MCQ] Based on the video, what scanning strategy is being used to find the intended target, and why?\nA) Track along a nearby organ boundary as a visual guide to lead the scan to the target\nB) Perform a systematic fan-and-sweep survey of the entire region to ensure no pathology is missed before focusing on the target\nC) Use color Doppler to identify a nearby vessel as a landmark and then follow it to the presumed location of the target\nD) Alternate between transverse and long-axis views to triangulate the target\u2019s position based on its change in appearance",
+    "answer": "A",
+    "groundtruth": "The operator scans while following the liver margin, using it as a landmark to guide the probe toward locating the gallbladder.",
+    "time_start": 13.78,
+    "time_end": 16.92,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 13.78,
+    "original_time_end": 16.92,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The probe tracks along the prominent bright linear organ boundary (consistent with the liver edge) as a visual guide to navigate toward the target (the anechoic tubular structure marked at the end of the clip). The other options are ruled out: no color Doppler is visible, no systematic full-region survey sweep occurs, and there is no alternation between transverse and long-axis views.",
+      "latency_ms": 116894.38104629517,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.1400000000000023
+  },
+  {
+    "question": "[MCQ] Based on the video, what is the operator identifying relative to the target structure, and what is the purpose?\nA) A consistent adjacent landmark to confirm correct location/orientation of the view\nB) A nearby vessel to apply Color Doppler for confirmation of vascularity of the target structure\nC) The needle tip relative to the target to guide real-time needle placement during an intervention\nD) An intercostal rib space to optimize the acoustic window and reduce rib-shadow artifact over the target",
+    "answer": "A",
+    "groundtruth": "The operator identifies the structure just inferior to the gallbladder, using it as a landmark (portal vein) to confirm the correct view and orientation.",
+    "time_start": 24.87,
+    "time_end": 27.97,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 24.87,
+    "original_time_end": 27.97,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe orange marker is moved between the target structure and adjacent consistent anatomical structures (the smaller adjacent anechoic vascular-type structures) that act as landmarks, to confirm the probe view is correctly oriented and the target structure is correctly identified. No needle, color Doppler, or rib space optimization is visible to support the other options.",
+      "latency_ms": 157496.19364738464,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.099999999999998
+  },
+  {
+    "question": "[MCQ] Based on the video, what image-based check is being used to confirm or exclude a suspected finding, and why?\nA) Look for a consistent posterior effect behind a bright focus to distinguish true pathology from non-pathologic echoes\nB) Use color Doppler to see whether the bright focus demonstrates internal flow, suggesting a vessel rather than a true lesion.\nC) Re-scan the suspected finding in an orthogonal plane to confirm it persists and is not due to anisotropy or edge artifact.\nD) Reduce overall gain and adjust TGC to determine whether the echogenic focus disappears, indicating a reverberation or noise artifact.",
+    "answer": "A",
+    "groundtruth": "The operator specifically screens for lithiasis by looking for echogenic foci that produce posterior acoustic shadowing, helping distinguish stones from other echoes.",
+    "time_start": 37.83,
+    "time_end": 42.66,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 37.83,
+    "original_time_end": 42.66,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows a bright echogenic focus with a posterior dark (shadowing) effect visible consistently as the probe sweeps. This check for a consistent posterior shadow behind an echogenic focus is standard to confirm true pathology (e.g. gallstone) rather than non-pathologic/artifact echoes, as no orthogonal plane rotation, color Doppler, or gain adjustment is observed in the clip.",
+      "latency_ms": 125970.34001350403,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.829999999999998
+  },
+  {
+    "question": "[MCQ] Based on the multi-step sequence in the clip, what phase of the exam is being performed, and what is the next logical step?\nA) Complete a comprehensive sweep of the target in one plane, then switch to an orthogonal plane for confirmation\nB) Freeze and obtain caliper measurements of the structure in the current plane before moving the probe\nC) Activate color Doppler over the target to assess vascularity as the next step after the sweep\nD) Move on to the next anatomic region in the survey once a single-plane sweep has been documented",
+    "answer": "A",
+    "groundtruth": "After obtaining the target in view, the operator fans through it and screens carefully for stones, then assesses the view for pathology; this completes a systematic survey in the first plane before proceeding to confirm in another plane.",
+    "time_start": 28.93,
+    "time_end": 45.12,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 28.93,
+    "original_time_end": 45.12,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video shows the operator performing a continuous sweep of right upper quadrant structures (including the gallbladder and portal triad) in a single imaging plane. After completing a full comprehensive sweep of the target in this plane, the standard next step in diagnostic ultrasound is to switch to the orthogonal (perpendicular/transverse) plane to confirm findings and fully evaluate the anatomy of interest, prior to measurements, Doppler use, or moving to another region.",
+      "latency_ms": 484952.3169994354,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 16.189999999999998
+  },
+  {
+    "question": "[MCQ] Based on the video, what probe manipulation changes the imaging plane, and what is the purpose of doing this?\nA) Rotate the probe to obtain an orthogonal (transverse) view to re-check findings\nB) Fan (sweep) the probe to scan through adjacent slices and identify the structure\u2019s maximal extent.\nC) Slide the probe to an adjacent window to relocate the target when it is lost or obscured by artifact.\nD) Rock (heel-toe) the probe to optimize the insonation angle and improve definition of the target in the same view.",
+    "answer": "A",
+    "groundtruth": "The operator rotates the probe into a transverse orientation to interrogate the gallbladder in an orthogonal plane and verify the assessment.",
+    "time_start": 46.0,
+    "time_end": 52.95,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 46.0,
+    "original_time_end": 52.95,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The probe is fanned (swept) in an arc, producing sequential adjacent imaging slices of the target area. This manipulation allows scanning through the full volume of the region to identify the complete/maximal extent of the structure of interest.",
+      "latency_ms": 194702.9402256012,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 6.950000000000003
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "[MCQ] Based on the video, what initial probe orientation is being used, and what is the immediate acquisition goal?\nA. Long-axis (longitudinal) scanning primarily to obtain an initial diameter measurement before further probe manipulation\nB. Long-axis (longitudinal) scanning to establish an initial long-section view of the target organ\nC. Short-axis (transverse) scanning to quickly localize the target organ and center it in the field of view\nD. Oblique scanning to identify adjacent anatomic landmarks and confirm you are over the correct structure before optimizing the image",
+    "answer": "B",
+    "groundtruth": "The operator begins scanning in a longitudinal (long-section) plane to establish the initial long-axis view of the pancreas.",
+    "time_start": 1.47,
+    "time_end": 5.83,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video, what optimization change is being performed during the same view, and why?\nA. Adjusting overall gain and time-gain compensation to equalize brightness and reduce far-field dropout without changing the imaging plane\nB. Activating tissue harmonic imaging to reduce near-field clutter and improve contrast resolution while maintaining the same scan plane\nC. Switching to a higher transducer frequency to improve superficial detail at the expense of deeper penetration in the same view\nD. Repositioning the focal zone and adjusting imaging depth to concentrate best resolution at the target level",
+    "answer": "D",
+    "groundtruth": "While staying in the longitudinal view, the operator adjusts system physics by placing the focal zone at the level of the pancreas and optimizing the depth so the target is displayed and focused appropriately.",
+    "time_start": 21.05,
+    "time_end": 30.0,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video, what probe maneuver is shown, and what is the purpose of doing it?\nA. Heel-toe (tilting) the probe to optimize the angle of insonation and improve border definition or reduce artifact\nB. Sliding the probe cephalad/caudad to follow the structure along its course and locate the point of interest\nC. A 90\u00b0 rotation to switch from a long-axis view to a standard transverse view\nD. Fanning (sweeping) the probe through the organ to survey for pathology across its full width",
+    "answer": "C",
+    "groundtruth": "The operator rotates the probe 90 degrees to transition from the longitudinal view to the classic transverse pancreas view.",
+    "time_start": 38.4,
+    "time_end": 47.16,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the sequence shown, what workflow strategy is being used, and why?\nA. Reconfirming the window in long-axis with rocking and respiratory timing before rotating back to transverse for completeness\nB. Rotating into long-axis primarily to apply color Doppler and confirm flow direction before returning to grayscale imaging.\nC. Using a transverse short-axis view to perform graded compression to confirm vessel identity before proceeding with additional views.\nD. Staying in transverse and performing a slow cranio-caudal sweep to document the structure without switching planes.",
+    "answer": "A",
+    "groundtruth": "The operator returns to the long section to confirm an adequate acoustic window, rocks the probe cephalad/caudad and uses respiratory change, then rotates back to transverse to ensure complete visualization before proceeding.",
+    "time_start": 57.01,
+    "time_end": 72.97,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video, what adjustment is performed to better evaluate the far side of the target region, and what is the goal?\nA. Fan the probe caudally toward the patient\u2019s feet to follow the near edge of the organ while maintaining the same depth setting.\nB. Angling the probe toward the patient\u2019s left shoulder and increasing depth to better visualize the distal portion of the organ\nC. Rotate the probe 90\u00b0 into a transverse plane and apply color Doppler to better delineate adjacent vascular structures rather than the far side of the target.\nD. Decrease imaging depth and increase overall gain to optimize resolution of superficial anatomy, at the expense of distal visualization.",
+    "answer": "B",
+    "groundtruth": "The operator rotates/angles the probe toward the patient\u2019s left shoulder and increases depth to target visualization of the pancreatic tail, which often requires deeper penetration.",
+    "time_start": 73.89,
+    "time_end": 85.19,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

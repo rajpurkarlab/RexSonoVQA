@@ -1,0 +1,110 @@
+[
+  {
+    "start": 0.51,
+    "end": 14.28,
+    "action": "Place probe in the sub-xiphoid position. Perform a complete sweep laterally all the way through the left lobe.",
+    "interpretation": "Initiate the exam with the left lobe of the liver. Ensure the sweep covers the entire extent of the anatomy."
+  },
+  {
+    "start": 15.46,
+    "end": 16.5,
+    "action": "Reverse the direction of the sweep to return medially.",
+    "interpretation": "Return to the area of interest for image capture."
+  },
+  {
+    "start": 17.45,
+    "end": 21.63,
+    "action": "Freeze and capture the first image at the lateral aspect.",
+    "interpretation": "Document the lateral left lobe."
+  },
+  {
+    "start": 24.65,
+    "end": 31.14,
+    "action": "Move the probe more medially.",
+    "interpretation": "Identify the aorta entering the field of view as the scan plane moves medially."
+  },
+  {
+    "start": 32.6,
+    "end": 33.88,
+    "action": "Capture the image.",
+    "interpretation": "Document the medial aspect of the left lobe containing the aorta."
+  },
+  {
+    "start": 35.94,
+    "end": 44.21,
+    "action": "Continue sweeping further medially.",
+    "interpretation": "Visualize the IVC and the caudate lobe appearing in the view."
+  },
+  {
+    "start": 45.95,
+    "end": 50.55,
+    "action": "Activate Color Doppler and place the box over the IVC.",
+    "interpretation": "Verify that the IVC fills completely with color to rule out thrombosis."
+  },
+  {
+    "start": 52.47,
+    "end": 55.63,
+    "action": "Capture the final image in this sequence.",
+    "interpretation": "Document the sagittal left lobe, concluding the left lobe protocol."
+  },
+  {
+    "start": 56.49,
+    "end": 59.67,
+    "action": "Reposition the probe to target the right lobe of the liver.",
+    "interpretation": "Transition from the left lobe to the right lobe."
+  },
+  {
+    "start": 60.57,
+    "end": 69.37,
+    "action": "Slide the probe inferiorly following the rib line. Rotate the probe to a slightly oblique orientation.",
+    "interpretation": "Align the probe technically by following the rib anatomy."
+  },
+  {
+    "start": 70.27,
+    "end": 76.39,
+    "action": "Apply pressure pushing in and angle the probe upwards underneath the rib.",
+    "interpretation": "Utilize the subcostal window to visualize the superior portions of the liver."
+  },
+  {
+    "start": 77.51,
+    "end": 84.9,
+    "action": "Position the probe to view the dome of the right lobe. Prepare to take sequential images while scanning inferiorly.",
+    "interpretation": "Locate the dome of the right lobe as the starting point."
+  },
+  {
+    "start": 86.26,
+    "end": 90.8,
+    "action": "Capture the first image of the right lobe.",
+    "interpretation": "Visualize just the parenchyma of the liver dome."
+  },
+  {
+    "start": 90.98,
+    "end": 94.31,
+    "action": "Maintain position at the superior aspect of the liver.",
+    "interpretation": "Confirm the view is above all hepatic and portal veins."
+  },
+  {
+    "start": 95.37,
+    "end": 99.67,
+    "action": "Scan inferiorly ('come down').",
+    "interpretation": "Visualize the hepatic veins entering the field of view."
+  },
+  {
+    "start": 101.92,
+    "end": 110.52,
+    "action": "Assess the echogenicity of the vessel walls.",
+    "interpretation": "Identify hepatic veins by noting their walls are less echogenic than portal veins."
+  },
+  {
+    "start": 111.42,
+    "end": 115.79,
+    "action": "Trace the vessels to their termination.",
+    "interpretation": "Confirm anatomy by observing the veins flowing directly into the IVC."
+  },
+  {
+    "start": 117.19,
+    "end": 120.76,
+    "action": "Capture the second image of the right lobe sequence.",
+    "interpretation": "Document the right lobe at the level of the hepatic veins."
+  }
+]

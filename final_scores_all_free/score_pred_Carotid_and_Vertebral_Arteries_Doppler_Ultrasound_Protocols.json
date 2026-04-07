@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what scanning approach is being used to first locate the target vessels, and what is the immediate objective of this opening survey?",
+    "answer": "A transverse (short-axis) survey is performed to bring two adjacent tubular vessels into view so they can be identified and followed during the exam.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans the neck in transverse view to bring two distinct tubular structures into view for initial anatomic identification.",
+    "time_start": 1.59,
+    "time_end": 6.51,
+    "model_prediction": "Based on the video clip, the scanning approach being used is an **out-of-plane (short-axis) approach**, where the ultrasound probe is oriented perpendicular to the path of the vessels, displaying them as circular, anechoic (black) structures in cross-section.\n\nThe immediate objective of this opening survey is to **identify and differentiate the internal jugular vein (IJV) from the carotid artery** and to assess the patency and compressibility of the vein prior to cannulation. This is evidenced by the distinct pulsating circular artery (smaller, deeper, medial) next to the larger, non-pulsatile, more superficial vein.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the scanning approach being used is an **out-of-plane (short-axis) approach**, where the ultrasound probe is oriented perpendicular to the path of the vessels, displaying them as circular, anechoic (black) structures in cross-section.\n\nThe immediate objective of this opening survey is to **identify and differentiate the internal jugular vein (IJV) from the carotid artery** and to assess the patency and compressibility of the vein prior to cannulation. This is evidenced by the distinct pulsating circular artery (smaller, deeper, medial) next to the larger, non-pulsatile, more superficial vein.",
+      "latency_ms": 12032.778024673462,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.92,
+    "judge_explanation": "The AI correctly identifies the scanning approach as a short-axis (transverse) survey and correctly states the objective is to identify and differentiate the vessels. The AI provides specific anatomical context (IJV vs Carotid) which aligns with the general description in the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what is being identified after the pulsatile structure is recognized, and what behavior supports that identification?",
+    "answer": "The adjacent vessel is identified as the internal jugular vein, supported by its relative lack of pulsation compared with the artery.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator focuses on the adjacent vessel and identifies the non-pulsatile structure as the internal jugular vein.",
+    "time_start": 13.38,
+    "time_end": 18.4,
+    "model_prediction": "Based on the video clip, the structure being identified is the **internal jugular vein (IJV)**. This identification is supported by its **compressibility**, as the vessel walls are seen collapsing completely under the pressure applied by the ultrasound probe, unlike the adjacent pulsatile carotid artery which resists compression.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the structure being identified is the **internal jugular vein (IJV)**. This identification is supported by its **compressibility**, as the vessel walls are seen collapsing completely under the pressure applied by the ultrasound probe, unlike the adjacent pulsatile carotid artery which resists compression.",
+      "latency_ms": 6151.723861694336,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.019999999999998,
+    "judge_explanation": "The AI correctly identifies the structure as the internal jugular vein. However, the AI cites 'compressibility' as the supporting behavior, whereas the ground truth specifies the 'relative lack of pulsation'. The AI likely hallucinated a compression maneuver based on general medical knowledge, while the ground truth indicates the identification was based on the difference in pulsation.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, after the compression confirmation step, what is the operator doing next and what is the purpose?",
+    "answer": "They release pressure and keep the patent vessel centered to isolate the artery for the next stages of imaging and Doppler assessment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After compression, the operator releases pressure and focuses on the vessel that remains patent to isolate the common carotid artery.",
+    "time_start": 32.01,
+    "time_end": 36.01,
+    "model_prediction": "Based on the video, after the operator compresses the vessel to confirm its collapsibility (which checks for DVT/patency), they are using the ultrasound probe to **scan distally along the vein (moving down the leg)**.\n\nThe purpose of this maneuver is to **trace the anatomy further down** to continue the examination for thrombus in the more distal segments of the vein and to identify the next anatomical landmarks or vessel branches.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after the operator compresses the vessel to confirm its collapsibility (which checks for DVT/patency), they are using the ultrasound probe to **scan distally along the vein (moving down the leg)**.\n\nThe purpose of this maneuver is to **trace the anatomy further down** to continue the examination for thrombus in the more distal segments of the vein and to identify the next anatomical landmarks or vessel branches.",
+      "latency_ms": 6940.542936325073,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.0,
+    "judge_explanation": "The AI prediction describes a completely different action (scanning distally to trace anatomy) than the ground truth (releasing pressure to center the vessel/isolate the artery for Doppler assessment). The AI fails to identify the specific maneuver described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what kind of machine/scan optimization is being performed in the long-axis view, and why is it done at this point?",
+    "answer": "The B-mode image is optimized (e.g., gain/TGC/focus/depth) to obtain a clean, high-contrast vessel wall and lumen view suitable for assessment and measurement.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "In longitudinal view, the operator optimizes the B-mode image to clearly visualize a healthy-appearing common carotid artery.",
+    "time_start": 55.65,
+    "time_end": 60.77,
+    "model_prediction": "Based on the video, the sonographer is performing **angle correction** (also known as \"steering\" or \"heel-toeing\") of the ultrasound beam or probe. This optimization is being done to make the vessel walls (specifically the intima-media interface) perpendicular to the ultrasound beam, thereby maximizing the clarity and definition of the vessel walls to obtain the clearest possible image.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the sonographer is performing **angle correction** (also known as \"steering\" or \"heel-toeing\") of the ultrasound beam or probe. This optimization is being done to make the vessel walls (specifically the intima-media interface) perpendicular to the ultrasound beam, thereby maximizing the clarity and definition of the vessel walls to obtain the clearest possible image.",
+      "latency_ms": 7344.19322013855,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.1200000000000045,
+    "judge_explanation": "The AI incorrectly identifies the optimization being performed. The ground truth specifies B-mode image settings such as gain, TGC, focus, or depth. The AI claims the action is angle correction or probe steering (heel-toeing). These are fundamentally different types of adjustments (image processing vs. geometric/physical manipulation). Consequently, the AI's specific reasoning regarding making walls perpendicular is also mismatched with the ground truth's focus on contrast and definition.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what measurement is being performed on the vessel wall, and what clinical feature is it intended to assess?",
+    "answer": "Intima-media thickness (IMT) is measured to assess for wall thickening/early atherosclerotic change.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator measures the intima-media thickness to confirm it is within a normal range (targeting less than 0.9 mm).",
+    "time_start": 62.14,
+    "time_end": 70.0,
+    "model_prediction": "Based on the video clip, the measurement being performed is the **carotid intima-media thickness (CIMT)**. The calipers are placed on the far wall of the common carotid artery to measure the combined thickness of the intimal and medial layers of the vessel wall.\n\nThis measurement is intended to assess for **subclinical atherosclerosis** and is used as a marker for cardiovascular disease risk. An increased thickness indicates a higher risk of cardiovascular events like heart attack or stroke.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the measurement being performed is the **carotid intima-media thickness (CIMT)**. The calipers are placed on the far wall of the common carotid artery to measure the combined thickness of the intimal and medial layers of the vessel wall.\n\nThis measurement is intended to assess for **subclinical atherosclerosis** and is used as a marker for cardiovascular disease risk. An increased thickness indicates a higher risk of cardiovascular events like heart attack or stroke.",
+      "latency_ms": 6428.994655609131,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.859999999999999,
+    "judge_explanation": "The AI correctly identifies the measurement as Intima-media thickness (specifically Carotid IMT) and correctly states its clinical purpose is to assess for atherosclerosis, which aligns perfectly with the ground truth's mention of wall thickening/early atherosclerotic change.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what two Doppler-related parameter changes are made to improve the flow display, and what problem are they meant to prevent?",
+    "answer": "Depth is increased and the color Doppler velocity scale is increased to better include the target segment and display arterial flow more appropriately (e.g., reducing aliasing/poor sampling).",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator increases imaging depth and increases the velocity scale to optimize color Doppler settings for arterial flow detection.",
+    "time_start": 92.26,
+    "time_end": 105.0,
+    "model_prediction": "Based on the video clip, the two Doppler-related parameter changes made are **steering the color box** and **angling the vessel (via heel-toe probe movement)** to achieve a better angle of insonation. These adjustments are made to improve the color filling and prevent the problem of poor Doppler signal or color dropout that occurs when the ultrasound beam is perpendicular (90 degrees) to the direction of blood flow.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the two Doppler-related parameter changes made are **steering the color box** and **angling the vessel (via heel-toe probe movement)** to achieve a better angle of insonation. These adjustments are made to improve the color filling and prevent the problem of poor Doppler signal or color dropout that occurs when the ultrasound beam is perpendicular (90 degrees) to the direction of blood flow.",
+      "latency_ms": 6399.123907089233,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.739999999999995,
+    "judge_explanation": "The AI identified completely different parameter changes (steering the color box and angling the vessel) compared to the ground truth (increasing depth and increasing the color Doppler velocity scale). Consequently, the problem identified by the AI (angle of insonation/color dropout) does not match the ground truth (aliasing/poor sampling).",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what Doppler modality is initiated and how is the sampling cursor positioned to achieve the intended measurement?",
+    "answer": "Pulse-wave Doppler is used, with the sample volume placed in the center of the lumen to capture the highest laminar-flow velocities.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "PW Doppler is activated and the sample volume is placed in the middle of the artery lumen to target the maximal (centerline) velocity.",
+    "time_start": 121.14,
+    "time_end": 135.12,
+    "model_prediction": "Based on the video, **pulsed-wave (PW) Doppler** is initiated in the second half of the clip. The sampling cursor (gate) is positioned in the center of the vessel lumen, and the angle correction cursor is aligned parallel to the vessel walls to ensure an accurate velocity measurement.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, **pulsed-wave (PW) Doppler** is initiated in the second half of the clip. The sampling cursor (gate) is positioned in the center of the vessel lumen, and the angle correction cursor is aligned parallel to the vessel walls to ensure an accurate velocity measurement.",
+      "latency_ms": 7455.41787147522,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.980000000000004,
+    "judge_explanation": "The AI correctly identifies the Doppler modality as pulsed-wave Doppler and accurately describes the positioning of the sampling cursor in the center of the vessel lumen, matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what is done to preserve the Doppler tracing for documentation, and why is an automatic overlay/feature turned off immediately after?",
+    "answer": "The image is frozen to capture the spectral trace, and automatic calculation/overlay features are disabled to allow clean manual review or measurement without distracting annotations.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator freezes the image to capture the spectral Doppler trace and disables auto-calculation features to prepare for clean visualization and/or manual measurement.",
+    "time_start": 135.9,
+    "time_end": 140.65,
+    "model_prediction": "Based on the video, the image is **frozen** to preserve the Doppler tracing for documentation.\n\nImmediately after freezing, the **automatic caliper tracing/measurement** feature (which displays the yellow outline on the spectral waveform) is turned off because the automated trace is inaccurate. It is \"double counting\" or placing markers incorrectly on the small diastolic peaks rather than just the primary systolic peaks, likely due to noise or the waveform's morphology, which would result in erroneous velocity or frequency calculations.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the image is **frozen** to preserve the Doppler tracing for documentation.\n\nImmediately after freezing, the **automatic caliper tracing/measurement** feature (which displays the yellow outline on the spectral waveform) is turned off because the automated trace is inaccurate. It is \"double counting\" or placing markers incorrectly on the small diastolic peaks rather than just the primary systolic peaks, likely due to noise or the waveform's morphology, which would result in erroneous velocity or frequency calculations.",
+      "latency_ms": 6115.725040435791,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.75,
+    "judge_explanation": "The AI correctly identifies the action of freezing the image to preserve the tracing. It also correctly identifies that the automatic feature is turned off. The AI provides a specific technical reason (inaccuracy/double counting) for why the feature was turned off, which aligns with the Ground Truth's broader explanation that it was done to remove distracting annotations and allow for review. The AI's specific visual details (yellow outline, double counting) are compatible with the concept of 'distracting annotations' mentioned in the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what does the operator do after the first spectral sample, and why is this repetition performed?",
+    "answer": "They unfreeze and move the sample volume to a different spot within the vessel to obtain another velocity sample, improving completeness and reliability of the assessment.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator unfreezes and repeats the PW Doppler measurement with the sample volume moved to another location to sample multiple sites for accuracy.",
+    "time_start": 153.22,
+    "time_end": 168.32,
+    "model_prediction": "Based on the video, the operator readjusts the angle correction cursor (the white line) to align it parallel to the vessel walls and the direction of blood flow. This repetition is performed because the initial angle of insonation was not properly aligned with the flow, which would result in an inaccurate velocity measurement; correcting the angle ensures an accurate calculation of the blood flow velocity.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator readjusts the angle correction cursor (the white line) to align it parallel to the vessel walls and the direction of blood flow. This repetition is performed because the initial angle of insonation was not properly aligned with the flow, which would result in an inaccurate velocity measurement; correcting the angle ensures an accurate calculation of the blood flow velocity.",
+      "latency_ms": 5505.277872085571,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 15.099999999999994,
+    "judge_explanation": "The AI incorrectly identifies the primary action as readjusting the angle correction cursor. The ground truth specifies that the operator moves the sample volume to a different spot within the vessel to obtain another sample. Since the observed action is incorrect, the reasoning is also incorrect relative to the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] This clip shows a short verification loop in which the operator re-sweeps and then pauses at a consistent location. What step of the exam is this, and what is being verified?",
+    "answer": "They are confirming correct positioning at a reproducible landmark by repeating the sweep and pausing where the vessel’s morphology changes, ensuring the intended segment is being evaluated.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator carefully traces the vessel, identifies the widened segment just before division (the bulb), repeats an inferior-to-superior sweep, and pauses there to verify correct location.",
+    "time_start": 183.06,
+    "time_end": 207.61,
+    "model_prediction": "Based on the video clip, this is the verification step for the **interscalene nerve block**. The operator is re-sweeping to verify the anatomy, specifically identifying the C5, C6, and C7 nerve roots (the \"stoplight sign\" or \"traffic light sign\") positioned between the anterior scalene and middle scalene muscles, lateral to the carotid artery and internal jugular vein. The pause confirms the optimal needle target location within the interscalene groove before needle insertion.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, this is the verification step for the **interscalene nerve block**. The operator is re-sweeping to verify the anatomy, specifically identifying the C5, C6, and C7 nerve roots (the \"stoplight sign\" or \"traffic light sign\") positioned between the anterior scalene and middle scalene muscles, lateral to the carotid artery and internal jugular vein. The pause confirms the optimal needle target location within the interscalene groove before needle insertion.",
+      "latency_ms": 7569.492816925049,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 24.55000000000001,
+    "judge_explanation": "The ground truth indicates the clip shows a verification step involving a vessel's morphology change to confirm the segment being evaluated. The AI incorrectly identifies the exam as an interscalene nerve block and claims the operator is verifying nerve roots (C5-C7). The AI misidentifies the anatomical structures (nerves vs. vessel) and the clinical context.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

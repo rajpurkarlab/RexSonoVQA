@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe positioning strategy is being used at the start, and what is the imaging objective?\nA. Obliquely align the probe to fit between bony spaces to create a full acoustic window on the target organ\nB. True transverse probe orientation with a systematic sweep to screen the organ for focal lesions rather than optimizing a single window.\nC. Long-axis (sagittal) alignment in the standard anatomic plane to measure maximal craniocaudal organ length.\nD. Subcostal probe placement with steep cephalad angulation to image the organ through the liver as an acoustic window.",
+    "answer": "A",
+    "groundtruth": "The operator places the probe on the left flank and angles it obliquely to align with the intercostal spaces, creating an acoustic window that allows visualization of the entire kidney.",
+    "time_start": 0.03,
+    "time_end": 8.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe positioning strategy is being used at the start, and what is the imaging objective?\nA. Subcostal probe placement with steep cephalad angulation to image the organ through the liver as an acoustic window.\nB. Obliquely align the probe to fit between bony spaces to create a full acoustic window on the target organ\nC. True transverse probe orientation with a systematic sweep to screen the organ for focal lesions rather than optimizing a single window.\nD. Long-axis (sagittal) alignment in the standard anatomic plane to measure maximal craniocaudal organ length.",
+    "original_answer": "B",
+    "original_time_start": 0.03,
+    "original_time_end": 8.42,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe video shows the probe maintained in a transverse orientation, sweeping systematically through the visualized organ (kidney) rather than holding a fixed optimized single view, consistent with a screening exam to evaluate for focal lesions across the entire organ volume. The other options are inconsistent with the observed probe movement and plane: no oblique bony space alignment, no sagittal/long axis orientation for length measurement, and no subcostal angulation using liver as an acoustic window.",
+      "latency_ms": 62119.776010513306,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is performed to change the imaging plane, and what is the intended result?\nA. Rotate the probe about 90° to obtain a long-axis (longitudinal) view of the structure.\nB. Heel-toe (tilt) the probe to optimize angle of insonation and reduce anisotropy while keeping the same plane.\nC. Rock (fan) the probe back and forth to sweep through adjacent slices and center the target in plane.\nD. Rotate the probe about 90° to switch to a short-axis (transverse) view",
+    "answer": "D",
+    "groundtruth": "The probe is rotated 90 degrees to change from a sagittal view to a transverse (short-axis) view of the kidney.",
+    "time_start": 26.93,
+    "time_end": 32.62,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe maneuver is performed to change the imaging plane, and what is the intended result?\nA. Rock (fan) the probe back and forth to sweep through adjacent slices and center the target in plane.\nB. Rotate the probe about 90° to switch to a short-axis (transverse) view\nC. Heel-toe (tilt) the probe to optimize angle of insonation and reduce anisotropy while keeping the same plane.\nD. Rotate the probe about 90° to obtain a long-axis (longitudinal) view of the structure.",
+    "original_answer": "B",
+    "original_time_start": 26.93,
+    "original_time_end": 32.62,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The probe is rocked (fanned) back and forth to sweep through adjacent tissue slices, which changes the imaging plane sequentially to locate and center the target structure in the field of view. There is no 90° rotation to switch between long/short axis views, and heel-toe tilting maintains the same imaging plane, so options A, B, and D are incorrect.",
+      "latency_ms": 69738.30819129944,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on this segment, what phase of the exam is being performed, and what is the immediate objective?\nA. After identifying a focal abnormality, obtain targeted orthogonal views and measurements to characterize its margins and internal features\nB. After completing grayscale imaging, apply color and spectral Doppler to assess vascularity and flow characteristics within the target organ\nC. After changing planes, perform a systematic cross-sectional survey through the target organ from one end to the other\nD. After changing planes, perform a systematic longitudinal survey through the target organ to assess continuity along its long axis",
+    "answer": "C",
+    "groundtruth": "After rotating into the transverse plane, the operator sweeps continuously from the upper pole to the lower pole to scan the full organ in cross-section.",
+    "time_start": 26.93,
+    "time_end": 39.55,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on this segment, what phase of the exam is being performed, and what is the immediate objective?\nA. After changing planes, perform a systematic longitudinal survey through the target organ to assess continuity along its long axis\nB. After completing grayscale imaging, apply color and spectral Doppler to assess vascularity and flow characteristics within the target organ\nC. After changing planes, perform a systematic cross-sectional survey through the target organ from one end to the other\nD. After identifying a focal abnormality, obtain targeted orthogonal views and measurements to characterize its margins and internal features",
+    "original_answer": "C",
+    "original_time_start": 26.93,
+    "original_time_end": 39.55,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe footage shows a systematic sequential sweep across the target organ in cross-sectional (transverse) imaging plane, scanning from one end of the organ to the other to survey the entire structure, with no targeting of a single focal lesion or Doppler application present in the clip.",
+      "latency_ms": 95676.98812484741,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] The clip shows intermittent loss of a clean view. What optimization maneuver is performed, and what problem is it addressing?\nA. Increase overall gain/TGC to compensate for attenuation from deeper soft tissues rather than a true shadow.\nB. Slide/angle into adjacent windows to avoid acoustic shadowing from overlying bone\nC. Rock/heel-toe the probe to correct anisotropy causing the structure to fade with slight angle changes.\nD. Apply graded compression or reposition the patient to displace overlying bowel gas that intermittently obscures the target.",
+    "answer": "B",
+    "groundtruth": "The operator adjusts angle and/or slides to different intercostal windows to work around rib shadowing, specifically to better isolate and visualize the kidney’s upper and lower poles.",
+    "time_start": 40.55,
+    "time_end": 47.86,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] The clip shows intermittent loss of a clean view. What optimization maneuver is performed, and what problem is it addressing?\nA. Rock/heel-toe the probe to correct anisotropy causing the structure to fade with slight angle changes.\nB. Increase overall gain/TGC to compensate for attenuation from deeper soft tissues rather than a true shadow.\nC. Apply graded compression or reposition the patient to displace overlying bowel gas that intermittently obscures the target.\nD. Slide/angle into adjacent windows to avoid acoustic shadowing from overlying bone",
+    "original_answer": "D",
+    "original_time_start": 40.55,
+    "original_time_end": 47.86,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe intermittent obscuration is characteristic of overlying bowel gas, which moves and creates variable shadowing that blocks visualization of deeper structures. Graded compression or repositioning displaces this gas out of the ultrasound beam path to restore a clear view of the target structure, matching the pattern of intermittent loss/partial recovery of the image seen in the clip.",
+      "latency_ms": 98940.36507606506,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

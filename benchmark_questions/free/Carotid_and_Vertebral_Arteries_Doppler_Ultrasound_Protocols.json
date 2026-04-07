@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what scanning approach is being used to first locate the target vessels, and what is the immediate objective of this opening survey?",
+    "answer": "A transverse (short-axis) survey is performed to bring two adjacent tubular vessels into view so they can be identified and followed during the exam.",
+    "groundtruth": "The operator scans the neck in transverse view to bring two distinct tubular structures into view for initial anatomic identification.",
+    "time_start": 1.59,
+    "time_end": 6.51,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what is being identified after the pulsatile structure is recognized, and what behavior supports that identification?",
+    "answer": "The adjacent vessel is identified as the internal jugular vein, supported by its relative lack of pulsation compared with the artery.",
+    "groundtruth": "The operator focuses on the adjacent vessel and identifies the non-pulsatile structure as the internal jugular vein.",
+    "time_start": 13.38,
+    "time_end": 18.4,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, after the compression confirmation step, what is the operator doing next and what is the purpose?",
+    "answer": "They release pressure and keep the patent vessel centered to isolate the artery for the next stages of imaging and Doppler assessment.",
+    "groundtruth": "After compression, the operator releases pressure and focuses on the vessel that remains patent to isolate the common carotid artery.",
+    "time_start": 32.01,
+    "time_end": 36.01,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what kind of machine/scan optimization is being performed in the long-axis view, and why is it done at this point?",
+    "answer": "The B-mode image is optimized (e.g., gain/TGC/focus/depth) to obtain a clean, high-contrast vessel wall and lumen view suitable for assessment and measurement.",
+    "groundtruth": "In longitudinal view, the operator optimizes the B-mode image to clearly visualize a healthy-appearing common carotid artery.",
+    "time_start": 55.65,
+    "time_end": 60.77,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what measurement is being performed on the vessel wall, and what clinical feature is it intended to assess?",
+    "answer": "Intima-media thickness (IMT) is measured to assess for wall thickening/early atherosclerotic change.",
+    "groundtruth": "The operator measures the intima-media thickness to confirm it is within a normal range (targeting less than 0.9 mm).",
+    "time_start": 62.14,
+    "time_end": 70.0,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what two Doppler-related parameter changes are made to improve the flow display, and what problem are they meant to prevent?",
+    "answer": "Depth is increased and the color Doppler velocity scale is increased to better include the target segment and display arterial flow more appropriately (e.g., reducing aliasing/poor sampling).",
+    "groundtruth": "The operator increases imaging depth and increases the velocity scale to optimize color Doppler settings for arterial flow detection.",
+    "time_start": 92.26,
+    "time_end": 105.0,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what Doppler modality is initiated and how is the sampling cursor positioned to achieve the intended measurement?",
+    "answer": "Pulse-wave Doppler is used, with the sample volume placed in the center of the lumen to capture the highest laminar-flow velocities.",
+    "groundtruth": "PW Doppler is activated and the sample volume is placed in the middle of the artery lumen to target the maximal (centerline) velocity.",
+    "time_start": 121.14,
+    "time_end": 135.12,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what is done to preserve the Doppler tracing for documentation, and why is an automatic overlay/feature turned off immediately after?",
+    "answer": "The image is frozen to capture the spectral trace, and automatic calculation/overlay features are disabled to allow clean manual review or measurement without distracting annotations.",
+    "groundtruth": "The operator freezes the image to capture the spectral Doppler trace and disables auto-calculation features to prepare for clean visualization and/or manual measurement.",
+    "time_start": 135.9,
+    "time_end": 140.65,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what does the operator do after the first spectral sample, and why is this repetition performed?",
+    "answer": "They unfreeze and move the sample volume to a different spot within the vessel to obtain another velocity sample, improving completeness and reliability of the assessment.",
+    "groundtruth": "The operator unfreezes and repeats the PW Doppler measurement with the sample volume moved to another location to sample multiple sites for accuracy.",
+    "time_start": 153.22,
+    "time_end": 168.32,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] This clip shows a short verification loop in which the operator re-sweeps and then pauses at a consistent location. What step of the exam is this, and what is being verified?",
+    "answer": "They are confirming correct positioning at a reproducible landmark by repeating the sweep and pausing where the vessel\u2019s morphology changes, ensuring the intended segment is being evaluated.",
+    "groundtruth": "The operator carefully traces the vessel, identifies the widened segment just before division (the bulb), repeats an inferior-to-superior sweep, and pauses there to verify correct location.",
+    "time_start": 183.06,
+    "time_end": 207.61,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

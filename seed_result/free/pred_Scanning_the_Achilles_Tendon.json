@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe placement/maneuver is being performed, and what acquisition goal does it serve for the rest of the exam?",
+    "answer": "The operator starts at the most distal posterior ankle and uses a strong bony landmark as a reference point. The goal is to identify the tendon’s distal attachment so the tendon can be followed and assessed from its insertion upward.",
+    "groundtruth": "The probe is placed at the distal posterior ankle to locate the calcaneal bone and then visualize the tendon’s insertion there, using the bright bony line with shadowing as the confirming landmark.",
+    "time_start": 0.53,
+    "time_end": 8.11,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 0.53,
+    "original_time_end": 8.11,
+    "model_prediction": "The initial probe maneuver is a longitudinal (long-axis) linear sweep along the length of the underlying superficial bony cortex, seen as the hyperechoic curved line with posterior acoustic shadowing in the clip.\nThis initial placement serves to establish a baseline view of the bony cortical contour, so the remainder of the exam can evaluate for cortical disruptions (fractures), adjacent soft tissue injury, or fluid collections (e.g. hematoma, joint effusion) associated with this bony structure.",
+    "inference_metadata": {
+      "raw_response": "The initial probe maneuver is a longitudinal (long-axis) linear sweep along the length of the underlying superficial bony cortex, seen as the hyperechoic curved line with posterior acoustic shadowing in the clip.\nThis initial placement serves to establish a baseline view of the bony cortical contour, so the remainder of the exam can evaluate for cortical disruptions (fractures), adjacent soft tissue injury, or fluid collections (e.g. hematoma, joint effusion) associated with this bony structure.",
+      "latency_ms": 38327.28719711304,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what assessment is being performed while scanning, and what abnormal finding is the operator specifically trying to rule in/out?",
+    "answer": "The operator is surveying the tendon’s fiber continuity during the sweep. The goal is to detect or exclude a rupture by looking for a focal break in the normal continuous fiber pattern.",
+    "groundtruth": "While scanning, the operator inspects tissue integrity to evaluate for rupture, which would appear as interrupted longitudinal fibers with an intervening anechoic/echolucent gap.",
+    "time_start": 18.76,
+    "time_end": 27.6,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 18.76,
+    "original_time_end": 27.6,
+    "model_prediction": "This is a superficial soft tissue ultrasound assessment, with the probe sweeping through subcutaneous soft tissue layers.\nThe operator is specifically ruling in or out a retained soft tissue foreign body: a small focal hyperechoic focus consistent with a potential foreign body is visible in the initial frame of the clip, and the probe is being moved to characterize the full area of interest for this finding.",
+    "inference_metadata": {
+      "raw_response": "This is a superficial soft tissue ultrasound assessment, with the probe sweeping through subcutaneous soft tissue layers.\nThe operator is specifically ruling in or out a retained soft tissue foreign body: a small focal hyperechoic focus consistent with a potential foreign body is visible in the initial frame of the clip, and the probe is being moved to characterize the full area of interest for this finding.",
+      "latency_ms": 65720.00098228455,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on this early sequence, what phase of the exam is the operator in, and what is the next logical scanning step after these actions?",
+    "answer": "This is the setup/landmarking and image-optimization phase to establish a reliable starting reference and appropriate near-field settings. Next, the operator proceeds to systematically follow the tendon along its length to evaluate it throughout.",
+    "groundtruth": "The operator first identifies the distal bony landmark and tendon insertion, then optimizes depth and focus for superficial imaging; the workflow then proceeds to tracing the tendon’s length for full evaluation.",
+    "time_start": 0.53,
+    "time_end": 10.49,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.53,
+    "original_time_end": 10.49,
+    "model_prediction": "The operator is in the preliminary survey/localization phase of the exam, performing a longitudinal (long-axis) sweep along the extent of the superficial target structure (overlying bony anatomy) to map its full length and gross features in this imaging plane.\n\nThe next logical step is to rotate the ultrasound probe 90 degrees to acquire short-axis (transverse) cross-sectional views of the same structure, to evaluate its cross-sectional morphology, internal architecture, and any focal pathology that may not be apparent on the long-axis view.",
+    "inference_metadata": {
+      "raw_response": "The operator is in the preliminary survey/localization phase of the exam, performing a longitudinal (long-axis) sweep along the extent of the superficial target structure (overlying bony anatomy) to map its full length and gross features in this imaging plane.\n\nThe next logical step is to rotate the ultrasound probe 90 degrees to acquire short-axis (transverse) cross-sectional views of the same structure, to evaluate its cross-sectional morphology, internal architecture, and any focal pathology that may not be apparent on the long-axis view.",
+      "latency_ms": 95766.99018478394,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what optimization/verification approach is being used to improve diagnostic confidence, and what problem is it intended to address?",
+    "answer": "The operator continues assessing the tendon in an orthogonal (cross-sectional) view to better characterize internal contour and fiber organization. This helps avoid missing subtle focal deformities that may be less apparent when viewed in only one plane.",
+    "groundtruth": "The scan continues in transverse to examine the tendon’s cross-section for deformities within the fibers, using the short-axis view to evaluate internal integrity.",
+    "time_start": 41.78,
+    "time_end": 47.69,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 41.78,
+    "original_time_end": 47.69,
+    "model_prediction": "The optimization approach used is *graded ultrasound compression*, where the operator applies varying amounts of pressure to the tissue with the ultrasound probe.\nThis technique is intended to differentiate between compressible (typically fluid-filled/cystic lesions, or normal patent veins) and non-compressible (typically solid masses, or thrombosed vessels) structures to improve characterization of visualized findings and rule out artifactual pseudolesions.",
+    "inference_metadata": {
+      "raw_response": "The optimization approach used is *graded ultrasound compression*, where the operator applies varying amounts of pressure to the tissue with the ultrasound probe.\nThis technique is intended to differentiate between compressible (typically fluid-filled/cystic lesions, or normal patent veins) and non-compressible (typically solid masses, or thrombosed vessels) structures to improve characterization of visualized findings and rule out artifactual pseudolesions.",
+      "latency_ms": 37681.81085586548,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

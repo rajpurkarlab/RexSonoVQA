@@ -1,0 +1,170 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing at the start of the scan, and what is the immediate objective?\nA. Locating a major vessel and preparing to apply color Doppler to assess patency and flow direction\nB. Identifying a key soft‑tissue landmark to confirm the correct scanning plane before sweeping through the area\nC. Establish an initial view and confirm probe-to-screen orientation using a bony landmark\nD. Optimizing depth and overall gain to obtain an initial diagnostic view of the target region",
+    "answer": "C",
+    "groundtruth": "The probe is placed to obtain an initial ultrasound view, and the operator verifies correct image orientation by identifying the bright bony cortex interface as a landmark.",
+    "time_start": 0.11,
+    "time_end": 5.46,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what is the operator doing at the start of the scan, and what is the immediate objective?\nA. Identifying a key soft‑tissue landmark to confirm the correct scanning plane before sweeping through the area\nB. Optimizing depth and overall gain to obtain an initial diagnostic view of the target region\nC. Establish an initial view and confirm probe-to-screen orientation using a bony landmark\nD. Locating a major vessel and preparing to apply color Doppler to assess patency and flow direction",
+    "original_answer": "C",
+    "original_time_start": 0.11,
+    "original_time_end": 5.46,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The scan initially shows a distinct hyperechoic structure with clear posterior acoustic shadowing, characteristic of a bony landmark. The operator uses this fixed bony structure to establish an initial view and confirm probe-to-screen orientation as the scan starts, with no visible adjustment of gain/depth, color Doppler application, or soft tissue landmark prioritization matching the other options.",
+      "latency_ms": 75964.86783027649,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator briefly holds the probe steady rather than continuing to sweep. What check is being performed, and why?\nA. Hold the probe steady while applying a quick dynamic maneuver to look for abnormal motion between structures (e.g., subluxation or tendon snapping).\nB. Confirm which side of the screen corresponds to each adjacent bone to ensure correct laterality/orientation\nC. Freeze briefly to place calipers and document a key measurement (e.g., cortical step-off or joint space) before continuing the sweep.\nD. Pause to optimize image settings (depth, focal zone, and gain) so the bony cortex is maximally crisp before proceeding.",
+    "answer": "B",
+    "groundtruth": "The probe is held over the joint space to confirm laterality on the screen, identifying which side corresponds to the femur versus tibia to ensure correct orientation.",
+    "time_start": 10.92,
+    "time_end": 14.12,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, the operator briefly holds the probe steady rather than continuing to sweep. What check is being performed, and why?\nA. Confirm which side of the screen corresponds to each adjacent bone to ensure correct laterality/orientation\nB. Freeze briefly to place calipers and document a key measurement (e.g., cortical step-off or joint space) before continuing the sweep.\nC. Pause to optimize image settings (depth, focal zone, and gain) so the bony cortex is maximally crisp before proceeding.\nD. Hold the probe steady while applying a quick dynamic maneuver to look for abnormal motion between structures (e.g., subluxation or tendon snapping).",
+    "original_answer": "A",
+    "original_time_start": 10.92,
+    "original_time_end": 14.12,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: When the probe is held steady, dynamic movement of underlying structures is visible, consistent with performing a dynamic maneuver to assess for abnormal motion (like tendon snapping or subluxation) between adjacent structures. No evidence of caliper placement, laterality checking, or image setting adjustment (gain/focus/depth changes) is seen in the clip to support the other options.",
+      "latency_ms": 156606.67324066162,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip sequence, what phase of the exam is being performed, and what is the broader purpose?\nA. Focused pathology survey: look for medial meniscal extrusion and adjacent joint effusion at the medial joint line\nB. Initial setup: establish landmarks, confirm orientation, and identify the primary medial stabilizing structure\nC. Dynamic valgus stress assessment: evaluate medial joint opening to grade medial collateral ligament laxity or tear\nD. Pre-procedural localization: optimize the medial knee view to plan an in-plane needle approach for a therapeutic injection",
+    "answer": "B",
+    "groundtruth": "Across the early sequence, the operator acquires an initial view, confirms correct orientation using bony landmarks, centers the joint space, and then identifies the MCL spanning the joint as the key structure for the medial scan.",
+    "time_start": 0.11,
+    "time_end": 20.89,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip sequence, what phase of the exam is being performed, and what is the broader purpose?\nA. Focused pathology survey: look for medial meniscal extrusion and adjacent joint effusion at the medial joint line\nB. Pre-procedural localization: optimize the medial knee view to plan an in-plane needle approach for a therapeutic injection\nC. Dynamic valgus stress assessment: evaluate medial joint opening to grade medial collateral ligament laxity or tear\nD. Initial setup: establish landmarks, confirm orientation, and identify the primary medial stabilizing structure",
+    "original_answer": "D",
+    "original_time_start": 0.11,
+    "original_time_end": 20.89,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video demonstrates dynamic changes in the medial knee joint space width, consistent with valgus stress being applied during the exam. This test is performed to evaluate for abnormal medial joint opening, which is used to grade medial collateral ligament laxity or confirm a tear of the structure.",
+      "latency_ms": 268990.7999038696,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator primarily assessing during this focused scan over the compartment?\nA. Presence of intra-articular fluid\nB. Presence of fluid within the prepatellar or superficial infrapatellar bursa\nC. Integrity of the quadriceps tendon at its insertion on the superior pole of the patella\nD. Evidence of patellar tendinopathy or partial tear along the patellar tendon",
+    "answer": "A",
+    "groundtruth": "The operator scans the medial knee region with attention to detecting intra-articular fluid, correlating this assessment with the clinical brush test for effusion.",
+    "time_start": 27.51,
+    "time_end": 35.72,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what is the operator primarily assessing during this focused scan over the compartment?\nA. Integrity of the quadriceps tendon at its insertion on the superior pole of the patella\nB. Evidence of patellar tendinopathy or partial tear along the patellar tendon\nC. Presence of fluid within the prepatellar or superficial infrapatellar bursa\nD. Presence of intra-articular fluid",
+    "original_answer": "D",
+    "original_time_start": 27.51,
+    "original_time_end": 35.72,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The scan shows superficial soft tissue layers, then the quadriceps tendon superficial to the hyperechoic superior pole of the patella (the deep curved bright structure visible as the scan progresses, with associated posterior acoustic shadowing). The focused view is centered on the tendon-bone interface of the quadriceps tendon at its patellar insertion, to assess tendon integrity. The other options are incorrect: intra-articular fluid (A) would be deep to the patella (not visible here due to bony shadowing), prepatellar/superficial bursa fluid (B) would appear in the more superficial soft tissue layers that are not the target of this scan, and the patellar tendon (D) is located inferior to the patella, which is not imaged here.",
+      "latency_ms": 126973.69408607483,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what directional coverage maneuver is being performed next, and what is its purpose?\nA. Compressing the soft tissue to test venous collapsibility\nB. Sliding proximally to image a tendon origin above the joint\nC. Sweeping posteriorly to evaluate the posterior portion of the same band-like structure\nD. Rotating into a new plane to evaluate a different compartment entirely",
+    "answer": "C",
+    "groundtruth": "The probe is moved posteriorly along the MCL to assess the posterior fibers and cover the full breadth of the ligament band.",
+    "time_start": 45.7,
+    "time_end": 51.88,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what directional coverage maneuver is being performed next, and what is its purpose?\nA. Rotating into a new plane to evaluate a different compartment entirely\nB. Sliding proximally to image a tendon origin above the joint\nC. Compressing the soft tissue to test venous collapsibility\nD. Sweeping posteriorly to evaluate the posterior portion of the same band-like structure",
+    "original_answer": "D",
+    "original_time_start": 45.7,
+    "original_time_end": 51.88,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video shows the ultrasound probe performing a posterior sweep maneuver, which sequentially images additional posterior segments of the same band-like superficial structure visible in the initial frames, rather than compressing tissue, sliding proximally, or rotating to a completely new imaging plane for a different compartment.",
+      "latency_ms": 239502.2430419922,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, why is a dynamic movement maneuver being used here?\nA. To measure a structure’s cross-sectional area using automated tracing\nB. To confirm probe orientation by matching on-screen labels to anatomy\nC. To increase posterior acoustic enhancement for deeper visualization\nD. To distinguish true intra-capsular fluid that moves with motion from extra-capsular swelling that stays fixed",
+    "answer": "D",
+    "groundtruth": "During knee extension, the operator watches how a fluid pocket behaves: intra-capsular fluid can bubble/move from the joint space, whereas interstitial swelling outside the capsule will not move.",
+    "time_start": 82.94,
+    "time_end": 91.99,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, why is a dynamic movement maneuver being used here?\nA. To confirm probe orientation by matching on-screen labels to anatomy\nB. To distinguish true intra-capsular fluid that moves with motion from extra-capsular swelling that stays fixed\nC. To increase posterior acoustic enhancement for deeper visualization\nD. To measure a structure’s cross-sectional area using automated tracing",
+    "original_answer": "B",
+    "original_time_start": 82.94,
+    "original_time_end": 91.99,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nDynamic movement maneuvers in ultrasound are used here to differentiate between mobile intra-capsular fluid (which shifts with movement of the associated structure) and fixed extra-capsular swelling that does not move during the maneuver, as observed in the changing tissue appearance with motion in the clip.",
+      "latency_ms": 160442.09003448486,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip sequence, what is the purpose of returning to a standard static view immediately after the dynamic portion?\nA. Switch to a different body region to begin a new exam\nB. Document needle placement after an injection\nC. Perform only measurements without further scanning\nD. Re-establish the baseline medial compartment view (key ligament, joint line, and deep landmark) for confirmation/comparison",
+    "answer": "D",
+    "groundtruth": "After observing fluid behavior with movement, the operator re-acquires the standard medial compartment view to again visualize the MCL, the joint space, and the medial meniscus as the baseline reference.",
+    "time_start": 60.8,
+    "time_end": 97.64,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip sequence, what is the purpose of returning to a standard static view immediately after the dynamic portion?\nA. Switch to a different body region to begin a new exam\nB. Re-establish the baseline medial compartment view (key ligament, joint line, and deep landmark) for confirmation/comparison\nC. Document needle placement after an injection\nD. Perform only measurements without further scanning",
+    "original_answer": "B",
+    "original_time_start": 60.8,
+    "original_time_end": 97.64,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The static view returns to the same anatomic region (no new region is entered, ruling out A, no needle is visible ruling out B, and the purpose is not solely measurements ruling out C). The static view re-establishes the baseline anatomic view of the joint compartment to confirm landmarks and compare against findings from the dynamic movement portion of the scan.",
+      "latency_ms": 605887.1147632599,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being followed distally to a consistent bony endpoint, and what is the goal of then inspecting the additional bright bands seen over the bone at that level?\nA. Follow the iliotibial band to the lateral femur, then identify the lateral meniscus\nB. Follow the medial collateral ligament down to its distal tibial region, then identify the tendinous structures overlying the tibia\nC. Follow the patellar tendon to the patella, then identify the suprapatellar recess\nD. Follow a vein distally, then confirm flow direction with Doppler",
+    "answer": "B",
+    "groundtruth": "The operator traces the anatomy distally to the edge of the tibial tuberosity and then inspects the distinct bright tendinous structures overlying the tibia at that distal level.",
+    "time_start": 100.16,
+    "time_end": 113.28,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what is being followed distally to a consistent bony endpoint, and what is the goal of then inspecting the additional bright bands seen over the bone at that level?\nA. Follow the medial collateral ligament down to its distal tibial region, then identify the tendinous structures overlying the tibia\nB. Follow the iliotibial band to the lateral femur, then identify the lateral meniscus\nC. Follow a vein distally, then confirm flow direction with Doppler\nD. Follow the patellar tendon to the patella, then identify the suprapatellar recess",
+    "original_answer": "A",
+    "original_time_start": 100.16,
+    "original_time_end": 113.28,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: First, we can eliminate option D as the tracked structure is hyperechoic/fibrillar, not an anechoic vein. Option C is eliminated because the suprapatellar recess is a fluid-filled structure, not bright bands overlying bone. Option A is eliminated as the lateral meniscus is intra-articular (between femur and tibia), not a superficial bright band over bone. The long fibrillar structure followed is the medial collateral ligament, which inserts distally on the medial tibia, and the overlying bright bands at this level are the pes anserinus tendinous structures that are inspected here.",
+      "latency_ms": 258437.1621608734,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what probe adjustment is being performed, and what imaging goal does it serve?",
+    "answer": "The transducer is angled into an oblique orientation to match the kidney’s oblique lie. This helps obtain a true long-axis view that includes the posterior upper pole and more anterior lower pole in the same plane.",
+    "groundtruth": "The operator adjusts the transducer into an oblique position to align with the kidney’s oblique orientation (upper pole more posterior, lower pole more anterior).",
+    "time_start": 15.78,
+    "time_end": 19.96,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 15.78,
+    "original_time_end": 19.96,
+    "model_prediction": "The adjustment being performed is **overall (master) gain adjustment**: the gain is first increased (producing an overly bright, overgained image where internal structure detail is lost) then decreased back to an optimal level.\n\nThis adjustment serves to optimize image brightness so that the different echogenicities of the imaged structure (likely the kidney, with hypoechoic outer parenchyma and hyperechoic central sinus) are clearly differentiated, eliminating gain-related artifacts that would obscure internal anatomy or lead to misinterpretation of tissue characteristics.",
+    "inference_metadata": {
+      "raw_response": "The adjustment being performed is **overall (master) gain adjustment**: the gain is first increased (producing an overly bright, overgained image where internal structure detail is lost) then decreased back to an optimal level.\n\nThis adjustment serves to optimize image brightness so that the different echogenicities of the imaged structure (likely the kidney, with hypoechoic outer parenchyma and hyperechoic central sinus) are clearly differentiated, eliminating gain-related artifacts that would obscure internal anatomy or lead to misinterpretation of tissue characteristics.",
+      "latency_ms": 77763.41700553894,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what scanning motion is shown, and what is the goal of doing it this way?",
+    "answer": "A systematic sweep is performed across the kidney from one side to the other while staying in the same long-axis/oblique plane. The goal is to ensure the entire renal parenchyma is evaluated without missing a segment.",
+    "groundtruth": "The operator sweeps through the kidney from lateral to medial in the sagittal/oblique plane to ensure complete coverage of the renal parenchyma.",
+    "time_start": 29.01,
+    "time_end": 42.0,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 29.01,
+    "original_time_end": 42.0,
+    "model_prediction": "The scanning motion shown is fanning (rocking/tilting) of the ultrasound probe, where the probe is angled back and forth at the same skin contact point to capture sequential cross-sectional slices of the structure, which is a kidney identifiable by its outer parenchyma and central echogenic renal sinus.\nThe goal of this motion is to fully evaluate the entire volume of the kidney, ensuring no segment of the organ is un-assessed, to avoid missing focal abnormalities (like cysts, masses, or hydronephrosis) that would not appear on a single static image.",
+    "inference_metadata": {
+      "raw_response": "The scanning motion shown is fanning (rocking/tilting) of the ultrasound probe, where the probe is angled back and forth at the same skin contact point to capture sequential cross-sectional slices of the structure, which is a kidney identifiable by its outer parenchyma and central echogenic renal sinus.\nThe goal of this motion is to fully evaluate the entire volume of the kidney, ensuring no segment of the organ is un-assessed, to avoid missing focal abnormalities (like cysts, masses, or hydronephrosis) that would not appear on a single static image.",
+      "latency_ms": 94414.02387619019,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip segment, what is the broader workflow objective being carried out across these consecutive actions?",
+    "answer": "The operator is completing a comprehensive survey of the kidney by scanning through it in one plane, then switching to the orthogonal plane and sweeping end-to-end. This workflow documents full coverage in both long and short axes.",
+    "groundtruth": "After sweeping laterally-to-medially through the kidney in the sagittal/oblique plane, the operator rotates into transverse and then sweeps superior-to-inferior to cover the full kidney in the orthogonal plane.",
+    "time_start": 29.01,
+    "time_end": 65.41,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 29.01,
+    "original_time_end": 65.41,
+    "model_prediction": "This is a systematic renal (kidney) diagnostic ultrasound examination. The operator is sweeping the ultrasound probe sequentially across the kidney to capture full cross-sectional views of the entire organ, to evaluate its anatomical structure and screen for any pathological abnormalities (such as hydronephrosis, renal masses, or calculi).",
+    "inference_metadata": {
+      "raw_response": "This is a systematic renal (kidney) diagnostic ultrasound examination. The operator is sweeping the ultrasound probe sequentially across the kidney to capture full cross-sectional views of the entire organ, to evaluate its anatomical structure and screen for any pathological abnormalities (such as hydronephrosis, renal masses, or calculi).",
+      "latency_ms": 348567.51012802124,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] This clip shows the view becoming less reliable during scanning. Based on the video, what optimization maneuver is performed, and what limitation is it meant to overcome?",
+    "answer": "The operator moves to an intercostal window and sweeps through it. This is done to avoid rib-related shadowing/obstruction so the kidney (especially the poles) can be seen clearly.",
+    "groundtruth": "After assessing for acoustic shadowing/obstruction that can occur from ribs, the operator uses an intercostal space and sweeps through it to improve visualization of the kidney by avoiding rib shadows.",
+    "time_start": 66.82,
+    "time_end": 86.86,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 66.82,
+    "original_time_end": 86.86,
+    "model_prediction": "The maneuver performed is repositioning/angulation (including heel-toe adjustment) of the ultrasound transducer. This is meant to overcome the limitation of the target anatomical structure moving out of the ultrasound imaging plane (off-axis insonation), which was causing blurry, non-diagnostic, unreliable visualization of the anatomy of interest.",
+    "inference_metadata": {
+      "raw_response": "The maneuver performed is repositioning/angulation (including heel-toe adjustment) of the ultrasound transducer. This is meant to overcome the limitation of the target anatomical structure moving out of the ultrasound imaging plane (off-axis insonation), which was causing blurry, non-diagnostic, unreliable visualization of the anatomy of interest.",
+      "latency_ms": 252446.62594795227,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0.7,
+    "end": 6.04,
+    "action": "Move probe to the left lung apex. Replicate the previous scanning maneuver.",
+    "interpretation": "Transitioning to the left apical region."
+  },
+  {
+    "start": 6.1,
+    "end": 10.57,
+    "action": "Hold probe stationary over the current position.",
+    "interpretation": "Visualize a rib in the center of the screen, noting the acoustic shadow obscuring the view below."
+  },
+  {
+    "start": 10.63,
+    "end": 14.87,
+    "action": "Prepare to slide the probe either superiorly or inferiorly.",
+    "interpretation": "Aiming to move off the rib axis to clear the view."
+  },
+  {
+    "start": 15.49,
+    "end": 17.69,
+    "action": "Slide the probe upward.",
+    "interpretation": "Moving off the rib to access the intercostal space."
+  },
+  {
+    "start": 18.33,
+    "end": 20.53,
+    "action": "Adjust probe position to center the hyperechoic line.",
+    "interpretation": "The pleural line is now centered in the field of view."
+  },
+  {
+    "start": 20.63,
+    "end": 25.45,
+    "action": "Maintain a stable hand to observe the pleural line for movement.",
+    "interpretation": "Visualize 'shimmering' of the pleura (lung sliding), confirming the absence of pneumothorax."
+  },
+  {
+    "start": 25.89,
+    "end": 32.28,
+    "action": "Identify horizontal artifacts. Increase depth setting to better visualize the repetition of these lines.",
+    "interpretation": "Noting the presence of horizontal lines (A-lines) extending down the screen."
+  },
+  {
+    "start": 32.92,
+    "end": 37.1,
+    "action": "Continue scanning the intercostal space.",
+    "interpretation": "Confirming that the observed pattern is a normal artifact in lung ultrasound."
+  },
+  {
+    "start": 38.02,
+    "end": 45.42,
+    "action": "Correlate visual artifacts with lung pathology status.",
+    "interpretation": "The artifact profile indicates the lung is air-filled, ruling out pneumonia or effusion in this region."
+  }
+]

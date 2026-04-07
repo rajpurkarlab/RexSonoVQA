@@ -1,0 +1,86 @@
+[
+  {
+    "start": 0.13,
+    "end": 25.5,
+    "action": "Locate the rectus femoris muscle in transverse view. Follow the muscle proximally toward the hip joint and Anterior Inferior Iliac Spine (AIIS).",
+    "interpretation": "Identify the rectus femoris as an oval-shaped structure. Observe the cross-sectional area becoming progressively smaller as you scan proximally."
+  },
+  {
+    "start": 27.24,
+    "end": 33.36,
+    "action": "Continue scanning proximally until the muscle transition is complete.",
+    "interpretation": "Confirm the transition of the rectus femoris from muscle belly into a tendinous structure."
+  },
+  {
+    "start": 33.78,
+    "end": 47.35,
+    "action": "Hold position at the proximal attachment to identify bony landmarks.",
+    "interpretation": "Visualize the hip joint and the femoral head. Note the rectus femoris is in close proximity, inserting onto the Anterior Inferior Iliac Spine."
+  },
+  {
+    "start": 48.21,
+    "end": 62.97,
+    "action": "Highlight the bony landmarks and the tendon insertion.",
+    "interpretation": "Identify the femoral head and the Anterior Inferior Iliac Spine (AIIS) sloping upward. visualize the hyperechoic tissue of the tendon in this specific area."
+  },
+  {
+    "start": 63.35,
+    "end": 66.25,
+    "action": "Confirm structural identification.",
+    "interpretation": "Verify that the visualized hyperechoic tissue is indeed the rectus femoris tendon."
+  },
+  {
+    "start": 66.65,
+    "end": 79.12,
+    "action": "Slide the transducer from medial to lateral across the insertion point.",
+    "interpretation": "Visualize the full origin of the tendon at the inferior iliac spine."
+  },
+  {
+    "start": 79.96,
+    "end": 90.31,
+    "action": "Inspect the direct tendon for structural integrity.",
+    "interpretation": "Observe for tendinous changes within the direct tendon. Check for specific signs of avulsion."
+  },
+  {
+    "start": 91.91,
+    "end": 101.85,
+    "action": "Scan the area specifically for echogenic artifacts.",
+    "interpretation": "Search for hyperechoic reflections that would indicate calcifications in this area."
+  },
+  {
+    "start": 103.03,
+    "end": 116.72,
+    "action": "Assess the tendon echotexture for pathology.",
+    "interpretation": "Look for increased hyperechogenicity suggesting tendinopathy. Inspect for anechoic zones within the tendon which would indicate partial tearing."
+  },
+  {
+    "start": 117.96,
+    "end": 121.98,
+    "action": "Differentiate between the visible and non-visible tendon components.",
+    "interpretation": "Note that the direct tendon is visible, but the indirect tendon is not visualized."
+  },
+  {
+    "start": 122.14,
+    "end": 131.77,
+    "action": "Evaluate the acoustic limitations of the current probe position.",
+    "interpretation": "Recognize that the indirect tendon is difficult to see in this position due to obliquity causing full anisotropy."
+  },
+  {
+    "start": 131.85,
+    "end": 134.61,
+    "action": "Prepare to change scanning approach.",
+    "interpretation": "Note that a different position is required to visualize the indirect tendon."
+  },
+  {
+    "start": 136.87,
+    "end": 155.66,
+    "action": "Return the probe to a standard transverse view over the quadriceps. Scan distally, following the rectus femoris down toward knee level.",
+    "interpretation": "Re-identify the quadriceps and the rectus femoris muscle belly."
+  },
+  {
+    "start": 156.56,
+    "end": 178.18,
+    "action": "Focus on the internal architecture of the muscle while scanning.",
+    "interpretation": "Observe the muscle fibers and the internal tendon (central aponeurosis). Recognize this structure as the aponeurotic expansion of the combined indirect and direct tendons flowing into the muscle belly."
+  }
+]

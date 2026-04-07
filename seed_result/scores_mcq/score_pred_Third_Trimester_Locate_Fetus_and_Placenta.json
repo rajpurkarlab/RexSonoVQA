@@ -1,0 +1,90 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator trying to determine during the early targeted scan, and why?\nA) Determine fetal presenting part to establish whether the fetus is head-down vs not\nB) Identify placental location to assess for low-lying placenta or previa before proceeding with further obstetric imaging.\nC) Confirm fetal cardiac activity and basic viability to ensure the fetus is alive during the initial targeted sweep.\nD) Estimate amniotic fluid volume with a quick survey to screen for oligohydramnios or polyhydramnios early in the exam.",
+    "answer": "A",
+    "groundtruth": "The operator immediately scans the lower uterine segment to identify the presenting part, confirming a cephalic (head-down) presentation by recognizing the fetal skull.",
+    "time_start": 1.27,
+    "time_end": 5.99,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 1.27,
+    "original_time_end": 5.99,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe ultrasound visualizes the characteristic bright, circular echogenic rim of the fetal skull (calvarium) with intracranial structures inside, so the operator is identifying the fetal head to assess if it is the presenting part (cephalic/head-down position) as part of the early targeted obstetric scan. The other options are incorrect: no placental tissue, fetal heart, or focused amniotic fluid assessment is seen in this clip.",
+      "latency_ms": 42563.23480606079,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.720000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which workflow step is being performed, and what is the next immediate objective?\nA) Start with an overview plane, then sweep to map fetal lie/orientation along the maternal axis\nB) Acquire a transverse fetal head plane to measure biparietal diameter, then confirm the cavum septi pellucidi and thalami are visible.\nC) Identify placental location in a broad sweep, then assess for previa by evaluating the relationship to the internal cervical os.\nD) Survey amniotic fluid qualitatively, then obtain a deepest vertical pocket measurement to screen for oligohydramnios/polyhydramnios.",
+    "answer": "A",
+    "groundtruth": "After establishing an initial transverse view and checking the presenting part, the operator initiates a sweep to determine fetal lie and orientation relative to the maternal axis.",
+    "time_start": 0.03,
+    "time_end": 10.65,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.03,
+    "original_time_end": 10.65,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe video shows a transverse cross-sectional view of the fetal skull, the standard plane for biparietal diameter (BPD) measurement. The next immediate step after acquiring this plane is confirming expected intracranial landmarks including the cavum septi pellucidi and thalami are present to validate the correct measurement plane is obtained.",
+      "latency_ms": 61497.91693687439,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 10.620000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the purpose of the broad sweep across the upper uterus with a curved follow-through motion?\nA) Track the fetus to locate the end opposite the presenting part and confirm overall lie\nB) Survey the fundal region to identify placental location and any retroplacental fluid collection\nC) Perform a global sweep to estimate overall amniotic fluid volume and look for polyhydramnios/oligohydramnios\nD) Reposition and align the fetus into a standard plane to obtain biometric measurements such as BPD or femur length",
+    "answer": "A",
+    "groundtruth": "The operator sweeps across the fundus and curves around to follow fetal anatomy, locating the fetal buttocks at the uterine top and visualizing hips and legs to confirm the fetus is bum-up.",
+    "time_start": 31.92,
+    "time_end": 42.6,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 31.92,
+    "original_time_end": 42.6,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The broad sweeping motion tracks the entire fetal anatomy from one pole to the other, identifying the end of the fetus opposite the presenting part (closest to the cervix) to confirm the overall fetal lie (orientation of the fetal long axis relative to the maternal long axis). The other options are incorrect: the sweep does not focus on the placenta (B), does not assess amniotic fluid volume across quadrants (C), and is a continuous motion rather than positioning for static biometric measurements (D).",
+      "latency_ms": 65823.75192642212,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.68
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action is used to follow the target tissue boundary, and what is the main goal of this maneuver?\nA) Slide the probe superiorly to trace the placental margin/body and confirm it is not low-lying\nB) Fan/rock the probe in place to keep the placental edge centered, aiming to assess placental thickness and echotexture rather than its relationship to the internal os\nC) Rotate to a transverse suprapubic view and sweep laterally to map the uterus, aiming to identify fetal presentation instead of confirming placental location\nD) Apply color Doppler along the placental\u2013myometrial interface to look for abnormal vascularity, aiming to evaluate accreta spectrum rather than low-lying placenta",
+    "answer": "A",
+    "groundtruth": "The operator identifies the placental margin and then slides the probe superiorly to trace the placenta, confirming an anterior placenta and verifying it does not appear low-lying.",
+    "time_start": 57.81,
+    "time_end": 65.4,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 57.81,
+    "original_time_end": 65.4,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe video shows the probe being fanned/rocked in place to keep the placental edge centered in the imaging view. No internal cervical os is visualized, so the goal is not assessing if the placenta is low-lying, no color Doppler is applied, and the focus is not on fetal presentation, which eliminates options A, C, and D respectively.",
+      "latency_ms": 74223.79684448242,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.590000000000003
+  }
+]

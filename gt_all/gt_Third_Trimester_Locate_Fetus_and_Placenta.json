@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0.03,
+    "end": 1.25,
+    "action": "Begin scanning with the probe oriented in the transverse plane.",
+    "interpretation": "Establish the initial transverse view."
+  },
+  {
+    "start": 1.27,
+    "end": 5.99,
+    "action": "Immediately assess the lower uterine segment to identify the presenting part.",
+    "interpretation": "Visualize the fetal head positioned down (cephalic presentation). Identify the echogenic skull bones."
+  },
+  {
+    "start": 6.01,
+    "end": 10.65,
+    "action": "Initiate a sweep to determine fetal lie and orientation.",
+    "interpretation": "Prepare to track the fetal body to establish position relative to the maternal axis."
+  },
+  {
+    "start": 10.67,
+    "end": 16.18,
+    "action": "Slide the probe superiorly along the maternal right side.",
+    "interpretation": "Scan up the maternal right flank to trace the fetal body."
+  },
+  {
+    "start": 24.42,
+    "end": 28.8,
+    "action": "Identify the fetal back on the right side. Visualize the thorax.",
+    "interpretation": "Confirm the fetal spine is located to the maternal right. visualize the fetal heart beating nicely."
+  },
+  {
+    "start": 31.92,
+    "end": 42.6,
+    "action": "Sweep the probe across the fundus ('the top') and curve around to follow the fetal anatomy.",
+    "interpretation": "Locate the fetal buttocks ('bum') at the fundus (bum up). Visualize the hip bones and legs."
+  },
+  {
+    "start": 42.64,
+    "end": 46.79,
+    "action": "Maintain probe position in the upper quadrant and correlate findings with patient symptoms.",
+    "interpretation": "Note that fetal limbs in the upper quadrant correspond to the patient feeling 'lots of kicks' in this area."
+  },
+  {
+    "start": 46.81,
+    "end": 53.45,
+    "action": "Adjust the scanning plane to isolate and evaluate the placenta.",
+    "interpretation": "Transition focus to assess placental location."
+  },
+  {
+    "start": 57.81,
+    "end": 65.4,
+    "action": "Identify the placental margin. Slide the probe superiorly ('scanning up') to trace the placental body.",
+    "interpretation": "Visualize the placental edge. Confirm the placenta is definitely anterior. Verify that the placenta does not appear to be low-lying."
+  }
+]

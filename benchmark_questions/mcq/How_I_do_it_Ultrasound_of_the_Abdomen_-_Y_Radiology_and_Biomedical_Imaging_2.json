@@ -1,0 +1,47 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the primary purpose of the initial high-position sweep?\nA. To capture the superior boundary of the target organ at the start of a systematic survey\nB. To find the best acoustic window by scanning high between ribs to minimize shadowing and improve image quality.\nC. To establish orientation by identifying nearby landmarks (e.g., diaphragm/pleura) before centering the target organ.\nD. To quickly screen for fluid or pathology superior to the organ (e.g., subphrenic or pleural) before detailed evaluation.",
+    "answer": "A",
+    "groundtruth": "The probe is positioned at the superior aspect of the liver and the beam is swept through the top intercostal space. The goal is to initiate the exam at the top of the liver and visualize its superior margin.",
+    "time_start": 0.33,
+    "time_end": 8.74,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, when the operator maintains the sweep angle rather than changing windows, what category of anatomy is being targeted?\nA. The organ\u2019s collecting system and major ductal drainage pathways\nB. The primary portal/inflow venous trunk and its segmental branches\nC. Major venous outflow channels within the organ\nD. Major arterial inflow branches supplying the organ",
+    "answer": "C",
+    "groundtruth": "The sweep angle is maintained to keep the imaging plane aligned for vascular visualization. The goal is to visualize the hepatic veins.",
+    "time_start": 21.88,
+    "time_end": 23.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, this segment shows a rapid reposition followed by a sustained, optimized view. What broader workflow objective is being addressed?\nA. Repositioning to establish a steady view for planned real-time needle guidance during a procedural intervention\nB. Positioning and holding a standardized plane to perform spectral Doppler sampling of a target vessel for velocity measurement\nC. Documenting a central vascular trunk and its branching in a stable plane\nD. Optimizing the acoustic window to obtain a stable long-axis view of a solid organ for parenchymal assessment",
+    "answer": "C",
+    "groundtruth": "The probe is repositioned to an inferior rib space to obtain the main portal vein, then the view is held and optimized to show its bifurcation into right-sided branches. This sequence focuses on documenting portal venous anatomy clearly in a stable intercostal window.",
+    "time_start": 24.58,
+    "time_end": 37.82,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what technique is used to make a tissue-brightness comparison more reliable?\nA. Freeze and compare two separate images acquired at different depths or insonation angles\nB. Switch to tissue harmonic imaging or a different preset to enhance contrast, then judge relative echogenicity\nC. Adjust overall gain or TGC between views until each structure appears optimally bright before comparing\nD. Keeping both tissues in the same image plane under the same settings for direct comparison",
+    "answer": "D",
+    "groundtruth": "The view of the hepatorenal interface is maintained. This allows comparison of liver parenchymal echogenicity relative to the kidney cortex.",
+    "time_start": 48.59,
+    "time_end": 53.71,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what examination behavior is emphasized in this later segment, and what is its main objective?\nA. Continuous sweeping to ensure complete volume coverage and avoid missing pathology\nB. Intermittent still-image acquisition with caliper measurements to document organ dimensions and standard anatomic landmarks\nC. Targeted fanning/rocking through a single region to optimize the insonation angle and better characterize a suspected finding\nD. Brief use of color Doppler over the area of interest to confirm vascularity and help differentiate vessels from nonvascular structures",
+    "answer": "A",
+    "groundtruth": "A continuous sweeping motion is maintained and the scan is taken through the entire liver volume. The purpose is dynamic interrogation with full organ coverage to avoid missing pathology.",
+    "time_start": 71.58,
+    "time_end": 82.51,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

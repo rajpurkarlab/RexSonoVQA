@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing at the very beginning, and what is the immediate objective?\nA. Selecting the appropriate ultrasound preset and adjusting depth/gain to optimize image quality before scanning.\nB. Applying graded compression to displace bowel gas and improve visualization of deeper structures.\nC. Activating color Doppler to assess flow and distinguish vascular structures from adjacent anatomy.\nD. Positioning the probe to begin imaging the target organ",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe on the right flank to initiate scanning of the right flank region and begin the right kidney exam.",
+    "time_start": 0.03,
+    "time_end": 1.85,
+    "original_question": "[MCQ] Based on the video clip, what is the operator doing at the very beginning, and what is the immediate objective?\nA. Positioning the probe to begin imaging the target organ\nB. Selecting the appropriate ultrasound preset and adjusting depth/gain to optimize image quality before scanning.\nC. Applying graded compression to displace bowel gas and improve visualization of deeper structures.\nD. Activating color Doppler to assess flow and distinguish vascular structures from adjacent anatomy.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nAt the very beginning of the clip, the screen is dark with very few echoes visible. Then, the image suddenly brightens and structures become visible. This transition indicates that the operator is adjusting the gain (brightness) and likely depth settings to bring the image into view and optimize it for scanning.",
+      "latency_ms": 4903.634309768677,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 1.82,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which workflow step is being performed to establish the main baseline view for the exam?\nA. Initial probe placement followed by small repositioning to obtain a long-axis (sagittal) view of the target organ\nB. Rotate the probe approximately 90° to obtain the orthogonal short-axis (transverse) view of the target organ.\nC. Apply color Doppler to confirm vascular anatomy and differentiate adjacent vessels before proceeding with measurements.\nD. Perform a systematic sweep through the organ in the current plane to assess the full extent of parenchyma.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is first placed on the right flank, then slid slightly posteriorly and oriented to obtain a sagittal view to visualize the right kidney in long axis.",
+    "time_start": 0.03,
+    "time_end": 9.23,
+    "original_question": "[MCQ] Based on the video clip, which workflow step is being performed to establish the main baseline view for the exam?\nA. Initial probe placement followed by small repositioning to obtain a long-axis (sagittal) view of the target organ\nB. Rotate the probe approximately 90° to obtain the orthogonal short-axis (transverse) view of the target organ.\nC. Perform a systematic sweep through the organ in the current plane to assess the full extent of parenchyma.\nD. Apply color Doppler to confirm vascular anatomy and differentiate adjacent vessels before proceeding with measurements.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video begins with no image, then the probe is placed on the patient, revealing a view of the kidney. The operator then makes small adjustments to the probe's position and angle to optimize the image, clearly establishing a standard long-axis (sagittal) view of the kidney as the baseline for the examination. There is no rotation to a short-axis view, color Doppler is not applied, and while there is some movement, it is primarily focused on optimizing the initial view rather than a full diagnostic sweep.",
+      "latency_ms": 5629.646062850952,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.200000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what patient-related optimization is being used, and why?\nA. Deep inspiration/breath-hold to shift anatomy and improve the acoustic window\nB. Valsalva maneuver to increase venous filling and make venous flow easier to assess\nC. End-expiratory breath-hold to minimize diaphragmatic motion and reduce image blur\nD. Left lateral decubitus positioning to bring the target structure closer to the transducer and improve the window",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "With the probe held in position, the patient performs a deep inspiration so the right kidney descends and the image becomes clearer due to improved displacement/window.",
+    "time_start": 9.26,
+    "time_end": 23.0,
+    "original_question": "[MCQ] Based on the video clip, what patient-related optimization is being used, and why?\nA. Deep inspiration/breath-hold to shift anatomy and improve the acoustic window\nB. End-expiratory breath-hold to minimize diaphragmatic motion and reduce image blur\nC. Left lateral decubitus positioning to bring the target structure closer to the transducer and improve the window\nD. Valsalva maneuver to increase venous filling and make venous flow easier to assess",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Deep inspiration/breath-hold to shift anatomy and improve the acoustic window\n\nExplanation:\nThe video shows the kidney and liver sliding inferiorly at the beginning of the clip and then remaining relatively stationary in that lower position. This downward displacement of abdominal organs occurs when the diaphragm contracts during a deep inspiration. This maneuver is commonly used to push subcostal organs (like the kidney, liver, or spleen) down below the rib cage, allowing for a better acoustic window unblocked by rib shadows or bowel gas.",
+      "latency_ms": 7162.250995635986,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.74,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what change in breathing management is being performed, and what is the purpose?\nA. Ending a breath-hold so the patient can resume normal breathing and relax\nB. Switching to an end-expiratory breath-hold to minimize motion and maintain consistent organ position for measurement.\nC. Initiating a deep-inspiration breath-hold to drop the diaphragm and improve the acoustic window.\nD. Asking the patient to perform a Valsalva maneuver to transiently increase venous filling and accentuate venous structures.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The patient is allowed to resume breathing after a breath-hold segment to relax before continuing the exam.",
+    "time_start": 34.49,
+    "time_end": 34.93,
+    "original_question": "[MCQ] Based on the video clip, what change in breathing management is being performed, and what is the purpose?\nA. Ending a breath-hold so the patient can resume normal breathing and relax\nB. Initiating a deep-inspiration breath-hold to drop the diaphragm and improve the acoustic window.\nC. Switching to an end-expiratory breath-hold to minimize motion and maintain consistent organ position for measurement.\nD. Asking the patient to perform a Valsalva maneuver to transiently increase venous filling and accentuate venous structures.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The video shows the right kidney and liver moving inferiorly as the diaphragm contracts and descends. This downward displacement of the abdominal organs is characteristic of a deep inspiration. This maneuver is commonly used in abdominal ultrasound to push organs like the liver and kidneys lower (out from under the rib cage) to obtain a better acoustic window and clearer visualization.",
+      "latency_ms": 6384.361982345581,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 0.4399999999999977,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe strategy is being used to improve image quality, and what is the goal?\nA. Switching to a lower-frequency curvilinear transducer to improve penetration and visualization of deeper structures.\nB. Applying gentle graded compression with the probe to displace bowel gas and improve delineation of the target.\nC. Rocking/tilting the probe to bring the region of interest into the center of the beam and reduce shadowing artifact.\nD. Repositioning to use an adjacent organ as an acoustic window to clarify the target",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator maneuvers the probe to use the liver as an acoustic window in order to obtain a clearer image of the adjacent right kidney.",
+    "time_start": 49.8,
+    "time_end": 57.59,
+    "original_question": "[MCQ] Based on the video clip, what probe strategy is being used to improve image quality, and what is the goal?\nA. Repositioning to use an adjacent organ as an acoustic window to clarify the target\nB. Switching to a lower-frequency curvilinear transducer to improve penetration and visualization of deeper structures.\nC. Rocking/tilting the probe to bring the region of interest into the center of the beam and reduce shadowing artifact.\nD. Applying gentle graded compression with the probe to displace bowel gas and improve delineation of the target.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video demonstrates the technique of applying gentle, graded compression with the transducer. As the clip progresses, you can visually see the tissue layers being pressed down, which displaces bowel gas (seen as bright, shadowing artifacts) and brings the deeper structures into clearer view. This is a common maneuver to improve image quality when bowel gas obscures the view.",
+      "latency_ms": 6168.235063552856,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.790000000000006,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver changes the imaging plane, and what is the goal?\nA. Rocking the probe (heel-toe) to optimize insonation angle without changing long vs short axis, to sharpen borders and reduce anisotropy.\nB. Sliding the probe (translating) to re-center the anatomy in the field of view, to keep the target in the midline for measurement or needle guidance.\nC. Rotating the probe 90° to convert from long-axis (sagittal) to short-axis (transverse) imaging\nD. Fanning (tilting) the probe to sweep through the target while staying in the same plane, to identify the structure along its course.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is rotated 90 degrees to convert the kidney view from sagittal (long axis) to transverse (short axis).",
+    "time_start": 67.9,
+    "time_end": 74.26,
+    "original_question": "[MCQ] Based on the video clip, what probe maneuver changes the imaging plane, and what is the goal?\nA. Rotating the probe 90° to convert from long-axis (sagittal) to short-axis (transverse) imaging\nB. Fanning (tilting) the probe to sweep through the target while staying in the same plane, to identify the structure along its course.\nC. Sliding the probe (translating) to re-center the anatomy in the field of view, to keep the target in the midline for measurement or needle guidance.\nD. Rocking the probe (heel-toe) to optimize insonation angle without changing long vs short axis, to sharpen borders and reduce anisotropy.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The video demonstrates the operator rotating the ultrasound probe approximately 90 degrees. Initially, the kidney is seen in its longitudinal (long) axis, appearing elongated. As the maneuver is performed, the view transitions to a transverse (short) axis view, where the kidney appears rounded in cross-section. This rotation is the classic maneuver to switch between orthogonal planes (longitudinal to transverse or vice-versa).",
+      "latency_ms": 6287.205934524536,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.359999999999999,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what broader workflow transition is occurring across this segment?\nA. Completing the current view and then moving the probe to a new anatomic region to begin a separate scanning window\nB. Repositioning the patient and then optimizing the probe window to regain a complete diagnostic view\nC. Transitioning from image acquisition to documentation by freezing and saving a representative still/cine loop for later review\nD. Shifting from B‑mode survey to targeted Doppler interrogation of flow after identifying the structure of interest",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The patient is rolled onto their side and the probe position is adjusted, then the operator maneuvers to use the liver as an acoustic window to obtain a clearer, more complete view of the right kidney.",
+    "time_start": 35.75,
+    "time_end": 57.59,
+    "original_question": "[MCQ] Based on the video clip, what broader workflow transition is occurring across this segment?\nA. Repositioning the patient and then optimizing the probe window to regain a complete diagnostic view\nB. Transitioning from image acquisition to documentation by freezing and saving a representative still/cine loop for later review\nC. Shifting from B‑mode survey to targeted Doppler interrogation of flow after identifying the structure of interest\nD. Completing the current view and then moving the probe to a new anatomic region to begin a separate scanning window",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Completing the current view and then moving the probe to a new anatomic region to begin a separate scanning window\n\nExplanation:\nThe video shows the clinician actively scanning a view (likely the right upper quadrant showing the liver and kidney interface, or Morison's pouch). After this acquisition phase, the clinician lifts the probe off the patient's skin (seen in the external camera view) and the ultrasound image feed ends/changes. This physical movement of lifting and relocating the probe signifies the completion of one view and the transition to acquire a new, separate anatomical window as part of a standard exam protocol (like a FAST exam).",
+      "latency_ms": 6169.46005821228,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 21.840000000000003,
+    "keep": true
+  }
+]

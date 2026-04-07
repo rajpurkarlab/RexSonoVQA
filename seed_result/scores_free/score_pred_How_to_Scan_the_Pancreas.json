@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what stage of the exam is the operator in while scanning broadly in one plane, and what is the broader objective of this segment?",
+    "answer": "They are in an initial survey phase in a single plane, using a broad sweep to orient to key landmarks and understand how surrounding structures affect the window for the pancreas.",
+    "groundtruth": "The operator surveys the longitudinal plane to orient to key landmarks (including the pancreas and major midline structures) and notes that adjacent bowel loops can obscure the pancreas.",
+    "time_start": 6.67,
+    "time_end": 19.93,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 6.67,
+    "original_time_end": 19.93,
+    "model_prediction": "The operator is in the initial survey/overview stage of the examination, performing a broad sweep within a single imaging plane.\nThe objective of this segment is to gain an overall orientation to the anatomy of the scanned region, identify gross visible key structures, and determine what areas require more targeted, detailed focused scanning next.",
+    "inference_metadata": {
+      "raw_response": "The operator is in the initial survey/overview stage of the examination, performing a broad sweep within a single imaging plane.\nThe objective of this segment is to gain an overall orientation to the anatomy of the scanned region, identify gross visible key structures, and determine what areas require more targeted, detailed focused scanning next.",
+      "latency_ms": 77570.71685791016,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 13.26,
+    "judge_explanation": "The AI correctly identifies the stage of the exam as an initial survey or broad sweep in a single plane. However, it fails to specifically identify the pancreas as the target organ for the window, providing only a generic reference to the 'scanned region' and 'anatomy', which violates the strictness override.",
+    "judge_error_type": "wrong_visual_evidence"
+  },
+  {
+    "question": "[FREE] Based on the video, what image-brightness controls are adjusted, and what is the purpose of making these changes at this point?",
+    "answer": "Global gain and the TGC controls are adjusted to balance near- and far-field brightness so the tissue appearance is appropriate and the target structures are not under- or over-gained.",
+    "groundtruth": "The operator adjusts overall gain and the TGC sliders to ensure brightness is distributed correctly through depth for the tissue characteristics during pancreas imaging.",
+    "time_start": 31.4,
+    "time_end": 36.98,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 31.4,
+    "original_time_end": 36.98,
+    "model_prediction": "The overall 2D gain (marked as \"G\" on the right-side parameter bar, which changes from 84 to 80 then to 82) is the brightness control adjusted, and imaging depth is also reduced to 12 cm to focus on the relevant field.\nThese adjustments optimize image brightness and contrast, to make the mid-upper field structure marked by the cursor and its adjacent tissues clearly visible (without overwashing or under-darkening areas) so the structure can be properly assessed for its morphological features.",
+    "inference_metadata": {
+      "raw_response": "The overall 2D gain (marked as \"G\" on the right-side parameter bar, which changes from 84 to 80 then to 82) is the brightness control adjusted, and imaging depth is also reduced to 12 cm to focus on the relevant field.\nThese adjustments optimize image brightness and contrast, to make the mid-upper field structure marked by the cursor and its adjacent tissues clearly visible (without overwashing or under-darkening areas) so the structure can be properly assessed for its morphological features.",
+      "latency_ms": 64411.858797073364,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.579999999999998,
+    "judge_explanation": "The AI correctly identifies the adjustment of overall/global gain and accurately describes the purpose of the adjustments (preventing over/under-gaining). However, it fails to identify the adjustment of the Time Gain Compensation (TGC) controls, which is a key part of the ground truth.",
+    "judge_error_type": "wrong_visual_evidence"
+  },
+  {
+    "question": "[FREE] Based on the video, after the plane change the operator holds a steady view. What imaging goal is being pursued by maintaining this plane?",
+    "answer": "They are maintaining a transverse pancreas view to demonstrate the gland across its breadth\u2014capturing the head, body, and at least part of the tail in a consistent short-axis plane.",
+    "groundtruth": "In the maintained transverse plane, the operator aims to visualize the pancreatic head, body, and part of the tail.",
+    "time_start": 47.88,
+    "time_end": 52.69,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 47.88,
+    "original_time_end": 52.69,
+    "model_prediction": "Maintaining this steady sagittal/longitudinal plane of the abdominal aorta allows for accurate measurement of the aorta's anterior-posterior diameter, assessment of the aortic wall for pathology like atherosclerotic plaques or dissection, and evaluation for the presence of an abdominal aortic aneurysm. This steady view avoids motion artifact to ensure reliable assessment of the aortic structure and any associated abnormalities.",
+    "inference_metadata": {
+      "raw_response": "Maintaining this steady sagittal/longitudinal plane of the abdominal aorta allows for accurate measurement of the aorta's anterior-posterior diameter, assessment of the aortic wall for pathology like atherosclerotic plaques or dissection, and evaluation for the presence of an abdominal aortic aneurysm. This steady view avoids motion artifact to ensure reliable assessment of the aortic structure and any associated abnormalities.",
+      "latency_ms": 37758.14175605774,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.809999999999995,
+    "judge_explanation": "The AI prediction incorrectly identifies the view as a sagittal/longitudinal plane of the abdominal aorta and its associated goals, whereas the ground truth states it is a transverse pancreas view aimed at demonstrating the gland across its breadth. Both the visual evidence and conclusion are incorrect.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video, what hands-on/physiologic optimization maneuvers are used to improve the view, and what problem are they intended to overcome?",
+    "answer": "The operator rocks the probe through angles and times the scan with respiratory changes to improve the acoustic window and reduce intermittent obscuration that can hide the pancreas.",
+    "groundtruth": "To maintain and improve visualization, the operator rocks cephalad/caudad and coordinates with changes in respiration to obtain a better window before returning to transverse imaging.",
+    "time_start": 57.01,
+    "time_end": 72.97,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 57.01,
+    "original_time_end": 72.97,
+    "model_prediction": "The maneuver used is graded, gentle compression applied via the ultrasound probe pressed against the abdominal wall.\nThis is intended to overcome obscuration of deeper abdominal/retroperitoneal structures (e.g., abdominal vascular structures) by overlying gas-filled bowel loops, which cause acoustic shadowing that blocks clear visualization of the underlying anatomy of interest.",
+    "inference_metadata": {
+      "raw_response": "The maneuver used is graded, gentle compression applied via the ultrasound probe pressed against the abdominal wall.\nThis is intended to overcome obscuration of deeper abdominal/retroperitoneal structures (e.g., abdominal vascular structures) by overlying gas-filled bowel loops, which cause acoustic shadowing that blocks clear visualization of the underlying anatomy of interest.",
+      "latency_ms": 208486.08708381653,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 15.96,
+    "judge_explanation": "The AI prediction incorrectly identifies the maneuver as graded compression to displace bowel gas, whereas the ground truth specifies rocking the probe and timing the scan with respiratory changes to view the pancreas.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the clip, what phase does the operator enter after optimizing the deeper view, and what is the purpose of the action taken at the end of the segment?",
+    "answer": "They transition from live scanning to review/documentation by freezing the image so key anatomy in the optimized view can be identified and assessed (including the pancreatic tail and adjacent vascular/landmark structures).",
+    "groundtruth": "After angling for a deeper view aimed at the pancreatic tail, the operator freezes the image for analysis to identify the tail of the pancreas and adjacent landmarks such as the spine, abdominal aorta, SMA, and the splenic vein joining the portal confluence.",
+    "time_start": 73.89,
+    "time_end": 101.18,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 73.89,
+    "original_time_end": 101.18,
+    "model_prediction": "After optimizing the deeper view, the operator enters the measurement/annotation phase. The cursor movement at the end of the segment is used to identify and select the fluid-filled (anechoic) tubular structure of interest, in order to measure its dimensions or mark it for clinical documentation and assessment.",
+    "inference_metadata": {
+      "raw_response": "After optimizing the deeper view, the operator enters the measurement/annotation phase. The cursor movement at the end of the segment is used to identify and select the fluid-filled (anechoic) tubular structure of interest, in order to measure its dimensions or mark it for clinical documentation and assessment.",
+      "latency_ms": 64420.806884765625,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 27.290000000000006,
+    "judge_explanation": "The AI correctly identifies that the operator enters a documentation/assessment phase, but incorrectly describes the visual evidence and specific action (cursor movement and measuring a tubular structure instead of freezing the image to assess the pancreatic tail and adjacent structures).",
+    "judge_error_type": "wrong_visual_evidence"
+  }
+]

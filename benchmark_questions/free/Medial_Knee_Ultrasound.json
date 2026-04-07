@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe translation is performed next, and what reference view is the operator trying to center?",
+    "answer": "The probe is slid distally to bring the joint line into the center of the image. The goal is to use the joint space as the primary reference point for the rest of the scan.",
+    "groundtruth": "The operator slides the probe distally to center the image over the joint space, using that joint space as the main reference landmark for the exam.",
+    "time_start": 5.47,
+    "time_end": 10.52,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what target structure is being highlighted as it spans across the joint line, and what is the scanning objective at this moment?",
+    "answer": "The operator is identifying the medial collateral ligament as the bright band spanning the joint. The objective is to clearly visualize the ligament as the key superficial stabilizing structure over the medial compartment.",
+    "groundtruth": "The scan focuses on the bright tissue bridging the joint space to identify the medial collateral ligament (MCL) as the key band crossing the joint.",
+    "time_start": 14.7,
+    "time_end": 20.89,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator inspects immediately deep to the main superficial band. What deeper landmark is being sought, and how does it help with interpretation at this level?",
+    "answer": "The medial meniscus is being visualized deep to the MCL. Seeing it (often with characteristic shading/shadowing) helps confirm the correct depth and location beneath the ligament at the medial joint line.",
+    "groundtruth": "The operator inspects the region deep to the MCL to visualize the medial meniscus beneath it, noting the characteristic shading/shadowing that helps identify that deeper landmark.",
+    "time_start": 21.25,
+    "time_end": 26.99,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what structure is being traced distally and what is the goal of following it along the bone?",
+    "answer": "The medial collateral ligament is traced distally along the tibia. The goal is to follow its broad, bright band appearance and assess its course/attachment while keeping it well visualized.",
+    "groundtruth": "The operator traces the MCL distally along the tibia, visualizing it as a broad, flat, bright band overlying the tibia during the distal follow.",
+    "time_start": 36.16,
+    "time_end": 45.66,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing while moving superiorly along the structure, and what abnormal finding are they specifically trying to exclude?",
+    "answer": "They are scanning superiorly along the ligament fibers to inspect the fibrillar pattern. The goal is to exclude discontinuity such as a break/tear or loss of normal tight striations.",
+    "groundtruth": "The probe is scanned superiorly along the MCL to inspect the fibers and look for signs of injury such as a break/tear or loss of tight striations.",
+    "time_start": 51.94,
+    "time_end": 60.41,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, summarize the coverage strategy being used for the targeted band-like structure and state the next logical assessment performed immediately afterward.",
+    "answer": "The operator systematically traces the band along its length and breadth (distal, posterior, then superior coverage) to evaluate the full structure. Next, they return to the joint line for a dynamic maneuver to check for fluid behavior with knee movement.",
+    "groundtruth": "The operator follows the MCL distally and then sweeps posteriorly and superiorly to cover its breadth and length; immediately afterward, the probe is positioned over the joint space to perform a dynamic knee-extension assessment for fluid movement.",
+    "time_start": 36.16,
+    "time_end": 81.03,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing while maintaining the probe at the joint line during patient movement, and what is the intended diagnostic payoff?",
+    "answer": "They keep the probe over the joint space during slow knee extension to provoke motion of any intra-articular fluid. The goal is to see a small pocket of fluid push/bubble out from the joint line during movement.",
+    "groundtruth": "With the probe positioned over the joint space, the patient extends the knee slowly so the operator can look for a small pocket of fluid that moves or bubbles out during the dynamic maneuver.",
+    "time_start": 60.8,
+    "time_end": 81.03,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

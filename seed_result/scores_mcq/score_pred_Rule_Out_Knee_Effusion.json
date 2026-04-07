@@ -1,0 +1,94 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial scanning action is shown, and what is the purpose?\nA. Adjusting probe angle and depth to optimize the acoustic window and bring the target structure into the center of the screen\nB. Sweeping in the same plane to survey adjacent soft tissues for pathology before committing to a focused view\nC. Applying color Doppler to confirm a nearby vessel and avoid mistaking vascular structures for the intended target\nD. Positioning to identify a superficial bony landmark and use it as an orientation reference for the rest of the exam",
+    "answer": "D",
+    "groundtruth": "The operator positions the probe to find the key bony landmark (the patella) and uses the resulting acoustic shadow/orientation to confirm correct initial setup before proceeding.",
+    "time_start": 1.07,
+    "time_end": 7.05,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 1.07,
+    "original_time_end": 7.05,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The hyperechoic structure with posterior acoustic shadowing on the right of the screen is a superficial bony landmark. The initial small probe positioning adjustments are done to clearly identify this bony structure, which is used as a reference point for orientation for the remainder of the ultrasound examination.",
+      "latency_ms": 102825.11019706726,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.9799999999999995
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization change is made, and why?\nA. Moving the focal zone deeper to sharpen the posterior wall and improve lateral resolution at the area of interest\nB. Reducing overall gain to decrease near-field clutter and improve contrast resolution of the target structure\nC. Increasing imaging depth to include deeper structures and the far bony contour in the field of view\nD. Lowering the transducer frequency to increase penetration when deeper structures are poorly visualized",
+    "answer": "C",
+    "groundtruth": "The operator increases the depth slightly to extend the field of view so the deeper bony contour (femur) becomes visible at the bottom, improving anatomic context.",
+    "time_start": 16.83,
+    "time_end": 26.26,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what optimization change is made, and why?\nA. Lowering the transducer frequency to increase penetration when deeper structures are poorly visualized\nB. Increasing imaging depth to include deeper structures and the far bony contour in the field of view\nC. Moving the focal zone deeper to sharpen the posterior wall and improve lateral resolution at the area of interest\nD. Reducing overall gain to decrease near-field clutter and improve contrast resolution of the target structure",
+    "original_answer": "B",
+    "original_time_start": 16.83,
+    "original_time_end": 26.26,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The two orange focal zone markers are seen moving deeper to the level of the hyperechoic posterior wall, which is the area of interest. Positioning focal zones at the depth of the target structure optimizes lateral resolution at that level, sharpening the posterior wall for improved evaluation.",
+      "latency_ms": 163256.56580924988,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 9.430000000000003
+  },
+  {
+    "question": "[MCQ] Based on the video segment, what phase of the exam is being performed, and what is the next logical objective?\nA. Use a key vascular landmark to confirm orientation, then apply color Doppler to verify venous flow patterns.\nB. Optimize depth and gain to center the target organ, then save a single still image for documentation.\nC. Obtain an orthogonal transverse view of the structure, then place calipers to document its maximal diameter.\nD. Establish orientation with a landmark, then perform a systematic sweep to evaluate for fluid in the target recess",
+    "answer": "D",
+    "groundtruth": "The sequence shows initial landmark identification, then soft-tissue targeting, a depth adjustment for adequate field of view, and a systematic fanning sweep with the broader goal of evaluating for joint fluid/effusion.",
+    "time_start": 1.07,
+    "time_end": 38.67,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video segment, what phase of the exam is being performed, and what is the next logical objective?\nA. Establish orientation with a landmark, then perform a systematic sweep to evaluate for fluid in the target recess\nB. Optimize depth and gain to center the target organ, then save a single still image for documentation.\nC. Use a key vascular landmark to confirm orientation, then apply color Doppler to verify venous flow patterns.\nD. Obtain an orthogonal transverse view of the structure, then place calipers to document its maximal diameter.",
+    "original_answer": "A",
+    "original_time_start": 1.07,
+    "original_time_end": 38.67,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The hyperechoic curved structure with distinct posterior acoustic shadowing visible is a rib, a standard landmark for pleural/chest ultrasound. After orientation using rib and pleural line landmarks, the next logical step is a systematic sweep to evaluate for abnormal fluid (e.g. pleural effusion) in the target pleural recesses.",
+      "latency_ms": 1740795.4568862915,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 37.6
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what corrective maneuver is performed, and what is the intended effect?\nA. Heel-toe rocking to make the beam more perpendicular so the apparent intratissue abnormality resolves\nB. Fanning/sweeping the transducer through the region to ensure a focal lesion is not missed across adjacent slices\nC. Activating color Doppler to assess for internal vascularity and distinguish a solid lesion from artifact\nD. Reducing overall gain and applying tissue harmonic imaging to decrease speckle and better delineate a true intratissue lesion",
+    "answer": "A",
+    "groundtruth": "The operator rocks the probe (heel-toe) to make the beam perpendicular to the tendon fibers, leading to disappearance of the anisotropic dark area.",
+    "time_start": 70.43,
+    "time_end": 77.08,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 70.43,
+    "original_time_end": 77.08,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows the probe being tilted in a heel-toe rocking motion, which adjusts the ultrasound beam angle to be more perpendicular to the tissue plane. This corrects for artifactual apparent intratissue abnormalities (such as anisotropy-related false findings), which resolve as the beam angle is optimized.",
+      "latency_ms": 233787.59098052979,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.6499999999999915
+  }
+]

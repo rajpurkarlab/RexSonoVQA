@@ -1,0 +1,94 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe placement/maneuver is being performed, and what acquisition goal does it serve for the rest of the exam?",
+    "answer": "The operator starts at the most distal posterior ankle and uses a strong bony landmark as a reference point. The goal is to identify the tendon’s distal attachment so the tendon can be followed and assessed from its insertion upward.",
+    "groundtruth": "The probe is placed at the distal posterior ankle to locate the calcaneal bone and then visualize the tendon’s insertion there, using the bright bony line with shadowing as the confirming landmark.",
+    "time_start": 0.53,
+    "time_end": 8.11,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 0.53,
+    "time_end_extended": 8.11,
+    "original_time_start": 0.53,
+    "original_time_end": 8.11,
+    "model_prediction": "Answer: The video demonstrates the probe placed in a **long-axis orientation** along the **supraspinatus tendon** of the shoulder.\n\n**Explanation:**\nThe visual evidence shows a hyperechoic, curvilinear bony cortex (the humeral head/greater tuberosity) with overlying soft tissue structures. The orange marker traces this bony interface, confirming the anatomical landmark. The goal of this initial placement is to visualize the **supraspinatus tendon** in its longitudinal plane, allowing for assessment of the tendon fibers from the musculotendinous junction to its insertion footprint on the greater tuberosity, which is essential for detecting tears or tendinopathy.",
+    "inference_metadata": {
+      "raw_response": "Answer: The video demonstrates the probe placed in a **long-axis orientation** along the **supraspinatus tendon** of the shoulder.\n\n**Explanation:**\nThe visual evidence shows a hyperechoic, curvilinear bony cortex (the humeral head/greater tuberosity) with overlying soft tissue structures. The orange marker traces this bony interface, confirming the anatomical landmark. The goal of this initial placement is to visualize the **supraspinatus tendon** in its longitudinal plane, allowing for assessment of the tendon fibers from the musculotendinous junction to its insertion footprint on the greater tuberosity, which is essential for detecting tears or tendinopathy.",
+      "latency_ms": 61748.33583831787,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what assessment is being performed while scanning, and what abnormal finding is the operator specifically trying to rule in/out?",
+    "answer": "The operator is surveying the tendon’s fiber continuity during the sweep. The goal is to detect or exclude a rupture by looking for a focal break in the normal continuous fiber pattern.",
+    "groundtruth": "While scanning, the operator inspects tissue integrity to evaluate for rupture, which would appear as interrupted longitudinal fibers with an intervening anechoic/echolucent gap.",
+    "time_start": 18.76,
+    "time_end": 27.6,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 18.76,
+    "time_end_extended": 27.6,
+    "original_time_start": 18.76,
+    "original_time_end": 27.6,
+    "model_prediction": "Answer: The assessment being performed is a **soft tissue ultrasound** evaluation for suspected infection. Based on the visual evidence of thickened subcutaneous tissue with hyperechoic stranding (the \"cobblestone\" sign), the operator is specifically trying to rule in or rule out an **abscess** (a drainable fluid collection) versus uncomplicated cellulitis.",
+    "inference_metadata": {
+      "raw_response": "Answer: The assessment being performed is a **soft tissue ultrasound** evaluation for suspected infection. Based on the visual evidence of thickened subcutaneous tissue with hyperechoic stranding (the \"cobblestone\" sign), the operator is specifically trying to rule in or rule out an **abscess** (a drainable fluid collection) versus uncomplicated cellulitis.",
+      "latency_ms": 53558.801889419556,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on this early sequence, what phase of the exam is the operator in, and what is the next logical scanning step after these actions?",
+    "answer": "This is the setup/landmarking and image-optimization phase to establish a reliable starting reference and appropriate near-field settings. Next, the operator proceeds to systematically follow the tendon along its length to evaluate it throughout.",
+    "groundtruth": "The operator first identifies the distal bony landmark and tendon insertion, then optimizes depth and focus for superficial imaging; the workflow then proceeds to tracing the tendon’s length for full evaluation.",
+    "time_start": 0.53,
+    "time_end": 10.49,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 0.53,
+    "time_end_extended": 10.49,
+    "original_time_start": 0.53,
+    "original_time_end": 10.49,
+    "model_prediction": "Answer: The operator is currently performing a **long-axis survey of the supraspinatus tendon**, sweeping along the tendon footprint on the greater tuberosity of the humerus. The next logical scanning step is to **rotate the probe 90 degrees** to obtain a **short-axis (transverse) view** of the supraspinatus tendon to assess its width and integrity in the orthogonal plane.",
+    "inference_metadata": {
+      "raw_response": "Answer: The operator is currently performing a **long-axis survey of the supraspinatus tendon**, sweeping along the tendon footprint on the greater tuberosity of the humerus. The next logical scanning step is to **rotate the probe 90 degrees** to obtain a **short-axis (transverse) view** of the supraspinatus tendon to assess its width and integrity in the orthogonal plane.",
+      "latency_ms": 53412.08291053772,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what optimization/verification approach is being used to improve diagnostic confidence, and what problem is it intended to address?",
+    "answer": "The operator continues assessing the tendon in an orthogonal (cross-sectional) view to better characterize internal contour and fiber organization. This helps avoid missing subtle focal deformities that may be less apparent when viewed in only one plane.",
+    "groundtruth": "The scan continues in transverse to examine the tendon’s cross-section for deformities within the fibers, using the short-axis view to evaluate internal integrity.",
+    "time_start": 41.78,
+    "time_end": 47.69,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 41.78,
+    "time_end_extended": 47.69,
+    "original_time_start": 41.78,
+    "original_time_end": 47.69,
+    "model_prediction": "Answer: The video demonstrates the activation of **Tissue Harmonic Imaging (THI)** (or potentially Spatial Compound Imaging). This optimization is intended to address **acoustic clutter and speckle noise**, which improves **contrast resolution** and sharpens tissue boundaries, allowing for better characterization of the thyroid nodule's internal structure (e.g., distinguishing true cystic components from artifactual echoes).",
+    "inference_metadata": {
+      "raw_response": "Answer: The video demonstrates the activation of **Tissue Harmonic Imaging (THI)** (or potentially Spatial Compound Imaging). This optimization is intended to address **acoustic clutter and speckle noise**, which improves **contrast resolution** and sharpens tissue boundaries, allowing for better characterization of the thyroid nodule's internal structure (e.g., distinguishing true cystic components from artifactual echoes).",
+      "latency_ms": 163173.4549999237,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

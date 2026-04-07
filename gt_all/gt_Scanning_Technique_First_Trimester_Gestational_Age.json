@@ -1,0 +1,44 @@
+[
+  {
+    "start": 0.21,
+    "end": 7.02,
+    "action": "Place the probe in the transverse orientation just above the pubic bone. Aim the beam deep into the pelvis.",
+    "interpretation": "Identify the bladder as the first anatomical landmark."
+  },
+  {
+    "start": 7.62,
+    "end": 19.09,
+    "action": "Confidently identify the bladder above the vaginal stripe. Tilt the top of the transducer towards the feet.",
+    "interpretation": "Visualize the uterus coming into view and ideally identify a fetus within it."
+  },
+  {
+    "start": 20.47,
+    "end": 24.51,
+    "action": "Prepare to perform the crown-rump length (CRL) measurement.",
+    "interpretation": "Establish this as the easiest measurement for first trimester gestational age."
+  },
+  {
+    "start": 25.29,
+    "end": 31.25,
+    "action": "Maneuver the probe to elongate the fetal view.",
+    "interpretation": "Obtain the maximal pole of the crown-rump distance."
+  },
+  {
+    "start": 32.09,
+    "end": 35.68,
+    "action": "Fan the probe around and rotate. Adjust until confident the maximal length is captured.",
+    "interpretation": "Identify the true longitudinal axis of the fetus."
+  },
+  {
+    "start": 36.4,
+    "end": 45.58,
+    "action": "Quickly freeze the scan. Cine ('sinney') back through the frames.",
+    "interpretation": "Locate the specific frame that demonstrates the best pole for measurement."
+  },
+  {
+    "start": 46.69,
+    "end": 56.31,
+    "action": "Activate calipers for CRL. Place one caliper pixel at the top (crown) and one pixel at the bottom (rump).",
+    "interpretation": "Calculate the estimated gestational age (e.g., 12 weeks, 2 days)."
+  }
+]

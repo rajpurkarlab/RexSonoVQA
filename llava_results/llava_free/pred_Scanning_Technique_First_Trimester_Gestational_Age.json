@@ -1,0 +1,102 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe adjustment is performed after the initial landmark is identified, and what view is it intended to bring into frame?",
+    "answer": "The operator tilts/angles the probe toward the feet to bring the uterus into view and, if present, identify the fetus within it.",
+    "groundtruth": "After identifying the bladder, the operator tilts the transducer toward the feet to bring the uterus into view and ideally visualize a fetus within it.",
+    "time_start": 7.62,
+    "time_end": 19.09,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 7.62,
+    "time_end_extended": 19.09,
+    "original_time_start": 7.62,
+    "original_time_end": 19.09,
+    "model_prediction": "The probe is adjusted to bring the fetal head into a more central view, and it is intended to bring the fetal heart into frame.",
+    "inference_metadata": {
+      "raw_response": "The probe is adjusted to bring the fetal head into a more central view, and it is intended to bring the fetal heart into frame.",
+      "latency_ms": 9349.774360656738,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what part of the overall workflow is being set up, and what imaging condition must be achieved before placing measurement markers?",
+    "answer": "They are setting up for the first-trimester dating measurement (CRL). Before placing markers, they optimize the plane by elongating the fetal view and adjusting until the true long axis/maximal end-to-end length is captured.",
+    "groundtruth": "The operator transitions into crown–rump length measurement setup and manipulates the probe to elongate the fetal view, then fans/rotates to ensure the true longitudinal axis and maximal crown–rump distance are captured before measuring.",
+    "time_start": 20.47,
+    "time_end": 35.68,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 20.47,
+    "time_end_extended": 35.68,
+    "original_time_start": 20.47,
+    "original_time_end": 35.68,
+    "model_prediction": "The video clip is setting up the initial phase of the ultrasound examination, where the fetus and surrounding anatomy are visualized. The imaging condition that must be achieved before placing measurement markers is a clear and stable image of the fetus, which allows for accurate assessment and measurement.",
+    "inference_metadata": {
+      "raw_response": "The video clip is setting up the initial phase of the ultrasound examination, where the fetus and surrounding anatomy are visualized. The imaging condition that must be achieved before placing measurement markers is a clear and stable image of the fetus, which allows for accurate assessment and measurement.",
+      "latency_ms": 12164.815187454224,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] This clip shows the target not yet displayed at its maximal end-to-end span. What optimization maneuver is performed, and why does it matter?",
+    "answer": "The probe is maneuvered to elongate the fetal view so the maximal crown-to-rump distance is shown, reducing foreshortening and improving measurement accuracy.",
+    "groundtruth": "The operator adjusts probe position/angle to elongate the fetal view to obtain the maximal crown–rump distance for an accurate CRL measurement.",
+    "time_start": 25.29,
+    "time_end": 31.25,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 25.29,
+    "time_end_extended": 31.25,
+    "original_time_start": 25.29,
+    "original_time_end": 31.25,
+    "model_prediction": "The optimization maneuver performed is tilting the transducer. This matters because it helps to obtain a better view of the fetal spine, which is the target structure in this clip.",
+    "inference_metadata": {
+      "raw_response": "The optimization maneuver performed is tilting the transducer. This matters because it helps to obtain a better view of the fetal spine, which is the target structure in this clip.",
+      "latency_ms": 9931.169509887695,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what machine interaction is performed to refine the chosen image for measurement, and why is it used?",
+    "answer": "The operator freezes the live scan and then scrolls/cines through the saved frames to select the single frame that best shows the fetal poles for accurate measurement.",
+    "groundtruth": "The scan is frozen and cine review is used to move back through frames to choose the best frame demonstrating the optimal pole-to-pole view for measurement.",
+    "time_start": 36.4,
+    "time_end": 45.58,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 36.4,
+    "time_end_extended": 45.58,
+    "original_time_start": 36.4,
+    "original_time_end": 45.58,
+    "model_prediction": "The machine interaction performed is the use of a measurement tool, indicated by a circle and line, to measure the diameter of a structure within the fetal abdomen. This tool is used to obtain accurate measurements for assessing fetal development or detecting any abnormalities.",
+    "inference_metadata": {
+      "raw_response": "The machine interaction performed is the use of a measurement tool, indicated by a circle and line, to measure the diameter of a structure within the fetal abdomen. This tool is used to obtain accurate measurements for assessing fetal development or detecting any abnormalities.",
+      "latency_ms": 11366.951704025269,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  }
+]

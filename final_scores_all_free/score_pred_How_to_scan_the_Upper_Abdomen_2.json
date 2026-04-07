@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is being performed to recover/maintain a clear view, and what imaging limitation is it trying to overcome?",
+    "answer": "The probe is slid superiorly and inferiorly between adjacent intercostal spaces. This changes the insonation path to avoid intermittent obstruction and maintain a clearer view of the liver parenchyma.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The probe is moved up and down between rib spaces to obtain a better angle on the liver parenchyma and reduce rib-shadow interference.",
+    "time_start": 13.45,
+    "time_end": 20.07,
+    "model_prediction": "Based on the video clip, the sonographer is asking the patient to take a deep breath (inspiration) to recover the view. This maneuver is used to overcome the imaging limitation caused by the lung curtain (specifically, air in the lung base) obscuring the superior aspect of the liver, pushing the liver inferiorly so it can be seen clearly below the ribs.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is asking the patient to take a deep breath (inspiration) to recover the view. This maneuver is used to overcome the imaging limitation caused by the lung curtain (specifically, air in the lung base) obscuring the superior aspect of the liver, pushing the liver inferiorly so it can be seen clearly below the ribs.",
+      "latency_ms": 5857.283115386963,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.620000000000001,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as a patient instruction (deep breath/inspiration) rather than the physical probe movement (sliding superiorly and inferiorly between intercostal spaces) described in the ground truth. Consequently, the explanation of the mechanism (pushing liver down vs changing insonation path) is also incorrect based on the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparison is being made between two adjacent tissues, and what is the clinical purpose of that comparison?",
+    "answer": "The echogenicity of the renal cortex is compared with adjacent liver parenchyma at the hepato-renal interface. This helps assess for abnormal renal cortical brightness versus the liver (e.g., ensuring the kidney is slightly darker or similar).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface, confirming the kidney is slightly darker (hypoechoic) or about the same as the liver.",
+    "time_start": 36.15,
+    "time_end": 48.24,
+    "model_prediction": "Based on the video clip, the comparison being made is the echogenicity of the renal cortex (kidney) relative to the adjacent liver parenchyma. This is the hepatorenal recess (Morison's pouch) view, and the clinical purpose is to assess for renal parenchymal disease; normally, the renal cortex should be hypoechoic (darker) or isoechoic to the liver, but increased echogenicity (brighter than liver) suggests medical renal disease.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the comparison being made is the echogenicity of the renal cortex (kidney) relative to the adjacent liver parenchyma. This is the hepatorenal recess (Morison's pouch) view, and the clinical purpose is to assess for renal parenchymal disease; normally, the renal cortex should be hypoechoic (darker) or isoechoic to the liver, but increased echogenicity (brighter than liver) suggests medical renal disease.",
+      "latency_ms": 6739.7520542144775,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 12.090000000000003,
+    "judge_explanation": "The AI correctly identifies the comparison between the renal cortex and liver parenchyma echogenicity and accurately explains the clinical purpose of assessing for renal parenchymal disease based on relative brightness.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video segment, what workflow transition is shown (including the view/orientation change and patient context), and what is the reason for doing both steps?",
+    "answer": "The probe is rotated to a transverse orientation while scanning intercostally to re-check the liver in another plane, then the scan transitions to evaluating the right kidney with the patient supine to confirm it still appears grossly normal.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator rotates to a transverse intercostal view to inspect the liver for masses that might be missed otherwise, then transitions to scanning the right kidney in the supine position to reconfirm it appears grossly normal.",
+    "time_start": 51.78,
+    "time_end": 75.56,
+    "model_prediction": "Based on the video, the workflow transition shown is moving from a subcostal/intercostal view of the liver and hepatorenal recess (Morison's pouch) to a coronal view of the right kidney in the right flank.\n\n**Explanation:**\n1.  **Initial View:** The clip begins with the probe positioned to visualize the liver and the interface between the liver and right kidney (Morison's pouch), which is the standard primary view for assessing free fluid in the Right Upper Quadrant (RUQ) during a FAST exam.\n2.  **Transition:** The probe is then moved inferiorly and potentially more posterior-laterally towards the patient's flank.\n3.  **Final View:** The view settles on a dedicated, long-axis view of the right kidney itself.\n4.  **Reasoning:** This two-step process is critical because while Morison's pouch is the most sensitive area for free fluid (hemoperitoneum), it does not rule out all pathology. Moving to the dedicated kidney view allows the clinician to assess for other issues like hydronephrosis (fluid backup in the kidney) or intrinsic renal pathology, ensuring a comprehensive assessment of the right flank anatomy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the workflow transition shown is moving from a subcostal/intercostal view of the liver and hepatorenal recess (Morison's pouch) to a coronal view of the right kidney in the right flank.\n\n**Explanation:**\n1.  **Initial View:** The clip begins with the probe positioned to visualize the liver and the interface between the liver and right kidney (Morison's pouch), which is the standard primary view for assessing free fluid in the Right Upper Quadrant (RUQ) during a FAST exam.\n2.  **Transition:** The probe is then moved inferiorly and potentially more posterior-laterally towards the patient's flank.\n3.  **Final View:** The view settles on a dedicated, long-axis view of the right kidney itself.\n4.  **Reasoning:** This two-step process is critical because while Morison's pouch is the most sensitive area for free fluid (hemoperitoneum), it does not rule out all pathology. Moving to the dedicated kidney view allows the clinician to assess for other issues like hydronephrosis (fluid backup in the kidney) or intrinsic renal pathology, ensuring a comprehensive assessment of the right flank anatomy.",
+      "latency_ms": 8294.32988166809,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 23.78,
+    "judge_explanation": "The AI correctly identifies the transition to evaluating the right kidney. However, it misses the specific maneuver described in the ground truth: rotating the probe to a transverse orientation while scanning intercostally to re-check the liver in another plane. The AI describes a direct move inferiorly rather than the specific rotation and multi-planar assessment of the liver mentioned in the ground truth.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video segment, after the adjacent organ is brought into view, what are the two immediate assessment steps being performed, and what is the overall intent?",
+    "answer": "First the right kidney is assessed for gross normal appearance, then its cortical echogenicity is compared with the adjacent liver at the hepato-renal interface. Together this screens for obvious renal abnormalities and abnormal cortical brightness relative to the liver.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "Once the right kidney is visualized, the operator focuses on its structure to confirm it appears grossly normal and then compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface.",
+    "time_start": 32.08,
+    "time_end": 48.24,
+    "model_prediction": "Based on the video, the user is first performing a scan of the right kidney (the adjacent organ) in the longitudinal axis, followed immediately by rotating the probe 90 degrees to view the kidney in the transverse axis. The overall intent is to visualize the entirety of the kidney in two orthogonal planes to rule out hydronephrosis or other gross pathology.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the user is first performing a scan of the right kidney (the adjacent organ) in the longitudinal axis, followed immediately by rotating the probe 90 degrees to view the kidney in the transverse axis. The overall intent is to visualize the entirety of the kidney in two orthogonal planes to rule out hydronephrosis or other gross pathology.",
+      "latency_ms": 6017.254829406738,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.160000000000004,
+    "judge_explanation": "The AI describes a generic scanning protocol (scanning longitudinal then rotating to transverse) which contradicts the specific assessment steps described in the ground truth. The ground truth specifies that the steps are assessing gross appearance and comparing cortical echogenicity with the adjacent liver, not rotating the probe. Consequently, the stated intent also differs.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what motion-related sign is the operator assessing at the key interface, and what clinical conclusion is being made from it?",
+    "answer": "They are watching for visible sliding/shimmering motion of the pleural interface. Seeing this supports pleural apposition and is used to exclude pneumothorax at that site.",
+    "groundtruth": "The operator observes the pleural line for shimmering (lung sliding) to confirm pleural movement and concludes there is no pneumothorax based on the presence of sliding.",
+    "time_start": 7.4,
+    "time_end": 16.84,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what imaging mode change is being initiated, and why would this help confirm what was seen in real-time imaging?",
+    "answer": "They are switching from standard 2D viewing to motion mode (M-mode). This provides an objective time-based record to confirm true motion at the interface rather than relying only on subjective real-time appearance.",
+    "groundtruth": "The operator prepares to change to M-mode to objectively confirm pleural motion that was observed in 2D imaging.",
+    "time_start": 27.04,
+    "time_end": 32.68,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what stabilization maneuver is performed during motion-mode acquisition, and what image-quality problem is it meant to prevent?",
+    "answer": "The probe is held completely still and the image is frozen to capture the tracing. This minimizes operator-induced motion that would blur or falsely distort the motion-mode pattern.",
+    "groundtruth": "The operator holds the probe absolutely still to maintain the slice and then freezes the image, ensuring the M-mode tracing is clear and not corrupted by artifactual probe motion.",
+    "time_start": 38.57,
+    "time_end": 43.91,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, summarize the multi-step transition that occurs and state the next intended output the operator is trying to obtain for interpretation.",
+    "answer": "They transition into motion mode, position the sampling line over the key interface, then keep the probe steady and freeze. The goal is to produce a clean M-mode tracing that can be interpreted as objective evidence of motion versus no motion.",
+    "groundtruth": "The operator moves from planning M-mode to placing the M-mode cursor over the pleural line, then holds the probe steady and freezes to capture a stable M-mode tracing for interpretation.",
+    "time_start": 27.04,
+    "time_end": 43.91,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

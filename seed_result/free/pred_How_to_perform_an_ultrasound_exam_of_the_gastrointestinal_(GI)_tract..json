@@ -1,0 +1,211 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what scanning objective is pursued while staying on the same organ, and what feature is being evaluated as the scan progresses?",
+    "answer": "The operator inspects the organ’s wall and lumen, assessing luminal content and how the wall appearance changes as they scan toward its distal end (where it appears thicker).",
+    "groundtruth": "The operator inspects the stomach wall and lumen while scanning toward the distal end, noting intraluminal air and that the walling becomes thicker as it extends toward the pillars.",
+    "time_start": 12.1,
+    "time_end": 22.63,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 12.1,
+    "original_time_end": 22.63,
+    "model_prediction": "The scanning objective is dynamic lung ultrasound assessment with the probe held stationary over a fixed chest wall position. The feature being evaluated is pleural sliding: the normal rhythmic movement of the visceral pleura against the parietal pleura during respiration, which confirms normal pleural apposition and rules out pneumothorax at the scanned location.",
+    "inference_metadata": {
+      "raw_response": "The scanning objective is dynamic lung ultrasound assessment with the probe held stationary over a fixed chest wall position. The feature being evaluated is pleural sliding: the normal rhythmic movement of the visceral pleura against the parietal pleura during respiration, which confirms normal pleural apposition and rules out pneumothorax at the scanned location.",
+      "latency_ms": 42857.47480392456,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what transition is being made in the exam, and what target is being sought immediately after leaving the prior view?",
+    "answer": "They move from the first upper-GI target to the next adjacent segment, aiming to identify the duodenum as the next structure in sequence.",
+    "groundtruth": "The scan advances from the prior stomach view to the next consecutive structure in order to identify the duodenum.",
+    "time_start": 27.3,
+    "time_end": 31.48,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 27.3,
+    "original_time_end": 31.48,
+    "model_prediction": "The probe is moved inferiorly (caudally) away from the initial view of gas-filled colon (evidenced by the hyperechoic line with distal acoustic shadowing characteristic of bowel gas). The target being sought immediately after this transition is the ipsilateral kidney (renal parenchyma, the abdominal renal structure deep to the colon).",
+    "inference_metadata": {
+      "raw_response": "The probe is moved inferiorly (caudally) away from the initial view of gas-filled colon (evidenced by the hyperechoic line with distal acoustic shadowing characteristic of bowel gas). The target being sought immediately after this transition is the ipsilateral kidney (renal parenchyma, the abdominal renal structure deep to the colon).",
+      "latency_ms": 55608.941078186035,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what comparative assessment is used to confirm the newly targeted bowel segment, and why does it help reduce confusion with the preceding segment?",
+    "answer": "They evaluate the lumen and wall pattern—looking for a more air-dominant appearance with subtler, less muscular walling—because this differentiates it from the prior, thicker-walled segment.",
+    "groundtruth": "The operator analyzes the duodenum’s appearance, noting an air-containing structure with subtle walling and less muscular wall compared with the previous structure to support correct identification.",
+    "time_start": 32.52,
+    "time_end": 39.79,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 32.52,
+    "original_time_end": 39.79,
+    "model_prediction": "The comparative assessment is observation of peristaltic (bowel wall) motility between the segments.\nThe newly targeted deeper bowel segment demonstrates active, spontaneous contraction and relaxation (peristalsis), while the preceding superficial segment adjacent to the hyperechoic shadowing focus does not show this distinct peristaltic activity. This clear difference in movement confirms the two are separate segments, reducing confusion between them.",
+    "inference_metadata": {
+      "raw_response": "The comparative assessment is observation of peristaltic (bowel wall) motility between the segments.\nThe newly targeted deeper bowel segment demonstrates active, spontaneous contraction and relaxation (peristalsis), while the preceding superficial segment adjacent to the hyperechoic shadowing focus does not show this distinct peristaltic activity. This clear difference in movement confirms the two are separate segments, reducing confusion between them.",
+      "latency_ms": 153428.58409881592,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, this segment shows a shift from using a central landmark view to a more loop-focused survey. What phase of the exam is this, and what is the next target region?",
+    "answer": "This is the transition into surveying small-bowel loops, moving from an epigastric landmark-centered view to finding jejunal/small-intestine segments in the lower epigastrium.",
+    "groundtruth": "After centering the pancreatic head, the operator maneuvers the probe toward the lower epigastrium to locate jejunal and other small-intestine segments as part of the small-bowel survey.",
+    "time_start": 41.05,
+    "time_end": 60.26,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 41.05,
+    "original_time_end": 60.26,
+    "model_prediction": "This is the secondary abdominal survey phase, typically part of a focused abdominal (e.g. FAST) or general abdominal ultrasound exam, after initial assessment of the central midline vascular/structural landmarks.\n\nThe next target region is usually the right upper quadrant (hepatorenal recess/Morrison's pouch, the most common dependent site for intra-abdominal free fluid) or sequential small bowel loops across all four abdominal quadrants if performing a bowel pathology-focused survey.",
+    "inference_metadata": {
+      "raw_response": "This is the secondary abdominal survey phase, typically part of a focused abdominal (e.g. FAST) or general abdominal ultrasound exam, after initial assessment of the central midline vascular/structural landmarks.\n\nThe next target region is usually the right upper quadrant (hepatorenal recess/Morrison's pouch, the most common dependent site for intra-abdominal free fluid) or sequential small bowel loops across all four abdominal quadrants if performing a bowel pathology-focused survey.",
+      "latency_ms": 491146.30603790283,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what patient cooperation maneuver is being used to stabilize the image, and what specific assessment does this enable?",
+    "answer": "A breath-hold is used to reduce respiratory motion, allowing clearer confirmation that bowel-loop peristalsis is very subtle.",
+    "groundtruth": "The operator has the patient hold their breath while focusing on a bowel loop to confirm that peristalsis is very subtle.",
+    "time_start": 73.56,
+    "time_end": 81.36,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 73.56,
+    "original_time_end": 81.36,
+    "model_prediction": "The maneuver is voluntary suspended respiration (breath holding) by the patient.\nThis eliminates respiratory motion artifact that blurs intra-abdominal structures, allowing stable, clear assessment of the gastrointestinal tract wall (including its layer structure, thickness, and any focal abnormalities) free of breathing-related movement distortion.",
+    "inference_metadata": {
+      "raw_response": "The maneuver is voluntary suspended respiration (breath holding) by the patient.\nThis eliminates respiratory motion artifact that blurs intra-abdominal structures, allowing stable, clear assessment of the gastrointestinal tract wall (including its layer structure, thickness, and any focal abnormalities) free of breathing-related movement distortion.",
+      "latency_ms": 129344.94996070862,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what is being evaluated while the operator holds on this segment, and what dynamic sign is noted as reduced?",
+    "answer": "They are evaluating bowel motility, and the observed peristalsis is minimal.",
+    "groundtruth": "The operator visualizes the ileum and notes there is not much peristalsis present.",
+    "time_start": 95.29,
+    "time_end": 101.13,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 95.29,
+    "original_time_end": 101.13,
+    "model_prediction": "The operator is evaluating a segment of small bowel, specifically assessing for peristalsis. The reduced dynamic sign observed is peristaltic activity: there is little to no visible spontaneous contraction/movement of the bowel wall and lumen of the visualized bowel loop.",
+    "inference_metadata": {
+      "raw_response": "The operator is evaluating a segment of small bowel, specifically assessing for peristalsis. The reduced dynamic sign observed is peristaltic activity: there is little to no visible spontaneous contraction/movement of the bowel wall and lumen of the visualized bowel loop.",
+      "latency_ms": 200937.11280822754,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, after shifting laterally on the lower abdomen, what larger-bowel region is being brought into view, and what identifying feature supports the target?",
+    "answer": "They are identifying the ascending colon/cecum, supported by an air-filled lumen with subtle, less distinct walling compared with small bowel.",
+    "groundtruth": "The operator moves to the outer right lower abdomen and identifies an air-filled structure with subtle, less distinct walling consistent with the ascending colon and cecum.",
+    "time_start": 103.41,
+    "time_end": 119.53,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 103.41,
+    "original_time_end": 119.53,
+    "model_prediction": "The larger-bowel region brought into view is the sigmoid colon, in the left lower quadrant when shifting laterally on the lower abdomen.\nThe identifying feature supporting this is the characteristic sacculated haustral pattern of the colonic wall, the distinct segmented outpouching appearance unique to the large intestine that differentiates it from adjacent small bowel.",
+    "inference_metadata": {
+      "raw_response": "The larger-bowel region brought into view is the sigmoid colon, in the left lower quadrant when shifting laterally on the lower abdomen.\nThe identifying feature supporting this is the characteristic sacculated haustral pattern of the colonic wall, the distinct segmented outpouching appearance unique to the large intestine that differentiates it from adjacent small bowel.",
+      "latency_ms": 442842.7619934082,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what probe maneuver is demonstrated while tracking a continuous luminal structure across the abdomen, and what segment is being traced?",
+    "answer": "The operator tilts/rocks the probe to keep the same continuous structure in view while following it across the abdomen, tracing the transverse colon.",
+    "groundtruth": "The operator tilts the probe and follows the continuous air-containing structure through the mid-abdomen to the other side to identify the transverse colon.",
+    "time_start": 131.68,
+    "time_end": 149.43,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 131.68,
+    "original_time_end": 149.43,
+    "model_prediction": "The maneuver demonstrated is linear probe sliding (translational movement) along the course of the luminal structure to maintain visualization of it as it traverses the abdomen.\nThe segment being traced is the colon (large intestine): it appears as a hyperechoic (bright) lumen with dense posterior acoustic shadowing from intraluminal gas, consistent with normal colonic sonographic appearance.",
+    "inference_metadata": {
+      "raw_response": "The maneuver demonstrated is linear probe sliding (translational movement) along the course of the luminal structure to maintain visualization of it as it traverses the abdomen.\nThe segment being traced is the colon (large intestine): it appears as a hyperechoic (bright) lumen with dense posterior acoustic shadowing from intraluminal gas, consistent with normal colonic sonographic appearance.",
+      "latency_ms": 492461.65585517883,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video sequence, what workflow step is being performed from the right lower abdomen through the upper abdomen and toward the other side, and what indicates success?",
+    "answer": "They are tracing the large bowel from the right-sided segment up through the right flexure and then across the abdomen; success is reaching the contralateral side while maintaining continuity of the same luminal structure.",
+    "groundtruth": "The operator identifies the right-sided large bowel, moves to the right upper quadrant to visualize the right colonic flexure, and then tilts to follow the continuous structure across the abdomen to identify the transverse colon crossing to the other side.",
+    "time_start": 103.41,
+    "time_end": 149.43,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 103.41,
+    "original_time_end": 149.43,
+    "model_prediction": "This is a systematic transverse abdominal sweep, performed as part of a general abdominal ultrasound or eFAST/FAST exam, to survey all abdominal quadrants for pathology including intraperitoneal free fluid, free air, or abnormal masses.\nSuccess is indicated by adequate, unobscured visualization of the target abdominal viscera and peritoneal spaces, without excessive bowel gas shadowing or other artifact preventing accurate interpretation of the imaged regions.",
+    "inference_metadata": {
+      "raw_response": "This is a systematic transverse abdominal sweep, performed as part of a general abdominal ultrasound or eFAST/FAST exam, to survey all abdominal quadrants for pathology including intraperitoneal free fluid, free air, or abnormal masses.\nSuccess is indicated by adequate, unobscured visualization of the target abdominal viscera and peritoneal spaces, without excessive bowel gas shadowing or other artifact preventing accurate interpretation of the imaged regions.",
+      "latency_ms": 1672626.8038749695,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what breathing pattern is used between scanning positions, and why is it used before evaluating the next upper-quadrant region?",
+    "answer": "The patient is brought from exhalation back into a deep inspiratory breath-hold to reposition the abdominal contents and stabilize the window for the next upper-quadrant target.",
+    "groundtruth": "The operator has the patient exhale and then take another deep breath to prepare for visualization of left upper quadrant structures.",
+    "time_start": 151.07,
+    "time_end": 154.13,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 151.07,
+    "original_time_end": 154.13,
+    "model_prediction": "The breathing pattern used is a deep inspiratory breath hold (the patient takes a deep breath in and holds their breath before scanning the next region).\nThis maneuver pushes the diaphragm inferiorly, displacing upper quadrant abdominal organs (like the liver or spleen) lower, out from underneath the rib cage, to reduce rib-related acoustic shadowing and improve visualization of the target upper abdominal structures for evaluation.",
+    "inference_metadata": {
+      "raw_response": "The breathing pattern used is a deep inspiratory breath hold (the patient takes a deep breath in and holds their breath before scanning the next region).\nThis maneuver pushes the diaphragm inferiorly, displacing upper quadrant abdominal organs (like the liver or spleen) lower, out from underneath the rib cage, to reduce rib-related acoustic shadowing and improve visualization of the target upper abdominal structures for evaluation.",
+      "latency_ms": 142496.51098251343,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what combination of probe maneuvers is used to maintain a cross-sectional view while advancing along the flank, and what anatomical transition is being followed?",
+    "answer": "They tilt/adjust to keep a cross-sectional plane and slide inferiorly along the flank to follow the descending colon down to where it transitions into the sigmoid colon toward midline.",
+    "groundtruth": "The operator tilts to obtain a cross-section and slides down the flank to follow the descending colon until it transitions to the sigmoid colon moving toward the middle in cross-section.",
+    "time_start": 161.27,
+    "time_end": 178.37,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 161.27,
+    "original_time_end": 178.37,
+    "model_prediction": "The probe is linearly translated (slid) along the craniocaudal axis of the flank, with fine tilting/angulation adjustments applied as the probe advances to maintain a consistent cross-sectional transverse imaging plane of the target structure. The anatomical transition being followed is the course of the ascending/descending colon along the flank, at the interface between intraperitoneal gas-filled bowel structures and the retroperitoneal posterior abdominal wall and its associated fascial planes.",
+    "inference_metadata": {
+      "raw_response": "The probe is linearly translated (slid) along the craniocaudal axis of the flank, with fine tilting/angulation adjustments applied as the probe advances to maintain a consistent cross-sectional transverse imaging plane of the target structure. The anatomical transition being followed is the course of the ascending/descending colon along the flank, at the interface between intraperitoneal gas-filled bowel structures and the retroperitoneal posterior abdominal wall and its associated fascial planes.",
+      "latency_ms": 398520.81203460693,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

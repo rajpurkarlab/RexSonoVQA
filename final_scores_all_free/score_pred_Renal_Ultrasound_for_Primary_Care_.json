@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning/motion is being used to bring the target organ into view, and what view orientation is the operator trying to establish?",
+    "answer": "The probe is moved more posteriorly and aligned to obtain a long/coronal (long-axis) view of the retroperitoneal target. The goal is a clean long-axis image of the organ for systematic assessment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is moved posteriorly to target the retroperitoneal space and oriented to obtain a long/coronal view of the right kidney in long axis.",
+    "time_start": 5.48,
+    "time_end": 21.13,
+    "model_prediction": "Based on the video clip, the operator is performing a **sweeping motion** with the ultrasound probe to locate and center the kidney. The probe is likely positioned in an oblique or coronal plane (likely a flank view), and the operator is fanning or sweeping through the retroperitoneal space to bring the kidney into its **long-axis (longitudinal) view**.\n\nThe motion starts with a somewhat obscured view and progressively clarifies the renal architecture, revealing the hypoechoic renal cortex and hyperechoic central sinus echoes, typical of a longitudinal kidney orientation.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing a **sweeping motion** with the ultrasound probe to locate and center the kidney. The probe is likely positioned in an oblique or coronal plane (likely a flank view), and the operator is fanning or sweeping through the retroperitoneal space to bring the kidney into its **long-axis (longitudinal) view**.\n\nThe motion starts with a somewhat obscured view and progressively clarifies the renal architecture, revealing the hypoechoic renal cortex and hyperechoic central sinus echoes, typical of a longitudinal kidney orientation.",
+      "latency_ms": 6929.314136505127,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 15.649999999999999,
+    "judge_explanation": "The AI correctly identifies the target organ (kidney), the view orientation (long-axis/coronal), and the nature of the probe manipulation (sweeping/fanning to center the image) which aligns with the ground truth's description of obtaining a long-axis view of the retroperitoneal target.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweeping technique is demonstrated across the organ, and why is it done?",
+    "answer": "The probe is fanned through the full thickness of the organ. This is done to survey the entire volume so focal pathology is not missed.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator fans through the entire kidney to ensure full visualization of the organ and avoid missing pathology.",
+    "time_start": 36.66,
+    "time_end": 41.5,
+    "model_prediction": "Based on the video, the probe is fanned completely through the kidney, sweeping from the superior pole to the inferior pole (or vice versa). This \"fanning\" technique is performed to visualize the entire organ volume to ensure no cysts, masses, hydronephrosis, or other pathologies are missed, rather than just viewing a single 2D slice.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is fanned completely through the kidney, sweeping from the superior pole to the inferior pole (or vice versa). This \"fanning\" technique is performed to visualize the entire organ volume to ensure no cysts, masses, hydronephrosis, or other pathologies are missed, rather than just viewing a single 2D slice.",
+      "latency_ms": 6551.329135894775,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.840000000000003,
+    "judge_explanation": "The AI correctly identifies the technique as fanning through the organ and provides the correct reasoning (to visualize the entire volume and avoid missing pathology), matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, a small questionable finding appears and the operator changes the imaging approach. What change is made, and what ambiguity is it intended to resolve?",
+    "answer": "Color Doppler is activated to check for flow within the questionable area. The goal is to distinguish vascular structures from non-vascular urinary dilation (e.g., mild obstruction-related fluid).",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator pauses on a suspicious area and turns on Color Doppler to differentiate possible mild hydronephrosis/hydroureter from nearby vasculature.",
+    "time_start": 44.38,
+    "time_end": 62.29,
+    "model_prediction": "Based on the video clip, the operator switches from **B-mode** (2D grayscale imaging) to **Color Doppler** (CDI) at the end of the clip. This change is intended to resolve whether a small, anechoic/hypoechoic structure seen near the splenic hilum is a blood vessel (splenic vasculature) or a potential collection of fluid. The absence of color flow would suggest it is fluid or a non-vascular structure, while the presence of flow confirms it is a vessel.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator switches from **B-mode** (2D grayscale imaging) to **Color Doppler** (CDI) at the end of the clip. This change is intended to resolve whether a small, anechoic/hypoechoic structure seen near the splenic hilum is a blood vessel (splenic vasculature) or a potential collection of fluid. The absence of color flow would suggest it is fluid or a non-vascular structure, while the presence of flow confirms it is a vessel.",
+      "latency_ms": 7488.418102264404,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 17.909999999999997,
+    "judge_explanation": "The AI correctly identifies the change in imaging approach (switching to Color Doppler) and the general purpose (distinguishing vascular flow from static fluid). However, the AI misidentifies the anatomical context as the 'splenic hilum', whereas the ground truth specifies 'urinary dilation' (implying the kidney/renal pelvis).",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the mode change, what is the operator assessing in the suspicious region, and what conclusion does it support?",
+    "answer": "They are looking for the presence of flow within the region. Seeing flow supports that the finding is vascular rather than urinary dilation, supporting a normal study in that area.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator observes color flow signals in the suspicious area, confirms it represents vessels, rules out hydroureter/hydronephrosis, and concludes the kidney is normal.",
+    "time_start": 66.31,
+    "time_end": 74.39,
+    "model_prediction": "Based on the video clip, the operator switches to color Doppler mode to assess the vascularity of the hyperechoic, suspicious region within the kidney. The presence of internal blood flow demonstrated by the blue and red signals within the mass supports the conclusion that it is a solid, vascularized lesion rather than a simple cyst or fluid collection.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator switches to color Doppler mode to assess the vascularity of the hyperechoic, suspicious region within the kidney. The presence of internal blood flow demonstrated by the blue and red signals within the mass supports the conclusion that it is a solid, vascularized lesion rather than a simple cyst or fluid collection.",
+      "latency_ms": 5994.681119918823,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.079999999999998,
+    "judge_explanation": "The AI correctly identifies the use of color Doppler to assess for flow and correctly observes the presence of flow signals. However, it reaches an incorrect conclusion. The AI interprets the flow as evidence of a 'solid, vascularized lesion' (pathology), whereas the ground truth states that the flow confirms the structure is a blood vessel (normal anatomy) distinguishing it from urinary dilation.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, summarize the verification step used before moving on, and what decision it enables for the rest of the scan.",
+    "answer": "A questionable area is held and checked with Color Doppler to verify whether it has flow. After confirming it is vascular, the operator returns to standard imaging and proceeds with the rest of the exam rather than pursuing an obstruction workup.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator holds a suspicious area, uses Color Doppler to confirm it is vascular (not hydroureter), then turns Doppler off and returns to B-mode to continue the exam with a normal conclusion.",
+    "time_start": 44.38,
+    "time_end": 77.16,
+    "model_prediction": "Based on the video, the clinician activates **color Doppler** to verify blood flow within the visualized vessels, specifically confirming patency and direction of flow (likely the renal vasculature or portal system given the depth). This step enables the decision to confidently proceed with the anatomical assessment or Doppler measurements, ruling out occlusions or confirming the identity of the vascular structures before detailed imaging continues.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician activates **color Doppler** to verify blood flow within the visualized vessels, specifically confirming patency and direction of flow (likely the renal vasculature or portal system given the depth). This step enables the decision to confidently proceed with the anatomical assessment or Doppler measurements, ruling out occlusions or confirming the identity of the vascular structures before detailed imaging continues.",
+      "latency_ms": 12518.562078475952,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 32.779999999999994,
+    "judge_explanation": "The AI correctly identifies the verification step (using Color Doppler to check for flow) and the resulting decision (proceeding with the rest of the examination/assessment). Although the AI infers a specific anatomical context (renal/portal) and frames the negative finding as 'ruling out occlusions' rather than the Ground Truth's 'obstruction workup' (which implies distinguishing a vessel from a dilated duct), the core logic of confirming vascularity to validate the structure and continue the scan is accurate.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe-placement strategy is used to improve the obstructed view, and why does it help?",
+    "answer": "The probe is slid into an intercostal space and then fanned through the organ. This avoids bony shadowing and restores a clearer transverse image.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator moves the probe between ribs and fans through the kidney to obtain a clearer transverse view by avoiding rib shadowing.",
+    "time_start": 96.27,
+    "time_end": 111.85,
+    "model_prediction": "Based on the visual evidence in the video clip, the probe-placement strategy being utilized is **sliding the probe laterally (likely towards the left axilla) to bring the heart closer to the chest wall.**\n\nThis helps because:\n1.  **It avoids lung interference:** In the initial frames, the view is obscured by \"lung curtain\" artifact (the hazy, whitish noise obscuring the heart), suggesting the probe was placed too medially where the lung overlaps the heart.\n2.  **It improves the acoustic window:** By sliding laterally, the clinician finds a window where the lung moves out of the way, allowing for a clearer, unobstructed view of the cardiac chambers (visible improving significantly towards the end of the clip).",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video clip, the probe-placement strategy being utilized is **sliding the probe laterally (likely towards the left axilla) to bring the heart closer to the chest wall.**\n\nThis helps because:\n1.  **It avoids lung interference:** In the initial frames, the view is obscured by \"lung curtain\" artifact (the hazy, whitish noise obscuring the heart), suggesting the probe was placed too medially where the lung overlaps the heart.\n2.  **It improves the acoustic window:** By sliding laterally, the clinician finds a window where the lung moves out of the way, allowing for a clearer, unobstructed view of the cardiac chambers (visible improving significantly towards the end of the clip).",
+      "latency_ms": 7454.519987106323,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 15.579999999999998,
+    "judge_explanation": "The AI correctly identifies that the probe is slid to improve the view (conclusion). However, the AI attributes the obstruction to 'lung curtain' (air artifact) whereas the Ground Truth explicitly states the strategy is used to avoid 'bony shadowing' (ribs). The AI also misses the 'fanning' component mentioned in the ground truth.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the final segment of the clip, what confirmation step is performed before concluding, and what overall finding does it support?",
+    "answer": "The operator re-checks the organ’s central region in the transverse view for absence of abnormal fluid dilation and confirms a normal-appearing center. This supports the conclusion of no hydronephrosis and a normal study.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator inspects the kidney center in transverse for absence of anechoic dilation and then confirms a bright central appearance, supporting a normal kidney without hydronephrosis.",
+    "time_start": 115.19,
+    "time_end": 131.75,
+    "model_prediction": "Based on the final segment of the video (approximately the last 2 seconds), the operator activates **Color Doppler** mode to visualize blood flow. This step is performed to confirm the **absence of flow** within the visualized brain structures, supporting a finding of **cerebral circulatory arrest** or brain death, as no color flow signal is detected in the major intracranial vessels.",
+    "inference_metadata": {
+      "raw_response": "Based on the final segment of the video (approximately the last 2 seconds), the operator activates **Color Doppler** mode to visualize blood flow. This step is performed to confirm the **absence of flow** within the visualized brain structures, supporting a finding of **cerebral circulatory arrest** or brain death, as no color flow signal is detected in the major intracranial vessels.",
+      "latency_ms": 6529.597997665405,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.560000000000002,
+    "judge_explanation": "The AI completely misidentified the context of the ultrasound. The ground truth describes a renal ultrasound checking for hydronephrosis (kidney), while the AI describes a brain ultrasound checking for cerebral circulatory arrest. Both the visual evidence (Doppler vs transverse view of kidney) and the conclusion are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

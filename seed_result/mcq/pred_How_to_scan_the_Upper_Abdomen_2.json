@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what scanning approach is being used, and what is the main objective?\nA) Scanning through the spaces between bony structures to change the acoustic window and better visualize the upper-abdominal target\nB) A standard subcostal sweep in the longitudinal plane to obtain a routine upper-abdominal survey image\nC) A heel-toe rocking maneuver to optimize beam incidence and improve near-field contact without changing the acoustic window\nD) A probe rotation to switch from sagittal to transverse imaging to confirm the target in an orthogonal plane",
+    "answer": "A",
+    "groundtruth": "The operator initiates an intercostal approach to scan the liver, changing the acoustic window to image through the rib spaces.",
+    "time_start": 0.67,
+    "time_end": 5.02,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 0.67,
+    "original_time_end": 5.02,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video shows intermittent complete loss of the ultrasound image (dark screen) as the probe moves, which occurs when the probe passes over bony (rib) structures that block ultrasound penetration. This is consistent with scanning through intercostal spaces between ribs, changing the acoustic window to better visualize upper abdominal structures that are obscured by the rib cage from other approaches.",
+      "latency_ms": 38378.76510620117,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video segment, what stage of the scan is being shown, and what is the immediate goal?\nA) Establishing an alternative acoustic window so anatomy previously deeper becomes more superficial for improved assessment\nB) Optimizing the current window by adjusting depth and focal zone to better visualize the target anatomy at the same insonation angle\nC) Transitioning to a confirmatory step using Color Doppler to assess vascularity or flow within the structure of interest\nD) Obtaining a standardized measurement image by freezing and measuring the structure’s diameter in the best long-axis view",
+    "answer": "A",
+    "groundtruth": "The operator switches to an intercostal scanning window and then assesses the superficial liver parenchyma, noting that structures that were far field on a subcostal view are now in the near field.",
+    "time_start": 0.67,
+    "time_end": 13.35,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.67,
+    "original_time_end": 13.35,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: Options C and D are first eliminated: no Color Doppler mode is visible in the footage, and no image freezing or measurement calipers appear to perform standardized measurements. Option B is ruled out as no adjustments to depth or focal zone settings at a fixed insonation angle are observed. The probe is being repositioned to establish an alternative acoustic window, to move targeted anatomy that was previously deeper into a more superficial, easier to assess position.",
+      "latency_ms": 82944.41819190979,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the clip, what scanning strategy is being used, and what is the purpose?\nA) Systematically sweeping through multiple adjacent windows to bring an adjacent organ into view and identify the organ-to-organ interface\nB) Fanning/rocking within a single acoustic window to optimize the view of one organ and confirm a suspected lesion in that organ.\nC) Sliding to adjacent intercostal spaces primarily to avoid rib shadowing and improve visualization of the same target structure.\nD) Performing a systematic multi-window survey to document that a sonographic finding persists across views for overall quality assurance rather than to define an organ interface.",
+    "answer": "A",
+    "groundtruth": "The operator continues sliding the probe up and down through multiple intercostal spaces until the right kidney comes into view during the sweep.",
+    "time_start": 20.31,
+    "time_end": 30.84,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 20.31,
+    "original_time_end": 30.84,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The video shows probe movement consistent with fanning/rocking within a single acoustic window, with no sliding to new skin positions (different windows) observed. This movement is used to view different cross-sections of the target organ to optimize visualization and assess for any lesions within it.",
+      "latency_ms": 155102.83613204956,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization change is demonstrated, and why does it help?\nA) Changing to an intercostal acoustic window to shorten the imaging path and improve near-field visualization\nB) Increasing the transducer frequency to improve spatial resolution of superficial structures\nC) Moving the focal zone to the level of the target to improve lateral resolution at the area of interest\nD) Reducing imaging depth and narrowing the field of view to increase frame rate and improve image detail",
+    "answer": "A",
+    "groundtruth": "Using the intercostal window, the operator assesses superficial liver parenchyma and notes that anatomy previously in the far field on subcostal scanning is now visualized in the near field.",
+    "time_start": 5.64,
+    "time_end": 13.35,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 5.64,
+    "original_time_end": 13.35,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video demonstrates the focal zone (marked by the 'T' indicator) being adjusted to the level of the abdominal parenchyma and vascular structures of interest. Lateral resolution is optimal at the focal zone, so placing this zone at the target level improves detail visualization of the relevant anatomical structures.",
+      "latency_ms": 110254.09007072449,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

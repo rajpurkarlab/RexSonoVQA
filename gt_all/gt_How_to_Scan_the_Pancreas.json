@@ -1,0 +1,56 @@
+[
+  {
+    "start": 1.47,
+    "end": 5.83,
+    "action": "Begin scanning the pancreas in a longitudinal (long) section.",
+    "interpretation": "Establish the initial long-axis view of the pancreas."
+  },
+  {
+    "start": 6.67,
+    "end": 19.93,
+    "action": "Survey the longitudinal plane to identify key landmarks. Note the position of adjacent structures.",
+    "interpretation": "Visualize the spine, abdominal aorta, pancreas, and left lobe of the liver. Identify adjacent bowel loops which often obscure the pancreas."
+  },
+  {
+    "start": 21.05,
+    "end": 30.0,
+    "action": "Utilize the longitudinal view to optimize system physics. Place the focal zone directly at the level of the pancreas. Optimize the depth setting.",
+    "interpretation": "Ensure the focus is in the right place."
+  },
+  {
+    "start": 31.4,
+    "end": 36.98,
+    "action": "Adjust global Gain. Adjust Time Gain Compensation (TGC) sliders.",
+    "interpretation": "Verify that gain and TGC are set correctly for the tissue characteristics."
+  },
+  {
+    "start": 38.4,
+    "end": 47.16,
+    "action": "Rotate the probe 90 degrees.",
+    "interpretation": "Transition from longitudinal view to the classical transverse pancreas view."
+  },
+  {
+    "start": 47.88,
+    "end": 52.69,
+    "action": "Maintain the transverse plane.",
+    "interpretation": "Visualize the pancreatic head, the body, and part of the tail."
+  },
+  {
+    "start": 57.01,
+    "end": 72.97,
+    "action": "Return to long section to confirm window. Rock the probe cephalad and caudad (up and down). Instruct patient to change respiration. Rotate probe 90 degrees back to transverse.",
+    "interpretation": "Ensure the pancreas is fully visualized in long section before rotating."
+  },
+  {
+    "start": 73.89,
+    "end": 85.19,
+    "action": "Rotate and angle the probe towards the patient's left shoulder. Increase depth.",
+    "interpretation": "Target the visualization of the pancreatic tail, which requires deeper penetration."
+  },
+  {
+    "start": 90.51,
+    "end": 101.18,
+    "action": "Freeze the image for analysis.",
+    "interpretation": "Identify specific anatomy: Tail of the pancreas, spine, abdominal aorta, Superior Mesenteric Artery (SMA), and the splenic vein joining the portal confluence."
+  }
+]

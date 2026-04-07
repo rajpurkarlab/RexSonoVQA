@@ -1,0 +1,74 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning and angulation strategy is being used, and what imaging objective is it meant to achieve?",
+    "answer": "The operator uses a subcostal window and keeps the probe slightly oblique rather than perfectly aligned with the body axis. The goal is to fully \u201copen up\u201d and capture the gallbladder in a complete long-axis (sagittal) view.",
+    "groundtruth": "The probe is placed in the subcostal window and angled obliquely relative to the patient to open the gallbladder fully. This is done because the best sagittal gallbladder view often requires an oblique probe angle rather than a perfectly sagittal body-axis alignment.",
+    "time_start": 0.17,
+    "time_end": 26.48,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 0.17,
+    "original_time_end": 26.48,
+    "model_prediction": "The probe is held in stable position on the right upper quadrant abdominal wall, and slowly fanned (angled back and forth along its short axis, with minimal sliding across the skin) through the region.\nThis strategy is intended to obtain serial cross-sectional views of the entire gallbladder (the visible anechoic luminal structure) and adjacent right hepatic parenchyma, to fully survey all segments of the gallbladder to detect pathologies like gallstones, wall thickening, or pericholecystic fluid, and assess associated liver/biliary structures.",
+    "inference_metadata": {
+      "raw_response": "The probe is held in stable position on the right upper quadrant abdominal wall, and slowly fanned (angled back and forth along its short axis, with minimal sliding across the skin) through the region.\nThis strategy is intended to obtain serial cross-sectional views of the entire gallbladder (the visible anechoic luminal structure) and adjacent right hepatic parenchyma, to fully survey all segments of the gallbladder to detect pathologies like gallstones, wall thickening, or pericholecystic fluid, and assess associated liver/biliary structures.",
+      "latency_ms": 73265.28215408325,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 26.31,
+    "judge_explanation": "The AI prediction incorrectly identifies the strategy as fanning to obtain cross-sectional views, whereas the ground truth specifies an oblique subcostal approach to capture the gallbladder in a complete long-axis view.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is the operator in, and what is the broader workflow objective of the next actions?",
+    "answer": "They are transitioning from one imaging plane to an orthogonal plane and then holding steady to confirm the new view. The workflow goal is to obtain and verify complementary long-axis/short-axis images of the gallbladder for a complete evaluation.",
+    "groundtruth": "The operator stays in the subcostal window and prepares to change planes, then rotates the probe 90 degrees and stabilizes it. This sequence is used to transition into and confirm a transverse view of the gallbladder as part of a standard multi-plane survey.",
+    "time_start": 35.63,
+    "time_end": 57.84,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 35.63,
+    "original_time_end": 57.84,
+    "model_prediction": "The operator is in the **target structure localization phase** of an abdominal ultrasound exam, having just identified the anechoic, fluid-filled gallbladder (marked by the arrow) after sweeping through the hepatic parenchyma.\nThe next workflow objective is to optimize the view of this gallbladder, characterize it (evaluate wall thickness, internal contents for stones/polyps, size, and associated biliary duct dilation), and survey adjacent liver parenchyma to complete diagnostic assessment of the biliary tree and right upper quadrant.",
+    "inference_metadata": {
+      "raw_response": "The operator is in the **target structure localization phase** of an abdominal ultrasound exam, having just identified the anechoic, fluid-filled gallbladder (marked by the arrow) after sweeping through the hepatic parenchyma.\nThe next workflow objective is to optimize the view of this gallbladder, characterize it (evaluate wall thickness, internal contents for stones/polyps, size, and associated biliary duct dilation), and survey adjacent liver parenchyma to complete diagnostic assessment of the biliary tree and right upper quadrant.",
+      "latency_ms": 85597.17512130737,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 22.21,
+    "judge_explanation": "The AI correctly identifies the target structure as the gallbladder and the general objective of evaluating it. However, it misses the specific phase described in the ground truth, which is transitioning to an orthogonal plane to obtain complementary long-axis/short-axis images.",
+    "judge_error_type": "wrong_conclusion"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-optimization action is performed immediately after the plane change, and why is it done?",
+    "answer": "The operator stabilizes the probe and holds it steady after rotating. This reduces unintended drift and confirms that the transverse plane of the gallbladder is consistently maintained for interpretation.",
+    "groundtruth": "After rotating into the transverse orientation, the operator stabilizes the probe. This is done to confirm and maintain the transverse gallbladder view without motion or plane drift.",
+    "time_start": 55.55,
+    "time_end": 57.84,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 55.55,
+    "original_time_end": 57.84,
+    "model_prediction": "Immediately after the plane change, near-field time gain compensation (gain) is increased to brighten the superficial near-field region indicated by the green arrow.\nThis is done to improve visualization of the near-field soft tissues, including the wall of the adjacent fluid-filled (anechoic) structure, to ensure subtle abnormalities in these tissues are not missed from under-gaining of the near field.",
+    "inference_metadata": {
+      "raw_response": "Immediately after the plane change, near-field time gain compensation (gain) is increased to brighten the superficial near-field region indicated by the green arrow.\nThis is done to improve visualization of the near-field soft tissues, including the wall of the adjacent fluid-filled (anechoic) structure, to ensure subtle abnormalities in these tissues are not missed from under-gaining of the near field.",
+      "latency_ms": 26174.32427406311,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.2900000000000063,
+    "judge_explanation": "The AI prediction incorrectly identifies the image-optimization action as increasing near-field time gain compensation, whereas the ground truth states the action is stabilizing the probe and holding it steady. Both the conclusion and the visual justification are incorrect.",
+    "judge_error_type": "both_fail"
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "start": 0.48,
+    "end": 2.5,
+    "action": "Scan through the area once more.",
+    "interpretation": "Prepare to re-assess the anatomy."
+  },
+  {
+    "start": 2.8,
+    "end": 4.96,
+    "action": "Instruct patient: 'Take a breath in and hold it again for me'.",
+    "interpretation": "Optimize acoustic window using inspiration."
+  },
+  {
+    "start": 8.69,
+    "end": 12.31,
+    "action": "Scan through the area to assess the kidney.",
+    "interpretation": "Initial visual assessment of the kidney."
+  },
+  {
+    "start": 12.33,
+    "end": 15.86,
+    "action": "Instruct patient: 'And breathe away for me'.",
+    "interpretation": "Relax patient after scanning pass."
+  },
+  {
+    "start": 17.29,
+    "end": 22.75,
+    "action": "Prepare to survey the kidney in transverse before capturing images.",
+    "interpretation": "Plan to survey the anatomy prior to documentation."
+  },
+  {
+    "start": 23.57,
+    "end": 25.89,
+    "action": "Start the scan. Instruct patient: 'Just take another breath in here'.",
+    "interpretation": "Begin transverse survey."
+  },
+  {
+    "start": 25.91,
+    "end": 34.15,
+    "action": "Angle the probe up. Use the right lobe of the liver as an acoustic window.",
+    "interpretation": "Utilize liver parenchyma to visualize the kidney."
+  },
+  {
+    "start": 34.57,
+    "end": 41.69,
+    "action": "Scan through the anatomy.",
+    "interpretation": "Visualize the superior pole of the kidney coming through medially."
+  },
+  {
+    "start": 41.75,
+    "end": 42.99,
+    "action": "Maintain transverse probe orientation.",
+    "interpretation": "Confirm transverse view."
+  },
+  {
+    "start": 43.03,
+    "end": 46.28,
+    "action": "Focus on the hilum.",
+    "interpretation": "Identify the renal pelvis and vessels coming out of the kidney."
+  },
+  {
+    "start": 46.76,
+    "end": 54.8,
+    "action": "Scan through to the lower pole. Continue scanning until completely out of the kidney.",
+    "interpretation": "Ensure the scan covers the entire organ structure."
+  },
+  {
+    "start": 55.14,
+    "end": 55.82,
+    "action": "Instruct patient: 'Just breathe away'.",
+    "interpretation": "Relax patient."
+  },
+  {
+    "start": 56.28,
+    "end": 63.0,
+    "action": "Survey past the organ borders.",
+    "interpretation": "Look for exophytic lesions that could be missed if the scan does not extend fully out of the kidney."
+  },
+  {
+    "start": 65.61,
+    "end": 71.77,
+    "action": "Prepare to capture images. Start with longitudinal images.",
+    "interpretation": "Transition to documentation phase."
+  },
+  {
+    "start": 73.09,
+    "end": 76.41,
+    "action": "Instruct patient: 'Can you take a big breath in and hold onto it for me now?'",
+    "interpretation": "Optimize window for longitudinal imaging."
+  },
+  {
+    "start": 78.67,
+    "end": 81.75,
+    "action": "Adjust knobology: Decrease sector width slightly.",
+    "interpretation": "Optimize frame rate and focus."
+  },
+  {
+    "start": 81.77,
+    "end": 88.0,
+    "action": "Instruct patient: 'And breathe away'.",
+    "interpretation": "Relax patient."
+  },
+  {
+    "start": 88.02,
+    "end": 93.34,
+    "action": "Instruct patient: 'And just take another breath in and hold onto it for me'.",
+    "interpretation": "Re-establish acoustic window."
+  },
+  {
+    "start": 95.01,
+    "end": 101.78,
+    "action": "Align probe to the middle of the kidney. Instruct patient: 'Breathe away for me'.",
+    "interpretation": "Target the midline longitudinal view."
+  },
+  {
+    "start": 102.7,
+    "end": 115.58,
+    "action": "Check probe alignment to ensure no obliquing.",
+    "interpretation": "Verify an even amount of parenchyma is visible all the way through the kidney."
+  },
+  {
+    "start": 115.61,
+    "end": 125.78,
+    "action": "Inspect the poles and medulla.",
+    "interpretation": "Identify the medulla. Confirm parenchyma at the top is an even amount compared to the lower pole."
+  },
+  {
+    "start": 125.8,
+    "end": 128.68,
+    "action": "Confirm position.",
+    "interpretation": "Verify alignment is right in the midline of the kidney."
+  },
+  {
+    "start": 128.7,
+    "end": 136.57,
+    "action": "Place calipers. Measure from the upper pole to the lower pole.",
+    "interpretation": "Perform length measurement."
+  },
+  {
+    "start": 137.31,
+    "end": 144.42,
+    "action": "Read measurement.",
+    "interpretation": "Kidney measures 104mm, which is within the normal range."
+  },
+  {
+    "start": 144.96,
+    "end": 152.26,
+    "action": "Label image 'right kidney long'. Capture image.",
+    "interpretation": "Document the measurement."
+  },
+  {
+    "start": 153.4,
+    "end": 162.21,
+    "action": "Move probe laterally to the lateral portion of the kidney. Instruct patient: 'Just take a breath in again for me'.",
+    "interpretation": "Prepare for lateral longitudinal view."
+  },
+  {
+    "start": 164.54,
+    "end": 169.46,
+    "action": "Start medial and sweep out laterally.",
+    "interpretation": "Visualize the parenchyma."
+  },
+  {
+    "start": 169.98,
+    "end": 174.42,
+    "action": "Isolate the lateral part. Instruct patient: 'Breathe away here'.",
+    "interpretation": "Target the lateral cortex."
+  },
+  {
+    "start": 174.9,
+    "end": 180.22,
+    "action": "Observe the tissue structure.",
+    "interpretation": "Note the loss of the medullary portion and visualization of only the cortex."
+  },
+  {
+    "start": 180.24,
+    "end": 185.62,
+    "action": "Instruct patient: 'And another breath in'.",
+    "interpretation": "Prepare for medial view."
+  },
+  {
+    "start": 186.44,
+    "end": 197.69,
+    "action": "Move probe medially to the final longitudinal position.",
+    "interpretation": "Visualize the renal pelvis and vessels exiting and entering the kidney."
+  },
+  {
+    "start": 197.73,
+    "end": 207.81,
+    "action": "Capture image of the medial aspect.",
+    "interpretation": "Show the rank of the kidney and the collecting system."
+  },
+  {
+    "start": 209.99,
+    "end": 221.12,
+    "action": "Prepare for transverse images. Scan methodically from top to bottom.",
+    "interpretation": "Ensure representative images are taken across the full length."
+  },
+  {
+    "start": 222.68,
+    "end": 225.15,
+    "action": "Instruct patient: 'Can you just take another breath in and hold onto it for me?'",
+    "interpretation": "Optimize window."
+  },
+  {
+    "start": 225.83,
+    "end": 241.26,
+    "action": "Start at the right lobe of the liver. Use the liver as a window.",
+    "interpretation": "Visualize the parenchyma of the liver and upper pole of the right kidney with even echo texture."
+  },
+  {
+    "start": 243.44,
+    "end": 244.0,
+    "action": "Instruct patient: 'Breathe away'.",
+    "interpretation": "Relax patient."
+  },
+  {
+    "start": 244.34,
+    "end": 251.88,
+    "action": "Move probe to an intercostal position. Angle down using the liver.",
+    "interpretation": "Access the upper pole if subcostal view is insufficient."
+  },
+  {
+    "start": 252.16,
+    "end": 253.96,
+    "action": "Instruct patient: 'Just take a breath in again for me'.",
+    "interpretation": "Optimize intercostal window."
+  },
+  {
+    "start": 254.54,
+    "end": 269.81,
+    "action": "Scan intercostally using the liver window. Instruct patient: 'Breathe away'.",
+    "interpretation": "Capture beautiful image of the upper pole with nice, even echo texture."
+  },
+  {
+    "start": 281.43,
+    "end": 284.67,
+    "action": "Instruct patient: 'Again, another breath in for me and hold on to it'.",
+    "interpretation": "Prepare to scan down."
+  },
+  {
+    "start": 286.61,
+    "end": 293.23,
+    "action": "Scan inferiorly. Adjust depth.",
+    "interpretation": "Outline the kidney."
+  },
+  {
+    "start": 294.41,
+    "end": 306.62,
+    "action": "Target the middle/medial part of the kidney. Capture image.",
+    "interpretation": "Identify the medial part by noting vessels leaving the kidney."
+  },
+  {
+    "start": 309.82,
+    "end": 320.31,
+    "action": "Assess hypoechoic areas. Use Color Doppler.",
+    "interpretation": "Differentiate between vessels and a dilated ureter."
+  },
+  {
+    "start": 321.03,
+    "end": 323.25,
+    "action": "Instruct patient: 'Take another breath in for me here'.",
+    "interpretation": "Stabilize for Doppler assessment."
+  },
+  {
+    "start": 323.83,
+    "end": 333.98,
+    "action": "Apply Color box over the mid-portion vessels.",
+    "interpretation": "Identify vessels coming out."
+  },
+  {
+    "start": 334.92,
+    "end": 340.06,
+    "action": "Observe area lacking color signal.",
+    "interpretation": "Identify a small section of ureter (absence of color)."
+  },
+  {
+    "start": 342.82,
+    "end": 355.81,
+    "action": "Change probe angle.",
+    "interpretation": "Ensure good Doppler angle to confirm the structure is a ureter and not a vessel with poor flow."
+  },
+  {
+    "start": 361.09,
+    "end": 361.97,
+    "action": "Instruct patient: 'And another breather'.",
+    "interpretation": "Relax patient."
+  },
+  {
+    "start": 364.27,
+    "end": 376.25,
+    "action": "Capture image of the transverse pelvis.",
+    "interpretation": "Visualize blood vessels extending into the kidney itself."
+  },
+  {
+    "start": 380.01,
+    "end": 381.63,
+    "action": "Instruct patient: 'And just take another breath in for me'.",
+    "interpretation": "Prepare for lower pole scan."
+  },
+  {
+    "start": 383.96,
+    "end": 391.23,
+    "action": "Deactivate Color Doppler. Scan down to the lower pole. Instruct patient: 'Breathe away'.",
+    "interpretation": "Visualize lower pole."
+  },
+  {
+    "start": 391.73,
+    "end": 404.92,
+    "action": "Redo image. Move focal zone higher. Instruct patient: 'Just take another breath in'.",
+    "interpretation": "Correct focus position to improve resolution."
+  },
+  {
+    "start": 411.22,
+    "end": 418.11,
+    "action": "Increase depth. Verify focal zone placement. Instruct patient: 'Breathe away'.",
+    "interpretation": "Visualize kidney clearly with optimized settings."
+  },
+  {
+    "start": 423.47,
+    "end": 437.1,
+    "action": "Instruct patient: 'Just one more breath in'. Survey through the kidney again.",
+    "interpretation": "Confirm the kidney has been surveyed in its entirety."
+  }
+]

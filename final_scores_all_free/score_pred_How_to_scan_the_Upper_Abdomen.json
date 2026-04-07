@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe orientation/positioning strategy is being performed, and what is the immediate scanning objective of holding this starting view?",
+    "answer": "The probe is placed on the midline in a longitudinal orientation and held steady to establish key upper-abdominal landmarks. This starting view is used to orient the exam and set up subsequent sweeps and targeted views.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe in the midline in a longitudinal plane and maintains this starting position to identify major abdominal landmarks (including the spine and major vessels) before proceeding, noting that deep inspiration can sometimes worsen the window by increasing gastric air.",
+    "time_start": 0.03,
+    "time_end": 48.7,
+    "model_prediction": "Based on the video clip, the initial probe orientation is a **longitudinal (sagittal) view in the subxiphoid or high epigastric region**. The immediate scanning objective is to visualize the **longitudinal section of the Inferior Vena Cava (IVC) as it passes through the liver and enters the right atrium**, likely to assess for IVC diameter and collapsibility as a proxy for central venous pressure or fluid status.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the initial probe orientation is a **longitudinal (sagittal) view in the subxiphoid or high epigastric region**. The immediate scanning objective is to visualize the **longitudinal section of the Inferior Vena Cava (IVC) as it passes through the liver and enters the right atrium**, likely to assess for IVC diameter and collapsibility as a proxy for central venous pressure or fluid status.",
+      "latency_ms": 8455.591201782227,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 48.67,
+    "judge_explanation": "The AI correctly identifies the probe orientation (longitudinal/sagittal in the midline/subxiphoid region) and identifies the specific anatomical landmark (IVC) consistent with the 'key upper-abdominal landmarks' mentioned in the ground truth. While the AI infers a specific clinical objective (fluid status assessment) whereas the ground truth describes a broader procedural objective (orienting for sweeps), the visual identification and probe placement are accurate and compatible.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow step is being performed when the probe is rotated into a cross-sectional orientation and then tracked inferiorly, and what broader screening objective does this accomplish?",
+    "answer": "This is a transverse survey after returning to the midline, following the main midline vessel inferiorly. The goal is to screen for abnormal dilation and to look for additional midline abnormalities during the sweep.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator returns superiorly to the midline, rotates the probe 90° into transverse, and slides inferiorly while applying pressure to improve the acoustic window. This transverse midline sweep is used to rule out an aortic aneurysm and to check the midline for enlarged lymph nodes.",
+    "time_start": 94.56,
+    "time_end": 118.18,
+    "model_prediction": "Based on the video, the probe is being rotated from a longitudinal view to a transverse (cross-sectional) view over the abdominal aorta, followed by tracking the probe inferiorly down the abdomen. This workflow step allows the sonographer to visualize the entire length of the abdominal aorta in cross-section to screen for or measure the maximum diameter of an Abdominal Aortic Aneurysm (AAA).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is being rotated from a longitudinal view to a transverse (cross-sectional) view over the abdominal aorta, followed by tracking the probe inferiorly down the abdomen. This workflow step allows the sonographer to visualize the entire length of the abdominal aorta in cross-section to screen for or measure the maximum diameter of an Abdominal Aortic Aneurysm (AAA).",
+      "latency_ms": 7169.049024581909,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 23.620000000000005,
+    "judge_explanation": "The AI correctly identifies the workflow step as rotating to a transverse view and tracking inferiorly over the abdominal aorta. It correctly identifies the objective as screening for an Abdominal Aortic Aneurysm (AAA), which aligns perfectly with the ground truth's description of screening for abnormal dilation of the main midline vessel.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient-assisted maneuver and probe action are used to obtain a clearer view of a deep upper-abdominal target, and what is the intended benefit of this combination?",
+    "answer": "A deep inspiration is used while the operator repositions on the target area and rotates the probe into the appropriate plane. This aims to improve the acoustic window and bring the target into a clearer, more complete view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator returns to the epigastrium and, when the target is difficult to see in transverse, returns to a longitudinal midline approach, asks for a big deep breath, and then places the probe on the pancreas and rotates 90° to improve visualization.",
+    "time_start": 118.6,
+    "time_end": 152.4,
+    "model_prediction": "Based on the video clip, the patient is asked to perform a **Valsalva maneuver** (pushing the abdomen out) while the operator simultaneously **pushes the probe deeper** into the abdomen. This combination is intended to displace bowel gas and bring deeper structures, such as the pancreas or abdominal vessels, closer to the anterior abdominal wall for better visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the patient is asked to perform a **Valsalva maneuver** (pushing the abdomen out) while the operator simultaneously **pushes the probe deeper** into the abdomen. This combination is intended to displace bowel gas and bring deeper structures, such as the pancreas or abdominal vessels, closer to the anterior abdominal wall for better visualization.",
+      "latency_ms": 6430.618762969971,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 33.80000000000001,
+    "judge_explanation": "The AI incorrectly identifies the patient maneuver as a Valsalva maneuver instead of the deep inspiration specified in the ground truth. Additionally, the AI describes the probe action as pushing deeper, whereas the ground truth specifies repositioning and rotating the probe. Consequently, both the described actions and the specific technique are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what optimization maneuver is performed when the view is intermittently unclear, and what imaging problem is it intended to overcome?",
+    "answer": "The operator applies firmer pressure and subtly rotates/adjusts the probe while coordinating with patient breathing. This is intended to improve the acoustic window by reducing intervening obscuration and better aligning the insonation plane with the target.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "To better visualize the pancreatic head, the operator slightly rotates the probe and applies pressure to displace bowel gas, again using a deep breath to try to improve the acoustic window for the region where masses are most commonly found.",
+    "time_start": 181.69,
+    "time_end": 206.22,
+    "model_prediction": "Based on the video clip, the optimization maneuver performed is **compression** (applying downward pressure with the probe), which is intended to overcome **bowel gas artifact**.\n\nThe video shows an abdominal view attempting to visualize the pancreas and surrounding vasculature (splenic vein, superior mesenteric artery, aorta). At several points (e.g., around 0:02-0:03), the view becomes obscured by dirty shadowing and hyperechoic noise characteristic of bowel gas. The operator then visibly presses down, displacing the gas-filled bowel loops, which clears the window and brings the pancreas back into view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the optimization maneuver performed is **compression** (applying downward pressure with the probe), which is intended to overcome **bowel gas artifact**.\n\nThe video shows an abdominal view attempting to visualize the pancreas and surrounding vasculature (splenic vein, superior mesenteric artery, aorta). At several points (e.g., around 0:02-0:03), the view becomes obscured by dirty shadowing and hyperechoic noise characteristic of bowel gas. The operator then visibly presses down, displacing the gas-filled bowel loops, which clears the window and brings the pancreas back into view.",
+      "latency_ms": 6384.571313858032,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 24.53,
+    "judge_explanation": "The AI correctly identifies the optimization maneuver (compression/pressure) and the specific problem it addresses (bowel gas artifact, which causes the 'intervening obscuration' mentioned in the ground truth). The response is accurate and aligns with the clinical reasoning in the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is used after standard breathing adjustments fail, and what is the intended imaging advantage?",
+    "answer": "The patient is asked to push the abdominal wall outward (abdominal distension). This can reposition anatomy and improve the acoustic window, providing a clearer view of the targeted deep structure.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator instructs the patient to push the stomach muscles out to distend the abdomen, which proves to be the most effective maneuver in this patient for visualizing the pancreatic head.",
+    "time_start": 219.68,
+    "time_end": 232.63,
+    "model_prediction": "Based on the video clip, the patient is asked to perform the **Valsalva maneuver** (pushing the abdomen out). This maneuver is used to displace bowel gas and bring the pancreas closer to the anterior abdominal wall, thereby improving the visualization of the pancreatic tail and body.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the patient is asked to perform the **Valsalva maneuver** (pushing the abdomen out). This maneuver is used to displace bowel gas and bring the pancreas closer to the anterior abdominal wall, thereby improving the visualization of the pancreatic tail and body.",
+      "latency_ms": 5972.975730895996,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 12.949999999999989,
+    "judge_explanation": "The AI correctly identifies the maneuver (pushing the abdomen out) and correctly explains the intended advantage (improving the view of the deep structure/pancreas by displacing gas/repositioning anatomy). Although the AI uses the term 'Valsalva', it clarifies the action as 'pushing the abdomen out', which matches the ground truth description.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning motion is performed across the upper abdomen, and what new region is being brought into view as the next objective?",
+    "answer": "A transverse sweep is performed across toward the patient’s left while coordinating with a deep inspiration. The objective is to bring the left-sided upper-abdominal parenchyma into view for assessment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With a big deep breath, the operator sweeps transversely across the abdomen to the left to visualize the left lobe of the liver.",
+    "time_start": 248.55,
+    "time_end": 260.78,
+    "model_prediction": "Based on the video, the probe is sliding from the epigastrium (midline) towards the patient's right upper quadrant. This sliding motion transitions the view from the left lobe of the liver and pancreatic region to the right lobe of the liver, with the intention of visualizing the right kidney and Morison's pouch as the next objective.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is sliding from the epigastrium (midline) towards the patient's right upper quadrant. This sliding motion transitions the view from the left lobe of the liver and pancreatic region to the right lobe of the liver, with the intention of visualizing the right kidney and Morison's pouch as the next objective.",
+      "latency_ms": 6173.015117645264,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.229999999999961,
+    "judge_explanation": "The AI prediction completely contradicts the ground truth. The ground truth specifies a sweep toward the patient's left to view left-sided parenchyma, while the AI describes a slide toward the patient's right to view the right kidney and Morison's pouch.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is shown when the probe is rotated into a different plane and then moved superiorly, and what broader objective does this accomplish?",
+    "answer": "The operator transitions into a longitudinal plane and scans more superiorly during a breath maneuver. This expands the survey to include more cranial structures while still assessing the upper-abdominal region in continuity.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator rotates the probe 90° into longitudinal, uses another big deep breath, and scans superiorly to visualize the heart and the entirety of the left lobe of the liver.",
+    "time_start": 281.12,
+    "time_end": 295.71,
+    "model_prediction": "Based on the video, the transition shown is moving from a transverse view of the epigastrium (specifically visualizing the pancreas and surrounding vessels) to a longitudinal (sagittal) plane, followed by sliding the probe superiorly. This maneuver transitions the view from the pancreatic axis to visualize the proximal abdominal aorta in its long axis, which is the broader objective for assessment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the transition shown is moving from a transverse view of the epigastrium (specifically visualizing the pancreas and surrounding vessels) to a longitudinal (sagittal) plane, followed by sliding the probe superiorly. This maneuver transitions the view from the pancreatic axis to visualize the proximal abdominal aorta in its long axis, which is the broader objective for assessment.",
+      "latency_ms": 5956.200838088989,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 14.589999999999975,
+    "judge_explanation": "The AI correctly identifies the specific workflow transition: rotating the probe from a transverse to a longitudinal plane and moving superiorly. Although the AI specifies the target as the proximal abdominal aorta (whereas the ground truth is more general, referring to cranial structures and the upper-abdominal region) and omits the mention of the breath maneuver, the description of the probe manipulation and the anatomical region aligns well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging-parameter change is made to better interrogate deeper right-sided upper-abdominal structures, and what is the intended benefit?",
+    "answer": "The depth is increased and the focal zone is moved deeper. This improves visualization of deeper targets by placing maximum beam resolution at the level of interest and including the full region in the field of view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator increases depth and shifts the focal zone downward while coordinating a deep breath to visualize the gallbladder region and adjacent structures, including part of the pancreatic head and the portal triad/CBD area.",
+    "time_start": 312.11,
+    "time_end": 326.22,
+    "model_prediction": "Based on the video clip, the imaging parameter change made is a **lowering of the transducer frequency**, and the intended benefit is to **increase penetration** to better visualize deeper structures.\n\nHere's a breakdown of the visual evidence:\n*   **Initial View (00:00 - 00:07):** The image is sharper with higher resolution, suitable for visualizing superficial structures like the portal triad (portal vein, hepatic artery, common bile duct) clearly. However, the deeper parts of the image (bottom of the screen) are somewhat dark and less distinct.\n*   **The Change (00:07 - 00:08):** There is a distinct \"flash\" or reset in the image quality, typical of switching probe settings.\n*   **Subsequent View (00:08 - 00:14):** The image becomes grainier with lower resolution, but the structures deeper in the field (further from the probe at the top) become brighter and more visible. This trade-off—sacrificing resolution for better depth penetration—is characteristic of switching to a lower frequency.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the imaging parameter change made is a **lowering of the transducer frequency**, and the intended benefit is to **increase penetration** to better visualize deeper structures.\n\nHere's a breakdown of the visual evidence:\n*   **Initial View (00:00 - 00:07):** The image is sharper with higher resolution, suitable for visualizing superficial structures like the portal triad (portal vein, hepatic artery, common bile duct) clearly. However, the deeper parts of the image (bottom of the screen) are somewhat dark and less distinct.\n*   **The Change (00:07 - 00:08):** There is a distinct \"flash\" or reset in the image quality, typical of switching probe settings.\n*   **Subsequent View (00:08 - 00:14):** The image becomes grainier with lower resolution, but the structures deeper in the field (further from the probe at the top) become brighter and more visible. This trade-off—sacrificing resolution for better depth penetration—is characteristic of switching to a lower frequency.",
+      "latency_ms": 8219.306230545044,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 14.110000000000014,
+    "judge_explanation": "The AI incorrectly identifies the imaging parameter change as a lowering of transducer frequency. The ground truth specifies that the depth was increased and the focal zone was moved deeper. While the intended benefit (visualizing deeper structures) is similar in concept, the specific technical adjustment identified is wrong, and the visual evidence describing a change in graininess/resolution is a hallucination or misinterpretation compared to the actual change in field of view and focal marker position.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what phase of the exam is occurring across this segment (including the brief control adjustment) and what the next logical imaging objective is after completing it.",
+    "answer": "This segment shows a transition away from a prior focused upper-abdominal target into a broader left-to-right upper-abdominal survey, with ongoing fine-tuning of image optimization. After completing this sweep and associated landmark views, the next objective is to continue the systematic upper-abdominal examination with remaining standard views on the right side.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator sweeps transversely to the left to view the left lobe of the liver, adjusts focus slightly for optimization, then rotates to longitudinal and scans superiorly to include the heart and full left lobe, and finally slides rightward with deep inspiration to visualize the IVC and portal vein—representing a transition from the pancreatic window into a broader upper-abdominal survey.",
+    "time_start": 248.55,
+    "time_end": 310.2,
+    "model_prediction": "Based on the video, the exam phase shown is a systematic sweep through the liver parenchyma, specifically visualizing the left lobe and moving toward the right lobe, assessing the echotexture and vasculature (portal and hepatic veins).\n\nThe brief interruption where the image goes dark and parameters change (around the 36-40 second mark) represents a gain or depth adjustment to optimize the image quality.\n\nAfter completing this general survey of liver architecture and vascularity, the next logical imaging objective would be to focus specifically on the biliary system, identifying the gallbladder and common bile duct to rule out stones or obstruction.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the exam phase shown is a systematic sweep through the liver parenchyma, specifically visualizing the left lobe and moving toward the right lobe, assessing the echotexture and vasculature (portal and hepatic veins).\n\nThe brief interruption where the image goes dark and parameters change (around the 36-40 second mark) represents a gain or depth adjustment to optimize the image quality.\n\nAfter completing this general survey of liver architecture and vascularity, the next logical imaging objective would be to focus specifically on the biliary system, identifying the gallbladder and common bile duct to rule out stones or obstruction.",
+      "latency_ms": 11524.723052978516,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 61.64999999999998,
+    "judge_explanation": "The AI correctly identifies the phase of the exam as a systematic sweep of the liver (upper abdomen) and notes the image optimization adjustment, matching the ground truth's description of a left-to-right survey and fine-tuning. The AI's proposed next objective (biliary system) is a specific and correct example of the 'remaining standard views on the right side' mentioned in the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

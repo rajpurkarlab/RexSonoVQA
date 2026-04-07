@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what change in probe pointing/beam direction is being performed, and what imaging objective does it serve?",
+    "answer": "The probe is angled slightly toward the patient\u2019s head (cephalad) to steer the ultrasound beam upward. The goal is to bring the gallbladder into the insonation path for better visualization.",
+    "groundtruth": "The operator angles the probe slightly toward the patient\u2019s head to direct the ultrasound beam cephalad and improve alignment for gallbladder imaging.",
+    "time_start": 0.03,
+    "time_end": 3.49,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what stage of the exam is the operator in across this segment, and what is the immediate acquisition goal?",
+    "answer": "This is the localization-and-optimization phase: the operator first scales the image appropriately and then systematically sweeps/rocks to keep the gallbladder centered. The goal is to obtain a complete, well-centered view along the structure\u2019s full length.",
+    "groundtruth": "The operator first adjusts depth to suit a superficial gallbladder, then identifies it and uses fanning/rocking to keep it centered while scanning along its entire length.",
+    "time_start": 4.15,
+    "time_end": 20.85,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is performed to change the imaging plane, and what view-acquisition goal does that accomplish?",
+    "answer": "The probe is turned/rotated to obtain an orthogonal (cross-sectional) plane. This provides a short-axis view of the gallbladder to complement the prior long-axis assessment.",
+    "groundtruth": "The operator turns the probe to acquire a cross-sectional view of the gallbladder.",
+    "time_start": 22.01,
+    "time_end": 26.03,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what specific probe orientation change is performed, and what is the intended scanning outcome?",
+    "answer": "The probe marker is redirected (e.g., toward a lateral \u2018clock-face\u2019 position) to shift the short-axis slice being interrogated. The goal is to visualize a different portion of the gallbladder in short axis.",
+    "groundtruth": "The operator points the marker toward the three o\u2019clock position to obtain a different short-axis section of the gallbladder.",
+    "time_start": 32.12,
+    "time_end": 37.67,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what troubleshooting step is being initiated for improved visualization, and what is the next immediate action?",
+    "answer": "The operator is preparing to use a patient breathing maneuver to improve the acoustic window and bring the gallbladder into view. The next step is to have the patient take a deep breath in and hold it while scanning.",
+    "groundtruth": "The operator prepares for an inspiratory hold maneuver to troubleshoot difficult gallbladder visualization and then initiates the maneuver by having the patient inhale and hold.",
+    "time_start": 50.0,
+    "time_end": 56.94,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-quality problem is being addressed by the probe-angle check, and what correction strategy is being emphasized?",
+    "answer": "The operator is addressing suboptimal insonation from an overly perpendicular approach that can miss the intended target. The correction is to adjust angulation so the beam trajectory better intersects the gallbladder.",
+    "groundtruth": "The operator checks that the probe is not too perpendicular to the skin to ensure the beam trajectory is appropriate for visualizing the gallbladder.",
+    "time_start": 66.49,
+    "time_end": 74.68,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what broader troubleshooting strategy is being applied across this segment, and what is the intended end result before moving on?",
+    "answer": "The operator is iteratively adjusting probe angulation (avoiding a perpendicular approach and then aiming more cephalad with fine heel-toe control) to reacquire and optimize the target. The intended end result is a stable, clearly visualized gallbladder view suitable for complete assessment in the chosen plane(s).",
+    "groundtruth": "Across this segment, the operator verifies the probe is not too perpendicular, then angles the probe cephalad and drops the tail to redirect the beam upward, improving the trajectory needed to visualize the gallbladder.",
+    "time_start": 66.49,
+    "time_end": 83.87,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

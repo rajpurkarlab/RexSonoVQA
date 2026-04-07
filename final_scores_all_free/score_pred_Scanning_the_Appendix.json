@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what visual comparison is used to tell two adjacent vessels apart, and what identification ambiguity does this resolve?",
+    "answer": "They are distinguished by relative depth: the artery is the more superficial vessel and the vein lies deeper. This resolves confusion between the paired vessels when both are seen together.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator differentiates the iliac artery and vein by depth, identifying the artery as superficial and the vein as deeper to avoid mislabeling the vascular anatomy.",
+    "time_start": 8.07,
+    "time_end": 13.86,
+    "model_prediction": "Based on the video clip, the visual comparison used is the **compressibility** of the vessels when pressure is applied with the ultrasound probe. This resolves the ambiguity between the **Internal Jugular Vein (IJV)**, which collapses easily under pressure, and the **Carotid Artery (CA)**, which remains pulsatile and resists compression.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the visual comparison used is the **compressibility** of the vessels when pressure is applied with the ultrasound probe. This resolves the ambiguity between the **Internal Jugular Vein (IJV)**, which collapses easily under pressure, and the **Carotid Artery (CA)**, which remains pulsatile and resists compression.",
+      "latency_ms": 6916.162967681885,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.789999999999999,
+    "judge_explanation": "The AI prediction is incorrect. The ground truth states that the vessels are distinguished by their relative depth (with the artery being superficial to the vein), whereas the AI incorrectly claims the distinction is made via compressibility. Furthermore, the AI assumes the vessels are the IJV and Carotid, but the depth relationship described in the ground truth (artery superficial to vein) contradicts standard IJV/Carotid anatomy (where the vein is typically superficial), suggesting the AI misidentified the anatomy as well.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is used to conduct the search, and what is the acquisition goal of that sweep?",
+    "answer": "The probe is swept/slid cephalad while maintaining the scanning plane to systematically survey for the target tubular structure. The goal is to locate the appendix during the upward survey from the initial landmark region.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps up into the abdomen while scanning for the characteristic tubular morphology of the appendix.",
+    "time_start": 23.17,
+    "time_end": 33.44,
+    "model_prediction": "Based on the video clip, the probe motion strategy employed is a \"sweep\" or \"slide\" maneuver, where the transducer is moved continuously along the course of the anatomical structures. The acquisition goal of this sweep is to trace the path of the internal jugular vein and common carotid artery, likely to identify landmarks for vascular access or to assess the patency and compressibility of the vein along its length.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe motion strategy employed is a \"sweep\" or \"slide\" maneuver, where the transducer is moved continuously along the course of the anatomical structures. The acquisition goal of this sweep is to trace the path of the internal jugular vein and common carotid artery, likely to identify landmarks for vascular access or to assess the patency and compressibility of the vein along its length.",
+      "latency_ms": 7045.273065567017,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.269999999999996,
+    "judge_explanation": "The AI correctly identifies the probe motion as a sweep/slide but completely misidentifies the anatomical structures and the acquisition goal. The ground truth states the goal is to locate the appendix, whereas the AI incorrectly claims the goal is to trace the internal jugular vein and common carotid artery.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what verification maneuver is performed to confirm the structure’s identity, and what kind of mistake does it help avoid?",
+    "answer": "The operator traces the structure along its course and checks its expected relationship to a nearby vascular landmark. This helps avoid mistaking another tubular structure for the intended target.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator traces the identified structure to verify it crosses directly over the iliac artery, helping confirm it is the appendix rather than an alternative structure.",
+    "time_start": 37.42,
+    "time_end": 42.25,
+    "model_prediction": "Based on the video, the operator performs a **compression maneuver** by pressing the transducer down on the patient's skin, causing the central circular structure (a vein) to collapse completely while the adjacent pulsating circular structure (an artery) remains open. This maneuver helps confirm that the structure is a vein and avoids the mistake of accidental arterial puncture during vascular access procedures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a **compression maneuver** by pressing the transducer down on the patient's skin, causing the central circular structure (a vein) to collapse completely while the adjacent pulsating circular structure (an artery) remains open. This maneuver helps confirm that the structure is a vein and avoids the mistake of accidental arterial puncture during vascular access procedures.",
+      "latency_ms": 11541.633605957031,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.829999999999998,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as 'compression' to distinguish a vein from an artery. The Ground Truth specifies that the maneuver involves 'tracing the structure along its course' to check relationships with landmarks. These are two distinct ultrasound techniques, so the prediction is factually incorrect regarding the action shown.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging assessment is being done when the operator focuses on the structure’s internal appearance, and what is the goal of this step?",
+    "answer": "They are evaluating the structure’s internal architecture to confirm it has the expected layered wall and a lumen. The goal is to support correct identification and assess for abnormal features.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator inspects the internal architecture of the structure to see a multi-layered appearance with a lumen, supporting identification of the appendix.",
+    "time_start": 46.95,
+    "time_end": 49.39,
+    "model_prediction": "Based on the video, the operator is performing a **compression assessment** (also known as a compressibility test) of the circular vascular structure seen in the center of the image. The goal of this step is to assess for the presence of a deep vein thrombosis (DVT); if the vein collapses completely under pressure, it rules out a thrombus at that specific location.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a **compression assessment** (also known as a compressibility test) of the circular vascular structure seen in the center of the image. The goal of this step is to assess for the presence of a deep vein thrombosis (DVT); if the vein collapses completely under pressure, it rules out a thrombus at that specific location.",
+      "latency_ms": 6820.724964141846,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.4399999999999977,
+    "judge_explanation": "The AI incorrectly identifies the action as a compression test for DVT on a vein. The ground truth indicates the operator is evaluating the internal architecture (specifically the layered wall and lumen) to confirm the identity of the structure, which implies a hollow viscus (like bowel/appendix) rather than a vascular structure.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the sequence of diagnostic checks performed after the structure is centered, and what overall clinical question this sequence is addressing.",
+    "answer": "They perform graded compression and then interrogate the lumen for a specific obstructing intraluminal finding and its associated acoustic effect, followed by reassessing the response to compression. Together these steps are used to decide whether the findings support or argue against appendicitis.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After compressing the structure and assessing patient response, the operator examines the lumen for an appendicolith (hyperechoic focus with posterior shadowing) and then reassesses the compression response to determine whether the appendix appears normal or inflamed.",
+    "time_start": 50.31,
+    "time_end": 73.46,
+    "model_prediction": "Based on the video clip, the sequence of diagnostic checks is as follows:\n\n1.  **Structure Identification and Centering:** The clip begins with a transverse view of the neck, identifying two circular, anechoic (black) vascular structures. The probe is adjusted to center the larger, more prominent vessel (likely the internal jugular vein) in the middle of the screen.\n2.  **Compression Test:** Once centered, the operator applies downward pressure with the ultrasound probe. The circular vessel completely collapses (walls touch) under the pressure.\n3.  **Release:** The pressure is released, and the vessel returns to its original circular shape.\n4.  **Repetition:** This compression and release maneuver is repeated multiple times throughout the clip to confirm the finding.\n\n**Overall Clinical Question:**\nThis sequence is addressing the question of **venous patency versus thrombosis (DVT)**. The ability of the vein to fully compress indicates that there is no clot (thrombus) inside; if a clot were present, the vein would not collapse completely under pressure.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sequence of diagnostic checks is as follows:\n\n1.  **Structure Identification and Centering:** The clip begins with a transverse view of the neck, identifying two circular, anechoic (black) vascular structures. The probe is adjusted to center the larger, more prominent vessel (likely the internal jugular vein) in the middle of the screen.\n2.  **Compression Test:** Once centered, the operator applies downward pressure with the ultrasound probe. The circular vessel completely collapses (walls touch) under the pressure.\n3.  **Release:** The pressure is released, and the vessel returns to its original circular shape.\n4.  **Repetition:** This compression and release maneuver is repeated multiple times throughout the clip to confirm the finding.\n\n**Overall Clinical Question:**\nThis sequence is addressing the question of **venous patency versus thrombosis (DVT)**. The ability of the vein to fully compress indicates that there is no clot (thrombus) inside; if a clot were present, the vein would not collapse completely under pressure.",
+      "latency_ms": 7748.101711273193,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 23.14999999999999,
+    "judge_explanation": "The AI completely misidentified the anatomy and the clinical question. The Ground Truth indicates the video shows an exam for appendicitis (involving the appendix and intraluminal findings), whereas the AI incorrectly identified the structure as the internal jugular vein in the neck and the clinical question as DVT evaluation.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is concluded from the structure’s behavior during/after the compression test, and what does that imply diagnostically?",
+    "answer": "It behaves like a normal, compressible, non-tender structure on compression. That supports a normal appendix rather than appendicitis.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator assesses the structure’s response to compression and notes it is normal with no tenderness, consistent with a normal appendix.",
+    "time_start": 69.47,
+    "time_end": 73.46,
+    "model_prediction": "Based on the video, the following observations can be made:\n\n1.  **Structure Identification:** The central, anechoic (black) circular structure is a vessel, likely a vein given its location and appearance.\n2.  **Compression Test:** The video shows the operator applying downward pressure with the probe (compression).\n3.  **Behavior:** As pressure is applied, the vessel walls come together completely, obliterating the lumen. The vessel fully compresses and disappears from view, then re-expands when pressure is released.\n\n**Conclusion & Diagnostic Implication:**\nThe structure is fully compressible. Diagnostically, full compressibility of a vein (such as the jugular or a deep vein in the leg) is a normal finding that effectively rules out the presence of a deep vein thrombosis (DVT) at that specific location. A clot would prevent the walls from touching.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the following observations can be made:\n\n1.  **Structure Identification:** The central, anechoic (black) circular structure is a vessel, likely a vein given its location and appearance.\n2.  **Compression Test:** The video shows the operator applying downward pressure with the probe (compression).\n3.  **Behavior:** As pressure is applied, the vessel walls come together completely, obliterating the lumen. The vessel fully compresses and disappears from view, then re-expands when pressure is released.\n\n**Conclusion & Diagnostic Implication:**\nThe structure is fully compressible. Diagnostically, full compressibility of a vein (such as the jugular or a deep vein in the leg) is a normal finding that effectively rules out the presence of a deep vein thrombosis (DVT) at that specific location. A clot would prevent the walls from touching.",
+      "latency_ms": 9369.464635848999,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.989999999999995,
+    "judge_explanation": "The AI completely misidentified the anatomical structure as a vein and the clinical context as ruling out DVT. The ground truth identifies the structure as a normal appendix, and the compression test is used to rule out appendicitis.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, describe the multi-step strategy used to go from “search mode” to “confirmed target,” and state the next logical step to complete the evaluation.",
+    "answer": "The operator sweeps/slides to locate a candidate structure, then stabilizes the view and traces it to confirm it fits the expected anatomic course/relationship to a landmark. The next logical step is to characterize it further (internal features) and perform functional testing (e.g., compression and luminal interrogation) to assess for inflammation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator sweeps cephalad to find the appendix, holds the probe when it is identified, and traces its course to verify correct identification before proceeding with detailed assessment steps.",
+    "time_start": 23.17,
+    "time_end": 42.25,
+    "model_prediction": "Based on the video clip, the user employs a three-step strategy to identify the target vessel:\n\n1.  **Compression:** Initially, the probe compresses the tissue. This maneuver causes a superficial vein to collapse completely while the deeper, circular artery remains patent and pulsatile. This distinguishes the vein from the non-compressible artery.\n2.  **Centering:** After identifying the target (the deeper, non-compressible artery), the operator adjusts the probe position to bring the vessel directly into the center of the screen, optimizing it for intervention or further imaging.\n3.  **Gain Adjustment:** Toward the end of the clip (around the 22-second mark), the operator manually lowers the gain (visible as the image becomes darker and the text \"Gain 28%\" then \"Gain 27%\" appears). This reduces noise and sharpens the contrast between the anechoic (black) vessel lumen and the surrounding tissue.\n\n**Next Logical Step:**\nThe next step would be to activate **Color Doppler** or **Power Doppler** to confirm blood flow and direction, further verifying the vessel's identity and patency before any procedure.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the user employs a three-step strategy to identify the target vessel:\n\n1.  **Compression:** Initially, the probe compresses the tissue. This maneuver causes a superficial vein to collapse completely while the deeper, circular artery remains patent and pulsatile. This distinguishes the vein from the non-compressible artery.\n2.  **Centering:** After identifying the target (the deeper, non-compressible artery), the operator adjusts the probe position to bring the vessel directly into the center of the screen, optimizing it for intervention or further imaging.\n3.  **Gain Adjustment:** Toward the end of the clip (around the 22-second mark), the operator manually lowers the gain (visible as the image becomes darker and the text \"Gain 28%\" then \"Gain 27%\" appears). This reduces noise and sharpens the contrast between the anechoic (black) vessel lumen and the surrounding tissue.\n\n**Next Logical Step:**\nThe next step would be to activate **Color Doppler** or **Power Doppler** to confirm blood flow and direction, further verifying the vessel's identity and patency before any procedure.",
+      "latency_ms": 9007.514953613281,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 19.08,
+    "judge_explanation": "The AI completely misinterprets the clinical scenario. The Ground Truth describes a workflow for identifying a structure like the appendix or bowel (sweeping, tracing, then performing compression to assess for inflammation). The AI incorrectly identifies the scene as a vascular ultrasound (distinguishing vein vs. artery) and claims compression has already occurred, whereas the Ground Truth states compression is the *next* logical step. Consequently, the AI's proposed next step (Doppler) contradicts the Ground Truth's next step (compression/characterization for inflammation).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

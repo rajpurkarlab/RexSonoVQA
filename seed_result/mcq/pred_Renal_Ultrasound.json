@@ -1,0 +1,173 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial setup step is being performed at the start of the exam, and what is its purpose?\nA) Selecting an abdominal imaging preset while placing the probe to begin a right-sided abdominal survey\nB) Selecting a pelvic imaging preset and placing the probe suprapubically to begin a bladder-focused survey.\nC) Choosing a FAST trauma preset and placing the probe in the right upper quadrant primarily to look for free intraperitoneal fluid.\nD) Activating color Doppler first to map hepatic/portal vessels before starting the grayscale abdominal survey.",
+    "answer": "A",
+    "groundtruth": "The operator places the probe on the patient’s upper right abdomen and confirms an abdominal imaging preset is selected to prepare for right-sided abdominal scanning.",
+    "time_start": 0.31,
+    "time_end": 5.76,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.31,
+    "original_time_end": 5.76,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The grayscale view shows abdominal right-sided/upper quadrant parenchymal structures consistent with use of an abdominal imaging preset. No bladder (ruling out B), no color Doppler (ruling out D), and no indication of a trauma FAST exam focused on free fluid (ruling out C) are observed, so the step is setup for a right-sided general abdominal survey.",
+      "latency_ms": 43895.426988601685,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being done with the patient’s breathing, and what is the goal?\nA) Asking for a breath hold to reduce motion and keep the target anatomy steady\nB) Asking the patient to take a deep inspiration to displace the diaphragm and improve the acoustic window to the upper abdomen\nC) Instructing the patient to perform a Valsalva maneuver to transiently increase intrathoracic pressure and assess venous flow or reflux\nD) Asking the patient to exhale fully to elevate the diaphragm and better visualize structures near the lung bases",
+    "answer": "A",
+    "groundtruth": "After locating the liver, the operator has the patient hold their breath to minimize motion and improve visualization.",
+    "time_start": 11.56,
+    "time_end": 13.09,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 11.56,
+    "original_time_end": 13.09,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nDuring upper abdominal ultrasound, having the patient take a deep inspiration moves the diaphragm inferiorly, which displaces upper abdominal organs (like the liver) downward out from behind the ribs, improving the acoustic window to visualize these structures clearly, which matches the anatomic shift observed in the clip.",
+      "latency_ms": 29263.65089416504,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine adjustment is being made and why?\nA) Increasing the depth to include the entire structure of interest and surrounding landmarks in the field of view\nB) Re-centering/repositioning the displayed image to better frame the target\nC) Adjusting overall gain/TGC to optimize tissue brightness and improve contrast between the target and adjacent structures\nD) Moving the focal zone to the level of the target to sharpen resolution at the area of interest",
+    "answer": "B",
+    "groundtruth": "The operator adjusts image position to center the view and improve framing, compensating for suboptimal visualization effects near the ribs.",
+    "time_start": 21.6,
+    "time_end": 26.34,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 21.6,
+    "original_time_end": 26.34,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The visual change across the video frames is alteration of tissue brightness and contrast between the target structure (kidney) and adjacent tissues, which occurs when adjusting overall gain or time gain compensation (TGC) settings to optimize visualization of the area of interest. Depth, focal zone sharpness, and image framing do not change meaningfully, ruling out the other options.",
+      "latency_ms": 494729.49600219727,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is being performed and what view goal does it support?\nA) Rotating the probe to align with the organ’s long axis to obtain a longitudinal view\nB) Rocking the probe heel-to-toe to optimize near- and far-field alignment while maintaining the same plane\nC) Fanning the probe through the organ to survey adjacent slices and ensure complete coverage in the current orientation\nD) Sliding the probe along the skin to relocate the target structure to the center of the image without changing probe orientation",
+    "answer": "A",
+    "groundtruth": "The operator rotates the probe to align with the kidney’s axis in order to bring the kidney into a clear longitudinal orientation.",
+    "time_start": 31.09,
+    "time_end": 36.49,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 31.09,
+    "original_time_end": 36.49,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe probe is being fanned (tilted side-to-side while maintaining the same skin contact location) to move through sequential adjacent slices of the imaged organ, surveying the full structure without changing the overall probe orientation, which matches the description in option C.",
+      "latency_ms": 127464.14685249329,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what combined optimization maneuver is shown, and what is the intended effect?\nA) Having the patient inhale while applying firmer probe pressure to improve contact and reduce interfering gas\nB) Having the patient exhale and using lighter probe pressure to reduce motion artifact and avoid compressing superficial structures\nC) Asking the patient to hold their breath while maintaining steady probe pressure to minimize diaphragmatic motion and stabilize the image\nD) Having the patient inhale while fanning the probe through the region to sweep a larger area and look for pathology across multiple planes",
+    "answer": "A",
+    "groundtruth": "The operator cues another inspiration and applies downward pressure to improve the acoustic window by displacing bowel gas and improving probe contact.",
+    "time_start": 41.41,
+    "time_end": 44.33,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 41.41,
+    "original_time_end": 44.33,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe video shows the probe being fanned (angled sequentially through the region of interest, moving from a view including the gallbladder to other portions of the upper abdomen) as the patient inhales. This combined maneuver sweeps across a larger anatomic area to evaluate structures across multiple imaging planes, enabling assessment for pathology across the scanned region.",
+      "latency_ms": 273681.79512023926,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what adjustment is being made to obtain a more representative slice, and why?\nA) Repositioning/sweeping slightly to capture a mid-portion view for internal-architecture assessment\nB) Fanning/rocking the probe to obtain the maximal long-axis dimension for an accurate size measurement.\nC) Rotating the probe about 90° to switch to a transverse (short-axis) view to confirm the structure’s identity and orientation.\nD) Sliding the probe cephalad/caudad to bring the organ’s capsule and superior margin into view as the starting point of a systematic survey.",
+    "answer": "A",
+    "groundtruth": "The operator lowers/repositions the view to obtain a mid-sectional image, allowing assessment that the central architecture (including echogenic central tissue) appears normal.",
+    "time_start": 51.1,
+    "time_end": 60.26,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 51.1,
+    "original_time_end": 60.26,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe observed probe movement is fanning/rocking in the same longitudinal plane, which is done to capture the longest possible long-axis view of the structure (kidney, in this clip) so that an accurate length/size measurement can be obtained. Other options are incorrect: there is no 90° rotation to short axis, no focus on bringing only the capsule/margin into view, and the goal is not isolating a mid portion for internal architecture assessment alone.",
+      "latency_ms": 129191.3321018219,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine feature is activated and what is its purpose?\nA) Zoom/magnification to enlarge the region of interest for finer evaluation\nB) Depth adjustment to include deeper anatomy and maintain appropriate field of view\nC) Overall gain compensation to brighten the image and improve visualization of low‑echo structures\nD) Focus position adjustment to place the focal zone at the level of the target for improved lateral resolution",
+    "answer": "A",
+    "groundtruth": "The operator activates zoom to magnify the kidney view for closer inspection.",
+    "time_start": 65.53,
+    "time_end": 70.83,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 65.53,
+    "original_time_end": 70.83,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe maximum depth value displayed at the bottom right of the ultrasound screen changes from 17 cm to 15.6 cm during the clip, indicating a depth adjustment was performed. This adjustment modifies the field of view to optimize visualization of the target structure (the kidney, seen adjacent to the liver) by fitting it appropriately within the imaging window.",
+      "latency_ms": 177996.4940547943,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip sequence, what phase of the exam is being completed and what is the broader objective?\nA) Image documentation phase: optimize (magnify) then freeze to record standardized measurements\nB) Real-time survey phase: sweep through the organ while adjusting depth and gain to localize the target structure or abnormality.\nC) Doppler interrogation phase: activate color/spectral Doppler to assess vascularity and flow characteristics rather than capturing static measurements.\nD) Dynamic maneuver phase: use patient breathing/compression and live imaging to evaluate motion or patency before any formal still-image documentation.",
+    "answer": "A",
+    "groundtruth": "After zooming in on the kidney, the operator freezes the image and performs caliper measurements to document organ dimensions in a standardized view.",
+    "time_start": 65.53,
+    "time_end": 77.75,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 65.53,
+    "original_time_end": 77.75,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The video shows the operator sweeping the transducer (the target structure, appearing to be a kidney, moves in and out of the imaging field) while adjusting imaging depth (from 17 cm to 15.6 cm) to optimally localize and visualize the target organ. This matches the real-time survey phase, which is focused on identifying the target structure/abnormality before moving to documentation or measurement steps. Doppler features are not used, no dynamic maneuvers (like breathing prompts/compression) are seen, and formal measurement actions have only just been initiated at the very end of the clip, meaning the survey phase is the one being completed.",
+      "latency_ms": 265386.32893562317,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is shown and what is its purpose?\nA) A systematic sweep through the organ from one end to the other to screen for focal abnormalities\nB) Fanning the probe at a fixed level to sample adjacent planes without traversing the full length of the organ\nC) Targeted interrogation of a previously identified lesion (often with zoom and Doppler) rather than a screening survey\nD) Localization maneuver using a landmark view with sliding/tilting to find the organ, not a complete end‑to‑end sweep",
+    "answer": "A",
+    "groundtruth": "The operator performs a systematic sweep through the kidney from one pole to the other to evaluate for abnormal focal findings such as stones, calcifications, or masses.",
+    "time_start": 92.29,
+    "time_end": 98.88,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 92.29,
+    "original_time_end": 98.88,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows a continuous, systematic sweep across the organ (upper abdominal parenchymal organ, with adjacent kidney visible at points) traversing its full length, which is a standard screening approach to identify any focal abnormalities (like masses, cysts, or focal lesions) that may be present within the organ. There is no evidence of fixed-position fanning, targeted interrogation of a known lesion, or just an initial localization maneuver.",
+      "latency_ms": 145011.76714897156,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

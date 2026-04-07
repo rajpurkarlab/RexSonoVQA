@@ -1,0 +1,38 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is being performed to recover/maintain a clear view, and what imaging limitation is it trying to overcome?",
+    "answer": "The probe is slid superiorly and inferiorly between adjacent intercostal spaces. This changes the insonation path to avoid intermittent obstruction and maintain a clearer view of the liver parenchyma.",
+    "groundtruth": "The probe is moved up and down between rib spaces to obtain a better angle on the liver parenchyma and reduce rib-shadow interference.",
+    "time_start": 13.45,
+    "time_end": 20.07,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparison is being made between two adjacent tissues, and what is the clinical purpose of that comparison?",
+    "answer": "The echogenicity of the renal cortex is compared with adjacent liver parenchyma at the hepato-renal interface. This helps assess for abnormal renal cortical brightness versus the liver (e.g., ensuring the kidney is slightly darker or similar).",
+    "groundtruth": "The operator compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface, confirming the kidney is slightly darker (hypoechoic) or about the same as the liver.",
+    "time_start": 36.15,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video segment, what workflow transition is shown (including the view/orientation change and patient context), and what is the reason for doing both steps?",
+    "answer": "The probe is rotated to a transverse orientation while scanning intercostally to re-check the liver in another plane, then the scan transitions to evaluating the right kidney with the patient supine to confirm it still appears grossly normal.",
+    "groundtruth": "The operator rotates to a transverse intercostal view to inspect the liver for masses that might be missed otherwise, then transitions to scanning the right kidney in the supine position to reconfirm it appears grossly normal.",
+    "time_start": 51.78,
+    "time_end": 75.56,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video segment, after the adjacent organ is brought into view, what are the two immediate assessment steps being performed, and what is the overall intent?",
+    "answer": "First the right kidney is assessed for gross normal appearance, then its cortical echogenicity is compared with the adjacent liver at the hepato-renal interface. Together this screens for obvious renal abnormalities and abnormal cortical brightness relative to the liver.",
+    "groundtruth": "Once the right kidney is visualized, the operator focuses on its structure to confirm it appears grossly normal and then compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface.",
+    "time_start": 32.08,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

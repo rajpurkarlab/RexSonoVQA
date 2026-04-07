@@ -1,0 +1,74 @@
+[
+  {
+    "start": 0.09,
+    "end": 7.37,
+    "action": "Begin scanning in the axial plane. Locate the iliac vessels as the primary landmark.",
+    "interpretation": "Identify the iliac vessels to establish initial orientation."
+  },
+  {
+    "start": 8.07,
+    "end": 13.86,
+    "action": "Differentiate the vascular anatomy based on depth.",
+    "interpretation": "Visualize the iliac artery as the more superficial structure, with the vein located deep to the artery."
+  },
+  {
+    "start": 14.41,
+    "end": 21.78,
+    "action": "Establish the vessel location, then slide the transducer cephalad.",
+    "interpretation": "Begin the search for the appendix by tracking upward from the iliac vessels."
+  },
+  {
+    "start": 23.17,
+    "end": 33.44,
+    "action": "Sweep up into the abdomen while scanning for specific morphology.",
+    "interpretation": "Look for a specific 'worm-like' or 'tube-like' structure representing the appendix."
+  },
+  {
+    "start": 33.9,
+    "end": 36.5,
+    "action": "Hold the probe position upon identifying the structure.",
+    "interpretation": "Visual confirmation of the appendix."
+  },
+  {
+    "start": 37.42,
+    "end": 42.25,
+    "action": "Trace the anatomical course of the structure.",
+    "interpretation": "Verify that the structure crosses directly over the iliac artery."
+  },
+  {
+    "start": 46.95,
+    "end": 49.39,
+    "action": "Inspect the internal architecture of the structure.",
+    "interpretation": "Visualize a multi-layered structure containing a lumen."
+  },
+  {
+    "start": 50.31,
+    "end": 55.45,
+    "action": "Apply manual compression to the structure with the probe. Assess patient response.",
+    "interpretation": "Test for compressibility and evaluate for the presence of tenderness."
+  },
+  {
+    "start": 57.91,
+    "end": 68.33,
+    "action": "Scan the lumen specifically for calcifications or hyperechoic foci. Observe posterior acoustic artifacts.",
+    "interpretation": "Check for an appendicolith, which would cast a shadow and indicate a positive exam for appendicitis."
+  },
+  {
+    "start": 69.47,
+    "end": 73.46,
+    "action": "Assess the structure's response to the compression test.",
+    "interpretation": "Note that the appendix is normal and there is no tenderness to compression."
+  },
+  {
+    "start": 74.74,
+    "end": 79.99,
+    "action": "Synthesize the sonographic findings to form a clinical conclusion.",
+    "interpretation": "Determine that the patient does not have appendicitis."
+  },
+  {
+    "start": 80.99,
+    "end": 81.52,
+    "action": "Pause for a cautionary instruction.",
+    "interpretation": "Prepare to identify a common pitfall or error."
+  }
+]

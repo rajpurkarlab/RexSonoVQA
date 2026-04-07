@@ -1,0 +1,74 @@
+[
+  {
+    "start": 0.33,
+    "end": 8.74,
+    "action": "Position the probe at the superior aspect of the liver. Sweep the beam through the top intercostal space.",
+    "interpretation": "Initiate the scan at the top of the liver to visualize the superior margin."
+  },
+  {
+    "start": 10.68,
+    "end": 14.55,
+    "action": "Slide the probe inferiorly to the next rib space. Perform another sweep through this specific intercostal window.",
+    "interpretation": "Systematically interrogate the liver parenchyma through the next intercostal acoustic window."
+  },
+  {
+    "start": 15.53,
+    "end": 20.75,
+    "action": "Continue sweeping through the intercostal space.",
+    "interpretation": "Capture the image of the dome of the right liver lobe."
+  },
+  {
+    "start": 21.88,
+    "end": 23.42,
+    "action": "Maintain the sweep angle.",
+    "interpretation": "Visualize the hepatic veins."
+  },
+  {
+    "start": 24.58,
+    "end": 29.26,
+    "action": "Jump the probe down to the next inferior rib space.",
+    "interpretation": "Acquire a view of the main portal vein."
+  },
+  {
+    "start": 29.96,
+    "end": 37.82,
+    "action": "Hold the view within this intercostal window and optimize for vascular structures.",
+    "interpretation": "Visualize the main portal vein as it splits into the right anterior and right posterior portal veins."
+  },
+  {
+    "start": 39.38,
+    "end": 46.48,
+    "action": "Move the probe to the last rib space.",
+    "interpretation": "Identify the upper pole of the right kidney positioned against the liver surface."
+  },
+  {
+    "start": 48.59,
+    "end": 53.71,
+    "action": "Maintain the view of the hepatorenal interface.",
+    "interpretation": "Judge and compare the echogenicity of the liver parenchyma relative to the kidney cortex."
+  },
+  {
+    "start": 55.03,
+    "end": 64.32,
+    "action": "Rotate the probe to a coronal orientation.",
+    "interpretation": "Evaluate the span of the liver to check for enlargement (hepatomegaly)."
+  },
+  {
+    "start": 64.84,
+    "end": 70.04,
+    "action": "Scan the inferior tip of the liver and the inferior pole of the kidney simultaneously.",
+    "interpretation": "Confirm that the right kidney and the liver tip terminate at approximately the same level."
+  },
+  {
+    "start": 71.58,
+    "end": 74.62,
+    "action": "Maintain a continuous sweeping motion throughout the examination.",
+    "interpretation": "Ensure dynamic interrogation of the tissue."
+  },
+  {
+    "start": 76.03,
+    "end": 82.51,
+    "action": "Sweep through the entire liver volume completely.",
+    "interpretation": "Ensure full coverage of the organ to rule out any missed pathology."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what phase of the examination is being performed during these repeated sweeps in adjacent probe positions, and what overarching coverage objective is the operator pursuing?",
+    "answer": "The operator is performing a systematic survey of the organ by sweeping through sequential intercostal windows, starting at the most superior portion. The objective is to ensure complete coverage from the top down so no region is missed.",
+    "groundtruth": "The probe is placed at the superior aspect of the liver and swept through the top intercostal space, then slid inferiorly to the next rib space for another sweep, continuing to image the liver dome. This sequence establishes a methodical, window-by-window survey to cover the superior liver thoroughly.",
+    "time_start": 0.33,
+    "time_end": 20.75,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe repositioning maneuver is shown between sweeps, and what is the scanning goal of repeating the sweep from the new position?",
+    "answer": "The probe is slid inferiorly to the next rib/intercostal window and another sweep is performed. The goal is to systematically interrogate more of the organ parenchyma by using sequential acoustic windows.",
+    "groundtruth": "The operator slides the probe inferiorly to the next rib space and performs another sweep through that specific intercostal window. This is done to continue a systematic evaluation of the liver parenchyma through successive windows.",
+    "time_start": 10.68,
+    "time_end": 14.55,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what continued probe motion is being performed, and what specific imaging coverage goal does it serve at this stage of the survey?",
+    "answer": "A continued sweep is performed through the same intercostal space. The goal is to capture the dome/superior portion of the right liver lobe for complete coverage of that region.",
+    "groundtruth": "The operator continues sweeping through the intercostal space. This is intended to capture the dome of the right liver lobe.",
+    "time_start": 15.53,
+    "time_end": 20.75,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what repositioning action is performed to obtain a new key vascular view, and what is the acquisition goal of that new window?",
+    "answer": "The probe is moved/jumped to a more inferior rib space to acquire a different intercostal window. The goal is to bring the main portal venous structure into view.",
+    "groundtruth": "The probe is moved down to the next inferior rib space. This is done to acquire a view of the main portal vein.",
+    "time_start": 24.58,
+    "time_end": 29.26,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what optimization strategy is performed once the target is centered, and what ambiguity about the vascular anatomy is it intended to resolve?",
+    "answer": "The operator holds the probe steady in the chosen window while making small adjustments to optimize the vascular appearance. The aim is to clearly delineate the main vessel and confidently show its branching pattern.",
+    "groundtruth": "The operator holds the view within the intercostal window and optimizes the image for vascular structures. This is done to visualize the main portal vein as it splits into right anterior and right posterior portal branches.",
+    "time_start": 29.96,
+    "time_end": 37.82,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is achieved by moving the probe to the most inferior rib space, and what relationship is the operator trying to demonstrate?",
+    "answer": "The operator is trying to bring the upper portion of the kidney into the field along with the adjacent organ surface. The goal is to identify the kidney\u2019s upper pole positioned against the liver surface.",
+    "groundtruth": "The probe is moved to the last rib space. This is done to identify the upper pole of the right kidney as it lies against the liver surface.",
+    "time_start": 39.38,
+    "time_end": 46.48,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation change is performed, and what higher-level assessment does this enable?",
+    "answer": "The probe is rotated into a coronal (long-axis) orientation. This enables assessment of overall liver span to evaluate for enlargement.",
+    "groundtruth": "The probe is rotated to a coronal orientation. This is done to evaluate the liver span and assess for hepatomegaly.",
+    "time_start": 55.03,
+    "time_end": 64.32,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, why does the operator include two inferior endpoints in the same frame, and what potential size-related misinterpretation does this help avoid?",
+    "answer": "They image the inferior tip of the liver together with the inferior pole of the kidney to confirm their termination levels align. This helps corroborate organ size assessment and reduces the chance of falsely calling enlargement from an off-axis or incomplete view.",
+    "groundtruth": "The inferior tip of the liver and the inferior pole of the right kidney are scanned simultaneously. This is done to confirm they end at approximately the same level.",
+    "time_start": 64.84,
+    "time_end": 70.04,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

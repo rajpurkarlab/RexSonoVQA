@@ -1,0 +1,173 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what image optimization control is adjusted, and what is the intent?\nA) Overall gain is adjusted to improve global brightness/visibility of the target\nB) Depth is decreased to magnify the region of interest and improve detail of superficial structures.\nC) Time-gain compensation (TGC) is adjusted to equalize brightness across near and far field without overgaining the whole image.\nD) Focal zone position is moved to the level of the target to sharpen lateral resolution at that depth.",
+    "answer": "A",
+    "groundtruth": "The operator adjusts gain settings to optimize overall image brightness/contrast so the spleen is seen clearly.",
+    "time_start": 7.63,
+    "time_end": 14.98,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 7.63,
+    "original_time_end": 14.98,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The overall gain (visible as the dB value on the right side of the display) is adjusted upward during the clip, which globally increases image brightness to improve visibility of the deeper target structure (aorta, as labeled at the top of the screen) as imaging depth increases. The other options are incorrect: depth is *increased* not decreased (ruling out B), no TGC (per-depth gain) adjustments are demonstrated (ruling out C), and no focal zone position change is visible (ruling out D).",
+      "latency_ms": 300837.8722667694,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what system setting is being adjusted to sharpen the region of interest, and why?\nA) Focal zone is repositioned to improve resolution at the depth of the target\nB) Increase the transducer frequency to improve axial resolution of superficial structures, accepting reduced penetration at depth\nC) Activate a zoom/narrow the sector width to increase line density and improve lateral resolution in the region of interest\nD) Enable tissue harmonic imaging to reduce near-field clutter and enhance contrast resolution of the target",
+    "answer": "A",
+    "groundtruth": "Focus controls are adjusted while confirming the spleen is well visualized, refining parameters until the view is optimized.",
+    "time_start": 19.38,
+    "time_end": 28.39,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 19.38,
+    "original_time_end": 28.39,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The visualized anatomical structure increases in apparent size across the video, consistent with activation of a zoom function or narrowing of the sector width. This adjustment increases scan line density within the smaller region of interest, improving lateral resolution to sharpen the target structure being evaluated.",
+      "latency_ms": 1222124.8950958252,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator checking just before initiating broader probe motion, and why?\nA) Confirming an adequate acoustic window before starting a full sweep for complete coverage\nB) Optimizing depth and focal zone placement to keep the target centered before beginning the sweep.\nC) Confirming correct probe orientation and on-screen laterality so the subsequent sweep is anatomically accurate.\nD) Adjusting overall gain/TGC for uniform brightness across the field to improve visualization during the sweep.",
+    "answer": "A",
+    "groundtruth": "The operator confirms the acoustic window is adequate (with a deep breath) before beginning the systematic sweep through the organ.",
+    "time_start": 29.32,
+    "time_end": 32.74,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 29.32,
+    "original_time_end": 32.74,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: Before starting the broader probe sweep, the operator first confirms they have an adequate acoustic window (clear initial visualization of the target structure) to ensure the full sweeping motion will capture complete coverage of the anatomy of interest without losing adequate visualization of the target as the probe moves. The other options are incorrect: no gain/TGC adjustment, depth change occurs during rather than before the sweep, and no laterality/orientation check is observed prior to the probe motion.",
+      "latency_ms": 675430.7959079742,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is used to maintain the view during the sweep, and what problem does it address?\nA) Angling/steering the probe to preserve a usable window despite overlying structures\nB) Heel-toe rocking to keep the beam perpendicular to the target, reducing anisotropy-related drop-out during the sweep\nC) Adjusting depth and focal zone to keep the structure centered, addressing loss of resolution as the target drifts out of focus\nD) Increasing overall gain/TGC to brighten the field, addressing progressive attenuation and a dim image at greater depth",
+    "answer": "A",
+    "groundtruth": "The operator angles specifically between ribs during the transverse sweep to maintain an adequate window and smoothly scan through the spleen.",
+    "time_start": 58.55,
+    "time_end": 72.72,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 58.55,
+    "original_time_end": 72.72,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe maneuver used is heel-toe rocking of the probe. This action keeps the ultrasound beam oriented perpendicular to the target structure during the sweep, which eliminates anisotropy-related signal drop-out that would otherwise reduce or eliminate visualization of the target as the probe moves.",
+      "latency_ms": 1159342.3762321472,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is performed to change the imaging plane, and what is the goal?\nA) Rotating the transducer to obtain a short-axis (transverse) view for a new sweep\nB) Rocking (heel-toe) the transducer to optimize a long-axis view by aligning the ultrasound beam with the target structure.\nC) Fanning (sweeping) the transducer through a range of angles to survey adjacent slices and identify the level of maximal abnormality.\nD) Sliding the transducer along the skin to follow the structure in the same plane and assess its continuity over a longer segment.",
+    "answer": "A",
+    "groundtruth": "The transducer is rotated into the transverse plane to begin evaluating the spleen in short-axis with planned sweeps.",
+    "time_start": 50.87,
+    "time_end": 58.38,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 50.87,
+    "original_time_end": 58.38,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The transducer is slid along the skin while preserving the same long-axis imaging plane, to follow the imaged structure (aorta, as indicated by the on-screen \"LONG AORTA\" label) along its course. This maneuver evaluates the structure's continuity and full extent over a longer segment, rather than altering the orientation of the imaging plane itself.",
+      "latency_ms": 168785.3329181671,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being captured during the brief stabilization period, and why?\nA) A saved comparison image at an organ interface to document normal echotexture\nB) A brief cine-loop is recorded after probe stabilization to capture organ motion for later review.\nC) A still image is frozen once the interface is stable to measure the thickness of the adjacent capsule or wall.\nD) Color Doppler is briefly activated after stabilization to document the absence of hyperemia at the interface.",
+    "answer": "A",
+    "groundtruth": "With a deep breath to optimize the window, an image is captured at the spleen–kidney interface to demonstrate normal comparative echotexture.",
+    "time_start": 82.49,
+    "time_end": 98.12,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 82.49,
+    "original_time_end": 98.12,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: First, eliminate options C and D: no measurement calipers are visible (ruling out C) and no color Doppler mode is activated, as the view remains grayscale 2D the entire time (ruling out D). The image is not frozen, it is dynamic/moving after probe stabilization, so a brief cine-loop (moving clip) is being captured to record organ motion (e.g. pulsation for vascular structure, respiratory motion) for later review, rather than a single still comparison image (ruling out A).",
+      "latency_ms": 429235.31699180603,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what view acquisition is being prepared, and what is the scanning objective?\nA) A dedicated long-axis view of the target organ for standard documentation\nB) A standardized short-axis (transverse) view to obtain representative cross-sectional measurements of the target structure\nC) An oblique intercostal window acquisition to optimize color Doppler assessment of vascular flow within the region of interest\nD) A panoramic sweep along the target organ to document its full length and relationships to adjacent structures",
+    "answer": "A",
+    "groundtruth": "The operator prepares a dedicated longitudinal spleen image, using breathing to isolate and focus the long-axis view of the spleen.",
+    "time_start": 114.39,
+    "time_end": 124.68,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 114.39,
+    "original_time_end": 124.68,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe on-screen text explicitly labels the view as \"LONG SPLEEN\", indicating a long-axis (longitudinal) view of the spleen is being acquired for standard documentation purposes. No color Doppler, short-axis cross-sectioning, or panoramic sweep to capture full organ length/adjacent relationships is observed, eliminating the other options.",
+      "latency_ms": 330777.5149345398,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action is performed to transition from live scanning to documentation, and why?\nA) The image is frozen to capture a static frame suitable for measurements/record keeping\nB) A cine loop is saved to document real-time motion across multiple frames for later review.\nC) M-mode is activated to document motion over time and quantify excursion on a tracing.\nD) Color Doppler is turned on to document perfusion and help differentiate vascular from nonvascular structures.",
+    "answer": "A",
+    "groundtruth": "The operator freezes the image to capture a static longitudinal view of the spleen for documentation.",
+    "time_start": 128.28,
+    "time_end": 129.92,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 128.28,
+    "original_time_end": 129.92,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video transitions from a changing, real-time (live) ultrasound image to a static, non-moving frame at the end of the clip. Freezing the live ultrasound image is done to capture a single static frame that can be used for taking measurements or adding to the patient's medical record for documentation.",
+      "latency_ms": 923785.1099967957,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what imaging mode is activated, and what is the main diagnostic purpose?\nA) Color Doppler to assess for abnormal collateral/venous flow patterns\nB) Power Doppler to improve sensitivity for slow flow and confirm vascularity of a suspected lesion\nC) Pulsed-wave spectral Doppler to measure peak systolic velocity and calculate resistive indices in a target vessel\nD) M-mode to quantify motion over time, such as valve or fetal heart rate assessment",
+    "answer": "A",
+    "groundtruth": "Color Doppler is activated while scanning in longitudinal to evaluate flow and confirm there are no varices.",
+    "time_start": 140.78,
+    "time_end": 161.65,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 140.78,
+    "original_time_end": 161.65,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video shows red and blue directionally coded flow signals overlaid on the grayscale 2D image, consistent with color Doppler mode. This is used to assess blood flow patterns, here to evaluate for abnormal venous or collateral flow in the imaged region (splenic/abdominal vasculature, as indicated by the \"LONG SPLEEN\" label).",
+      "latency_ms": 593855.7021617889,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

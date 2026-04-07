@@ -1,0 +1,135 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is being used before scanning, and what imaging problem is it intended to reduce?",
+    "answer": "The patient is asked to intentionally distend/“push out” the abdomen. This is done to help displace bowel gas and improve the acoustic window for upper-abdominal imaging.",
+    "groundtruth": "The operator has the patient make the abdomen round/distended to shift bowel gas away and improve the acoustic window before attempting to image the pancreas.",
+    "time_start": 0.43,
+    "time_end": 4.71,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 0.43,
+    "original_time_end": 4.71,
+    "model_prediction": "The patient performs a deep inspiratory breath hold (holding their breath after a deep inhalation). This maneuver is intended to reduce overlying bowel gas artifact and rib shadowing, by moving the target upper abdominal organ (e.g., liver) inferiorly, displacing intervening gas, and moving the organ below the rib cage to avoid shadowing from osseous rib structures.",
+    "inference_metadata": {
+      "raw_response": "The patient performs a deep inspiratory breath hold (holding their breath after a deep inhalation). This maneuver is intended to reduce overlying bowel gas artifact and rib shadowing, by moving the target upper abdominal organ (e.g., liver) inferiorly, displacing intervening gas, and moving the organ below the rib cage to avoid shadowing from osseous rib structures.",
+      "latency_ms": 66351.87983512878,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what stage of the exam workflow is being shown (orientation vs targeted imaging), and what immediate objective follows from it?",
+    "answer": "This segment shows an orientation phase followed by targeted imaging. After establishing the general upper-abdominal landmarks, the operator narrows attention to the structure just posterior to the stomach to identify the pancreas body.",
+    "groundtruth": "The operator first performs a transverse epigastric survey to identify key surrounding landmarks, then immediately targets the region behind the stomach to identify the pancreas body.",
+    "time_start": 8.01,
+    "time_end": 21.76,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 8.01,
+    "original_time_end": 21.76,
+    "model_prediction": "The exam stage shown is orientation: the probe is adjusted to move from an unclear initial ultrasound view to a well-defined, correctly oriented view of abdominal structures (bowel loops and adjacent tissue are visible in the optimized image). The immediate following objective is targeted assessment of these visualized structures, to evaluate for pathological features (such as abnormal bowel wall thickness, altered peristalsis, luminal changes, or adjacent tissue abnormalities) and record diagnostic findings.",
+    "inference_metadata": {
+      "raw_response": "The exam stage shown is orientation: the probe is adjusted to move from an unclear initial ultrasound view to a well-defined, correctly oriented view of abdominal structures (bowel loops and adjacent tissue are visible in the optimized image). The immediate following objective is targeted assessment of these visualized structures, to evaluate for pathological features (such as abnormal bowel wall thickness, altered peristalsis, luminal changes, or adjacent tissue abnormalities) and record diagnostic findings.",
+      "latency_ms": 200883.61072540283,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement pattern is demonstrated, and what mapping objective does it achieve for the target organ?",
+    "answer": "The probe is held in a transverse orientation while being slid slightly to the patient’s right and slightly inferior. This maps the organ across segments, transitioning from a more central view toward the right-sided portion (head) while appreciating more posterior vs anterior parts (tail vs body).",
+    "groundtruth": "With the probe in transverse, the operator observes the pancreas region and then slides rightward and slightly downward to track pancreatic parts—recognizing the tail as more posterior, the body more anterior, and then identifying the head after moving right/down.",
+    "time_start": 22.62,
+    "time_end": 39.55,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 22.62,
+    "original_time_end": 39.55,
+    "model_prediction": "The probe demonstrates a side-to-side (medial to lateral) linear sliding (translation) movement, maintaining a transverse scanning plane orientation.\nThis movement allows systematic, contiguous mapping of adjacent small bowel loops in the scanned abdominal region, to comprehensively assess each loop's wall morphology, luminal content, and surrounding soft tissue for abnormalities across the full cross-sectional width of the imaged area.",
+    "inference_metadata": {
+      "raw_response": "The probe demonstrates a side-to-side (medial to lateral) linear sliding (translation) movement, maintaining a transverse scanning plane orientation.\nThis movement allows systematic, contiguous mapping of adjacent small bowel loops in the scanned abdominal region, to comprehensively assess each loop's wall morphology, luminal content, and surrounding soft tissue for abnormalities across the full cross-sectional width of the imaged area.",
+      "latency_ms": 171390.44213294983,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what lateral sliding maneuver is performed while maintaining the same imaging plane, and what target portion is being sought?",
+    "answer": "The probe is kept in a longitudinal orientation while sliding to the patient’s right. The goal is to bring the right-sided portion of the pancreas (head region) into view.",
+    "groundtruth": "Maintaining the longitudinal plane, the operator slides further to the patient’s right to locate and visualize the pancreatic head.",
+    "time_start": 79.56,
+    "time_end": 85.82,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 79.56,
+    "original_time_end": 85.82,
+    "model_prediction": "The maneuver is **caudal (inferior) linear sliding** of the transducer while holding a transverse (axial) imaging plane, to target the pancreatic head and the portosplenic venous confluence (the junction of the splenic vein, superior mesenteric vein, and formation of the main portal vein) at the level of the upper mid abdomen.",
+    "inference_metadata": {
+      "raw_response": "The maneuver is **caudal (inferior) linear sliding** of the transducer while holding a transverse (axial) imaging plane, to target the pancreatic head and the portosplenic venous confluence (the junction of the splenic vein, superior mesenteric vein, and formation of the main portal vein) at the level of the upper mid abdomen.",
+      "latency_ms": 78210.76989173889,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what alternative window/approach is used when the central view is poor, and what is the reason for switching to it?",
+    "answer": "The operator repositions to a left-sided “splenic window” approach. This is done to bypass stomach gas and regain a clearer acoustic window for the pancreas body/tail region by first relocating the splenic vein.",
+    "groundtruth": "When stomach gas obscures the pancreas body/tail, the operator switches to a left lateral splenic window and searches for the splenic vein to re-establish a usable view of the pancreas just caudal to that vein.",
+    "time_start": 108.33,
+    "time_end": 127.14,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 108.33,
+    "original_time_end": 127.14,
+    "model_prediction": "When the central subcostal anterior view is poor (appears dark/attenuated with no clear anatomy visible), a lateral intercostal (between rib spaces, right upper quadrant lateral) window is used. This switch is done to avoid overlying attenuating structures (such as bowel gas, anterior abdominal wall/rib shadowing that obscure the anatomy in the central view, allowing clear visualization of the hepatic/upper abdominal vascular and biliary structures seen in the later clear images.",
+    "inference_metadata": {
+      "raw_response": "When the central subcostal anterior view is poor (appears dark/attenuated with no clear anatomy visible), a lateral intercostal (between rib spaces, right upper quadrant lateral) window is used. This switch is done to avoid overlying attenuating structures (such as bowel gas, anterior abdominal wall/rib shadowing that obscure the anatomy in the central view, allowing clear visualization of the hepatic/upper abdominal vascular and biliary structures seen in the later clear images.",
+      "latency_ms": 241443.6981678009,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the multi-step strategy being used in this segment and the overall objective it serves in the exam.",
+    "answer": "The operator shifts to a left lateral/splenic window, then uses breath-holds to stabilize the image, and finally scans relative to a vascular landmark to find the distal pancreas. The objective is to reliably visualize the pancreas tail when the standard anterior window is limited.",
+    "groundtruth": "Because stomach gas can obscure the pancreas body/tail, the operator changes to the splenic window, uses breath-holds to stabilize the view, and then scans just caudal to the splenic vein to identify the pancreatic tail extending toward the splenic endpoint.",
+    "time_start": 108.33,
+    "time_end": 141.19,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 108.33,
+    "original_time_end": 141.19,
+    "model_prediction": "The operator first performs a sweeping motion with the ultrasound transducer over the initial upper abdominal window to capture sequential cross-sectional views of parenchymal and tubular (vascular/biliary) structures, then repositions the transducer (evidenced by brief dark non-diagnostic frames as the probe is moved) to an alternate scanning window, where additional sweeps and fine position adjustments are performed to optimize visualization of adjacent target structures.\nThis multi-window, multi-plane scanning strategy serves the objective of comprehensively evaluating the upper abdominal (most commonly hepatic and biliary) anatomy, ensuring all clinically relevant structures are fully assessed across different orientations to identify any potential abnormalities as part of the complete examination.",
+    "inference_metadata": {
+      "raw_response": "The operator first performs a sweeping motion with the ultrasound transducer over the initial upper abdominal window to capture sequential cross-sectional views of parenchymal and tubular (vascular/biliary) structures, then repositions the transducer (evidenced by brief dark non-diagnostic frames as the probe is moved) to an alternate scanning window, where additional sweeps and fine position adjustments are performed to optimize visualization of adjacent target structures.\nThis multi-window, multi-plane scanning strategy serves the objective of comprehensively evaluating the upper abdominal (most commonly hepatic and biliary) anatomy, ensuring all clinically relevant structures are fully assessed across different orientations to identify any potential abnormalities as part of the complete examination.",
+      "latency_ms": 1021177.9680252075,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what combined preparation-plus-initial-acquisition phase is shown, and what is the immediate scanning goal that follows the preparation?",
+    "answer": "This is the setup phase: a patient maneuver is used to improve the acoustic window, followed by initial probe placement for a survey scan. The immediate goal is a transverse upper-abdominal orientation scan to establish landmarks before targeting the pancreas.",
+    "groundtruth": "The operator first has the patient distend the abdomen to reduce bowel gas interference, then begins transverse epigastric scanning to identify surrounding landmarks as the initial step toward imaging the pancreas.",
+    "time_start": 0.43,
+    "time_end": 17.0,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.43,
+    "original_time_end": 17.0,
+    "model_prediction": "The preparation phase is transabdominal ultrasound setup: the patient is positioned supine with the anterior abdominal wall exposed, and the clinician holds a curvilinear abdominal ultrasound probe ready for placement on the abdominal wall to begin imaging.\nThe immediate scanning goal following this preparation is evaluation of intra-abdominal structures, specifically small intestinal (enteric) loop morphology (including bowel wall and luminal features) and adjacent abdominal soft tissues, which are the first clear structures visualized once acquisition starts.",
+    "inference_metadata": {
+      "raw_response": "The preparation phase is transabdominal ultrasound setup: the patient is positioned supine with the anterior abdominal wall exposed, and the clinician holds a curvilinear abdominal ultrasound probe ready for placement on the abdominal wall to begin imaging.\nThe immediate scanning goal following this preparation is evaluation of intra-abdominal structures, specifically small intestinal (enteric) loop morphology (including bowel wall and luminal features) and adjacent abdominal soft tissues, which are the first clear structures visualized once acquisition starts.",
+      "latency_ms": 615314.2998218536,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

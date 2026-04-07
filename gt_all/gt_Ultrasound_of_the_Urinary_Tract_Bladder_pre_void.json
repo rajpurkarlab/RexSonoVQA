@@ -1,0 +1,140 @@
+[
+  {
+    "start": 0.53,
+    "end": 3.59,
+    "action": "Begin scanning in transverse view.",
+    "interpretation": "Establish initial transverse orientation."
+  },
+  {
+    "start": 5.33,
+    "end": 13.23,
+    "action": "Scan through the bladder in transverse. Start superiorly and sweep completely through inferiorly.",
+    "interpretation": "Survey the entire bladder volume from top to bottom."
+  },
+  {
+    "start": 13.65,
+    "end": 16.23,
+    "action": "Assess bladder distension.",
+    "interpretation": "Note that the bladder is very, very full."
+  },
+  {
+    "start": 16.25,
+    "end": 30.07,
+    "action": "Scan directly through the organ. Continue the sweep until the probe passes completely out of the borders of the bladder.",
+    "interpretation": "Ensure the entire organ is assessed by scanning past its physical margins."
+  },
+  {
+    "start": 30.79,
+    "end": 39.86,
+    "action": "Rotate the probe to longitudinal orientation. Start in the midline. Adjust focus and depth immediately.",
+    "interpretation": "Optimize the longitudinal view."
+  },
+  {
+    "start": 44.5,
+    "end": 50.52,
+    "action": "Scan from the midline outwards toward the patient's right side, sweeping completely out of the bladder.",
+    "interpretation": "Survey the right lateral aspect of the bladder."
+  },
+  {
+    "start": 52.03,
+    "end": 59.73,
+    "action": "Sweep back through the midline and scan outwards to the left side.",
+    "interpretation": "Survey the left lateral aspect of the bladder."
+  },
+  {
+    "start": 64.68,
+    "end": 71.89,
+    "action": "Return to transverse orientation. Prepare to capture a transverse image.",
+    "interpretation": "Transition from survey mode to image acquisition."
+  },
+  {
+    "start": 73.79,
+    "end": 86.94,
+    "action": "Angle the probe slightly posteriorly.",
+    "interpretation": "Visualize the prostate gland located posterior to the bladder."
+  },
+  {
+    "start": 87.96,
+    "end": 102.77,
+    "action": "Scan up slightly. Adjust focus and gain to optimize clarity. Freeze and capture the image. Label as 'transverse bladder view'.",
+    "interpretation": "Acquire a high-quality representative transverse image."
+  },
+  {
+    "start": 106.67,
+    "end": 121.55,
+    "action": "Rotate to longitudinal orientation. Place probe in the midline. Capture the image.",
+    "interpretation": "Visualize the midline of the bladder and a portion of the prostate."
+  },
+  {
+    "start": 121.56,
+    "end": 135.42,
+    "action": "Sweep to the right in longitudinal. Capture the image. Label as 'right'.",
+    "interpretation": "Visualize the right aspect of the bladder. Note the presence of reverberation artifact due to extreme fullness."
+  },
+  {
+    "start": 137.2,
+    "end": 142.53,
+    "action": "Sweep back through to the left in longitudinal. Capture the image.",
+    "interpretation": "Visualize the left aspect of the bladder."
+  },
+  {
+    "start": 149.08,
+    "end": 160.3,
+    "action": "Activate Color Doppler. Move the probe to the base of the bladder.",
+    "interpretation": "Prepare to assess for ureteric jets."
+  },
+  {
+    "start": 161.94,
+    "end": 175.79,
+    "action": "Hold the probe steady at the base and observe for flow signals.",
+    "interpretation": "Watch for the ureteric jets emerging into the bladder."
+  },
+  {
+    "start": 175.81,
+    "end": 182.01,
+    "action": "Identify the flow signal on the right side.",
+    "interpretation": "Visualize urine entering the bladder from the right ureter."
+  },
+  {
+    "start": 183.51,
+    "end": 190.64,
+    "action": "Identify the flow signal on the left side.",
+    "interpretation": "Visualize the left ureteric jet entering the bladder."
+  },
+  {
+    "start": 192.42,
+    "end": 208.21,
+    "action": "Capture the image of the jets. Label appropriately (e.g., 'transverse left').",
+    "interpretation": "Document the patency of the ureters."
+  },
+  {
+    "start": 215.86,
+    "end": 222.51,
+    "action": "Re-confirm visualization of the left and right jets.",
+    "interpretation": "Final verification of ureteric function."
+  },
+  {
+    "start": 231.4,
+    "end": 239.42,
+    "action": "Prepare to measure pre-void bladder volume.",
+    "interpretation": "Setup for volume calculation before patient voids."
+  },
+  {
+    "start": 240.22,
+    "end": 249.87,
+    "action": "Place probe in transverse. Place calipers to measure from left to right across the widest portion.",
+    "interpretation": "Measure the transverse width of the bladder."
+  },
+  {
+    "start": 254.9,
+    "end": 263.37,
+    "action": "Turn transducer clockwise to longitudinal position. Locate the midline.",
+    "interpretation": "Orient for longitudinal measurements."
+  },
+  {
+    "start": 267.31,
+    "end": 281.97,
+    "action": "Place calipers to measure from anterior to posterior. Then place calipers to measure the longitudinal length ('width').",
+    "interpretation": "Obtain Anterior-Posterior and Craniocaudal measurements to calculate total pre-void volume."
+  }
+]

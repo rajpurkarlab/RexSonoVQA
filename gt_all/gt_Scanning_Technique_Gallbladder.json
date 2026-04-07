@@ -1,0 +1,44 @@
+[
+  {
+    "start": 0.03,
+    "end": 7.64,
+    "action": "Place the transducer in the midline near the xiphoid process. Orient the indicator towards the head (sagittal plane).",
+    "interpretation": "Identify the liver edge in the sagittal view."
+  },
+  {
+    "start": 8.48,
+    "end": 17.6,
+    "action": "With the liver edge clearly in view, slide the transducer over to the patient's right.",
+    "interpretation": "Scan until the portal vein is clearly identified. Note the portal vein is surrounded by a bright layer of fascia."
+  },
+  {
+    "start": 18.24,
+    "end": 21.55,
+    "action": "Maintain position and observe the anatomy on the right side of the screen.",
+    "interpretation": "Visualize the gallbladder connected to the portal vein."
+  },
+  {
+    "start": 22.42,
+    "end": 34.14,
+    "action": "Sweep through the gallbladder by bringing the top of the transducer all the way over to the left and all the way to the right.",
+    "interpretation": "Inspect the gallbladder lumen to ensure there are no signs of stones or inflammation."
+  },
+  {
+    "start": 35.45,
+    "end": 46.29,
+    "action": "Rotate the transducer 90 degrees. Perform a second sweep through the entire body of the gallbladder.",
+    "interpretation": "Obtain a second plane through the gallbladder. Pay special attention to the neck of the gallbladder during the sweep."
+  },
+  {
+    "start": 47.87,
+    "end": 54.72,
+    "action": "Return focus to the portal vein area and scan adjacent structures.",
+    "interpretation": "Check for a 'second dilatation' near the portal vein to rule out choledocolithiasis."
+  },
+  {
+    "start": 55.47,
+    "end": 65.41,
+    "action": "Activate Color Mode (Color Doppler) over the area of interest.",
+    "interpretation": "Use flow signals to distinguish anatomy: confirm the portal vein as a vascular structure and verify the gallbladder is clearly not vascular."
+  }
+]

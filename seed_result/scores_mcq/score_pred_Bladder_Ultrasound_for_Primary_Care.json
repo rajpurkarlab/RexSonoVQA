@@ -1,0 +1,112 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing with the probe, and what is the immediate imaging objective?\nA) Positioning the probe to obtain an initial diagnostic view of the target structure\nB) Sliding the probe to an adjacent acoustic window to reduce rib or bowel-gas shadowing and improve visualization.\nC) Rotating the probe into the long axis to optimize alignment for subsequent color Doppler flow assessment.\nD) Rocking or tilting the probe to bring the anticipated needle trajectory into plane in preparation for an ultrasound-guided procedure.",
+    "answer": "A",
+    "groundtruth": "The operator places the probe to obtain an initial view of the bladder in order to identify and visualize it.",
+    "time_start": 0.05,
+    "time_end": 3.15,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 0.05,
+    "original_time_end": 3.15,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video begins with no discernible anatomical structures visible in the ultrasound frame, and as the probe is adjusted, a clear view of the target anatomic structure (the anechoic fluid-filled structure in the upper half of the final frame) comes into view, consistent with initial probe positioning to acquire a diagnostic view of the target. There is no evidence of sliding to avoid shadowing, rotation for Doppler alignment, or preparation for a guided procedure in the clip.",
+      "latency_ms": 74708.31298828125,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.1
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being done after the image adjustment, and what is the goal?\nA) Holding the probe steady to confirm the target is clearly visualized before measuring\nB) Freezing the image to place calipers for a single diameter measurement of the target\nC) Rotating the probe 90\u00b0 to obtain an orthogonal (long-axis) view to confirm the structure\u2019s orientation\nD) Applying color Doppler to distinguish vascular flow from adjacent fluid-filled structures before measuring",
+    "answer": "A",
+    "groundtruth": "After adjusting gain, the operator maintains probe position and reassesses the image to confirm clear bladder visualization before measurement.",
+    "time_start": 11.18,
+    "time_end": 19.4,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 11.18,
+    "original_time_end": 19.4,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: After the gain adjustment (the labeled 24% setting sliders disappear from the frame), the probe is held steady to maintain a clear view of the target anechoic structure. No image freezing, probe rotation, or color Doppler application is observed, matching the description of confirming clear target visualization prior to further steps like measurement.",
+      "latency_ms": 141010.42199134827,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.219999999999999
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine function is being initiated with an on-screen interaction, and what is the purpose?\nA) Starting an automated volume/measurement tool to calculate organ volume\nB) Activating color Doppler to assess vascular flow within or around the structure and distinguish vessels from cystic spaces\nC) Opening the manual caliper measurement function to obtain a single linear dimension (e.g., length or AP diameter) rather than a volume calculation\nD) Starting M-mode to evaluate motion over time (e.g., cardiac or diaphragmatic movement) rather than performing volumetric assessment",
+    "answer": "A",
+    "groundtruth": "The operator initiates the pre-void volume calculation tool by selecting the function and tapping the center of the bladder to start automated volume measurement.",
+    "time_start": 20.95,
+    "time_end": 25.23,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 20.95,
+    "original_time_end": 25.23,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The on-screen interaction selects the \"Pre-Void\" bladder tool, which then places measurement calipers for height (H) and width (W) of the bladder, with the interface labeled for volume calculation, indicating an automated volume/measurement tool is being used to calculate the pre-void bladder (organ) volume. Other options are incorrect: no color Doppler (B) or M-mode (D) is activated, and more than a single linear dimension is being measured (eliminating C).",
+      "latency_ms": 41321.94995880127,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.280000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video segment, what workflow phase is being completed, and why is the image saved at this moment?\nA) Completing the first measurement plane for an automated volume calculation and documenting it\nB) Documenting a standard long-axis view of the target structure before proceeding to additional measurements.\nC) Saving the image after optimizing depth and focus to create a baseline reference prior to changing to the orthogonal plane.\nD) Capturing a frozen frame for manual caliper measurements rather than initiating the automated volume calculation.",
+    "answer": "A",
+    "groundtruth": "The operator initiates the volume tool, verifies caliper placement for transverse dimensions, and saves the image to store those measurements for the volume calculation.",
+    "time_start": 20.95,
+    "time_end": 38.74,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 20.95,
+    "original_time_end": 38.74,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video shows the Pre-Void bladder volume workflow has been initiated, with calipers already placed to measure the height (H) and width (W) of the bladder on this first imaging plane, as part of automated volume calculation, and the image is being saved to document this completed first measurement step.",
+      "latency_ms": 73618.68619918823,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 17.790000000000003
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe manipulation is performed immediately after live imaging resumes, and what is the acquisition goal?\nA) Rotating the probe to obtain an orthogonal (long-axis) view for additional measurements\nB) Sliding the probe to recenter the target in the short-axis plane to optimize image quality before measuring.\nC) Fanning the probe through the region in the same plane to locate the maximal cross-sectional area for a single transverse measurement.\nD) Applying heel-toe (tilt) to improve insonation angle and reduce anisotropy to better delineate margins for measurement.",
+    "answer": "A",
+    "groundtruth": "The operator unfreezes and rotates the probe to obtain a sagittal view, transitioning from the transverse plane to the sagittal plane.",
+    "time_start": 42.91,
+    "time_end": 46.23,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 42.91,
+    "original_time_end": 46.23,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe probe is fanned (rocked to sweep through tissue while maintaining the same transverse/short-axis plane orientation) to evaluate sequential slices of the region of interest, with the goal of identifying the maximum cross-sectional area of the target structure for accurate transverse measurement. No rotation to a new orthogonal plane, simple sliding to recenter, or tilt to correct anisotropy is observed.",
+      "latency_ms": 200969.63787078857,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 3.3200000000000003
+  }
+]

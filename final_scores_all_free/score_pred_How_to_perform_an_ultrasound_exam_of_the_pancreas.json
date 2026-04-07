@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is being used before scanning, and what imaging problem is it intended to reduce?",
+    "answer": "The patient is asked to intentionally distend/“push out” the abdomen. This is done to help displace bowel gas and improve the acoustic window for upper-abdominal imaging.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator has the patient make the abdomen round/distended to shift bowel gas away and improve the acoustic window before attempting to image the pancreas.",
+    "time_start": 0.43,
+    "time_end": 4.71,
+    "model_prediction": "Based on the video clip, the patient is performing a **deep inspiration (breath-hold)** before scanning. This maneuver is intended to displace bowel gas downwards, which was obscuring the view of the abdominal organs (specifically the left kidney and spleen seen later in the clip) due to air artifact.\n\n**Visual Evidence:**\n*   **00:01 - 00:02:** The initial view is hazy and obscured by bright, scattery echoes typical of bowel gas or air in the lung base.\n*   **00:02 - 00:03:** As the patient takes a deep breath, the diaphragm descends. You can visually see the abdominal contents shifting downwards.\n*   **00:03 - 00:05:** The spleen and left kidney slide into clear view, replacing the gas-filled area. The deep inspiration pushes the spleen and kidney inferiorly, below the rib cage and away from the gas-filled stomach or bowel, providing an acoustic window for the ultrasound beam.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the patient is performing a **deep inspiration (breath-hold)** before scanning. This maneuver is intended to displace bowel gas downwards, which was obscuring the view of the abdominal organs (specifically the left kidney and spleen seen later in the clip) due to air artifact.\n\n**Visual Evidence:**\n*   **00:01 - 00:02:** The initial view is hazy and obscured by bright, scattery echoes typical of bowel gas or air in the lung base.\n*   **00:02 - 00:03:** As the patient takes a deep breath, the diaphragm descends. You can visually see the abdominal contents shifting downwards.\n*   **00:03 - 00:05:** The spleen and left kidney slide into clear view, replacing the gas-filled area. The deep inspiration pushes the spleen and kidney inferiorly, below the rib cage and away from the gas-filled stomach or bowel, providing an acoustic window for the ultrasound beam.",
+      "latency_ms": 8274.952173233032,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.28,
+    "judge_explanation": "The AI correctly identifies the purpose of the maneuver (displacing bowel gas to improve the acoustic window). While the ground truth describes the instruction as 'pushing out' the abdomen, the AI identifies the physiological mechanism (deep inspiration/breath-hold) that causes the diaphragm to descend and the abdomen to distend, which is the standard technique to achieve the described visual result (organs sliding into view). The visual evidence cited is accurate and supports the conclusion.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what stage of the exam workflow is being shown (orientation vs targeted imaging), and what immediate objective follows from it?",
+    "answer": "This segment shows an orientation phase followed by targeted imaging. After establishing the general upper-abdominal landmarks, the operator narrows attention to the structure just posterior to the stomach to identify the pancreas body.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first performs a transverse epigastric survey to identify key surrounding landmarks, then immediately targets the region behind the stomach to identify the pancreas body.",
+    "time_start": 8.01,
+    "time_end": 21.76,
+    "model_prediction": "Based on the visual evidence, the video shows the **orientation phase** of the examination, where the operator is sweeping through the upper abdomen to identify key landmarks. The probe moves from a view of the lung/diaphragm interface inferiorly to reveal the liver, gallbladder, and pancreas, establishing the anatomical context before focusing on specific organs for **targeted imaging** and measurements.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the video shows the **orientation phase** of the examination, where the operator is sweeping through the upper abdomen to identify key landmarks. The probe moves from a view of the lung/diaphragm interface inferiorly to reveal the liver, gallbladder, and pancreas, establishing the anatomical context before focusing on specific organs for **targeted imaging** and measurements.",
+      "latency_ms": 7052.911996841431,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.750000000000002,
+    "judge_explanation": "The AI correctly identifies the workflow stage as the orientation phase and notes the transition to targeted imaging. It correctly identifies the anatomical context (upper abdomen) and relevant structures (liver, pancreas) visible in the sweep, aligning well with the ground truth's description of establishing landmarks to identify the pancreas.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement pattern is demonstrated, and what mapping objective does it achieve for the target organ?",
+    "answer": "The probe is held in a transverse orientation while being slid slightly to the patient’s right and slightly inferior. This maps the organ across segments, transitioning from a more central view toward the right-sided portion (head) while appreciating more posterior vs anterior parts (tail vs body).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the probe in transverse, the operator observes the pancreas region and then slides rightward and slightly downward to track pancreatic parts—recognizing the tail as more posterior, the body more anterior, and then identifying the head after moving right/down.",
+    "time_start": 22.62,
+    "time_end": 39.55,
+    "model_prediction": "Based on the video clip:\n\n**Probe Movement Pattern:** The probe is sliding horizontally (transversely) from the patient's right to left, following the long axis of the pancreas.\n\n**Mapping Objective:** This sliding motion aims to visualize the entire length of the pancreas in a transverse plane, sweeping from the head/neck region, across the body, and towards the tail of the pancreas to assess its complete anatomy and echotexture.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip:\n\n**Probe Movement Pattern:** The probe is sliding horizontally (transversely) from the patient's right to left, following the long axis of the pancreas.\n\n**Mapping Objective:** This sliding motion aims to visualize the entire length of the pancreas in a transverse plane, sweeping from the head/neck region, across the body, and towards the tail of the pancreas to assess its complete anatomy and echotexture.",
+      "latency_ms": 11554.054021835327,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.929999999999996,
+    "judge_explanation": "The AI describes the probe movement as sliding from right to left (towards the tail), whereas the ground truth states the probe slides to the patient's right and inferiorly (towards the head). Consequently, the mapping objective described is the opposite of what is occurring in the clip.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what lateral sliding maneuver is performed while maintaining the same imaging plane, and what target portion is being sought?",
+    "answer": "The probe is kept in a longitudinal orientation while sliding to the patient’s right. The goal is to bring the right-sided portion of the pancreas (head region) into view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Maintaining the longitudinal plane, the operator slides further to the patient’s right to locate and visualize the pancreatic head.",
+    "time_start": 79.56,
+    "time_end": 85.82,
+    "model_prediction": "Based on the video clip, the probe is slid medially (to the patient's left) while maintaining a transverse imaging plane. The target portion being sought is the head of the pancreas and the uncinate process, which come into view as the probe moves towards the midline, revealing the confluence of the portal vein and the superior mesenteric vessels.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is slid medially (to the patient's left) while maintaining a transverse imaging plane. The target portion being sought is the head of the pancreas and the uncinate process, which come into view as the probe moves towards the midline, revealing the confluence of the portal vein and the superior mesenteric vessels.",
+      "latency_ms": 7754.095077514648,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 6.259999999999991,
+    "judge_explanation": "The AI correctly identifies the target anatomical structure (head of the pancreas). However, it incorrectly describes the maneuver and imaging plane, stating the probe is transverse and sliding to the left, whereas the ground truth specifies a longitudinal orientation sliding to the patient's right.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what alternative window/approach is used when the central view is poor, and what is the reason for switching to it?",
+    "answer": "The operator repositions to a left-sided “splenic window” approach. This is done to bypass stomach gas and regain a clearer acoustic window for the pancreas body/tail region by first relocating the splenic vein.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "When stomach gas obscures the pancreas body/tail, the operator switches to a left lateral splenic window and searches for the splenic vein to re-establish a usable view of the pancreas just caudal to that vein.",
+    "time_start": 108.33,
+    "time_end": 127.14,
+    "model_prediction": "Based on the visual evidence in the video:\n\nThe alternative window used is the **splenic window** (also known as the left upper quadrant view or looking through the spleen).\n\nThe reason for switching to this approach is that the initial midline epigastric view of the pancreas is obscured by **bowel gas** (seen as bright, hyperechoic areas casting \"dirty\" acoustic shadows). This gas prevents a clear visualization of the pancreatic tail, so the operator moves the probe to the left flank to use the spleen as an acoustic window to better visualize the tail of the pancreas.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video:\n\nThe alternative window used is the **splenic window** (also known as the left upper quadrant view or looking through the spleen).\n\nThe reason for switching to this approach is that the initial midline epigastric view of the pancreas is obscured by **bowel gas** (seen as bright, hyperechoic areas casting \"dirty\" acoustic shadows). This gas prevents a clear visualization of the pancreatic tail, so the operator moves the probe to the left flank to use the spleen as an acoustic window to better visualize the tail of the pancreas.",
+      "latency_ms": 7047.54376411438,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 18.810000000000002,
+    "judge_explanation": "The AI correctly identifies the alternative approach as the 'splenic window' and accurately explains the reason for switching (obscuration by gas) and the goal (to visualize the pancreas tail), matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the multi-step strategy being used in this segment and the overall objective it serves in the exam.",
+    "answer": "The operator shifts to a left lateral/splenic window, then uses breath-holds to stabilize the image, and finally scans relative to a vascular landmark to find the distal pancreas. The objective is to reliably visualize the pancreas tail when the standard anterior window is limited.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "Because stomach gas can obscure the pancreas body/tail, the operator changes to the splenic window, uses breath-holds to stabilize the view, and then scans just caudal to the splenic vein to identify the pancreatic tail extending toward the splenic endpoint.",
+    "time_start": 108.33,
+    "time_end": 141.19,
+    "model_prediction": "Based on the visual evidence in the video, the multi-step strategy is as follows:\n\n1.  **Initial Scan:** The clinician begins with a transverse scan of the **epigastrium**. In the first few seconds, landmarks such as the liver, the layered wall of the stomach (antrum), and the splenic vein are visible. This is the standard approach for imaging the **pancreas**.\n2.  **Repositioning:** The probe is lifted off the patient (black screen) and moved to the **left flank** (left upper quadrant).\n3.  **Secondary Scan:** The view resumes showing the **spleen** and its hilum through a coronal or intercostal approach.\n\n**Overall Objective:** The objective is to **visualize the tail of the pancreas**. The pancreatic tail is frequently obscured by stomach or bowel gas when scanning from the front (anterior approach). By moving to the left flank, the clinician uses the **spleen as an acoustic window** to look medially and see the pancreatic tail tucked into the splenic hilum, bypassing the gas-filled stomach.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video, the multi-step strategy is as follows:\n\n1.  **Initial Scan:** The clinician begins with a transverse scan of the **epigastrium**. In the first few seconds, landmarks such as the liver, the layered wall of the stomach (antrum), and the splenic vein are visible. This is the standard approach for imaging the **pancreas**.\n2.  **Repositioning:** The probe is lifted off the patient (black screen) and moved to the **left flank** (left upper quadrant).\n3.  **Secondary Scan:** The view resumes showing the **spleen** and its hilum through a coronal or intercostal approach.\n\n**Overall Objective:** The objective is to **visualize the tail of the pancreas**. The pancreatic tail is frequently obscured by stomach or bowel gas when scanning from the front (anterior approach). By moving to the left flank, the clinician uses the **spleen as an acoustic window** to look medially and see the pancreatic tail tucked into the splenic hilum, bypassing the gas-filled stomach.",
+      "latency_ms": 26325.870037078857,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 32.86,
+    "judge_explanation": "The AI correctly identifies the primary objective (visualizing the pancreas tail) and the specific strategy employed (shifting from an anterior approach to a left lateral/splenic window to avoid gas). It accurately describes the visual sequence of events in the clip.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what combined preparation-plus-initial-acquisition phase is shown, and what is the immediate scanning goal that follows the preparation?",
+    "answer": "This is the setup phase: a patient maneuver is used to improve the acoustic window, followed by initial probe placement for a survey scan. The immediate goal is a transverse upper-abdominal orientation scan to establish landmarks before targeting the pancreas.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first has the patient distend the abdomen to reduce bowel gas interference, then begins transverse epigastric scanning to identify surrounding landmarks as the initial step toward imaging the pancreas.",
+    "time_start": 0.43,
+    "time_end": 17.0,
+    "model_prediction": "Based on the video clip, the phase shown is the \"lung sweep,\" where the transducer is swept caudally from the lung tissue to find the diaphragm. The immediate scanning goal following this preparation is to visualize the abdominal aorta in the upper abdomen.\n\n**Explanation:**\nThe video begins by imaging air-filled lung tissue (characterized by dirty shadowing and artifacts) in the upper portion of the clip. As the probe moves inferiorly (caudally), the distinct hyperechoic curve of the diaphragm comes into view, followed immediately by abdominal structures. The probe settles on a view of the proximal abdominal aorta, recognizable by its pulsatile nature and its position anterior to the vertebral body shadow, with the celiac trunk and superior mesenteric artery branching off anteriorly. This sequence—starting at the lung to orient and pushing down to find the diaphragm and subsequently the aorta—is a standard technique called the \"lung sweep\" used to locate the proximal abdominal aorta.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the phase shown is the \"lung sweep,\" where the transducer is swept caudally from the lung tissue to find the diaphragm. The immediate scanning goal following this preparation is to visualize the abdominal aorta in the upper abdomen.\n\n**Explanation:**\nThe video begins by imaging air-filled lung tissue (characterized by dirty shadowing and artifacts) in the upper portion of the clip. As the probe moves inferiorly (caudally), the distinct hyperechoic curve of the diaphragm comes into view, followed immediately by abdominal structures. The probe settles on a view of the proximal abdominal aorta, recognizable by its pulsatile nature and its position anterior to the vertebral body shadow, with the celiac trunk and superior mesenteric artery branching off anteriorly. This sequence—starting at the lung to orient and pushing down to find the diaphragm and subsequently the aorta—is a standard technique called the \"lung sweep\" used to locate the proximal abdominal aorta.",
+      "latency_ms": 7525.755167007446,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.57,
+    "judge_explanation": "The AI incorrectly identifies the phase as a 'lung sweep' (a probe movement technique) whereas the ground truth identifies it as a 'patient maneuver' (likely deep inspiration) to improve the window. Furthermore, the AI identifies the goal as visualizing the abdominal aorta, while the ground truth specifies the goal is an orientation scan to target the pancreas. The AI fails to identify the correct procedure and the primary target organ.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

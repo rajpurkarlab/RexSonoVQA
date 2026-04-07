@@ -1,0 +1,94 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is being performed to recover/maintain a clear view, and what imaging limitation is it trying to overcome?",
+    "answer": "The probe is slid superiorly and inferiorly between adjacent intercostal spaces. This changes the insonation path to avoid intermittent obstruction and maintain a clearer view of the liver parenchyma.",
+    "groundtruth": "The probe is moved up and down between rib spaces to obtain a better angle on the liver parenchyma and reduce rib-shadow interference.",
+    "time_start": 13.45,
+    "time_end": 20.07,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 13.45,
+    "time_end_extended": 20.07,
+    "original_time_start": 13.45,
+    "original_time_end": 20.07,
+    "model_prediction": "The probe is being angled or tilted to find an intercostal window (space between the ribs). This maneuver is performed to overcome **rib shadowing** (acoustic shadowing), where the bony ribs block the ultrasound beam and obscure the underlying liver tissue.",
+    "inference_metadata": {
+      "raw_response": "The probe is being angled or tilted to find an intercostal window (space between the ribs). This maneuver is performed to overcome **rib shadowing** (acoustic shadowing), where the bony ribs block the ultrasound beam and obscure the underlying liver tissue.",
+      "latency_ms": 13996.272802352905,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparison is being made between two adjacent tissues, and what is the clinical purpose of that comparison?",
+    "answer": "The echogenicity of the renal cortex is compared with adjacent liver parenchyma at the hepato-renal interface. This helps assess for abnormal renal cortical brightness versus the liver (e.g., ensuring the kidney is slightly darker or similar).",
+    "groundtruth": "The operator compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface, confirming the kidney is slightly darker (hypoechoic) or about the same as the liver.",
+    "time_start": 36.15,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 36.15,
+    "time_end_extended": 48.24,
+    "original_time_start": 36.15,
+    "original_time_end": 48.24,
+    "model_prediction": "The video demonstrates a comparison of the echogenicity (brightness) between the liver parenchyma and the renal cortex of the right kidney. The clinical purpose of this comparison is to assess for hepatic steatosis (fatty liver), as a liver that appears hyperechoic (brighter) relative to the adjacent renal cortex is a primary indicator of fatty infiltration.",
+    "inference_metadata": {
+      "raw_response": "The video demonstrates a comparison of the echogenicity (brightness) between the liver parenchyma and the renal cortex of the right kidney. The clinical purpose of this comparison is to assess for hepatic steatosis (fatty liver), as a liver that appears hyperechoic (brighter) relative to the adjacent renal cortex is a primary indicator of fatty infiltration.",
+      "latency_ms": 10751.177310943604,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video segment, what workflow transition is shown (including the view/orientation change and patient context), and what is the reason for doing both steps?",
+    "answer": "The probe is rotated to a transverse orientation while scanning intercostally to re-check the liver in another plane, then the scan transitions to evaluating the right kidney with the patient supine to confirm it still appears grossly normal.",
+    "groundtruth": "The operator rotates to a transverse intercostal view to inspect the liver for masses that might be missed otherwise, then transitions to scanning the right kidney in the supine position to reconfirm it appears grossly normal.",
+    "time_start": 51.78,
+    "time_end": 75.56,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 51.78,
+    "time_end_extended": 75.56,
+    "original_time_start": 51.78,
+    "original_time_end": 75.56,
+    "model_prediction": "Answer: The video demonstrates a transition from scanning the liver parenchyma to sliding the probe inferiorly to visualize the right kidney and the hepatorenal interface (Morison's pouch). This workflow is characteristic of the Right Upper Quadrant (RUQ) view in a FAST (Focused Assessment with Sonography for Trauma) examination. The reason for this two-step process is to first use the liver as an acoustic window to ensure good image quality and then to specifically assess the hepatorenal recess, which is the most dependent part of the upper abdomen in a supine patient and a primary site for the accumulation of free intraperitoneal fluid (hemoperitoneum).",
+    "inference_metadata": {
+      "raw_response": "Answer: The video demonstrates a transition from scanning the liver parenchyma to sliding the probe inferiorly to visualize the right kidney and the hepatorenal interface (Morison's pouch). This workflow is characteristic of the Right Upper Quadrant (RUQ) view in a FAST (Focused Assessment with Sonography for Trauma) examination. The reason for this two-step process is to first use the liver as an acoustic window to ensure good image quality and then to specifically assess the hepatorenal recess, which is the most dependent part of the upper abdomen in a supine patient and a primary site for the accumulation of free intraperitoneal fluid (hemoperitoneum).",
+      "latency_ms": 26248.62504005432,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video segment, after the adjacent organ is brought into view, what are the two immediate assessment steps being performed, and what is the overall intent?",
+    "answer": "First the right kidney is assessed for gross normal appearance, then its cortical echogenicity is compared with the adjacent liver at the hepato-renal interface. Together this screens for obvious renal abnormalities and abnormal cortical brightness relative to the liver.",
+    "groundtruth": "Once the right kidney is visualized, the operator focuses on its structure to confirm it appears grossly normal and then compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface.",
+    "time_start": 32.08,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 32.08,
+    "time_end_extended": 48.24,
+    "original_time_start": 32.08,
+    "original_time_end": 48.24,
+    "model_prediction": "Answer: Based on the visual evidence, the adjacent organ brought into view is the liver, which serves as an acoustic window. The two immediate assessment steps performed on the kidney are:\n1.  **Longitudinal Sweeping:** The probe is fanned back and forth along the long axis of the kidney to visualize the entire organ from the upper to the lower pole.\n2.  **Evaluation of Internal Architecture:** The sonographer focuses on the renal sinus and parenchyma to assess corticomedullary differentiation and check for central echogenicity.\n\nThe overall intent is to **evaluate renal anatomy and screen for pathology**, such as hydronephrosis (dilation of the collecting system), masses, or parenchymal disease.",
+    "inference_metadata": {
+      "raw_response": "Answer: Based on the visual evidence, the adjacent organ brought into view is the liver, which serves as an acoustic window. The two immediate assessment steps performed on the kidney are:\n1.  **Longitudinal Sweeping:** The probe is fanned back and forth along the long axis of the kidney to visualize the entire organ from the upper to the lower pole.\n2.  **Evaluation of Internal Architecture:** The sonographer focuses on the renal sinus and parenchyma to assess corticomedullary differentiation and check for central echogenicity.\n\nThe overall intent is to **evaluate renal anatomy and screen for pathology**, such as hydronephrosis (dilation of the collecting system), masses, or parenchymal disease.",
+      "latency_ms": 136313.4880065918,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

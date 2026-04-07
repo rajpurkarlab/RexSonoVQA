@@ -1,0 +1,74 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe handling/motion is performed during the lateral sweep, and what is the operator trying to find with that pass?",
+    "answer": "The operator applies gentle pressure and slides the probe toward the patient\u2019s right. The goal is to scan laterally to locate the colon and use the bowel-gas-related dirty shadowing as a recognizable landmark.",
+    "groundtruth": "With gentle pressure, the transducer is slid toward the patient\u2019s right to scan laterally to the colon and recognize the dirty shadowing produced by bowel gas as a key landmark.",
+    "time_start": 3.99,
+    "time_end": 12.79,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 3.99,
+    "original_time_end": 12.79,
+    "model_prediction": "The probe is *slid (translated) laterally across the skin* in a continuous sweep, with consistent skin contact and no rotation/tilt of the probe as it moves side to side.\nThis is a standard right lower quadrant sweep, where the operator is searching for the vermiform appendix by sequentially imaging adjacent tissue planes and small bowel loops to identify the characteristic blind-ended, tubular appendix structure.",
+    "inference_metadata": {
+      "raw_response": "The probe is *slid (translated) laterally across the skin* in a continuous sweep, with consistent skin contact and no rotation/tilt of the probe as it moves side to side.\nThis is a standard right lower quadrant sweep, where the operator is searching for the vermiform appendix by sequentially imaging adjacent tissue planes and small bowel loops to identify the characteristic blind-ended, tubular appendix structure.",
+      "latency_ms": 121667.80495643616,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.799999999999999,
+    "judge_explanation": "The AI correctly identifies the probe motion as sliding/translating laterally across the skin, which matches the ground truth. However, the AI incorrectly states the goal is to search for the appendix, whereas the ground truth states the goal is to locate the colon and its associated dirty shadowing.",
+    "judge_error_type": "wrong_conclusion"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what directional sweep is performed to track a consistent visual cue until it ends, and what anatomical level does that endpoint establish for the exam?",
+    "answer": "The probe is slid inferiorly toward the patient\u2019s feet while following the cue until it terminates. That termination point is used to identify the level of the cecum.",
+    "groundtruth": "The transducer is slid inferiorly to follow the dirty shadowing to its endpoint, using that termination as the level of the cecum.",
+    "time_start": 18.23,
+    "time_end": 28.22,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 18.23,
+    "original_time_end": 28.22,
+    "model_prediction": "Answer: The probe performs a caudal (inferior, downward) sweep tracking the echogenic pleural line/lung interface. The endpoint of this tracked line establishes the costophrenic angle (costodiaphragmatic recess), the inferior boundary of the thoracic pleural space at the lung base adjacent to the diaphragm.",
+    "inference_metadata": {
+      "raw_response": "Answer: The probe performs a caudal (inferior, downward) sweep tracking the echogenic pleural line/lung interface. The endpoint of this tracked line establishes the costophrenic angle (costodiaphragmatic recess), the inferior boundary of the thoracic pleural space at the lung base adjacent to the diaphragm.",
+      "latency_ms": 220912.17589378357,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.989999999999998,
+    "judge_explanation": "The AI correctly identifies the directional sweep as inferior/caudal, but incorrectly identifies the visual cue and anatomical level as the pleural line and costophrenic angle, whereas the ground truth identifies it as the level of the cecum.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, once the suspected target is found near a junction, what optimization maneuvers are performed and what confirmation are they aiming to obtain?",
+    "answer": "The operator centers the structure at its attachment point and optimizes the image to bring out fine detail. This is done to identify a small blind-ended structure attached to the cecum and confirm it appears normal and thin.",
+    "groundtruth": "After locating the attachment to the cecum, the operator optimizes the image to resolve fine details and confirm a small blind-ended structure consistent with a normal appendix with only a couple millimeters of thickness.",
+    "time_start": 44.15,
+    "time_end": 62.21,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 44.15,
+    "original_time_end": 62.21,
+    "model_prediction": "After the target near the tissue junction is identified, the sonographer performs small controlled angulation/rocking of the ultrasound probe to image the target from multiple different scanning angles.\nThis maneuver aims to confirm the finding is a real pathological/anatomical structure rather than an ultrasound artifact: real structures persist with consistent features across different probe angles, while artifacts typically disappear or change inconsistently with angle adjustment.",
+    "inference_metadata": {
+      "raw_response": "After the target near the tissue junction is identified, the sonographer performs small controlled angulation/rocking of the ultrasound probe to image the target from multiple different scanning angles.\nThis maneuver aims to confirm the finding is a real pathological/anatomical structure rather than an ultrasound artifact: real structures persist with consistent features across different probe angles, while artifacts typically disappear or change inconsistently with angle adjustment.",
+      "latency_ms": 208053.92980575562,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 18.060000000000002,
+    "judge_explanation": "The AI prediction provides a generic response about ruling out artifacts through probe angulation, completely missing the specific anatomical context and maneuvers described in the ground truth (centering the structure at its attachment point to identify a normal, thin, blind-ended structure attached to the cecum).",
+    "judge_error_type": "both_fail"
+  }
+]

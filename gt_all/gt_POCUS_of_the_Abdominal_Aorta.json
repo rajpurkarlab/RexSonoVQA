@@ -1,0 +1,170 @@
+[
+  {
+    "start": 0.96,
+    "end": 5.97,
+    "action": "Place probe in transverse position. Immediately identify the target vessel.",
+    "interpretation": "Identify a pulsatile aorta immediately upon placing the probe."
+  },
+  {
+    "start": 7.15,
+    "end": 15.96,
+    "action": "Assess the posterior landmarks. Verify depth settings.",
+    "interpretation": "Identify the vertebral shadow and the vertebral body at a depth of approximately 10 centimeters."
+  },
+  {
+    "start": 17.49,
+    "end": 26.43,
+    "action": "Freeze the image upon obtaining a clear view. Prepare to measure.",
+    "interpretation": "View is identified. Plan to measure the aortic diameter from outer wall to outer wall."
+  },
+  {
+    "start": 27.27,
+    "end": 39.0,
+    "action": "Activate calipers. Place calipers on the outer walls of the aorta.",
+    "interpretation": "Positioning calipers for measurement."
+  },
+  {
+    "start": 40.54,
+    "end": 47.42,
+    "action": "Read the measurement on the screen.",
+    "interpretation": "The diameter is 2.6 centimeters, which is a normal finding."
+  },
+  {
+    "start": 48.12,
+    "end": 57.62,
+    "action": "Adjust caliper placement if necessary to capture the full width.",
+    "interpretation": "Acknowledge slight overestimation of the size. Reasoning: It is clinically safer to overestimate than underestimate the aorta."
+  },
+  {
+    "start": 61.04,
+    "end": 63.76,
+    "action": "Unfreeze the image. Resume scanning.",
+    "interpretation": "Continuing the scan."
+  },
+  {
+    "start": 64.1,
+    "end": 67.04,
+    "action": "Drag the probe inferiorly towards the feet. Maintain the same transverse orientation.",
+    "interpretation": "Scanning down the length of the aorta."
+  },
+  {
+    "start": 69.28,
+    "end": 83.77,
+    "action": "Apply constant, firm pressure. Fan the probe gently to displace obstruction.",
+    "interpretation": "Bowel gas is obscuring the view and causing loss of aortic visualization. Pressure and fanning are used to move the gas around."
+  },
+  {
+    "start": 84.99,
+    "end": 88.42,
+    "action": "Decrease the depth setting.",
+    "interpretation": "Optimizing the image by reducing depth."
+  },
+  {
+    "start": 91.32,
+    "end": 95.01,
+    "action": "Inspect the right side of the screen.",
+    "interpretation": "Visualize the aorta located on the right side of the screen."
+  },
+  {
+    "start": 95.79,
+    "end": 101.49,
+    "action": "Inspect the left side of the screen and posterior field.",
+    "interpretation": "Visualize the IVC partially on the left side of the screen and identify the vertebral shadow again."
+  },
+  {
+    "start": 102.51,
+    "end": 105.8,
+    "action": "Freeze image (optional). Measure the aorta at this level.",
+    "interpretation": "Process can be repeated to document diameter at this level."
+  },
+  {
+    "start": 108.28,
+    "end": 117.26,
+    "action": "Drag the probe downward towards the distal aorta, positioning just above the umbilicus. Continue until vessel splits.",
+    "interpretation": "Tracking the aorta distally to locate the bifurcation."
+  },
+  {
+    "start": 118.18,
+    "end": 120.4,
+    "action": "Hold position at the split.",
+    "interpretation": "Visualize the bifurcation point."
+  },
+  {
+    "start": 120.54,
+    "end": 124.42,
+    "action": "Fan the probe back and forth.",
+    "interpretation": "Fanning clarifies the structure so it is visible on the screen."
+  },
+  {
+    "start": 124.46,
+    "end": 131.99,
+    "action": "Analyze anatomical relationship on screen.",
+    "interpretation": "IVC is located on the left side of the screen; the bifurcation is on the right side."
+  },
+  {
+    "start": 132.21,
+    "end": 143.25,
+    "action": "Prepare to transition to the sagittal plane. Plan to scan suprarenal and infrarenal areas.",
+    "interpretation": "Objective is to acquire the aorta in the sagittal plane."
+  },
+  {
+    "start": 143.27,
+    "end": 147.72,
+    "action": "Slide the probe to center the aorta on the screen.",
+    "interpretation": "Centering the vessel for rotation."
+  },
+  {
+    "start": 147.92,
+    "end": 150.2,
+    "action": "Align the vessel with the posterior landmark.",
+    "interpretation": "The aorta is situated right above the vertebral shadow."
+  },
+  {
+    "start": 150.86,
+    "end": 160.48,
+    "action": "Use two hands. Rotate the probe 90 degrees so the marker points towards the patient's head. Maintain visualization of the aorta throughout the rotation.",
+    "interpretation": "Transitioning to longitudinal view while keeping the target in sight."
+  },
+  {
+    "start": 161.83,
+    "end": 175.12,
+    "action": "Scan the aorta in sagittal plane completely.",
+    "interpretation": "Reasoning: This view ensures detection of saccular aneurysms, which can be easily missed if skipping through transverse views."
+  },
+  {
+    "start": 176.4,
+    "end": 179.84,
+    "action": "Establish the longitudinal view.",
+    "interpretation": "Confirm view of the aorta in the sagittal plane."
+  },
+  {
+    "start": 179.93,
+    "end": 184.73,
+    "action": "Drag the probe inferiorly.",
+    "interpretation": "Visualize the infrarenal aorta in the sagittal plane."
+  },
+  {
+    "start": 187.31,
+    "end": 204.77,
+    "action": "Instruct patient to bend knees. Press downward firmly. Wait for bowel gas to displace.",
+    "interpretation": "Troubleshooting tip: These actions help clear bowel gas. Acknowledge that distinguishing IVC from Aorta can be confusing in the sagittal plane."
+  },
+  {
+    "start": 205.71,
+    "end": 210.77,
+    "action": "Slide the probe towards the patient's right.",
+    "interpretation": "This maneuver should isolate the IVC."
+  },
+  {
+    "start": 212.49,
+    "end": 218.66,
+    "action": "Identify IVC, then slide the probe back to the patient's left.",
+    "interpretation": "Confirm the first vessel is the IVC. Confirm the vessel on the left is the Aorta."
+  },
+  {
+    "start": 218.7,
+    "end": 223.04,
+    "action": "Use this sweep to verify anatomy.",
+    "interpretation": "This serves as a quick confirmation method to ensure the correct vessel is being targeted."
+  }
+]

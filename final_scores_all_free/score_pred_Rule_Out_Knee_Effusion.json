@@ -1,0 +1,128 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing immediately after locating the main bony landmark, and what imaging target are they trying to bring into view?",
+    "answer": "They keep the probe just proximal to the bony landmark and focus on the superficial soft tissues above it to visualize the quadriceps tendon and its characteristic fibrillar pattern.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the probe maintained proximal to the patella, the operator targets the soft tissues superior to the bone to visualize the quadriceps tendon and confirm its normal striated appearance.",
+    "time_start": 8.35,
+    "time_end": 16.41,
+    "model_prediction": "Based on the video clip, immediately after locating the main bony landmark (which appears to be a rib or transverse process with acoustic shadowing on the right side of the screen), the operator rotates the probe approximately 90 degrees. This maneuver is performed to change the view from a short-axis (transverse) orientation to a long-axis (longitudinal) orientation in order to visualize the pleura and lung sliding between the rib spaces.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, immediately after locating the main bony landmark (which appears to be a rib or transverse process with acoustic shadowing on the right side of the screen), the operator rotates the probe approximately 90 degrees. This maneuver is performed to change the view from a short-axis (transverse) orientation to a long-axis (longitudinal) orientation in order to visualize the pleura and lung sliding between the rib spaces.",
+      "latency_ms": 7114.56298828125,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.06,
+    "judge_explanation": "The AI completely misidentified the anatomical context. The ground truth describes a musculoskeletal exam focusing on the quadriceps tendon, while the AI describes a thoracic exam looking for pleura and lung sliding. Both the action described and the target anatomy are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is being used during the dynamic sweep, and what is the diagnostic goal of doing this?",
+    "answer": "They fan/angle the probe through the region to systematically survey for anechoic fluid, aiming to rule out an effusion.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator fans the probe through the suprapatellar region to search across planes for anechoic fluid that would indicate an effusion.",
+    "time_start": 27.85,
+    "time_end": 38.67,
+    "model_prediction": "Based on the video, the probe motion strategy being used is **compression**. The operator is applying pressure with the transducer onto the skin surface and then releasing it, causing the underlying tissue layers to deform and the vessel-like structures to flatten.\n\nThe diagnostic goal of this maneuver is to assess for **compressibility**, likely to rule out a deep vein thrombosis (DVT). If the vein fully collapses under pressure (walls touch), it indicates patency; if it resists compression, it suggests the presence of a thrombus (clot).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe motion strategy being used is **compression**. The operator is applying pressure with the transducer onto the skin surface and then releasing it, causing the underlying tissue layers to deform and the vessel-like structures to flatten.\n\nThe diagnostic goal of this maneuver is to assess for **compressibility**, likely to rule out a deep vein thrombosis (DVT). If the vein fully collapses under pressure (walls touch), it indicates patency; if it resists compression, it suggests the presence of a thrombus (clot).",
+      "latency_ms": 8663.280010223389,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.82,
+    "judge_explanation": "The AI incorrectly identifies the probe maneuver as compression and the diagnostic goal as ruling out DVT. The ground truth states the maneuver is fanning/angling to survey for an effusion.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what anatomic space is being specifically surveyed at this point, and what clinical question is being answered?",
+    "answer": "They survey the suprapatellar recess (the potential space between the quadriceps tendon and femur) to confirm there is no knee effusion.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator interrogates the suprapatellar recess—the potential space between tendon and femur—to confirm the absence of knee effusion.",
+    "time_start": 39.81,
+    "time_end": 50.8,
+    "model_prediction": "Based on the video clip, the **pleural space** (specifically the interface between the parietal and visceral pleura) is being surveyed. The clinical question being answered is whether **lung sliding** is present, which is used to rule out a pneumothorax. The video demonstrates normal \"shimmering\" or sliding of the pleural line with respiration.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the **pleural space** (specifically the interface between the parietal and visceral pleura) is being surveyed. The clinical question being answered is whether **lung sliding** is present, which is used to rule out a pneumothorax. The video demonstrates normal \"shimmering\" or sliding of the pleural line with respiration.",
+      "latency_ms": 6542.415142059326,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.989999999999995,
+    "judge_explanation": "The AI completely misidentified the anatomical region and the clinical context. It identified the scan as a lung ultrasound looking for pneumothorax, whereas the ground truth indicates it is a musculoskeletal scan of the knee surveying the suprapatellar recess for effusion.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator notes an apparent finding within a linear soft-tissue structure. What is it being recognized as, and what technical factor produces it?",
+    "answer": "It is recognized as anisotropy, caused by the ultrasound beam striking the tendon at a non-perpendicular angle, creating an artifactual hypoechoic/anechoic appearance.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator identifies an anechoic-appearing area within the tendon and interprets it as anisotropy due to non-perpendicular insonation rather than true pathology.",
+    "time_start": 52.65,
+    "time_end": 70.11,
+    "model_prediction": "Based on the video clip, the finding is being recognized as **anisotropy**, which is an artifact produced by the **angle of insonation**.\n\n**Explanation:**\nThe video demonstrates a linear, fibrillar structure (likely a tendon or muscle fascicle) that appears bright and hyperechoic when the ultrasound beam strikes it perpendicularly. However, as the operator changes the angle of the probe, a portion of the structure suddenly turns dark (hypoechoic). This phenomenon, known as anisotropy, occurs when the ultrasound beam strikes a highly structured, linear reflector (like a tendon) at an angle other than 90 degrees, causing the sound waves to reflect away from the transducer rather than back to it. This can mimic pathology like a tear or fluid but is purely a technical artifact dependent on the angle of incidence.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the finding is being recognized as **anisotropy**, which is an artifact produced by the **angle of insonation**.\n\n**Explanation:**\nThe video demonstrates a linear, fibrillar structure (likely a tendon or muscle fascicle) that appears bright and hyperechoic when the ultrasound beam strikes it perpendicularly. However, as the operator changes the angle of the probe, a portion of the structure suddenly turns dark (hypoechoic). This phenomenon, known as anisotropy, occurs when the ultrasound beam strikes a highly structured, linear reflector (like a tendon) at an angle other than 90 degrees, causing the sound waves to reflect away from the transducer rather than back to it. This can mimic pathology like a tear or fluid but is purely a technical artifact dependent on the angle of incidence.",
+      "latency_ms": 8428.536176681519,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 17.46,
+    "judge_explanation": "The AI correctly identifies the finding as anisotropy and accurately attributes it to the angle of insonation (non-perpendicular angle), matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video segment, how does the operator use a brief sequence of maneuvers to decide whether a questionable finding is real versus artifact?",
+    "answer": "They change the insonation angle with a small rocking maneuver and then hold the corrected angle; resolution of the finding indicates anisotropy rather than true pathology.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After recognizing a suspicious-appearing area as likely anisotropy, the operator corrects the angle with heel-toe rocking and holds it to confirm the artifact disappears, demonstrating it is a normal tendon property.",
+    "time_start": 52.65,
+    "time_end": 85.91,
+    "model_prediction": "Based on the video, the operator uses a technique of **changing the angle of insonation** (tilting or rocking the probe) to determine if a finding is real.\n\nSpecifically, as the probe angle changes, real anatomical structures (like the fascial planes and muscle fibers seen on the left) will remain present and consistent in their location relative to surrounding tissues, although their echogenicity might change due to anisotropy. In contrast, artifacts (like reverberation or refraction shadows) often disappear, shift significantly, or change their appearance drastically when the beam angle is altered. In this clip, the operator sweeps the beam back and forth to confirm the persistence and nature of the structures being visualized.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator uses a technique of **changing the angle of insonation** (tilting or rocking the probe) to determine if a finding is real.\n\nSpecifically, as the probe angle changes, real anatomical structures (like the fascial planes and muscle fibers seen on the left) will remain present and consistent in their location relative to surrounding tissues, although their echogenicity might change due to anisotropy. In contrast, artifacts (like reverberation or refraction shadows) often disappear, shift significantly, or change their appearance drastically when the beam angle is altered. In this clip, the operator sweeps the beam back and forth to confirm the persistence and nature of the structures being visualized.",
+      "latency_ms": 8251.046895980835,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 33.26,
+    "judge_explanation": "The AI correctly identifies the specific maneuver (changing the angle of insonation/rocking) used to distinguish between real pathology and artifact (specifically anisotropy), aligning well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what general scanning “rule” is being emphasized for future views, and what workflow purpose does it serve?",
+    "answer": "Whenever a hypoechoic area is seen within a tendon, the operator repeats a small rocking/angle-correction maneuver to ensure perpendicular insonation, helping distinguish anisotropy from true tendon pathology.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator emphasizes that tendons commonly show anisotropy; therefore, when a hypoechoic area appears, they should rock the probe to achieve perpendicular insonation and verify whether the finding is artifact or real.",
+    "time_start": 70.43,
+    "time_end": 91.91,
+    "model_prediction": "Based on the video clip, the general scanning rule being emphasized is to **scan through the entire organ or structure of interest (fanning through)**.\n\nThe workflow purpose is to ensure complete visualization of the anatomy to avoid missing pathology that might only be visible in a specific plane, thereby confirming a comprehensive assessment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the general scanning rule being emphasized is to **scan through the entire organ or structure of interest (fanning through)**.\n\nThe workflow purpose is to ensure complete visualization of the anatomy to avoid missing pathology that might only be visible in a specific plane, thereby confirming a comprehensive assessment.",
+      "latency_ms": 7279.313325881958,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 21.47999999999999,
+    "judge_explanation": "The AI prediction identifies a generic scanning rule (fanning through the entire organ) which is incorrect compared to the specific rule described in the ground truth (rocking/angle-correction to distinguish anisotropy from pathology in a tendon). Consequently, the stated purpose is also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "start": 1.07,
+    "end": 7.05,
+    "action": "Position the probe to visualize the bony landmarks. Locate the patella on the right side of the screen.",
+    "interpretation": "Identify the patella and observe the deep acoustic shadow cast beneath the bony structure."
+  },
+  {
+    "start": 8.35,
+    "end": 16.41,
+    "action": "Maintain probe position proximal to the patella. Focus on the soft tissue structures superior to the bone.",
+    "interpretation": "Visualize the quadriceps tendon, identified by its characteristic horizontal striations."
+  },
+  {
+    "start": 16.83,
+    "end": 26.26,
+    "action": "Increase the depth setting slightly.",
+    "interpretation": "Extend the field of view to visualize the contour of the femur bone at the bottom of the screen."
+  },
+  {
+    "start": 27.85,
+    "end": 38.67,
+    "action": "Fan the probe through the suprapatellar area.",
+    "interpretation": "Scan specifically for the presence of anechoic fluid to rule out pathology."
+  },
+  {
+    "start": 39.81,
+    "end": 50.8,
+    "action": "Survey the suprapatellar recess (the potential space between the tendon and femur).",
+    "interpretation": "Confirm the absence of knee effusion (transcribed as 'neofusion') in this potential space."
+  },
+  {
+    "start": 52.65,
+    "end": 70.11,
+    "action": "Identify the anechoic area currently visible within the tendon structure.",
+    "interpretation": "Recognize this finding as anisotropy, an artifact caused by ultrasound waves hitting the tendon at a non-perpendicular angle."
+  },
+  {
+    "start": 70.43,
+    "end": 77.08,
+    "action": "Rock the probe (heel-toe maneuver) to orient the beam perpendicular to the tendon fibers.",
+    "interpretation": "Observe the disappearance of the hypoechoic/anechoic area as the angle of insonation is corrected."
+  },
+  {
+    "start": 77.58,
+    "end": 85.91,
+    "action": "Hold the corrected angle.",
+    "interpretation": "Note that this anisotropic artifact is a normal property of tendons, nerves, and similar linear structures."
+  },
+  {
+    "start": 86.35,
+    "end": 91.91,
+    "action": "Apply the rocking maneuver whenever a hypoechoic area is visualized within a tendon.",
+    "interpretation": "Verify perpendicular alignment to distinguish between true pathology and anisotropy."
+  }
+]

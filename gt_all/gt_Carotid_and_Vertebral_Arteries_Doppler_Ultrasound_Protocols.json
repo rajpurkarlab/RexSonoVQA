@@ -1,0 +1,230 @@
+[
+  {
+    "start": 1.59,
+    "end": 6.51,
+    "action": "Scan the neck in transverse view. Identify the anatomy on the screen.",
+    "interpretation": "Visualize two distinct tubular structures."
+  },
+  {
+    "start": 7.87,
+    "end": 12.54,
+    "action": "Observe the vessel characteristics to differentiate them.",
+    "interpretation": "Identify the pulsatile ('versatile') structure as the carotid artery."
+  },
+  {
+    "start": 13.38,
+    "end": 18.4,
+    "action": "Focus on the adjacent vessel.",
+    "interpretation": "Identify the non-pulsatile structure as the internal jugular vein."
+  },
+  {
+    "start": 19.86,
+    "end": 23.82,
+    "action": "Apply pressure over the vessels with the probe.",
+    "interpretation": "Confirm anatomical identification through compression."
+  },
+  {
+    "start": 25.16,
+    "end": 31.0,
+    "action": "Observe the reaction of the vein to the pressure.",
+    "interpretation": "Note that the jugular vein is totally compressible."
+  },
+  {
+    "start": 32.01,
+    "end": 36.01,
+    "action": "Release pressure or focus on the remaining patent vessel.",
+    "interpretation": "Isolate the common carotid artery (CCA)."
+  },
+  {
+    "start": 36.43,
+    "end": 52.27,
+    "action": "Rotate the probe 90 degrees from transverse to perpendicular.",
+    "interpretation": "Transition to a long plane (sagittal) view of the carotid."
+  },
+  {
+    "start": 55.65,
+    "end": 60.77,
+    "action": "Optimize the B-mode image in longitudinal view.",
+    "interpretation": "Visualize a healthy common carotid artery."
+  },
+  {
+    "start": 62.14,
+    "end": 70.0,
+    "action": "Measure the intima-media thickness (IMT).",
+    "interpretation": "Ensure the thickness is less than 0.9 mm."
+  },
+  {
+    "start": 70.01,
+    "end": 79.0,
+    "action": "Reduce the TGC (Time Gain Compensation).",
+    "interpretation": "Clear the image of noise or artifacts."
+  },
+  {
+    "start": 79.01,
+    "end": 89.68,
+    "action": "Activate Color Doppler mode.",
+    "interpretation": "Apply the color box over the artery."
+  },
+  {
+    "start": 92.26,
+    "end": 105.0,
+    "action": "Adjust physics parameters: Increase depth and increase the velocity scale.",
+    "interpretation": "Optimize the setting for arterial flow detection."
+  },
+  {
+    "start": 105.01,
+    "end": 118.7,
+    "action": "Reduce the color gain.",
+    "interpretation": "Visualize the right common carotid artery with proper color filling and no bleeding artifacts."
+  },
+  {
+    "start": 121.14,
+    "end": 123.58,
+    "action": "Activate Pulse Wave (PW) Doppler.",
+    "interpretation": "Prepare to take a spectral waveform."
+  },
+  {
+    "start": 125.06,
+    "end": 135.12,
+    "action": "Place the sample volume cursor exactly in the middle of the artery lumen.",
+    "interpretation": "Target the area of maximum velocity (laminar flow center)."
+  },
+  {
+    "start": 135.9,
+    "end": 136.54,
+    "action": "Freeze the image.",
+    "interpretation": "Capture the spectral doppler trace."
+  },
+  {
+    "start": 138.82,
+    "end": 140.65,
+    "action": "Disable auto-calculation features.",
+    "interpretation": "Prepare for manual measurement or clean visualization."
+  },
+  {
+    "start": 140.67,
+    "end": 149.15,
+    "action": "Inspect the spectral trace.",
+    "interpretation": "Observe a nice waveform for the right CCA with a peak systolic velocity of 84."
+  },
+  {
+    "start": 153.22,
+    "end": 163.42,
+    "action": "Unfreeze and repeat the measurement. Move the sample volume to a different area of the artery.",
+    "interpretation": "Sample multiple locations to ensure accuracy."
+  },
+  {
+    "start": 163.74,
+    "end": 168.32,
+    "action": "Measure the new velocity.",
+    "interpretation": "Note the new velocity reading of 100."
+  },
+  {
+    "start": 170.26,
+    "end": 177.41,
+    "action": "Return to transverse view. Slide the probe cephalad (up), following the common carotid artery.",
+    "interpretation": "Track the vessel superiorly."
+  },
+  {
+    "start": 179.34,
+    "end": 182.5,
+    "action": "Continue sliding superiorly until the vessel morphology changes.",
+    "interpretation": "Reach the carotid bulb."
+  },
+  {
+    "start": 183.06,
+    "end": 183.81,
+    "action": "Trace the vessel carefully.",
+    "interpretation": "Maintain visualization of the lumen."
+  },
+  {
+    "start": 185.37,
+    "end": 193.65,
+    "action": "Identify the segment where the diameter increases immediately before the bifurcation.",
+    "interpretation": "Confirm position directly over the bulb."
+  },
+  {
+    "start": 194.43,
+    "end": 200.43,
+    "action": "Repeat the sweep from inferior (down) to superior (up).",
+    "interpretation": "Verify findings."
+  },
+  {
+    "start": 203.63,
+    "end": 207.61,
+    "action": "Pause scanning where the diameter widens.",
+    "interpretation": "Visualize the bulb."
+  },
+  {
+    "start": 209.85,
+    "end": 219.97,
+    "action": "Rotate the probe to the sagittal plane.",
+    "interpretation": "Visualize the bulb in the longitudinal view."
+  },
+  {
+    "start": 220.75,
+    "end": 225.73,
+    "action": "Adjust TGC sliders.",
+    "interpretation": "Optimize image quality/gain homogeneity."
+  },
+  {
+    "start": 227.49,
+    "end": 232.06,
+    "action": "Activate Color Doppler.",
+    "interpretation": "Place the color box over the bulb."
+  },
+  {
+    "start": 232.06,
+    "end": 240.66,
+    "action": "Activate Pulse Wave Doppler at the bulb.",
+    "interpretation": "Observe the initial waveform is 'bad' or suboptimal."
+  },
+  {
+    "start": 240.78,
+    "end": 244.18,
+    "action": "Steer ('stir') the doppler beam box.",
+    "interpretation": "Adjust the angle to obtain good flow signal."
+  },
+  {
+    "start": 244.54,
+    "end": 248.94,
+    "action": "Document the velocity once flow signal improves.",
+    "interpretation": "Observe better flow characteristics."
+  },
+  {
+    "start": 249.96,
+    "end": 250.48,
+    "action": "Freeze and measure.",
+    "interpretation": "Record a velocity of 67."
+  },
+  {
+    "start": 250.7,
+    "end": 255.84,
+    "action": "Rotate the probe back to transverse view.",
+    "interpretation": "Prepare to scan superiorly."
+  },
+  {
+    "start": 259.49,
+    "end": 262.13,
+    "action": "Scan superior to the bulb.",
+    "interpretation": "Locate the bifurcation."
+  },
+  {
+    "start": 262.79,
+    "end": 270.04,
+    "action": "Identify the splitting of the vessels.",
+    "interpretation": "Visualize the carotid bifurcating into the Internal Carotid Artery (ICA) and External Carotid Artery (ECA)."
+  },
+  {
+    "start": 270.56,
+    "end": 272.39,
+    "action": "Apply Color Doppler.",
+    "interpretation": "Use flow to confirm the presence of two distinct vessels."
+  },
+  {
+    "start": 274.69,
+    "end": 284.41,
+    "action": "Sweep through the bifurcation.",
+    "interpretation": "Confirm the transition from one vessel into two distinct vessels (ICA and ECA)."
+  }
+]

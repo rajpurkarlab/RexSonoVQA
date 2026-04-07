@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0.05,
+    "end": 15.1,
+    "action": "Visualize the anatomical orientation of the kidney relative to the body.",
+    "interpretation": "Recall that the upper pole of the kidney is slightly more posterior, while the lower pole is more anterior."
+  },
+  {
+    "start": 15.78,
+    "end": 19.96,
+    "action": "Adjust the transducer to an oblique position.",
+    "interpretation": "Match the probe axis to the oblique lie of the kidney (posterior upper pole, anterior lower pole)."
+  },
+  {
+    "start": 21.24,
+    "end": 27.77,
+    "action": "Obtain the standard view of the kidney.",
+    "interpretation": "Identify the kidney and visualize the spleen within this window."
+  },
+  {
+    "start": 29.01,
+    "end": 42.0,
+    "action": "Sweep through the kidney in its entirety from lateral to medial.",
+    "interpretation": "Ensure complete coverage of the renal parenchyma during the sagittal/oblique sweep."
+  },
+  {
+    "start": 42.01,
+    "end": 57.12,
+    "action": "Look at the probe and rotate 90 degrees from the sagittal image to obtain a transverse view.",
+    "interpretation": "Transition from the longitudinal axis to the transverse axis of the left kidney."
+  },
+  {
+    "start": 58.18,
+    "end": 65.41,
+    "action": "Sweep the probe all the way up to the top (superior) and down to the lower pole (inferior) of the left kidney.",
+    "interpretation": "Visualize the full transverse extent of the kidney from the top to the bottom."
+  },
+  {
+    "start": 66.82,
+    "end": 72.65,
+    "action": "Assess the image for acoustic shadowing or obstruction.",
+    "interpretation": "Note that you may encounter rib artifacts obscuring the transverse picture."
+  },
+  {
+    "start": 73.11,
+    "end": 86.86,
+    "action": "If the image is obscured, utilize the intercostal space and sweep through it.",
+    "interpretation": "Improve visualization of the upper or lower pole by avoiding rib shadows."
+  },
+  {
+    "start": 89.38,
+    "end": 96.79,
+    "action": "Continue scanning in the transverse window.",
+    "interpretation": "Identify the spleen again within this transverse view."
+  }
+]

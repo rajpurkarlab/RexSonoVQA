@@ -1,0 +1,102 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what probe adjustment is being performed, and what imaging goal does it serve?",
+    "answer": "The transducer is angled into an oblique orientation to match the kidney’s oblique lie. This helps obtain a true long-axis view that includes the posterior upper pole and more anterior lower pole in the same plane.",
+    "groundtruth": "The operator adjusts the transducer into an oblique position to align with the kidney’s oblique orientation (upper pole more posterior, lower pole more anterior).",
+    "time_start": 15.78,
+    "time_end": 19.96,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 15.78,
+    "time_end_extended": 19.96,
+    "original_time_start": 15.78,
+    "original_time_end": 19.96,
+    "model_prediction": "The probe is being adjusted to optimize the image quality and to better visualize the internal structures of the fetus.",
+    "inference_metadata": {
+      "raw_response": "The probe is being adjusted to optimize the image quality and to better visualize the internal structures of the fetus.",
+      "latency_ms": 8266.082525253296,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip, what scanning motion is shown, and what is the goal of doing it this way?",
+    "answer": "A systematic sweep is performed across the kidney from one side to the other while staying in the same long-axis/oblique plane. The goal is to ensure the entire renal parenchyma is evaluated without missing a segment.",
+    "groundtruth": "The operator sweeps through the kidney from lateral to medial in the sagittal/oblique plane to ensure complete coverage of the renal parenchyma.",
+    "time_start": 29.01,
+    "time_end": 42.0,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 29.01,
+    "time_end_extended": 42.0,
+    "original_time_start": 29.01,
+    "original_time_end": 42.0,
+    "model_prediction": "The scanning motion shown in the clip is a slow and steady movement. The goal of this methodical approach is to ensure that all areas are thoroughly examined, which is crucial for accurate diagnosis and assessment.",
+    "inference_metadata": {
+      "raw_response": "The scanning motion shown in the clip is a slow and steady movement. The goal of this methodical approach is to ensure that all areas are thoroughly examined, which is crucial for accurate diagnosis and assessment.",
+      "latency_ms": 10364.08257484436,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] Based on the clip segment, what is the broader workflow objective being carried out across these consecutive actions?",
+    "answer": "The operator is completing a comprehensive survey of the kidney by scanning through it in one plane, then switching to the orthogonal plane and sweeping end-to-end. This workflow documents full coverage in both long and short axes.",
+    "groundtruth": "After sweeping laterally-to-medially through the kidney in the sagittal/oblique plane, the operator rotates into transverse and then sweeps superior-to-inferior to cover the full kidney in the orthogonal plane.",
+    "time_start": 29.01,
+    "time_end": 65.41,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 29.01,
+    "time_end_extended": 65.41,
+    "original_time_start": 29.01,
+    "original_time_end": 65.41,
+    "model_prediction": "The broader workflow objective is to conduct a thorough ultrasound examination of the fetus, ensuring all necessary views and measurements are obtained for a comprehensive assessment.",
+    "inference_metadata": {
+      "raw_response": "The broader workflow objective is to conduct a thorough ultrasound examination of the fetus, ensuring all necessary views and measurements are obtained for a comprehensive assessment.",
+      "latency_ms": 9241.822719573975,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  },
+  {
+    "question": "[FREE] This clip shows the view becoming less reliable during scanning. Based on the video, what optimization maneuver is performed, and what limitation is it meant to overcome?",
+    "answer": "The operator moves to an intercostal window and sweeps through it. This is done to avoid rib-related shadowing/obstruction so the kidney (especially the poles) can be seen clearly.",
+    "groundtruth": "After assessing for acoustic shadowing/obstruction that can occur from ribs, the operator uses an intercostal space and sweeps through it to improve visualization of the kidney by avoiding rib shadows.",
+    "time_start": 66.82,
+    "time_end": 86.86,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 66.82,
+    "time_end_extended": 86.86,
+    "original_time_start": 66.82,
+    "original_time_end": 86.86,
+    "model_prediction": "The optimization maneuver performed is tilting the transducer to obtain a better view of the fetal face. This maneuver is meant to overcome the limitation of maternal habitus, which can make it difficult to visualize the fetus clearly.",
+    "inference_metadata": {
+      "raw_response": "The optimization maneuver performed is tilting the transducer to obtain a better view of the fetal face. This maneuver is meant to overcome the limitation of maternal habitus, which can make it difficult to visualize the fetus clearly.",
+      "latency_ms": 10804.242372512817,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0.0,
+      "extend_end_sec": 0.0,
+      "model": "lmms-lab/LLaVA-Video-72B-Qwen2",
+      "max_frames": 64
+    }
+  }
+]

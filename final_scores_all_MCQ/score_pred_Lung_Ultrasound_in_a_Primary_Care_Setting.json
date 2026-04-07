@@ -1,0 +1,97 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what procedural phase is being shown, and what is the operator’s broader objective?\nA) Reposition to the contralateral upper-chest region to repeat the same lung view for comparison\nB) Switch to M-mode at the same interspace to document lung sliding (seashore sign) and evaluate for pneumothorax\nC) Slide inferiorly and posteriorly to assess the costophrenic angle for pleural effusion and consolidation\nD) Rotate the probe 90° to obtain a transverse intercostal view to better visualize pleural line continuity and artifacts",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator moves the probe to the left apical chest and repeats the prior scanning maneuver to assess the contralateral apex.",
+    "time_start": 0.7,
+    "time_end": 6.04,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The video begins with an anterior or lateral chest view showing the pleural line and lung sliding. The operator then slides the probe inferiorly and posteriorly along the chest wall. This movement is characteristic of transitioning from an upper anterior lung point to the dependent regions, specifically aiming for the costophrenic angle (PLAPS point) to evaluate for pathology like pleural effusions or consolidation.",
+      "latency_ms": 8221.277952194214,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 5.34,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is performed, and why?\nA) Slide the probe to an adjacent window to avoid shadowing and open a clearer acoustic path\nB) Rock/heel-toe the probe to align the ultrasound beam perpendicular to the structure and reduce anisotropy\nC) Decrease depth and adjust overall gain to magnify the region of interest and improve contrast resolution\nD) Rotate the probe 90 degrees to obtain an orthogonal long-axis view and better delineate anatomy",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator prepares to reposition and then slides the probe upward to move off the rib and into an intercostal space, clearing the obstructed view.",
+    "time_start": 10.63,
+    "time_end": 17.69,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Slide the probe to an adjacent window to avoid shadowing and open a clearer acoustic path\n\nExplanation: The video begins with a view obstructed by a significant vertical acoustic shadow, likely caused by a rib. The operator then slides the probe laterally (to the left side of the screen), moving the probe into an intercostal space. This maneuver removes the shadowing artifact, revealing the pleural line and underlying A-lines clearly, thus opening a clean acoustic window.",
+      "latency_ms": 6682.06524848938,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.0600000000000005,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action is shown, and what is the diagnostic goal?\nA) Hold the probe steady to confirm sliding at the lung interface and screen for pneumothorax\nB) Switch to M-mode over the pleural line to look for a barcode/stratosphere sign suggestive of pneumothorax\nC) Fan the probe through multiple interspaces to assess for diffuse B-lines consistent with interstitial edema\nD) Slide the probe posterolaterally to evaluate the costophrenic recess for pleural effusion",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With a stable hand, the operator observes the pleural line for shimmering/lung sliding to confirm pleural apposition and exclude pneumothorax in this region.",
+    "time_start": 20.63,
+    "time_end": 25.45,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Hold the probe steady to confirm sliding at the lung interface and screen for pneumothorax\n\nExplanation:\nThe video shows a B-mode ultrasound view of the lung. The probe is held relatively stationary in one intercostal space. The key feature being observed is \"lung sliding,\" which is the shimmering movement of the visceral pleura sliding against the parietal pleura during respiration. This is visualized as a moving, hyperechoic (bright) horizontal line. The presence of lung sliding effectively rules out pneumothorax at that specific location. Additionally, horizontal A-lines (reverberation artifacts) are visible, which is a normal finding in aerated lung. The action is keeping the probe steady to carefully observe this sliding motion.",
+      "latency_ms": 8292.173147201538,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.82,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine adjustment is made, and what is the purpose?\nA) Increase imaging depth to better display repeated horizontal reverberation artifacts down the screen\nB) Decrease imaging depth to enlarge near-field structures and improve apparent resolution of the pleural line\nC) Increase overall gain to brighten the image and enhance visibility of low-amplitude echoes within the far field\nD) Move the focal zone to the level of the pleural line to optimize lateral resolution at the area of interest",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator identifies horizontal reverberation artifacts and increases depth so their repetitions (A-lines) are more clearly visualized.",
+    "time_start": 25.89,
+    "time_end": 32.28,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video starts with the pleural line and several A-lines (horizontal reverberation artifacts) visible. Around the 3-second mark, the imaging depth is increased, which reveals more of the deeper field. This allows for the visualization of additional A-lines extending further down the screen, confirming the presence of normal lung aeration artifacts deep into the image.",
+      "latency_ms": 6073.863744735718,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.390000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after changing image settings, what is the next logical step being performed, and why?\nA) Continue scanning additional nearby windows to ensure the pattern is consistent and representative\nB) Freeze and save a representative still image or cine loop now that the settings are optimized for documentation.\nC) Apply color Doppler over the region to assess for vascular flow that could mimic the observed echogenic pattern.\nD) Rotate the transducer 90° to obtain the orthogonal plane and ensure the appearance is not due to anisotropy.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After increasing depth to better display reverberation artifacts, the operator continues scanning the intercostal space to confirm the pattern is consistently normal.",
+    "time_start": 25.89,
+    "time_end": 37.1,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Continue scanning additional nearby windows to ensure the pattern is consistent and representative\n\nExplanation: The video demonstrates lung ultrasound showing prominent A-lines (horizontal reverberation artifacts), which is a normal finding indicating aerated lung. After optimizing the image to clearly visualize these lines (as seen by the dots highlighting them), the standard protocol involves scanning adjacent intercostal spaces or zones to confirm that this normal aeration pattern is diffuse and not an isolated finding, ruling out localized pathology like pneumothorax or consolidation elsewhere.",
+      "latency_ms": 6603.977918624878,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.21,
+    "keep": true
+  }
+]

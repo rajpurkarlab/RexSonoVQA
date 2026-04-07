@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe setup is being established, and what is the purpose?\nA. Longitudinal orientation aligned with the anticipated needle path, to maintain in-plane visualization for an ultrasound-guided procedure\nB. Longitudinal orientation with the indicator directed toward the patient’s head, to standardize cranial–caudal orientation for long-axis imaging\nC. Transverse orientation with the indicator directed to the patient’s right, to standardize left–right orientation for cross-sectional scanning\nD. Transverse orientation with the indicator directed to the patient’s left, to mirror the operator’s screen orientation during abdominal scanning",
+    "answer": "C",
+    "groundtruth": "The operator places the probe in a transverse orientation with the indicator toward the patient’s right to establish the standard transverse scanning plane and consistent image orientation.",
+    "time_start": 0.03,
+    "time_end": 3.11,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe setup is being established, and what is the purpose?\nA. Transverse orientation with the indicator directed to the patient’s left, to mirror the operator’s screen orientation during abdominal scanning\nB. Longitudinal orientation with the indicator directed toward the patient’s head, to standardize cranial–caudal orientation for long-axis imaging\nC. Transverse orientation with the indicator directed to the patient’s right, to standardize left–right orientation for cross-sectional scanning\nD. Longitudinal orientation aligned with the anticipated needle path, to maintain in-plane visualization for an ultrasound-guided procedure",
+    "original_answer": "C",
+    "original_time_start": 0.03,
+    "original_time_end": 3.11,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The probe is oriented longitudinally, aligned to the anticipated path of a needle for an ultrasound-guided procedure. This orientation allows full in-plane visualization of the needle as it advances, which is standard for interventional ultrasound procedures. The other options are incorrect as transverse orientation is not used here, and the purpose is procedural guidance not just anatomic orientation standardization.",
+      "latency_ms": 31071.184873580933,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what image-optimization change is being made, and why?\nA. Switching to a lower-frequency transducer setting to improve penetration at the expense of near-field detail\nB. Moving the focal zone deeper to optimize lateral resolution for a structure in the far field\nC. Adjusting imaging to emphasize the near field, to better evaluate superficial tissues\nD. Increasing imaging depth to include deeper anatomy and avoid cropping distal structures",
+    "answer": "C",
+    "groundtruth": "The operator shifts attention/optimization to the superficial near field to visualize the abdominal wall musculature above deeper structures.",
+    "time_start": 13.71,
+    "time_end": 17.0,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what image-optimization change is being made, and why?\nA. Adjusting imaging to emphasize the near field, to better evaluate superficial tissues\nB. Moving the focal zone deeper to optimize lateral resolution for a structure in the far field\nC. Switching to a lower-frequency transducer setting to improve penetration at the expense of near-field detail\nD. Increasing imaging depth to include deeper anatomy and avoid cropping distal structures",
+    "original_answer": "A",
+    "original_time_start": 13.71,
+    "original_time_end": 17.0,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The orange focal zone markers are adjusted to the near (superficial, upper portion of the image) field, which optimizes lateral resolution for the superficial layered tissues at the top of the image to better evaluate these structures. Other options are incorrect: there is no evidence of a frequency change (A), the focal zone is moved superficially not deeper (B), and imaging depth is unchanged (D).",
+      "latency_ms": 142912.5690460205,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is being used, and what is the goal?\nA. Rocking and tilting the probe over the same area to optimize the insonation angle and sharpen an already-identified structure\nB. Returning superiorly and using small exploratory micro-movements to search for the most likely target structure\nC. Sweeping through the region in a systematic fanning motion to ensure complete anatomic coverage and avoid missed pathology\nD. Sliding to a consistent anatomic landmark and then tracking from that landmark to relocate the target structure quickly",
+    "answer": "B",
+    "groundtruth": "The probe is slid back superiorly into the abdomen and small micro-movements are performed to explore the area and identify the structure most consistent with the appendix.",
+    "time_start": 30.94,
+    "time_end": 42.45,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what scanning strategy is being used, and what is the goal?\nA. Returning superiorly and using small exploratory micro-movements to search for the most likely target structure\nB. Sweeping through the region in a systematic fanning motion to ensure complete anatomic coverage and avoid missed pathology\nC. Sliding to a consistent anatomic landmark and then tracking from that landmark to relocate the target structure quickly\nD. Rocking and tilting the probe over the same area to optimize the insonation angle and sharpen an already-identified structure",
+    "original_answer": "A",
+    "original_time_start": 30.94,
+    "original_time_end": 42.45,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The video shows the probe moving in a systematic fanning/sweeping motion across the entire anatomic region, rather than staying focused on a single structure or navigating to/from a specific landmark. This strategy is used to achieve full coverage of the area of interest to ensure no pathology is missed.",
+      "latency_ms": 151063.74502182007,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip sequence, what workflow phase is shown and what is the immediate objective?\nA. Targeted search followed by confirmation at a key attachment point with detail optimization\nB. Activate color Doppler to assess vascularity of the suspected interface as the primary confirmation step\nC. Broad systematic sweep to re-establish an anatomic landmark and regain orientation before focusing on the target\nD. Acquire an orthogonal view and trace the structure along its course to confirm continuity rather than a focal attachment point",
+    "answer": "A",
+    "groundtruth": "The operator transitions from a superior return and exploratory micro-movements to a focused confirmation step, locating the structure’s attachment to the cecum and optimizing image detail to verify a normal-appearing appendix.",
+    "time_start": 30.94,
+    "time_end": 62.21,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip sequence, what workflow phase is shown and what is the immediate objective?\nA. Broad systematic sweep to re-establish an anatomic landmark and regain orientation before focusing on the target\nB. Activate color Doppler to assess vascularity of the suspected interface as the primary confirmation step\nC. Acquire an orthogonal view and trace the structure along its course to confirm continuity rather than a focal attachment point\nD. Targeted search followed by confirmation at a key attachment point with detail optimization",
+    "original_answer": "D",
+    "original_time_start": 30.94,
+    "original_time_end": 62.21,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: First, option B is eliminated because no color Doppler mode is activated at any point in the grayscale ultrasound footage. Option D is eliminated as there is no probe rotation to acquire an orthogonal view. Option C is eliminated because the probe movement is targeted, not a broad, systematic sweep to re-establish orientation. The footage shows a targeted search for the structure first, followed by confirmation at key attachment points (marked by the orange indicators) with image detail optimization of the region of interest.",
+      "latency_ms": 352511.3399028778,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

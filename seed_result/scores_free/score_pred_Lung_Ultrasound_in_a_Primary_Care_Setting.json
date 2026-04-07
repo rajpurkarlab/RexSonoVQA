@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing by holding the probe still, and what is the immediate imaging goal of pausing here?",
+    "answer": "They hold the probe steady to recognize that the current acoustic window is being dominated by a superficial bony landmark and its shadowing. The goal is to confirm why deeper visualization is limited before repositioning to a better window.",
+    "groundtruth": "The probe is kept stationary to recognize a rib-centered view and the resulting acoustic shadow that obscures deeper structures, prompting the need to reposition.",
+    "time_start": 6.1,
+    "time_end": 10.57,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 6.1,
+    "original_time_end": 10.57,
+    "model_prediction": "The operator is holding the probe stationary over a newly identified small hypoechoic lesion adjacent to the hyperechoic pleural line. The immediate goal of pausing here is to characterize the lesion's features (margins, echotexture, size), mark its position, and assess its movement relative to the pleura during respiration to determine if it originates from the chest wall or pleural/lung parenchyma.",
+    "inference_metadata": {
+      "raw_response": "The operator is holding the probe stationary over a newly identified small hypoechoic lesion adjacent to the hyperechoic pleural line. The immediate goal of pausing here is to characterize the lesion's features (margins, echotexture, size), mark its position, and assess its movement relative to the pleura during respiration to determine if it originates from the chest wall or pleural/lung parenchyma.",
+      "latency_ms": 61914.85810279846,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.470000000000001,
+    "judge_explanation": "The AI prediction incorrectly identifies the reason for pausing as characterizing a hypoechoic lesion, whereas the ground truth states the pause is to recognize a superficial bony landmark and its shadowing limiting deeper visualization. Both the visual evidence and conclusion are incorrect.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what fine probe adjustment is shown, and why is it done before assessing motion in the image?",
+    "answer": "They make a small positional adjustment (subtle slide/tilt) to bring the key bright interface into the center of the image. This optimizes alignment so motion at that interface can be evaluated reliably.",
+    "groundtruth": "The probe position is adjusted to center the pleural line in the field of view so it can be assessed clearly.",
+    "time_start": 18.33,
+    "time_end": 20.53,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 18.33,
+    "original_time_end": 20.53,
+    "model_prediction": "The adjustment shown is *imaging depth adjustment* (depth is reduced to focus on superficial structures, here the pleural line).\nThis is done to center and magnify the region of interest (the area where motion will be assessed) in the image frame, so subtle, small motions (like lung sliding for this pleural view) can be reliably and clearly visualized, rather than being missed if the relevant area is too small or pushed to the edge of a deeper, wider field of view.",
+    "inference_metadata": {
+      "raw_response": "The adjustment shown is *imaging depth adjustment* (depth is reduced to focus on superficial structures, here the pleural line).\nThis is done to center and magnify the region of interest (the area where motion will be assessed) in the image frame, so subtle, small motions (like lung sliding for this pleural view) can be reliably and clearly visualized, rather than being missed if the relevant area is too small or pushed to the edge of a deeper, wider field of view.",
+      "latency_ms": 100942.12818145752,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.200000000000003,
+    "judge_explanation": "The AI incorrectly identifies the adjustment as an imaging depth adjustment (a machine setting), whereas the ground truth specifies a physical probe adjustment (subtle slide/tilt). Both the visual evidence and conclusion are incorrect.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning action continues here, and what is the operator trying to confirm about the observed pattern?",
+    "answer": "They continue scanning through the same window to see if the pattern persists across the view. The goal is to confirm the artifact pattern is a normal lung ultrasound appearance rather than a focal abnormal finding.",
+    "groundtruth": "The operator continues scanning within the intercostal space to confirm the horizontal artifact pattern is a normal finding in lung ultrasound.",
+    "time_start": 32.92,
+    "time_end": 37.1,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 32.92,
+    "original_time_end": 37.1,
+    "model_prediction": "The operator is performing a lateral sweep, sliding the ultrasound probe horizontally across the chest wall as part of a lung ultrasound exam. They are confirming that the regular horizontal A-line reverberation artifact pattern (a finding consistent with normal, well-aerated lung tissue beneath the pleural line) is uniformly present across the scanned region, with no focal abnormal pathology like B-lines or consolidation in this area.",
+    "inference_metadata": {
+      "raw_response": "The operator is performing a lateral sweep, sliding the ultrasound probe horizontally across the chest wall as part of a lung ultrasound exam. They are confirming that the regular horizontal A-line reverberation artifact pattern (a finding consistent with normal, well-aerated lung tissue beneath the pleural line) is uniformly present across the scanned region, with no focal abnormal pathology like B-lines or consolidation in this area.",
+      "latency_ms": 74965.55018424988,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.18,
+    "judge_explanation": "The AI correctly identifies the scanning action and the goal of confirming the normal lung artifact pattern across the view, matching the ground truth.",
+    "judge_error_type": "none"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the sequence of actions and the workflow objective across this segment.",
+    "answer": "They first fine-tune probe position to optimize the key interface, then hold steady to observe for characteristic motion. The objective is to verify lung sliding at that site as part of pneumothorax assessment.",
+    "groundtruth": "The operator centers the pleural interface and then maintains a stable hand to assess lung sliding, supporting pneumothorax screening at that location.",
+    "time_start": 18.33,
+    "time_end": 25.45,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 18.33,
+    "original_time_end": 25.45,
+    "model_prediction": "First, a stable B-mode lung ultrasound view is acquired, showing the bright echogenic horizontal pleural line and characteristic parallel A-line reverberation artifacts deep to the pleural line. An annotation marker is then deployed to trace along the full visible length of the pleural line to identify and assess this structure, after which the marker is removed. The objective of this segment is to localize and evaluate the pleural line as part of a standard lung ultrasound assessment.",
+    "inference_metadata": {
+      "raw_response": "First, a stable B-mode lung ultrasound view is acquired, showing the bright echogenic horizontal pleural line and characteristic parallel A-line reverberation artifacts deep to the pleural line. An annotation marker is then deployed to trace along the full visible length of the pleural line to identify and assess this structure, after which the marker is removed. The objective of this segment is to localize and evaluate the pleural line as part of a standard lung ultrasound assessment.",
+      "latency_ms": 357484.9216938019,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.120000000000001,
+    "judge_explanation": "The AI prediction hallucinates the deployment of an annotation marker and fails to identify the observation of characteristic motion (lung sliding) and the objective of pneumothorax assessment, which are the key elements of the ground truth.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what interpretation is being made from the observed artifact profile, and what conditions is it helping to rule out in this region?",
+    "answer": "The pattern is interpreted as consistent with a normally aerated, air-filled lung region. This makes pneumonia/consolidation or pleural effusion unlikely at that scanned location.",
+    "groundtruth": "The operator correlates the artifact profile with clinical pathology, concluding the lung is air-filled and that pneumonia/consolidation or pleural effusion is unlikely in this region.",
+    "time_start": 38.02,
+    "time_end": 45.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 38.02,
+    "original_time_end": 45.42,
+    "model_prediction": "The visualized horizontal reverberation artifacts are A-lines, consistent with normally aerated lung in this imaged region. This finding rules out pneumothorax (in the setting of visible pleural sliding as seen here) and interstitial/alveolar pathologies including pulmonary edema, focal pneumonia, and interstitial lung disease that would appear as B-lines or consolidation rather than A-lines.",
+    "inference_metadata": {
+      "raw_response": "The visualized horizontal reverberation artifacts are A-lines, consistent with normally aerated lung in this imaged region. This finding rules out pneumothorax (in the setting of visible pleural sliding as seen here) and interstitial/alveolar pathologies including pulmonary edema, focal pneumonia, and interstitial lung disease that would appear as B-lines or consolidation rather than A-lines.",
+      "latency_ms": 239379.8599243164,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.399999999999999,
+    "judge_explanation": "The AI correctly identifies the artifact profile as consistent with a normally aerated lung (A-lines) and accurately lists conditions it helps rule out, including pneumonia and consolidation, which aligns well with the ground truth.",
+    "judge_error_type": "none"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what machine adjustment is being made during scanning, and what is the goal?\nA) Increase overall gain to uniformly brighten the image when the target is under\u2011visualized.\nB) Decrease imaging depth so a superficial target fills the display\nC) Move the focal zone to the level of the structure of interest to optimize lateral resolution.\nD) Activate color Doppler to assess for vascular flow within or adjacent to the suspected structure.",
+    "answer": "B",
+    "groundtruth": "The operator adjusts imaging depth while scanning so the very superficial gallbladder is appropriately scaled and easier to see.",
+    "time_start": 4.15,
+    "time_end": 10.18,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 4.15,
+    "original_time_end": 10.18,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The ultrasound image starts very dark with minimal visible anatomical structures, and becomes uniformly brighter across the entire field of view as the clip progresses, consistent with an increase in overall gain. This adjustment is used to brighten underexposed (under-visualized) ultrasound images to better visualize target structures. Options B, C, and D are eliminated: imaging depth does not change (the sector height remains consistent across frames), there is no focal zone-specific improvement in resolution, and no color Doppler is activated (the image remains grayscale throughout).",
+      "latency_ms": 41416.94188117981,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 6.029999999999999
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe handling technique is being demonstrated, and what is the goal?\nA) Repeated fanning/rocking to keep the target centered while surveying through it\nB) Sliding (sweeping) along the skin to track the structure over a longer length and find its maximal extent\nC) Rotating the probe to align the image with the long axis of the target for a true long\u2011axis view\nD) Heel\u2011toe (tilting) to optimize the insonation angle and maximize echogenicity while reducing anisotropy",
+    "answer": "A",
+    "groundtruth": "After identifying the gallbladder, the operator fans and rocks the probe back and forth to center it and scan through its entire length.",
+    "time_start": 11.24,
+    "time_end": 20.85,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 11.24,
+    "original_time_end": 20.85,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe probe is being translated (slid/swept) along the skin surface, as seen by the shifting of tissue positions across the entire scan plane including the near field closest to the probe. This technique is used to follow the visualized anechoic (dark) structure over its full length to identify its maximum extent.",
+      "latency_ms": 52345.688819885254,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 9.610000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe re-orientation is shown, and why is it done?\nA) Rotate the probe ~90\u00b0 to switch to an orthogonal imaging axis\nB) Apply a heel-toe tilt to bring the target back into plane and reduce anisotropy without changing imaging axis.\nC) Fan (rock) the probe through the structure to interrogate adjacent slices while maintaining the same long-axis orientation.\nD) Rotate the probe 180\u00b0 to reverse the screen left\u2013right orientation to match the operator\u2019s position, without changing the imaging plane.",
+    "answer": "A",
+    "groundtruth": "The operator rotates the probe 90 degrees and reorients the marker away from the patient\u2019s chin to change the probe axis for gallbladder imaging.",
+    "time_start": 26.05,
+    "time_end": 31.52,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 26.05,
+    "original_time_end": 31.52,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The probe movement shown is fanning/rocking, which maintains the same long-axis imaging orientation while sweeping the ultrasound plane through adjacent tissue slices. This is done to interrogate the full volume of the structure and surrounding adjacent areas, rather than rotating the probe to change axes or adjusting for anisotropy.",
+      "latency_ms": 70904.90293502808,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 5.469999999999999
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow step is being carried out across this multi-action segment?\nA) Acquiring orthogonal views by rotating the probe and then sampling different cross-sections with marker/orientation changes\nB) Optimizing image settings by adjusting depth, gain, and focal zone to better visualize the target structure\nC) Sweeping and fanning through the region in a single plane to complete a systematic survey without changing probe orientation\nD) Switching to Color Doppler and adjusting the PRF/scale to assess vascular flow within or adjacent to the structure",
+    "answer": "A",
+    "groundtruth": "The operator transitions into cross-sectional imaging by turning/rotating the probe (including a 90\u00b0 rotation and marker reorientation) and then adjusts marker orientation to visualize different short-axis sections of the gallbladder.",
+    "time_start": 22.01,
+    "time_end": 37.67,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 22.01,
+    "original_time_end": 37.67,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: First, no color Doppler is visible, so option D is eliminated. There is no visible adjustment of image depth, gain, or focal zone settings, so option B is eliminated. Probe orientation clearly changes (the marker appears then disappears, and cross-sections of the target structures shift substantially across views), so option C (no orientation change) is eliminated. The sequence shows probe rotation to sample different cross-sections/orthogonal views of the structures of interest, matching option A.",
+      "latency_ms": 193905.3599834442,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.66
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is being used to improve visualization, and what is the reason it helps?\nA) Asking for a deep breath in and hold to shift the target into a better window\nB) Apply gentle probe pressure to displace bowel gas and improve the acoustic window to the target.\nC) Perform a heel-toe (rocking) maneuver to align the ultrasound beam more perpendicular to the structure for better echogenicity.\nD) Rotate the transducer into an intercostal oblique view to avoid rib shadowing and gain a clearer window to deeper structures.",
+    "answer": "A",
+    "groundtruth": "The patient performs an inspiratory hold while the operator scans, which helps the gallbladder come into view as it moves into a more favorable position.",
+    "time_start": 55.34,
+    "time_end": 63.17,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 55.34,
+    "original_time_end": 63.17,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe visualization improves as overlying hazy, gas-related artifact is removed from the field of view, consistent with gentle probe pressure displacing interfering bowel gas. This removes the gas barrier blocking ultrasound wave transmission, creating a clearer acoustic window to the underlying target structure that is well visualized in the later frames of the clip.",
+      "latency_ms": 209091.68314933777,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.829999999999998
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the purpose of the sequence where breathing is temporarily suspended and then resumed?\nA) To reposition the target transiently for imaging, then return to normal respiration once the view is obtained\nB) To minimize motion artifact during image acquisition by having the patient hold their breath briefly.\nC) To assess respiratory variation in vessel caliber or Doppler waveforms by comparing images during apnea and normal breathing.\nD) To evaluate diaphragmatic excursion by observing the structure\u2019s movement during suspended versus resumed respiration.",
+    "answer": "A",
+    "groundtruth": "The operator scans during an inspiratory breath-hold to improve gallbladder visualization and then allows the patient to breathe out to resume normal respiration.",
+    "time_start": 55.34,
+    "time_end": 64.13,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 55.34,
+    "original_time_end": 64.13,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The sequence of suspending then resuming breathing is performed to compare how the caliber of visible vascular structures (like the inferior vena cava, the anechoic structure seen in the near field) changes between the apneic state and normal respiration, which is used to assess parameters like volume status. This requires both states for comparison, eliminating options focused only on reducing motion or evaluating diaphragmatic movement.",
+      "latency_ms": 100273.01406860352,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.789999999999992
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe adjustment is performed next, and what is the goal?\nA) Angle the probe cephalad to aim the beam toward a more superiorly positioned target\nB) Rotate the probe 90\u00b0 to obtain a transverse (short-axis) view and better appreciate the structure\u2019s relationship to adjacent vessels and nerves.\nC) Slide the probe laterally to recenter the target in the field of view and bring it into a clearer acoustic window.\nD) Rock the probe (heel-toe) to make the beam more perpendicular to the structure and reduce anisotropy artifact.",
+    "answer": "A",
+    "groundtruth": "The operator adjusts the probe angle to aim cephalad because a perpendicular angle can miss the gallbladder, which lies higher in the abdominal cavity.",
+    "time_start": 74.72,
+    "time_end": 80.73,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 74.72,
+    "original_time_end": 80.73,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe observed probe movement is angling toward the cephalad (superior/head) direction. This adjustment aims the ultrasound beam toward a target that sits more superiorly, to bring that superiorly positioned target into the ultrasound field of view. The other options are not supported: no 90\u00b0 rotation (so B is incorrect), no lateral sliding of the whole probe (so C is incorrect), and no heel-toe rocking to address anisotropy (so D is incorrect).",
+      "latency_ms": 87364.80832099915,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.010000000000005
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what fine angulation maneuver is being demonstrated, and why is it used?\nA) Dropping the probe tail (heel-toe) to angle the beam upward toward a more superior target\nB) Raising the probe tail (reverse heel-toe) to angle the beam downward toward a more inferior target.\nC) Rocking the probe (levering) to re-center the region of interest and align the beam with the structure\u2019s long axis.\nD) Fanning/sweeping the probe through the target to interrogate it in multiple planes and avoid missing pathology.",
+    "answer": "A",
+    "groundtruth": "The operator drops the tail of the probe while scanning to angle the beam upward and better capture the gallbladder\u2019s more superior position.",
+    "time_start": 81.19,
+    "time_end": 83.87,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 81.19,
+    "original_time_end": 83.87,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe maneuver shown is fanning/sweeping the probe through the target area, which sequentially interrogates the region of interest in multiple adjacent imaging planes. This technique ensures the entire structure is assessed, reducing the risk of missing small or focal pathology that could be overlooked on a single static view.",
+      "latency_ms": 95097.31197357178,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 2.680000000000007
+  }
+]

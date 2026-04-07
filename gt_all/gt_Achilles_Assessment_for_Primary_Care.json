@@ -1,0 +1,92 @@
+[
+  {
+    "start": 0.44,
+    "end": 6.5,
+    "action": "Place the probe at the posterior aspect of the heel to identify the insertion points.",
+    "interpretation": "Visualize the calcaneus clearly. Identify the insertion point."
+  },
+  {
+    "start": 7.0,
+    "end": 14.12,
+    "action": "Identify the acoustic landmarks at the bone interface.",
+    "interpretation": "Note the deep shadow underneath the calcaneus, confirming this as the attachment point of the Achilles tendon."
+  },
+  {
+    "start": 14.14,
+    "end": 20.44,
+    "action": "Maintain the probe in long-axis over the tendon.",
+    "interpretation": "Observe the striations running across the screen, characteristic of tendon fibers."
+  },
+  {
+    "start": 21.38,
+    "end": 36.19,
+    "action": "Angle the probe slightly so the beam is not perpendicular to the fibers to demonstrate an artifact.",
+    "interpretation": "Identify 'anisotropy,' a normal finding where the tendon appears as a hypoechoic area due to the angle of the probe."
+  },
+  {
+    "start": 36.89,
+    "end": 47.43,
+    "action": "Adjust the probe (heel-toe maneuver) to ensure the ultrasound beam is strictly perpendicular to the tendon.",
+    "interpretation": "Confirm the hypoechoic area disappears when perpendicular. Recognize that the previous darkness was a normal artifact, not pathology or a tear."
+  },
+  {
+    "start": 49.1,
+    "end": 63.63,
+    "action": "Slide the probe proximally along the leg to visualize the full length of the tendon. Keep the tendon centered in the image.",
+    "interpretation": "Visualize the longitudinal extent of the Achilles tendon."
+  },
+  {
+    "start": 67.03,
+    "end": 78.21,
+    "action": "Scan firmly along the tendon fibers.",
+    "interpretation": "Inspect for interruptions in the fibers, complete disruption, or the presence of fluid."
+  },
+  {
+    "start": 79.01,
+    "end": 82.71,
+    "action": "Prepare to perform a quantitative assessment.",
+    "interpretation": "Assess the actual thickness of the Achilles tendon."
+  },
+  {
+    "start": 83.13,
+    "end": 93.94,
+    "action": "Decrease the depth to optimize the view of the tendon. Freeze the image. Drop calipers to measure.",
+    "interpretation": "Optimize resolution for measurement."
+  },
+  {
+    "start": 96.93,
+    "end": 113.4,
+    "action": "Take the measurement (resulting in approx 3.2mm). Compare this measurement to the contralateral side if available.",
+    "interpretation": "Note the measurement is 3.2mm. Verify the finding as normal by comparing it to the unaffected side for an appropriate patient-specific baseline."
+  },
+  {
+    "start": 115.14,
+    "end": 126.28,
+    "action": "Rotate the probe 90 degrees to a transverse orientation. Orient the probe marker pointing to the patient's left.",
+    "interpretation": "Switch views to scan the Achilles tendon in a transverse orientation."
+  },
+  {
+    "start": 128.84,
+    "end": 135.83,
+    "action": "Center the structure in the field of view and resume scanning.",
+    "interpretation": "Identify the Achilles tendon located in the center of the image."
+  },
+  {
+    "start": 137.01,
+    "end": 149.33,
+    "action": "Observe the internal echotexture of the tendon in the transverse plane.",
+    "interpretation": "Visualize 'punctate hyperechoic structures' (dots). Confirm this as a normal transverse view."
+  },
+  {
+    "start": 149.51,
+    "end": 156.32,
+    "action": "Scan through the cross-section of the tendon.",
+    "interpretation": "Screen for anechoic areas, interruptions, or complete disruption of the tendon structure."
+  },
+  {
+    "start": 157.77,
+    "end": 161.82,
+    "action": "Slide the probe proximally/superiorly.",
+    "interpretation": "Observe the morphology change as the tendon flattens out and transitions into muscle."
+  }
+]

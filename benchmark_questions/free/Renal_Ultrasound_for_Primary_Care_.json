@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning/motion is being used to bring the target organ into view, and what view orientation is the operator trying to establish?",
+    "answer": "The probe is moved more posteriorly and aligned to obtain a long/coronal (long-axis) view of the retroperitoneal target. The goal is a clean long-axis image of the organ for systematic assessment.",
+    "groundtruth": "The probe is moved posteriorly to target the retroperitoneal space and oriented to obtain a long/coronal view of the right kidney in long axis.",
+    "time_start": 5.48,
+    "time_end": 21.13,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweeping technique is demonstrated across the organ, and why is it done?",
+    "answer": "The probe is fanned through the full thickness of the organ. This is done to survey the entire volume so focal pathology is not missed.",
+    "groundtruth": "The operator fans through the entire kidney to ensure full visualization of the organ and avoid missing pathology.",
+    "time_start": 36.66,
+    "time_end": 41.5,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, a small questionable finding appears and the operator changes the imaging approach. What change is made, and what ambiguity is it intended to resolve?",
+    "answer": "Color Doppler is activated to check for flow within the questionable area. The goal is to distinguish vascular structures from non-vascular urinary dilation (e.g., mild obstruction-related fluid).",
+    "groundtruth": "The operator pauses on a suspicious area and turns on Color Doppler to differentiate possible mild hydronephrosis/hydroureter from nearby vasculature.",
+    "time_start": 44.38,
+    "time_end": 62.29,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the mode change, what is the operator assessing in the suspicious region, and what conclusion does it support?",
+    "answer": "They are looking for the presence of flow within the region. Seeing flow supports that the finding is vascular rather than urinary dilation, supporting a normal study in that area.",
+    "groundtruth": "The operator observes color flow signals in the suspicious area, confirms it represents vessels, rules out hydroureter/hydronephrosis, and concludes the kidney is normal.",
+    "time_start": 66.31,
+    "time_end": 74.39,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, summarize the verification step used before moving on, and what decision it enables for the rest of the scan.",
+    "answer": "A questionable area is held and checked with Color Doppler to verify whether it has flow. After confirming it is vascular, the operator returns to standard imaging and proceeds with the rest of the exam rather than pursuing an obstruction workup.",
+    "groundtruth": "The operator holds a suspicious area, uses Color Doppler to confirm it is vascular (not hydroureter), then turns Doppler off and returns to B-mode to continue the exam with a normal conclusion.",
+    "time_start": 44.38,
+    "time_end": 77.16,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe-placement strategy is used to improve the obstructed view, and why does it help?",
+    "answer": "The probe is slid into an intercostal space and then fanned through the organ. This avoids bony shadowing and restores a clearer transverse image.",
+    "groundtruth": "The operator moves the probe between ribs and fans through the kidney to obtain a clearer transverse view by avoiding rib shadowing.",
+    "time_start": 96.27,
+    "time_end": 111.85,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the final segment of the clip, what confirmation step is performed before concluding, and what overall finding does it support?",
+    "answer": "The operator re-checks the organ\u2019s central region in the transverse view for absence of abnormal fluid dilation and confirms a normal-appearing center. This supports the conclusion of no hydronephrosis and a normal study.",
+    "groundtruth": "The operator inspects the kidney center in transverse for absence of anechoic dilation and then confirms a bright central appearance, supporting a normal kidney without hydronephrosis.",
+    "time_start": 115.19,
+    "time_end": 131.75,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

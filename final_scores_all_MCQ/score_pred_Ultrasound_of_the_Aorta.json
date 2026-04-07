@@ -1,0 +1,173 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what machine setting is adjusted immediately after the probe is placed, and what is the purpose?\nA) Adjust overall gain to optimize image brightness and contrast for better tissue differentiation.\nB) Change imaging depth to frame the target structure appropriately\nC) Move the focal zone to the level of the target structure to maximize lateral resolution.\nD) Select an appropriate transducer preset or frequency to balance penetration and resolution for the suspected anatomy.",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator places the probe in a transverse orientation and immediately adjusts imaging depth to appropriately frame the superior portion of the target vessel on screen.",
+    "time_start": 0.51,
+    "time_end": 9.22,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: Immediately after the probe is placed and an initial image is obtained, the depth setting on the machine is adjusted. At the beginning of the clip (00:00-00:02), the depth marker on the left side shows a maximum depth of 7cm. Then, at 00:02, the screen changes and the depth marker extends to 9cm, and subsequently to 10cm by 00:03. This adjustment is made to frame the target structure (likely the IVC or aorta in the far field) more appropriately within the field of view.",
+      "latency_ms": 9628.924369812012,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.71,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, the operator returns to an earlier starting position and repeats a similar scan. What workflow purpose does this repetition serve?\nA) Repeating the sweep after adjusting depth/gain to optimize image quality and reduce artifact.\nB) Performing a required second pass to re-interrogate and confirm findings\nC) Repeating the scan to obtain a cine loop or still images for documentation rather than diagnostic confirmation.\nD) Repeating the sweep to re-establish key anatomic landmarks and probe orientation before moving to the next view.",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After completing an initial distal follow, the operator returns to the superior starting position and performs a second full interrogation sweep to ensure adequate exam coverage.",
+    "time_start": 38.63,
+    "time_end": 53.96,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Repeating the sweep after adjusting depth/gain to optimize image quality and reduce artifact.\n\nExplanation:\nThe video shows the operator performing an initial sweep of the pancreas and surrounding vascular structures (like the splenic vein and superior mesenteric artery). At approximately 00:10, there is a distinct pause where the image changes significantly. When the scanning resumes around 00:13, the depth has been increased (notice the scale on the left changes from ~6-7cm to deeper, showing more liver parenchyma), and the overall gain appears adjusted to better visualize the deeper structures and reduce the shadowing/obscuration seen in the first pass. This indicates the operator stopped to optimize the machine settings (depth and likely gain/TGCs) before repeating the sweep to get a clearer, more diagnostic image.",
+      "latency_ms": 9103.016138076782,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 15.329999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, several display/targeting changes are made in sequence. Which combination best matches what is adjusted and the intent?\nA) Depth + zoom + focal zone repositioning to improve resolution at the target depth\nB) Depth increased and overall gain reduced to survey more far-field anatomy while preventing near-field saturation\nC) Zoom activated and time-gain compensation adjusted to brighten the region of interest without changing the focal zone position\nD) Focal zone shifted superficially with a slight decrease in depth to optimize near-field resolution rather than the intended target depth",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts depth and zoom and moves the focal zone to posterior to the aorta to improve image resolution and focal targeting.",
+    "time_start": 65.12,
+    "time_end": 73.93,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nAt the start of the clip, the depth is set to 13cm and the focal zone (indicated by the small orange triangle on the left scale) is positioned deeper, around the level of the vessel. As the clip progresses, the depth is decreased to 12cm (bringing the image slightly closer), then increased back to 13cm. Crucially, the focal zone marker is moved upwards (more superficially) and then back down to align with the vessel of interest. Additionally, the image appears to \"jump\" or magnify slightly, consistent with a zoom or write-zoom function being toggled or adjusted to focus on the specific vascular structure. This combination of adjustments—optimizing depth, applying zoom, and moving the focal zone to the level of the structure being imaged—is classic technique for improving lateral resolution at a specific target depth.",
+      "latency_ms": 7924.114227294922,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.810000000000002,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what control is adjusted to balance brightness with depth (rather than changing overall gain), and what is the goal?\nA) Time Gain Compensation (TGC) to prevent excessive internal brightness artifacts\nB) Overall gain to uniformly brighten or darken the entire image without depth-specific correction\nC) Output power (acoustic power) to increase penetration by boosting transmit energy when deep structures look too dim\nD) Dynamic range (compression) to alter image contrast so subtle echoes are more visible without specifically correcting near–far field brightness",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts TGC to achieve appropriate depth-dependent gain and avoid excessive reverberation/overgain within the aorta.",
+    "time_start": 74.45,
+    "time_end": 80.57,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video demonstrates the adjustment of Time Gain Compensation (TGC). You can observe that the brightness of the image changes specifically at different depths rather than uniformly across the whole screen. Initially, the near field (top) and mid-field are visible, but as the clip progresses, you can see bands of brightness being adjusted—first, the deeper parts become darker, then the settings are tweaked to try to balance the echogenicity from the top (near field) to the bottom (far field). This specific control allows the operator to compensate for attenuation as the ultrasound waves travel deeper into the body, aiming for uniform brightness throughout the depth of the image. This is distinct from overall gain (which would brighten everything equally) or output power.",
+      "latency_ms": 8843.961715698242,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.11999999999999,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the clip, what hands-on maneuver is used to improve the acoustic window, and what is it intended to overcome?\nA) Heel-toe rocking of the transducer; intended to angle the beam between ribs to reduce rib shadowing\nB) Increasing probe pressure; intended to displace intervening gas and improve visualization\nC) Fanning/tilting the transducer through a small arc; intended to optimize the insonation angle and reduce anisotropy\nD) Sliding the probe to an adjacent intercostal space while maintaining contact; intended to bypass bony rib shadowing for a clearer window",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator increases probe pressure to displace bowel gas and checks patient comfort while doing so to overcome gas-related obstruction.",
+    "time_start": 122.62,
+    "time_end": 131.45,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video demonstrates the \"sliding\" maneuver. The operator slides the probe along the patient's skin surface (likely inferiorly or slightly laterally in a subcostal/abdominal window) to move away from a rib that is causing an acoustic shadow. At the beginning of the clip, a dark vertical band (rib shadow) obscures part of the inferior vena cava (IVC). The operator then slides the probe, and the view of the IVC becomes continuous and clear as the shadow is moved out of the way, effectively bypassing the bony obstruction. This is distinct from heel-toeing (rocking) or fanning (tilting), as the entire footprint moves to a new position to find a better window between acoustic obstacles.",
+      "latency_ms": 8076.315879821777,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.829999999999984,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the operator doing when the live motion stops and a still is held, and why?\nA) Freezing the image to capture/store a representative view for documentation\nB) Freezing the image to place calipers and make an accurate measurement without probe motion\nC) Freezing the image to review the last few seconds of the cine loop frame-by-frame for subtle pathology\nD) Freezing the image to adjust depth and gain settings while keeping the anatomy in the same position before resuming scanning",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator freezes the image during the superior-level dual-screen segment to capture a representative view of the landmarked superior aorta before continuing.",
+    "time_start": 166.68,
+    "time_end": 179.62,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nAt the end of the clip, the operator freezes the live image, causing the screen to split (a common feature on ultrasound machines when freezing or preparing to measure). The purpose of freezing a specific anatomical view like this—showing the abdominal aorta or similar vessel clearly in cross-section—is typically to stabilize the image so that calipers can be placed to take an accurate measurement of the structure's diameter without the probe moving or the patient breathing affecting the result.",
+      "latency_ms": 7056.113958358765,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 12.939999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, after an initial capture attempt the operator triggers a refresh/retry and continues seeking the same target view. What is the purpose of this action?\nA) To re-run auto-optimization (gain/TGC/focus) so the live image is easier to interpret before saving\nB) To update the saved frame on split screen with a better-quality capture\nC) To clear the prior freeze/split-screen capture and resume live scanning without changing presets\nD) To restart the cine-loop acquisition so a new sequence can be reviewed for the best frame",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator hits update to retry the dual-screen image capture and improve the saved frame for the superior view.",
+    "time_start": 182.15,
+    "time_end": 185.73,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The operator freezes an initial image on the left side of the split screen, but then unfreezes/refreshes it to continue scanning on the right side. They then obtain a clearer, more distinct view of the target anatomy (likely the confluence of the portal vein or the 'seagull sign' of the celiac trunk) and freeze again. This action is taken to replace the initial, perhaps suboptimal capture with a better-quality image for comparison or documentation on the split screen.",
+      "latency_ms": 7434.896945953369,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.579999999999984,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the clip, what major probe reorientation is performed, and what is the intent?\nA) Rotate 90° to switch from transverse to longitudinal for long-axis assessment\nB) Rotate 90° to switch from longitudinal to transverse to obtain a short-axis cross-sectional view of the structure\nC) Rock/tilt the probe to align the ultrasound beam with the structure and improve border definition by reducing anisotropy\nD) Slide the probe along the expected course of the structure to follow it proximally and distally for continuity",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator rotates the probe 90 degrees into a longitudinal orientation to begin long-axis imaging, positioning to obtain the superior longitudinal view.",
+    "time_start": 292.92,
+    "time_end": 304.47,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Rotate 90° to switch from transverse to longitudinal for long-axis assessment\n\nExplanation: The video begins with a cross-sectional (transverse) view of a pulsatile vessel, likely the abdominal aorta, appearing as a circular anechoic structure. Around the 5-second mark, the operator rotates the probe approximately 90 degrees. This maneuver transforms the view of the vessel from a circle into a long, tubular structure, which is the longitudinal (long-axis) view used to assess the length and walls of the vessel.",
+      "latency_ms": 6666.388988494873,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.550000000000011,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what adjustment is made to optimize depth-dependent brightness so the lumen appears clean, and why?\nA) Lower overall 2D gain slightly to reduce background speckle so the lumen looks darker, though it does not correct depth-dependent attenuation.\nB) Adjust TGC sliders to balance near/far field and keep the lumen anechoic\nC) Move the focal zone to the level of the vessel to improve lateral resolution and edge definition, but this will not balance near- and far-field brightness.\nD) Reduce the dynamic range (compression) to increase contrast and make the vessel wall stand out, which can falsely darken the lumen without fixing depth-related brightness.",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts TGCs to optimize depth-dependent gain so the vessel lumen appears appropriately anechoic and not filled with noise.",
+    "time_start": 389.16,
+    "time_end": 395.63,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: In the clip, the primary adjustment observed is the optimization of the Time Gain Compensation (TGC). The TGC sliders are adjusted to balance the brightness across different depths (near field vs. far field). Specifically, the near-field gain appears to be lowered slightly relative to the far field to ensure the image has uniform brightness from top to bottom and that the vessel lumen remains anechoic (black) and free of artificial echoes, rather than just lowering the overall gain which would darken everything uniformly. This specifically targets depth-dependent brightness issues.",
+      "latency_ms": 8062.076091766357,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.46999999999997,
+    "keep": false
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe scanning approach is being used to find the key proximal venous junction, and what view-acquisition goal does it serve?",
+    "answer": "The probe is swept/positioned in the proximal groin region to bring the proximal venous junction into view. The goal is to correctly identify the junctional anatomy before starting compressions for DVT assessment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans the inguinal region to visualize the saphenofemoral junction anatomy as the initial target for proximal DVT evaluation.",
+    "time_start": 1.13,
+    "time_end": 7.32,
+    "model_prediction": "Based on the video, the probe scanning approach is a **trace-back technique** (sliding the probe proximally), and its goal is to obtain a **long-axis view of the saphenofemoral junction (SFJ)**.\n\nThe video shows the clinician starting distally over a superficial vein (likely the Great Saphenous Vein) and sliding the probe proximally up the leg to follow the vessel until it dives deep to join the common femoral vein, visualizing the \"Mickey Mouse\" sign or the junction itself in a longitudinal plane.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe scanning approach is a **trace-back technique** (sliding the probe proximally), and its goal is to obtain a **long-axis view of the saphenofemoral junction (SFJ)**.\n\nThe video shows the clinician starting distally over a superficial vein (likely the Great Saphenous Vein) and sliding the probe proximally up the leg to follow the vessel until it dives deep to join the common femoral vein, visualizing the \"Mickey Mouse\" sign or the junction itself in a longitudinal plane.",
+      "latency_ms": 7582.661151885986,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 6.19,
+    "judge_explanation": "The AI correctly identifies the maneuver (sliding proximally) and the anatomical target (SFJ). However, it incorrectly states the goal is to obtain a 'long-axis view' while simultaneously citing the 'Mickey Mouse' sign. The 'Mickey Mouse' sign is a characteristic of the transverse view, not the longitudinal plane, and DVT compressions are typically performed in the transverse plane. This represents a hallucination or fundamental error regarding the visual evidence and scanning plane.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being identified when attention shifts to the adjacent vessel set, and what is the immediate purpose of identifying it before compressions?",
+    "answer": "The operator identifies the main proximal deep vein and the superficial tributary at the junction region. This establishes the correct target vessel location so subsequent compressions test the intended vein.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Attention is directed to identify the common femoral vein and great saphenous vein to correctly recognize the proximal venous anatomy prior to compression testing.",
+    "time_start": 15.64,
+    "time_end": 21.66,
+    "model_prediction": "Based on the video clip, the identification of the **common femoral artery** is occurring when attention shifts to the adjacent vessel set.\n\nThe immediate purpose of identifying the artery before proceeding with compressions (which are typically done to check for Deep Vein Thrombosis in the adjacent vein) is to serve as a **landmark to differentiate the vein from the artery**. The artery is non-compressible and pulsatile, whereas the vein should be compressible; confirming which vessel is the artery first ensures that compressions are applied to the correct vessel (the vein) and provides a reference point for anatomical orientation.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the identification of the **common femoral artery** is occurring when attention shifts to the adjacent vessel set.\n\nThe immediate purpose of identifying the artery before proceeding with compressions (which are typically done to check for Deep Vein Thrombosis in the adjacent vein) is to serve as a **landmark to differentiate the vein from the artery**. The artery is non-compressible and pulsatile, whereas the vein should be compressible; confirming which vessel is the artery first ensures that compressions are applied to the correct vessel (the vein) and provides a reference point for anatomical orientation.",
+      "latency_ms": 7845.2277183532715,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.02,
+    "judge_explanation": "The AI incorrectly identifies the anatomical structures. The ground truth states that the operator identifies the main proximal deep vein and the superficial tributary, whereas the AI claims the common femoral artery is being identified. Consequently, the stated purpose refers to the wrong vessel and action.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what repositioning maneuver is performed next, and what imaging objective does it achieve?",
+    "answer": "The probe is slid slightly proximally. The objective is to relocate the view just above the junctional region to re-establish a consistent proximal reference point for compression testing.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is slid slightly proximal to move the imaging plane just proximal to the junction area for re-localization.",
+    "time_start": 22.02,
+    "time_end": 28.27,
+    "model_prediction": "Based on the video clip, the probe is fanned or tilted slightly to change the angle of insonation, which improves the visualization of the target structure (likely a vessel or nerve) by reducing anisotropy and making the borders more distinct. This adjustment brings the structure into a more perpendicular alignment with the ultrasound beam, enhancing its clarity and definition against the surrounding tissue.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is fanned or tilted slightly to change the angle of insonation, which improves the visualization of the target structure (likely a vessel or nerve) by reducing anisotropy and making the borders more distinct. This adjustment brings the structure into a more perpendicular alignment with the ultrasound beam, enhancing its clarity and definition against the surrounding tissue.",
+      "latency_ms": 6490.485191345215,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.25,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as fanning or tilting to reduce anisotropy, whereas the ground truth specifies sliding proximally to re-establish a reference point for compression testing. Both the identified action and the clinical objective are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is used to target the proximal junction more directly, and what is the goal of the compression performed there?",
+    "answer": "The probe is slid slightly distally to isolate the junction region. Compression is then used to confirm that the vein at this junction is fully compressible, supporting absence of thrombus at that site.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides slightly distal to isolate the saphenofemoral junction and performs compression to assess its compressibility.",
+    "time_start": 42.01,
+    "time_end": 50.49,
+    "model_prediction": "Based on the video, the probe is **slid cranially** (moved upwards along the patient's body) to target the proximal junction more directly. The goal of the **graded compression** performed at this location is to assess the compressibility of the vein (likely the saphenofemoral junction) to rule out the presence of a deep vein thrombosis (DVT).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is **slid cranially** (moved upwards along the patient's body) to target the proximal junction more directly. The goal of the **graded compression** performed at this location is to assess the compressibility of the vein (likely the saphenofemoral junction) to rule out the presence of a deep vein thrombosis (DVT).",
+      "latency_ms": 6031.024217605591,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.480000000000004,
+    "judge_explanation": "The AI correctly identifies the goal of the compression (to assess compressibility and rule out thrombosis). However, it incorrectly describes the probe movement as sliding 'cranially', whereas the ground truth specifies the probe is slid 'distally'.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the brief optimization sweep, what is the operator trying to “lock onto,” and why is that an important checkpoint in the workflow?",
+    "answer": "They are focusing on the specific venous confluence region as a checkpoint. Confirming the correct confluence ensures the exam includes a high-yield proximal site where thrombus can occur.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The scan is focused on the confluence area to correctly identify the deep femoral vein and femoral vein junction as a key site for compression assessment.",
+    "time_start": 81.68,
+    "time_end": 89.13,
+    "model_prediction": "Based on the video clip, the operator is trying to lock onto the **C5 nerve root**, specifically identifying the \"stoplight sign\" where the C5, C6, and C7 nerve roots are visualized. This is an important checkpoint because accurately identifying the C5-C6-C7 complex ensures the correct anatomical level for an interscalene nerve block, avoiding structures higher up or lower down in the brachial plexus.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is trying to lock onto the **C5 nerve root**, specifically identifying the \"stoplight sign\" where the C5, C6, and C7 nerve roots are visualized. This is an important checkpoint because accurately identifying the C5-C6-C7 complex ensures the correct anatomical level for an interscalene nerve block, avoiding structures higher up or lower down in the brachial plexus.",
+      "latency_ms": 7765.761137008667,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.449999999999989,
+    "judge_explanation": "The AI completely misidentified the clinical context and anatomical structures. The ground truth describes a venous exam focusing on a venous confluence for thrombus detection, whereas the AI describes an interscalene nerve block focusing on nerve roots (C5-C7).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what tracking maneuver is performed next along the limb, and what is the goal of repeating compression during this movement?",
+    "answer": "The probe is slid distally down the thigh while periodically compressing. The goal is to follow the femoral vein segment-by-segment and confirm ongoing compressibility/patency.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides distally to follow the femoral vein down the thigh and applies compression to continue the DVT evaluation along the vessel.",
+    "time_start": 99.11,
+    "time_end": 105.73,
+    "model_prediction": "Based on the video, the ultrasound probe is tracking distally along the limb. The goal of repeating compression during this distal tracking is to assess the vein for patency at multiple levels to rule out deep vein thrombosis (DVT) in the newly imaged segments.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the ultrasound probe is tracking distally along the limb. The goal of repeating compression during this distal tracking is to assess the vein for patency at multiple levels to rule out deep vein thrombosis (DVT) in the newly imaged segments.",
+      "latency_ms": 5579.306840896606,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.6200000000000045,
+    "judge_explanation": "The AI correctly identifies the maneuver (tracking distally) and the specific goal of the repeated compressions (assessing vein patency/compressibility to rule out DVT), matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, compressions continue while the probe keeps moving. What practical problem does this technique address, and what key anatomic relationship is being accounted for?",
+    "answer": "It helps maintain the correct target as the vessels change their relative positions during distal tracking. The operator accounts for the vein lying deeper than the artery in this segment while continuing compressions.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "While sliding distally, the operator continues compressions and notes that the femoral vein is deep to the artery in this region, ensuring the correct vessel is assessed.",
+    "time_start": 105.75,
+    "time_end": 114.22,
+    "model_prediction": "Based on the video clip, the continuous compression technique while moving the probe addresses the practical problem of bowel gas interference, which can obscure deeper structures like the appendix. This technique, known as \"graded compression,\" accounts for the anatomical relationship where the appendix is often located behind the gas-filled cecum or loops of bowel, allowing the examiner to displace the gas and bring the probe closer to the target organ for visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the continuous compression technique while moving the probe addresses the practical problem of bowel gas interference, which can obscure deeper structures like the appendix. This technique, known as \"graded compression,\" accounts for the anatomical relationship where the appendix is often located behind the gas-filled cecum or loops of bowel, allowing the examiner to displace the gas and bring the probe closer to the target organ for visualization.",
+      "latency_ms": 6422.72424697876,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.469999999999999,
+    "judge_explanation": "The AI completely misidentifies the context of the ultrasound. The ground truth describes a vascular exam involving the tracking of vessels (vein and artery), whereas the AI describes an abdominal exam for appendicitis (graded compression for bowel gas). Both the conclusion and the anatomical references are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, what portion of the overall DVT workflow is being wrapped up here, and what is the next logical region to examine afterward?",
+    "answer": "The operator is completing the inguinal and mid-thigh compression survey to rule out proximal thrombus in those segments. The next logical region is the posterior knee (popliteal) segment for compression assessment.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The scan of the inguinal and mid-thigh regions is completed to confirm no DVT there, setting up transition to the popliteal fossa for the next portion of the exam.",
+    "time_start": 123.06,
+    "time_end": 130.0,
+    "model_prediction": "Based on the video, this appears to be the **mid-femoral to distal femoral portion** of the lower extremity DVT compression exam. The vessels being imaged are the femoral vein and superficial femoral artery.\n\nThe video shows the probe moving distally down the thigh. As the clip progresses, the vessels dive deeper as they approach the adductor canal (Hunter's canal). The next logical region to examine in a standard lower extremity DVT protocol would be the **popliteal fossa** to evaluate the popliteal vein.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, this appears to be the **mid-femoral to distal femoral portion** of the lower extremity DVT compression exam. The vessels being imaged are the femoral vein and superficial femoral artery.\n\nThe video shows the probe moving distally down the thigh. As the clip progresses, the vessels dive deeper as they approach the adductor canal (Hunter's canal). The next logical region to examine in a standard lower extremity DVT protocol would be the **popliteal fossa** to evaluate the popliteal vein.",
+      "latency_ms": 6690.25993347168,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.939999999999998,
+    "judge_explanation": "The AI correctly identifies the current anatomical region as the femoral portion of the exam (specifically noting the distal progression towards the adductor canal, which corresponds to wrapping up the thigh segment) and correctly identifies the popliteal fossa as the next logical region to examine.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging parameter is adjusted before assessing compressibility in the new region, and what is the goal of that adjustment?",
+    "answer": "Depth is adjusted to ensure deeper landmarks are visible. The goal is to confirm the scan includes the full depth of the deep vessels (and a deep reference landmark) rather than only superficial structures.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Depth is adjusted to visualize the bone cortex deep to the vessels, confirming the image is deep enough to include deep vasculature and distinguish it from superficial anatomy.",
+    "time_start": 140.12,
+    "time_end": 152.41,
+    "model_prediction": "Based on the video, the imaging parameter adjusted is **depth**. The clinician decreases the depth setting (bringing the bottom of the image closer to the top) to center the vessels of interest on the screen and optimize the resolution before performing compression.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the imaging parameter adjusted is **depth**. The clinician decreases the depth setting (bringing the bottom of the image closer to the top) to center the vessels of interest on the screen and optimize the resolution before performing compression.",
+      "latency_ms": 5805.917978286743,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 12.289999999999992,
+    "judge_explanation": "The AI correctly identifies 'depth' as the parameter being adjusted. However, the AI incorrectly describes the action as decreasing depth to optimize resolution, whereas the ground truth states the goal is to ensure deeper landmarks are visible (implying the need to include deeper structures rather than focusing on superficial ones).",
+    "judge_error_type": "wrong_conclusion",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, when compression is applied in this region, what relative vessel positioning is being checked, and what finding indicates a negative result at this site?",
+    "answer": "The operator checks which vessel sits superficial versus deeper during compression to confirm they are compressing the vein rather than the artery. Full collapse of the superficial vein with persistent arterial shape supports no thrombus at this level.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "During compression the operator observes that the popliteal vein lies on top of the artery and confirms it is fully compressible, supporting absence of DVT at this site.",
+    "time_start": 155.95,
+    "time_end": 161.03,
+    "model_prediction": "Based on the video clip, this is a compression ultrasound exam, likely checking for Deep Vein Thrombosis (DVT) in the popliteal fossa.\n\nWhen compression is applied (seen around the 5-6 second mark where the vessels collapse), the clinician is checking the **popliteal vein relative to the popliteal artery**. Specifically, the popliteal vein is typically located superficial to the popliteal artery in the popliteal fossa (appearing \"on top\" of the artery in this posterior approach).\n\nA **negative result** (absence of DVT) is indicated by the **complete collapsibility of the vein** under compression, meaning the vein walls touch completely and the lumen disappears, while the artery remains pulsatile and non-compressible. In this clip, the vein (the more superficial structure) fully collapses, indicating a negative result at this site.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, this is a compression ultrasound exam, likely checking for Deep Vein Thrombosis (DVT) in the popliteal fossa.\n\nWhen compression is applied (seen around the 5-6 second mark where the vessels collapse), the clinician is checking the **popliteal vein relative to the popliteal artery**. Specifically, the popliteal vein is typically located superficial to the popliteal artery in the popliteal fossa (appearing \"on top\" of the artery in this posterior approach).\n\nA **negative result** (absence of DVT) is indicated by the **complete collapsibility of the vein** under compression, meaning the vein walls touch completely and the lumen disappears, while the artery remains pulsatile and non-compressible. In this clip, the vein (the more superficial structure) fully collapses, indicating a negative result at this site.",
+      "latency_ms": 6521.982908248901,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.0800000000000125,
+    "judge_explanation": "The AI correctly identifies the relative positioning being checked (vein superficial to the artery) and correctly describes the finding indicating a negative result (complete collapse of the vein). The response aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  }
+]

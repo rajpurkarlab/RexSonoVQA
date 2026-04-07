@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what change in sweep direction is performed, and why is that reversal done at this point?",
+    "answer": "The operator reverses the sweep to come back toward the midline. This returns to the area intended for image documentation after completing the initial pass.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After sweeping laterally, the operator reverses direction and sweeps back medially to return to the area of interest for image capture.",
+    "time_start": 15.46,
+    "time_end": 16.5,
+    "model_prediction": "Based on the video, the probe sweep direction changes from **anterior to posterior**, and then reverses back to **posterior to anterior**. This reversal occurs because the view has moved beyond the liver tissue and into the area of bowel gas, which obscures the image and provides no further diagnostic information, prompting the operator to return to the area of interest (the liver).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe sweep direction changes from **anterior to posterior**, and then reverses back to **posterior to anterior**. This reversal occurs because the view has moved beyond the liver tissue and into the area of bowel gas, which obscures the image and provides no further diagnostic information, prompting the operator to return to the area of interest (the liver).",
+      "latency_ms": 5309.039831161499,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 1.0399999999999991,
+    "judge_explanation": "The AI correctly identifies the reason for the reversal (reaching the boundary of the liver/bowel gas, which aligns with completing the initial pass), but it incorrectly describes the specific change in sweep direction. The AI describes an anterior-to-posterior reversal, whereas the ground truth specifies a return toward the midline (implying a lateral-to-medial movement).",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what is being captured at this moment in the survey, and why is this specific capture taken here?",
+    "answer": "A still image is captured to document the medial portion of the left-lobe view. It is taken once the intended landmark and anatomy are included in the field of view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator captures an image to document the medial left liver lobe view that includes the aorta.",
+    "time_start": 32.6,
+    "time_end": 33.88,
+    "model_prediction": "Based on the video clip, the sonographer is capturing the **abdominal aorta in a longitudinal (sagittal) view**. This specific capture is taken here to measure the diameter of the aorta and evaluate for any aneurysmal dilation or atherosclerosis, as this is the standard view for screening and assessing the abdominal aorta. The green arrow specifically highlights the anterior wall of the aorta in relation to the liver above it.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is capturing the **abdominal aorta in a longitudinal (sagittal) view**. This specific capture is taken here to measure the diameter of the aorta and evaluate for any aneurysmal dilation or atherosclerosis, as this is the standard view for screening and assessing the abdominal aorta. The green arrow specifically highlights the anterior wall of the aorta in relation to the liver above it.",
+      "latency_ms": 6915.166854858398,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 1.2800000000000011,
+    "judge_explanation": "The AI misidentifies the primary anatomical structure and the purpose of the capture. The Ground Truth specifies the view is capturing the medial portion of the left lobe of the liver, whereas the AI incorrectly claims it is capturing the abdominal aorta.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what continued sweep is performed after the prior capture, and what additional target view does it aim to include?",
+    "answer": "The operator continues sweeping further medially. The goal is to bring the adjacent major venous structure and associated liver region into view for a more complete survey.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The sweep continues further medially to visualize the IVC and caudate lobe as part of completing the left-lobe protocol coverage.",
+    "time_start": 35.94,
+    "time_end": 44.21,
+    "model_prediction": "Based on the video, the probe continues to slide inferiorly (caudally) from the initial view of the proximal abdominal aorta. This sweeping motion aims to trace the aorta distally to visualize the aortic bifurcation, where the aorta splits into the common iliac arteries.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe continues to slide inferiorly (caudally) from the initial view of the proximal abdominal aorta. This sweeping motion aims to trace the aorta distally to visualize the aortic bifurcation, where the aorta splits into the common iliac arteries.",
+      "latency_ms": 5307.394027709961,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.270000000000003,
+    "judge_explanation": "The AI prediction describes an inferior slide to visualize the aortic bifurcation, while the ground truth describes a medial sweep to view the adjacent major venous structure and liver region. The AI is incorrect regarding both the movement performed and the anatomical target.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, after applying the flow-display overlay, what documentation step is performed next and what broader protocol milestone does it mark?",
+    "answer": "A final still image is captured. This serves as the concluding documentation for the left-lobe sequence before moving on to the next region.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After verifying flow with Color Doppler over the IVC, the operator captures the final image of the sagittal left-lobe sequence, concluding the left-lobe protocol.",
+    "time_start": 45.95,
+    "time_end": 55.63,
+    "model_prediction": "Based on the video, after applying the color flow-display overlay (Color Doppler), the clinician records a dedicated clip demonstrating blood flow within the vessel. This step marks the completion of the standard 2D grayscale anatomical survey before transitioning to hemodynamic assessment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after applying the color flow-display overlay (Color Doppler), the clinician records a dedicated clip demonstrating blood flow within the vessel. This step marks the completion of the standard 2D grayscale anatomical survey before transitioning to hemodynamic assessment.",
+      "latency_ms": 5956.786155700684,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.68,
+    "judge_explanation": "The AI incorrectly identifies the documentation step as recording a clip (Ground Truth states a final still image is captured) and misinterprets the protocol milestone as transitioning to hemodynamic assessment rather than concluding the left-lobe sequence.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what positioning adjustment along the rib line (including orientation change) is performed, and why does it help the acquisition?",
+    "answer": "The probe is slid inferiorly following the rib line and rotated into a slightly oblique orientation. This aligns the scan with the rib spaces to improve the acoustic window for the intended view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator slides inferiorly along the rib line and rotates slightly oblique to align the probe with rib anatomy for optimal technical positioning.",
+    "time_start": 60.57,
+    "time_end": 69.37,
+    "model_prediction": "Based on the video, the probe is swept from a more caudal position (where the IVC and hepatic veins are clearly visible) upwards towards a more cephalad position, while also being angled slightly upwards/superiorly along the costal margin. This adjustment helps to visualize the dome of the liver and diaphragm, providing a clearer view of the upper hepatic segments and ensuring complete visualization of the superior liver margin.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is swept from a more caudal position (where the IVC and hepatic veins are clearly visible) upwards towards a more cephalad position, while also being angled slightly upwards/superiorly along the costal margin. This adjustment helps to visualize the dome of the liver and diaphragm, providing a clearer view of the upper hepatic segments and ensuring complete visualization of the superior liver margin.",
+      "latency_ms": 5231.191873550415,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.800000000000004,
+    "judge_explanation": "The AI describes the movement as sweeping 'upwards towards a more cephalad position', which contradicts the ground truth stating the probe is 'slid inferiorly' (downwards). Consequently, the reasoning provided by the AI regarding visualizing the dome of the liver differs from the ground truth's explanation of aligning with rib spaces to improve the acoustic window.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what survey strategy is set up before a series of images is taken, and what is the planned direction of coverage?",
+    "answer": "The operator establishes the initial (most superior) starting view and plans sequential stills while scanning inferiorly. This ensures systematic coverage through the region from top to bottom.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is positioned to obtain the dome view of the right liver lobe as a starting point, preparing to capture sequential images while scanning inferiorly.",
+    "time_start": 77.51,
+    "time_end": 84.9,
+    "model_prediction": "Based on the video clip, the survey strategy set up is a transverse sweep of the liver. The planned direction of coverage appears to be from the subcostal margin sweeping superiorly to inferiorly (or vice-versa) to visualize the entire liver parenchyma in the transverse plane.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the survey strategy set up is a transverse sweep of the liver. The planned direction of coverage appears to be from the subcostal margin sweeping superiorly to inferiorly (or vice-versa) to visualize the entire liver parenchyma in the transverse plane.",
+      "latency_ms": 5149.640798568726,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.390000000000001,
+    "judge_explanation": "The AI correctly identifies the survey strategy as a sweep and specifies the direction as superior to inferior, which matches the ground truth's description of establishing a superior starting view and scanning inferiorly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what deliberate “hold” or stability choice is made immediately after the first capture, and what is it confirming before proceeding?",
+    "answer": "The operator holds position at the superior level rather than immediately moving on. This confirms the view is above the major intrahepatic vessels before scanning down.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The probe is kept at the superior aspect to confirm the view is above the hepatic and portal veins before continuing inferiorly.",
+    "time_start": 90.98,
+    "time_end": 94.31,
+    "model_prediction": "Based on the video, the clinician deliberately holds a stable view of the **liver parenchyma** (specifically appearing to be the right lobe) immediately after the initial capture. This hold is maintained to confirm the **echotexture and homogeneity** of the liver tissue, ensuring a clear assessment of the \"starry sky\" pattern typical of acute hepatitis or general parenchymal health before any further probe movements are made.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician deliberately holds a stable view of the **liver parenchyma** (specifically appearing to be the right lobe) immediately after the initial capture. This hold is maintained to confirm the **echotexture and homogeneity** of the liver tissue, ensuring a clear assessment of the \"starry sky\" pattern typical of acute hepatitis or general parenchymal health before any further probe movements are made.",
+      "latency_ms": 6004.144906997681,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.3299999999999983,
+    "judge_explanation": "The AI incorrectly identifies the purpose of the hold as assessing tissue echotexture and homogeneity (specifically looking for a 'starry sky' pattern), whereas the ground truth states the hold is to establish the superior anatomical level above major intrahepatic vessels before scanning down. The AI misses the procedural spatial confirmation described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what scan progression is performed next, and what new anatomic information is the operator trying to bring into view?",
+    "answer": "The probe is moved inferiorly. The goal is to bring the hepatic veins into the field as the survey proceeds downward.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans inferiorly to bring the hepatic veins into view.",
+    "time_start": 95.37,
+    "time_end": 99.67,
+    "model_prediction": "Based on the video, the operator performs a **fanning (or tilting) motion of the ultrasound probe**. This maneuver is done to scan through the liver parenchyma and, specifically, to bring the **gallbladder** into view, which appears as a dark, anechoic structure indicated by the green arrows towards the end of the clip.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a **fanning (or tilting) motion of the ultrasound probe**. This maneuver is done to scan through the liver parenchyma and, specifically, to bring the **gallbladder** into view, which appears as a dark, anechoic structure indicated by the green arrows towards the end of the clip.",
+      "latency_ms": 5729.186058044434,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.299999999999997,
+    "judge_explanation": "The AI prediction is incorrect. The ground truth states the probe is moved inferiorly to bring the hepatic veins into view, while the AI incorrectly identifies the action as fanning to view the gallbladder.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what verification maneuver is performed by following the vessels, and what confirmation does it provide?",
+    "answer": "The operator traces the vessels to where they terminate. This confirms they are hepatic veins by demonstrating direct drainage into the IVC.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The vessels are traced to their termination to confirm they drain directly into the IVC, verifying they are hepatic veins.",
+    "time_start": 111.42,
+    "time_end": 115.79,
+    "model_prediction": "Based on the video clip, the verification maneuver being performed is tracing the hepatic veins (specifically the middle, left, and right hepatic veins) as they converge. By following these vessels superiorly, they can be seen draining into the **inferior vena cava (IVC)**. This maneuver confirms the anatomical identification of these vessels as hepatic veins, as opposed to portal veins, which have distinctively brighter, echogenic walls and do not drain directly into the IVC in this manner.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the verification maneuver being performed is tracing the hepatic veins (specifically the middle, left, and right hepatic veins) as they converge. By following these vessels superiorly, they can be seen draining into the **inferior vena cava (IVC)**. This maneuver confirms the anatomical identification of these vessels as hepatic veins, as opposed to portal veins, which have distinctively brighter, echogenic walls and do not drain directly into the IVC in this manner.",
+      "latency_ms": 5016.036033630371,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.3700000000000045,
+    "judge_explanation": "The AI correctly identifies the maneuver as tracing the vessels and the confirmation provided by observing their drainage into the IVC, matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

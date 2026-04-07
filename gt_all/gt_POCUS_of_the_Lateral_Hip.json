@@ -1,0 +1,110 @@
+[
+  {
+    "start": 0.91,
+    "end": 18.1,
+    "action": "Slide the probe proximally from the current position.",
+    "interpretation": "Observe the bone profile change from the smooth bone of the femoral shaft until it becomes more pointy and irregular."
+  },
+  {
+    "start": 18.16,
+    "end": 25.02,
+    "action": "Hold the probe stationary over the irregular bony prominence.",
+    "interpretation": "Identify the pointy appearance as the greater trochanter."
+  },
+  {
+    "start": 25.96,
+    "end": 45.72,
+    "action": "Slide the transducer ventrally (anteriorly) while at the trochanter level.",
+    "interpretation": "Visualize the small concavity on the anterior facet of the greater trochanter. Identify the structure within this concavity as the gluteus minimus tendon."
+  },
+  {
+    "start": 45.76,
+    "end": 48.22,
+    "action": "Maintain position on the anterior facet.",
+    "interpretation": "Confirm this is the gluteus minimus in transverse view."
+  },
+  {
+    "start": 48.68,
+    "end": 74.05,
+    "action": "Slide the probe proximally and distally ('up and a little bit down') and adjust slightly laterally to scan the entire tendon.",
+    "interpretation": "Observe for echogenicity changes or swelling. Specifically look for a large convexity of the tendon or an increase in cross-sectional area."
+  },
+  {
+    "start": 74.59,
+    "end": 80.47,
+    "action": "Focus attention on the bone surface underneath the tendon.",
+    "interpretation": "Assess whether the bone surface is regular or irregular."
+  },
+  {
+    "start": 81.83,
+    "end": 102.08,
+    "action": "Rotate the transducer 90 degrees to obtain a longitudinal view of the gluteal tendon.",
+    "interpretation": "Visualize the gluteus minimus in longitudinal view."
+  },
+  {
+    "start": 102.7,
+    "end": 116.64,
+    "action": "Slide the transducer proximally.",
+    "interpretation": "Trace the tendon transitioning into muscle tissue."
+  },
+  {
+    "start": 117.64,
+    "end": 134.09,
+    "action": "Slide back to the gluteus minimus and rotate the transducer back to the transverse view.",
+    "interpretation": "Visualize the lateral facet of the greater trochanter (trochanter major)."
+  },
+  {
+    "start": 134.69,
+    "end": 140.9,
+    "action": "Focus on the anatomy overlying the lateral facet.",
+    "interpretation": "Identify the gluteus medius (glute med)."
+  },
+  {
+    "start": 141.32,
+    "end": 150.04,
+    "action": "Slide proximally over the gluteus medius.",
+    "interpretation": "Note that the gluteus medius appears slightly more hyperechoic in this case."
+  },
+  {
+    "start": 150.26,
+    "end": 154.58,
+    "action": "Compare the echotexture with the previous finding.",
+    "interpretation": "Recall that the gluteus minimus appeared slightly more hypoechoic."
+  },
+  {
+    "start": 155.54,
+    "end": 168.53,
+    "action": "Slide over the gluteus medius area.",
+    "interpretation": "Confirm the normal hyperechoic appearance."
+  },
+  {
+    "start": 168.54,
+    "end": 176.33,
+    "action": "Scan specifically to assess tendon morphology.",
+    "interpretation": "Observe for changes in shape, such as increased or decreased tendon thickness."
+  },
+  {
+    "start": 176.97,
+    "end": 184.65,
+    "action": "Scrutinize the internal texture of the tendon.",
+    "interpretation": "Check for changes in echogenicity and look for signs of full or partial ruptures."
+  },
+  {
+    "start": 185.47,
+    "end": 201.37,
+    "action": "Rotate the transducer to longitudinal view and slide proximally following the muscle.",
+    "interpretation": "Follow the gluteus medius along its longitudinal axis."
+  },
+  {
+    "start": 201.41,
+    "end": 205.55,
+    "action": "Hold position at the proximal aspect.",
+    "interpretation": "Identify the musculotendinous junction."
+  },
+  {
+    "start": 206.39,
+    "end": 215.22,
+    "action": "Scan distally towards the bone.",
+    "interpretation": "Visualize the tendon inserting onto the greater trochanter."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation/maneuver is being used, and what initial acquisition goal is it meant to achieve?",
+    "answer": "The operator places the probe to obtain a long-axis (longitudinal) view and searches until the organ is confidently identified. The goal is to establish correct orientation and find the far end of the organ to start a proper survey.",
+    "groundtruth": "The probe is positioned in a longitudinal plane to locate the spleen, specifically aiming to visualize its tip and confirm the scan orientation is long-axis.",
+    "time_start": 1.61,
+    "time_end": 7.61,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient breathing maneuver is prompted, and why is it used at this point in the scan?",
+    "answer": "A deep inspiration (often with a brief hold) is used to improve the acoustic window and stabilize/bring the target organ into a better view for optimization.",
+    "groundtruth": "The patient is prompted to take a big breath in to help optimize the imaging window before continuing adjustments.",
+    "time_start": 15.4,
+    "time_end": 18.94,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is being performed across this segment, and what is the next major scanning objective that follows?",
+    "answer": "This segment is the setup phase: finding the organ and optimizing image settings for a clear long-axis view. The next objective is a systematic sweep through the entire organ to ensure complete coverage.",
+    "groundtruth": "The operator first locates the spleen in longitudinal and optimizes gain/focus and the breathing window; once satisfied with clarity and orientation, they are ready to proceed to a systematic sweep.",
+    "time_start": 1.61,
+    "time_end": 28.39,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is demonstrated, and what coverage goal does it accomplish?",
+    "answer": "The operator performs a deliberate sweep through the organ and then returns, using controlled angling to maintain a view through intervening structures. The goal is to interrogate the entire organ from end to end.",
+    "groundtruth": "The probe is angled between ribs while sweeping all the way down and back up to scan through the full volume of splenic tissue and cover the entire organ.",
+    "time_start": 35.7,
+    "time_end": 49.67,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition occurs here, and what is the broader objective of the actions that follow?",
+    "answer": "The scan transitions from one plane to another (long-axis to short-axis) and then proceeds into systematic sweeps in the new plane. The objective is complete anatomic coverage of the organ in an orthogonal view.",
+    "groundtruth": "After rotating to transverse, the operator angles between ribs and performs a transverse sweep through the spleen (using breathing to help) to fully survey the tissue in the new plane.",
+    "time_start": 50.87,
+    "time_end": 72.72,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what targeted comparative view is being set up, and what is the purpose of obtaining it?",
+    "answer": "A comparative interface view between the target organ and an adjacent organ is set up. The purpose is to compare echotexture/appearance across that interface as part of a normality check and documentation.",
+    "groundtruth": "The operator prepares to image the spleen\u2013kidney interface specifically to compare echotexture between the spleen and kidney.",
+    "time_start": 74.3,
+    "time_end": 81.85,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the comparative image is obtained, what documentation step is performed next and what is its purpose?",
+    "answer": "The operator labels/annotates the saved image to identify what view and structures are shown. This ensures correct documentation and prevents later misinterpretation when reviewing images.",
+    "groundtruth": "After acquiring the spleen\u2013kidney comparison image, the operator uses the keyboard to annotate/label the view appropriately for documentation.",
+    "time_start": 74.3,
+    "time_end": 110.91,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what measurement is being obtained with calipers, and what clinical parameter does it represent?",
+    "answer": "Calipers are used to measure the organ\u2019s maximal long-axis length from one end to the other. This represents organ size for standard assessment and comparison to expected ranges.",
+    "groundtruth": "Calipers are placed to measure the spleen from the superior to inferior border, obtaining the longitudinal splenic length.",
+    "time_start": 129.94,
+    "time_end": 138.72,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the workflow from setting up the dedicated view through measurement, and state the next logical evaluation step that follows in this exam.",
+    "answer": "The operator isolates a clean long-axis view, freezes a representative frame, and measures the organ\u2019s length with calipers. The next logical step is to assess vascular features (e.g., with flow imaging) as part of a complete evaluation.",
+    "groundtruth": "A longitudinal spleen image is prepared, frozen, and measured with calipers for splenic length; the exam then proceeds to additional assessment steps beyond size documentation.",
+    "time_start": 114.39,
+    "time_end": 138.72,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being accomplished in this final segment, and why are the optimization and labeling actions included before finishing?",
+    "answer": "A standard short-axis (transverse) still image is captured, then the focal depth is adjusted to best emphasize the deeper portion of the organ, and the image is labeled for correct documentation. These steps ensure the saved transverse view is both well-focused and clearly identified in the study.",
+    "groundtruth": "A transverse spleen image is acquired, the focus depth is adjusted to the posterior level of the spleen, and the image is annotated as a transverse view for proper documentation.",
+    "time_start": 162.93,
+    "time_end": 176.32,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

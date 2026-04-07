@@ -1,0 +1,38 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, the operator adjusts the probe angle while staying in the same general window. What is the most likely purpose of this adjustment?\nA. To correct foreshortening/incomplete depiction and obtain a more complete long-axis view of the target\nB. To reduce artifact (e.g., reverberation or shadowing) by changing the beam incidence while maintaining the same acoustic window\nC. To bring an adjacent anatomic landmark into the field of view to confirm orientation and probe position\nD. To optimize the insonation angle for Doppler assessment of blood flow across the structure",
+    "answer": "A",
+    "groundtruth": "The operator changes the probe angle (keeping a subcostal approach and an oblique orientation) to better open up the gallbladder. This improves completeness of the view when a perfectly sagittal alignment would not show the organ well end-to-end.",
+    "time_start": 0.17,
+    "time_end": 26.48,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning action is being performed, and what is the goal?\nA. Applying graded compression over the region to assess compressibility and tenderness while displacing intervening bowel\nB. Fanning the probe about a fixed point to optimize one representative cross\u2011section for precise measurement\nC. Sliding to an adjacent acoustic window to improve visualization of the target by reducing attenuation and overlying bowel gas\nD. Systematic sweep through the target structure to assess it along its full extent",
+    "answer": "D",
+    "groundtruth": "After identifying the gallbladder, the operator sweeps through the entire organ. The purpose is to visualize the gallbladder along its full length to ensure complete assessment.",
+    "time_start": 27.59,
+    "time_end": 32.67,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is shown and what is its purpose?\nA. Rotating the probe roughly 90\u00b0 to switch into an orthogonal (transverse/short-axis) plane\nB. Tilting (heel-toe) the probe to align the ultrasound beam with the target and improve border definition.\nC. Sliding the probe along the structure to trace it in long axis and confirm continuity from proximal to distal.\nD. Fanning/sweeping the probe through the region to survey adjacent anatomy and avoid missing a second lesion.",
+    "answer": "A",
+    "groundtruth": "The operator visually checks probe orientation and rotates the probe exactly 90 degrees. This aligns the probe for a transverse image of the gallbladder.",
+    "time_start": 42.1,
+    "time_end": 54.65,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after briefly confirming an orthogonal plane, the operator reverses the rotation. What workflow strategy does this represent?\nA. Tracing the vessel or duct longitudinally by sliding the probe along its course rather than toggling orthogonal planes\nB. Using small fanning/rocking micro-movements in a single plane to center the target and optimize the window\nC. Performing a continuous sweep through the structure in one plane to ensure complete coverage before changing views\nD. Alternating between orthogonal planes to confirm anatomy and orientation",
+    "answer": "D",
+    "groundtruth": "The operator first stabilizes to confirm the transverse plane, then rotates 90 degrees back in the opposite direction. This returns to and confirms the sagittal (long-axis) gallbladder view as part of using orthogonal planes for verification.",
+    "time_start": 55.55,
+    "time_end": 63.87,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

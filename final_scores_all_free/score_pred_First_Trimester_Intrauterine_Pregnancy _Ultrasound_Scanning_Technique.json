@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is used to transition from the initial landmark to the next target region, and what is the goal of that transition?",
+    "answer": "The probe is slid/swept away from the initial landmark into the adjacent pelvic tissue. The goal is to bring the uterus into view after using the bladder for orientation.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After using the bladder as the starting landmark, the operator scans away from it into adjacent tissue to identify the uterus next to the bladder.",
+    "time_start": 15.88,
+    "time_end": 22.26,
+    "model_prediction": "Based on the video, the probe movement used is **sliding** (specifically, sliding the probe inferiorly/caudally).\n\nThe goal of this transition is to move from a transverse view of the **proximal abdominal aorta** (seen initially with the superior mesenteric artery and splenic vein landmarks) down to visualize the **mid and distal aorta** to check for aneurysms or other pathology along its length.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe movement used is **sliding** (specifically, sliding the probe inferiorly/caudally).\n\nThe goal of this transition is to move from a transverse view of the **proximal abdominal aorta** (seen initially with the superior mesenteric artery and splenic vein landmarks) down to visualize the **mid and distal aorta** to check for aneurysms or other pathology along its length.",
+      "latency_ms": 5873.224973678589,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.380000000000001,
+    "judge_explanation": "The AI completely misidentifies the anatomical context of the video. The ground truth indicates a pelvic ultrasound transitioning from the bladder to the uterus, whereas the AI describes an abdominal ultrasound of the aorta. Consequently, both the described visual evidence and the conclusion are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being assessed within the small internal structure that is centered on-screen, and what confirmation is the operator trying to obtain?",
+    "answer": "They are assessing early gestational contents, specifically looking for a yolk sac and visible fetal cardiac activity within the sac.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator focuses on the gestational contents to look for early signs like a yolk sac and to visualize fetal heart activity within the sac.",
+    "time_start": 31.86,
+    "time_end": 36.71,
+    "model_prediction": "Based on the video clip, the operator is assessing a **fetus** within the gestational sac to confirm the presence of **cardiac activity (a heartbeat)**. The pulsating motion visible in the center of the fetal chest corresponds to the beating heart, which confirms fetal viability.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is assessing a **fetus** within the gestational sac to confirm the presence of **cardiac activity (a heartbeat)**. The pulsating motion visible in the center of the fetal chest corresponds to the beating heart, which confirms fetal viability.",
+      "latency_ms": 5432.123184204102,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.850000000000001,
+    "judge_explanation": "The AI correctly identifies the primary clinical objective: assessing the fetus/embryo for cardiac activity. While the ground truth specifically mentions the yolk sac as well, the AI's identification of the fetus and the confirmation of the heartbeat (pulsating motion) captures the essential diagnostic intent and aligns with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, a clear plane/orientation change is performed. What adjustment is made, and how does it improve certainty compared with staying in a single plane?",
+    "answer": "The probe is rotated into the orthogonal (longitudinal) axis and a sweep is performed. This provides a second-axis confirmation view to more completely inspect the uterus and ensure there is not an additional gestational sac.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After completing the transverse scan, the operator rotates to the second axis (indicator toward the head) and performs a longitudinal sweep to obtain an orthogonal view and check that there is no second gestational sac present.",
+    "time_start": 41.13,
+    "time_end": 56.67,
+    "model_prediction": "Based on the video, the probe is rotated 90 degrees, transitioning from a longitudinal (sagittal) view of the uterus to a transverse view. This orthogonal plane change confirms that the gestational sac is truly located within the uterus (intrauterine) by visualizing it in two perpendicular planes, which helps rule out potential mimics or artifacts that might appear cystic in only one view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is rotated 90 degrees, transitioning from a longitudinal (sagittal) view of the uterus to a transverse view. This orthogonal plane change confirms that the gestational sac is truly located within the uterus (intrauterine) by visualizing it in two perpendicular planes, which helps rule out potential mimics or artifacts that might appear cystic in only one view.",
+      "latency_ms": 7642.768859863281,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 15.54,
+    "judge_explanation": "The AI correctly identifies the core maneuver (rotating the probe 90 degrees to an orthogonal plane) and the general purpose (confirmation). However, it reverses the specific visual evidence: the AI describes a transition from longitudinal to transverse, while the ground truth states the probe is rotated *into* the longitudinal axis (implying transverse to longitudinal). Additionally, the AI misses the specific clinical utility mentioned in the ground truth regarding checking for an additional gestational sac.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "start": 0.15,
+    "end": 7.15,
+    "action": "Place probe in sagittal (longitudinal) section.",
+    "interpretation": "Immediately identify the liver and the renal interface."
+  },
+  {
+    "start": 9.19,
+    "end": 17.74,
+    "action": "Sweep through the kidney.",
+    "interpretation": "Assess the renal parenchyma. Specifically check for signs of obstruction, such as dilated calyces or a dilated pelvis."
+  },
+  {
+    "start": 18.5,
+    "end": 29.35,
+    "action": "If visualization is obscured by rib shadowing, instruct patient: 'Take a small breath'.",
+    "interpretation": "Utilize the inspiration to displace the anatomy inferiorly, moving the kidney out of the rib shadow and bringing it directly onto the probe view."
+  },
+  {
+    "start": 29.95,
+    "end": 30.37,
+    "action": "Instruct patient: 'Breathe out'.",
+    "interpretation": "Return patient to resting expiration."
+  },
+  {
+    "start": 33.16,
+    "end": 38.18,
+    "action": "Move probe down one rib space and continue the sweep.",
+    "interpretation": "Use an alternative intercostal window to regain or maintain the view."
+  },
+  {
+    "start": 39.41,
+    "end": 46.9,
+    "action": "Sweep the kidney completely from anterior to posterior. Conclude the exam.",
+    "interpretation": "Ensure the entire organ volume is assessed."
+  }
+]

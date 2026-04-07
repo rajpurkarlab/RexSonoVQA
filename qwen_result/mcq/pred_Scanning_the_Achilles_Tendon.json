@@ -1,0 +1,102 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what imaging adjustment is being made, and why?\nA. Increase depth and move the focal zone deeper to better visualize a deep structure in the far field\nB. Adjust overall gain/TGC to reduce near-field clutter and improve contrast of the target without changing depth\nC. Switch to a lower-frequency curvilinear transducer to improve penetration when the target is too deep for a linear probe\nD. Decrease depth and set the focal region near the surface to better image a superficial target",
+    "answer": "D",
+    "groundtruth": "Depth and focus are adjusted for near-field imaging because the tendon is a very superficial structure and requires superficial-focused settings for optimal visualization.",
+    "time_start": 8.67,
+    "time_end": 10.49,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the clip, what imaging adjustment is being made, and why?\nA. Decrease depth and set the focal region near the surface to better image a superficial target\nB. Increase depth and move the focal zone deeper to better visualize a deep structure in the far field\nC. Adjust overall gain/TGC to reduce near-field clutter and improve contrast of the target without changing depth\nD. Switch to a lower-frequency curvilinear transducer to improve penetration when the target is too deep for a linear probe",
+    "original_answer": "A",
+    "time_start_extended": 8.67,
+    "time_end_extended": 10.49,
+    "original_time_start": 8.67,
+    "original_time_end": 10.49,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe video displays a musculoskeletal ultrasound with a depth setting of only 2.2 cm, which is very shallow. The focal zone indicators (white dots on the right) are positioned superficially, aligned with the tendon and bone cortex. This setup—minimizing depth and placing the focal zone at the level of interest—is the standard adjustment for optimizing resolution and frame rate when imaging superficial structures like tendons.",
+      "latency_ms": 31146.33798599243,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video, what probe motion strategy is being used, and what is the objective?\nA. Fan/tilt in the long axis to maintain perpendicular insonation and minimize anisotropy while optimizing tendon echogenicity at the attachment.\nB. Rotate to a short-axis view and sweep proximally to assess tendon thickness and surrounding sheath for tenosynovitis.\nC. Slide along the long axis to track the structure from its distal attachment toward where muscle fibers begin\nD. Use a heel-toe/rocking motion at the enthesis to center the cortical interface and look for cortical irregularity or enthesophytes.",
+    "answer": "C",
+    "groundtruth": "With the scanning hand anchored, the probe is slid proximally to follow the tendon’s length from the calcaneus up to the musculotendinous junction where muscle fibers begin.",
+    "time_start": 10.97,
+    "time_end": 17.68,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video, what probe motion strategy is being used, and what is the objective?\nA. Use a heel-toe/rocking motion at the enthesis to center the cortical interface and look for cortical irregularity or enthesophytes.\nB. Fan/tilt in the long axis to maintain perpendicular insonation and minimize anisotropy while optimizing tendon echogenicity at the attachment.\nC. Rotate to a short-axis view and sweep proximally to assess tendon thickness and surrounding sheath for tenosynovitis.\nD. Slide along the long axis to track the structure from its distal attachment toward where muscle fibers begin",
+    "original_answer": "D",
+    "time_start_extended": 10.97,
+    "time_end_extended": 17.68,
+    "original_time_start": 10.97,
+    "original_time_end": 17.68,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C",
+      "latency_ms": 11152.261972427368,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[MCQ] Based on the clip, what maneuver is performed at the transition zone and what is the purpose?\nA. Apply color Doppler at the transition zone to confirm the structure is vascular before proceeding with measurements.\nB. Rotate the probe ~90° to obtain an orthogonal (cross-sectional) view and then track the structure back distally\nC. Fan/tilt the probe to maintain the long-axis view through the transition zone for a continuous assessment of echotexture.\nD. Use a heel-toe (rocking) maneuver at the transition zone to minimize anisotropy and optimize tendon/nerve echogenicity.",
+    "answer": "B",
+    "groundtruth": "After reaching the musculotendinous junction, the probe is rotated 90 degrees into transverse orientation and then slid distally to follow the tendon in short axis.",
+    "time_start": 28.84,
+    "time_end": 37.58,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the clip, what maneuver is performed at the transition zone and what is the purpose?\nA. Fan/tilt the probe to maintain the long-axis view through the transition zone for a continuous assessment of echotexture.\nB. Apply color Doppler at the transition zone to confirm the structure is vascular before proceeding with measurements.\nC. Rotate the probe ~90° to obtain an orthogonal (cross-sectional) view and then track the structure back distally\nD. Use a heel-toe (rocking) maneuver at the transition zone to minimize anisotropy and optimize tendon/nerve echogenicity.",
+    "original_answer": "C",
+    "time_start_extended": 28.84,
+    "time_end_extended": 37.58,
+    "original_time_start": 28.84,
+    "original_time_end": 37.58,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe video demonstrates a longitudinal scan of a structure (likely a nerve or tendon) followed by a rotation of the probe approximately 90 degrees to obtain a cross-sectional (orthogonal) view. This is a standard technique to confirm the identity of the structure (e.g., distinguishing nerve honeycomb pattern from tendon stippling) and allows for further tracking or measurement. The first part shows the long-axis fibrillar pattern, and the second part (from 0:06 onwards) shows the cross-sectional anatomy.",
+      "latency_ms": 50366.06502532959,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[MCQ] Based on the workflow shown in this later segment, what stage is the operator in and what is the immediate objective?\nA. Final short-axis survey followed by concluding the examination\nB. Transitioning from diagnostic imaging to preparation for an ultrasound-guided intervention at the identified site\nC. Continuing transverse scanning to re-establish key landmarks and confirm correct window/orientation before proceeding\nD. Targeted rescan of a suspicious region to optimize image settings and document a key attachment point in detail",
+    "answer": "A",
+    "groundtruth": "The operator is finishing the transverse survey of the tendon’s cross-section and then completes the ultrasonographic exam, marking the end of the scan.",
+    "time_start": 41.78,
+    "time_end": 58.16,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the workflow shown in this later segment, what stage is the operator in and what is the immediate objective?\nA. Targeted rescan of a suspicious region to optimize image settings and document a key attachment point in detail\nB. Transitioning from diagnostic imaging to preparation for an ultrasound-guided intervention at the identified site\nC. Continuing transverse scanning to re-establish key landmarks and confirm correct window/orientation before proceeding\nD. Final short-axis survey followed by concluding the examination",
+    "original_answer": "D",
+    "time_start_extended": 41.78,
+    "time_end_extended": 58.16,
+    "original_time_start": 41.78,
+    "original_time_end": 58.16,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video demonstrates a transverse ultrasound scan of the neck, likely the thyroid gland, characterized by the central tracheal air column with reverberation artifacts. The operator moves the probe laterally and then back towards the midline, effectively re-identifying the trachea as a key anatomical landmark to confirm orientation. The clip concludes with the probe rotating into a longitudinal plane, indicating the operator has confirmed the correct window and is proceeding to the next stage of the examination (longitudinal scanning).",
+      "latency_ms": 40883.95094871521,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

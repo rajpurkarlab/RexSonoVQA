@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, the operator adjusts the probe angle while staying in the same general window. What is the most likely purpose of this adjustment?\nA. To correct foreshortening/incomplete depiction and obtain a more complete long-axis view of the target\nB. To reduce artifact (e.g., reverberation or shadowing) by changing the beam incidence while maintaining the same acoustic window\nC. To bring an adjacent anatomic landmark into the field of view to confirm orientation and probe position\nD. To optimize the insonation angle for Doppler assessment of blood flow across the structure",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator changes the probe angle (keeping a subcostal approach and an oblique orientation) to better open up the gallbladder. This improves completeness of the view when a perfectly sagittal alignment would not show the organ well end-to-end.",
+    "time_start": 0.17,
+    "time_end": 26.48,
+    "original_question": "[MCQ] Based on the video clip, the operator adjusts the probe angle while staying in the same general window. What is the most likely purpose of this adjustment?\nA. To correct foreshortening/incomplete depiction and obtain a more complete long-axis view of the target\nB. To optimize the insonation angle for Doppler assessment of blood flow across the structure\nC. To reduce artifact (e.g., reverberation or shadowing) by changing the beam incidence while maintaining the same acoustic window\nD. To bring an adjacent anatomic landmark into the field of view to confirm orientation and probe position",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. To correct foreshortening/incomplete depiction and obtain a more complete long-axis view of the target\n\nExplanation:\nThe video initially shows the gallbladder (the hypoechoic, fluid-filled structure) as a somewhat truncated, oval shape, indicating an oblique or off-axis view that does not capture its full length. The operator then adjusts the probe, likely rotating or sweeping it, to elongate the structure on the screen. By the end of the clip (around 00:15-00:20), the gallbladder is displayed in a much longer, tubular shape, representing a more true longitudinal axis. This maneuver is specifically aimed at correcting foreshortening to fully visualize the organ's length and neck, rather than just changing the angle for artifacts or Doppler (which isn't used here).",
+      "latency_ms": 6553.452968597412,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 26.31,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning action is being performed, and what is the goal?\nA. Applying graded compression over the region to assess compressibility and tenderness while displacing intervening bowel\nB. Fanning the probe about a fixed point to optimize one representative cross‑section for precise measurement\nC. Sliding to an adjacent acoustic window to improve visualization of the target by reducing attenuation and overlying bowel gas\nD. Systematic sweep through the target structure to assess it along its full extent",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After identifying the gallbladder, the operator sweeps through the entire organ. The purpose is to visualize the gallbladder along its full length to ensure complete assessment.",
+    "time_start": 27.59,
+    "time_end": 32.67,
+    "original_question": "[MCQ] Based on the video clip, what scanning action is being performed, and what is the goal?\nA. Systematic sweep through the target structure to assess it along its full extent\nB. Fanning the probe about a fixed point to optimize one representative cross‑section for precise measurement\nC. Sliding to an adjacent acoustic window to improve visualization of the target by reducing attenuation and overlying bowel gas\nD. Applying graded compression over the region to assess compressibility and tenderness while displacing intervening bowel",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Systematic sweep through the target structure to assess it along its full extent\n\nExplanation: The video demonstrates a \"sweeping\" or \"fanning\" motion where the probe is tilted or slid continuously to visualize the entire volume of the gallbladder. The view starts at one edge of the organ, moves through its main body, and continues to the other side, allowing the clinician to inspect the entire structure for pathology (like stones, wall thickening, or fluid) rather than just looking at a single slice. This is distinct from sliding to a new window (C) or just compressing one spot (A). While it involves fanning, the goal is a complete assessment of the whole organ volume, not just optimizing a single static measurement point (B).",
+      "latency_ms": 6830.8610916137695,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.080000000000002,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is shown and what is its purpose?\nA. Rotating the probe roughly 90° to switch into an orthogonal (transverse/short-axis) plane\nB. Tilting (heel-toe) the probe to align the ultrasound beam with the target and improve border definition.\nC. Sliding the probe along the structure to trace it in long axis and confirm continuity from proximal to distal.\nD. Fanning/sweeping the probe through the region to survey adjacent anatomy and avoid missing a second lesion.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator visually checks probe orientation and rotates the probe exactly 90 degrees. This aligns the probe for a transverse image of the gallbladder.",
+    "time_start": 42.1,
+    "time_end": 54.65,
+    "original_question": "[MCQ] Based on the video clip, what probe maneuver is shown and what is its purpose?\nA. Rotating the probe roughly 90° to switch into an orthogonal (transverse/short-axis) plane\nB. Sliding the probe along the structure to trace it in long axis and confirm continuity from proximal to distal.\nC. Tilting (heel-toe) the probe to align the ultrasound beam with the target and improve border definition.\nD. Fanning/sweeping the probe through the region to survey adjacent anatomy and avoid missing a second lesion.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video clip demonstrates a **fanning** or **sweeping** maneuver. The sonographer holds the probe in a relatively fixed position on the skin surface and tilts the angle of the beam back and forth (like opening and closing a fan) to scan through the volume of the tissue. This allows the operator to survey the entire anatomy of the gallbladder and surrounding liver parenchyma, ensuring that the entire organ is visualized from one side to the other, which is crucial for detecting abnormalities like gallstones or masses that might not be visible in a single static plane.",
+      "latency_ms": 6309.755086898804,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 12.549999999999997,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after briefly confirming an orthogonal plane, the operator reverses the rotation. What workflow strategy does this represent?\nA. Tracing the vessel or duct longitudinally by sliding the probe along its course rather than toggling orthogonal planes\nB. Using small fanning/rocking micro-movements in a single plane to center the target and optimize the window\nC. Performing a continuous sweep through the structure in one plane to ensure complete coverage before changing views\nD. Alternating between orthogonal planes to confirm anatomy and orientation",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first stabilizes to confirm the transverse plane, then rotates 90 degrees back in the opposite direction. This returns to and confirms the sagittal (long-axis) gallbladder view as part of using orthogonal planes for verification.",
+    "time_start": 55.55,
+    "time_end": 63.87,
+    "original_question": "[MCQ] Based on the video clip, after briefly confirming an orthogonal plane, the operator reverses the rotation. What workflow strategy does this represent?\nA. Alternating between orthogonal planes to confirm anatomy and orientation\nB. Performing a continuous sweep through the structure in one plane to ensure complete coverage before changing views\nC. Using small fanning/rocking micro-movements in a single plane to center the target and optimize the window\nD. Tracing the vessel or duct longitudinally by sliding the probe along its course rather than toggling orthogonal planes",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video demonstrates the operator rotating the probe to obtain an orthogonal (perpendicular) view of the structures, briefly confirming the anatomy in that second plane, and then reversing the rotation to return to the original plane. This technique of alternating between orthogonal planes (e.g., transverse and longitudinal) is a fundamental strategy to confirm anatomical orientation, trace structures, and ensure a comprehensive assessment of 3D anatomy using 2D cross-sections.",
+      "latency_ms": 6080.755949020386,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.32,
+    "keep": true
+  }
+]

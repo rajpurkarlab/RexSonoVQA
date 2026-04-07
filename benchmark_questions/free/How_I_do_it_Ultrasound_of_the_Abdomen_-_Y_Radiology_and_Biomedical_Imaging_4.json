@@ -1,0 +1,83 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what stable probe orientation is being maintained, and what view is the operator trying to establish by holding that position?",
+    "answer": "They keep the probe in a slightly oblique, counterclockwise orientation to hold a long-axis (\u201csagittal\u201d) view of the pancreas.",
+    "groundtruth": "The operator maintains the oblique counterclockwise position to establish and hold a long-axis (sagittal-type) image of the pancreas.",
+    "time_start": 12.14,
+    "time_end": 15.88,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what landmark-seeking behavior is shown, and what is it being used to confirm about the acquisition?",
+    "answer": "The operator scans the image looking for a consistent vascular landmark to confirm they are at (or immediately adjacent to) the pancreas in the intended plane.",
+    "groundtruth": "The operator inspects the image for the splenic vein, using it as a key landmark to confirm correct proximity to or visualization of the pancreas.",
+    "time_start": 17.36,
+    "time_end": 31.65,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator attempts to include the far end of the target anatomy but it remains difficult. What are they trying to capture, and what common limitation is being encountered?",
+    "answer": "They are trying to visualize the distal tail portion, but it can be hard to keep in view because it often dives deeper and out of the best acoustic window from an epigastric approach.",
+    "groundtruth": "The operator attempts to visualize the pancreatic tail and notes a common geometric limitation: from the epigastric window the tail frequently extends deeper, so it may not be fully visualized.",
+    "time_start": 59.3,
+    "time_end": 68.91,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what targeted tracing task is being performed within the organ, and what is the purpose of following it across the field?",
+    "answer": "They are tracing a thin tubular structure through the organ to confirm its course and evaluate it throughout the length rather than at a single point.",
+    "groundtruth": "The operator inspects the pancreatic parenchyma for the pancreatic duct and traces it through the body to identify the duct along the length of the pancreas.",
+    "time_start": 69.33,
+    "time_end": 88.12,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe redirection is shown, and what specific sub-region is the operator trying to isolate by doing this?",
+    "answer": "They angle the probe toward the patient\u2019s right to isolate the pancreatic head and uncinate process more clearly.",
+    "groundtruth": "The operator angles the probe toward the patient\u2019s right side to better isolate and visualize the pancreatic head and uncinate process.",
+    "time_start": 106.0,
+    "time_end": 115.59,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing during the continued sweep in the new plane, and what is the broader purpose of this mapping?",
+    "answer": "They sweep through the organ while keeping the same body-plane orientation, using surrounding landmarks to understand where they are within the pancreas as they move.",
+    "groundtruth": "Maintaining the sagittal body plane, the operator sweeps through the pancreas in transverse view and uses surrounding structures as landmarks to localize specific pancreatic regions.",
+    "time_start": 173.17,
+    "time_end": 184.34,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what exam phase the operator is in across this segment, and what the next logical objective is after establishing the initial view.",
+    "answer": "They are setting up and confirming a long-axis view using a landmark for orientation; the next step is to sweep through the entire pancreas to ensure complete coverage.",
+    "groundtruth": "The operator positions and obliques the probe to align with the pancreatic axis, holds a long-axis pancreas view, and checks for the splenic vein landmark before proceeding to comprehensive evaluation.",
+    "time_start": 0.25,
+    "time_end": 31.65,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is occurring here, and what is the purpose of doing this before continuing the survey?",
+    "answer": "They transition from a long-axis-style view to a transverse/short-axis survey by rotating the probe, then begin sweeping to map the organ using landmarks for localization.",
+    "groundtruth": "The operator rotates the probe to a sagittal plane relative to the patient to obtain transverse images, then sweeps through the pancreas while using surrounding structures as landmarks to determine location.",
+    "time_start": 156.2,
+    "time_end": 184.34,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to accomplish by sequentially checking deep landmarks during the sweep, and how does this guide the remainder of the evaluation?",
+    "answer": "They are using consistent posterior vascular landmarks to verify which portion of the pancreas they are scanning as they sweep, ensuring systematic coverage from body toward head while staying in the transverse plane.",
+    "groundtruth": "The operator identifies the aorta posteriorly to confirm the pancreatic body, then sweeps toward the patient\u2019s right to find the IVC to confirm the head region, and continues sweeping to evaluate the pancreas in transverse plane.",
+    "time_start": 185.64,
+    "time_end": 215.61,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

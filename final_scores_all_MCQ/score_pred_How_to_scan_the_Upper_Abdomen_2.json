@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what scanning approach is being used, and what is the main objective?\nA) Scanning through the spaces between bony structures to change the acoustic window and better visualize the upper-abdominal target\nB) A standard subcostal sweep in the longitudinal plane to obtain a routine upper-abdominal survey image\nC) A heel-toe rocking maneuver to optimize beam incidence and improve near-field contact without changing the acoustic window\nD) A probe rotation to switch from sagittal to transverse imaging to confirm the target in an orthogonal plane",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator initiates an intercostal approach to scan the liver, changing the acoustic window to image through the rib spaces.",
+    "time_start": 0.67,
+    "time_end": 5.02,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video demonstrates a scanning technique where the probe is being moved or angled to find a window between the ribs (intercostal spaces). The image alternates between a clear view of the liver and kidney and a blacked-out view caused by the acoustic shadowing of the ribs. This indicates the operator is searching through the intercostal spaces to avoid the bony rib shadows and obtain a clear acoustic window to visualize the upper-abdominal structures.",
+      "latency_ms": 7168.953657150269,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.35,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video segment, what stage of the scan is being shown, and what is the immediate goal?\nA) Establishing an alternative acoustic window so anatomy previously deeper becomes more superficial for improved assessment\nB) Optimizing the current window by adjusting depth and focal zone to better visualize the target anatomy at the same insonation angle\nC) Transitioning to a confirmatory step using Color Doppler to assess vascularity or flow within the structure of interest\nD) Obtaining a standardized measurement image by freezing and measuring the structure’s diameter in the best long-axis view",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator switches to an intercostal scanning window and then assesses the superficial liver parenchyma, noting that structures that were far field on a subcostal view are now in the near field.",
+    "time_start": 0.67,
+    "time_end": 13.35,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video clip demonstrates the sonographer repositioning the probe to find a better acoustic window. The probe moves from an obscured or suboptimal view to a clearer view where the liver and kidney interface (Morison's pouch) and surrounding structures are brought closer to the probe surface, making the anatomy more superficial and easier to visualize. This is a classic maneuver to bypass acoustic shadowing or depth limitations.",
+      "latency_ms": 6239.928245544434,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 12.68,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what scanning strategy is being used, and what is the purpose?\nA) Systematically sweeping through multiple adjacent windows to bring an adjacent organ into view and identify the organ-to-organ interface\nB) Fanning/rocking within a single acoustic window to optimize the view of one organ and confirm a suspected lesion in that organ.\nC) Sliding to adjacent intercostal spaces primarily to avoid rib shadowing and improve visualization of the same target structure.\nD) Performing a systematic multi-window survey to document that a sonographic finding persists across views for overall quality assurance rather than to define an organ interface.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator continues sliding the probe up and down through multiple intercostal spaces until the right kidney comes into view during the sweep.",
+    "time_start": 20.31,
+    "time_end": 30.84,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Systematically sweeping through multiple adjacent windows to bring an adjacent organ into view and identify the organ-to-organ interface\n\nExplanation:\nThe clip demonstrates a continuous sweeping motion where the probe starts by visualizing the liver parenchyma and then slides or fans inferiorly/laterally to bring the right kidney into view. This action specifically highlights the interface between the liver and the kidney (Morison's pouch), which is a classic technique for identifying free fluid or examining the relationship between these two organs. The movement is deliberate to transition from one organ (liver) to the adjacent organ (kidney) to visualize their interface.",
+      "latency_ms": 6426.530122756958,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.530000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization change is demonstrated, and why does it help?\nA) Changing to an intercostal acoustic window to shorten the imaging path and improve near-field visualization\nB) Increasing the transducer frequency to improve spatial resolution of superficial structures\nC) Moving the focal zone to the level of the target to improve lateral resolution at the area of interest\nD) Reducing imaging depth and narrowing the field of view to increase frame rate and improve image detail",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Using the intercostal window, the operator assesses superficial liver parenchyma and notes that anatomy previously in the far field on subcostal scanning is now visualized in the near field.",
+    "time_start": 5.64,
+    "time_end": 13.35,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nThe video demonstrates reducing the imaging depth and narrowing the field of view. Initially, the image depth is set very deep, making the structures of interest (liver and kidney) appear small and distant with poor detail. As the clip progresses, the depth is decreased, bringing the liver and kidney interface (Morison's pouch) into a larger, more central view. This optimization improves spatial resolution and allows for better visualization of the anatomical structures.",
+      "latency_ms": 7755.306005477905,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.71,
+    "keep": true
+  }
+]

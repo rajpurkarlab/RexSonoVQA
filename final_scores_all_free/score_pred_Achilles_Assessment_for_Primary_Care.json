@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial step of the exam is being performed at the distal end of the target structure, and what broader workflow objective does it serve before moving on to the rest of the scan?",
+    "answer": "The operator is starting at the distal attachment region to identify the bony insertion and confirm they are at the correct starting landmark. This establishes orientation and a reliable reference point before surveying along the structure.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is placed at the posterior heel to clearly visualize the calcaneus and identify the Achilles tendon insertion point, using the bony interface as the initial landmark for the exam.",
+    "time_start": 0.44,
+    "time_end": 14.12,
+    "model_prediction": "Based on the video, the clinician is identifying the distal attachment of the Achilles tendon at the calcaneus (heel bone). This initial step serves the broader workflow objective of establishing a landmark to anchor the scan before tracking the tendon proximally to evaluate its entire length and the musculotendinous junction.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is identifying the distal attachment of the Achilles tendon at the calcaneus (heel bone). This initial step serves the broader workflow objective of establishing a landmark to anchor the scan before tracking the tendon proximally to evaluate its entire length and the musculotendinous junction.",
+      "latency_ms": 8144.5019245147705,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.68,
+    "judge_explanation": "The AI correctly identifies the initial step (identifying the distal attachment/bony insertion) and the broader workflow objective (establishing a landmark/orientation before scanning proximally). The AI provides specific anatomical context (Achilles tendon/calcaneus) which aligns with the general description in the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging plane is being maintained, and what assessment goal does this support?",
+    "answer": "A long-axis (longitudinal) view is maintained. This supports evaluating the typical fibrillar/striated tendon appearance and surveying fiber continuity along the length.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is kept in long-axis over the tendon to observe the characteristic striations of tendon fibers across the image.",
+    "time_start": 14.14,
+    "time_end": 20.44,
+    "model_prediction": "Based on the video, the probe is maintaining a **longitudinal (long-axis)** imaging plane. This orientation allows for the visualization of muscle fibers and tendon structures running parallel to the screen, supporting the assessment of **tendon or muscle integrity** and continuity over a bony surface.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is maintaining a **longitudinal (long-axis)** imaging plane. This orientation allows for the visualization of muscle fibers and tendon structures running parallel to the screen, supporting the assessment of **tendon or muscle integrity** and continuity over a bony surface.",
+      "latency_ms": 6179.420948028564,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.300000000000001,
+    "judge_explanation": "The AI correctly identifies the imaging plane as longitudinal (long-axis) and accurately describes the assessment goal (evaluating integrity and continuity of tendon/muscle structures), which aligns well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what deliberate probe-angle change is performed, and what imaging artifact is it intended to demonstrate?",
+    "answer": "The operator tilts/angles the probe so the beam is no longer perpendicular to the fibers. This is done to demonstrate anisotropy, where the tendon can appear falsely darker due to insonation angle.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The probe is angled slightly off perpendicular to the tendon fibers to intentionally create anisotropy, producing an artifactual hypoechoic appearance.",
+    "time_start": 21.38,
+    "time_end": 36.19,
+    "model_prediction": "Based on the video, the probe angle is deliberately changed (toggled or \"rocked\" back and forth) to change the angle of insonation relative to the tendon fibers. This maneuver is intended to demonstrate the **anisotropy** artifact.\n\nAnisotropy occurs when the ultrasound beam is not perpendicular to the tendon fibers, causing the normally hyperechoic (bright) tendon to appear hypoechoic (dark), which can mimic pathology like a tear or tendinosis. By rocking the probe, the operator confirms the structure is intact as it brightens when the beam is perpendicular (90 degrees) to the fibers.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe angle is deliberately changed (toggled or \"rocked\" back and forth) to change the angle of insonation relative to the tendon fibers. This maneuver is intended to demonstrate the **anisotropy** artifact.\n\nAnisotropy occurs when the ultrasound beam is not perpendicular to the tendon fibers, causing the normally hyperechoic (bright) tendon to appear hypoechoic (dark), which can mimic pathology like a tear or tendinosis. By rocking the probe, the operator confirms the structure is intact as it brightens when the beam is perpendicular (90 degrees) to the fibers.",
+      "latency_ms": 8238.291025161743,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 14.809999999999999,
+    "judge_explanation": "The AI correctly identifies the probe maneuver (changing angle/rocking) and the specific artifact (anisotropy) being demonstrated, matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what concept is being demonstrated by making the target look abnormal and then immediately normal again, and how does that sequence guide interpretation?",
+    "answer": "The sequence demonstrates anisotropy: changing insonation angle can make a normal tendon look pathologically dark. Restoring a perpendicular angle makes the dark area resolve, supporting that it was an artifact rather than a true defect.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first induces anisotropy by angling the probe, then corrects it with a heel-toe maneuver to show the hypoechoic change resolves when perpendicular, confirming artifact rather than pathology.",
+    "time_start": 21.38,
+    "time_end": 47.43,
+    "model_prediction": "Based on the visual evidence, the concept being demonstrated is **anisotropy**.\n\nThe video shows an ultrasound probe scanning a tendon (likely the distal biceps or a rotator cuff tendon) where the structure initially appears hypoechoic (darker) and indistinct. As the operator tilts or \"toggles\" the probe angle relative to the fibers, the tendon immediately brightens and becomes hyperechoic (normal appearance).\n\nThis sequence guides interpretation by confirming that the initial dark appearance was an artifact caused by the angle of insonation not being perpendicular to the tendon fibers, rather than true pathology like tendinosis or a tear (which would remain hypoechoic regardless of the angle). The dynamic maneuver proves the structure is healthy.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the concept being demonstrated is **anisotropy**.\n\nThe video shows an ultrasound probe scanning a tendon (likely the distal biceps or a rotator cuff tendon) where the structure initially appears hypoechoic (darker) and indistinct. As the operator tilts or \"toggles\" the probe angle relative to the fibers, the tendon immediately brightens and becomes hyperechoic (normal appearance).\n\nThis sequence guides interpretation by confirming that the initial dark appearance was an artifact caused by the angle of insonation not being perpendicular to the tendon fibers, rather than true pathology like tendinosis or a tear (which would remain hypoechoic regardless of the angle). The dynamic maneuver proves the structure is healthy.",
+      "latency_ms": 7991.8811321258545,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 26.05,
+    "judge_explanation": "The AI correctly identifies the concept as anisotropy. It accurately describes the visual evidence (tendon changing from dark to bright upon tilting the probe) and correctly explains how this sequence guides interpretation by distinguishing artifact from true pathology.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is used to survey beyond the initial landmark, and what is the overall acquisition goal?",
+    "answer": "The probe is slid proximally along the limb while keeping the target centered. The goal is to visualize the full longitudinal extent of the tendon.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides the probe proximally in long-axis to visualize the full length of the Achilles tendon, keeping it centered in the image.",
+    "time_start": 49.1,
+    "time_end": 63.63,
+    "model_prediction": "Based on the video clip, the probe motion used is a **slide** (specifically sliding superiorly or proximally), and the overall acquisition goal is to perform a **long-axis survey of the distal biceps tendon**.\n\n**Explanation:**\n1.  **Initial Landmark:** The video begins with a view of the radial tuberosity, recognizable as the bony prominence where the distal biceps tendon inserts. The hyperechoic bone surface is clearly visible at the bottom of the screen.\n2.  **Probe Motion:** The operator slides the probe along the long axis of the arm, moving away from the insertion point on the radius and traveling up the arm. This is a sliding motion designed to follow a structure along its length.\n3.  **Acquisition Goal:** As the probe slides, you can see the fibrillar pattern of the distal biceps tendon and then the muscle belly appearing. The scan tracks the tendon from its distal attachment back towards the musculotendinous junction, consistent with a survey to evaluate the integrity and continuity of the distal biceps tendon.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe motion used is a **slide** (specifically sliding superiorly or proximally), and the overall acquisition goal is to perform a **long-axis survey of the distal biceps tendon**.\n\n**Explanation:**\n1.  **Initial Landmark:** The video begins with a view of the radial tuberosity, recognizable as the bony prominence where the distal biceps tendon inserts. The hyperechoic bone surface is clearly visible at the bottom of the screen.\n2.  **Probe Motion:** The operator slides the probe along the long axis of the arm, moving away from the insertion point on the radius and traveling up the arm. This is a sliding motion designed to follow a structure along its length.\n3.  **Acquisition Goal:** As the probe slides, you can see the fibrillar pattern of the distal biceps tendon and then the muscle belly appearing. The scan tracks the tendon from its distal attachment back towards the musculotendinous junction, consistent with a survey to evaluate the integrity and continuity of the distal biceps tendon.",
+      "latency_ms": 7748.931169509888,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 14.530000000000001,
+    "judge_explanation": "The AI correctly identifies the probe motion as a proximal slide and accurately states the acquisition goal is to survey the long axis of the tendon (specifically identifying it as the distal biceps tendon, which aligns with the context of the motion described).",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the workflow is occurring as the operator transitions away from the broad survey, and what is the next immediate objective?",
+    "answer": "They are transitioning from qualitative survey imaging to quantitative assessment. The next objective is to measure tendon thickness in an optimized, stable view.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After surveying proximally and inspecting the tendon for disruption, the operator prepares to perform a quantitative assessment of Achilles tendon thickness.",
+    "time_start": 49.1,
+    "time_end": 82.71,
+    "model_prediction": "Based on the video clip, the operator is in the **pre-scanning or \"scout scan\" phase** where they are performing a long-axis slide along the limb. The transition away from the initial broad survey of the bone surface to following the muscle bellies indicates the immediate objective is to **locate and identify specific muscle groups or fascicles** within the limb compartment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is in the **pre-scanning or \"scout scan\" phase** where they are performing a long-axis slide along the limb. The transition away from the initial broad survey of the bone surface to following the muscle bellies indicates the immediate objective is to **locate and identify specific muscle groups or fascicles** within the limb compartment.",
+      "latency_ms": 13498.625040054321,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 33.60999999999999,
+    "judge_explanation": "The AI prediction fails to identify the correct phase and objective. The ground truth specifies a transition to quantitative assessment to measure tendon thickness. The AI incorrectly identifies the objective as locating muscle groups/fascicles during a scout scan. The anatomical target (tendon vs muscle) and the procedural goal (measurement vs identification) are both incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what optimization changes are made immediately before measuring, and why do they improve measurement reliability?",
+    "answer": "Depth is reduced to prioritize the region of interest, and the image is frozen before calipers are placed. This improves spatial resolution on the structure and prevents motion from affecting caliper placement.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator decreases depth, freezes the image, and uses calipers to measure, optimizing resolution and stability for an accurate thickness measurement.",
+    "time_start": 83.13,
+    "time_end": 93.94,
+    "model_prediction": "Based on the video, the user decreases the depth setting immediately before measuring. This optimizes the image by removing unused space at the bottom of the screen and magnifying the structure of interest, which allows for more precise placement of the measurement calipers.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the user decreases the depth setting immediately before measuring. This optimizes the image by removing unused space at the bottom of the screen and magnifying the structure of interest, which allows for more precise placement of the measurement calipers.",
+      "latency_ms": 7232.367992401123,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 10.810000000000002,
+    "judge_explanation": "The AI correctly identifies the reduction in depth and explains why it improves measurement (magnification/resolution). However, it fails to mention that the image is frozen before calipers are placed, which is a key part of the ground truth regarding optimization and preventing motion artifacts.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, after obtaining a thickness measurement, what validation step is suggested, and what is the rationale?",
+    "answer": "The measurement is compared with the contralateral (unaffected) side if available. This provides a patient-specific baseline to help judge whether the measured thickness is normal.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator records the tendon thickness measurement and recommends comparing it with the contralateral side to confirm normality using a patient-specific baseline.",
+    "time_start": 96.93,
+    "time_end": 113.4,
+    "model_prediction": "Based on the video, after obtaining a thickness measurement with the calipers, the suggested validation step is to gently rock or tilt the ultrasound probe back and forth. This maneuver helps to confirm that the ultrasound beam is perpendicular to the muscle fibers, ensuring the most accurate and true thickness measurement by visualizing the clearest fascial borders.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after obtaining a thickness measurement with the calipers, the suggested validation step is to gently rock or tilt the ultrasound probe back and forth. This maneuver helps to confirm that the ultrasound beam is perpendicular to the muscle fibers, ensuring the most accurate and true thickness measurement by visualizing the clearest fascial borders.",
+      "latency_ms": 5517.9150104522705,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.47,
+    "judge_explanation": "The AI suggests rocking the probe to ensure perpendicularity, whereas the ground truth states the validation step is comparing the measurement with the contralateral side to establish a baseline. The AI's answer is completely different from the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what positioning adjustment is made after switching imaging planes, and how does it improve the evaluation?",
+    "answer": "The target is centered in the field of view before scanning continues. Centering improves consistent visualization across the structure and reduces the chance of missing peripheral portions during the sweep.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After rotating to transverse, the operator centers the Achilles tendon in the image and resumes scanning for a consistent cross-sectional assessment.",
+    "time_start": 128.84,
+    "time_end": 135.83,
+    "model_prediction": "Based on the video, the probe is initially oriented in a longitudinal plane along the nail bed. It is then rotated 90 degrees into a transverse (short-axis) plane. While in this transverse view, the operator fans or tilts the probe distally to scan through the nail matrix and nail plate, providing a cross-sectional view that allows for better assessment of the nail unit's convexity and the relationship between the nail plate and the underlying nail bed.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is initially oriented in a longitudinal plane along the nail bed. It is then rotated 90 degrees into a transverse (short-axis) plane. While in this transverse view, the operator fans or tilts the probe distally to scan through the nail matrix and nail plate, providing a cross-sectional view that allows for better assessment of the nail unit's convexity and the relationship between the nail plate and the underlying nail bed.",
+      "latency_ms": 6430.861234664917,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.990000000000009,
+    "judge_explanation": "The AI fails to identify the specific positioning adjustment mentioned in the ground truth. The ground truth states the target is 'centered' in the field of view to ensure consistent visualization and avoid missing peripheral portions. The AI incorrectly describes 'fanning or tilting' and discusses the benefits of the cross-sectional view rather than the benefits of centering.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, during the transverse portion of the exam, what is the screening objective as the operator sweeps through and then continues proximally, and what anatomical transition marks completion of this segment?",
+    "answer": "The objective is to screen the tendon cross-section for focal defects, fluid, or complete disruption while following it proximally. This segment is completed as the tendon morphology changes and it transitions into muscle.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "In transverse view, the operator evaluates the tendon’s internal echotexture and scans through its cross-section to screen for anechoic areas or disruptions, then slides proximally to observe the tendon flatten and transition into muscle.",
+    "time_start": 137.01,
+    "time_end": 161.82,
+    "model_prediction": "Based on the video clip, the screening objective during the transverse sweep is to visualize the **flexor tendons** (specifically within the carpal tunnel) as the probe moves from a distal position at the wrist proximally into the distal forearm. The anatomical transition that marks the completion of this segment is the transition from the distinct, bundled tendons within the carpal tunnel to the **musculotendinous junction** in the distal forearm, where the hyperechoic tendon fibers merge into the hypoechoic muscle bellies of the flexor group.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the screening objective during the transverse sweep is to visualize the **flexor tendons** (specifically within the carpal tunnel) as the probe moves from a distal position at the wrist proximally into the distal forearm. The anatomical transition that marks the completion of this segment is the transition from the distinct, bundled tendons within the carpal tunnel to the **musculotendinous junction** in the distal forearm, where the hyperechoic tendon fibers merge into the hypoechoic muscle bellies of the flexor group.",
+      "latency_ms": 7553.873062133789,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 24.810000000000002,
+    "judge_explanation": "The AI correctly identifies the anatomical transition (tendon transitioning into muscle) that marks the completion of the segment. However, it fails to correctly state the specific screening objective provided in the ground truth (screening for focal defects, fluid, or complete disruption), instead providing a generic goal of visualizing the anatomy. Additionally, the AI specifies 'flexor tendons' while the ground truth refers to 'the tendon' (singular), suggesting a potential anatomical mismatch.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  }
+]

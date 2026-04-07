@@ -1,0 +1,98 @@
+[
+  {
+    "start": 0.15,
+    "end": 3.51,
+    "action": "Place scanner in the sagittal plane.",
+    "interpretation": "Establish the initial scanning plane."
+  },
+  {
+    "start": 5.75,
+    "end": 12.12,
+    "action": "Scan inferiorly through the pelvis. Evaluate the bladder volume.",
+    "interpretation": "Note that the bladder is not full. Visualize the vagina and cervix despite the limited acoustic window."
+  },
+  {
+    "start": 13.44,
+    "end": 18.2,
+    "action": "Orient the probe midline on the uterus.",
+    "interpretation": "Confirm the pregnancy is intrauterine."
+  },
+  {
+    "start": 18.76,
+    "end": 24.05,
+    "action": "Scan back and forth through the uterus.",
+    "interpretation": "Obtain an overall view of the uterine structure."
+  },
+  {
+    "start": 25.62,
+    "end": 31.0,
+    "action": "Continue sweeping the uterus.",
+    "interpretation": "Establish the presence of a single pregnancy and only one fetus."
+  },
+  {
+    "start": 36.29,
+    "end": 40.35,
+    "action": "Rotate the scanner 90 degrees.",
+    "interpretation": "Transition to the transverse plane."
+  },
+  {
+    "start": 40.39,
+    "end": 45.29,
+    "action": "Scan low in the pelvis. Position the probe just behind the pubic bone.",
+    "interpretation": "Identify the bladder located posterior to the pubic bone."
+  },
+  {
+    "start": 45.35,
+    "end": 49.17,
+    "action": "Slowly scan (slide) superiorly.",
+    "interpretation": "Move the field of view up from the bladder."
+  },
+  {
+    "start": 50.57,
+    "end": 55.02,
+    "action": "Direct the beam towards the right adnexa.",
+    "interpretation": "Visualize the right ovary. Identify a possible corpus luteum cyst."
+  },
+  {
+    "start": 56.62,
+    "end": 63.19,
+    "action": "Scan superiorly through the extent of the pelvis.",
+    "interpretation": "Confirm definitively that there is only one baby present."
+  },
+  {
+    "start": 65.83,
+    "end": 70.05,
+    "action": "Focus on the contents of the gestational sac. Zoom the image.",
+    "interpretation": "Optimize resolution to inspect the sac contents."
+  },
+  {
+    "start": 74.3,
+    "end": 77.0,
+    "action": "Observe the echogenicity within the sac.",
+    "interpretation": "Identify the black anechoic area as the fluid surrounding the baby."
+  },
+  {
+    "start": 79.33,
+    "end": 86.99,
+    "action": "Visualize the fetal pole.",
+    "interpretation": "Identify the embryo, distinguishing the head end and the rump end."
+  },
+  {
+    "start": 87.64,
+    "end": 90.8,
+    "action": "Assess the fetus for motion.",
+    "interpretation": "Visualize fetal cardiac activity."
+  },
+  {
+    "start": 91.34,
+    "end": 101.88,
+    "action": "Scan (sweep) through the gestational sac.",
+    "interpretation": "Visualize a tiny yolk sac. Confirm appearance is normal for this stage of pregnancy."
+  },
+  {
+    "start": 107.42,
+    "end": 113.28,
+    "action": "Inspect the sac for the amnion membrane.",
+    "interpretation": "Assess for the amnion, noting that it may not be visible if fused at this point."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what patient-related maneuver is being used, and why does it improve the view without moving the probe much?",
+    "answer": "The patient performs a deep inspiration/brief breath-hold while the operator maintains probe position. This shifts the kidney inferiorly into a better acoustic window, helping it clear the diaphragm and reducing interference from overlying bowel gas.",
+    "groundtruth": "The patient is prompted to take a deep breath and hold while the probe is kept in place, using inspiration to move the kidney inferiorly below the diaphragm and reduce obscuration from bowel gas.",
+    "time_start": 8.5,
+    "time_end": 16.3,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 8.5,
+    "time_end_extended": 16.3,
+    "original_time_start": 8.5,
+    "original_time_end": 16.3,
+    "model_prediction": "The patient is performing **deep inspiration** (taking a deep breath in). This maneuver causes the diaphragm to descend, which pushes the kidney inferiorly, moving it out from behind the rib cage (eliminating acoustic shadowing) and bringing it into a better acoustic window provided by the liver or spleen.",
+    "inference_metadata": {
+      "raw_response": "The patient is performing **deep inspiration** (taking a deep breath in). This maneuver causes the diaphragm to descend, which pushes the kidney inferiorly, moving it out from behind the rib cage (eliminating acoustic shadowing) and bringing it into a better acoustic window provided by the liver or spleen.",
+      "latency_ms": 27664.710760116577,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is being performed through the organ, and what is the scanning goal of that motion?",
+    "answer": "A complete longitudinal (sagittal) sweep/fan is performed from the near (anterior) margin through to the far (posterior) margin. The goal is to visualize the entire parenchyma front-to-back so no region is missed.",
+    "groundtruth": "The operator performs a full sagittal sweep, fanning/sliding from the anterior cortex through to the posterior cortex to ensure complete longitudinal visualization of the renal parenchyma.",
+    "time_start": 17.08,
+    "time_end": 25.57,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 17.08,
+    "time_end_extended": 25.57,
+    "original_time_start": 17.08,
+    "original_time_end": 25.57,
+    "model_prediction": "The video displays a longitudinal ultrasound scan of a kidney. The probe motion involves sweeping along the long axis of the organ. The goal of this motion is to visualize the entire kidney from the superior to the inferior pole, allowing for the assessment of renal length, parenchymal thickness, and the central echogenic sinus complex.",
+    "inference_metadata": {
+      "raw_response": "The video displays a longitudinal ultrasound scan of a kidney. The probe motion involves sweeping along the long axis of the organ. The goal of this motion is to visualize the entire kidney from the superior to the inferior pole, allowing for the assessment of renal length, parenchymal thickness, and the central echogenic sinus complex.",
+      "latency_ms": 21279.585123062134,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what fine probe adjustments are being made at the end of the scan, and what is the purpose of these adjustments?",
+    "answer": "The operator makes small dynamic probe position/angle changes (e.g., subtle sliding/tilting/rocking) to refine the view. The purpose is to achieve a clear, high-quality image of all renal structures while minimizing artifacts.",
+    "groundtruth": "The probe is manipulated dynamically to optimize image quality and obtain clear views of renal structures without artifacts.",
+    "time_start": 47.92,
+    "time_end": 53.62,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 47.92,
+    "time_end_extended": 53.62,
+    "original_time_start": 47.92,
+    "original_time_end": 53.62,
+    "model_prediction": "At the end of the scan, the probe is being **rocked or fanned slightly** (small tilting movements from side to side).\n\nThe purpose of these fine adjustments is to **sweep through adjacent tissue planes** to ensure a comprehensive survey of the anatomical region and to **optimize the angle of insonation**, which improves the reflection of sound waves off tissue interfaces for clearer visualization of structures and boundaries.",
+    "inference_metadata": {
+      "raw_response": "At the end of the scan, the probe is being **rocked or fanned slightly** (small tilting movements from side to side).\n\nThe purpose of these fine adjustments is to **sweep through adjacent tissue planes** to ensure a comprehensive survey of the anatomical region and to **optimize the angle of insonation**, which improves the reflection of sound waves off tissue interfaces for clearer visualization of structures and boundaries.",
+      "latency_ms": 22759.805917739868,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, what stage of the exam workflow is shown here, and what is the next scanning step once the view is optimized?",
+    "answer": "This is the setup/optimization phase: the probe is positioned on the left flank and the scan is timed with inspiration to improve the acoustic window. Once optimized, the next step is a systematic sweep through the organ to document complete coverage.",
+    "groundtruth": "The operator establishes an oblique intercostal window on the left flank and uses a breath-hold to shift the kidney into a better window, setting up for a complete diagnostic sweep.",
+    "time_start": 0.03,
+    "time_end": 16.3,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 0.03,
+    "time_end_extended": 16.3,
+    "original_time_start": 0.03,
+    "original_time_end": 16.3,
+    "model_prediction": "The video shows the **optimization of the longitudinal (long-axis) view of the kidney**. The sonographer adjusts the probe to clearly visualize the renal cortex and central sinus complex from pole to pole.\n\nOnce this view is optimized, the next scanning step is to **rotate the transducer 90 degrees to obtain the transverse (short-axis) view** of the kidney.",
+    "inference_metadata": {
+      "raw_response": "The video shows the **optimization of the longitudinal (long-axis) view of the kidney**. The sonographer adjusts the probe to clearly visualize the renal cortex and central sinus complex from pole to pole.\n\nOnce this view is optimized, the next scanning step is to **rotate the transducer 90 degrees to obtain the transverse (short-axis) view** of the kidney.",
+      "latency_ms": 22455.439805984497,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on this longer segment, what overall scanning strategy is being executed across the clip, and what endpoint indicates this segment is complete?",
+    "answer": "The operator performs a complete survey by sweeping the kidney in two orthogonal planes and then adjusts to alternative windows to ensure all regions are clearly seen. The segment is complete when the entire kidney—including both ends—is documented with a clear, artifact-minimized view.",
+    "groundtruth": "A full sagittal sweep is performed, the probe is rotated to transverse, a complete transverse sweep is completed, and then the operator adjusts to different windows and fine-tunes probe position to overcome rib shadowing and obtain clear views of all renal structures.",
+    "time_start": 17.08,
+    "time_end": 53.62,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 17.08,
+    "time_end_extended": 53.62,
+    "original_time_start": 17.08,
+    "original_time_end": 53.62,
+    "model_prediction": "Answer: The scanning strategy involves obtaining a **longitudinal view of the kidney** (likely assessing for hydronephrosis or parenchymal thickness) and holding it steady for several seconds. The segment is considered complete when the sonographer **sweeps the probe laterally/anteriorly, causing the kidney to pass out of the field of view**, leaving only non-specific soft tissue or bowel artifacts on the screen.",
+    "inference_metadata": {
+      "raw_response": "Answer: The scanning strategy involves obtaining a **longitudinal view of the kidney** (likely assessing for hydronephrosis or parenchymal thickness) and holding it steady for several seconds. The segment is considered complete when the sonographer **sweeps the probe laterally/anteriorly, causing the kidney to pass out of the field of view**, leaving only non-specific soft tissue or bowel artifacts on the screen.",
+      "latency_ms": 25732.353925704956,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

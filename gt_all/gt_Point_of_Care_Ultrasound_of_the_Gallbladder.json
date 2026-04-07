@@ -1,0 +1,86 @@
+[
+  {
+    "start": 0.03,
+    "end": 3.49,
+    "action": "Point the probe slightly towards the patient's head.",
+    "interpretation": "Orient the beam cephalad."
+  },
+  {
+    "start": 4.15,
+    "end": 10.18,
+    "action": "Adjust depth while scanning.",
+    "interpretation": "Visualize the gallbladder as a very superficial structure."
+  },
+  {
+    "start": 11.24,
+    "end": 20.85,
+    "action": "Identify the gallbladder. Fan and rock the probe back and forth to center the structure and scan along its entire length.",
+    "interpretation": "Visualize the gallbladder right in the middle of the screen."
+  },
+  {
+    "start": 22.01,
+    "end": 26.03,
+    "action": "Turn the probe.",
+    "interpretation": "Acquire a cross-sectional view of the gallbladder."
+  },
+  {
+    "start": 26.05,
+    "end": 31.52,
+    "action": "Rotate the probe 90 degrees. Direct the marker away from the patient's chin.",
+    "interpretation": "Re-orient the probe axis."
+  },
+  {
+    "start": 32.12,
+    "end": 37.67,
+    "action": "Point the marker towards the three o'clock position.",
+    "interpretation": "Visualize a different section of the gallbladder in short axis."
+  },
+  {
+    "start": 38.67,
+    "end": 48.86,
+    "action": "Assess image quality. If visualization is difficult, confirm if patient has eaten in the last two hours. If necessary, wait longer before examining.",
+    "interpretation": "Recognize potential gallbladder contraction due to recent food intake."
+  },
+  {
+    "start": 50.0,
+    "end": 55.28,
+    "action": "Prepare to perform an inspiratory hold maneuver for better visualization.",
+    "interpretation": "Troubleshoot difficulty viewing the gallbladder."
+  },
+  {
+    "start": 55.34,
+    "end": 56.94,
+    "action": "Instruct patient: 'Go ahead and inhale and hold it.'",
+    "interpretation": "Initiate patient inspiratory hold."
+  },
+  {
+    "start": 58.51,
+    "end": 63.17,
+    "action": "Scan while patient holds breath.",
+    "interpretation": "Observe the gallbladder coming into view as it is pushed down more into the abdominal cavity."
+  },
+  {
+    "start": 63.23,
+    "end": 64.13,
+    "action": "Instruct patient: 'Go ahead and breathe out.'",
+    "interpretation": "Resume normal respiration."
+  },
+  {
+    "start": 66.49,
+    "end": 74.68,
+    "action": "Check probe angle. Ensure the probe is not pointing too perpendicular to the skin.",
+    "interpretation": "Visualize the beam trajectory."
+  },
+  {
+    "start": 74.72,
+    "end": 80.73,
+    "action": "Adjust probe angle to aim cephalad.",
+    "interpretation": "Note that a perpendicular angle may miss the gallbladder, which sits higher in the abdominal cavity."
+  },
+  {
+    "start": 81.19,
+    "end": 83.87,
+    "action": "Drop the tail of the probe while scanning.",
+    "interpretation": "Angle the beam upwards to capture the superior structure."
+  }
+]

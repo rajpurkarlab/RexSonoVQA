@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what transition is the operator trying to capture during the continued proximal scan, and why is this step important before assessing the attachment region?",
+    "answer": "They continue scanning proximally to document the transition from muscle belly into a tendinous structure. This confirms they are following the correct structure to its proximal attachment before focusing on detailed insertion assessment.",
+    "groundtruth": "The operator continues proximally until the rectus femoris transition from muscle belly to tendon is complete, using this to confirm correct tracking of the structure before focusing on the proximal attachment.",
+    "time_start": 27.24,
+    "time_end": 33.36,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing while holding the probe position near the proximal end, and what is the goal of pausing here?",
+    "answer": "They hold the probe steady at the proximal attachment region to identify adjacent bony/joint landmarks. The goal is to confirm the correct location and orientation before focusing on the tendon\u2019s insertion site.",
+    "groundtruth": "The operator holds at the proximal attachment to visualize surrounding bony landmarks, including the hip joint/femoral head region, confirming the rectus femoris lies adjacent and inserts onto the AIIS.",
+    "time_start": 33.78,
+    "time_end": 47.35,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what brief verification is being performed before moving on, and why does it matter for accurate interpretation?",
+    "answer": "They verify that the echogenic structure being highlighted is truly the target tendon. This reduces the chance of mislabeling adjacent echogenic tissues as tendon before proceeding with detailed assessment.",
+    "groundtruth": "The operator confirms that the hyperechoic tissue visualized at the attachment region corresponds to the rectus femoris tendon.",
+    "time_start": 63.35,
+    "time_end": 66.25,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what clinical integrity check is being performed on the tendon here, and what major injury pattern is being screened for?",
+    "answer": "They are inspecting tendon continuity and internal appearance for integrity. The screening focus is for changes consistent with tearing, including an avulsion-type injury at the attachment.",
+    "groundtruth": "The operator inspects the direct tendon for structural integrity, looking for tendinous changes and specifically checking for signs of avulsion.",
+    "time_start": 79.96,
+    "time_end": 90.31,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what tissue-quality assessment is being performed on the tendon, and what two broad categories of pathology are being evaluated?",
+    "answer": "They assess tendon echotexture for degeneration and focal defects. The main categories being evaluated are tendinopathy and partial-thickness tearing.",
+    "groundtruth": "The operator evaluates tendon echotexture for increased hyperechogenicity suggesting tendinopathy and looks for anechoic zones within the tendon consistent with partial tearing.",
+    "time_start": 103.03,
+    "time_end": 116.72,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow decision is being made about what can and cannot be evaluated in the current view, and what is the intended next strategy?",
+    "answer": "They document that one tendon component is visible while another is not in this view, attributing the limitation to the current insonation angle. The plan is to change position/approach to try to visualize the non-seen component.",
+    "groundtruth": "The operator differentiates that the direct tendon is visible while the indirect tendon is not, attributes this to anisotropy from oblique insonation, and notes the need to change scanning position to visualize the indirect tendon.",
+    "time_start": 117.96,
+    "time_end": 134.61,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is performed during this segment and what is the objective of scanning in this direction?",
+    "answer": "They return to a standard transverse view and slide distally along the limb while keeping the target muscle identified. The objective is to re-establish the muscle belly and follow it toward the distal thigh/knee level.",
+    "groundtruth": "The operator re-identifies the quadriceps/rectus femoris in a standard transverse view and scans distally, following the rectus femoris down toward knee level.",
+    "time_start": 136.87,
+    "time_end": 155.66,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

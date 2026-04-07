@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing at the very beginning, and what is the immediate objective?\nA. Selecting the appropriate ultrasound preset and adjusting depth/gain to optimize image quality before scanning.\nB. Applying graded compression to displace bowel gas and improve visualization of deeper structures.\nC. Activating color Doppler to assess flow and distinguish vascular structures from adjacent anatomy.\nD. Positioning the probe to begin imaging the target organ",
+    "answer": "D",
+    "groundtruth": "The operator places the probe on the right flank to initiate scanning of the right flank region and begin the right kidney exam.",
+    "time_start": 0.03,
+    "time_end": 1.85,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which workflow step is being performed to establish the main baseline view for the exam?\nA. Initial probe placement followed by small repositioning to obtain a long-axis (sagittal) view of the target organ\nB. Rotate the probe approximately 90\u00b0 to obtain the orthogonal short-axis (transverse) view of the target organ.\nC. Apply color Doppler to confirm vascular anatomy and differentiate adjacent vessels before proceeding with measurements.\nD. Perform a systematic sweep through the organ in the current plane to assess the full extent of parenchyma.",
+    "answer": "A",
+    "groundtruth": "The probe is first placed on the right flank, then slid slightly posteriorly and oriented to obtain a sagittal view to visualize the right kidney in long axis.",
+    "time_start": 0.03,
+    "time_end": 9.23,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what patient-related optimization is being used, and why?\nA. Deep inspiration/breath-hold to shift anatomy and improve the acoustic window\nB. Valsalva maneuver to increase venous filling and make venous flow easier to assess\nC. End-expiratory breath-hold to minimize diaphragmatic motion and reduce image blur\nD. Left lateral decubitus positioning to bring the target structure closer to the transducer and improve the window",
+    "answer": "A",
+    "groundtruth": "With the probe held in position, the patient performs a deep inspiration so the right kidney descends and the image becomes clearer due to improved displacement/window.",
+    "time_start": 9.26,
+    "time_end": 23.0,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what change in breathing management is being performed, and what is the purpose?\nA. Ending a breath-hold so the patient can resume normal breathing and relax\nB. Switching to an end-expiratory breath-hold to minimize motion and maintain consistent organ position for measurement.\nC. Initiating a deep-inspiration breath-hold to drop the diaphragm and improve the acoustic window.\nD. Asking the patient to perform a Valsalva maneuver to transiently increase venous filling and accentuate venous structures.",
+    "answer": "A",
+    "groundtruth": "The patient is allowed to resume breathing after a breath-hold segment to relax before continuing the exam.",
+    "time_start": 34.49,
+    "time_end": 34.93,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe strategy is being used to improve image quality, and what is the goal?\nA. Switching to a lower-frequency curvilinear transducer to improve penetration and visualization of deeper structures.\nB. Applying gentle graded compression with the probe to displace bowel gas and improve delineation of the target.\nC. Rocking/tilting the probe to bring the region of interest into the center of the beam and reduce shadowing artifact.\nD. Repositioning to use an adjacent organ as an acoustic window to clarify the target",
+    "answer": "D",
+    "groundtruth": "The operator maneuvers the probe to use the liver as an acoustic window in order to obtain a clearer image of the adjacent right kidney.",
+    "time_start": 49.8,
+    "time_end": 57.59,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver changes the imaging plane, and what is the goal?\nA. Rocking the probe (heel-toe) to optimize insonation angle without changing long vs short axis, to sharpen borders and reduce anisotropy.\nB. Sliding the probe (translating) to re-center the anatomy in the field of view, to keep the target in the midline for measurement or needle guidance.\nC. Rotating the probe 90\u00b0 to convert from long-axis (sagittal) to short-axis (transverse) imaging\nD. Fanning (tilting) the probe to sweep through the target while staying in the same plane, to identify the structure along its course.",
+    "answer": "C",
+    "groundtruth": "The probe is rotated 90 degrees to convert the kidney view from sagittal (long axis) to transverse (short axis).",
+    "time_start": 67.9,
+    "time_end": 74.26,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what broader workflow transition is occurring across this segment?\nA. Completing the current view and then moving the probe to a new anatomic region to begin a separate scanning window\nB. Repositioning the patient and then optimizing the probe window to regain a complete diagnostic view\nC. Transitioning from image acquisition to documentation by freezing and saving a representative still/cine loop for later review\nD. Shifting from B\u2011mode survey to targeted Doppler interrogation of flow after identifying the structure of interest",
+    "answer": "B",
+    "groundtruth": "The patient is rolled onto their side and the probe position is adjusted, then the operator maneuvers to use the liver as an acoustic window to obtain a clearer, more complete view of the right kidney.",
+    "time_start": 35.75,
+    "time_end": 57.59,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

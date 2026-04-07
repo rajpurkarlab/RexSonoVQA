@@ -1,0 +1,163 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning/motion is being used to bring the target organ into view, and what view orientation is the operator trying to establish?",
+    "answer": "The probe is moved more posteriorly and aligned to obtain a long/coronal (long-axis) view of the retroperitoneal target. The goal is a clean long-axis image of the organ for systematic assessment.",
+    "groundtruth": "The probe is moved posteriorly to target the retroperitoneal space and oriented to obtain a long/coronal view of the right kidney in long axis.",
+    "time_start": 5.48,
+    "time_end": 21.13,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 5.48,
+    "time_end_extended": 21.13,
+    "original_time_start": 5.48,
+    "original_time_end": 21.13,
+    "model_prediction": "The operator is using a curvilinear probe placed in the flank region, employing a sweeping and angling (fanning) motion to align the ultrasound beam with the long axis of the kidney. The intended view orientation is a **longitudinal view** of the kidney, evidenced by the visualization of the characteristic bean-shaped renal parenchyma surrounding the central hyperechoic renal sinus.",
+    "inference_metadata": {
+      "raw_response": "The operator is using a curvilinear probe placed in the flank region, employing a sweeping and angling (fanning) motion to align the ultrasound beam with the long axis of the kidney. The intended view orientation is a **longitudinal view** of the kidney, evidenced by the visualization of the characteristic bean-shaped renal parenchyma surrounding the central hyperechoic renal sinus.",
+      "latency_ms": 22768.619060516357,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweeping technique is demonstrated across the organ, and why is it done?",
+    "answer": "The probe is fanned through the full thickness of the organ. This is done to survey the entire volume so focal pathology is not missed.",
+    "groundtruth": "The operator fans through the entire kidney to ensure full visualization of the organ and avoid missing pathology.",
+    "time_start": 36.66,
+    "time_end": 41.5,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 36.66,
+    "time_end_extended": 41.5,
+    "original_time_start": 36.66,
+    "original_time_end": 41.5,
+    "model_prediction": "The video demonstrates a **fanning** or **sweeping** technique, where the transducer is pivoted on the skin to steer the ultrasound beam through adjacent planes of the tissue. This is done to visualize the **entire volume** of the organ (which appears to be a kidney), ensuring that the sonographer surveys the whole structure to detect any focal lesions or abnormalities that might be missed in a single static slice.",
+    "inference_metadata": {
+      "raw_response": "The video demonstrates a **fanning** or **sweeping** technique, where the transducer is pivoted on the skin to steer the ultrasound beam through adjacent planes of the tissue. This is done to visualize the **entire volume** of the organ (which appears to be a kidney), ensuring that the sonographer surveys the whole structure to detect any focal lesions or abnormalities that might be missed in a single static slice.",
+      "latency_ms": 14529.269933700562,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, a small questionable finding appears and the operator changes the imaging approach. What change is made, and what ambiguity is it intended to resolve?",
+    "answer": "Color Doppler is activated to check for flow within the questionable area. The goal is to distinguish vascular structures from non-vascular urinary dilation (e.g., mild obstruction-related fluid).",
+    "groundtruth": "The operator pauses on a suspicious area and turns on Color Doppler to differentiate possible mild hydronephrosis/hydroureter from nearby vasculature.",
+    "time_start": 44.38,
+    "time_end": 62.29,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 44.38,
+    "time_end_extended": 62.29,
+    "original_time_start": 44.38,
+    "original_time_end": 62.29,
+    "model_prediction": "Answer: The operator brings up the \"Imaging Modes\" menu to switch from B-mode to a Doppler mode (likely Color or PW Doppler). This change is intended to resolve the ambiguity of whether a small, anechoic tubular structure is a blood vessel (which would show flow) or a non-vascular fluid-filled structure such as a cyst or dilated duct.",
+    "inference_metadata": {
+      "raw_response": "Answer: The operator brings up the \"Imaging Modes\" menu to switch from B-mode to a Doppler mode (likely Color or PW Doppler). This change is intended to resolve the ambiguity of whether a small, anechoic tubular structure is a blood vessel (which would show flow) or a non-vascular fluid-filled structure such as a cyst or dilated duct.",
+      "latency_ms": 20090.914964675903,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the mode change, what is the operator assessing in the suspicious region, and what conclusion does it support?",
+    "answer": "They are looking for the presence of flow within the region. Seeing flow supports that the finding is vascular rather than urinary dilation, supporting a normal study in that area.",
+    "groundtruth": "The operator observes color flow signals in the suspicious area, confirms it represents vessels, rules out hydroureter/hydronephrosis, and concludes the kidney is normal.",
+    "time_start": 66.31,
+    "time_end": 74.39,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 66.31,
+    "time_end_extended": 74.39,
+    "original_time_start": 66.31,
+    "original_time_end": 74.39,
+    "model_prediction": "After switching to Color Doppler mode, the operator is assessing the suspicious region for the presence of blood flow or vascularity. The appearance of distinct red and blue color signals within the region confirms active blood flow, supporting the conclusion that the structure is vascular rather than an avascular fluid collection.",
+    "inference_metadata": {
+      "raw_response": "After switching to Color Doppler mode, the operator is assessing the suspicious region for the presence of blood flow or vascularity. The appearance of distinct red and blue color signals within the region confirms active blood flow, supporting the conclusion that the structure is vascular rather than an avascular fluid collection.",
+      "latency_ms": 15920.499801635742,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip sequence, summarize the verification step used before moving on, and what decision it enables for the rest of the scan.",
+    "answer": "A questionable area is held and checked with Color Doppler to verify whether it has flow. After confirming it is vascular, the operator returns to standard imaging and proceeds with the rest of the exam rather than pursuing an obstruction workup.",
+    "groundtruth": "The operator holds a suspicious area, uses Color Doppler to confirm it is vascular (not hydroureter), then turns Doppler off and returns to B-mode to continue the exam with a normal conclusion.",
+    "time_start": 44.38,
+    "time_end": 77.16,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 44.38,
+    "time_end_extended": 77.16,
+    "original_time_start": 44.38,
+    "original_time_end": 77.16,
+    "model_prediction": "The verification step involves activating **Color Doppler** mode from the imaging menu to interrogate the central renal structures. Observing the mixed red and blue flow signals confirms that the structures are patent blood vessels with active circulation, distinguishing them from static fluid or thrombus. This enables the decision to proceed with the remainder of the examination, having verified vascular integrity and ruled out occlusion.",
+    "inference_metadata": {
+      "raw_response": "The verification step involves activating **Color Doppler** mode from the imaging menu to interrogate the central renal structures. Observing the mixed red and blue flow signals confirms that the structures are patent blood vessels with active circulation, distinguishing them from static fluid or thrombus. This enables the decision to proceed with the remainder of the examination, having verified vascular integrity and ruled out occlusion.",
+      "latency_ms": 39532.14907646179,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe-placement strategy is used to improve the obstructed view, and why does it help?",
+    "answer": "The probe is slid into an intercostal space and then fanned through the organ. This avoids bony shadowing and restores a clearer transverse image.",
+    "groundtruth": "The operator moves the probe between ribs and fans through the kidney to obtain a clearer transverse view by avoiding rib shadowing.",
+    "time_start": 96.27,
+    "time_end": 111.85,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 96.27,
+    "time_end_extended": 111.85,
+    "original_time_start": 96.27,
+    "original_time_end": 111.85,
+    "model_prediction": "The probe-placement strategy used is **sliding or shifting the probe laterally** to find a clear **acoustic window**.\n\nThis helps because the initial view is obstructed by **bowel gas**, which appears as bright, hyperechoic areas with posterior acoustic shadowing. Since ultrasound waves cannot penetrate gas effectively, moving the probe allows the operator to find a space between bowel loops where the sound waves can travel through tissue or fluid to visualize the deeper anatomical structures (likely the inferior vena cava or aorta).",
+    "inference_metadata": {
+      "raw_response": "The probe-placement strategy used is **sliding or shifting the probe laterally** to find a clear **acoustic window**.\n\nThis helps because the initial view is obstructed by **bowel gas**, which appears as bright, hyperechoic areas with posterior acoustic shadowing. Since ultrasound waves cannot penetrate gas effectively, moving the probe allows the operator to find a space between bowel loops where the sound waves can travel through tissue or fluid to visualize the deeper anatomical structures (likely the inferior vena cava or aorta).",
+      "latency_ms": 21428.697109222412,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the final segment of the clip, what confirmation step is performed before concluding, and what overall finding does it support?",
+    "answer": "The operator re-checks the organ’s central region in the transverse view for absence of abnormal fluid dilation and confirms a normal-appearing center. This supports the conclusion of no hydronephrosis and a normal study.",
+    "groundtruth": "The operator inspects the kidney center in transverse for absence of anechoic dilation and then confirms a bright central appearance, supporting a normal kidney without hydronephrosis.",
+    "time_start": 115.19,
+    "time_end": 131.75,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 115.19,
+    "time_end_extended": 131.75,
+    "original_time_start": 115.19,
+    "original_time_end": 131.75,
+    "model_prediction": "Answer: The final segment shows the operator sweeping the probe to adjacent intercostal spaces. This step confirms the presence of lung sliding across the examined area, supporting the overall finding of normal lung apposition and ruling out a pneumothorax.",
+    "inference_metadata": {
+      "raw_response": "Answer: The final segment shows the operator sweeping the probe to adjacent intercostal spaces. This step confirms the presence of lung sliding across the examined area, supporting the overall finding of normal lung apposition and ruling out a pneumothorax.",
+      "latency_ms": 56978.21402549744,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

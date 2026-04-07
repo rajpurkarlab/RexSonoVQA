@@ -1,0 +1,178 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what imaging-control adjustment is being made while staying in the same view, and what is the goal?\nA) Reposition the focal zone (and related depth/gain controls) to optimize the region of interest\nB) Adjust time-gain compensation sliders to even out near- and far-field brightness without changing the imaging plane\nC) Narrow the sector width to improve temporal resolution while maintaining the same view\nD) Increase overall 2D gain to brighten the image and better delineate the target structure",
+    "answer": "A",
+    "groundtruth": "While remaining in a longitudinal abdominal view, the operator optimizes image controls\u2014moving the focal zone to the target region and adjusting depth, gain, and TGC (with optional slight zoom)\u2014to improve overall clarity of the primary midline structures.",
+    "time_start": 48.94,
+    "time_end": 75.95,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 48.94,
+    "original_time_end": 75.95,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe adjustment shown is repositioning the focal zone (with related minor associated depth/gain tuning) to target the region of interest marked by the cursor, optimizing image resolution and clarity specifically for that area while remaining in the same anatomical view.",
+      "latency_ms": 468304.84199523926,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 27.010000000000005
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what structure is being followed during a continuous inferior scan, and what is the purpose of tracking it to its distal endpoint?\nA) Abdominal aorta, to survey it along its course down to the bifurcation\nB) Inferior vena cava, to assess patency and follow it to the common iliac vein confluence.\nC) Superior mesenteric artery, to trace it distally to evaluate for stenosis or dissection.\nD) Common bile duct, to follow it to the pancreatic head to look for distal obstruction.",
+    "answer": "A",
+    "groundtruth": "The operator slides inferiorly along the abdominal aorta in longitudinal section using gentle pressure, dynamically adjusting depth as needed, to visualize the aorta tapering distally toward the bifurcation.",
+    "time_start": 76.61,
+    "time_end": 92.48,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 76.61,
+    "original_time_end": 92.48,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe tubular structure visualized is the abdominal aorta, which has characteristic anterior branches (like the superior mesenteric artery seen in early frames) and lies anterior to the vertebral bodies. A continuous inferior scan of the aorta is performed to survey the entire vessel along its course down to its distal bifurcation into the common iliac arteries, typically to evaluate for pathologies like aneurysm.",
+      "latency_ms": 135810.56308746338,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.870000000000005
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator holds a steady transverse window with minimal probe movement. What is the most likely reason for maintaining this stable view?\nA) To document and systematically identify the main portions of the target organ with key landmarks\nB) To keep the image centered within an intercostal acoustic window between rib shadows for optimal visualization.\nC) To hold the plane steady long enough to apply Color Doppler and confirm whether the structure is vascular.\nD) To minimize motion artifact while obtaining precise caliper measurements of the target structure.",
+    "answer": "A",
+    "groundtruth": "The operator maintains a transverse view of the pancreas to clearly identify the pancreatic body and tail (with the head less well seen) and to confirm anatomic landmarks such as the spine and adjacent major vessels.",
+    "time_start": 153.56,
+    "time_end": 180.19,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 153.56,
+    "original_time_end": 180.19,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: There are no rib shadows present to indicate an intercostal window (ruling out B), no Color Doppler mode is activated (ruling out C), and no calipers for measurements are placed (ruling out D). The stable view allows the operator to use the on-screen cursor to systematically point out and identify key anatomic landmarks/portions of the target organ for documentation.",
+      "latency_ms": 262547.9459762573,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 26.629999999999995
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what breathing phase is being attempted to improve the acoustic window, and why?\nA) Full expiration, to see if the window improves in that phase\nB) Full inspiration, to depress the diaphragm and use the liver as an acoustic window to improve visualization.\nC) End-inspiratory breath hold, to reduce respiratory motion artifact and stabilize the image for a clearer window.\nD) Valsalva maneuver, to increase intrathoracic pressure and transiently alter chamber/venous dimensions to improve the view.",
+    "answer": "A",
+    "groundtruth": "The operator asks the patient to breathe all the way out (and repeats the maneuver when needed) to test whether expiration improves visualization; in this case, expiration makes the view worse.",
+    "time_start": 207.81,
+    "time_end": 219.54,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 207.81,
+    "original_time_end": 219.54,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nFull inspiration depresses the diaphragm, pushing the liver caudally below the ribcage. The liver acts as an excellent, low-attenuation acoustic window that avoids shadowing from ribs and air-filled lung, improving visualization of deeper upper abdominal structures.",
+      "latency_ms": 174225.96621513367,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 11.72999999999999
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator keeps the probe on the same window after obtaining an improved view. What is the most likely purpose at this point in the workflow?\nA) Confirm the target organ appears normal before moving on\nB) Freeze and save representative still images or cine loops for documentation before leaving the window\nC) Obtain standardized measurements of the organ in two orthogonal planes while the image is optimized\nD) Apply color Doppler to assess vascularity of the organ once an adequate grayscale view is obtained",
+    "answer": "A",
+    "groundtruth": "After achieving a good view of the pancreas, the operator maintains the image to confirm normal appearance, noting that if visualization remains difficult an alternative is water ingestion to create a better acoustic window.",
+    "time_start": 233.27,
+    "time_end": 248.53,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 233.27,
+    "original_time_end": 248.53,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nAfter optimizing the view of the anatomical window and holding the probe steady on that same view, the standard next step in workflow is to freeze and capture representative still images or cine clips of the optimized view for documentation, before moving the probe to evaluate other areas. No measurements (ruling out C), color Doppler application (ruling out D), or sweeping to assess the full organ for normality (ruling out A) is observed or implied by holding the same fixed window.",
+      "latency_ms": 286825.81210136414,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 15.259999999999991
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what small image-quality adjustment is made while the operator keeps one hand on the controls, and why?\nA) Move the focus slightly deeper to sharpen the target region\nB) Increase overall gain slightly to brighten the image and better visualize low\u2011echo structures.\nC) Decrease imaging depth to enlarge the region of interest and improve temporal resolution.\nD) Adjust mid\u2011field TGC to balance brightness so the target is not under- or over-gained.",
+    "answer": "A",
+    "groundtruth": "The operator keeps a hand on the machine controls and adjusts the focal position slightly downward, reflecting continuous optimization of focus (along with depth and gain) throughout the exam.",
+    "time_start": 261.92,
+    "time_end": 279.48,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 261.92,
+    "original_time_end": 279.48,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe ultrasound image is uniformly darker in the earlier frames of the clip, then becomes brighter across all depths after the adjustment. Increasing overall gain raises brightness for the entire image, which improves visualization of the low-echo (hypoechoic) structures that are less distinct at the lower initial gain level.",
+      "latency_ms": 201632.35878944397,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 17.560000000000002
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after sliding laterally toward the patient\u2019s right, which primary vascular targets are being brought into view?\nA) Inferior vena cava and portal vein\nB) Abdominal aorta and superior mesenteric artery\nC) Confluence of the hepatic veins draining into the inferior vena cava\nD) Superior mesenteric vein and splenic vein at their confluence",
+    "answer": "A",
+    "groundtruth": "The operator slides laterally toward the right side with a deep breath to visualize the inferior vena cava and the portal vein.",
+    "time_start": 296.45,
+    "time_end": 310.2,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 296.45,
+    "original_time_end": 310.2,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nWhen moving laterally toward the patient's right from the midline abdominal view, the inferior vena cava (the right-sided major retroperitoneal venous structure) and the adjacent portal vein (anterior to the IVC in the right upper abdomen) come into view. The other options are incorrect: the aorta and SMA (option B) are left/midline structures, the hepatic vein confluence (option C) is a more superior view of the IVC, and the SMV-splenic vein confluence (option D) is a midline peripancreatic structure.",
+      "latency_ms": 247924.61109161377,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.75
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator performs a broad sweep across a large parenchymal organ while maintaining current settings. What is the main purpose of this step?\nA) Survey and document the majority of the organ and confirm the target sac-like structure is seen\nB) Assess the organ for focal parenchymal lesions by scanning for heterogeneity in a single imaging plane\nC) Evaluate dependent spaces adjacent to the organ (e.g., hepatorenal/splenorenal recess) for free fluid accumulation\nD) Obtain an accurate long-axis measurement of the organ by aligning to its maximal length before caliper placement",
+    "answer": "A",
+    "groundtruth": "The operator sweeps across the liver while keeping the same depth and gain, scanning superiorly and across to confirm visualization of the gallbladder and most of the liver parenchyma.",
+    "time_start": 328.72,
+    "time_end": 348.68,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 328.72,
+    "original_time_end": 348.68,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The operator performs a broad sweep across the entire parenchymal organ (liver) to systematically survey the majority of the organ's parenchyma and associated structures, including confirming visualization of sac-like structures (e.g., gallbladder, vascular/ductal structures) within it. The other options are incorrect: B is wrong as a sweep uses multiple planes not a single plane, C is wrong as the sweep does not focus only on adjacent recesses for free fluid, and D is wrong as there is no attempt to align for long-axis measurement or place calipers.",
+      "latency_ms": 139566.8408870697,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 19.95999999999998
+  }
+]

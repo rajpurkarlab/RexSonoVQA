@@ -1,0 +1,74 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is requested/used and what scanning objective does it serve?",
+    "answer": "The patient is prompted to take a deep breath to shift anatomy and open a better acoustic window. This helps the operator scan past an obstructing interface and stabilize a usable view for the next target.",
+    "groundtruth": "The operator uses an inspiratory breath maneuver while scanning until an obstructing rib-related shadow passes, helping them locate the optimal acoustic window.",
+    "time_start": 6.34,
+    "time_end": 11.06,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement strategy is shown, and what imaging goal does it accomplish?",
+    "answer": "The operator sweeps/contours the probe through the parenchyma in a controlled scan to survey the organ. The goal is to obtain a representative assessment of tissue appearance and key internal vascular anatomy.",
+    "groundtruth": "The operator scans through the liver tissue while contouring the probe inferiorly to assess homogeneous parenchyma and bring the portal system into view.",
+    "time_start": 13.43,
+    "time_end": 20.03,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging parameter is being adjusted on-screen, and what is the objective of that change?",
+    "answer": "The focal zone is adjusted to place best resolution at the depth of interest. This optimizes detail in the central portion of the target organ.",
+    "groundtruth": "The operator adjusts the focal zone to concentrate image resolution on the central renal region, targeting the kidney\u2019s central echogenic area for clearer visualization.",
+    "time_start": 27.04,
+    "time_end": 30.45,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what tracking action is performed during the patient\u2019s breathing cycle, and why is it necessary?",
+    "answer": "The operator follows the organ\u2019s motion by subtly repositioning the probe as the patient exhales. This maintains the target in plane despite respiratory movement.",
+    "groundtruth": "As the patient resumes breathing and exhales, the operator moves the probe to follow the kidney so it stays visible despite respiratory displacement.",
+    "time_start": 36.73,
+    "time_end": 40.35,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning step is being performed in this segment, and what is the goal of doing it here?",
+    "answer": "The operator scans through the flank region to bring the target organ fully into view. The goal is to confirm the correct structure is visualized before detailed assessment and documentation.",
+    "groundtruth": "The operator scans the flank area to confirm visualization of the patient\u2019s right kidney.",
+    "time_start": 44.35,
+    "time_end": 51.06,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to delineate with the current breathing-assisted scan, and why?",
+    "answer": "They are scanning to better delineate internal tissue layer boundaries within the target organ. The goal is to improve visualization of subtle interfaces that are best seen when the window is optimized by respiration.",
+    "groundtruth": "The operator asks for a deep breath and scans specifically to try to visualize the corticomedullary junction more clearly.",
+    "time_start": 60.52,
+    "time_end": 65.51,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what documentation action is performed after the image is stabilized, and what is being quantified?",
+    "answer": "The image is frozen and calipers are used to take a measurement. This documents the target organ\u2019s size/dimension in a standardized view.",
+    "groundtruth": "The operator freezes the longitudinal kidney image and uses a multi-distance caliper measurement tool to measure the kidney.",
+    "time_start": 71.65,
+    "time_end": 77.75,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is happening, and what is the next overall scanning objective?",
+    "answer": "The operator is preparing to move on from the completed side/region. The next objective is to repeat the same renal scanning protocol on the opposite side.",
+    "groundtruth": "The operator prepares to change scanning position in order to repeat the renal ultrasound protocol on the left side.",
+    "time_start": 88.47,
+    "time_end": 91.61,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

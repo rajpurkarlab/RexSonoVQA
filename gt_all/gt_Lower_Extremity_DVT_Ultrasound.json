@@ -1,0 +1,122 @@
+[
+  {
+    "start": 1.13,
+    "end": 7.32,
+    "action": "Scan the inguinal region to identify the saphenofemoral junction.",
+    "interpretation": "Visualize the saphenofemoral junction anatomy."
+  },
+  {
+    "start": 7.78,
+    "end": 14.82,
+    "action": "Direct attention to the left side of the screen (lateral aspect of the patient).",
+    "interpretation": "Identify the femoral arteries and note that they are already bifurcated (split)."
+  },
+  {
+    "start": 15.64,
+    "end": 21.66,
+    "action": "Direct attention to the right side of the screen.",
+    "interpretation": "Identify the Common Femoral Vein (CFV) and the Great Saphenous Vein (GSV)."
+  },
+  {
+    "start": 22.02,
+    "end": 28.27,
+    "action": "Slide the probe slightly proximal from the current position.",
+    "interpretation": "Relocate the view just proximal to the junction area."
+  },
+  {
+    "start": 29.09,
+    "end": 35.15,
+    "action": "Hold the probe steady at the proximal position.",
+    "interpretation": "Re-confirm the anatomy: Common Femoral Vein is visible with two arteries on the left side of the screen."
+  },
+  {
+    "start": 35.57,
+    "end": 41.03,
+    "action": "Apply downward pressure to compress the vein, then release pressure.",
+    "interpretation": "Assess the compressibility of the Common Femoral Vein."
+  },
+  {
+    "start": 42.01,
+    "end": 50.49,
+    "action": "Slide the probe slightly distal to isolate the Saphenofemoral Junction (SFJ). Apply compression, then release.",
+    "interpretation": "Target the SFJ specifically to check for compressibility."
+  },
+  {
+    "start": 51.87,
+    "end": 65.34,
+    "action": "Slide the probe to the region of the Deep Femoral Vein and Superficial Femoral Vein confluence. Apply compression.",
+    "interpretation": "Target the confluence of the deep and superficial venous systems."
+  },
+  {
+    "start": 66.64,
+    "end": 80.98,
+    "action": "Scan back and forth (rock/slide) to optimize the view, then compress.",
+    "interpretation": "Differentiate the non-compressible arteries from the compressible veins."
+  },
+  {
+    "start": 81.68,
+    "end": 89.13,
+    "action": "Focus the scan on the specific confluence area.",
+    "interpretation": "Identify the confluence of the Deep Femoral Vein and the Femoral Vein."
+  },
+  {
+    "start": 89.17,
+    "end": 96.11,
+    "action": "Apply compression directly over the Deep Femoral Vein.",
+    "interpretation": "Confirm the Deep Femoral Vein collapses while noting the arteries remain non-compressible."
+  },
+  {
+    "start": 99.11,
+    "end": 105.73,
+    "action": "Slide the probe distally to follow the femoral vein down the thigh. Apply compression.",
+    "interpretation": "Track the femoral vein distally."
+  },
+  {
+    "start": 105.75,
+    "end": 114.22,
+    "action": "Continue compressing the vein while sliding the probe downward.",
+    "interpretation": "Note the anatomical relationship: The femoral vein is located underneath (deep to) the artery in this region."
+  },
+  {
+    "start": 117.08,
+    "end": 119.0,
+    "action": "Perform repetitive sequential compressions ('Again, again, again').",
+    "interpretation": "Ensure continuous patency along the femoral canal."
+  },
+  {
+    "start": 123.06,
+    "end": 130.0,
+    "action": "Complete the scan of the inguinal and mid-thigh regions.",
+    "interpretation": "Confirm the absence of DVT in the inguinal and mid-thigh anatomy."
+  },
+  {
+    "start": 130.14,
+    "end": 135.43,
+    "action": "Transition the probe to the popliteal fossa.",
+    "interpretation": "Prepare to visualize the popliteal vein."
+  },
+  {
+    "start": 140.12,
+    "end": 152.41,
+    "action": "Adjust depth settings to visualize the bone cortex deep to the vessels.",
+    "interpretation": "Identify the bone cortex to ensure the scan is deep enough to see deep vasculature, distinguishing it from superficial structures."
+  },
+  {
+    "start": 153.17,
+    "end": 155.09,
+    "action": "Apply compression in the popliteal fossa.",
+    "interpretation": "Assess the popliteal vein for compressibility."
+  },
+  {
+    "start": 155.95,
+    "end": 161.03,
+    "action": "Observe the vessel relationship during compression.",
+    "interpretation": "Identify the popliteal vein positioned on top of the artery and confirm it is fully compressible."
+  },
+  {
+    "start": 161.95,
+    "end": 167.67,
+    "action": "Conclude the examination.",
+    "interpretation": "Confirm the patient does not have a proximal leg DVT."
+  }
+]

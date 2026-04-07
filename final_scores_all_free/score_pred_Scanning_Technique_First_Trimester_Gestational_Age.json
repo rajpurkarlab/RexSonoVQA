@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe adjustment is performed after the initial landmark is identified, and what view is it intended to bring into frame?",
+    "answer": "The operator tilts/angles the probe toward the feet to bring the uterus into view and, if present, identify the fetus within it.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After identifying the bladder, the operator tilts the transducer toward the feet to bring the uterus into view and ideally visualize a fetus within it.",
+    "time_start": 7.62,
+    "time_end": 19.09,
+    "model_prediction": "Based on the video clip, the probe is initially positioned in a transverse orientation to identify the abdominal aorta, which is seen as a circular anechoic structure. The probe is then **rotated 90 degrees** into a longitudinal (sagittal) plane. This adjustment is intended to bring the **longitudinal view of the abdominal aorta** into the frame to visualize its length and course.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is initially positioned in a transverse orientation to identify the abdominal aorta, which is seen as a circular anechoic structure. The probe is then **rotated 90 degrees** into a longitudinal (sagittal) plane. This adjustment is intended to bring the **longitudinal view of the abdominal aorta** into the frame to visualize its length and course.",
+      "latency_ms": 5209.84411239624,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 11.469999999999999,
+    "judge_explanation": "The AI prediction describes a completely different procedure (scanning the abdominal aorta and rotating to a longitudinal view) compared to the ground truth (tilting the probe to view the uterus). Both the described probe adjustment and the intended anatomical target are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what part of the overall workflow is being set up, and what imaging condition must be achieved before placing measurement markers?",
+    "answer": "They are setting up for the first-trimester dating measurement (CRL). Before placing markers, they optimize the plane by elongating the fetal view and adjusting until the true long axis/maximal end-to-end length is captured.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator transitions into crown–rump length measurement setup and manipulates the probe to elongate the fetal view, then fans/rotates to ensure the true longitudinal axis and maximal crown–rump distance are captured before measuring.",
+    "time_start": 20.47,
+    "time_end": 35.68,
+    "model_prediction": "Based on the video, the clinician is setting up for a **Crown-Rump Length (CRL)** measurement. Before placing measurement markers, the imaging condition that must be achieved is a clear **mid-sagittal view** of the embryo/fetus, ensuring the entire length from the top of the head (crown) to the bottom of the torso (rump) is visible in a neutral position without flexion or extension.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is setting up for a **Crown-Rump Length (CRL)** measurement. Before placing measurement markers, the imaging condition that must be achieved is a clear **mid-sagittal view** of the embryo/fetus, ensuring the entire length from the top of the head (crown) to the bottom of the torso (rump) is visible in a neutral position without flexion or extension.",
+      "latency_ms": 6538.723707199097,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 15.21,
+    "judge_explanation": "The AI correctly identifies the workflow as setting up for a Crown-Rump Length (CRL) measurement. It also correctly describes the necessary imaging condition (mid-sagittal view, full length visible, neutral position), which aligns with the ground truth's requirement for optimizing the plane to capture the true long axis.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] This clip shows the target not yet displayed at its maximal end-to-end span. What optimization maneuver is performed, and why does it matter?",
+    "answer": "The probe is maneuvered to elongate the fetal view so the maximal crown-to-rump distance is shown, reducing foreshortening and improving measurement accuracy.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts probe position/angle to elongate the fetal view to obtain the maximal crown–rump distance for an accurate CRL measurement.",
+    "time_start": 25.29,
+    "time_end": 31.25,
+    "model_prediction": "Based on the video, the operator rotates the probe 90 degrees. This maneuver matters because it transitions the view from a transverse (short-axis) cross-section to a longitudinal (long-axis) view, allowing for the visualization of the fetus's entire length (maximal end-to-end span) for accurate crown-rump length measurement.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator rotates the probe 90 degrees. This maneuver matters because it transitions the view from a transverse (short-axis) cross-section to a longitudinal (long-axis) view, allowing for the visualization of the fetus's entire length (maximal end-to-end span) for accurate crown-rump length measurement.",
+      "latency_ms": 5537.866830825806,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.960000000000001,
+    "judge_explanation": "The AI correctly identifies the purpose of the maneuver, which is to obtain a longitudinal view (maximal end-to-end span) for an accurate Crown-Rump Length (CRL) measurement. The AI's specific description of rotating the probe 90 degrees is a valid technical description of how to achieve the 'elongated fetal view' described in the ground truth, assuming the starting view was transverse or oblique.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what machine interaction is performed to refine the chosen image for measurement, and why is it used?",
+    "answer": "The operator freezes the live scan and then scrolls/cines through the saved frames to select the single frame that best shows the fetal poles for accurate measurement.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The scan is frozen and cine review is used to move back through frames to choose the best frame demonstrating the optimal pole-to-pole view for measurement.",
+    "time_start": 36.4,
+    "time_end": 45.58,
+    "model_prediction": "Based on the video clip, the machine interaction performed is the **\"tap to focus\"** or focal zone adjustment feature on a touchscreen interface. The operator taps on the screen (indicated by the orange circles) to move the focal zone to the level of the fetus, which improves lateral resolution and image clarity at that specific depth for better visualization and measurement accuracy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the machine interaction performed is the **\"tap to focus\"** or focal zone adjustment feature on a touchscreen interface. The operator taps on the screen (indicated by the orange circles) to move the focal zone to the level of the fetus, which improves lateral resolution and image clarity at that specific depth for better visualization and measurement accuracy.",
+      "latency_ms": 6526.922941207886,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.18,
+    "judge_explanation": "The AI incorrectly identifies the machine interaction as 'tap to focus' for focal zone adjustment. The ground truth specifies that the operator freezes the scan and scrolls/cines through frames to select the best image for measurement.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  }
+]

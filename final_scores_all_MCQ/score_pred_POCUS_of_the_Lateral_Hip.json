@@ -1,0 +1,210 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, the operator holds the probe steady once a distinctive bony landmark is centered. What landmark is being confirmed, and why pause there?\nA. Femoral head-neck junction; to confirm you are over the anterior hip joint before assessing for an effusion.\nB. Lesser trochanter; to identify the iliopsoas insertion prior to a dynamic snapping-hip assessment.\nC. Ischial tuberosity; to localize the proximal hamstring origin before surveying for tendinopathy.\nD. Greater trochanter; to lock in the reference point for subsequent tendon scanning",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is held stationary over the irregular bony prominence to identify it as the greater trochanter, establishing the landmark before moving on.",
+    "time_start": 18.16,
+    "time_end": 25.02,
+    "original_question": "[MCQ] Based on the video clip, the operator holds the probe steady once a distinctive bony landmark is centered. What landmark is being confirmed, and why pause there?\nA. Greater trochanter; to lock in the reference point for subsequent tendon scanning\nB. Femoral head-neck junction; to confirm you are over the anterior hip joint before assessing for an effusion.\nC. Lesser trochanter; to identify the iliopsoas insertion prior to a dynamic snapping-hip assessment.\nD. Ischial tuberosity; to localize the proximal hamstring origin before surveying for tendinopathy.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nThe video demonstrates the ultrasound probe scanning over the lateral hip to locate the greater trochanter of the femur. The operator identifies the hyperechoic, curved bony surface of the greater trochanter and holds the probe steady once this distinctive landmark is centered. This is a crucial step to \"lock in\" the primary reference point, which then allows for accurate localization and subsequent scanning of the gluteal tendon insertions (gluteus medius and minimus) that attach to the facets of the greater trochanter.",
+      "latency_ms": 6565.8440589904785,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.859999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after the bony landmark is identified, the probe is slid to a new facet/region to bring a specific tendon into view. Which tendon is being targeted?\nA. Gluteus minimus tendon\nB. Gluteus medius tendon\nC. Piriformis tendon\nD. Iliopsoas tendon",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "At the trochanter level, the transducer is slid anteriorly to visualize the anterior facet concavity and identify the tendon within it as the gluteus minimus tendon.",
+    "time_start": 25.96,
+    "time_end": 45.72,
+    "original_question": "[MCQ] Based on the video clip, after the bony landmark is identified, the probe is slid to a new facet/region to bring a specific tendon into view. Which tendon is being targeted?\nA. Gluteus minimus tendon\nB. Gluteus medius tendon\nC. Iliopsoas tendon\nD. Piriformis tendon",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video demonstrates an ultrasound examination of the lateral hip. The initial view identifies the bony landmark of the greater trochanter of the femur. The probe is then slid superiorly and posteriorly to visualize the insertion of the gluteus medius tendon onto the lateral facet of the greater trochanter. The distinct fibrillar pattern of the tendon can be seen attaching to the bone as the probe moves. This maneuver is classic for evaluating the gluteus medius tendon insertion.",
+      "latency_ms": 6808.870792388916,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 19.759999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the main optimization strategy being used to reduce the chance of missing a focal abnormality in the target tendon?\nA. Comparing the tendon in the same plane with the contralateral side to detect subtle asymmetry\nB. Applying color or power Doppler to look for focal hyperemia suggestive of tendinopathy or tear\nC. Systematically sweeping along the tendon (proximal/distal) to sample its full extent\nD. Using gentle probe fanning/heel-toe adjustments to keep the tendon fibers perpendicular and minimize anisotropy",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps proximal and distal with slight lateral adjustment to cover the full tendon, improving sampling and helping detect focal changes in size/shape or echogenicity.",
+    "time_start": 48.68,
+    "time_end": 74.05,
+    "original_question": "[MCQ] Based on the video clip, what is the main optimization strategy being used to reduce the chance of missing a focal abnormality in the target tendon?\nA. Systematically sweeping along the tendon (proximal/distal) to sample its full extent\nB. Using gentle probe fanning/heel-toe adjustments to keep the tendon fibers perpendicular and minimize anisotropy\nC. Comparing the tendon in the same plane with the contralateral side to detect subtle asymmetry\nD. Applying color or power Doppler to look for focal hyperemia suggestive of tendinopathy or tear",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation: The video demonstrates continuous, subtle adjustments of the probe angle (rocking or \"fanning\" the probe heel-to-toe) as it moves over the curved humeral head. This technique is specifically used to maintain the ultrasound beam perpendicular to the tendon fibers. This prevents anisotropy, an artifact where healthy tendon fibers appear hypoechoic (dark) and can mimic pathology like a tear when the beam is not hitting them at a 90-degree angle. By constantly adjusting the angle, the operator ensures the tendon appears hyperechoic (bright) and uniform, reducing the risk of misinterpreting artifact as a defect.",
+      "latency_ms": 6717.808723449707,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 25.369999999999997,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the imaging plane is changed to better align with the long axis of the tendon. What maneuver is shown, and what is the purpose?\nA. Fanning/sweeping the probe through the tendon; to survey for focal partial-thickness tears along its course.\nB. Heel-toe (tilting) the probe to reduce anisotropy; to optimize echogenicity of the tendon fibers.\nC. Probe rotation into transverse (short-axis) view; to assess tendon thickness and cross-sectional area.\nD. Probe rotation into longitudinal view; to evaluate fiber continuity along the tendon",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The transducer is rotated 90 degrees to obtain a longitudinal view, allowing the gluteal tendon (gluteus minimus) to be assessed along its long axis.",
+    "time_start": 81.83,
+    "time_end": 102.08,
+    "original_question": "[MCQ] Based on the video clip, the imaging plane is changed to better align with the long axis of the tendon. What maneuver is shown, and what is the purpose?\nA. Probe rotation into longitudinal view; to evaluate fiber continuity along the tendon\nB. Probe rotation into transverse (short-axis) view; to assess tendon thickness and cross-sectional area.\nC. Heel-toe (tilting) the probe to reduce anisotropy; to optimize echogenicity of the tendon fibers.\nD. Fanning/sweeping the probe through the tendon; to survey for focal partial-thickness tears along its course.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Probe rotation into longitudinal view; to evaluate fiber continuity along the tendon\n\nExplanation: The video clip demonstrates the probe being rotated approximately 90 degrees. Initially, the structure (likely the supraspinatus tendon) is seen in a short-axis or oblique plane, where the tendon appears somewhat oval or rounded. As the video progresses, the operator rotates the transducer, elongating the view of the tendon fibers until they are seen running longitudinally from left to right across the screen. This maneuver, rotating from a transverse/oblique plane into a longitudinal plane, allows for the evaluation of the tendon's fiber continuity, architecture, and attachment to the bone.",
+      "latency_ms": 7021.651983261108,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 20.25,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after switching to a long-axis view, what is the operator doing next as part of the workflow?\nA. Heel-toe (rock) the transducer to optimize tendon echogenicity and minimize anisotropy in long axis\nB. Sliding proximally to follow the tendon as it transitions into muscle\nC. Freeze the image to measure tendon thickness and assess for focal tendinopathy in the long-axis plane\nD. Rotate the probe 90° to return to a short-axis (transverse) view for cross-sectional assessment",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After rotating to longitudinal view, the operator slides the probe proximally to trace the tendon transitioning into muscle tissue.",
+    "time_start": 81.83,
+    "time_end": 116.64,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Heel-toe (rock) the transducer to optimize tendon echogenicity and minimize anisotropy in long axis\n\nExplanation:\nThe video shows the operator manipulating the ultrasound probe while imaging a tendon (likely the supraspinatus tendon of the shoulder) in a longitudinal plane. The primary movement observed is a rocking motion (heel-toeing) of the transducer. This technique is specifically used to make the ultrasound beam perpendicular to the tendon fibers. By doing so, the operator minimizes anisotropy—an artifact where the tendon appears artificially hypoechoic (dark) when the beam is not perpendicular—and maximizes the echogenicity and fibrillar pattern of the tendon for better visualization.",
+      "latency_ms": 6132.228136062622,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 34.81,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the purpose of sliding the probe proximally while staying aligned with the structure in long-axis?\nA. To follow the tendon into its muscle belly and confirm continuity\nB. To identify the tendon’s insertion on bone and assess for associated cortical irregularity or enthesopathy\nC. To minimize anisotropy by keeping the tendon centered and the insonation angle consistent along its length\nD. To survey for adjacent peritendinous fluid or bursitis by tracking the structure through the region of maximal tenderness",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the tendon in longitudinal view, the operator slides proximally to follow it until it transitions into muscle, confirming the expected tendon-to-muscle change.",
+    "time_start": 102.7,
+    "time_end": 116.64,
+    "original_question": "[MCQ] Based on the video clip, what is the purpose of sliding the probe proximally while staying aligned with the structure in long-axis?\nA. To follow the tendon into its muscle belly and confirm continuity\nB. To minimize anisotropy by keeping the tendon centered and the insonation angle consistent along its length\nC. To identify the tendon’s insertion on bone and assess for associated cortical irregularity or enthesopathy\nD. To survey for adjacent peritendinous fluid or bursitis by tracking the structure through the region of maximal tenderness",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. To follow the tendon into its muscle belly and confirm continuity\n\nExplanation:\nThe video demonstrates the technique of sliding the ultrasound probe proximally along the long axis of a tendon. Starting from the tendon's distal portion (likely its insertion or mid-substance), the operator moves the probe \"up\" the limb. As the scan progresses, the hyperechoic, fibrillar tendon tissue can be seen transitioning into the more hypoechoic, pennate structure of the muscle belly. This maneuver is specifically used to verify the structural integrity and continuity of the musculotendinous unit, which is crucial for diagnosing tears or retractions.",
+      "latency_ms": 8166.77713394165,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.939999999999998,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, once the operator centers the structure overlying the lateral facet, which structure is being identified?\nA. Gluteus minimus tendon\nB. Iliotibial band over the greater trochanter\nC. Gluteus medius\nD. Greater trochanteric (subgluteus maximus) bursa",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator focuses on the anatomy over the lateral facet to identify it as the gluteus medius.",
+    "time_start": 134.69,
+    "time_end": 140.9,
+    "original_question": "[MCQ] Based on the video clip, once the operator centers the structure overlying the lateral facet, which structure is being identified?\nA. Gluteus medius\nB. Gluteus minimus tendon\nC. Iliotibial band over the greater trochanter\nD. Greater trochanteric (subgluteus maximus) bursa",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B. Iliotibial band over the greater trochanter\n\nExplanation:\nThe video shows a transverse scan over the lateral hip. The bright, curved hyperechoic line deep in the image represents the bony surface of the greater trochanter. Overlying the lateral facet of the greater trochanter is a distinct, fibrillar, hyperechoic band-like structure. This structure is the iliotibial band (ITB). Just deep to the ITB and superficial to the bone would be the location of the greater trochanteric bursa (if distended), and deep to the ITB anteriorly would be the gluteus medius/minimus tendons attaching to their respective facets. The structure being centered and visualized most prominently in the near field, directly overlying the bone, is the iliotibial band.",
+      "latency_ms": 6271.414995193481,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 6.210000000000008,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what technique is being used to best assess whether the tendon is abnormally thick or thin?\nA. Sweeping across the tendon while maintaining a consistent insonation angle to compare morphology along its course\nB. Using dynamic imaging during active joint motion to assess tendon excursion rather than systematically surveying its caliber\nC. Activating color or power Doppler to evaluate intratendinous hyperemia as an indirect sign of tendinopathy\nD. Measuring the tendon’s anteroposterior diameter with calipers on a single static long-axis image at its midpoint",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator performs focused scanning to assess tendon morphology, specifically watching for shape changes such as increased or decreased thickness.",
+    "time_start": 168.54,
+    "time_end": 176.33,
+    "original_question": "[MCQ] Based on the video clip, what technique is being used to best assess whether the tendon is abnormally thick or thin?\nA. Sweeping across the tendon while maintaining a consistent insonation angle to compare morphology along its course\nB. Measuring the tendon’s anteroposterior diameter with calipers on a single static long-axis image at its midpoint\nC. Using dynamic imaging during active joint motion to assess tendon excursion rather than systematically surveying its caliber\nD. Activating color or power Doppler to evaluate intratendinous hyperemia as an indirect sign of tendinopathy",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Sweeping across the tendon while maintaining a consistent insonation angle to compare morphology along its course\n\nThe video demonstrates a continuous scanning motion where the probe sweeps across the tendon in the short axis (transverse plane). This technique allows the sonographer to visualize the entire width and length of the tendon structure, assessing its caliber and echotexture continuously rather than relying on a single static measurement. By sweeping, any focal thickening or thinning can be identified relative to the adjacent normal tendon.",
+      "latency_ms": 6744.457960128784,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.7900000000000205,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator pauses at a proximal point after tracking along the structure in long-axis. What key transition point is being identified?\nA. Myofascial junction where the muscle belly transitions into the surrounding deep fascia.\nB. Musculotendinous junction\nC. Tendon’s osseous insertion (enthesis) at the bony attachment site.\nD. Transition from the free tendon into its paratenon/tendon sheath region.",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is held at the proximal aspect to identify the musculotendinous junction.",
+    "time_start": 201.41,
+    "time_end": 205.55,
+    "original_question": "[MCQ] Based on the video clip, the operator pauses at a proximal point after tracking along the structure in long-axis. What key transition point is being identified?\nA. Musculotendinous junction\nB. Tendon’s osseous insertion (enthesis) at the bony attachment site.\nC. Myofascial junction where the muscle belly transitions into the surrounding deep fascia.\nD. Transition from the free tendon into its paratenon/tendon sheath region.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video tracks a structure in long-axis, moving from a region of more linear, fibrillar tendon appearance proximally towards a region where hypoechoic muscle tissue is seen tapering into the tendon. This specific transition zone, where the muscle fibers (muscle belly) merge into the tendon tissue, is the musculotendinous junction. The operator pauses at this junction to highlight the structural change from muscle to tendon.",
+      "latency_ms": 6070.138216018677,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.140000000000015,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, consider the sequence: long-axis tracking proximally, a brief pause at a transition point, then scanning back distally toward bone. What is the overall objective of this sequence?\nA. Optimize the insonation angle to minimize anisotropy and improve fibrillar echotexture visualization\nB. Map the tendon from muscle through the musculotendinous junction to its bony insertion\nC. Assess the musculotendinous junction specifically for partial-thickness tearing or strain\nD. Evaluate the enthesis and adjacent cortical bone for avulsion or enthesopathy",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator rotates to longitudinal view, follows the gluteus medius proximally to the musculotendinous junction, then scans distally to visualize the tendon inserting onto the greater trochanter.",
+    "time_start": 185.47,
+    "time_end": 215.22,
+    "original_question": "[MCQ] Based on the video clip, consider the sequence: long-axis tracking proximally, a brief pause at a transition point, then scanning back distally toward bone. What is the overall objective of this sequence?\nA. Map the tendon from muscle through the musculotendinous junction to its bony insertion\nB. Assess the musculotendinous junction specifically for partial-thickness tearing or strain\nC. Optimize the insonation angle to minimize anisotropy and improve fibrillar echotexture visualization\nD. Evaluate the enthesis and adjacent cortical bone for avulsion or enthesopathy",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nThis sequence demonstrates the sonographer tracking a tendon in long axis. The probe moves proximally along the tendon's length until muscle fibers are seen transitioning into the tendon tissue (the musculotendinous junction), and then scans back distally towards the bony attachment (enthesis). This comprehensive sweep is performed to map the entire unit—from the muscle belly, through the musculotendinous junction, down to the insertion point—ensuring continuity and integrity across all zones.",
+      "latency_ms": 5791.836261749268,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 29.75,
+    "keep": false
+  }
+]

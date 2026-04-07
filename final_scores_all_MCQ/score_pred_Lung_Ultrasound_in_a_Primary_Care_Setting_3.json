@@ -1,0 +1,126 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe movement pattern is being performed, and what is the main acquisition goal?\nA. Rocking/fanning the probe within a single intercostal space to keep the pleural line centered and optimize visualization of B-lines.\nB. Rotating the probe 90° to switch from a longitudinal intercostal view to a transverse rib-space view to better delineate pleural effusion above the diaphragm.\nC. Systematic sliding sweep across multiple adjacent windows to assess for normal lung motion/artifacts\nD. Holding the probe stationary and activating M-mode to document pleural sliding pattern (seashore vs barcode) for pneumothorax assessment.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides the probe up and down the thorax across multiple intercostal spaces to survey the region for expected lung sliding and related artifacts.",
+    "time_start": 1.3,
+    "time_end": 9.05,
+    "original_question": "[MCQ] Based on the video clip, what probe movement pattern is being performed, and what is the main acquisition goal?\nA. Systematic sliding sweep across multiple adjacent windows to assess for normal lung motion/artifacts\nB. Rocking/fanning the probe within a single intercostal space to keep the pleural line centered and optimize visualization of B-lines.\nC. Rotating the probe 90° to switch from a longitudinal intercostal view to a transverse rib-space view to better delineate pleural effusion above the diaphragm.\nD. Holding the probe stationary and activating M-mode to document pleural sliding pattern (seashore vs barcode) for pneumothorax assessment.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The video demonstrates a continuous sliding motion of the ultrasound probe across the chest wall. As the probe moves, the image pans across different anatomical sections, showing the pleural line and lung artifacts sweeping across the screen. This pattern—moving from one intercostal space to another or across a zone—is a \"sliding sweep.\" The goal of this maneuver is to survey a broader area of the lung surface (multiple adjacent windows) to assess for lung sliding, B-lines, or other artifacts, rather than focusing on a single fixed point. This contrasts with rocking/fanning (which stays in one spot but angles the beam) or rotation (which pivots the probe). It is clearly not a stationary M-mode acquisition.",
+      "latency_ms": 8329.718828201294,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.750000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what imaging setting is adjusted, and why is it changed?\nA. M-mode is activated to quantify motion over time (e.g., lung sliding) rather than rely on real-time B-mode\nB. Depth is decreased to better emphasize and visualize superficial interface motion\nC. The focal zone is moved superficially to optimize lateral resolution at the interface of interest\nD. Overall gain is reduced to prevent saturation and improve contrast of the superficial pleural line",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator decreases imaging depth to optimize visualization of the pleural interface and its motion, making the key superficial findings easier to see clearly.",
+    "time_start": 14.89,
+    "time_end": 19.62,
+    "original_question": "[MCQ] Based on the video clip, what imaging setting is adjusted, and why is it changed?\nA. Depth is decreased to better emphasize and visualize superficial interface motion\nB. Overall gain is reduced to prevent saturation and improve contrast of the superficial pleural line\nC. The focal zone is moved superficially to optimize lateral resolution at the interface of interest\nD. M-mode is activated to quantify motion over time (e.g., lung sliding) rather than rely on real-time B-mode",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B. Depth is decreased to better emphasize and visualize superficial interface motion\n\nExplanation: The video starts with a deeper field of view. About halfway through the clip, the depth setting is significantly decreased (the image zooms in on the near field), bringing the pleural line and superficial tissues into larger, clearer view. This is commonly done in lung ultrasound to better visualize lung sliding or subtle pleural abnormalities.",
+      "latency_ms": 7243.555068969727,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.73,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what sonographic pattern is the operator identifying, and what does it imply in this context?\nA. A tissue-like hepatization pattern with dynamic air bronchograms, consistent with lung consolidation in that region\nB. Multiple vertical B-lines arising from the pleura, suggesting interstitial edema or inflammatory involvement rather than normal aeration\nC. A normal reverberation pattern suggesting aerated lung and lowering concern for consolidation or fluid in that region\nD. Anechoic fluid above the diaphragm with the spine sign, indicating a pleural effusion adjacent to the scanned area",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator identifies A-line artifacts (a normal horizontal reverberation pattern), indicating the lung is air-filled in that area and helping rule out pneumonia or pleural effusion there.",
+    "time_start": 24.58,
+    "time_end": 36.71,
+    "original_question": "[MCQ] Based on the video clip, what sonographic pattern is the operator identifying, and what does it imply in this context?\nA. A normal reverberation pattern suggesting aerated lung and lowering concern for consolidation or fluid in that region\nB. Multiple vertical B-lines arising from the pleura, suggesting interstitial edema or inflammatory involvement rather than normal aeration\nC. A tissue-like hepatization pattern with dynamic air bronchograms, consistent with lung consolidation in that region\nD. Anechoic fluid above the diaphragm with the spine sign, indicating a pleural effusion adjacent to the scanned area",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation:\nThe video demonstrates a classic \"A-line\" pattern. You can observe the bright, horizontal, hyperechoic lines that are parallel to the pleural line and recur at regular intervals deep into the image. This is a reverberation artifact caused by sound waves bouncing back and forth between the pleura and the transducer. This pattern indicates that the lung below the pleura is filled with air (normal aeration), which effectively rules out consolidation or significant interstitial fluid in that specific area. There are no vertical B-lines or tissue-like patterns visible.",
+      "latency_ms": 8357.479810714722,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 12.130000000000003,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe relocation is shown, and what is the purpose?\nA. Sliding laterally to find an intercostal window and minimize rib shadowing over the pleural line\nB. Sliding anteriorly toward the midclavicular line to assess for pneumothorax by looking for lung sliding\nC. Sliding inferiorly to transition from upper windows to a basal view and locate the diaphragm region\nD. Rotating the probe 90° to switch from longitudinal to transverse orientation for better pleural line visualization",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator drags the probe inferiorly toward the lung base to transition from higher intercostal spaces to a basal window and locate the diaphragm.",
+    "time_start": 38.41,
+    "time_end": 47.2,
+    "original_question": "[MCQ] Based on the video clip, what probe relocation is shown, and what is the purpose?\nA. Sliding inferiorly to transition from upper windows to a basal view and locate the diaphragm region\nB. Sliding laterally to find an intercostal window and minimize rib shadowing over the pleural line\nC. Rotating the probe 90° to switch from longitudinal to transverse orientation for better pleural line visualization\nD. Sliding anteriorly toward the midclavicular line to assess for pneumothorax by looking for lung sliding",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Sliding laterally to find an intercostal window and minimize rib shadowing over the pleural line\n\nExplanation: The video begins with an ultrasound view where the pleural line is heavily obscured by vertical rib shadows (the dark, anechoic bands extending downwards). The operator then slides the probe (likely laterally or into an intercostal space), which clears the view. As the rib shadows move out of the frame, the pleural line becomes clearly visible across the screen, followed by the appearance of the diaphragm and abdominal organs (liver/spleen) at the end, confirming a better acoustic window was achieved. This maneuver is typical for navigating around ribs to get a clear view of the lung and pleural interface.",
+      "latency_ms": 7942.9590702056885,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.790000000000006,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what artifact is being evaluated, and what is the reason for checking it?\nA. Mirror-image artifact, to support interpretation of an aerated lung adjacent to a strong reflective boundary\nB. Reverberation (A-line) artifact, to confirm normal aerated lung and help exclude consolidation in the scanned region.\nC. Side-lobe artifact, to avoid misinterpreting spurious echoes as a small pleural effusion adjacent to the diaphragm.\nD. Ring-down/comet-tail (B-line) artifact, to evaluate for an interstitial syndrome such as pulmonary edema.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator assesses for mirror-image artifact at the lung base, noting reflection of abdominal structures across the diaphragm into the thoracic field.",
+    "time_start": 62.51,
+    "time_end": 69.59,
+    "original_question": "[MCQ] Based on the video clip, what artifact is being evaluated, and what is the reason for checking it?\nA. Mirror-image artifact, to support interpretation of an aerated lung adjacent to a strong reflective boundary\nB. Reverberation (A-line) artifact, to confirm normal aerated lung and help exclude consolidation in the scanned region.\nC. Ring-down/comet-tail (B-line) artifact, to evaluate for an interstitial syndrome such as pulmonary edema.\nD. Side-lobe artifact, to avoid misinterpreting spurious echoes as a small pleural effusion adjacent to the diaphragm.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Mirror-image artifact, to support interpretation of an aerated lung adjacent to a strong reflective boundary\n\nExplanation:\nThe video clip demonstrates the mirror-image artifact. In the view, the highly reflective diaphragm acts as a specular reflector. The liver parenchyma is seen above the diaphragm. Below the diaphragm, instead of seeing the true thoracic structures, a \"mirror image\" of the liver texture is projected into the thoracic cavity. This artifact occurs when the ultrasound beam reflects off the diaphragm into the liver, back to the diaphragm, and then to the transducer, causing the machine to misplace the liver echoes deeper than the diaphragm. The presence of this mirror-image artifact is a normal finding that confirms the presence of air-filled (aerated) lung on the other side of the diaphragm, as air is a strong reflector that prevents the sound waves from penetrating further to reveal true anatomy. Its absence is a key sign of pleural effusion or consolidation (the \"spine sign\").",
+      "latency_ms": 8187.56628036499,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.080000000000005,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on this later workflow segment, what step is the operator in, and what is the most appropriate next action?\nA. Finalizing the basal assessment; document the findings and proceed to scan the next required lung region\nB. Transitioning into the basal window; slide the probe inferiorly to identify the diaphragm and pleural line before continuing the sweep.\nC. Assessing for pleural effusion at the base; move to a posterolateral view and use a low-frequency curvilinear probe to estimate fluid depth.\nD. Confirming lung sliding; obtain an anterior intercostal view and use M‑mode to look for a seashore sign.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After sliding to the lung base, optimizing depth, confirming landmarks and checking for mirror-image artifact consistent with aerated lung, the operator concludes the lung base assessment and determines there is no effusion or pneumonia at that base.",
+    "time_start": 38.41,
+    "time_end": 82.36,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video shows the ultrasound probe scanning down the lateral chest wall. As the clip progresses, particularly towards the end (00:08 onwards), a distinct, curved hyperechoic structure appears at the bottom right of the screen, which moves with respiration. This structure is the diaphragm, and below it, the liver (or spleen depending on side, but texture suggests liver) comes into view. This visual evidence indicates the operator has moved inferiorly from the upper lung zones into the basal region (Zone 2 to Zone 3 transition or Zone 4 to Zone 8 depending on protocol).\n\nTherefore, the operator is currently **transitioning into the basal window**. The most appropriate next step in a systematic lung ultrasound exam is to **slide the probe inferiorly to clearly identify the diaphragm and the pleural line** just above it. This establishes the anatomical landmark for the lung base, allowing assessment for pathology like consolidations or effusions which settle in this gravity-dependent area.\n\n*   **Choice A** is incorrect because the diaphragm is just coming into view; the assessment isn't finalized yet.\n*   **Choice C** is a specific diagnostic maneuver for effusion, but the primary step here is establishing the window and landmarks first.\n*   **Choice D** describes checking for pneumothorax, typically done at the anterior chest wall, not the lung base where the diaphragm is the key landmark.",
+      "latency_ms": 10808.406114578247,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 43.95,
+    "keep": false
+  }
+]

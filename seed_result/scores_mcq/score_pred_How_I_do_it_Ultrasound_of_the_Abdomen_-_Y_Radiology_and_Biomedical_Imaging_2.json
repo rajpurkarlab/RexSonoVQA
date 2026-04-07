@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what is the primary purpose of the initial high-position sweep?\nA. To capture the superior boundary of the target organ at the start of a systematic survey\nB. To establish orientation by identifying nearby landmarks (e.g., diaphragm/pleura) before centering the target organ.\nC. To find the best acoustic window by scanning high between ribs to minimize shadowing and improve image quality.\nD. To quickly screen for fluid or pathology superior to the organ (e.g., subphrenic or pleural) before detailed evaluation.",
+    "answer": "A",
+    "groundtruth": "The probe is positioned at the superior aspect of the liver and the beam is swept through the top intercostal space. The goal is to initiate the exam at the top of the liver and visualize its superior margin.",
+    "time_start": 0.33,
+    "time_end": 8.74,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what is the primary purpose of the initial high-position sweep?\nA. To capture the superior boundary of the target organ at the start of a systematic survey\nB. To find the best acoustic window by scanning high between ribs to minimize shadowing and improve image quality.\nC. To establish orientation by identifying nearby landmarks (e.g., diaphragm/pleura) before centering the target organ.\nD. To quickly screen for fluid or pathology superior to the organ (e.g., subphrenic or pleural) before detailed evaluation.",
+    "original_answer": "A",
+    "original_time_start": 0.33,
+    "original_time_end": 8.74,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The initial high sweep first visualizes the hyperechoic diaphragm, a key anatomical landmark, to establish spatial orientation, before moving inferiorly to bring the target abdominal organ fully into view for further evaluation. This matches the visual sequence of the ultrasound probe movement in the clip.",
+      "latency_ms": 54218.8401222229,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.41
+  },
+  {
+    "question": "[MCQ] Based on the video clip, when the operator maintains the sweep angle rather than changing windows, what category of anatomy is being targeted?\nA. The organ\u2019s collecting system and major ductal drainage pathways\nB. Major arterial inflow branches supplying the organ\nC. Major venous outflow channels within the organ\nD. The primary portal/inflow venous trunk and its segmental branches",
+    "answer": "C",
+    "groundtruth": "The sweep angle is maintained to keep the imaging plane aligned for vascular visualization. The goal is to visualize the hepatic veins.",
+    "time_start": 21.88,
+    "time_end": 23.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, when the operator maintains the sweep angle rather than changing windows, what category of anatomy is being targeted?\nA. The organ\u2019s collecting system and major ductal drainage pathways\nB. The primary portal/inflow venous trunk and its segmental branches\nC. Major venous outflow channels within the organ\nD. Major arterial inflow branches supplying the organ",
+    "original_answer": "C",
+    "original_time_start": 21.88,
+    "original_time_end": 23.42,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe visualized branching anechoic structures within the solid organ parenchyma are consistent with the segmental branches of the portal (inflow venous) system. The sweep through the parenchyma demonstrates these inflow venous branches and their segmental distribution, matching option D.",
+      "latency_ms": 26691.429138183594,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 1.5400000000000027
+  },
+  {
+    "question": "[MCQ] Based on the video clip, this segment shows a rapid reposition followed by a sustained, optimized view. What broader workflow objective is being addressed?\nA. Optimizing the acoustic window to obtain a stable long-axis view of a solid organ for parenchymal assessment\nB. Repositioning to establish a steady view for planned real-time needle guidance during a procedural intervention\nC. Documenting a central vascular trunk and its branching in a stable plane\nD. Positioning and holding a standardized plane to perform spectral Doppler sampling of a target vessel for velocity measurement",
+    "answer": "C",
+    "groundtruth": "The probe is repositioned to an inferior rib space to obtain the main portal vein, then the view is held and optimized to show its bifurcation into right-sided branches. This sequence focuses on documenting portal venous anatomy clearly in a stable intercostal window.",
+    "time_start": 24.58,
+    "time_end": 37.82,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, this segment shows a rapid reposition followed by a sustained, optimized view. What broader workflow objective is being addressed?\nA. Repositioning to establish a steady view for planned real-time needle guidance during a procedural intervention\nB. Positioning and holding a standardized plane to perform spectral Doppler sampling of a target vessel for velocity measurement\nC. Documenting a central vascular trunk and its branching in a stable plane\nD. Optimizing the acoustic window to obtain a stable long-axis view of a solid organ for parenchymal assessment",
+    "original_answer": "C",
+    "original_time_start": 24.58,
+    "original_time_end": 37.82,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: No evidence of procedural intervention equipment, Doppler sampling tools, or focused documentation of a central vascular trunk and its branching is visible in the clip. The sustained stable view of the solid organ parenchyma after probe reposition matches the objective of optimizing the acoustic window for parenchymal assessment of the solid organ.",
+      "latency_ms": 69745.28384208679,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 13.240000000000002
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what technique is used to make a tissue-brightness comparison more reliable?\nA. Keeping both tissues in the same image plane under the same settings for direct comparison\nB. Adjust overall gain or TGC between views until each structure appears optimally bright before comparing\nC. Freeze and compare two separate images acquired at different depths or insonation angles\nD. Switch to tissue harmonic imaging or a different preset to enhance contrast, then judge relative echogenicity",
+    "answer": "A",
+    "groundtruth": "The view of the hepatorenal interface is maintained. This allows comparison of liver parenchymal echogenicity relative to the kidney cortex.",
+    "time_start": 48.59,
+    "time_end": 53.71,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what technique is used to make a tissue-brightness comparison more reliable?\nA. Freeze and compare two separate images acquired at different depths or insonation angles\nB. Switch to tissue harmonic imaging or a different preset to enhance contrast, then judge relative echogenicity\nC. Adjust overall gain or TGC between views until each structure appears optimally bright before comparing\nD. Keeping both tissues in the same image plane under the same settings for direct comparison",
+    "original_answer": "D",
+    "original_time_start": 48.59,
+    "original_time_end": 53.71,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nTo make tissue brightness (echogenicity) comparisons reliable, the two tissues being compared must be captured in the same image plane with identical ultrasound machine settings (gain, depth, TGC, presets, etc) so no variables alter relative brightness between the structures of interest, as seen with both tissues in view with unchanged settings across this clip. The other options introduce adjustments or separate acquisition conditions that distort relative brightness, making comparisons unreliable.",
+      "latency_ms": 32635.424852371216,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.119999999999997
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what examination behavior is emphasized in this later segment, and what is its main objective?\nA. Intermittent still-image acquisition with caliper measurements to document organ dimensions and standard anatomic landmarks\nB. Continuous sweeping to ensure complete volume coverage and avoid missing pathology\nC. Brief use of color Doppler over the area of interest to confirm vascularity and help differentiate vessels from nonvascular structures\nD. Targeted fanning/rocking through a single region to optimize the insonation angle and better characterize a suspected finding",
+    "answer": "B",
+    "groundtruth": "A continuous sweeping motion is maintained and the scan is taken through the entire liver volume. The purpose is dynamic interrogation with full organ coverage to avoid missing pathology.",
+    "time_start": 71.58,
+    "time_end": 82.51,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what examination behavior is emphasized in this later segment, and what is its main objective?\nA. Continuous sweeping to ensure complete volume coverage and avoid missing pathology\nB. Intermittent still-image acquisition with caliper measurements to document organ dimensions and standard anatomic landmarks\nC. Targeted fanning/rocking through a single region to optimize the insonation angle and better characterize a suspected finding\nD. Brief use of color Doppler over the area of interest to confirm vascularity and help differentiate vessels from nonvascular structures",
+    "original_answer": "A",
+    "original_time_start": 71.58,
+    "original_time_end": 82.51,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nFirst, eliminate other options: no calipers are present on screen, so A is incorrect; no color Doppler imaging is visible, so C is incorrect; the probe moves across broader anatomic areas rather than focusing/fanning only on a single small targeted region of suspected abnormality, so D is incorrect. The observed continuous sweeping probe movement is intended to cover the full anatomic volume of interest to avoid missing any pathology.",
+      "latency_ms": 91403.52702140808,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.930000000000007
+  }
+]

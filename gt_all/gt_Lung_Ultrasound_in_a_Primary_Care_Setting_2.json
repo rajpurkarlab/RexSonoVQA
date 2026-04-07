@@ -1,0 +1,50 @@
+[
+  {
+    "start": 1.07,
+    "end": 7.38,
+    "action": "Focus scanning attention on the center of the image.",
+    "interpretation": "Identify the 'hyperechoic horizontal line' located in the middle of the screen. Recognize this structure as the pleura."
+  },
+  {
+    "start": 7.4,
+    "end": 16.84,
+    "action": "Observe the pleural line for dynamic movement.",
+    "interpretation": "Look for 'shimmering of the pleura.' Interpret this as evidence of motion of the pleural layers sliding against each other. Conclude that 'there is no pneumothorax' based on this finding."
+  },
+  {
+    "start": 17.39,
+    "end": 23.47,
+    "action": "Inspect the lateral edges of the image flanking the pleural line.",
+    "interpretation": "Visualize 'ribbed shadows' on the sides of the pleura (acoustic shadowing from the ribs)."
+  },
+  {
+    "start": 27.04,
+    "end": 32.68,
+    "action": "Prepare to change imaging modality to 'M mode' or 'motion mode'.",
+    "interpretation": "Plan to use this modality to objectively confirm the motion of the pleura observed in 2D."
+  },
+  {
+    "start": 34.43,
+    "end": 37.21,
+    "action": "Activate M-mode cursor. 'Drop the line' directly in the middle of the screen.",
+    "interpretation": "Ensure the sampling line crosses the pleura and lung tissue."
+  },
+  {
+    "start": 38.57,
+    "end": 43.91,
+    "action": "Hold the probe absolutely still to maintain the slice. Freeze the image to capture the M-mode tracing.",
+    "interpretation": "Ensure stability to generate a clear graph without artifactual motion."
+  },
+  {
+    "start": 44.83,
+    "end": 52.37,
+    "action": "Analyze the near-field (top) of the frozen M-mode image.",
+    "interpretation": "Observe that the top of the image consists of 'all horizontal lines.' Interpret this pattern as signifying 'no motion over time' in the superficial layers."
+  },
+  {
+    "start": 53.17,
+    "end": 56.8,
+    "action": "Correlate the horizontal line pattern with the anatomical layers.",
+    "interpretation": "Identify this region as 'muscle and soft tissue.' Confirm this appearance is normal."
+  }
+]

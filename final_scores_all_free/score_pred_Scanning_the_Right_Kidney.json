@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement pattern is being performed through the target organ, and what diagnostic objective is it meant to address?",
+    "answer": "The operator sweeps through the kidney to survey the renal parenchyma. The goal is to look for obstructive findings such as collecting-system dilation (e.g., dilated calyces or renal pelvis).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps through the kidney to assess the renal parenchyma and specifically evaluate for signs of obstruction such as dilated calyces or a dilated renal pelvis.",
+    "time_start": 9.19,
+    "time_end": 17.74,
+    "model_prediction": "Based on the video, the probe movement pattern is a **fanning** or **sweeping** motion through the **spleen**.\n\nThe diagnostic objective of this movement is to interrogate the entire splenic parenchyma to look for any focal lesions, heterogeneity, or signs of injury (such as laceration or hematoma), which is a critical component of the FAST (Focused Assessment with Sonography for Trauma) exam in the left upper quadrant view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe movement pattern is a **fanning** or **sweeping** motion through the **spleen**.\n\nThe diagnostic objective of this movement is to interrogate the entire splenic parenchyma to look for any focal lesions, heterogeneity, or signs of injury (such as laceration or hematoma), which is a critical component of the FAST (Focused Assessment with Sonography for Trauma) exam in the left upper quadrant view.",
+      "latency_ms": 5738.192081451416,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.549999999999999,
+    "judge_explanation": "The AI correctly identified the movement pattern (sweeping/fanning) but misidentified the target organ as the spleen instead of the kidney. Consequently, the diagnostic objective provided (looking for splenic injury) contradicts the ground truth (looking for renal obstruction).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the view becomes suboptimal and a brief controlled inhalation is used. What optimization strategy is being shown, and why does it help?",
+    "answer": "The scan is timed with a small inspiration to shift the kidney inferiorly so it comes out from behind acoustic shadowing and into a clearer intercostal window.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "When the view is obscured by rib shadowing, the operator uses a small inspiratory breath to displace the anatomy inferiorly, moving the kidney out of the shadow and improving visualization.",
+    "time_start": 18.5,
+    "time_end": 29.35,
+    "model_prediction": "Based on the video clip, the optimization strategy being shown is a **deep breath (or inspiration) to use the liver as an acoustic window.**\n\n**Why it helps:**\nIn the initial part of the clip (around 00:00-00:03), a large vertical shadow obscures the view of the kidney, likely caused by a rib. As the patient takes a breath (visible by the downward movement of the diaphragm and organs), the liver moves inferiorly. This displacement pushes the rib shadow out of the way and brings the liver tissue over the kidney, providing a homogeneous \"acoustic window\" that allows sound waves to pass through clearly, revealing the kidney anatomy that was previously hidden.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the optimization strategy being shown is a **deep breath (or inspiration) to use the liver as an acoustic window.**\n\n**Why it helps:**\nIn the initial part of the clip (around 00:00-00:03), a large vertical shadow obscures the view of the kidney, likely caused by a rib. As the patient takes a breath (visible by the downward movement of the diaphragm and organs), the liver moves inferiorly. This displacement pushes the rib shadow out of the way and brings the liver tissue over the kidney, providing a homogeneous \"acoustic window\" that allows sound waves to pass through clearly, revealing the kidney anatomy that was previously hidden.",
+      "latency_ms": 7841.787099838257,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 10.850000000000001,
+    "judge_explanation": "The AI correctly identifies the optimization strategy (inspiration) and accurately explains why it helps (moving the organs inferiorly to displace the kidney away from rib shadowing and improve the acoustic window), which aligns well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transducer repositioning is performed to recover/improve the view, and what problem is it intended to solve?",
+    "answer": "The probe is moved down by one rib space and the sweep is continued. This changes the intercostal window to avoid persistent shadow/limited access and regain a clear view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator moves the probe down one rib space and continues sweeping to use an alternative intercostal window and maintain/regain visualization.",
+    "time_start": 33.16,
+    "time_end": 38.18,
+    "model_prediction": "Based on the video, the operator performs a subtle fanning or tilting motion of the transducer. This repositioning is intended to solve the problem of rib shadowing (acoustic shadowing from the ribs), which initially obscures the underlying kidney and liver interface, allowing for a clearer view of the organ parenchyma as the beam is angled between the rib spaces.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a subtle fanning or tilting motion of the transducer. This repositioning is intended to solve the problem of rib shadowing (acoustic shadowing from the ribs), which initially obscures the underlying kidney and liver interface, allowing for a clearer view of the organ parenchyma as the beam is angled between the rib spaces.",
+      "latency_ms": 5386.1682415008545,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.020000000000003,
+    "judge_explanation": "The AI correctly identifies the problem intended to be solved (rib shadowing/obscuration). However, it incorrectly identifies the specific transducer maneuver performed. The ground truth states the probe is moved down by one rib space (translation), whereas the AI describes a fanning or tilting motion.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what systematic coverage pattern is performed at the end of the scan, and what is the broader endpoint of this step?",
+    "answer": "The operator sweeps completely through the kidney from anterior to posterior to ensure full volume coverage. This final pass confirms the entire organ has been assessed before ending the exam.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator performs a complete anterior-to-posterior sweep through the kidney to ensure the entire organ volume is assessed, then concludes the exam.",
+    "time_start": 39.41,
+    "time_end": 46.9,
+    "model_prediction": "Based on the video clip, the sonographer performs a **\"fanning\"** or **\"sweeping\"** motion at the end of the scan.\n\nThe broader endpoint of this step is to systematically assess the **kidney** (likely the left kidney based on orientation) and the surrounding perirenal space to rule out hydronephrosis, masses, or free fluid. This fanning motion ensures the entire organ is visualized from pole to pole, rather than just a single cross-sectional slice.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer performs a **\"fanning\"** or **\"sweeping\"** motion at the end of the scan.\n\nThe broader endpoint of this step is to systematically assess the **kidney** (likely the left kidney based on orientation) and the surrounding perirenal space to rule out hydronephrosis, masses, or free fluid. This fanning motion ensures the entire organ is visualized from pole to pole, rather than just a single cross-sectional slice.",
+      "latency_ms": 5782.096862792969,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.490000000000002,
+    "judge_explanation": "The AI correctly identifies the systematic coverage pattern as a \"sweeping\" or \"fanning\" motion and correctly states the broader endpoint is to ensure the entire organ is visualized (full volume coverage), aligning well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

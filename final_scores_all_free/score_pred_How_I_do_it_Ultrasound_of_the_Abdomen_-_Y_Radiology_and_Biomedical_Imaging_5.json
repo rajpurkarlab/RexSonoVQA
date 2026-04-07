@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning and angulation strategy is being used, and what imaging objective is it meant to achieve?",
+    "answer": "The operator uses a subcostal window and keeps the probe slightly oblique rather than perfectly aligned with the body axis. The goal is to fully “open up” and capture the gallbladder in a complete long-axis (sagittal) view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is placed in the subcostal window and angled obliquely relative to the patient to open the gallbladder fully. This is done because the best sagittal gallbladder view often requires an oblique probe angle rather than a perfectly sagittal body-axis alignment.",
+    "time_start": 0.17,
+    "time_end": 26.48,
+    "model_prediction": "Based on the video clip, the sonographer is scanning in the **right upper quadrant (RUQ)** with the probe positioned subcostally or intercostally, utilizing a **fanning or sweeping motion**.\n\nThis strategy is used to achieve the following imaging objectives:\n1.  **Survey the Liver Parenchyma:** To visualize the liver texture and look for any masses or abnormalities.\n2.  **Evaluate the Gallbladder:** The sweeping motion brings the gallbladder (the anechoic, pear-shaped structure) into and out of view to assess its walls and check for stones or sludge.\n3.  **Visualize the Hepatic Vasculature:** The scan captures cross-sections of portal veins and hepatic veins as the probe fans through the tissue.\n4.  **Identify Morison's Pouch:** The interface between the liver and the right kidney is visualized to check for free fluid.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is scanning in the **right upper quadrant (RUQ)** with the probe positioned subcostally or intercostally, utilizing a **fanning or sweeping motion**.\n\nThis strategy is used to achieve the following imaging objectives:\n1.  **Survey the Liver Parenchyma:** To visualize the liver texture and look for any masses or abnormalities.\n2.  **Evaluate the Gallbladder:** The sweeping motion brings the gallbladder (the anechoic, pear-shaped structure) into and out of view to assess its walls and check for stones or sludge.\n3.  **Visualize the Hepatic Vasculature:** The scan captures cross-sections of portal veins and hepatic veins as the probe fans through the tissue.\n4.  **Identify Morison's Pouch:** The interface between the liver and the right kidney is visualized to check for free fluid.",
+      "latency_ms": 6761.337995529175,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 26.31,
+    "judge_explanation": "The AI correctly identifies the subcostal window and the general goal of evaluating the gallbladder. However, it provides a generic description of a RUQ survey (fanning, checking liver/kidney) rather than the specific technical answer found in the ground truth: using an oblique angulation to obtain a specific long-axis view of the gallbladder.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is the operator in, and what is the broader workflow objective of the next actions?",
+    "answer": "They are transitioning from one imaging plane to an orthogonal plane and then holding steady to confirm the new view. The workflow goal is to obtain and verify complementary long-axis/short-axis images of the gallbladder for a complete evaluation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator stays in the subcostal window and prepares to change planes, then rotates the probe 90 degrees and stabilizes it. This sequence is used to transition into and confirm a transverse view of the gallbladder as part of a standard multi-plane survey.",
+    "time_start": 35.63,
+    "time_end": 57.84,
+    "model_prediction": "Based on the visual evidence, the operator is currently performing a survey scan of the right upper quadrant, specifically visualizing the liver, gallbladder, and right kidney. This represents the initial assessment phase where the sonographer sweeps through the anatomy to get a general overview before capturing specific standard images.\n\nThe broader workflow objective of the next actions would be to begin the formal image acquisition protocol. This typically involves:\n1.  **Optimizing the image:** Adjusting gain, depth, and focal zones for the specific organ of interest (e.g., the liver or gallbladder).\n2.  **Documenting pathology or normality:** Freezing and saving representative images in standard planes (longitudinal and transverse) to formally document the findings for the radiologist's review. For example, obtaining a clear longitudinal view of the gallbladder to measure wall thickness or capturing representative images of the liver texture and kidney interface (Morison's pouch).",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the operator is currently performing a survey scan of the right upper quadrant, specifically visualizing the liver, gallbladder, and right kidney. This represents the initial assessment phase where the sonographer sweeps through the anatomy to get a general overview before capturing specific standard images.\n\nThe broader workflow objective of the next actions would be to begin the formal image acquisition protocol. This typically involves:\n1.  **Optimizing the image:** Adjusting gain, depth, and focal zones for the specific organ of interest (e.g., the liver or gallbladder).\n2.  **Documenting pathology or normality:** Freezing and saving representative images in standard planes (longitudinal and transverse) to formally document the findings for the radiologist's review. For example, obtaining a clear longitudinal view of the gallbladder to measure wall thickness or capturing representative images of the liver texture and kidney interface (Morison's pouch).",
+      "latency_ms": 6521.011114120483,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 22.21,
+    "judge_explanation": "The AI correctly identifies the broader workflow objective of obtaining standard images in longitudinal and transverse planes. However, it misinterprets the immediate action shown in the video clip. The Ground Truth specifies that the operator is transitioning to an orthogonal plane (rotating) and holding steady, whereas the AI incorrectly describes the action as a general \"sweep\" or \"survey scan.\"",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-optimization action is performed immediately after the plane change, and why is it done?",
+    "answer": "The operator stabilizes the probe and holds it steady after rotating. This reduces unintended drift and confirms that the transverse plane of the gallbladder is consistently maintained for interpretation.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After rotating into the transverse orientation, the operator stabilizes the probe. This is done to confirm and maintain the transverse gallbladder view without motion or plane drift.",
+    "time_start": 55.55,
+    "time_end": 57.84,
+    "model_prediction": "Based on the video, the action performed is the **adjustment of the focal zone (focus)**.\n\n**Reasoning:**\nAround the 1-second mark, just after the probe angle shifts slightly, a small triangular indicator on the right side of the screen (representing the focal zone depth) jumps from a deeper position to a more superficial position. This adjustment aligns the focus with the specific area of interest—in this case, the liver parenchyma and the portal vein structure being highlighted by the green arrow—to ensure the highest lateral resolution at that depth.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the action performed is the **adjustment of the focal zone (focus)**.\n\n**Reasoning:**\nAround the 1-second mark, just after the probe angle shifts slightly, a small triangular indicator on the right side of the screen (representing the focal zone depth) jumps from a deeper position to a more superficial position. This adjustment aligns the focus with the specific area of interest—in this case, the liver parenchyma and the portal vein structure being highlighted by the green arrow—to ensure the highest lateral resolution at that depth.",
+      "latency_ms": 10111.370086669922,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.2900000000000063,
+    "judge_explanation": "The AI provides a completely different answer (adjusting the focal zone) compared to the ground truth (stabilizing the probe). The ground truth emphasizes physical probe handling technique, while the AI hallucinates or incorrectly prioritizes a machine setting adjustment not mentioned in the ground truth.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": false
+  }
+]

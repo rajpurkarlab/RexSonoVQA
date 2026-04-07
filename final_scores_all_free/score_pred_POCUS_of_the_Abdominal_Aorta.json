@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation is being used at the start of the scan, and what is the immediate acquisition goal?",
+    "answer": "The probe is placed in a transverse orientation to immediately bring the target pulsatile vessel into view. The goal is to rapidly identify the aorta as the starting landmark for the exam.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe in a transverse position and immediately identifies the pulsatile aorta to establish the correct starting vessel view.",
+    "time_start": 0.96,
+    "time_end": 5.97,
+    "model_prediction": "Based on the video clip, the probe is initially in a **transverse orientation** with the goal of identifying the **vertebral body** to establish landmarks for a lumbar puncture or neuraxial anesthesia.\n\n**Explanation:**\nThe video begins with a transverse view of the lumbar spine. We can clearly see the hyperechoic, curved surface of the vertebral body (often described as looking like a \"bat\" or \"cat\" face in this plane) deep in the tissue. The operator then slides the probe (seen as the movement of the vertebral shadow) and likely rotates it into a paramedian or longitudinal orientation towards the end of the clip, as the recognizable transverse vertebral structure disappears and the view changes to a more longitudinal alignment of intervertebral spaces. The red dot appears to mark the target interspinous space.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is initially in a **transverse orientation** with the goal of identifying the **vertebral body** to establish landmarks for a lumbar puncture or neuraxial anesthesia.\n\n**Explanation:**\nThe video begins with a transverse view of the lumbar spine. We can clearly see the hyperechoic, curved surface of the vertebral body (often described as looking like a \"bat\" or \"cat\" face in this plane) deep in the tissue. The operator then slides the probe (seen as the movement of the vertebral shadow) and likely rotates it into a paramedian or longitudinal orientation towards the end of the clip, as the recognizable transverse vertebral structure disappears and the view changes to a more longitudinal alignment of intervertebral spaces. The red dot appears to mark the target interspinous space.",
+      "latency_ms": 8728.368043899536,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.01,
+    "judge_explanation": "The AI correctly identifies the transverse orientation but completely fails to identify the correct anatomy and clinical goal. The Ground Truth specifies the target is the aorta (a pulsatile vessel), whereas the AI incorrectly identifies the structure as a vertebral body and assumes the procedure is a lumbar puncture. This represents a complete failure in interpreting the visual evidence and the exam's purpose.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing when the image is frozen, and what is the purpose of this step?",
+    "answer": "They freeze the image to lock in a clear cross-sectional view. The purpose is to prepare for an accurate diameter measurement.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator freezes the image once a clear aorta view is obtained in order to prepare for measuring the aortic diameter.",
+    "time_start": 17.49,
+    "time_end": 26.43,
+    "model_prediction": "Based on the video, the operator is performing a measurement of the depth from the skin surface to a target structure, likely the epidural space or spinal canal.\n\nWhen the image freezes, the operator places a digital caliper (indicated by the small \"+\" or crosshair cursor) on the screen to measure the distance in centimeters. This step is crucial for estimating the depth required for a needle insertion, such as during a lumbar puncture or epidural anesthesia procedure.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a measurement of the depth from the skin surface to a target structure, likely the epidural space or spinal canal.\n\nWhen the image freezes, the operator places a digital caliper (indicated by the small \"+\" or crosshair cursor) on the screen to measure the distance in centimeters. This step is crucial for estimating the depth required for a needle insertion, such as during a lumbar puncture or epidural anesthesia procedure.",
+      "latency_ms": 5943.798065185547,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.940000000000001,
+    "judge_explanation": "The AI correctly identifies the general action and purpose: the operator is freezing the image to perform a measurement using calipers. However, the AI incorrectly identifies the specific type of measurement and anatomy. The ground truth specifies a 'diameter measurement' (implying the width of a structure, likely a vessel), while the AI describes measuring 'depth' to the 'epidural space' or 'spinal canal'. This represents a hallucination of the visual evidence/anatomy.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing after placing calipers, and what clinical judgment is this supporting?",
+    "answer": "They are reading/interpreting the diameter measurement they just obtained. This supports deciding whether the vessel caliber is normal versus abnormally enlarged.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After placing calipers, the operator reads the diameter measurement and interprets it as a normal-sized aorta at that level.",
+    "time_start": 40.54,
+    "time_end": 47.42,
+    "model_prediction": "Based on the video clip, the operator is performing an **Optic Nerve Sheath Diameter (ONSD)** measurement. After placing the calipers to measure the nerve sheath width (transverse diameter) 3 mm behind the globe, the operator is **swinging or fanning the probe slightly back and forth** to ensure the calipers are placed on the widest diameter of the nerve sheath at the correct depth. This dynamic assessment supports the clinical judgment of whether there is **elevated intracranial pressure (ICP)**, as an enlarged ONSD (>5 mm in adults) correlates with increased ICP.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing an **Optic Nerve Sheath Diameter (ONSD)** measurement. After placing the calipers to measure the nerve sheath width (transverse diameter) 3 mm behind the globe, the operator is **swinging or fanning the probe slightly back and forth** to ensure the calipers are placed on the widest diameter of the nerve sheath at the correct depth. This dynamic assessment supports the clinical judgment of whether there is **elevated intracranial pressure (ICP)**, as an enlarged ONSD (>5 mm in adults) correlates with increased ICP.",
+      "latency_ms": 7307.6488971710205,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.880000000000003,
+    "judge_explanation": "The AI misidentifies the anatomy and the clinical context. The ground truth specifies that a 'vessel' is being measured to assess its caliber (likely referring to the aorta or IVC), whereas the AI describes an Optic Nerve Sheath Diameter (ONSD) measurement for intracranial pressure. The optic nerve sheath is not a vessel, representing a fundamental mismatch in visual recognition and clinical judgment.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what adjustment is made to the measurement, and why does it improve the result?",
+    "answer": "The calipers are repositioned to better capture the true full width of the vessel. This improves measurement accuracy by ensuring the endpoints are correctly placed.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts caliper placement to better capture the full aortic width, acknowledging the prior placement could slightly overestimate and prioritizing safe measurement technique.",
+    "time_start": 48.12,
+    "time_end": 57.62,
+    "model_prediction": "Based on the video, the measurement caliper (labeled D3) is adjusted slightly downward or re-positioned to better align with the anterior-posterior diameter of the structure being measured, likely the aorta or a similar vessel. This adjustment improves the result by ensuring the measurement is taken perpendicular to the vessel walls at the widest point, providing a more accurate assessment of the true diameter rather than an oblique or off-center measurement.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the measurement caliper (labeled D3) is adjusted slightly downward or re-positioned to better align with the anterior-posterior diameter of the structure being measured, likely the aorta or a similar vessel. This adjustment improves the result by ensuring the measurement is taken perpendicular to the vessel walls at the widest point, providing a more accurate assessment of the true diameter rather than an oblique or off-center measurement.",
+      "latency_ms": 6169.634103775024,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 9.5,
+    "judge_explanation": "The AI correctly identifies that the calipers are repositioned to better align with the diameter of the vessel, ensuring a more accurate measurement of the true width. This matches the core meaning of the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is shown while keeping the same cross-sectional orientation, and what scanning objective does it serve?",
+    "answer": "The probe is slid along the abdomen while staying in transverse. The objective is to trace the vessel along its course to evaluate it at additional levels.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator drags the probe inferiorly toward the feet while maintaining a transverse orientation to scan down the length of the aorta.",
+    "time_start": 64.1,
+    "time_end": 67.04,
+    "model_prediction": "Based on the video, the probe movement shown is **sweeping** (also known as fanning or tilting), where the transducer remains in the same location on the skin but is tilted back and forth to angle the beam through a volume of tissue. This movement serves to survey a larger area of anatomy, allowing the operator to follow structures like vessels or nerves along their course without physically sliding the probe.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe movement shown is **sweeping** (also known as fanning or tilting), where the transducer remains in the same location on the skin but is tilted back and forth to angle the beam through a volume of tissue. This movement serves to survey a larger area of anatomy, allowing the operator to follow structures like vessels or nerves along their course without physically sliding the probe.",
+      "latency_ms": 7045.153856277466,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.940000000000012,
+    "judge_explanation": "The AI incorrectly identified the probe movement as sweeping (fanning) instead of sliding. The Ground Truth explicitly states the probe is slid along the abdomen to trace the vessel, whereas the AI claims the transducer remains in the same location and is tilted.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparative viewing strategy is being used across the image to confirm correct identification and orientation, and what is it meant to verify?",
+    "answer": "The operator visually checks different sides of the display and the deep posterior reference to ensure the correct vessel is centered and the anatomy is properly oriented. This helps confirm they are tracking the intended artery rather than a nearby vein.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator inspects the right side of the screen to visualize the aorta, then inspects the left side and posterior field to see the neighboring vessel (IVC partially) and re-identify the vertebral shadow to confirm orientation.",
+    "time_start": 91.32,
+    "time_end": 101.49,
+    "model_prediction": "Based on the video, the comparative viewing strategy being used involves **tracing a vascular structure (likely the aorta or IVC) longitudinally along its length** to verify anatomical relationships and confirm identity. The moving orange dot highlights this strategy by following the vessel's course, likely to verify its connection to other structures (such as branching vessels or the heart) and to distinguish it from adjacent tubular structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the comparative viewing strategy being used involves **tracing a vascular structure (likely the aorta or IVC) longitudinally along its length** to verify anatomical relationships and confirm identity. The moving orange dot highlights this strategy by following the vessel's course, likely to verify its connection to other structures (such as branching vessels or the heart) and to distinguish it from adjacent tubular structures.",
+      "latency_ms": 6424.4420528411865,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 10.170000000000002,
+    "judge_explanation": "The AI correctly identifies the general purpose of the strategy (verifying identity and distinguishing from adjacent structures). However, the description of the visual strategy itself is incorrect. The AI describes 'tracing a vascular structure longitudinally,' whereas the ground truth specifies that the operator 'visually checks different sides of the display and the deep posterior reference.'",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to reach by continuously sliding in one direction and then briefly holding position, and why is that endpoint important in the workflow?",
+    "answer": "They are tracking the vessel to its distal endpoint where it divides and then holding to document that level. This endpoint is important to complete the distal portion of the survey before changing scan planes.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator drags the probe distally to follow the aorta until it splits, then holds at that split to visualize the bifurcation point.",
+    "time_start": 108.28,
+    "time_end": 120.4,
+    "model_prediction": "Based on the visual evidence, the operator is sliding the probe caudally along the spine, starting from the thoracic region, trying to reach the sacrum. This endpoint is important in the workflow because visualizing the sacrum (specifically the L5-S1 junction) confirms the caudal limit of the scan, allowing the operator to then count up from L5 to accurately identify specific lumbar vertebral levels for procedures like lumbar puncture or epidural anesthesia.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the operator is sliding the probe caudally along the spine, starting from the thoracic region, trying to reach the sacrum. This endpoint is important in the workflow because visualizing the sacrum (specifically the L5-S1 junction) confirms the caudal limit of the scan, allowing the operator to then count up from L5 to accurately identify specific lumbar vertebral levels for procedures like lumbar puncture or epidural anesthesia.",
+      "latency_ms": 7189.170122146606,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.120000000000005,
+    "judge_explanation": "The AI completely misidentified the anatomy and the procedure. The ground truth describes tracking a vessel to its distal bifurcation, whereas the AI describes scanning the spine to find the sacrum. These are unrelated exams.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what two-handed probe maneuver is shown, and what is the imaging goal of doing it this way?",
+    "answer": "The probe is rotated about 90 degrees with a two-handed technique while keeping the vessel continuously on screen. The goal is to transition into a stable longitudinal view without losing the target.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Using two hands, the operator rotates the probe 90 degrees so the marker points toward the patient’s head, maintaining visualization of the aorta throughout the rotation to obtain a longitudinal view.",
+    "time_start": 150.86,
+    "time_end": 160.48,
+    "model_prediction": "Based on the video, the two-handed probe maneuver shown is compression of the abdomen, specifically aimed at displacing bowel gas to visualize the underlying structures, likely the aorta or other retroperitoneal vessels. The operator is pressing firmly and steadily with the probe to push the gas-filled bowel loops aside, which otherwise obscure the view with \"dirty shadowing\" and interference, allowing for a clearer window to the deeper anatomical structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the two-handed probe maneuver shown is compression of the abdomen, specifically aimed at displacing bowel gas to visualize the underlying structures, likely the aorta or other retroperitoneal vessels. The operator is pressing firmly and steadily with the probe to push the gas-filled bowel loops aside, which otherwise obscure the view with \"dirty shadowing\" and interference, allowing for a clearer window to the deeper anatomical structures.",
+      "latency_ms": 6558.053016662598,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.619999999999976,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as compression to displace bowel gas, whereas the ground truth identifies it as a 90-degree rotation to transition to a longitudinal view. Both the description of the action and the goal are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient-positioning and probe-pressure strategy is used to improve the view, and what problem is it intended to overcome?",
+    "answer": "The patient bends their knees while the operator applies firm downward pressure and waits briefly. This is intended to improve the acoustic window by displacing interfering bowel gas.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "To troubleshoot poor visualization from bowel gas in the sagittal view, the operator has the patient bend their knees, presses down firmly, and waits for gas to shift.",
+    "time_start": 187.31,
+    "time_end": 204.77,
+    "model_prediction": "Based on the video, the strategy employed is having the patient take a deep breath (inspiration) while the probe applies pressure. This technique is intended to displace bowel gas, which creates shadowing and obscures underlying structures, thereby improving the acoustic window to visualize deeper abdominal anatomy such as the aorta or inferior vena cava.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the strategy employed is having the patient take a deep breath (inspiration) while the probe applies pressure. This technique is intended to displace bowel gas, which creates shadowing and obscures underlying structures, thereby improving the acoustic window to visualize deeper abdominal anatomy such as the aorta or inferior vena cava.",
+      "latency_ms": 13015.428066253662,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 17.460000000000008,
+    "judge_explanation": "The AI correctly identifies the problem (interfering bowel gas) and the use of probe pressure. However, it incorrectly identifies the patient positioning strategy as taking a deep breath (inspiration) instead of the ground truth's specific instruction of bending the knees to relax the abdominal muscles.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what final confirmation step is performed before continuing the exam, and what broader scanning objective does it support?",
+    "answer": "A brief side-to-side sweep is used to confirm which vessel is which after the longitudinal scan segment. This ensures the operator continues evaluating and measuring the intended artery rather than the neighboring vein.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After scanning inferiorly in sagittal and troubleshooting, the operator identifies the IVC by sliding right, then slides back left to confirm the aorta, using this sweep as a quick confirmation before proceeding.",
+    "time_start": 179.93,
+    "time_end": 223.04,
+    "model_prediction": "Based on the video clip, the final confirmation step performed is the activation of **color Doppler imaging** (often just called \"color flow\"). This step is used to confirm the absence or presence of blood flow within the visualized structures.\n\nThe broader scanning objective this supports is differentiating between vascular structures (like the aorta or IVC) and fluid-filled, non-vascular structures (like the gallbladder, cysts, or bowel loops), ensuring the correct anatomical target is identified before proceeding with diagnosis or measurements.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the final confirmation step performed is the activation of **color Doppler imaging** (often just called \"color flow\"). This step is used to confirm the absence or presence of blood flow within the visualized structures.\n\nThe broader scanning objective this supports is differentiating between vascular structures (like the aorta or IVC) and fluid-filled, non-vascular structures (like the gallbladder, cysts, or bowel loops), ensuring the correct anatomical target is identified before proceeding with diagnosis or measurements.",
+      "latency_ms": 17962.91208267212,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 43.109999999999985,
+    "judge_explanation": "The AI incorrectly identifies the final confirmation step as the activation of color Doppler imaging, whereas the ground truth states that a brief side-to-side sweep is performed. Consequently, the AI's explanation of the broader objective (differentiating vascular vs. non-vascular) does not match the ground truth's objective (distinguishing the artery from the vein).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

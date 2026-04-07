@@ -1,0 +1,208 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what phase of the exam is the operator performing across this segment?\nA. Confirming venous patency with color Doppler after identifying the target vessel in short axis\nB. Initial vessel localization followed by confirming depth/orientation using a posterior landmark\nC. Performing dynamic compression to distinguish a vein from an adjacent artery and assess for thrombosis\nD. Transitioning into a long-axis view to align the probe for in-plane needle guidance once the vessel is found",
+    "answer": "B",
+    "groundtruth": "After placing the probe transversely and finding the aorta, the operator checks posterior landmarks to confirm the depth is appropriate and the view is correctly oriented.",
+    "time_start": 0.96,
+    "time_end": 15.96,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what phase of the exam is the operator performing across this segment?\nA. Performing dynamic compression to distinguish a vein from an adjacent artery and assess for thrombosis\nB. Transitioning into a long-axis view to align the probe for in-plane needle guidance once the vessel is found\nC. Confirming venous patency with color Doppler after identifying the target vessel in short axis\nD. Initial vessel localization followed by confirming depth/orientation using a posterior landmark",
+    "original_answer": "D",
+    "original_time_start": 0.96,
+    "original_time_end": 15.96,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The probe is observed rotating to transition the vessel view from a short-axis (cross-sectional) orientation to a long-axis (elongated, lengthwise) orientation, which is standard practice to align the probe for in-plane needle guidance once the target vessel has been initially identified. No color Doppler, dynamic compression, or use of a posterior landmark for depth confirmation is demonstrated in the clip.",
+      "latency_ms": 354494.9219226837,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being checked on the ultrasound image, and why?\nA. The pleural line, to confirm probe placement and assess for lung sliding at the surface.\nB. The diaphragm and subdiaphragmatic organs, to verify you are scanning the correct hemithorax and window.\nC. A deep posterior landmark to confirm adequate imaging depth\nD. The rib shadows and intercostal space, to ensure the beam is centered between ribs and minimize acoustic shadowing.",
+    "answer": "C",
+    "groundtruth": "The operator assesses posterior landmarks—specifically the vertebral body/shadow—to verify that the depth is set appropriately (about 10 cm) for the abdominal aorta view.",
+    "time_start": 7.15,
+    "time_end": 15.96,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what is being checked on the ultrasound image, and why?\nA. The pleural line, to confirm probe placement and assess for lung sliding at the surface.\nB. The rib shadows and intercostal space, to ensure the beam is centered between ribs and minimize acoustic shadowing.\nC. A deep posterior landmark to confirm adequate imaging depth\nD. The diaphragm and subdiaphragmatic organs, to verify you are scanning the correct hemithorax and window.",
+    "original_answer": "C",
+    "original_time_start": 7.15,
+    "original_time_end": 15.96,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe orange marker is moving across a deep, posterior (far-field) structure on the 15 cm depth ultrasound view, which is consistent with checking that the imaging depth is set sufficiently to visualize relevant deep posterior landmarks, confirming adequate depth for the exam. The other options are incorrect: pleural lines/rib shadows are superficial (near the probe at the top of the image, not where the marker is moving), and no clear diaphragm or subdiaphragmatic organs are identifiable to support option B.",
+      "latency_ms": 479645.1768875122,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what measurement technique is being performed with the calipers?\nA. Measuring maximal diameter from inner wall to inner wall (luminal diameter)\nB. Tracing the structure’s perimeter to calculate cross-sectional area rather than a single linear diameter\nC. Measuring diameter using the leading-edge to leading-edge convention (anterior wall leading edge to posterior wall leading edge)\nD. Measuring maximal diameter from outer wall to outer wall",
+    "answer": "D",
+    "groundtruth": "With calipers activated, the operator places them on the outer walls of the aorta to measure the diameter.",
+    "time_start": 27.27,
+    "time_end": 39.0,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what measurement technique is being performed with the calipers?\nA. Tracing the structure’s perimeter to calculate cross-sectional area rather than a single linear diameter\nB. Measuring maximal diameter from inner wall to inner wall (luminal diameter)\nC. Measuring diameter using the leading-edge to leading-edge convention (anterior wall leading edge to posterior wall leading edge)\nD. Measuring maximal diameter from outer wall to outer wall",
+    "original_answer": "D",
+    "original_time_start": 27.27,
+    "original_time_end": 39.0,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe measurement uses the standard ultrasound leading-edge to leading-edge convention: the anterior caliper is placed on the leading (first, proximal to probe) edge of the anterior wall, and the posterior caliper is placed on the leading (first, proximal to probe) edge of the posterior wall, which is the accepted method for linear diameter measurements in many ultrasound applications (e.g., aortic measurement). We can see this linear caliper placement matching this convention, not inner/inner, outer/outer, or area tracing.",
+      "latency_ms": 83975.08907318115,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the next workflow step immediately after completing a measurement?\nA. Annotate the image with vessel segment and measurement details for documentation\nB. Reposition the probe to obtain an orthogonal view and repeat the measurement for confirmation\nC. Unfreeze and continue scanning along the vessel\nD. Store the measured image/clip to the patient exam before moving on",
+    "answer": "C",
+    "groundtruth": "The operator unfreezes the image and resumes scanning to continue evaluating the aorta beyond the initial measurement point.",
+    "time_start": 61.04,
+    "time_end": 67.04,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what is the next workflow step immediately after completing a measurement?\nA. Annotate the image with vessel segment and measurement details for documentation\nB. Reposition the probe to obtain an orthogonal view and repeat the measurement for confirmation\nC. Store the measured image/clip to the patient exam before moving on\nD. Unfreeze and continue scanning along the vessel",
+    "original_answer": "D",
+    "original_time_start": 61.04,
+    "original_time_end": 67.04,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nAfter completing an ultrasound measurement, the immediate next step is annotating the image with relevant details (the specific vessel segment, type of measurement, and measurement values) to ensure the measurement has clinical context for accurate documentation before the image is stored or scanning proceeds.",
+      "latency_ms": 265067.2149658203,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is performed to regain a clearer view, and what is it intended to address?\nA. Ask the patient to take a deep inspiration to shift the target into a better acoustic window and reduce rib shadowing\nB. Activate tissue harmonic imaging and adjust the focal zone to reduce near-field clutter and improve edge definition\nC. Decrease imaging depth and increase overall gain to compensate for attenuation from deeper structures\nD. Firm pressure with gentle fanning to improve the acoustic window by shifting interfering contents",
+    "answer": "D",
+    "groundtruth": "When the aorta view is obscured, the operator applies constant firm pressure and gently fans the probe to move bowel gas and restore visualization.",
+    "time_start": 69.28,
+    "time_end": 83.77,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 69.28,
+    "original_time_end": 83.77,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The imaging depth remains constant at 15cm throughout the clip, no imaging setting adjustments (like focal zone/gain changes) are visible, and no cue for patient inspiration is seen. Visible probe movement consistent with firm pressure and gentle fanning is observed, which is intended to shift interfering overlying structures (such as bowel gas) out of the acoustic window to improve image clarity.",
+      "latency_ms": 1491929.0208816528,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine control is adjusted, and why does it help in this moment?\nA. Narrowing the sector width to boost frame rate and improve real-time visualization during probe motion\nB. Decreasing imaging depth to better frame the target region\nC. Moving the focal zone to the level of interest to improve lateral resolution of the target structure\nD. Reducing overall gain to decrease far-field clutter and improve contrast of the target region",
+    "answer": "B",
+    "groundtruth": "The operator decreases the depth setting to optimize the image by reducing unnecessary far-field and improving framing of the aorta.",
+    "time_start": 84.99,
+    "time_end": 88.42,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what machine control is adjusted, and why does it help in this moment?\nA. Moving the focal zone to the level of interest to improve lateral resolution of the target structure\nB. Reducing overall gain to decrease far-field clutter and improve contrast of the target region\nC. Decreasing imaging depth to better frame the target region\nD. Narrowing the sector width to boost frame rate and improve real-time visualization during probe motion",
+    "original_answer": "C",
+    "original_time_start": 84.99,
+    "original_time_end": 88.42,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe depth indicator at the bottom right of the screen decreases from 15 cm to ~11.8 cm over the course of the clip, meaning imaging depth is reduced. This adjustment removes unnecessary far-field noise from the display and enlarges the region of interest (the superficial/upper mid-field structures) to frame it better for evaluation.",
+      "latency_ms": 220900.72870254517,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe motion is being used, and what is its purpose?\nA. Rocking (heel-toe) to optimize the insonation angle and improve border definition of the target structure\nB. Rotating the probe to switch between short- and long-axis views for confirmation of the target anatomy\nC. Fanning back and forth to bring the target anatomy into the best plane\nD. Sliding the probe to relocate the structure after losing it and re-center it in the field of view",
+    "answer": "C",
+    "groundtruth": "At the distal split, the operator fans the probe back and forth to clarify the anatomy so it is clearly visible on the screen.",
+    "time_start": 120.54,
+    "time_end": 124.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe motion is being used, and what is its purpose?\nA. Sliding the probe to relocate the structure after losing it and re-center it in the field of view\nB. Fanning back and forth to bring the target anatomy into the best plane\nC. Rocking (heel-toe) to optimize the insonation angle and improve border definition of the target structure\nD. Rotating the probe to switch between short- and long-axis views for confirmation of the target anatomy",
+    "original_answer": "B",
+    "original_time_start": 120.54,
+    "original_time_end": 124.42,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe probe is performing a fanning motion (angling side-to-side while maintaining position on the skin surface, as evidenced by the fixed probe entry point at the top of the image and sweeping change in visualized anatomy across the field of view). This motion is used to sweep the ultrasound beam through adjacent tissue planes to identify and position the target anatomy in its optimal imaging plane.",
+      "latency_ms": 291786.52811050415,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what multi-step transition is the operator performing in this segment?\nA. Centering the vessel in a longitudinal view, then rotating the probe to a transverse (short-axis) view while maintaining the lumen on screen\nB. Centering and aligning the target, then rotating the probe to switch from transverse to longitudinal while keeping the vessel in view\nC. Sliding the probe along the vessel to follow its course, then fanning to optimize patency and wall definition without changing imaging plane\nD. Applying a heel-toe maneuver to bring the vessel into the center of the image, then sweeping cranially–caudally in the transverse plane to confirm continuity",
+    "answer": "B",
+    "groundtruth": "The operator prepares to switch to the sagittal plane by centering the vessel, aligning it with a posterior landmark, and then rotating the probe 90° with the marker toward the head while maintaining visualization.",
+    "time_start": 132.21,
+    "time_end": 160.48,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 132.21,
+    "original_time_end": 160.48,
+    "model_prediction": "",
+    "inference_metadata": {
+      "raw_response": "",
+      "latency_ms": 1807100.7618904114,
+      "success": false,
+      "error_message": "Request timed out.",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, why does the operator deliberately scan the vessel completely in the longitudinal plane?\nA. To look for long-segment luminal narrowing or intraluminal thrombus that may be harder to follow in a single transverse slice.\nB. To reduce the chance of missing a focal outpouching that could be skipped in cross-sectional sweeps\nC. To keep the Doppler beam more parallel to flow for consistent spectral velocity measurements along the vessel.\nD. To better appreciate the course of the vessel and confirm it is the correct structure before taking diameter measurements.",
+    "answer": "B",
+    "groundtruth": "The operator scans the aorta completely in the sagittal plane to ensure abnormalities such as saccular aneurysms are not missed by relying only on transverse views.",
+    "time_start": 161.83,
+    "time_end": 175.12,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, why does the operator deliberately scan the vessel completely in the longitudinal plane?\nA. To look for long-segment luminal narrowing or intraluminal thrombus that may be harder to follow in a single transverse slice.\nB. To better appreciate the course of the vessel and confirm it is the correct structure before taking diameter measurements.\nC. To keep the Doppler beam more parallel to flow for consistent spectral velocity measurements along the vessel.\nD. To reduce the chance of missing a focal outpouching that could be skipped in cross-sectional sweeps",
+    "original_answer": "D",
+    "original_time_start": 161.83,
+    "original_time_end": 175.12,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: A complete longitudinal sweep of a vessel allows visualization of the full length of the vessel lumen, making it easy to identify and characterize long-segment narrowing or extended intraluminal thrombus that would be difficult to assess the full extent of in individual transverse cross-sectional slices. The provided grayscale ultrasound has no Doppler (eliminating option C), focal outpouchings are well detected in transverse sweeps (eliminating B), and full scanning of the entire vessel is not required just to confirm vessel course for diameter measurements (eliminating D).",
+      "latency_ms": 607867.2850131989,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what verification maneuver is performed to resolve uncertainty between two adjacent tubular structures?\nA. Sliding laterally to isolate one structure, then sweeping back to confirm the other\nB. Apply color Doppler to identify flow in one structure and confirm the adjacent structure lacks flow\nC. Trace each tubular structure proximally and distally to confirm its anatomic continuity and branching pattern\nD. Rotate the transducer 90° into short axis and use graded compression to distinguish a compressible vein from a noncompressible artery",
+    "answer": "A",
+    "groundtruth": "The operator slides the probe toward the patient’s right to isolate the IVC, then slides back toward the left to confirm the aorta, using this sweep as a quick anatomy check.",
+    "time_start": 205.71,
+    "time_end": 218.66,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what verification maneuver is performed to resolve uncertainty between two adjacent tubular structures?\nA. Rotate the transducer 90° into short axis and use graded compression to distinguish a compressible vein from a noncompressible artery\nB. Apply color Doppler to identify flow in one structure and confirm the adjacent structure lacks flow\nC. Trace each tubular structure proximally and distally to confirm its anatomic continuity and branching pattern\nD. Sliding laterally to isolate one structure, then sweeping back to confirm the other",
+    "original_answer": "D",
+    "original_time_start": 205.71,
+    "original_time_end": 218.66,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: No color Doppler is visible in the grayscale video, eliminating option B, and no 90° rotation to a short axis view occurs, eliminating option D. The probe movement sweeps along the length of the tubular structures to trace their course, consistent with tracing each structure proximally/distally to confirm anatomic continuity, rather than sliding laterally to isolate structures as described in option A.",
+      "latency_ms": 1014359.9910736084,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

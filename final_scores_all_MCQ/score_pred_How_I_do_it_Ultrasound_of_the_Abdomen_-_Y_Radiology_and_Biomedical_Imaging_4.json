@@ -1,0 +1,189 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe orientation adjustment is being performed, and what is the imaging objective?\nA. Slide the probe laterally while maintaining the same orientation to use an adjacent organ as an acoustic window and reduce bowel gas artifact.\nB. Angle the probe cephalad without rotation to center the organ’s head region and optimize visualization of nearby vessels with color Doppler.\nC. Slight clockwise rotation with a gentle heel-toe to obtain a true short-axis (transverse) view of the target organ.\nD. Slight counterclockwise obliquing while angling down to align the target organ’s long axis",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe high in the epigastrium, angles it inferiorly, and obliques slightly counterclockwise to better align the imaging plane with the pancreatic axis.",
+    "time_start": 0.25,
+    "time_end": 10.56,
+    "original_question": "[MCQ] Based on the video clip, what probe orientation adjustment is being performed, and what is the imaging objective?\nA. Slight counterclockwise obliquing while angling down to align the target organ’s long axis\nB. Slight clockwise rotation with a gentle heel-toe to obtain a true short-axis (transverse) view of the target organ.\nC. Slide the probe laterally while maintaining the same orientation to use an adjacent organ as an acoustic window and reduce bowel gas artifact.\nD. Angle the probe cephalad without rotation to center the organ’s head region and optimize visualization of nearby vessels with color Doppler.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Slight counterclockwise obliquing while angling down to align the target organ’s long axis\n\nExplanation:\nThe video shows an attempt to image the pancreas. The initial view shows vascular landmarks (splenic vein, SMA, aorta) but the pancreas body and tail are not fully aligned. The subtle adjustment seen on screen involves changing the probe's angle slightly counterclockwise (obliquing) and angling inferiorly. This is a classic maneuver to align the probe with the long axis of the pancreas, which lies somewhat obliquely in the retroperitoneum, stretching from lower (head) to higher (tail). By slightly rotating counterclockwise and angling, the operator is trying to elongate the view of the pancreatic body and tail over the splenic vein.",
+      "latency_ms": 6497.229099273682,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.31,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is being used, and why?\nA. Fanning/tilting the probe in place to interrogate a focal area in multiple planes to optimize a specific finding.\nB. Sliding the probe along the skin to keep a similar plane while relocating to center a target structure, not to ensure full organ coverage.\nC. Capturing sequential static images at set intervals to document key anatomic landmarks rather than sweeping continuously.\nD. Performing a continuous sweep through the organ to ensure full coverage",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps through the entire pancreas rather than capturing static images of only the splenic vein, ensuring full anatomic coverage to avoid missing pathology on a single slice.",
+    "time_start": 32.93,
+    "time_end": 46.62,
+    "original_question": "[MCQ] Based on the video clip, what scanning strategy is being used, and why?\nA. Performing a continuous sweep through the organ to ensure full coverage\nB. Capturing sequential static images at set intervals to document key anatomic landmarks rather than sweeping continuously.\nC. Fanning/tilting the probe in place to interrogate a focal area in multiple planes to optimize a specific finding.\nD. Sliding the probe along the skin to keep a similar plane while relocating to center a target structure, not to ensure full organ coverage.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Performing a continuous sweep through the organ to ensure full coverage\n\nExplanation: The video demonstrates a continuous sweeping motion of the ultrasound probe across the abdomen. The view translates horizontally, moving through the anatomy of the pancreas and surrounding vasculature (splenic vein, SMA, aorta) in a smooth, continuous manner rather than focusing on a single spot or jumping between static locations. This technique is used to visualize the entire extent of an organ or region to ensure no pathology is missed.",
+      "latency_ms": 6185.769081115723,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.689999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what gross probe motion pattern is being performed, and what is the goal of that movement?\nA. Rotating the probe about 90° to obtain an orthogonal (short-axis/transverse) view for anatomic confirmation.\nB. A systematic sweep along the organ’s length to cover it end-to-end\nC. Sliding the probe slightly to bring an adjacent landmark organ or vessel into the same window to verify orientation.\nD. Fanning/rocking the probe through the organ in place to interrogate its depth and look for focal lesions.",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans along the pancreas from the head/uncinate region through to the tail to visualize the full length of pancreatic anatomy.",
+    "time_start": 49.91,
+    "time_end": 58.32,
+    "original_question": "[MCQ] Based on the video clip, what gross probe motion pattern is being performed, and what is the goal of that movement?\nA. A systematic sweep along the organ’s length to cover it end-to-end\nB. Rotating the probe about 90° to obtain an orthogonal (short-axis/transverse) view for anatomic confirmation.\nC. Fanning/rocking the probe through the organ in place to interrogate its depth and look for focal lesions.\nD. Sliding the probe slightly to bring an adjacent landmark organ or vessel into the same window to verify orientation.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nThe video demonstrates a systematic sweep (sliding movement) along the length of the pancreas. The probe moves horizontally to visualize the entire organ from the tail (on the patient's left/screen right) through the body and towards the head and uncinate process (on the patient's right/screen left). The goal is to survey the organ end-to-end to assess the parenchyma and ductal system completely.",
+      "latency_ms": 5296.27799987793,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.410000000000004,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being measured with on-screen calipers, and what is the clinical intent?\nA. Gallbladder wall thickness to evaluate for acute cholecystitis\nB. Duct caliber to assess for dilatation\nC. Inferior vena cava diameter to estimate intravascular volume status\nD. Portal vein diameter to screen for portal hypertension",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator visualizes the pancreatic duct and assesses its diameter, using a normal cutoff of about 2 mm to help determine whether the duct is dilated.",
+    "time_start": 88.91,
+    "time_end": 103.87,
+    "original_question": "[MCQ] Based on the video clip, what is being measured with on-screen calipers, and what is the clinical intent?\nA. Duct caliber to assess for dilatation\nB. Gallbladder wall thickness to evaluate for acute cholecystitis\nC. Portal vein diameter to screen for portal hypertension\nD. Inferior vena cava diameter to estimate intravascular volume status",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B. Duct caliber to assess for dilatation\n\nExplanation:\nThe video shows a measurement being taken of an anechoic, tubular structure (the common bile duct) located anterior to the portal vein. The calipers measure the inner-to-inner diameter of this duct. This is a standard measurement used to assess for biliary obstruction or dilatation. The structure being measured is the common bile duct, which lies anterior to the portal vein in this view (the \"Mickey Mouse sign\" or parallel channel sign), and measuring its caliber is key for diagnosing conditions like choledocholithiasis or other causes of biliary obstruction.",
+      "latency_ms": 6489.658832550049,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 14.960000000000008,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow objective best matches the sequence of evaluation in this segment?\nA. Applying color Doppler to verify adjacent vessel patency and distinguish vascular from nonvascular structures.\nB. Alternating between orthogonal planes to confirm overall organ orientation before detailed evaluation.\nC. Identifying a key vascular landmark (e.g., portal vein or IVC) to localize the organ’s head region.\nD. Distinguishing key anterior vs posterior structures adjacent to the organ’s head region",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator inspects the anterior aspect of the pancreatic head to identify the gastroduodenal artery, then inspects the posterior aspect to identify the common bile duct.",
+    "time_start": 117.23,
+    "time_end": 138.32,
+    "original_question": "[MCQ] Based on the video clip, what workflow objective best matches the sequence of evaluation in this segment?\nA. Distinguishing key anterior vs posterior structures adjacent to the organ’s head region\nB. Alternating between orthogonal planes to confirm overall organ orientation before detailed evaluation.\nC. Identifying a key vascular landmark (e.g., portal vein or IVC) to localize the organ’s head region.\nD. Applying color Doppler to verify adjacent vessel patency and distinguish vascular from nonvascular structures.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the workflow objective that best matches the sequence is:\n\nAnswer: A. Applying color Doppler to verify adjacent vessel patency and distinguish vascular from nonvascular structures.\n\n**Explanation:**\nThe video begins with a B-mode (grayscale) evaluation identifying the \"Head\" and \"Uncinate\" process of the pancreas. The operator then activates color Doppler to visualize blood flow. This step is critical in pancreatic ultrasound to differentiate the pancreatic tissue (nonvascular/low flow) from the major adjacent vessels like the superior mesenteric vein/portal vein confluence and superior mesenteric artery, and to confirm these vessels are patent (open and flowing). The green arrow specifically highlights flow within the gastroduodenal artery (GDA) in the head of the pancreas, further distinguishing vascular landmarks from the glandular tissue.",
+      "latency_ms": 6173.931121826172,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 21.08999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is performed after identifying a tubular target, and what is the purpose?\nA. Rotating to align long-axis with the tube to elongate it and follow its course\nB. Apply graded compression over the structure to assess compressibility and tenderness at the point of maximal pain.\nC. Slide the probe to center an adjacent artery/vein to use as a landmark for orientation before further evaluation.\nD. Turn on color Doppler while keeping the same plane to confirm whether the tubular structure is vascular.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After finding the common bile duct, the operator rotates the probe to be sagittal relative to the duct, elongating it to trace its course toward the liver.",
+    "time_start": 138.34,
+    "time_end": 153.91,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video begins with a transverse (short-axis) view of a small tubular structure (indicated by the green arrow), seen as a circle. The clinician then rotates the probe approximately 90 degrees. This maneuver transforms the circular cross-section into a long, linear structure, effectively elongating the tube to visualize it in its longitudinal axis and follow its course.",
+      "latency_ms": 5571.162939071655,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.569999999999993,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what major plane change is being performed, and what does it accomplish?\nA. Angling/heel-toeing the probe to align with the organ’s true long axis and minimize foreshortening.\nB. A 90° rotation to obtain short-axis (transverse) images of the organ\nC. Fanning/rocking the probe to sweep through the organ while staying in the same imaging plane to survey its extent.\nD. Sliding (translating) the probe to a neighboring window to reacquire the organ without changing the imaging plane.",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator rotates the probe 90 degrees into a sagittal plane relative to the patient’s body to obtain transverse (short-axis) images of the pancreas.",
+    "time_start": 156.2,
+    "time_end": 170.91,
+    "original_question": "[MCQ] Based on the video clip, what major plane change is being performed, and what does it accomplish?\nA. A 90° rotation to obtain short-axis (transverse) images of the organ\nB. Fanning/rocking the probe to sweep through the organ while staying in the same imaging plane to survey its extent.\nC. Angling/heel-toeing the probe to align with the organ’s true long axis and minimize foreshortening.\nD. Sliding (translating) the probe to a neighboring window to reacquire the organ without changing the imaging plane.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Angling/heel-toeing the probe to align with the organ’s true long axis and minimize foreshortening.\n\nExplanation: The video demonstrates an adjustment of the probe while imaging the pancreas. The operator starts with an oblique view where the tail of the pancreas is foreshortened. The primary motion is a subtle angling or \"heel-to-toe\" maneuver (likely angling the probe towards the patient's left shoulder) to elongate the view of the pancreatic body and tail, bringing them into a true longitudinal plane relative to the organ itself. This allows for better visualization of the duct and parenchyma without the distortion of an oblique cut.",
+      "latency_ms": 5437.980890274048,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 14.710000000000008,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which posterior landmark is being used to confirm where the operator is within the organ during the transverse sweep?\nA. Aorta\nB. Inferior vena cava\nC. Splenic vein\nD. Vertebral body (spine)",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator identifies the aorta posterior to the pancreas to confirm they are imaging the pancreatic body based on expected anatomic relationships.",
+    "time_start": 185.64,
+    "time_end": 194.31,
+    "original_question": "[MCQ] Based on the video clip, which posterior landmark is being used to confirm where the operator is within the organ during the transverse sweep?\nA. Aorta\nB. Inferior vena cava\nC. Vertebral body (spine)\nD. Splenic vein",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video shows a transverse sweep through the upper abdomen, visualizing the liver and adjacent vascular structures. The large, anechoic, tubular structure seen posteriorly, curving slightly and running horizontally across the screen, is the **inferior vena cava (IVC)**. It is being used as a posterior landmark. Just anterior to it, one can see the portal vein/splenic vein confluence. The aorta would typically be seen as a distinct, round, pulsating circle to the patient's left (viewer's right) of the IVC in a transverse plane, but the long, stretching vessel seen here is characteristic of the IVC in a longitudinal or oblique-transverse view as it courses through the liver. In this specific sweep, the IVC is the prominent posterior landmark.",
+      "latency_ms": 7058.673143386841,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.670000000000016,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what landmark is sought after sweeping toward the patient’s right, and why is it being used?\nA. Descending aorta to confirm you are in the upper abdomen and establish fetal left–right orientation.\nB. Stomach bubble to verify normal situs and ensure you are scanning at the abdominal level rather than the thorax.\nC. Inferior vena cava to confirm proximity to the head region\nD. Umbilical vein/portal sinus to confirm you are at the standard transverse abdominal plane used for abdominal circumference measurement.",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps toward the patient’s right until the inferior vena cava is visualized, using it as a landmark to confirm location in or near the pancreatic head region.",
+    "time_start": 195.31,
+    "time_end": 206.96,
+    "original_question": "[MCQ] Based on the video clip, what landmark is sought after sweeping toward the patient’s right, and why is it being used?\nA. Inferior vena cava to confirm proximity to the head region\nB. Descending aorta to confirm you are in the upper abdomen and establish fetal left–right orientation.\nC. Stomach bubble to verify normal situs and ensure you are scanning at the abdominal level rather than the thorax.\nD. Umbilical vein/portal sinus to confirm you are at the standard transverse abdominal plane used for abdominal circumference measurement.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Descending aorta to confirm you are in the upper abdomen and establish fetal left–right orientation.\n\nExplanation:\nThe video demonstrates a sagittal or oblique view of the fetal abdomen. The prominent, long, tubular anechoic structure running longitudinally along the spine (posteriorly) is the **descending aorta**. The green arrow points directly to this vessel. Identifying the aorta and its relationship to the spine and other organs (like the stomach, which is visible as a fluid-filled structure anterior to the spine in some frames) is a crucial step in determining fetal situs (left-right orientation). By sweeping and identifying this landmark, the sonographer confirms the side of the spine the aorta is on (normally the left), which helps establish the overall orientation of the fetus.",
+      "latency_ms": 7830.554962158203,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 11.650000000000006,
+    "keep": true
+  }
+]

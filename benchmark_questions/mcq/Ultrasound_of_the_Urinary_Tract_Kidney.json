@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what workflow step is being performed, and what is the immediate objective?\nA. Re-sweeping the target region while coordinating a breath-hold to improve the acoustic window for reassessment\nB. Applying graded probe compression over the area of interest to assess compressibility and reproduce focal tenderness\nC. Adjusting overall gain and time-gain compensation to optimize image brightness for clearer delineation of tissue planes\nD. Activating color Doppler over the target structure to assess for vascular flow and help differentiate vessels from adjacent anatomy",
+    "answer": "A",
+    "groundtruth": "The operator scans through the region again and coordinates an inspiratory breath-hold to optimize the acoustic window for a repeat assessment of the anatomy.",
+    "time_start": 0.48,
+    "time_end": 4.96,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is shown, and what is its purpose?\nA. Rocking or heel-toe maneuver to improve near-field contact and bring a superficial structure into focus\nB. Sweeping through the organ in the current plane to locate an end and establish full-length coverage before documenting\nC. Fanning (tilting) the transducer through the anatomy to keep the structure centered and optimize the imaging plane for measurement\nD. Applying graded compression over the region to displace bowel gas and improve visualization of deeper structures",
+    "answer": "B",
+    "groundtruth": "The operator scans through the anatomy to assess the kidney, bringing the superior portion into view as part of a systematic survey.",
+    "time_start": 34.57,
+    "time_end": 41.69,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what technique is being used, and what is the objective?\nA. Switching to color Doppler during the sweep to assess vascularity and differentiate vessels from adjacent fluid-filled structures\nB. Applying a heel-toe adjustment and slight rotation to eliminate rib shadowing and optimize the acoustic window for clearer visualization\nC. Fanning the probe through standard orthogonal planes within the organ to document complete anatomic coverage for routine screening\nD. Extending the scan beyond the expected organ margins to avoid missing peripheral findings",
+    "answer": "D",
+    "groundtruth": "The operator deliberately surveys past the organ borders to look for exophytic lesions that could be missed if scanning stops at the apparent edges of the kidney.",
+    "time_start": 56.28,
+    "time_end": 63.0,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what patient-coordination technique is used, and what problem does it address?\nA. A Valsalva maneuver to transiently distend central veins and improve assessment of venous filling/collapsibility\nB. An expiratory breath-hold to elevate the diaphragm and reduce lung artifact over the target structure\nC. An inspiratory breath-hold to reduce motion and improve the acoustic window\nD. Coached shallow tidal breathing to maintain patient comfort while limiting large excursions that degrade image stability",
+    "answer": "C",
+    "groundtruth": "The operator has the patient take a big breath in and hold it to optimize the acoustic window for longitudinal imaging.",
+    "time_start": 73.09,
+    "time_end": 76.41,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being done and what is the intended view?\nA. Applying graded compression while keeping the probe in transverse to displace bowel gas and improve the acoustic window\nB. Rocking and fanning the probe to optimize a true transverse (short-axis) view at the level of the organ\u2019s widest diameter\nC. Centering and aligning the probe to obtain a true midline longitudinal view of the organ\nD. Sliding the probe laterally to obtain a parasagittal longitudinal view, using an adjacent landmark to confirm orientation",
+    "answer": "C",
+    "groundtruth": "The operator aligns the probe to the middle of the kidney and relaxes the breathing to target an optimal midline longitudinal view.",
+    "time_start": 95.01,
+    "time_end": 101.78,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, where is the operator in the workflow, and what is the next immediate task?\nA. Confirming a diagnostic long-axis view; next is to place calipers for a length measurement\nB. Confirming a diagnostic long-axis view; next is to rotate 90\u00b0 to obtain the orthogonal transverse view for completeness\nC. Optimizing a diagnostic long-axis view; next is to freeze and save a representative still image for documentation\nD. Confirming a diagnostic long-axis view; next is to apply color Doppler to characterize flow and distinguish a vessel from adjacent structures",
+    "answer": "A",
+    "groundtruth": "The operator inspects the poles/medulla and confirms proper midline positioning, then proceeds to place calipers for the pole-to-pole length measurement.",
+    "time_start": 115.61,
+    "time_end": 136.57,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what step is being performed, and why?\nA. Adjusting imaging depth to center and frame the target structure before measuring it\nB. Saving a representative still image for documentation after obtaining the measurement\nC. Freezing the image to place calipers accurately for the measurement\nD. Reviewing the cine loop to confirm the correct plane and anatomy prior to documentation",
+    "answer": "B",
+    "groundtruth": "After measuring, the operator captures a documented image (with labeling) to archive the longitudinal kidney view and measurement.",
+    "time_start": 144.96,
+    "time_end": 152.26,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action is being performed, and what is the imaging objective?\nA. Sliding laterally in a longitudinal plane to document the peripheral portion of the organ and identify the upper and lower poles.\nB. Rotating into a transverse orientation to obtain a cross-sectional image and measure maximal organ width.\nC. Moving to a more medial longitudinal position to document the central region where structures enter/exit the organ\nD. Fanning (rocking) through the longitudinal view to sweep the entire organ and capture the most representative long-axis image for length measurement.",
+    "answer": "C",
+    "groundtruth": "The operator moves the probe medially to the final longitudinal position to visualize the renal pelvis and vessels entering/exiting, then captures an image of the medial aspect for documentation.",
+    "time_start": 186.44,
+    "time_end": 207.81,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization change is made, and what is the reason?\nA. Decreasing the imaging depth and narrowing the sector width to improve frame rate and focus on the superficial portion of the structure\nB. Increasing overall gain and adjusting time-gain compensation to brighten the far field when the image appears undergained\nC. Rotating the transducer 90\u00b0 to obtain an orthogonal long-axis view to better align measurements with the organ\u2019s true axis\nD. Repositioning to an intercostal approach and angling to improve the acoustic window when the prior approach is limited",
+    "answer": "D",
+    "groundtruth": "The operator moves the probe to an intercostal position and angles down while using the liver window, coordinating breathing to better access the upper portion when the subcostal view is insufficient.",
+    "time_start": 244.34,
+    "time_end": 269.81,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization strategy is used to resolve uncertainty about a tubular/branching structure?\nA. Activate a flow-mapping mode, place a sampling box over the region, and adjust insonation angle to confirm whether it has flow\nB. Rotate into an orthogonal (long-axis) view and follow the structure along its course to see if it remains continuous or branches.\nC. Apply gentle graded compression while observing for collapsibility to differentiate a vein from a noncompressible tubular structure.\nD. Optimize B-mode (depth, focal zone, and gain) and resweep through adjacent planes to see whether the structure connects to recognizable anatomy.",
+    "answer": "A",
+    "groundtruth": "The operator evaluates hypoechoic areas with Color Doppler to differentiate vessels from a dilated ureter, applies a color box over the mid-portion vessels, notes an area without color signal, and changes probe angle to ensure the finding is real and not due to poor Doppler angle.",
+    "time_start": 309.82,
+    "time_end": 355.81,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

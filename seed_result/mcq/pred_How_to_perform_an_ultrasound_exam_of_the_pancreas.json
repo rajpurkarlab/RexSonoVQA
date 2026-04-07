@@ -1,0 +1,154 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial scan approach is being performed, and what is the purpose?\nA) Transverse scanning in the upper abdomen to establish surrounding landmarks for the target organ\nB) Longitudinal scanning in the upper abdomen to follow the long axis of the target organ for length measurement\nC) Right intercostal oblique scanning to bypass rib shadowing and improve visualization of a deep target organ\nD) Color Doppler interrogation of the upper abdomen to identify vascular flow and differentiate vessels from adjacent structures",
+    "answer": "A",
+    "groundtruth": "The operator scans the epigastric region in a transverse plane to orient using surrounding landmarks (stomach and liver regions/fissure) as a setup for finding the pancreas.",
+    "time_start": 8.01,
+    "time_end": 17.0,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 8.01,
+    "original_time_end": 17.0,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The scan is grayscale (no color Doppler, eliminating option D), with no indication of an intercostal probe placement (eliminating option C). The initial scanning plane is transverse, used first to identify surrounding anatomical landmarks of the upper abdomen prior to focusing on the target organ, rather than immediately performing longitudinal scanning for length measurement (eliminating option B).",
+      "latency_ms": 410942.11769104004,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what landmark-based strategy is being used to guide identification, and why?\nA) Trace a key vein along the posterior border of the target organ and follow its confluence to confirm orientation\nB) Identify the organ by locating its associated duct and tracing it back to the hilum to confirm the correct structure.\nC) Use the adjacent artery as a landmark by following it to its branch point at the organ’s hilum to establish orientation.\nD) Confirm orientation by identifying the nearby diaphragm and pleural line, using their relationship to the organ’s superior border as the landmark.",
+    "answer": "A",
+    "groundtruth": "The operator uses vascular landmarks—especially the splenic vein—as a leading structure, tracing venous convergence (splenic + mesenteric) to the portal vein to reliably orient and locate the pancreas despite potential ambiguity.",
+    "time_start": 41.06,
+    "time_end": 61.18,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 41.06,
+    "original_time_end": 61.18,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe hypoechoic/anechoic structure visualized is the gallbladder. The strategy of tracing its associated cystic duct back to the hepatic hilum is used to confirm this is the gallbladder, rather than a different adjacent fluid-filled structure, by verifying its ductal connection to the biliary tree at the liver hilum.",
+      "latency_ms": 827412.6508235931,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is shown, and what is the goal?\nA) Rotate the probe ~90° to change from transverse to longitudinal imaging for a long-axis evaluation\nB) Fan/rock the probe in the same plane to center the structure and identify the true maximal diameter before measuring.\nC) Slide the probe along the skin while maintaining the same orientation to follow the structure’s course and capture it in view.\nD) Apply a heel-toe (tilt) maneuver to reduce shadowing and improve acoustic windows while staying in the same imaging plane.",
+    "answer": "A",
+    "groundtruth": "The operator rotates the probe 90 degrees into a longitudinal (sagittal) orientation to evaluate the pancreas in a long-axis-type view relative to the body axis.",
+    "time_start": 63.8,
+    "time_end": 74.06,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 63.8,
+    "original_time_end": 74.06,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The probe translates (slides) across the skin with consistent orientation, shifting the entire imaging field to move from visualizing the gallbladder initially to tracking and capturing other adjacent gastrointestinal/abdominal structures along their anatomic course, without rotation, fanning/rocking in place, or tilting (heel-toe) manipulation.",
+      "latency_ms": 152674.11613464355,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow transition is occurring, and what is the next logical step?\nA) After switching to a longitudinal view to reacquire the central portion, the operator should slide laterally to map the ends of the organ\nB) After switching to a longitudinal view to reacquire the central portion, the operator should fan and rock to optimize the midline image before moving off-center.\nC) After switching to a longitudinal view to reacquire the central portion, the operator should return to a transverse view and repeat a full sweep for comparison.\nD) After switching to a longitudinal view to reacquire the central portion, the operator should freeze and obtain standard measurements and documentation of the mid-segment.",
+    "answer": "A",
+    "groundtruth": "After rotating into longitudinal, the operator uses this plane to reacquire the pancreas behind the stomach (body) and then proceeds by sliding along the long-axis view to locate other portions (e.g., head to the right, tail to the left).",
+    "time_start": 63.8,
+    "time_end": 78.62,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 63.8,
+    "original_time_end": 78.62,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nWhen transitioning to a longitudinal view to identify the central portion of the target structure, the operator first optimizes the midline image using small fanning and rocking adjustments to ensure the anatomy is clearly visualized, before moving to off-center areas, sweeping for other structures, or obtaining measurements/documentation.",
+      "latency_ms": 742310.9631538391,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scan strategy is shown, and what is it trying to confirm?\nA) Slide toward the patient’s left while tracking paired vascular landmarks to follow the distal segment of the organ to its far-end landmark\nB) Rotate into a true transverse plane and sweep superior–inferior while using the SMA/SMV to localize the proximal portion of the organ and its head landmark\nC) Slide toward the patient’s right while following the portal confluence to confirm continuity of the organ’s proximal segment to its venous junction\nD) Maintain the same position and apply color Doppler to confirm that the suspected paired landmarks are vessels rather than ductal structures",
+    "answer": "A",
+    "groundtruth": "The operator slides to the patient’s left and traces posterior vascular structures (splenic vein and the splenic artery cranial to it) to follow and confirm the pancreatic tail extending back toward the spleen-related endpoint (“splenic helix”).",
+    "time_start": 87.19,
+    "time_end": 105.77,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 87.19,
+    "original_time_end": 105.77,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video demonstrates a lateral sliding probe movement toward the patient's left, tracking adjacent paired vascular structures (splenic artery and vein) while following the distal (body/tail) segment of the pancreas, to trace it to its far-end landmark at the splenic hilum. No color Doppler is applied (ruling out D), there is no rotation or superior-inferior sweep (ruling out B), and movement is toward the left not the right (ruling out C).",
+      "latency_ms": 214691.7290687561,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what patient-management technique is being used to improve image stability, and why?\nA) Brief breath-holding to reduce respiratory motion during acquisition\nB) Coaching shallow tidal breathing to minimize diaphragmatic excursion while maintaining patient comfort\nC) Asking the patient to take repeated deep inspirations to bring the target into the field by moving the diaphragm inferiorly\nD) Instructing the patient to perform a Valsalva maneuver to reduce venous return and decrease motion artifact during acquisition",
+    "answer": "A",
+    "groundtruth": "The operator has the patient pause breathing (with brief cycles of exhale/hold) to minimize respiratory motion and stabilize the image for capturing the view through the splenic window.",
+    "time_start": 127.8,
+    "time_end": 133.12,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 127.8,
+    "original_time_end": 133.12,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The observed periodic movement of the target anatomical structure into and out of the ultrasound field is consistent with repeated deep patient inspirations. Deep inspiration moves the diaphragm inferiorly, shifting upper abdominal structures (such as the kidney or liver, the likely targets here) into the ultrasound viewing window by displacing them caudally out from under the rib cage.",
+      "latency_ms": 186031.47101402283,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what landmarking method is being used to disambiguate what structure is being seen, and what is the goal?\nA) Identify tissue immediately caudal to a key vein to confirm the distal segment of the pancreas\nB) Track the splenic artery along the superior margin of the gland to confirm the pancreatic body.\nC) Use the SMA/SMV complex as a landmark to identify the pancreatic head/uncinate process.\nD) Find the portal vein confluence and confirm the pancreatic neck lies anterior to it.",
+    "answer": "A",
+    "groundtruth": "The operator scans immediately caudal to the splenic vein and uses that consistent anatomic relationship to identify the structure as the pancreatic tail and follow it toward the splenic “helix,” reducing uncertainty about what is being imaged.",
+    "time_start": 134.57,
+    "time_end": 141.19,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 134.57,
+    "original_time_end": 141.19,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe dark anechoic tubular structures seen merging in the clip represent the splenic vein and superior mesenteric vein joining to form the portal vein confluence. The normal anatomical relationship is that the pancreatic neck lies immediately anterior to this portal vein confluence, so this landmark is used to confirm the identity of the pancreatic neck.",
+      "latency_ms": 100164.09111022949,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what broader mapping task is being performed during this sequence, and what is its purpose?\nA) Systematically surveying the target organ across its full extent by sliding from one side to the other while staying in-plane\nB) Performing a fanning (heel-toe) sweep through the structure to sample different depths and angles without translating across its full length\nC) Rotating to obtain orthogonal (short- and long-axis) views to characterize anatomy rather than map its entire extent\nD) Activating Color Doppler to survey for vascularity or flow abnormalities instead of doing a systematic gray-scale sweep",
+    "answer": "A",
+    "groundtruth": "After reacquiring the pancreas in longitudinal behind the stomach, the operator slides right to find the head and then slides left while tracking vascular landmarks to follow the tail—systematically mapping the pancreas from head to tail.",
+    "time_start": 74.72,
+    "time_end": 105.77,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 74.72,
+    "original_time_end": 105.77,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe examination uses a fanning (heel-toe rocking) probe motion, altering the imaging angle/depth to sample different portions of the target structure without translating (sliding) the probe across the full extent of the organ. There is no Color Doppler activated (ruling out D), no rotation to acquire orthogonal short/long axis views (ruling out C), and no lateral sliding sweep across the organ's full extent (ruling out A).",
+      "latency_ms": 575183.5551261902,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

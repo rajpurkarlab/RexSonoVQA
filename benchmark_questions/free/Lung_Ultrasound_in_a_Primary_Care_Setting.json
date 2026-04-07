@@ -1,0 +1,47 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing by holding the probe still, and what is the immediate imaging goal of pausing here?",
+    "answer": "They hold the probe steady to recognize that the current acoustic window is being dominated by a superficial bony landmark and its shadowing. The goal is to confirm why deeper visualization is limited before repositioning to a better window.",
+    "groundtruth": "The probe is kept stationary to recognize a rib-centered view and the resulting acoustic shadow that obscures deeper structures, prompting the need to reposition.",
+    "time_start": 6.1,
+    "time_end": 10.57,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what fine probe adjustment is shown, and why is it done before assessing motion in the image?",
+    "answer": "They make a small positional adjustment (subtle slide/tilt) to bring the key bright interface into the center of the image. This optimizes alignment so motion at that interface can be evaluated reliably.",
+    "groundtruth": "The probe position is adjusted to center the pleural line in the field of view so it can be assessed clearly.",
+    "time_start": 18.33,
+    "time_end": 20.53,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning action continues here, and what is the operator trying to confirm about the observed pattern?",
+    "answer": "They continue scanning through the same window to see if the pattern persists across the view. The goal is to confirm the artifact pattern is a normal lung ultrasound appearance rather than a focal abnormal finding.",
+    "groundtruth": "The operator continues scanning within the intercostal space to confirm the horizontal artifact pattern is a normal finding in lung ultrasound.",
+    "time_start": 32.92,
+    "time_end": 37.1,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the sequence of actions and the workflow objective across this segment.",
+    "answer": "They first fine-tune probe position to optimize the key interface, then hold steady to observe for characteristic motion. The objective is to verify lung sliding at that site as part of pneumothorax assessment.",
+    "groundtruth": "The operator centers the pleural interface and then maintains a stable hand to assess lung sliding, supporting pneumothorax screening at that location.",
+    "time_start": 18.33,
+    "time_end": 25.45,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what interpretation is being made from the observed artifact profile, and what conditions is it helping to rule out in this region?",
+    "answer": "The pattern is interpreted as consistent with a normally aerated, air-filled lung region. This makes pneumonia/consolidation or pleural effusion unlikely at that scanned location.",
+    "groundtruth": "The operator correlates the artifact profile with clinical pathology, concluding the lung is air-filled and that pneumonia/consolidation or pleural effusion is unlikely in this region.",
+    "time_start": 38.02,
+    "time_end": 45.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

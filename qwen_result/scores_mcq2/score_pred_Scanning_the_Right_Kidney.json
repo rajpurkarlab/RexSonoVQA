@@ -1,0 +1,80 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial probe orientation is being used, and what is the immediate acquisition goal?\nA) Long-axis orientation to establish a clear interface between the target organ and an adjacent acoustic-window structure for landmarking\nB) Short-axis (transverse) orientation to quickly identify the target structure in cross\u2011section before refining the view\nC) Transverse suprapubic orientation aimed posteriorly to obtain an initial pelvic landmark (bladder/uterus) for subsequent scanning\nD) Oblique sweeping survey across the region to ensure the entire organ is visualized before saving representative clips",
+    "answer": "A",
+    "groundtruth": "The operator places the probe in a sagittal (longitudinal) plane to quickly identify the liver and the liver\u2013kidney interface as the initial landmark for the scan.",
+    "time_start": 0.15,
+    "time_end": 7.15,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 0.15,
+    "time_end_extended": 7.15,
+    "original_time_start": 0.15,
+    "original_time_end": 7.15,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A",
+      "latency_ms": 19133.013010025024,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.0
+  },
+  {
+    "question": "[MCQ] Immediately after the brief respiratory optimization, what respiratory phase is used next, and what is the purpose?\nA) Expiration to return to the resting baseline position for continued scanning\nB) End-inspiration breath-hold to depress the diaphragm and temporarily widen the subcostal acoustic window.\nC) Mid-inspiratory breath-hold to minimize motion artifact while acquiring a still image for measurements.\nD) Quiet tidal breathing to evaluate real-time respiratory variation and diaphragmatic excursion during the sweep.",
+    "answer": "A",
+    "groundtruth": "After using inspiration to improve the window, the operator has the patient breathe out to return to resting expiration before continuing the exam.",
+    "time_start": 29.95,
+    "time_end": 30.37,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 29.95,
+    "time_end_extended": 30.37,
+    "original_time_start": 29.95,
+    "original_time_end": 30.37,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B",
+      "latency_ms": 11938.477993011475,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 0.4200000000000017
+  },
+  {
+    "question": "[MCQ] This segment shows a scan sweep that is interrupted by a respiratory maneuver and then resumed. What phase of the exam is this, and what is the operator trying to ensure before moving on?\nA) Completing a comprehensive organ survey by optimizing the acoustic window so the full parenchyma can be assessed\nB) Targeted measurement phase, using a breath-hold to reduce motion before freezing the image and placing calipers.\nC) Doppler evaluation phase, asking for suspended respiration to minimize respiratory variation before recording spectral waveforms.\nD) Lesion confirmation phase, using a deep inspiration to move bowel gas and obtain an orthogonal view before saving images.",
+    "answer": "A",
+    "groundtruth": "The operator is in the main organ-survey portion of the exam: they sweep through the kidney to assess parenchyma/obstruction, use a small inspiratory breath to improve the window when obscured, then return to resting expiration to continue scanning.",
+    "time_start": 9.19,
+    "time_end": 30.37,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 9.19,
+    "time_end_extended": 30.37,
+    "original_time_start": 9.19,
+    "original_time_end": 30.37,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A",
+      "latency_ms": 17873.170137405396,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.18
+  }
+]

@@ -1,0 +1,89 @@
+# Video files (large binary files)
+videos_all/
+videos/
+videos_extra/
+videos_extra2/
+
+# Demo/test outputs
+demo/
+
+figures.html
+
+# Model inference results
+model_inference_results/
+blind_test_results/
+evaluation_scores/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Audio extraction temp files
+*.wav
+
+# Extended inference scripts (backend-specific)
+inference_qa_extended.py
+inference_qa_extended_GPT.py
+inference_qa_extended_Qwen.py
+inference_qa_extended_Seed.py
+retry_failed_qwen.py
+extract_clips.py
+build_metadata.py
+verify_youtube_clips.py
+
+# Metadata / config with API keys
+video_metadata.json
+video_metadata_copy.json
+figures_with_gpt.html
+
+# Result / verification folders
+test_YT/
+verify_clips/
+openai_result/
+alignment_check/

@@ -1,0 +1,110 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation/maneuver is shown, and what imaging goal does it serve?",
+    "answer": "The probe is oriented to obtain a transverse (cross-sectional) plane. The goal is to capture a cross-section of the left liver lobe from the epigastric window.",
+    "groundtruth": "The probe is oriented to acquire a transverse cross-section through the left liver lobe to visualize it in short axis.",
+    "time_start": 11.14,
+    "time_end": 15.12,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transition in scanning approach is being made, and what broader objective does it support?",
+    "answer": "The operator repositions from the initial midline/epigastric window toward a more right-sided epigastric window while resetting breathing. The objective is to shift the window to better evaluate the right liver lobe.",
+    "groundtruth": "After resetting the breath cycle, the probe is moved to the right epigastrium to transition the scan toward views of the right liver lobe.",
+    "time_start": 19.1,
+    "time_end": 29.43,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient positioning adjustment is performed, and why is it used for optimization?",
+    "answer": "The patient is repositioned by moving the right arm up/over the head. This opens the intercostal spaces and can improve the acoustic window to the liver.",
+    "groundtruth": "The patient is asked to place the right arm over the head to open intercostal spaces and improve the available scanning window.",
+    "time_start": 45.59,
+    "time_end": 49.28,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what respiratory-related optimization is used, and what is the intended effect on the target organ\u2019s position?",
+    "answer": "A deep inspiration breath-hold is used. The goal is to push the liver inferiorly and improve the acoustic window/visibility.",
+    "groundtruth": "The operator uses a deep inspiration to move the liver inferiorly to improve the scanning window and image quality.",
+    "time_start": 51.16,
+    "time_end": 57.06,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is shown after repositioning, and what is the immediate objective?",
+    "answer": "This segment shows a reassessment scan after repositioning and breath optimization. The immediate objective is to rescan the right lobe and confirm the view has improved enough to proceed with standard images.",
+    "groundtruth": "In the new position, the operator re-establishes an inspiratory window and scans the right liver lobe to confirm improved clarity before moving on to standard views.",
+    "time_start": 69.2,
+    "time_end": 78.79,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe angulation maneuver is performed, and what key superior landmark view is being targeted?",
+    "answer": "The probe is angled cranially to reach a more superior cross-section. The goal is to visualize the hepatic veins converging into the IVC (the classic superior confluence view).",
+    "groundtruth": "The probe is angled cranially to the most superior standard level to visualize the hepatic veins joining the inferior vena cava and to identify the IVC.",
+    "time_start": 84.88,
+    "time_end": 102.37,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being done when the probe is held steady on a distinctive central pattern, and why?",
+    "answer": "The probe is kept steady to carefully inspect and recognize a key standard landmark pattern. The goal is to identify and document the central portal venous branching pattern used for orientation in liver scanning.",
+    "groundtruth": "The probe is held steady on the \u201cjumping stag sign\u201d level to visualize its components and identify the central portal vein branching pattern in the liver.",
+    "time_start": 115.74,
+    "time_end": 128.27,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning task is being performed when the operator searches for a boundary line, and what is the purpose of finding it?",
+    "answer": "The operator scans to locate the plane separating the main portions of the organ. The purpose is to identify the interlobar ligament/echogenic boundary and follow it toward the teres hepatis landmark for orientation.",
+    "groundtruth": "The operator scans to find the echogenic line between right and left lobes, identifying it as the interlobar ligament and tracing it toward the teres hepatis ligament.",
+    "time_start": 132.71,
+    "time_end": 145.49,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement changes the imaging plane, and what is the goal of that change?",
+    "answer": "The probe is rotated to switch into a longitudinal (long-axis) plane. The goal is to evaluate the left liver lobe in long section from the current window.",
+    "groundtruth": "The probe is rotated to obtain a longitudinal (long-axis) section through the body to prepare for evaluating the left liver lobe in long section.",
+    "time_start": 163.84,
+    "time_end": 169.84,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what landmark at the boundary of two cavities is being identified, and what is the purpose of identifying it during this scan?",
+    "answer": "The diaphragm is identified at the thoracoabdominal boundary. The purpose is to establish the superior boundary between the heart/lungs and the liver and to help orient the cranial extent of the liver view.",
+    "groundtruth": "The operator focuses on the thoracoabdominal boundary to identify the diaphragm as an echogenic line between the heart and the liver.",
+    "time_start": 183.01,
+    "time_end": 190.57,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being maintained on screen during this segment, and what teaching point is being reinforced by holding the view?",
+    "answer": "A stable view of the hepatic vasculature is maintained. The teaching point is confirming that portal veins have echogenic connective tissue around them, whereas hepatic veins do not.",
+    "groundtruth": "The operator maintains the hepatic vascular view to identify the vessel without connective tissue as a hepatic vein and reinforce that portal veins have echogenic walls while hepatic veins do not.",
+    "time_start": 215.91,
+    "time_end": 225.67,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the scan is shown as the probe moves further right and then sweeps down to a terminal edge, and what is the broader objective?",
+    "answer": "This is a completion sweep of the right-sided survey, moving toward the caudal margin. The objective is to document the right lobe down to its inferior edge and include the hepatorenal interface (right kidney coming into view) as an endpoint check.",
+    "groundtruth": "The probe is moved further to the patient\u2019s right to visualize the right lobe and then slid inferiorly to the liver edge, where the right kidney appears, completing the caudal survey of this position.",
+    "time_start": 231.08,
+    "time_end": 250.62,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

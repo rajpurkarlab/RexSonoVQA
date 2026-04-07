@@ -1,0 +1,107 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what machine setting is adjusted to improve the grayscale appearance, and what image-quality problem is it addressing?",
+    "answer": "The operator decreases the overall gain. This reduces excessive amplification so the image has better contrast and the target can be seen more clearly.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator decreases gain to correct poor image quality caused by excessive gain washing out the image.",
+    "time_start": 3.17,
+    "time_end": 10.74,
+    "model_prediction": "Based on the video, the machine setting being adjusted is **Time Gain Compensation (TGC)**, specifically the far-field gain. This adjustment is addressing the artifact known as **posterior acoustic enhancement**.\n\nThe video begins with the area deep to the fluid-filled bladder appearing overly bright (enhanced) due to sound waves traveling through fluid with little attenuation. Around the 6-second mark, you can see graphical sliders appear on the screen, representing the TGC controls. As the bottom sliders are moved to the left (decreasing the gain), the excessively bright area in the far field becomes darker and more uniform with the rest of the image, correcting for the enhancement artifact.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the machine setting being adjusted is **Time Gain Compensation (TGC)**, specifically the far-field gain. This adjustment is addressing the artifact known as **posterior acoustic enhancement**.\n\nThe video begins with the area deep to the fluid-filled bladder appearing overly bright (enhanced) due to sound waves traveling through fluid with little attenuation. Around the 6-second mark, you can see graphical sliders appear on the screen, representing the TGC controls. As the bottom sliders are moved to the left (decreasing the gain), the excessively bright area in the far field becomes darker and more uniform with the rest of the image, correcting for the enhancement artifact.",
+      "latency_ms": 8436.135292053223,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.57,
+    "judge_explanation": "The AI incorrectly identifies the machine setting as Time Gain Compensation (TGC) and describes visual evidence of sliders moving to address posterior acoustic enhancement. The ground truth states that the setting is 'overall gain' used to reduce excessive amplification. These are distinct ultrasound controls (depth-specific vs. global), and the AI's description contradicts the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator checking/adjusting with the measurement guides on the image, and what measurements are being captured in this view?",
+    "answer": "They are verifying the automatically placed calipers and ensuring they bracket the target correctly. The goal is to capture two orthogonal dimensions (e.g., width and height) for the volume calculation.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator verifies auto-adjusted caliper placement to measure bladder width and height in the current view.",
+    "time_start": 25.45,
+    "time_end": 34.79,
+    "model_prediction": "Based on the video, the operator is adjusting the automated measurement guides to accurately capture the dimensions of the bladder. Specifically, in this transverse view, the operator is measuring the bladder's height (H) and width (W) as part of a pre-void volume assessment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is adjusting the automated measurement guides to accurately capture the dimensions of the bladder. Specifically, in this transverse view, the operator is measuring the bladder's height (H) and width (W) as part of a pre-void volume assessment.",
+      "latency_ms": 6243.277072906494,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 9.34,
+    "judge_explanation": "The AI correctly identifies that the operator is adjusting automated measurement guides to capture orthogonal dimensions (height and width) for a volume assessment, which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video segment, after storing the first set of measurements, what is the next step shown and what broader objective does it serve?",
+    "answer": "The operator returns to live imaging and transitions to an orthogonal imaging plane. This is done to obtain the remaining dimension(s) needed to complete an accurate volume assessment.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After saving the initial measurements, the operator unfreezes and rotates the probe to switch from the transverse plane to a sagittal plane for subsequent measurements.",
+    "time_start": 34.81,
+    "time_end": 46.23,
+    "model_prediction": "Based on the visual evidence, after storing the transverse measurements of the fluid-filled structure (likely the bladder), the operator rotates the probe 90 degrees to obtain a sagittal (longitudinal) view. This maneuver allows the operator to visualize the structure in a perpendicular plane, which is necessary for measuring the length and calculating the total volume.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, after storing the transverse measurements of the fluid-filled structure (likely the bladder), the operator rotates the probe 90 degrees to obtain a sagittal (longitudinal) view. This maneuver allows the operator to visualize the structure in a perpendicular plane, which is necessary for measuring the length and calculating the total volume.",
+      "latency_ms": 6629.560232162476,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 11.419999999999995,
+    "judge_explanation": "The AI correctly identifies the next step as rotating the probe to an orthogonal (sagittal) plane and correctly identifies the objective as obtaining the remaining dimensions for volume calculation. This aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what orientation and fine probe adjustments are performed, and what viewing problem are they meant to fix?",
+    "answer": "The probe marker is oriented toward the patient’s head, and the operator tilts/rocks the probe (toward the feet) to optimize alignment. This is done to bring the full target structure into view and avoid incomplete/cut-off visualization.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator orients the marker toward the head and tilts/rocks toward the feet to adjust the angle and visualize the whole bladder.",
+    "time_start": 46.53,
+    "time_end": 55.9,
+    "model_prediction": "Based on the video, the probe is in a sagittal (longitudinal) orientation in the pelvic region. The user is performing a **tilting or fanning** motion with the probe. This adjustment is being used to correct the problem of **off-axis viewing**, allowing the operator to sweep through the entire volume of the uterus and bladder to visualize them fully from side to side.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is in a sagittal (longitudinal) orientation in the pelvic region. The user is performing a **tilting or fanning** motion with the probe. This adjustment is being used to correct the problem of **off-axis viewing**, allowing the operator to sweep through the entire volume of the uterus and bladder to visualize them fully from side to side.",
+      "latency_ms": 6433.274984359741,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.369999999999997,
+    "judge_explanation": "The AI correctly identifies the probe orientation as sagittal (longitudinal). However, it misinterprets the specific fine adjustment and its purpose. The Ground Truth describes a 'rocking' or 'tilting' motion toward the feet to fix vertical alignment (cut-off), whereas the AI incorrectly describes a 'fanning' motion to sweep the volume from 'side to side'.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning strategy is used to choose the measurement frame, and why is that strategy important before taking the final length measurement?",
+    "answer": "The operator fans/sweeps through the target to find the maximal dimension, then freezes and measures the length. Choosing the widest/maximum frame helps ensure the length (and resulting volume) is not underestimated.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator fans through the bladder to find the widest cross-section, freezes the best frame, and measures length to capture the biggest orientation for the most accurate volume estimate.",
+    "time_start": 55.92,
+    "time_end": 70.94,
+    "model_prediction": "Based on the video, the scanning strategy involves fanning through the cervix (sweeping back and forth) to identify the true mid-sagittal plane where the cervical canal is most clearly visible along its entire length. This is crucial because identifying the longest continuous endocervical line ensures an accurate measurement of cervical length, preventing underestimation that could occur with an off-center or oblique view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the scanning strategy involves fanning through the cervix (sweeping back and forth) to identify the true mid-sagittal plane where the cervical canal is most clearly visible along its entire length. This is crucial because identifying the longest continuous endocervical line ensures an accurate measurement of cervical length, preventing underestimation that could occur with an off-center or oblique view.",
+      "latency_ms": 7669.7821617126465,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 15.019999999999996,
+    "judge_explanation": "The AI correctly identifies the scanning strategy (fanning/sweeping to find the maximal dimension) and the reason for it (to prevent underestimation). However, the AI incorrectly identifies the anatomical target as the cervix (referencing the mid-sagittal plane and endocervical line). The Ground Truth mentions 'resulting volume', which implies an organ like a kidney or bladder where length is part of a volume calculation, rather than the cervix where length is typically a standalone measurement. Therefore, the visual evidence is mismatched.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  }
+]

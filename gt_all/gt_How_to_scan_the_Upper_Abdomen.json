@@ -1,0 +1,98 @@
+[
+  {
+    "start": 0.03,
+    "end": 48.7,
+    "action": "Place the probe in the midline in longitudinal section. Maintain a starting position to identify landmarks.",
+    "interpretation": "Identify the spine, aorta, pancreas, left lobe of the liver, bowel, and stomach. Note that deep breaths may cause the patient to suck air into the stomach, obscuring the view of the pancreas."
+  },
+  {
+    "start": 48.94,
+    "end": 75.95,
+    "action": "Optimize the image controls while in longitudinal section. Adjust the focal zone to the region of interest. Optimize depth, gain, and TGC (Time Gain Compensation). Optionally, apply a slight zoom.",
+    "interpretation": "Ensure a clear view of the abdomen and the aorta."
+  },
+  {
+    "start": 76.61,
+    "end": 92.48,
+    "action": "Scan inferiorly down the length of the aorta. Apply gentle pressure. Adjust depth dynamically as the scan progresses.",
+    "interpretation": "Visualize the abdominal aorta. Observe the vessel tapering distally towards the bifurcation."
+  },
+  {
+    "start": 94.56,
+    "end": 118.18,
+    "action": "Return the probe superiorly to the midline. Rotate the probe 90 degrees into a transverse orientation. Slide the probe inferiorly to follow the aorta down. Apply pressure to displace bowel gas.",
+    "interpretation": "Rule out aortic aneurysm. Scan the midline for any enlarged lymph nodes."
+  },
+  {
+    "start": 118.6,
+    "end": 152.4,
+    "action": "Return the probe superiorly to the epigastrium. If the pancreas is difficult to visualize in transverse, return to the longitudinal midline. Instruct the patient: 'Take a big deep breath.' Place the probe on the pancreas and rotate 90 degrees.",
+    "interpretation": "Visualize the pancreas. Note the improvement in the view."
+  },
+  {
+    "start": 153.56,
+    "end": 180.19,
+    "action": "Hold the transverse view of the pancreas.",
+    "interpretation": "Identify the pancreatic body and tail clearly. Note that the head is not perfectly visualized. Identify landmarks: spine, aorta, SMA (Superior Mesenteric Artery), splenic vein, and the confluence."
+  },
+  {
+    "start": 181.69,
+    "end": 206.22,
+    "action": "Rotate the probe slightly and apply pressure to displace bowel gas to better visualize the pancreatic head. Instruct the patient: 'Take a big deep breath'.",
+    "interpretation": "Attempt to clear the view of the pancreatic head, which is the most common location for masses."
+  },
+  {
+    "start": 207.81,
+    "end": 219.54,
+    "action": "Instruct the patient: 'Breathe right the way out.' If visualization worsens, instruct the patient to breathe completely out again.",
+    "interpretation": "Assess if expiration improves the acoustic window. Note that in this case, expiration has made the view worse."
+  },
+  {
+    "start": 219.68,
+    "end": 232.63,
+    "action": "Instruct the patient: 'Push your stomach muscles out' (distend the abdomen).",
+    "interpretation": "Observe the pancreatic head. Note that this maneuver is the most effective for visualizing the head in this patient."
+  },
+  {
+    "start": 233.27,
+    "end": 248.53,
+    "action": "Maintain the view of the pancreas to confirm normality.",
+    "interpretation": "Confirm the pancreas appears completely normal. (Note: If struggling, water ingestion is an alternative technique to fill the stomach and create an acoustic window)."
+  },
+  {
+    "start": 248.55,
+    "end": 260.78,
+    "action": "Instruct the patient: 'Take a big deep breath.' Sweep the probe transversely across the abdomen to the left.",
+    "interpretation": "Visualize the left lobe of the liver."
+  },
+  {
+    "start": 261.92,
+    "end": 279.48,
+    "action": "Keep the non-scanning hand on the controls. Adjust the focus position down slightly.",
+    "interpretation": "Continuously optimize depth, focus, and gain throughout the examination."
+  },
+  {
+    "start": 281.12,
+    "end": 295.71,
+    "action": "Rotate the probe 90 degrees into longitudinal. Instruct the patient: 'Big deep breath again.' Scan superiorly.",
+    "interpretation": "Visualize the heart and the entirety of the left lobe of the liver."
+  },
+  {
+    "start": 296.45,
+    "end": 310.2,
+    "action": "Slide the probe laterally towards the right side. Instruct the patient: 'Take a big deep breath again.'",
+    "interpretation": "Visualize the IVC (Inferior Vena Cava) and the Portal Vein."
+  },
+  {
+    "start": 312.11,
+    "end": 326.22,
+    "action": "Increase depth. severe the focal zone downwards. Instruct the patient: 'Take a big deep breath now.'",
+    "interpretation": "Visualize the gallbladder, part of the pancreatic head, and the CBD (Common Bile Duct) / portal triad area."
+  },
+  {
+    "start": 328.72,
+    "end": 348.68,
+    "action": "Sweep the probe across the liver. Maintain current depth and gain settings. Scan superiorly and sweep across.",
+    "interpretation": "Confirm visualization of the gallbladder and the majority of the liver parenchyma."
+  }
+]

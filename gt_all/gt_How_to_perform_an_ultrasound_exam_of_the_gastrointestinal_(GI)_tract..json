@@ -1,0 +1,116 @@
+[
+  {
+    "start": 0.59,
+    "end": 10.52,
+    "action": "Place the probe in the left epigastrium.",
+    "interpretation": "Locate and visualize the stomach in the left epigastrium."
+  },
+  {
+    "start": 12.1,
+    "end": 22.63,
+    "action": "Inspect the stomach wall and lumen. Scan towards the pillars.",
+    "interpretation": "Identify the walling of the stomach and air within the lumen. Note that the walling becomes thicker as the structure extends towards the pillars."
+  },
+  {
+    "start": 27.3,
+    "end": 31.48,
+    "action": "Advance the scan to the next consecutive structure.",
+    "interpretation": "Identify the duodenum."
+  },
+  {
+    "start": 32.52,
+    "end": 39.79,
+    "action": "Analyze the composition of the duodenum.",
+    "interpretation": "Visualize an air structure with subtle walling. Note that the walling becomes less muscular compared to previous structures."
+  },
+  {
+    "start": 41.05,
+    "end": 47.83,
+    "action": "Slide the probe downwards to the center of the view.",
+    "interpretation": "Locate the head of the pancreas in the center of the image."
+  },
+  {
+    "start": 51.35,
+    "end": 60.26,
+    "action": "Maneuver the probe around to the lower side of the epigastrium.",
+    "interpretation": "Find the jejunum and small intestine segments."
+  },
+  {
+    "start": 61.52,
+    "end": 73.55,
+    "action": "Observe the movement of the small intestine structures.",
+    "interpretation": "Note that peristalsis is rather diminished and the structures are not really moving, consistent with the patient not having eaten."
+  },
+  {
+    "start": 73.56,
+    "end": 81.36,
+    "action": "Instruct patient: 'Hold your breath'. Focus on the bowel loop.",
+    "interpretation": "Confirm that the peristalsis is very subtle."
+  },
+  {
+    "start": 83.44,
+    "end": 94.83,
+    "action": "Move the probe down lower and slide over to the right lower quadrant of the abdomen.",
+    "interpretation": "Locate the ileum, the third part of the small intestine."
+  },
+  {
+    "start": 95.29,
+    "end": 101.13,
+    "action": "Visualize the ileum.",
+    "interpretation": "Observe that there is not very much peristalsis present."
+  },
+  {
+    "start": 103.41,
+    "end": 119.53,
+    "action": "Move the probe to the outer right side of the lower abdomen.",
+    "interpretation": "Identify an air-filled structure with very subtle, less distinct walling. Recognize this as the ascending colon and the cecum."
+  },
+  {
+    "start": 121.76,
+    "end": 126.98,
+    "action": "Slide the probe superiorly to the right upper quadrant. Instruct patient: 'Take a deep breath and hold it'.",
+    "interpretation": "Target the right colonic flexure."
+  },
+  {
+    "start": 128.28,
+    "end": 130.6,
+    "action": "Hold position.",
+    "interpretation": "Visualize the right colonic flexure."
+  },
+  {
+    "start": 131.68,
+    "end": 149.43,
+    "action": "Tilt the probe and follow the continuous structure through the middle abdomen to the contralateral side.",
+    "interpretation": "Trace the air structure across the abdomen. Identify the transverse colon crossing to the other side."
+  },
+  {
+    "start": 151.07,
+    "end": 154.13,
+    "action": "Instruct patient: 'Exhale again'. Then instruct: 'Take a deep breath again'.",
+    "interpretation": "Prepare to visualize the left upper quadrant structures."
+  },
+  {
+    "start": 154.15,
+    "end": 159.45,
+    "action": "Scan the left upper quadrant.",
+    "interpretation": "Visualize the left colonic flexure going around."
+  },
+  {
+    "start": 161.27,
+    "end": 178.37,
+    "action": "Tilt the probe to obtain a cross-section. Slide down along the flank to follow the descending colon to the sigmoid colon.",
+    "interpretation": "Visualize the descending colon in cross-section. Trace it down until it transitions to the sigmoid colon moving toward the middle in cross-section."
+  },
+  {
+    "start": 180.31,
+    "end": 189.36,
+    "action": "Adjust orientation for cross-section and scan inferiorly.",
+    "interpretation": "Follow the sigmoid colon as it goes over into the rectum."
+  },
+  {
+    "start": 190.21,
+    "end": 194.34,
+    "action": "Angle the probe inferiorly to look behind the bladder.",
+    "interpretation": "Visualize the rectum located behind the bladder."
+  }
+]

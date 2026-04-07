@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[MCQ] Based on the video, what probe maneuver is being performed while maintaining the same general imaging plane, and what is the objective?\nA) Slide the probe laterally to bring a key vascular landmark into view as a roadmap for finding the target organ\nB) Rock (heel-toe) the probe to optimize the insonation angle and center the vessel for Doppler assessment.\nC) Sweep the probe cephalad–caudad to scan through adjacent slices while looking for the organ’s hilum.\nD) Apply graded compression with the probe to displace overlying bowel gas and improve visualization of the target organ.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the liver edge in view, the operator slides the transducer toward the patient’s right to scan until the portal vein is identified as the key landmark.",
+    "time_start": 8.48,
+    "time_end": 17.6,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Slide the probe laterally to bring a key vascular landmark into view as a roadmap for finding the target organ\n\nExplanation: The video demonstrates a \"slide\" maneuver where the probe is moved physically across the skin surface (laterally) while maintaining the same scan plane. This is evident as the entire field of view shifts horizontally, bringing the inferior vena cava (the large vessel on the right) and the aorta (the round vessel on the left) into better view relative to the liver. This technique is often used to use major vessels as \"roadmaps\" to locate specific organs or structures.",
+      "latency_ms": 5790.633916854858,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.120000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video, what image-optimization/scanning technique is being used during the repeated angling motion, and why?\nA) Fanning/heel-toe sweeping to interrogate the entire target cavity in one plane and reduce missed focal findings\nB) Rocking/tilting the transducer to keep the structure centered and maximize echogenicity by making the beam more perpendicular to it\nC) Rotating the probe 90° to obtain an orthogonal view for anatomic confirmation rather than sweeping through the entire cavity\nD) Adjusting Doppler insonation angle/beam steering to align with blood flow and improve velocity detection",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps through the gallbladder by rocking/fanning the probe left and right to inspect the lumen for stones or inflammatory changes.",
+    "time_start": 22.42,
+    "time_end": 34.14,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video demonstrates a \"fanning\" or \"sweeping\" motion. The probe is held in one position on the skin but tilted back and forth (like fanning a deck of cards) to sweep the ultrasound beam through the volume of the tissue. This allows the operator to interrogate the entire structure (in this case, sweeping through the liver parenchyma and vascular structures) from one side to the other, ensuring that no focal lesions or abnormalities are missed within that scanned volume. It is distinct from rocking (which centers an image) or rotating (which changes the plane from transverse to longitudinal).",
+      "latency_ms": 6353.06191444397,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.719999999999999,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video, what system/mode change is performed over the region of interest, and what problem does it solve?\nA) Color Doppler is activated to distinguish flowing vascular structures from nonvascular fluid-filled anatomy\nB) Power Doppler is activated to increase sensitivity for low-flow vessels when color Doppler is inconclusive.\nC) Spectral Doppler is applied to measure flow velocity and waveform characteristics to characterize suspected vascular pathology.\nD) M-mode is selected to document motion over time and differentiate moving structures from static anatomy.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Color Doppler is activated over the area of interest to confirm the portal vein shows flow and to verify the gallbladder does not, helping distinguish vascular from nonvascular anatomy.",
+    "time_start": 55.47,
+    "time_end": 65.41,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nAt the 00:03 mark, the user selects \"CFI\" (Color Flow Imaging) or Color Doppler from the on-screen menu. This mode overlays color on the B-mode image to visualize blood flow. The color box is placed over the anechoic tubular structures seen in the liver. The presence of color fill within one of the structures confirms it is a blood vessel (likely the portal vein or a hepatic vessel) with active flow, distinguishing it from non-vascular fluid-filled structures like the gallbladder (seen to the right) or bile ducts, which would not show color flow.",
+      "latency_ms": 11305.546998977661,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.939999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video, what phase of the exam is this sequence showing, and what is the next logical task immediately after it?\nA) Initial localization using a midline long-axis view followed by a lateral slide to a landmark; next perform systematic sweeps of the target structure\nB) Confirming an anatomic landmark in a transverse (short-axis) view; next rotate back to long-axis for targeted evaluation of the structure\nC) Targeted measurement setup at a key landmark; next obtain standardized length/diameter measurements rather than performing systematic sweeps\nD) Initial vascular screening with color Doppler at the landmark; next perform spectral Doppler sampling of a representative vessel",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first establishes a sagittal midline view to identify the liver edge, then slides laterally to identify the portal vein and recognize the gallbladder in relation to it—setting up for systematic gallbladder sweeps.",
+    "time_start": 0.03,
+    "time_end": 21.55,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video starts with the probe searching for a window, initially encountering gas or poor contact (the dark area). It then establishes a midline, long-axis (sagittal) view of the upper abdomen, visualizing the liver and specifically identifying the Inferior Vena Cava (IVC) as it courses through the liver. The probe then slides laterally to bring the abdominal aorta into view (seen as the pulsatile, tubular structure deep to the liver). This sequence represents the initial localization phase where the sonographer identifies key vascular landmarks (IVC and Aorta) in the long axis. The next logical task in an abdominal or aortic ultrasound protocol, once the aorta is located in long axis, is to perform systematic sweeps (proximal to distal) of the target structure to evaluate for pathology like aneurysms.",
+      "latency_ms": 11881.864786148071,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.52,
+    "keep": true
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "start": 2.72,
+    "end": 5.46,
+    "action": "Scan the Right Upper Quadrant to locate landmarks.",
+    "interpretation": "Identify the liver and the diaphragm."
+  },
+  {
+    "start": 5.48,
+    "end": 21.13,
+    "action": "Scan more posterior to target the retroperitoneal space. Establish a long or coronal orientation of the right kidney.",
+    "interpretation": "Visualize the right kidney in the long axis. Recall that kidneys are retroperitoneal structures."
+  },
+  {
+    "start": 21.19,
+    "end": 25.09,
+    "action": "Focus on the renal borders.",
+    "interpretation": "Visualize the capsule of the kidney, noting that it is hyperechoic."
+  },
+  {
+    "start": 25.83,
+    "end": 35.7,
+    "action": "Inspect the center of the kidney. Evaluate the echogenicity of the collecting system.",
+    "interpretation": "Visualize that the center of the kidney is hyperechoic. Interpret this as a collapsed collecting system, indicating no hydronephrosis."
+  },
+  {
+    "start": 36.66,
+    "end": 41.5,
+    "action": "Fan the probe through the entire volume of the kidney.",
+    "interpretation": "Ensure full visualization of the organ to avoid missing pathology."
+  },
+  {
+    "start": 44.38,
+    "end": 47.64,
+    "action": "Hold the view on a suspicious area within the kidney.",
+    "interpretation": "Note a potential tiny area suggestive of a hydro ureter."
+  },
+  {
+    "start": 48.48,
+    "end": 62.29,
+    "action": "Activate Color Doppler mode.",
+    "interpretation": "Differentiate between mild hydronephrosis/hydro ureter and vasculature."
+  },
+  {
+    "start": 66.31,
+    "end": 74.39,
+    "action": "Observe the color flow signals in the suspicious area.",
+    "interpretation": "Confirm the structures are vessels due to the presence of flow. Rule out hydro ureter. Conclude the kidney is normal."
+  },
+  {
+    "start": 75.85,
+    "end": 77.16,
+    "action": "Deactivate Color Doppler mode.",
+    "interpretation": "Return to B-mode imaging."
+  },
+  {
+    "start": 77.88,
+    "end": 92.91,
+    "action": "Rotate the probe 90 degrees counterclockwise. Orient the probe marker down towards the bed.",
+    "interpretation": "Visualize the kidney in a transverse view."
+  },
+  {
+    "start": 92.97,
+    "end": 96.21,
+    "action": "Identify artifacts obscuring the image.",
+    "interpretation": "Recognize rib shadowing obscuring the middle of the kidney view."
+  },
+  {
+    "start": 96.27,
+    "end": 111.85,
+    "action": "Slide the probe into the intercostal space between ribs. Fan through the kidney to optimize the transverse view.",
+    "interpretation": "Obtain a clearer transverse view by avoiding the rib shadow."
+  },
+  {
+    "start": 115.19,
+    "end": 127.06,
+    "action": "Inspect the center of the kidney in the transverse plane.",
+    "interpretation": "Verify there is no anechoic area in the center, as an anechoic center would suggest hydronephrosis."
+  },
+  {
+    "start": 127.6,
+    "end": 131.75,
+    "action": "Confirm final findings.",
+    "interpretation": "Visualize a hyperechoic white center to confirm the kidney is normal."
+  }
+]

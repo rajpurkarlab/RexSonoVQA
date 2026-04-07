@@ -1,0 +1,116 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial scanning approach is being used, and what is its purpose?\nA) Start in a transverse/axial view to identify a key vascular landmark and establish orientation\nB) Start in a longitudinal/sagittal view to follow the vessel’s course and confirm continuity along its length\nC) Begin with Color Doppler over the suspected vessel to confirm flow direction and patency before optimizing grayscale anatomy\nD) Start with a broad, deep abdominal survey view to rapidly screen for gross pathology before focusing on specific vascular landmarks",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator begins scanning in the axial (transverse) plane and locates the iliac vessels to establish initial orientation before continuing the exam.",
+    "time_start": 0.09,
+    "time_end": 7.37,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nThe video begins with the probe oriented to provide a transverse (short-axis) view of the neck anatomy. The primary circular, anechoic structure seen is the internal jugular vein (IJV), with the pulsating carotid artery visible adjacent to it. This approach is standard for first identifying the vessel, distinguishing the vein from the artery (typically by compression or anatomical relationship), and establishing the correct orientation before proceeding with further steps like needle guidance or longitudinal views.",
+      "latency_ms": 9374.403953552246,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.28,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow phase is being performed, and what is the immediate next objective?\nA) Establish a reliable landmark first, then track cephalad from it to begin searching for the target\nB) Optimize the current view by fine-tuning depth and gain to sharpen the image before attempting to identify any landmark.\nC) Having identified a likely target structure, hold the probe steady and obtain measurements or documentation images immediately.\nD) Confirm you are on a vascular structure by activating color Doppler, then follow the vessel caudad to locate the intended target.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After locating the iliac vessels for orientation, the operator slides the transducer cephalad to begin searching upward from that landmark for the appendix.",
+    "time_start": 0.09,
+    "time_end": 21.78,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video clip:\n\nAnswer: A\n\nExplanation: The video shows the clinician sliding the ultrasound probe along the neck, moving from a position where a clear vascular structure (likely the Internal Jugular Vein) is visible and tracking upwards (cephalad) while maintaining the view. This is characteristic of the workflow phase where the operator establishes a reliable anatomical landmark (the vessel) and then tracks superiorly from it to begin searching for a specific target, such as a lymph node or the styloid process, which often lies cephalad to the initial vascular view.",
+      "latency_ms": 8044.63529586792,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.69,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, once a candidate target is seen, what does the operator do next and why?\nA) Hold the probe steady to keep the structure in-plane for confirmation\nB) Sweep the probe through the region to map the structure’s full extent and surrounding anatomy before saving images\nC) Rotate the probe 90° to obtain an orthogonal view to better characterize the structure’s shape and orientation\nD) Apply color Doppler over the target to assess for internal or adjacent vascularity and help differentiate it from vessels",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Upon identifying the structure consistent with the appendix, the operator holds the probe position to maintain a stable view for visual confirmation.",
+    "time_start": 33.9,
+    "time_end": 36.5,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nIn the video, after identifying the hypoechoic circular/ovoid structure (likely a vessel or nerve), the operator activates the color Doppler mode. This is done to assess whether there is blood flow within the structure (identifying it as a vessel) or adjacent to it, which helps differentiate vessels from nerves or other non-vascular structures.",
+      "latency_ms": 6478.241682052612,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 2.6000000000000014,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization/assessment maneuver is being performed, and what is it intended to determine?\nA) Graded manual compression to assess compressibility and patient tenderness\nB) Rotate the transducer 90° to obtain an orthogonal view to better delineate and measure the suspected structure.\nC) Activate color Doppler over the area of interest to assess for hyperemia or vascular flow within the lesion.\nD) Repeat a focused sweep during a patient breath-hold to improve the acoustic window and confirm the target finding.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator applies manual compression with the probe to test compressibility of the structure and assess for tenderness as part of evaluating for inflammation.",
+    "time_start": 50.31,
+    "time_end": 55.45,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) Graded manual compression to assess compressibility and patient tenderness\n\n**Explanation:**\nThe video clip demonstrates the technique of graded compression. The operator is pressing down with the ultrasound probe, causing the tissues to deform. The central tubular structure (which appears to be the appendix) does not fully compress, suggesting it may be inflamed or abnormal. This maneuver is classic for evaluating appendicitis, checking for non-compressibility of the appendix and eliciting a sonographic Murphy's sign (tenderness).",
+      "latency_ms": 6666.644096374512,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.140000000000001,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, when the operator closely interrogates the structure’s lumen, what are they most specifically trying to detect, and why?\nA) An obstructing intraluminal calcified focus that would support a positive inflammatory diagnosis\nB) Intraluminal gas or fecal material to help distinguish a normal bowel loop from the target tubular structure.\nC) A central anechoic fluid-filled lumen to suggest simple obstructive dilatation rather than a focal obstructing lesion.\nD) Increased mural vascularity on Doppler to grade inflammatory hyperemia rather than identifying an intraluminal obstructing focus.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator scans the lumen for hyperechoic calcifications and looks for posterior acoustic shadowing to identify an appendicolith, which would support appendicitis.",
+    "time_start": 57.91,
+    "time_end": 68.33,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A) An obstructing intraluminal calcified focus that would support a positive inflammatory diagnosis\n\n**Explanation:**\nThe video shows an ultrasound examination of the right lower quadrant, focusing on the appendix. The operator is interrogating the lumen of a non-compressible, tubular structure (the appendix). At various points, specifically around the 1-second and 12-second marks, a bright, hyperechoic focus with posterior acoustic shadowing is visible within the lumen. This represents an appendicolith (fecalith). The operator is scanning back and forth to confirm the presence of this stone, as finding an obstructing calcified focus within an inflamed appendix strongly supports the diagnosis of appendicitis.",
+      "latency_ms": 6743.951320648193,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.420000000000002,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what overall interpretation is being finalized at this stage of the exam?\nA) Findings are consistent with acute appendicitis with a noncompressible, enlarged blind-ending tubular structure\nB) Findings support a normal study without appendicitis\nC) Appendix is not definitively visualized, so the study is indeterminate and further imaging is recommended if suspicion remains high\nD) Findings suggest an alternative cause of pain such as mesenteric adenitis with enlarged right lower quadrant lymph nodes",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator synthesizes the sonographic findings and concludes the patient does not have appendicitis.",
+    "time_start": 74.74,
+    "time_end": 79.99,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video clip demonstrates a graded compression technique in the right lower quadrant. A compressible, oval-shaped structure is visualized in the center, which appears to be a normal vessel (likely the iliac vein) or potentially a loop of bowel, but crucially, no non-compressible, blind-ending tubular structure (which would indicate an inflamed appendix) is seen. The surrounding fat is not inflamed (no hyperechoic periappendiceal fat). Without the positive signs of appendicitis (non-compressibility, diameter >6mm, wall thickening, hyperemia), and with the structures appearing to compress or move freely, the findings support a normal study without evidence of acute appendicitis.",
+      "latency_ms": 7981.835842132568,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.25,
+    "keep": true
+  }
+]

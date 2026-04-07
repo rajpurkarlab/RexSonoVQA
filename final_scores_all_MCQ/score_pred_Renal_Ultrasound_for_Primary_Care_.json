@@ -1,0 +1,135 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what stage of the exam is being performed, and what is the immediate scanning objective?\nA) Applying graded transducer compression to shift bowel gas and improve the acoustic window over the target structure\nB) Initial orientation using nearby anatomic landmarks to set the window, then transitioning toward a deeper posterior target for a standard long-axis view\nC) Differentiating components of a vascular–duct bundle (e.g., portal triad) to correctly identify the duct versus adjacent vessels\nD) Capturing a caliper measurement in the long axis to document organ length/volume for the exam report",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator begins with a right upper quadrant survey to find key landmarks (liver and diaphragm) and then scans more posteriorly to bring the retroperitoneal kidney into a long/coronal long-axis view.",
+    "time_start": 2.72,
+    "time_end": 21.13,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nThe video begins with the transducer attempting to find an initial acoustic window, showing glimpses of liver parenchyma. The operator then adjusts the probe position and angulation, using the liver as a window to orient themselves. As the clip progresses, the view transitions from the liver tissue to center on the right kidney, bringing it into a clear, standard long-axis view deep and posterior to the liver. This sequence represents the initial orientation and window-setting phase, moving toward the target organ (the kidney) for a standard diagnostic view.\n\n*   **Option A** is incorrect because there is no evidence of the characteristic rhythmic pushing movement used for graded compression of bowel gas.\n*   **Option C** is incorrect because the focus is clearly on a large solid organ (kidney) rather than zooming in on small vascular structures like the portal triad.\n*   **Option D** is incorrect because no calipers or freezing of the image occurs to take measurements.",
+      "latency_ms": 10797.554969787598,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 18.41,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning emphasis is shown, and what is the goal?\nA) Systematic survey of the organ parenchyma to identify focal masses or heterogeneous echotexture\nB) Tracing the organ’s outer margin to evaluate the capsule and overall contour\nC) Following the main vascular structures with color Doppler to confirm patency and direction of flow\nD) Measuring the organ’s long axis in a standard plane to document overall size and enlargement",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator focuses on the renal borders to visualize the hyperechoic capsule and assess the kidney’s outer contour.",
+    "time_start": 21.19,
+    "time_end": 25.09,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video clip demonstrates a sweeping motion through the organ (likely the liver or spleen) specifically looking at the internal tissue architecture. The probe is fanned or slid to visualize a large cross-section of the parenchyma rather than just measuring a single dimension or tracing only the edge. This technique is characteristic of a systematic survey intended to screen for abnormalities such as focal masses, cysts, or heterogeneous echotexture within the organ substance. There is no color Doppler being used (ruling out option C), calipers are not placed for measurement (ruling out option D), and the focus is clearly on the internal tissue rather than just the outer capsule (ruling out option B).",
+      "latency_ms": 7542.207956314087,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 3.8999999999999986,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what diagnostic check is being performed by evaluating the appearance of the organ’s central region, and what condition is being ruled out?\nA) Looking for central fluid dilation to assess for obstructive dilation\nB) Assessing for echogenic shadowing within the renal pelvis to rule out a renal calculus.\nC) Evaluating for echogenic debris or fluid–fluid levels in the collecting system to rule out pyonephrosis.\nD) Checking for a central soft-tissue filling defect in the collecting system to rule out a urothelial (transitional cell) tumor.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator inspects the center of the kidney and evaluates the echogenicity of the collecting system; a bright (not fluid-filled) center supports a collapsed collecting system and no hydronephrosis.",
+    "time_start": 25.83,
+    "time_end": 35.7,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video shows a longitudinal view of a kidney. The visual focus, highlighted by the moving orange dot, is on the central renal sinus complex (the echogenic center of the kidney). In a normal kidney, this area is filled with echogenic fat and the collecting system is collapsed and not easily visible. The diagnostic check being performed is an evaluation of this central region to look for anechoic (black) fluid-filled spaces. The absence of these fluid-filled spaces (hydronephrosis) rules out obstructive dilation of the renal collecting system. Therefore, the clinician is looking for central fluid dilation to assess for obstructive dilation.",
+      "latency_ms": 7459.630012512207,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.870000000000005,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine-mode change is performed, and why?\nA) Activate Color Doppler to determine whether the questionable structure represents blood flow versus a non-flow fluid space\nB) Switch to spectral Doppler to measure flow velocities and confirm whether the structure has an arterial or venous waveform.\nC) Enable power Doppler to evaluate for hyperemia around the structure as a marker of inflammation.\nD) Activate M-mode to assess for rhythmic motion or pulsatility of the structure over time.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Color Doppler is turned on to help differentiate mild urinary dilation from vessels by assessing for flow in the suspicious region.",
+    "time_start": 48.48,
+    "time_end": 62.29,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nThe video shows an initial grayscale (B-mode) image of an anatomical structure, possibly a kidney, with a questionable hypoechoic area. Toward the end of the clip, the user opens the menu and selects \"Color Doppler\" (CDI). Activating Color Doppler is the standard next step to distinguish whether a hypoechoic or anechoic structure is a blood vessel (which will show color flow) or a non-vascular fluid collection/cyst (which will remain devoid of color signal).",
+      "latency_ms": 6480.449914932251,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.810000000000002,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is shown, and what is the intended result?\nA) Rocking (heel-toe) the probe to bring the target into the center of the beam and optimize its long-axis appearance\nB) Rotating the probe ~90° to change from a long-axis to a short-axis/transverse view\nC) Sliding the probe along the skin to track the structure proximally or distally while keeping the same imaging plane\nD) Tilting/angling the probe (fanning) to sweep through adjacent tissue planes to avoid missing pathology",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is rotated 90 degrees counterclockwise with the marker oriented down toward the bed to obtain a transverse view of the kidney.",
+    "time_start": 77.88,
+    "time_end": 92.91,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video clip demonstrates the operator rotating the probe approximately 90 degrees. Initially, the ultrasound shows a longitudinal (long-axis) view of a tubular vessel, likely the inferior vena cava or aorta. As the clip progresses, the view twists and transforms, resulting in a transverse (short-axis) cross-sectional view of the vessel, which appears circular by the end of the maneuver. This rotation allows the clinician to assess the vessel's dimensions and shape in two orthogonal planes.",
+      "latency_ms": 7821.8371868133545,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.030000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the image quality becomes partially obscured and the operator changes technique. What adjustment is made, and what is the purpose?\nA) Adjust depth, gain, and focal zone to optimize resolution at the target depth without changing the scanning window\nB) Reposition into an adjacent acoustic window and resweep to avoid obstruction and restore a clear view\nC) Rotate the probe 90° to obtain an orthogonal (transverse) view in hopes of bypassing the artifact\nD) Apply increased probe pressure and alter the insonation angle to reduce reverberation/shadowing from overlying structures",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "Rib shadowing obscures part of the transverse kidney view; the operator slides into an intercostal space and fans through the kidney to avoid the shadow and improve visualization.",
+    "time_start": 92.97,
+    "time_end": 111.85,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B) Reposition into an adjacent acoustic window and resweep to avoid obstruction and restore a clear view\n\nExplanation:\nInitially, the image shows periodic obscuration by acoustic shadowing, likely from ribs (appearing as dark vertical bands sweeping across the image). The operator recognizes this limited view. Instead of just adjusting settings like gain or depth on the current view, the video shows the entire image changing character as the probe is physically moved to a different location (a new acoustic window), presumably an intercostal space or a subcostal approach that avoids the rib shadows. After repositioning, the operator performs a \"resweep\" or fan of the probe to re-interrogate the anatomy (likely the spleen or liver) through this clearer window.",
+      "latency_ms": 8235.218048095703,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 18.879999999999995,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being checked by closely inspecting the center of the organ in the cross-sectional plane?\nA) Whether the central region becomes fluid-filled, which would suggest obstructive dilation\nB) Whether the normal echogenic renal sinus/hilum is centered, confirming an adequate transverse view of the organ.\nC) Whether there is an echogenic, shadowing calculus in the collecting system that could be causing symptoms.\nD) Whether central vascular structures are present on Doppler, helping distinguish vessels from the collecting system.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In transverse, the operator inspects the center of the kidney to ensure there is no anechoic (fluid) dilation that would suggest hydronephrosis.",
+    "time_start": 115.19,
+    "time_end": 127.06,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video shows a transverse (cross-sectional) sweep through a kidney. By closely inspecting the center of the organ in this plane, the sonographer is verifying that the hyperechoic (bright) renal sinus and hilum are centrally located within the renal parenchyma. This confirms that the probe is oriented correctly to obtain a true transverse view of the kidney, rather than an oblique or off-axis slice. There is no fluid (hydronephrosis) seen (ruling out A), no obvious calculus casting a shadow (ruling out C), and color Doppler is not being used (ruling out D).",
+      "latency_ms": 8926.8639087677,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 11.870000000000005,
+    "keep": false
+  }
+]

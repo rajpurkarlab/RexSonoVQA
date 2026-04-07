@@ -1,0 +1,62 @@
+[
+  {
+    "start": 0.41,
+    "end": 2.83,
+    "action": "Position the probe high on the anterior or lateral thorax.",
+    "interpretation": "Initiate the exam at the superior lung fields."
+  },
+  {
+    "start": 2.85,
+    "end": 10.16,
+    "action": "Hold the probe steady to identify linear artifacts.",
+    "interpretation": "Visualize the hyperechoic pleural line and the horizontal reverberation artifact (A-line) located deep to the pleura."
+  },
+  {
+    "start": 10.22,
+    "end": 11.95,
+    "action": "Focus on the pleural interface.",
+    "interpretation": "Observe the 'shimmering' of the pleura, indicating lung sliding."
+  },
+  {
+    "start": 12.99,
+    "end": 15.91,
+    "action": "Identify the lateral borders of the intercostal space.",
+    "interpretation": "Visualize the acoustic shadows cast by the ribs on each side of the image."
+  },
+  {
+    "start": 17.28,
+    "end": 22.77,
+    "action": "Slide the probe inferiorly along the thorax.",
+    "interpretation": "Scan downward to visualize multiple sequential rib spaces."
+  },
+  {
+    "start": 23.47,
+    "end": 27.77,
+    "action": "Continue scanning while assessing for pathology.",
+    "interpretation": "Confirm only normal findings are present: persistent pleural motion and A-lines."
+  },
+  {
+    "start": 28.47,
+    "end": 32.53,
+    "action": "Slide the probe further downward toward the abdominal-thoracic boundary.",
+    "interpretation": "Target the diaphragm."
+  },
+  {
+    "start": 33.51,
+    "end": 41.57,
+    "action": "Obtain a view of the left upper quadrant (LUQ).",
+    "interpretation": "Visualize anatomical landmarks: the spleen, the hyperechoic diaphragm, the kidney, and the vertebral column (spine)."
+  },
+  {
+    "start": 41.61,
+    "end": 44.73,
+    "action": "Trace the hyperechoic line of the spine.",
+    "interpretation": "Verify that the visualization of the spine ends at the diaphragm."
+  },
+  {
+    "start": 44.74,
+    "end": 54.77,
+    "action": "Assess the area superior to the diaphragm for artifacts.",
+    "interpretation": "Confirm the spine stops at the diaphragm (normal sign) and observe the mirror image artifact. Recognize this indicates the lung is air-filled in this area."
+  }
+]

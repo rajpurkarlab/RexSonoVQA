@@ -1,0 +1,107 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what stage of the exam is the operator in while scanning broadly in one plane, and what is the broader objective of this segment?",
+    "answer": "They are in an initial survey phase in a single plane, using a broad sweep to orient to key landmarks and understand how surrounding structures affect the window for the pancreas.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator surveys the longitudinal plane to orient to key landmarks (including the pancreas and major midline structures) and notes that adjacent bowel loops can obscure the pancreas.",
+    "time_start": 6.67,
+    "time_end": 19.93,
+    "model_prediction": "Based on the video, the operator is in the initial surveying or exploratory stage of the exam. The broader objective of this segment is to establish orientation and identify major landmarks, such as the liver, hepatic veins, and inferior vena cava (IVC), before focusing on specific measurements or detailed pathology.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is in the initial surveying or exploratory stage of the exam. The broader objective of this segment is to establish orientation and identify major landmarks, such as the liver, hepatic veins, and inferior vena cava (IVC), before focusing on specific measurements or detailed pathology.",
+      "latency_ms": 6118.568181991577,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 13.26,
+    "judge_explanation": "The AI correctly identifies the stage of the exam (initial survey/exploratory). However, it fails to identify the specific target organ (pancreas) mentioned in the ground truth, providing a generic abdominal survey objective instead. Per the strictness rules, failure to identify the specific organ constitutes a visual evidence error.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what image-brightness controls are adjusted, and what is the purpose of making these changes at this point?",
+    "answer": "Global gain and the TGC controls are adjusted to balance near- and far-field brightness so the tissue appearance is appropriate and the target structures are not under- or over-gained.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts overall gain and the TGC sliders to ensure brightness is distributed correctly through depth for the tissue characteristics during pancreas imaging.",
+    "time_start": 31.4,
+    "time_end": 36.98,
+    "model_prediction": "Based on the video, the overall gain is being decreased (the image becomes darker). The purpose of this adjustment is to reduce artifactual echoes within the lumen of the aorta, making the vessel appear more anechoic (black) and improving the contrast to better visualize the vessel walls.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the overall gain is being decreased (the image becomes darker). The purpose of this adjustment is to reduce artifactual echoes within the lumen of the aorta, making the vessel appear more anechoic (black) and improving the contrast to better visualize the vessel walls.",
+      "latency_ms": 6257.524013519287,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.579999999999998,
+    "judge_explanation": "The AI correctly identifies that the gain is being adjusted but fails to mention the Time Gain Compensation (TGC) controls, which are a key part of the ground truth. Additionally, the AI attributes the change to a general darkening to clear the aorta lumen, whereas the ground truth specifies the purpose is to balance near- and far-field brightness.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video, after the plane change the operator holds a steady view. What imaging goal is being pursued by maintaining this plane?",
+    "answer": "They are maintaining a transverse pancreas view to demonstrate the gland across its breadth—capturing the head, body, and at least part of the tail in a consistent short-axis plane.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In the maintained transverse plane, the operator aims to visualize the pancreatic head, body, and part of the tail.",
+    "time_start": 47.88,
+    "time_end": 52.69,
+    "model_prediction": "Based on the video, the operator maintains a steady view to interrogate the **pancreatic body**.\n\nThe initial view shows a transverse section of the upper abdomen. The large, tubular structure running horizontally across the screen is the splenic vein. The pancreas is the echogenic organ draped anteriorly over this vein. By holding this plane steady, the operator is optimizing the visualization of the pancreatic body and tail as they course over the major vessels.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator maintains a steady view to interrogate the **pancreatic body**.\n\nThe initial view shows a transverse section of the upper abdomen. The large, tubular structure running horizontally across the screen is the splenic vein. The pancreas is the echogenic organ draped anteriorly over this vein. By holding this plane steady, the operator is optimizing the visualization of the pancreatic body and tail as they course over the major vessels.",
+      "latency_ms": 6438.560962677002,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.809999999999995,
+    "judge_explanation": "The AI correctly identifies the organ (pancreas), the plane (transverse), and the key anatomical landmark (splenic vein). Although the ground truth explicitly lists the head, body, and tail, the AI's response focusing on the body and tail is anatomically accurate for the view defined by the splenic vein and constitutes a correct identification of the imaging goal.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what hands-on/physiologic optimization maneuvers are used to improve the view, and what problem are they intended to overcome?",
+    "answer": "The operator rocks the probe through angles and times the scan with respiratory changes to improve the acoustic window and reduce intermittent obscuration that can hide the pancreas.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "To maintain and improve visualization, the operator rocks cephalad/caudad and coordinates with changes in respiration to obtain a better window before returning to transverse imaging.",
+    "time_start": 57.01,
+    "time_end": 72.97,
+    "model_prediction": "Based on the video, the sonographer applies **graded compression** with the transducer and likely asks the patient to take a **deep breath (inspiration)**.\n\nThese maneuvers are intended to displace bowel gas and bring the abdominal organs (specifically the pancreas and surrounding vasculature) inferiorly, using the liver as an acoustic window to overcome the problem of **bowel gas obscuring the view**.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the sonographer applies **graded compression** with the transducer and likely asks the patient to take a **deep breath (inspiration)**.\n\nThese maneuvers are intended to displace bowel gas and bring the abdominal organs (specifically the pancreas and surrounding vasculature) inferiorly, using the liver as an acoustic window to overcome the problem of **bowel gas obscuring the view**.",
+      "latency_ms": 7228.576898574829,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 15.96,
+    "judge_explanation": "The AI correctly identifies the target organ (pancreas), the problem (bowel gas obscuration), and the physiologic maneuver (respiration/deep breath). However, the AI incorrectly identifies the hands-on maneuver as \"graded compression\" (intended to displace gas), whereas the ground truth specifies \"rocking the probe\" (intended to angle around obscuration).",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what phase does the operator enter after optimizing the deeper view, and what is the purpose of the action taken at the end of the segment?",
+    "answer": "They transition from live scanning to review/documentation by freezing the image so key anatomy in the optimized view can be identified and assessed (including the pancreatic tail and adjacent vascular/landmark structures).",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After angling for a deeper view aimed at the pancreatic tail, the operator freezes the image for analysis to identify the tail of the pancreas and adjacent landmarks such as the spine, abdominal aorta, SMA, and the splenic vein joining the portal confluence.",
+    "time_start": 73.89,
+    "time_end": 101.18,
+    "model_prediction": "Based on the video clip provided, here is the analysis:\n\n**Answer:**\nThe operator enters the **systematic sweeping** phase after optimizing the deeper view. The purpose of the action taken at the end of the segment is to **interrogate the surrounding vasculature and the tail of the pancreas**.\n\n**Explanation:**\n1.  **Phase Identification:** The video begins with a relatively static view of the pancreas head and body. Around the 00:08 mark, the operator begins a deliberate, slow movement of the probe (sweeping) towards the patient's left. This is a \"systematic sweep,\" a standard technique in ultrasound to visualize an entire organ or region thoroughly rather than just a single slice.\n2.  **Action Purpose:** The sweep moves laterally across the abdomen. As the view shifts, you can see the splenic vein coursing posteriorly. This sweeping motion allows the operator to follow the body of the pancreas out towards the tail and simultaneously visualize the major blood vessels (like the splenic vein and artery) that run along the posterior aspect of the pancreas, ensuring a complete assessment of the organ's anatomy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip provided, here is the analysis:\n\n**Answer:**\nThe operator enters the **systematic sweeping** phase after optimizing the deeper view. The purpose of the action taken at the end of the segment is to **interrogate the surrounding vasculature and the tail of the pancreas**.\n\n**Explanation:**\n1.  **Phase Identification:** The video begins with a relatively static view of the pancreas head and body. Around the 00:08 mark, the operator begins a deliberate, slow movement of the probe (sweeping) towards the patient's left. This is a \"systematic sweep,\" a standard technique in ultrasound to visualize an entire organ or region thoroughly rather than just a single slice.\n2.  **Action Purpose:** The sweep moves laterally across the abdomen. As the view shifts, you can see the splenic vein coursing posteriorly. This sweeping motion allows the operator to follow the body of the pancreas out towards the tail and simultaneously visualize the major blood vessels (like the splenic vein and artery) that run along the posterior aspect of the pancreas, ensuring a complete assessment of the organ's anatomy.",
+      "latency_ms": 8585.771083831787,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 27.290000000000006,
+    "judge_explanation": "The AI prediction incorrectly identifies the phase and action. The ground truth specifies that the operator transitions to the 'review/documentation' phase by 'freezing the image'. The AI incorrectly claims the operator enters a 'systematic sweeping' phase. While the anatomical focus (pancreas tail) is similar, the fundamental action (freezing vs. sweeping) is misidentified.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  }
+]

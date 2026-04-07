@@ -1,0 +1,192 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what acquisition strategy is shown while the operator searches for orientation landmarks, and what is the goal of doing this before detailed scanning?",
+    "answer": "The operator performs a targeted search for consistent landmarks (e.g., major adjacent vessels) to orient the image. The goal is to confirm the correct region and scanning plane so the pancreas can be identified reliably before a systematic sweep.",
+    "groundtruth": "The operator scans specifically for landmarks (splenic vein and portal confluence) to orient the view and correctly localize the pancreas for subsequent interrogation.",
+    "time_start": 6.47,
+    "time_end": 14.28,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 6.47,
+    "original_time_end": 14.28,
+    "model_prediction": "The operator performs a quick, broad fanning/rocking sweep of the transducer across the abdominal field of view for an initial global survey of the anatomy.\nThe goal of this initial survey is to identify major anatomic landmarks first to establish correct spatial orientation, so subsequent detailed scanning is properly targeted to the correct region of interest and all findings are interpreted in the correct anatomic context.",
+    "inference_metadata": {
+      "raw_response": "The operator performs a quick, broad fanning/rocking sweep of the transducer across the abdominal field of view for an initial global survey of the anatomy.\nThe goal of this initial survey is to identify major anatomic landmarks first to establish correct spatial orientation, so subsequent detailed scanning is properly targeted to the correct region of interest and all findings are interpreted in the correct anatomic context.",
+      "latency_ms": 21167.414903640747,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator transitions into a structured, section-by-section survey in one imaging plane. What is being done, and what is the broader objective of this approach?",
+    "answer": "They plan a transverse interrogation broken into segments and begin with an isolated sweep of the first segment. The objective is a complete, systematic evaluation of the gland rather than trying to see everything at once.",
+    "groundtruth": "The operator plans a transverse scan in sections, isolating the pancreatic head first; a breath-hold is used to improve the window, then attention is focused on the head and a full sweep through it is performed.",
+    "time_start": 29.84,
+    "time_end": 55.14,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 29.84,
+    "original_time_end": 55.14,
+    "model_prediction": "The operator is performing a gradual, continuous sweep of the ultrasound probe across the abdomen while maintaining a consistent transverse (axial) imaging plane, sequentially assessing each contiguous section of the abdominal anatomy as the probe moves.\n\nThe broader objective of this structured approach is to ensure full, standardized coverage of the entire region of interest with no gaps in evaluation, so that all relevant anatomical structures and any potential pathology are reliably detected, with no areas inadvertently skipped during scanning.",
+    "inference_metadata": {
+      "raw_response": "The operator is performing a gradual, continuous sweep of the ultrasound probe across the abdomen while maintaining a consistent transverse (axial) imaging plane, sequentially assessing each contiguous section of the abdominal anatomy as the probe moves.\n\nThe broader objective of this structured approach is to ensure full, standardized coverage of the entire region of interest with no gaps in evaluation, so that all relevant anatomical structures and any potential pathology are reliably detected, with no areas inadvertently skipped during scanning.",
+      "latency_ms": 31151.16000175476,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, the image quality improves after the patient briefly stops breathing. What is being done and what problem is this intended to overcome?",
+    "answer": "A deep-inspiration breath-hold is used while scanning. This is intended to improve the acoustic window by reducing motion and helping displace intervening gas/structures that obscure the view.",
+    "groundtruth": "The patient is instructed to take a big breath in and hold it to optimize the acoustic window by displacing bowel gas and stabilizing the view during pancreatic imaging.",
+    "time_start": 36.85,
+    "time_end": 42.39,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 36.85,
+    "original_time_end": 42.39,
+    "model_prediction": "The clinician is instructing the patient to briefly hold their breath (suspend respiration) during ultrasound image acquisition.\nThis is intended to overcome respiratory motion artifact: normal breathing causes continuous movement of upper abdominal organs, which blurs the ultrasound image, so suspending breathing eliminates this movement to produce a sharper, clearer diagnostic image.",
+    "inference_metadata": {
+      "raw_response": "The clinician is instructing the patient to briefly hold their breath (suspend respiration) during ultrasound image acquisition.\nThis is intended to overcome respiratory motion artifact: normal breathing causes continuous movement of upper abdominal organs, which blurs the ultrasound image, so suspending breathing eliminates this movement to produce a sharper, clearer diagnostic image.",
+      "latency_ms": 19836.720943450928,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweep direction is used for the next segment and what is the imaging objective of that pass?",
+    "answer": "The operator begins superiorly and sweeps inferiorly through the remaining segment, then returns to the starting position. The goal is to fully visualize and assess the tail (and adjacent body) across its extent.",
+    "groundtruth": "With a breath-hold, the operator starts superiorly and sweeps inferiorly through the pancreatic tail (adjusting depth as needed), then sweeps back up to complete the interrogation.",
+    "time_start": 71.96,
+    "time_end": 82.57,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 71.96,
+    "original_time_end": 82.57,
+    "model_prediction": "The sweep is performed in the transverse (axial/cross-sectional) plane across the upper abdomen, panning through sequential axial slices.\nThe imaging objective of this pass is to evaluate the hepatic parenchyma, porta hepatis structures (portal vein, biliary ducts, hepatic artery), and adjacent retroperitoneal structures (inferior vena cava, aorta) to assess normal anatomic relationships and identify any structural abnormalities.",
+    "inference_metadata": {
+      "raw_response": "The sweep is performed in the transverse (axial/cross-sectional) plane across the upper abdomen, panning through sequential axial slices.\nThe imaging objective of this pass is to evaluate the hepatic parenchyma, porta hepatis structures (portal vein, biliary ducts, hepatic artery), and adjacent retroperitoneal structures (inferior vena cava, aorta) to assess normal anatomic relationships and identify any structural abnormalities.",
+      "latency_ms": 28418.86591911316,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition occurs as the operator prepares to change scanning planes, and what is the purpose of adding this second plane?",
+    "answer": "They transition from the transverse survey to a longitudinal interrogation by rotating the transducer and re-acquiring the target. The purpose is to complete assessment in an orthogonal plane for better confirmation and documentation.",
+    "groundtruth": "The operator prepares for and transitions to longitudinal interrogation by rotating the transducer, locating the pancreatic head in the new plane, and initiating the longitudinal scan to ensure a complete assessment.",
+    "time_start": 84.91,
+    "time_end": 106.32,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 84.91,
+    "original_time_end": 106.32,
+    "model_prediction": "The operator rotates the ultrasound probe to transition to an **orthogonal (perpendicular) scanning plane** relative to the initial imaging view.\nAdding this second orthogonal plane is used to confirm the 3D spatial characteristics, identity, shape, and true location of the observed anatomical structures (or abnormal findings, such as the anechoic cystic structures visible here), eliminating ambiguity that can come from evaluating only a single 2D cross-section.",
+    "inference_metadata": {
+      "raw_response": "The operator rotates the ultrasound probe to transition to an **orthogonal (perpendicular) scanning plane** relative to the initial imaging view.\nAdding this second orthogonal plane is used to confirm the 3D spatial characteristics, identity, shape, and true location of the observed anatomical structures (or abnormal findings, such as the anechoic cystic structures visible here), eliminating ambiguity that can come from evaluating only a single 2D cross-section.",
+      "latency_ms": 27294.08288002014,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator changes their approach to patient breathing partway through setup for the next sweep. What adjustment is made and why would it help image optimization?",
+    "answer": "They abandon a breath-hold attempt and allow normal breathing instead. This can help by reducing patient strain and allowing the operator to re-time acquisition when the view is stable rather than forcing an unhelpful hold.",
+    "groundtruth": "The operator briefly asks for a big breath but then corrects to normal breathing, adjusting breathing strategy based on what best optimizes the imaging window at that moment.",
+    "time_start": 98.98,
+    "time_end": 103.76,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 98.98,
+    "original_time_end": 103.76,
+    "model_prediction": "The operator asks the patient to take a deep breath in and hold it (inspiratory breath hold).\nThis adjustment moves abdominal structures inferiorly/caudally, bringing more of the target anatomy into the ultrasound imaging window, and eliminates blurring artifact from respiratory motion of abdominal organs, improving image clarity and stability.",
+    "inference_metadata": {
+      "raw_response": "The operator asks the patient to take a deep breath in and hold it (inspiratory breath hold).\nThis adjustment moves abdominal structures inferiorly/caudally, bringing more of the target anatomy into the ultrasound imaging window, and eliminates blurring artifact from respiratory motion of abdominal organs, improving image clarity and stability.",
+      "latency_ms": 15474.730253219604,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what continuous optimization is performed during the longitudinal sweep, and what is the goal of doing it throughout the pass?",
+    "answer": "The operator continuously adjusts depth and the focal zone while sweeping. The goal is to maintain optimal resolution and framing of the pancreas as the scan traverses different portions.",
+    "groundtruth": "While sweeping longitudinally, the operator continuously adjusts focus and depth to match the anatomy and maintain optimal detail across the sweep.",
+    "time_start": 108.6,
+    "time_end": 115.2,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 108.6,
+    "original_time_end": 115.2,
+    "model_prediction": "The continuous optimization performed is adjustment of the ultrasound imaging depth setting during the sweep.\nThe goal of this adjustment is to keep the target abdominal anatomical structures fully within the image field of view, appropriately sized on the display, to ensure no relevant anatomy is cut off and resolution is optimized for evaluation of the region being interrogated through the sweep.",
+    "inference_metadata": {
+      "raw_response": "The continuous optimization performed is adjustment of the ultrasound imaging depth setting during the sweep.\nThe goal of this adjustment is to keep the target abdominal anatomical structures fully within the image field of view, appropriately sized on the display, to ensure no relevant anatomy is cut off and resolution is optimized for evaluation of the region being interrogated through the sweep.",
+      "latency_ms": 19951.205015182495,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator sets up an overall documentation image in the transverse plane and then captures it. What is being prepared and what is the objective of this capture?",
+    "answer": "They prepare a general transverse overview view and then freeze to document it. The objective is to obtain a representative overall image of the gland for the record.",
+    "groundtruth": "The operator prepares an overall transverse image of the pancreas, uses a breath-hold to optimize the view, and then freezes to document the pancreatic body and tail.",
+    "time_start": 141.59,
+    "time_end": 158.69,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 141.59,
+    "original_time_end": 158.69,
+    "model_prediction": "The operator is preparing an optimized transverse cross-sectional view of the upper abdominal retroperitoneum, including the abdominal aorta, inferior vena cava, and their adjacent vascular branches. The objective of this capture is to save a static documentation image of this view for the clinical record, to assess the size, morphology, and integrity of these structures and screen for pathologies like aortic aneurysm.",
+    "inference_metadata": {
+      "raw_response": "The operator is preparing an optimized transverse cross-sectional view of the upper abdominal retroperitoneum, including the abdominal aorta, inferior vena cava, and their adjacent vascular branches. The objective of this capture is to save a static documentation image of this view for the clinical record, to assess the size, morphology, and integrity of these structures and screen for pathologies like aortic aneurysm.",
+      "latency_ms": 29232.717990875244,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator then isolates a smaller region for targeted documentation and performs additional steps before moving on. What is this documentation step, and what is its purpose within the exam?",
+    "answer": "They isolate the head region for a dedicated still image, optimize settings, and annotate the stored image. The purpose is to document each segment separately with appropriate optimization for that view.",
+    "groundtruth": "The operator prepares a dedicated transverse image of the pancreatic head, uses a breath-hold to optimize the window, adjusts depth appropriately, and then annotates the captured head image for documentation.",
+    "time_start": 165.19,
+    "time_end": 189.77,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 165.19,
+    "original_time_end": 189.77,
+    "model_prediction": "This step is anatomic labeling/annotation of the captured static transverse pancreas ultrasound image, where the operator adds a label identifying the hepatic vein as the key structure being documented in this view.\n\nIts purpose is to clearly and accurately mark what anatomy and view the stored image displays, so any future review of these ultrasound records can correctly interpret the image, support accurate diagnosis, and maintain complete, clear clinical documentation of the exam.",
+    "inference_metadata": {
+      "raw_response": "This step is anatomic labeling/annotation of the captured static transverse pancreas ultrasound image, where the operator adds a label identifying the hepatic vein as the key structure being documented in this view.\n\nIts purpose is to clearly and accurately mark what anatomy and view the stored image displays, so any future review of these ultrasound records can correctly interpret the image, support accurate diagnosis, and maintain complete, clear clinical documentation of the exam.",
+      "latency_ms": 21556.040287017822,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe angulation strategy is used to obtain the next documentation image, and what is the imaging goal?",
+    "answer": "The operator angles the transducer to bring the more distal portion into view together with the mid-portion. The goal is to document the body and tail together in a single optimized view.",
+    "groundtruth": "To capture body and tail, the operator angles the transducer to visualize the tail along with the body, then captures the image after ending the breath-hold.",
+    "time_start": 198.79,
+    "time_end": 213.08,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 198.79,
+    "original_time_end": 213.08,
+    "model_prediction": "The probe is fanned (rocked/angled) within the transverse (axial) imaging plane, sweeping through the upper abdomen. The goal is to fully visualize all segments of the pancreas (head, neck, body, tail) and their adjacent vascular landmarks (splenic vein, superior mesenteric vessels, portal confluence, aorta/IVC) to capture complete, diagnostic transverse views of the pancreas for documentation, ensuring no pancreatic segments are missed during evaluation.",
+    "inference_metadata": {
+      "raw_response": "The probe is fanned (rocked/angled) within the transverse (axial) imaging plane, sweeping through the upper abdomen. The goal is to fully visualize all segments of the pancreas (head, neck, body, tail) and their adjacent vascular landmarks (splenic vein, superior mesenteric vessels, portal confluence, aorta/IVC) to capture complete, diagnostic transverse views of the pancreas for documentation, ensuring no pancreatic segments are missed during evaluation.",
+      "latency_ms": 21979.32195663452,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

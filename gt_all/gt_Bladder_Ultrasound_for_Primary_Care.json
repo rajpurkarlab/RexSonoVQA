@@ -1,0 +1,56 @@
+[
+  {
+    "start": 0.05,
+    "end": 3.15,
+    "action": "Place probe to obtain a view of the bladder.",
+    "interpretation": "Identify and visualize the bladder."
+  },
+  {
+    "start": 3.17,
+    "end": 10.74,
+    "action": "Decrease gain settings.",
+    "interpretation": "Correct the image quality because the screen appears 'bright white' due to excessive gain."
+  },
+  {
+    "start": 11.18,
+    "end": 19.4,
+    "action": "Maintain probe position and assess the image after gain adjustment.",
+    "interpretation": "Confirm clear visualization of the bladder in preparation for measurement."
+  },
+  {
+    "start": 20.95,
+    "end": 25.23,
+    "action": "Select the 'pre-void volume' function on the machine interface. Tap the center of the bladder on the screen.",
+    "interpretation": "Initiate the volume calculation tool."
+  },
+  {
+    "start": 25.45,
+    "end": 34.79,
+    "action": "Verify the placement of the auto-adjusted calipers to measure dimensions.",
+    "interpretation": "Measuring the width and height of the bladder in the current view."
+  },
+  {
+    "start": 34.81,
+    "end": 38.74,
+    "action": "Save the image.",
+    "interpretation": "Store the transverse measurements for the volume calculation."
+  },
+  {
+    "start": 42.91,
+    "end": 46.23,
+    "action": "Unfreeze the image. Rotate the probe to obtain a sagittal view.",
+    "interpretation": "Transition from transverse to the sagittal plane."
+  },
+  {
+    "start": 46.53,
+    "end": 55.9,
+    "action": "Orient the probe marker towards the patient's head. Tilt and rock the probe towards the patient's feet.",
+    "interpretation": "Adjust the probe angle to visualize the 'whole bladder'."
+  },
+  {
+    "start": 55.92,
+    "end": 70.94,
+    "action": "Fan through the bladder to locate the widest cross-section. Freeze the image. Measure the length.",
+    "interpretation": "Identify the 'biggest orientation' with the 'biggest volume' to ensure accurate length measurement."
+  }
+]

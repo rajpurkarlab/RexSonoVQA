@@ -1,0 +1,65 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe handling/motion is performed during the lateral sweep, and what is the operator trying to find with that pass?",
+    "answer": "The operator applies gentle pressure and slides the probe toward the patient’s right. The goal is to scan laterally to locate the colon and use the bowel-gas-related dirty shadowing as a recognizable landmark.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With gentle pressure, the transducer is slid toward the patient’s right to scan laterally to the colon and recognize the dirty shadowing produced by bowel gas as a key landmark.",
+    "time_start": 3.99,
+    "time_end": 12.79,
+    "model_prediction": "Based on the video, the operator performs a **sliding** motion with the probe. During this lateral sweep, the operator is attempting to locate the **appendix**.\n\n**Explanation:**\nThe video begins with a view obscured by gas (likely bowel gas), showing \"dirty shadowing.\" The operator then slides the probe laterally and inferiorly to find a clearer window. As they slide, they reveal the psoas muscle and iliac vessels, which are key landmarks. They then scan over an area to identify a tubular, blind-ended, non-compressible structure, which is the characteristic appearance of the appendix, though a definitive normal or abnormal appendix is not clearly visualized in this short clip. The maneuver itself—scanning the right lower quadrant, moving medial to lateral or superior to inferior over the psoas—is the classic technique for finding the appendix.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a **sliding** motion with the probe. During this lateral sweep, the operator is attempting to locate the **appendix**.\n\n**Explanation:**\nThe video begins with a view obscured by gas (likely bowel gas), showing \"dirty shadowing.\" The operator then slides the probe laterally and inferiorly to find a clearer window. As they slide, they reveal the psoas muscle and iliac vessels, which are key landmarks. They then scan over an area to identify a tubular, blind-ended, non-compressible structure, which is the characteristic appearance of the appendix, though a definitive normal or abnormal appendix is not clearly visualized in this short clip. The maneuver itself—scanning the right lower quadrant, moving medial to lateral or superior to inferior over the psoas—is the classic technique for finding the appendix.",
+      "latency_ms": 6561.849117279053,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.799999999999999,
+    "judge_explanation": "The AI correctly identifies the probe motion (sliding). However, the AI identifies the ultimate goal of the exam (locating the appendix) rather than the specific target of the lateral sweep described in the ground truth (locating the colon). Furthermore, the AI describes the bowel gas as an obstruction to be avoided, whereas the ground truth states the operator is looking for the colon to use the gas-related shadowing as a landmark.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what directional sweep is performed to track a consistent visual cue until it ends, and what anatomical level does that endpoint establish for the exam?",
+    "answer": "The probe is slid inferiorly toward the patient’s feet while following the cue until it terminates. That termination point is used to identify the level of the cecum.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The transducer is slid inferiorly to follow the dirty shadowing to its endpoint, using that termination as the level of the cecum.",
+    "time_start": 18.23,
+    "time_end": 28.22,
+    "model_prediction": "Based on the video, the probe is performing a longitudinal sweep along the length of the appendix (the consistent visual cue) to find its blind-ending tip. The visualization of this blind end establishes the distal extent of the appendix, confirming the entire organ has been visualized and ruling out a more distal pathology or continuation.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is performing a longitudinal sweep along the length of the appendix (the consistent visual cue) to find its blind-ending tip. The visualization of this blind end establishes the distal extent of the appendix, confirming the entire organ has been visualized and ruling out a more distal pathology or continuation.",
+      "latency_ms": 6786.22579574585,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.989999999999998,
+    "judge_explanation": "The AI incorrectly identifies the visual cue and the anatomical level established. The ground truth specifies sliding inferiorly to find the termination point that identifies the level of the cecum (likely tracking the ascending colon to the cecal pole). The AI describes tracking the appendix to its blind tip, which is a different anatomical structure and conclusion.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, once the suspected target is found near a junction, what optimization maneuvers are performed and what confirmation are they aiming to obtain?",
+    "answer": "The operator centers the structure at its attachment point and optimizes the image to bring out fine detail. This is done to identify a small blind-ended structure attached to the cecum and confirm it appears normal and thin.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After locating the attachment to the cecum, the operator optimizes the image to resolve fine details and confirm a small blind-ended structure consistent with a normal appendix with only a couple millimeters of thickness.",
+    "time_start": 44.15,
+    "time_end": 62.21,
+    "model_prediction": "Based on the video clip, the sonographer performs a **compression** maneuver with the ultrasound probe. This maneuver is aimed at confirming the compressibility of the tubular structure (likely a vein) to rule out the presence of a thrombus (clot), as a normal vein should collapse completely under pressure while an artery or a thrombosed vein would not.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer performs a **compression** maneuver with the ultrasound probe. This maneuver is aimed at confirming the compressibility of the tubular structure (likely a vein) to rule out the presence of a thrombus (clot), as a normal vein should collapse completely under pressure while an artery or a thrombosed vein would not.",
+      "latency_ms": 5844.182014465332,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 18.060000000000002,
+    "judge_explanation": "The AI completely misinterprets the clinical scenario. The ground truth describes identifying the appendix (a blind-ended structure attached to the cecum) and optimizing the image to confirm it is normal. The AI incorrectly identifies the procedure as a compression test for deep vein thrombosis (DVT), referring to veins and thrombus, which is unrelated to the actual content described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

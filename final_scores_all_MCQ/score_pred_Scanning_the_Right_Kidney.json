@@ -1,0 +1,59 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial probe orientation is being used, and what is the immediate acquisition goal?\nA) Long-axis orientation to establish a clear interface between the target organ and an adjacent acoustic-window structure for landmarking\nB) Short-axis (transverse) orientation to quickly identify the target structure in cross‑section before refining the view\nC) Transverse suprapubic orientation aimed posteriorly to obtain an initial pelvic landmark (bladder/uterus) for subsequent scanning\nD) Oblique sweeping survey across the region to ensure the entire organ is visualized before saving representative clips",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe in a sagittal (longitudinal) plane to quickly identify the liver and the liver–kidney interface as the initial landmark for the scan.",
+    "time_start": 0.15,
+    "time_end": 7.15,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video begins by showing the probe placed on the patient’s right upper quadrant/flank in a longitudinal (sagittal) orientation relative to the body axis. The immediate ultrasound image that appears shows the liver and the right kidney in a long-axis view. This initial placement is standard for establishing the hepatorenal interface (Morison's pouch), using the liver as an acoustic window to clearly landmark and visualize the kidney. This corresponds to option A. Option B is incorrect because the probe is not transverse. Option C is incorrect as the location is the upper quadrant, not suprapubic. Option D describes a sweeping motion, whereas the initial action is placing the probe to get the standard long-axis landmark view.",
+      "latency_ms": 6272.79806137085,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.0,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Immediately after the brief respiratory optimization, what respiratory phase is used next, and what is the purpose?\nA) Expiration to return to the resting baseline position for continued scanning\nB) End-inspiration breath-hold to depress the diaphragm and temporarily widen the subcostal acoustic window.\nC) Mid-inspiratory breath-hold to minimize motion artifact while acquiring a still image for measurements.\nD) Quiet tidal breathing to evaluate real-time respiratory variation and diaphragmatic excursion during the sweep.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After using inspiration to improve the window, the operator has the patient breathe out to return to resting expiration before continuing the exam.",
+    "time_start": 29.95,
+    "time_end": 30.37,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video shows a deep inspiration where the diaphragm descends, pushing the liver downwards into the field of view. This maneuver, an end-inspiration breath-hold, is used to displace the abdominal organs inferiorly, thereby widening the subcostal acoustic window to better visualize the superior portions of the liver and other structures.",
+      "latency_ms": 5890.882968902588,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 0.4200000000000017,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] This segment shows a scan sweep that is interrupted by a respiratory maneuver and then resumed. What phase of the exam is this, and what is the operator trying to ensure before moving on?\nA) Completing a comprehensive organ survey by optimizing the acoustic window so the full parenchyma can be assessed\nB) Targeted measurement phase, using a breath-hold to reduce motion before freezing the image and placing calipers.\nC) Doppler evaluation phase, asking for suspended respiration to minimize respiratory variation before recording spectral waveforms.\nD) Lesion confirmation phase, using a deep inspiration to move bowel gas and obtain an orthogonal view before saving images.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator is in the main organ-survey portion of the exam: they sweep through the kidney to assess parenchyma/obstruction, use a small inspiratory breath to improve the window when obscured, then return to resting expiration to continue scanning.",
+    "time_start": 9.19,
+    "time_end": 30.37,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the correct answer is:\n\nAnswer: A\n\n**Explanation:**\nThe video shows the operator performing a slow, continuous sweep through the liver and kidney parenchyma. The sweep is temporarily interrupted as the patient takes a breath (respiratory maneuver), which shifts the abdominal contents inferiorly, improving visualization of the superior portions of the liver and kidney that were previously obscured by ribs or lung gas. Once the breath is held or the window is optimized, the operator resumes the sweep. This behavior is characteristic of a comprehensive organ survey, where the goal is to visualize the entire volume of the organ to rule out pathology before moving to specific measurements or Doppler analysis. The operator is ensuring no part of the parenchyma is missed due to poor acoustic windows or respiratory motion.",
+      "latency_ms": 6710.471868515015,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.18,
+    "keep": false
+  }
+]

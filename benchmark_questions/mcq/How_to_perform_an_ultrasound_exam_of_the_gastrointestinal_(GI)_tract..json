@@ -1,0 +1,83 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what is the main acquisition goal of the initial probe placement?\nA. Identify the left lobe of the liver and diaphragm as an anatomic landmark for epigastric orientation\nB. Center the aorta and IVC in the midline to establish depth and orientation before scanning the bowel\nC. Bring the stomach into view as the starting point for the GI survey\nD. Acquire a clear long-axis view of the pancreas to screen for pancreatitis or peripancreatic fluid",
+    "answer": "C",
+    "groundtruth": "The operator places the probe in the left epigastric region to locate and visualize the stomach as the initial target of the exam.",
+    "time_start": 0.59,
+    "time_end": 10.52,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video segment, the operator completes one view and then advances to the next consecutive structure. What broader workflow objective is being demonstrated?\nA. Tracking the aorta in short-axis from the diaphragmatic hiatus to the bifurcation to screen for aneurysm\nB. Performing a standardized FAST exam by completing each abdominal window before moving to the next quadrant\nC. Sequentially tracing the upper GI tract from one segment to the next\nD. Sequentially surveying the hepatobiliary system from the gallbladder neck through the common bile duct",
+    "answer": "C",
+    "groundtruth": "The operator begins by visualizing the stomach and then advances the scan to the next consecutive GI structure to continue a systematic upper GI survey.",
+    "time_start": 0.59,
+    "time_end": 31.48,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, the operator slides the probe so that a solid organ landmark becomes centered. What landmark is being targeted and why?\nA. Gallbladder neck, to confirm biliary anatomy and align the probe for a longitudinal CBD view\nB. Head of the pancreas, to orient the epigastric anatomy\nC. Left lobe of the liver, to create an acoustic window for viewing the aorta and IVC in the upper abdomen\nD. Spleen, to establish a left upper quadrant window for assessing the splenorenal recess for free fluid",
+    "answer": "B",
+    "groundtruth": "The operator slides the probe downward to center the head of the pancreas in the image as a key epigastric landmark.",
+    "time_start": 41.05,
+    "time_end": 47.83,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, the operator keeps the probe relatively steady over a bowel loop for several seconds. What assessment is being performed, and why does holding steady help?\nA. Assessing peristalsis; minimizing probe motion makes subtle movement easier to appreciate\nB. Measuring bowel wall thickness/stratification; holding the probe steady prevents distortion so calipers can be placed accurately.\nC. Assessing bowel wall hyperemia with color Doppler; minimizing motion reduces flash artifact that can mimic flow.\nD. Testing bowel compressibility with sustained graded compression; pausing maintains constant pressure to see whether the loop collapses.",
+    "answer": "A",
+    "groundtruth": "The operator observes small-intestine movement to evaluate peristalsis, noting it is diminished; holding the view helps confirm the loops are not significantly moving.",
+    "time_start": 61.52,
+    "time_end": 73.55,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip, after relocating the probe to a lower abdominal quadrant, what specific small-bowel segment is being targeted?\nA. Duodenojejunal flexure (ligament of Treitz region)\nB. Third portion of the duodenum\nC. Jejunum\nD. Ileum",
+    "answer": "D",
+    "groundtruth": "The operator moves the probe lower and into the right lower quadrant to locate the ileum.",
+    "time_start": 83.44,
+    "time_end": 94.83,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on this mid-exam sequence, what is the operator\u2019s overarching objective?\nA. Use graded compression to evaluate focal inflammatory bowel disease or appendicitis in the right lower quadrant.\nB. Optimize depth and gain to obtain diagnostic still images of one representative loop rather than surveying multiple segments.\nC. Survey multiple small-bowel segments and characterize motility across regions\nD. Trace dilated loops to a transition point to assess for a mechanical small-bowel obstruction.",
+    "answer": "C",
+    "groundtruth": "The operator moves from the lower epigastrium to different small-intestine regions (including right lower quadrant) and repeatedly holds the view to assess peristalsis, which appears diminished throughout.",
+    "time_start": 51.35,
+    "time_end": 101.13,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what optimization maneuver is used just before imaging a more superior abdominal segment, and what is its purpose?\nA. Increased graded probe pressure, to displace bowel gas and improve the acoustic window.\nB. Valsalva maneuver, to increase venous filling and enhance visualization of abdominal vessels.\nC. End-expiration breath-hold, to minimize diaphragmatic motion and stabilize the image.\nD. Deep inspiration with breath-hold, to improve the acoustic window and reduce motion",
+    "answer": "D",
+    "groundtruth": "The operator slides superiorly to the right upper quadrant and uses a deep breath and breath-hold to facilitate visualization of the right colonic flexure.",
+    "time_start": 121.76,
+    "time_end": 126.98,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip, after tracing across the abdomen the operator scans the upper abdomen on the opposite side. What junctional bowel segment is being identified?\nA. Right colonic flexure (hepatic flexure)\nB. Left colonic flexure\nC. Ileocecal junction (terminal ileum\u2013cecum)\nD. Duodenojejunal flexure (ligament of Treitz)",
+    "answer": "B",
+    "groundtruth": "The operator scans the left upper quadrant to visualize the left colonic flexure as it curves around.",
+    "time_start": 154.15,
+    "time_end": 159.45,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on this late-exam segment, what is the overall objective of the operator\u2019s actions?\nA. Survey the urinary bladder for distention and estimate post-void residual volume\nB. Trace the distal large bowel into the pelvis and confirm its relationship to the bladder\nC. Identify the distal ureters at the bladder base to look for ureteral jets or obstruction\nD. Assess the pelvic cavity for free fluid adjacent to the bladder and rectum",
+    "answer": "B",
+    "groundtruth": "The operator follows the descending colon into the sigmoid and then scans inferiorly as it continues into the rectum, finally angling to visualize the rectum positioned behind the bladder.",
+    "time_start": 161.27,
+    "time_end": 194.34,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

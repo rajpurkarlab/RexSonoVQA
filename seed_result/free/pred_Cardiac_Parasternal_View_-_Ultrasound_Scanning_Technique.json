@@ -1,0 +1,135 @@
+[
+  {
+    "question": "[FREE] Based on the video, what stage of the exam is the operator in at the start of the clip, and what is the immediate objective of the subsequent probe movements?",
+    "answer": "They are initiating the parasternal scan by establishing probe contact and then performing a systematic search for the best acoustic window. The objective is to find the position where the cardiac image becomes brightest/clearest through the intervening lung tissue.",
+    "groundtruth": "The operator places the transducer at the parasternal region and begins the “window shopping” approach by sliding along the left sternal border while keeping the angle fixed, aiming to locate the brightest cardiac acoustic window through lung tissue.",
+    "time_start": 0.21,
+    "time_end": 18.79,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.21,
+    "original_time_end": 18.79,
+    "model_prediction": "At the start of the clip, the ultrasound image is fully dark with no visible anatomical structures, so the operator is in the stage of locating the correct acoustic imaging window for this cardiac ultrasound exam.\nThe immediate objective of the subsequent probe adjustments is to optimize probe position, angulation, and tissue contact to bring the target cardiac structures into clear, diagnostic view for assessment, as identifiable cardiac chamber anatomy becomes visible as the probe is adjusted.",
+    "inference_metadata": {
+      "raw_response": "At the start of the clip, the ultrasound image is fully dark with no visible anatomical structures, so the operator is in the stage of locating the correct acoustic imaging window for this cardiac ultrasound exam.\nThe immediate objective of the subsequent probe adjustments is to optimize probe position, angulation, and tissue contact to bring the target cardiac structures into clear, diagnostic view for assessment, as identifiable cardiac chamber anatomy becomes visible as the probe is adjusted.",
+      "latency_ms": 154136.15012168884,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, what probe motion is being used to scan through the imaging plane, and what viewing objective is it meant to achieve?",
+    "answer": "The operator is fanning/tilting the probe (cranial–caudal) to sweep through the plane. The goal is to find the level where the valves are seen opening to their maximal diameter.",
+    "groundtruth": "After locating an optimal window, the operator fans/tilts the transducer toward the head and feet to scan through the plane, aiming to capture the valves at their maximal opening.",
+    "time_start": 19.61,
+    "time_end": 32.6,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 19.61,
+    "original_time_end": 32.6,
+    "model_prediction": "The probe is performing a tilting (fanning/rocking) motion, where it is pivoted to sweep the ultrasound imaging plane sequentially through adjacent planes of the target structure (the heart, in this clip).\nThis motion is intended to visualize all segments of the imaged cardiac chamber (left ventricle) to assess regional wall motion, contractility, and overall cardiac morphology/function, ensuring no structural or functional segment of the heart is missed during evaluation.",
+    "inference_metadata": {
+      "raw_response": "The probe is performing a tilting (fanning/rocking) motion, where it is pivoted to sweep the ultrasound imaging plane sequentially through adjacent planes of the target structure (the heart, in this clip).\nThis motion is intended to visualize all segments of the imaged cardiac chamber (left ventricle) to assess regional wall motion, contractility, and overall cardiac morphology/function, ensuring no structural or functional segment of the heart is missed during evaluation.",
+      "latency_ms": 348383.6348056793,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, what does the operator do after optimizing the view, and why is this stabilization step important before proceeding?",
+    "answer": "They hold the probe steady to maintain the optimized image. This confirms the window quality and that key structures (including widely opening valves and a maximally open ventricle) are consistently captured before changing views or levels.",
+    "groundtruth": "The probe is held steady to preserve the optimized parasternal image, allowing confirmation of a good window, well-opening valves, and the widest possible ventricle before moving on.",
+    "time_start": 44.82,
+    "time_end": 53.22,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 44.82,
+    "original_time_end": 53.22,
+    "model_prediction": "After optimizing the view, the operator holds the ultrasound probe stationary to fix the imaging plane.\nThis stabilization is important because it eliminates motion artifact, preserves the correct cross-sectional anatomical view that was optimized, and ensures clear, consistent imagery to allow accurate assessment or measurement of the target structure without losing the desired view.",
+    "inference_metadata": {
+      "raw_response": "After optimizing the view, the operator holds the ultrasound probe stationary to fix the imaging plane.\nThis stabilization is important because it eliminates motion artifact, preserves the correct cross-sectional anatomical view that was optimized, and ensures clear, consistent imagery to allow accurate assessment or measurement of the target structure without losing the desired view.",
+      "latency_ms": 258309.6489906311,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, what orientation check is being performed using the image’s vertical axis, and what is the purpose of doing this?",
+    "answer": "They are confirming which ventricle lies nearest the probe (top of the screen) versus deeper in the image (bottom). This ensures the view is correctly oriented for interpretation and for consistent scanning/measurements.",
+    "groundtruth": "The operator inspects the vertical axis to orient the view, identifying the right ventricle near the top of the screen and the left ventricle deeper, to confirm correct image orientation.",
+    "time_start": 53.9,
+    "time_end": 57.2,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 53.9,
+    "original_time_end": 57.2,
+    "model_prediction": "This is a transducer (probe) marker orientation check: the probe is rocked towards its physical marker (which matches the indicator symbol at the top left of the ultrasound screen), and the observed movement of the highlighted structure towards the marker side of the image confirms the marker is correctly aligned.\nThe purpose of this check is to verify that the spatial orientation of the ultrasound image matches the physical probe position, to ensure accurate localization of imaged anatomical structures and prevent errors in identifying anatomic positional relationships during the exam.",
+    "inference_metadata": {
+      "raw_response": "This is a transducer (probe) marker orientation check: the probe is rocked towards its physical marker (which matches the indicator symbol at the top left of the ultrasound screen), and the observed movement of the highlighted structure towards the marker side of the image confirms the marker is correctly aligned.\nThe purpose of this check is to verify that the spatial orientation of the ultrasound image matches the physical probe position, to ensure accurate localization of imaged anatomical structures and prevent errors in identifying anatomic positional relationships during the exam.",
+      "latency_ms": 247486.2539768219,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, what imaging-plane change has occurred, and what gross shape change is used to confirm that the new view has been obtained?",
+    "answer": "The scan has transitioned from a long-axis to a short-axis (cross-sectional) view. This is confirmed by the left ventricle appearing circular in cross-section with the right ventricle taking a crescent-like shape adjacent to it.",
+    "groundtruth": "After rotating into the parasternal short-axis view, the operator confirms the transition by observing the ventricles’ characteristic cross-sectional morphology (round left ventricle with crescent-shaped right ventricle).",
+    "time_start": 76.6,
+    "time_end": 83.17,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 76.6,
+    "original_time_end": 83.17,
+    "model_prediction": "The imaging plane is swept apically along the parasternal short axis of the left ventricle, moving from the basal (mitral valve) level to the apical left ventricular level.\nThe correct apical short axis view is confirmed by the left ventricular cross-section remaining circular (to confirm true short axis orientation) while becoming progressively smaller, forming a compact, diminutive rounded cavity without prominent internal structures (valve leaflets or large papillary muscles) visible in more basal short axis views.",
+    "inference_metadata": {
+      "raw_response": "The imaging plane is swept apically along the parasternal short axis of the left ventricle, moving from the basal (mitral valve) level to the apical left ventricular level.\nThe correct apical short axis view is confirmed by the left ventricular cross-section remaining circular (to confirm true short axis orientation) while becoming progressively smaller, forming a compact, diminutive rounded cavity without prominent internal structures (valve leaflets or large papillary muscles) visible in more basal short axis views.",
+      "latency_ms": 372883.06403160095,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, within the new view, what level is the operator centering on next, and what key structure is used as confirmation before continuing the sweep?",
+    "answer": "They center the scan on the mid-cavity level where the mitral valve is seen in the middle of the left ventricle. Seeing the mitral valve at this level confirms correct centering before moving to adjacent levels.",
+    "groundtruth": "In the parasternal short-axis view, the operator focuses on the center of the left ventricle to identify the mitral valve level as a landmark before proceeding to further short-axis levels.",
+    "time_start": 76.6,
+    "time_end": 87.26,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 76.6,
+    "original_time_end": 87.26,
+    "model_prediction": "The operator is centering on the mid-left ventricular (papillary muscle) level of the parasternal short axis cardiac view. The paired, echogenic papillary muscles visible within the left ventricular cavity are the key landmark structure used to confirm this level before continuing the cephalad sweep toward the base of the heart.",
+    "inference_metadata": {
+      "raw_response": "The operator is centering on the mid-left ventricular (papillary muscle) level of the parasternal short axis cardiac view. The paired, echogenic papillary muscles visible within the left ventricular cavity are the key landmark structure used to confirm this level before continuing the cephalad sweep toward the base of the heart.",
+      "latency_ms": 415433.189868927,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, summarize the multi-step optimization phase being performed before the operator holds the final view, and state the visual endpoints that indicate the view is optimized.",
+    "answer": "They refine the view by sweeping through the plane (fan/tilt) and then adjusting alignment (rotation) before stabilizing the probe. The endpoints are a consistently bright window, valves opening maximally, and a maximally wide ventricle without geometric distortion.",
+    "groundtruth": "After finding an optimal window, the operator fans/tilts to locate maximal valve opening, rotates to achieve the ventricle’s widest non-foreshortened appearance, and then holds the probe steady to confirm the window quality and optimized anatomy.",
+    "time_start": 19.61,
+    "time_end": 53.22,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 19.61,
+    "original_time_end": 53.22,
+    "model_prediction": "The optimization phase consists of sequential probe manipulation: translating, rotating, and angling the probe to identify and align the correct parasternal long axis cardiac imaging plane, adjusting to eliminate left ventricular foreshortening, and optimizing contrast between tissue and blood pool.\nThe visual endpoints of this optimization are: the full left ventricle is visualized from apex to base without foreshortening, hyperechoic myocardial walls and valve leaflets are clearly demarcated from the dark anechoic intracardiac blood, and all relevant cardiac structures remain centered in the imaging frame throughout the full cardiac cycle.",
+    "inference_metadata": {
+      "raw_response": "The optimization phase consists of sequential probe manipulation: translating, rotating, and angling the probe to identify and align the correct parasternal long axis cardiac imaging plane, adjusting to eliminate left ventricular foreshortening, and optimizing contrast between tissue and blood pool.\nThe visual endpoints of this optimization are: the full left ventricle is visualized from apex to base without foreshortening, hyperechoic myocardial walls and valve leaflets are clearly demarcated from the dark anechoic intracardiac blood, and all relevant cardiac structures remain centered in the imaging frame throughout the full cardiac cycle.",
+      "latency_ms": 1593522.7310657501,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

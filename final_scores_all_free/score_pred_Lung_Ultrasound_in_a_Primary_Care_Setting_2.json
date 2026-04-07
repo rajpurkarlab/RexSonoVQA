@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what motion-related sign is the operator assessing at the key interface, and what clinical conclusion is being made from it?",
+    "answer": "They are watching for visible sliding/shimmering motion of the pleural interface. Seeing this supports pleural apposition and is used to exclude pneumothorax at that site.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator observes the pleural line for shimmering (lung sliding) to confirm pleural movement and concludes there is no pneumothorax based on the presence of sliding.",
+    "time_start": 7.4,
+    "time_end": 16.84,
+    "model_prediction": "Based on the video clip, the operator is assessing **lung sliding** at the pleural line. The visible \"shimmering\" or sliding movement of the parietal and visceral pleura against each other confirms the presence of lung sliding, which allows the operator to **rule out a pneumothorax** at this specific location.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is assessing **lung sliding** at the pleural line. The visible \"shimmering\" or sliding movement of the parietal and visceral pleura against each other confirms the presence of lung sliding, which allows the operator to **rule out a pneumothorax** at this specific location.",
+      "latency_ms": 6207.02600479126,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 9.44,
+    "judge_explanation": "The AI correctly identifies the motion-related sign as 'lung sliding' (synonymous with the sliding/shimmering motion described in the ground truth) and correctly states the clinical conclusion that this sign allows the operator to rule out a pneumothorax at that location.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what imaging mode change is being initiated, and why would this help confirm what was seen in real-time imaging?",
+    "answer": "They are switching from standard 2D viewing to motion mode (M-mode). This provides an objective time-based record to confirm true motion at the interface rather than relying only on subjective real-time appearance.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator prepares to change to M-mode to objectively confirm pleural motion that was observed in 2D imaging.",
+    "time_start": 27.04,
+    "time_end": 32.68,
+    "model_prediction": "Based on the video clip, the user is initiating **M-Mode (Motion Mode)**.\n\nIn the first part of the clip, we see B-mode (brightness mode) imaging of the lung, where lung sliding is visible at the pleural line. Towards the end of the clip (around the 7-second mark), the user navigates a menu and specifically selects the \"M\" icon labeled \"M-Mode.\"\n\n**Why this helps:**\nM-Mode is used to confirm the presence or absence of lung sliding, which is critical for diagnosing pneumothorax.\n*   **Normal Lung:** M-Mode will show the \"seashore sign\" (parallel lines above the pleura representing the static chest wall, and a granular/sandy appearance below the pleura representing the sliding lung). This confirms normal lung sliding.\n*   **Pneumothorax:** If lung sliding is absent, M-Mode will show the \"stratosphere sign\" (or \"barcode sign\"), where horizontal parallel lines persist below the pleural line because the visceral and parietal pleura are separated by air and not sliding against each other.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the user is initiating **M-Mode (Motion Mode)**.\n\nIn the first part of the clip, we see B-mode (brightness mode) imaging of the lung, where lung sliding is visible at the pleural line. Towards the end of the clip (around the 7-second mark), the user navigates a menu and specifically selects the \"M\" icon labeled \"M-Mode.\"\n\n**Why this helps:**\nM-Mode is used to confirm the presence or absence of lung sliding, which is critical for diagnosing pneumothorax.\n*   **Normal Lung:** M-Mode will show the \"seashore sign\" (parallel lines above the pleura representing the static chest wall, and a granular/sandy appearance below the pleura representing the sliding lung). This confirms normal lung sliding.\n*   **Pneumothorax:** If lung sliding is absent, M-Mode will show the \"stratosphere sign\" (or \"barcode sign\"), where horizontal parallel lines persist below the pleural line because the visceral and parietal pleura are separated by air and not sliding against each other.",
+      "latency_ms": 7548.372030258179,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.640000000000001,
+    "judge_explanation": "The AI correctly identifies the imaging mode change to M-Mode. It also correctly explains the clinical utility (confirming lung sliding/motion via the seashore sign vs. barcode sign), which aligns with the ground truth's reasoning of providing an objective record of motion.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, what stabilization maneuver is performed during motion-mode acquisition, and what image-quality problem is it meant to prevent?",
+    "answer": "The probe is held completely still and the image is frozen to capture the tracing. This minimizes operator-induced motion that would blur or falsely distort the motion-mode pattern.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator holds the probe absolutely still to maintain the slice and then freezes the image, ensuring the M-mode tracing is clear and not corrupted by artifactual probe motion.",
+    "time_start": 38.57,
+    "time_end": 43.91,
+    "model_prediction": "Based on the video, the clinician is asking the patient to perform a **breath-hold** (likely an inspiratory hold or simply holding their breath).\n\nThis maneuver is meant to prevent **respiratory motion artifact**, which would cause the lung sliding interface (the pleural line) to move in and out of the M-mode sampling line, resulting in an unstable or uninterpretable image (often referred to as the \"barcode sign\" or \"stratosphere sign\" turning into the \"seashore sign\" only intermittently). By holding the breath, the pleural line remains stationary, creating a consistent granular pattern below the pleural line in the M-mode tracing.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is asking the patient to perform a **breath-hold** (likely an inspiratory hold or simply holding their breath).\n\nThis maneuver is meant to prevent **respiratory motion artifact**, which would cause the lung sliding interface (the pleural line) to move in and out of the M-mode sampling line, resulting in an unstable or uninterpretable image (often referred to as the \"barcode sign\" or \"stratosphere sign\" turning into the \"seashore sign\" only intermittently). By holding the breath, the pleural line remains stationary, creating a consistent granular pattern below the pleural line in the M-mode tracing.",
+      "latency_ms": 6654.621839523315,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.339999999999996,
+    "judge_explanation": "The AI prediction identifies a patient breath-hold to prevent respiratory motion artifact, whereas the ground truth specifies that the maneuver is holding the probe completely still and freezing the image to prevent operator-induced motion. The AI failed to identify the correct maneuver and the specific problem it addresses as defined by the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, summarize the multi-step transition that occurs and state the next intended output the operator is trying to obtain for interpretation.",
+    "answer": "They transition into motion mode, position the sampling line over the key interface, then keep the probe steady and freeze. The goal is to produce a clean M-mode tracing that can be interpreted as objective evidence of motion versus no motion.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator moves from planning M-mode to placing the M-mode cursor over the pleural line, then holds the probe steady and freezes to capture a stable M-mode tracing for interpretation.",
+    "time_start": 27.04,
+    "time_end": 43.91,
+    "model_prediction": "Based on the video clip, the operator performs a multi-step transition from a standard 2D B-mode view to M-mode imaging.\n\n1.  **Initial State:** The clip begins in B-mode, showing a real-time 2D cross-sectional view of tissue, specifically focusing on the pleural line which exhibits lung sliding.\n2.  **Menu Selection:** Around the 7-second mark, an on-screen menu appears, and the operator selects \"M-Mode.\"\n3.  **Cursor Placement:** A vertical dotted line (the M-mode cursor) appears on the B-mode image. This line represents the single scan line along which motion will be tracked over time.\n4.  **Final Output:** The screen splits, showing the B-mode reference on the left and the resulting M-mode tracing on the right. The next intended output is this M-mode tracing (motion over time), which clinicians use to interpret lung pathology—specifically to differentiate between normal lung sliding (which creates a \"seashore sign\") and conditions like pneumothorax (which would create a \"stratosphere\" or \"barcode sign\"). In this clip, the grainy texture below the pleural line suggests a normal \"seashore sign\" pattern is forming.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator performs a multi-step transition from a standard 2D B-mode view to M-mode imaging.\n\n1.  **Initial State:** The clip begins in B-mode, showing a real-time 2D cross-sectional view of tissue, specifically focusing on the pleural line which exhibits lung sliding.\n2.  **Menu Selection:** Around the 7-second mark, an on-screen menu appears, and the operator selects \"M-Mode.\"\n3.  **Cursor Placement:** A vertical dotted line (the M-mode cursor) appears on the B-mode image. This line represents the single scan line along which motion will be tracked over time.\n4.  **Final Output:** The screen splits, showing the B-mode reference on the left and the resulting M-mode tracing on the right. The next intended output is this M-mode tracing (motion over time), which clinicians use to interpret lung pathology—specifically to differentiate between normal lung sliding (which creates a \"seashore sign\") and conditions like pneumothorax (which would create a \"stratosphere\" or \"barcode sign\"). In this clip, the grainy texture below the pleural line suggests a normal \"seashore sign\" pattern is forming.",
+      "latency_ms": 8740.580797195435,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 16.869999999999997,
+    "judge_explanation": "The AI correctly identifies the transition from B-mode to M-mode, describes the steps involved (menu selection, cursor placement), and accurately states the intended output (an M-mode tracing to interpret motion patterns like the seashore sign). This aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

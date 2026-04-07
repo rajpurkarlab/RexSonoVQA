@@ -1,0 +1,233 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what probe movement strategy is being used, and what acquisition goal does it serve?",
+    "answer": "A continuous inferior sweep/slide is performed while keeping the target centered to follow the vessel along its course and reach the distal endpoint of the exam (the bifurcation region).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator begins sweeping the probe and maintains appropriate depth/focus to keep the aorta in view, then continues sweeping distally to follow it down.",
+    "time_start": 14.7,
+    "time_end": 25.04,
+    "model_prediction": "Based on the video, the probe movement strategy being used is fanning (or sweeping) the probe from a superior to inferior direction or vice-versa while maintaining a relatively fixed position on the abdomen. This movement allows the clinician to scan through the volume of the upper abdomen to visualize key vascular landmarks, specifically acquiring a transverse view of the aorta, inferior vena cava, and the superior mesenteric artery as they come into focus.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe movement strategy being used is fanning (or sweeping) the probe from a superior to inferior direction or vice-versa while maintaining a relatively fixed position on the abdomen. This movement allows the clinician to scan through the volume of the upper abdomen to visualize key vascular landmarks, specifically acquiring a transverse view of the aorta, inferior vena cava, and the superior mesenteric artery as they come into focus.",
+      "latency_ms": 6850.091934204102,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.34,
+    "judge_explanation": "The AI incorrectly identifies the probe maneuver as 'fanning' from a 'fixed position', whereas the ground truth specifies a 'continuous inferior sweep/slide' which involves moving the probe physically down the abdomen. Additionally, the AI identifies the goal as visualizing upper abdominal landmarks (SMA), while the ground truth states the goal is to follow the vessel to the distal bifurcation.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what image-control adjustment is made to improve the display, and what problem is it addressing?",
+    "answer": "Overall gain is adjusted to optimize brightness/contrast so the lumen and walls are not overly dark or washed out.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts gain to optimize overall image brightness for clearer visualization.",
+    "time_start": 25.06,
+    "time_end": 27.7,
+    "model_prediction": "Based on the video, the image-control adjustment made is a **decrease in depth**.\n\nInitially, the depth is set to **9 cm**, resulting in significant wasted black space at the bottom of the screen below the relevant anatomical structures (the aorta and surrounding vessels). Around the 0:04 mark, the depth is reduced to **8 cm**, and then further to **7 cm** by the end of the clip. This adjustment removes the unnecessary empty space, making the structures of interest appear larger and optimizing the display for better visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the image-control adjustment made is a **decrease in depth**.\n\nInitially, the depth is set to **9 cm**, resulting in significant wasted black space at the bottom of the screen below the relevant anatomical structures (the aorta and surrounding vessels). Around the 0:04 mark, the depth is reduced to **8 cm**, and then further to **7 cm** by the end of the clip. This adjustment removes the unnecessary empty space, making the structures of interest appear larger and optimizing the display for better visualization.",
+      "latency_ms": 7322.320938110352,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 2.6400000000000006,
+    "judge_explanation": "The AI prediction incorrectly identifies the image-control adjustment as a change in depth, whereas the ground truth specifies that the adjustment was to the overall gain to optimize brightness and contrast. The AI fails to mention gain or brightness entirely.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, an external maneuver is used when respiratory control is not providing the needed improvement. What is done and why?",
+    "answer": "Probe pressure is increased to improve the acoustic window and stabilize/clear the view when breathing maneuvers are not sufficient.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "At the mid-portion, the operator applies increased probe pressure because breath holding is not effective there, using pressure to improve visualization.",
+    "time_start": 54.92,
+    "time_end": 62.82,
+    "model_prediction": "Based on the video clip, the external maneuver being used is **compression** with the ultrasound probe.\n\nThis is done to displace or push away bowel gas that is obscuring the view of the deeper anatomical structures, such as the pancreas and surrounding vasculature. By applying pressure, the sonographer attempts to push the gas-filled bowel loops aside to create a clearer acoustic window to the area of interest.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the external maneuver being used is **compression** with the ultrasound probe.\n\nThis is done to displace or push away bowel gas that is obscuring the view of the deeper anatomical structures, such as the pancreas and surrounding vasculature. By applying pressure, the sonographer attempts to push the gas-filled bowel loops aside to create a clearer acoustic window to the area of interest.",
+      "latency_ms": 6693.836212158203,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.899999999999999,
+    "judge_explanation": "The AI correctly identifies the maneuver as compression (increasing probe pressure) and explains the reasoning (to displace gas and improve the acoustic window), which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what scanning pattern is performed while progressing distally, and what is the diagnostic intent?",
+    "answer": "Short mini-sweeps/rocking passes are repeated while moving down to interrogate the vessel walls from multiple angles and ensure no abnormal wall findings are missed.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator performs mini-sweeps while moving distally to verify there is nothing abnormal projecting from the aortic walls.",
+    "time_start": 81.49,
+    "time_end": 92.66,
+    "model_prediction": "Based on the video, the scanning pattern performed is a **sweeping or fanning motion** along the longitudinal axis of the Inferior Vena Cava (IVC).\n\nThe diagnostic intent is **to visualize the IVC in its entirety to assess for collapsibility and diameter**, which helps estimate central venous pressure and fluid status. The sweep ensures the full width of the vessel is evaluated rather than just a single slice, checking for any variations in caliber or potential thrombi.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the scanning pattern performed is a **sweeping or fanning motion** along the longitudinal axis of the Inferior Vena Cava (IVC).\n\nThe diagnostic intent is **to visualize the IVC in its entirety to assess for collapsibility and diameter**, which helps estimate central venous pressure and fluid status. The sweep ensures the full width of the vessel is evaluated rather than just a single slice, checking for any variations in caliber or potential thrombi.",
+      "latency_ms": 8162.331819534302,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 11.170000000000002,
+    "judge_explanation": "The AI incorrectly identifies the diagnostic intent as assessing CVP and collapsibility (a physiologic assessment), whereas the ground truth specifies the intent is to interrogate vessel walls for abnormalities (a structural assessment). Furthermore, the AI describes a generic sweeping motion along the longitudinal axis, while the ground truth describes a specific technique of short mini-sweeps/rocking passes while progressing distally, which is distinct from the standard IVC CVP view.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, the view becomes intermittently limited but the operator continues the scan without abandoning the track. What is being done and why?",
+    "answer": "The probe is kept aligned on the midline/expected course while continuing to scan through the limitation to maintain the target in view until the window improves.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator maintains scanning through the midline despite obstruction, aiming to visualize through bowel gas rather than losing the aorta.",
+    "time_start": 92.84,
+    "time_end": 103.06,
+    "model_prediction": "Based on the video, the operator is likely asking the patient to take a deep breath (\"sniff test\") to evaluate the collapsibility of the Inferior Vena Cava (IVC). The intermittent limitation of the view is caused by the lung expanding inferiorly during inspiration, which obscures the ultrasound beam's path to the IVC, but the operator persists to capture the dynamic changes in vessel diameter during the respiratory cycle.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is likely asking the patient to take a deep breath (\"sniff test\") to evaluate the collapsibility of the Inferior Vena Cava (IVC). The intermittent limitation of the view is caused by the lung expanding inferiorly during inspiration, which obscures the ultrasound beam's path to the IVC, but the operator persists to capture the dynamic changes in vessel diameter during the respiratory cycle.",
+      "latency_ms": 8941.688060760498,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.219999999999999,
+    "judge_explanation": "The AI hallucinates a specific clinical maneuver (sniff test on the IVC) and patient instruction, whereas the ground truth describes a probe manipulation technique (maintaining alignment/tracking along a course despite obstacles). The actions described are fundamentally different (stationary probe observing dynamics vs. moving probe tracking a structure).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what reasoning is used to avoid scanning the wrong adjacent structure, and what is the objective of that differentiation?",
+    "answer": "The operator compares characteristics such as pulsatility/robustness and compressibility to distinguish the intended artery from a nearby vein, ensuring the correct vessel is interrogated.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator differentiates the aorta from the IVC, emphasizing that the IVC is less strong/pulsatile, to avoid interrogating the wrong vessel.",
+    "time_start": 135.44,
+    "time_end": 146.91,
+    "model_prediction": "Based on the video, the clinician applies compression with the probe to collapse the vein while the artery remains patent and pulsatile. This maneuver is used to differentiate the internal jugular vein (which is compressible) from the carotid artery (which is non-compressible and pulsatile) to avoid accidentally puncturing the artery during a procedure.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician applies compression with the probe to collapse the vein while the artery remains patent and pulsatile. This maneuver is used to differentiate the internal jugular vein (which is compressible) from the carotid artery (which is non-compressible and pulsatile) to avoid accidentally puncturing the artery during a procedure.",
+      "latency_ms": 7544.101238250732,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 11.469999999999999,
+    "judge_explanation": "The AI correctly identifies the reasoning used (compression and pulsatility) and the objective (differentiating the artery from the vein), aligning perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what documentation layout is enabled and what key branching landmark is being sought to standardize the superior-level image?",
+    "answer": "A dual/split-screen layout is activated, and the celiac trunk branching pattern is used as the landmark to document the superior level consistently.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator positions the probe in transverse, activates dual screen, and targets the celiac axis/trunk as a landmark for the superior aorta image.",
+    "time_start": 147.69,
+    "time_end": 162.91,
+    "model_prediction": "Based on the video clip provided:\n\n**Documentation Layout:** The layout includes a **picture-in-picture (PiP)** feature, visible in the bottom right corner, which shows the external view of the probe positioning relative to the patient's body.\n\n**Key Branching Landmark:** The operator is scanning in the upper abdomen and is visualizing the **celiac axis (also known as the celiac trunk)**. This structure is seen branching from the aorta into the hepatic and splenic arteries, forming the characteristic \"seagull sign,\" which is a key landmark for standardizing superior-level abdominal images.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip provided:\n\n**Documentation Layout:** The layout includes a **picture-in-picture (PiP)** feature, visible in the bottom right corner, which shows the external view of the probe positioning relative to the patient's body.\n\n**Key Branching Landmark:** The operator is scanning in the upper abdomen and is visualizing the **celiac axis (also known as the celiac trunk)**. This structure is seen branching from the aorta into the hepatic and splenic arteries, forming the characteristic \"seagull sign,\" which is a key landmark for standardizing superior-level abdominal images.",
+      "latency_ms": 7345.878601074219,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 15.219999999999999,
+    "judge_explanation": "The AI correctly identifies the celiac trunk as the key branching landmark. However, it incorrectly identifies the documentation layout as 'picture-in-picture' showing an external view, whereas the ground truth specifies a 'dual/split-screen' layout. This represents a failure to correctly interpret the visual layout of the screen.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the clip, calipers are used on a transverse still. What measurement is being obtained and how is it defined?",
+    "answer": "The vessel diameter is measured in transverse from outer wall to outer wall to document size at that level.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator takes an image with calipers at the mid-aorta level and measures diameter outer-wall to outer-wall, ensuring it is done in transverse plane.",
+    "time_start": 226.81,
+    "time_end": 245.99,
+    "model_prediction": "Based on the video, the calipers are measuring the maximum diameter of the abdominal aorta in a transverse plane. The measurement is defined by placing the calipers from the outer wall to the outer wall (outer-to-outer) of the vessel, resulting in a recorded diameter of approximately 1.7 cm (17.0 mm).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the calipers are measuring the maximum diameter of the abdominal aorta in a transverse plane. The measurement is defined by placing the calipers from the outer wall to the outer wall (outer-to-outer) of the vessel, resulting in a recorded diameter of approximately 1.7 cm (17.0 mm).",
+      "latency_ms": 8547.719955444336,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 19.180000000000007,
+    "judge_explanation": "The AI correctly identifies the measurement as the vessel diameter (specifically the abdominal aorta) in the transverse plane and correctly defines the measurement technique as outer wall to outer wall, fully aligning with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, summarize the workflow transition occurring here and the immediate next documentation goal.",
+    "answer": "After finishing mid-level documentation, the operator scans further distally to reach the terminal region and then prepares split-screen capture for the distal endpoint image.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator scans distally toward the bifurcation, returns to transverse, and activates dual screen to prepare for distal bifurcation imaging.",
+    "time_start": 247.62,
+    "time_end": 261.43,
+    "model_prediction": "Based on the video clip, the sonographer is transitioning from a transverse (cross-sectional) view of the abdominal aorta to a longitudinal (sagittal) view. The immediate next documentation goal is to obtain a clear long-axis image of the proximal abdominal aorta to assess its diameter and wall integrity.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is transitioning from a transverse (cross-sectional) view of the abdominal aorta to a longitudinal (sagittal) view. The immediate next documentation goal is to obtain a clear long-axis image of the proximal abdominal aorta to assess its diameter and wall integrity.",
+      "latency_ms": 6874.629735946655,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 13.810000000000002,
+    "judge_explanation": "The AI incorrectly identifies the anatomical location as the proximal aorta instead of the distal region mentioned in the ground truth. Furthermore, it misinterprets the workflow as a change in probe orientation (transverse to longitudinal) rather than scanning distally to prepare for a split-screen capture of the distal endpoint.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, why does the operator take time to center the target in the middle of the ultrasound image?",
+    "answer": "Centering keeps the structure in the strongest portion of the beam for more reliable resolution and measurement consistency.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator centers the aorta in the image to keep it within the strongest beam region and optimize imaging quality.",
+    "time_start": 345.18,
+    "time_end": 350.52,
+    "model_prediction": "Based on the video, the operator centers the target structure (the abdominal aorta) to optimize the image quality and depth settings. Initially, the aorta is deep and slightly off-center; as the operator brings it to the middle of the screen, they sequentially reduce the depth (from 12cm to 10cm, then 8cm, and finally 7cm), which increases the resolution and makes the vessel appear larger and clearer for better visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator centers the target structure (the abdominal aorta) to optimize the image quality and depth settings. Initially, the aorta is deep and slightly off-center; as the operator brings it to the middle of the screen, they sequentially reduce the depth (from 12cm to 10cm, then 8cm, and finally 7cm), which increases the resolution and makes the vessel appear larger and clearer for better visualization.",
+      "latency_ms": 6852.547168731689,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.339999999999975,
+    "judge_explanation": "The AI correctly identifies the target structure (abdominal aorta) and the primary goal of the action (optimizing image quality and resolution). While the ground truth focuses on the physics of the beam (strongest portion), the AI explains the workflow observed in the clip (centering allows for depth reduction, which improves resolution). Both answers conclude that the action results in better resolution/visualization, and the AI provides specific visual evidence (depth changes) to support its reasoning.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what landmark-based check is performed to confirm the scan level during the long-axis portion, and why is it important?",
+    "answer": "A characteristic branching vessel is sought (the SMA) to confirm the mid-portion level before recording/capturing that segment.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator scans while looking for the SMA branching from the aorta to confirm mid-portion location for correct longitudinal level identification.",
+    "time_start": 351.28,
+    "time_end": 360.88,
+    "model_prediction": "Based on the video, the clinician confirms the scan level by identifying the celiac trunk branching off the aorta anteriorly, as indicated when the sonographer points to this specific vessel origin on the screen. This landmark is important because verifying the presence of the celiac trunk (and subsequently the superior mesenteric artery just distal to it) ensures the probe is positioned correctly in the mid-abdominal aorta region rather than too proximal or distal.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician confirms the scan level by identifying the celiac trunk branching off the aorta anteriorly, as indicated when the sonographer points to this specific vessel origin on the screen. This landmark is important because verifying the presence of the celiac trunk (and subsequently the superior mesenteric artery just distal to it) ensures the probe is positioned correctly in the mid-abdominal aorta region rather than too proximal or distal.",
+      "latency_ms": 9455.684185028076,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.600000000000023,
+    "judge_explanation": "The AI correctly identifies the reason for the check (confirming the scan level/mid-aorta positioning). However, it identifies the Celiac trunk as the primary landmark being checked, whereas the ground truth specifies the Superior Mesenteric Artery (SMA). While these vessels are adjacent, the SMA is the specific anatomical landmark defining the mid-aorta, making the AI's visual evidence anatomically imprecise relative to the ground truth.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  }
+]

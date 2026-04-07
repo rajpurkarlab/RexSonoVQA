@@ -1,0 +1,62 @@
+[
+  {
+    "start": 0.69,
+    "end": 3.79,
+    "action": "Position the patient in the left lateral decubitus position.",
+    "interpretation": "Prepare patient positioning to optimize the acoustic window."
+  },
+  {
+    "start": 4.59,
+    "end": 13.2,
+    "action": "Orient the probe in a sagittal (longitudinal) section. Ensure the pointer is directed towards the patient's head.",
+    "interpretation": "Establish the longitudinal plane."
+  },
+  {
+    "start": 13.78,
+    "end": 16.92,
+    "action": "Scan and follow the margin of the liver.",
+    "interpretation": "Use the liver margin as a guide to locate the gallbladder."
+  },
+  {
+    "start": 17.66,
+    "end": 24.79,
+    "action": "Adjust the view until the gallbladder appears.",
+    "interpretation": "Visualize the 'exclamation mark' sign, identifying the gallbladder as the 'upper part' of the mark."
+  },
+  {
+    "start": 24.87,
+    "end": 27.97,
+    "action": "Identify the structure inferior to the gallbladder.",
+    "interpretation": "Visualize the portal vein appearing as 'the dot' of the exclamation mark."
+  },
+  {
+    "start": 28.93,
+    "end": 37.15,
+    "action": "Once the gallbladder is in view, fan through the organ. Interrogate the entire gallbladder, paying particular attention to the neck.",
+    "interpretation": "Perform a complete volumetric survey of the gallbladder anatomy."
+  },
+  {
+    "start": 37.83,
+    "end": 42.66,
+    "action": "Screen specifically for lithiasis.",
+    "interpretation": "Look for stones, characterized as 'white echogenic areas' that 'cast shadows'."
+  },
+  {
+    "start": 43.6,
+    "end": 45.12,
+    "action": "Assess the current view for pathology.",
+    "interpretation": "Confirm that 'no stones' are visible in this sagittal view."
+  },
+  {
+    "start": 46.0,
+    "end": 52.95,
+    "action": "Rotate the probe to a transverse orientation. Interrogate the gallbladder in this orthogonal plane.",
+    "interpretation": "Examine the gallbladder anatomy in a different plane to verify findings."
+  },
+  {
+    "start": 55.05,
+    "end": 57.23,
+    "action": "Complete the transverse survey.",
+    "interpretation": "Re-confirm negative findings: 'don't see any stones' in this second plane."
+  }
+]

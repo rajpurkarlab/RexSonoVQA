@@ -1,0 +1,134 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial scanning approach is being used, and what is its purpose?\nA) Start in a transverse/axial view to identify a key vascular landmark and establish orientation\nB) Start in a longitudinal/sagittal view to follow the vessel\u2019s course and confirm continuity along its length\nC) Begin with Color Doppler over the suspected vessel to confirm flow direction and patency before optimizing grayscale anatomy\nD) Start with a broad, deep abdominal survey view to rapidly screen for gross pathology before focusing on specific vascular landmarks",
+    "answer": "A",
+    "groundtruth": "The operator begins scanning in the axial (transverse) plane and locates the iliac vessels to establish initial orientation before continuing the exam.",
+    "time_start": 0.09,
+    "time_end": 7.37,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 0.09,
+    "original_time_end": 7.37,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The visualized round, cross-sectional vascular structure confirms an initial transverse/axial view is used. No color Doppler is active (ruling out option C), the scan is superficial (max depth 3.6 cm, small organs preset, ruling out option D), and the structure is round rather than tubular (ruling out the longitudinal/sagittal view in option B). This initial transverse approach is used to identify the key vascular landmark and establish scanning orientation.",
+      "latency_ms": 71365.46421051025,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.28
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow phase is being performed, and what is the immediate next objective?\nA) Establish a reliable landmark first, then track cephalad from it to begin searching for the target\nB) Optimize the current view by fine-tuning depth and gain to sharpen the image before attempting to identify any landmark.\nC) Having identified a likely target structure, hold the probe steady and obtain measurements or documentation images immediately.\nD) Confirm you are on a vascular structure by activating color Doppler, then follow the vessel caudad to locate the intended target.",
+    "answer": "A",
+    "groundtruth": "After locating the iliac vessels for orientation, the operator slides the transducer cephalad to begin searching upward from that landmark for the appendix.",
+    "time_start": 0.09,
+    "time_end": 21.78,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.09,
+    "original_time_end": 21.78,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The video shows a distinct rounded hypoechoic (likely target) structure is already clearly visualized in the ultrasound view, and marking points (orange dots) are being placed on this structure, indicating the target has been identified. The next immediate step is to hold the probe stable to capture measurements or documentation images of this structure, which matches option C. Other options are incorrect: no depth/gain adjustment is occurring (ruling out B), no color Doppler is activated (ruling out D), and a potential target is already found rather than still searching for a landmark to track from (ruling out A).",
+      "latency_ms": 302001.7318725586,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 21.69
+  },
+  {
+    "question": "[MCQ] Based on the video clip, once a candidate target is seen, what does the operator do next and why?\nA) Hold the probe steady to keep the structure in-plane for confirmation\nB) Sweep the probe through the region to map the structure\u2019s full extent and surrounding anatomy before saving images\nC) Rotate the probe 90\u00b0 to obtain an orthogonal view to better characterize the structure\u2019s shape and orientation\nD) Apply color Doppler over the target to assess for internal or adjacent vascularity and help differentiate it from vessels",
+    "answer": "A",
+    "groundtruth": "Upon identifying the structure consistent with the appendix, the operator holds the probe position to maintain a stable view for visual confirmation.",
+    "time_start": 33.9,
+    "time_end": 36.5,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 33.9,
+    "original_time_end": 36.5,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The ultrasound view shows the probe is being swept across the region, with the image changing to visualize different parts of the structure and adjacent tissues, to fully map the structure's extent and surrounding anatomy prior to capturing static images. There is no probe rotation, color Doppler application, or stable holding of the probe seen in the clip.",
+      "latency_ms": 108244.11821365356,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 2.6000000000000014
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization/assessment maneuver is being performed, and what is it intended to determine?\nA) Graded manual compression to assess compressibility and patient tenderness\nB) Rotate the transducer 90\u00b0 to obtain an orthogonal view to better delineate and measure the suspected structure.\nC) Activate color Doppler over the area of interest to assess for hyperemia or vascular flow within the lesion.\nD) Repeat a focused sweep during a patient breath-hold to improve the acoustic window and confirm the target finding.",
+    "answer": "A",
+    "groundtruth": "The operator applies manual compression with the probe to test compressibility of the structure and assess for tenderness as part of evaluating for inflammation.",
+    "time_start": 50.31,
+    "time_end": 55.45,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 50.31,
+    "original_time_end": 55.45,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows gradual manual pressure being applied via the ultrasound probe (graded compression) over the imaged area. This maneuver is used to evaluate if the target structure can be compressed, as well as to assess for associated patient tenderness, which helps characterize lesions/structures (e.g, confirm venous patency, evaluate for inflamed non-compressible structures like an inflamed appendix or pathological lymph node).",
+      "latency_ms": 119685.46295166016,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.140000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video clip, when the operator closely interrogates the structure\u2019s lumen, what are they most specifically trying to detect, and why?\nA) An obstructing intraluminal calcified focus that would support a positive inflammatory diagnosis\nB) Intraluminal gas or fecal material to help distinguish a normal bowel loop from the target tubular structure.\nC) A central anechoic fluid-filled lumen to suggest simple obstructive dilatation rather than a focal obstructing lesion.\nD) Increased mural vascularity on Doppler to grade inflammatory hyperemia rather than identifying an intraluminal obstructing focus.",
+    "answer": "A",
+    "groundtruth": "The operator scans the lumen for hyperechoic calcifications and looks for posterior acoustic shadowing to identify an appendicolith, which would support appendicitis.",
+    "time_start": 57.91,
+    "time_end": 68.33,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 57.91,
+    "original_time_end": 68.33,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nFirst, option D is eliminated because no Doppler mode is activated in the clip, so mural vascularity is not being assessed here. The video shows a hyperechoic intraluminal focus with posterior acoustic shadowing consistent with a calcified obstructing focus (like an appendicolith), which is an finding that supports a positive inflammatory diagnosis (e.g. acute appendicitis) as described in option A.",
+      "latency_ms": 222031.13293647766,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.420000000000002
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what overall interpretation is being finalized at this stage of the exam?\nA) Findings are consistent with acute appendicitis with a noncompressible, enlarged blind-ending tubular structure\nB) Findings support a normal study without appendicitis\nC) Appendix is not definitively visualized, so the study is indeterminate and further imaging is recommended if suspicion remains high\nD) Findings suggest an alternative cause of pain such as mesenteric adenitis with enlarged right lower quadrant lymph nodes",
+    "answer": "B",
+    "groundtruth": "The operator synthesizes the sonographic findings and concludes the patient does not have appendicitis.",
+    "time_start": 74.74,
+    "time_end": 79.99,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 74.74,
+    "original_time_end": 79.99,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe visualized structure is an enlarged, non-compressible, blind-ended tubular structure, which matches the classic sonographic findings of acute appendicitis. No features of a normal study, non-visualized appendix, or mesenteric adenitis (enlarged ovoid lymph nodes) are seen to support the other options.",
+      "latency_ms": 228650.93207359314,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 5.25
+  }
+]

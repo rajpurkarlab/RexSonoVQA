@@ -1,0 +1,128 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe orientation is being used, and what is the purpose of starting the scan this way?",
+    "answer": "The probe is placed in a transverse orientation to obtain an initial cross-sectional overview. This establishes a baseline view for subsequent localization of fetal parts and maternal landmarks.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator begins scanning with the probe in the transverse plane to establish the initial transverse view as the starting point for the exam.",
+    "time_start": 0.03,
+    "time_end": 1.25,
+    "model_prediction": "Based on the video clip, the initial probe orientation is longitudinal (sagittal). This view is used to obtain a full-length view of the uterus, allowing for the assessment of the endometrial stripe and the overall size and position of the uterus before rotating to a transverse view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the initial probe orientation is longitudinal (sagittal). This view is used to obtain a full-length view of the uterus, allowing for the assessment of the endometrial stripe and the overall size and position of the uterus before rotating to a transverse view.",
+      "latency_ms": 4675.6956577301025,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 1.22,
+    "judge_explanation": "The AI incorrectly identifies the probe orientation as longitudinal (sagittal), whereas the ground truth states it is transverse. Consequently, the explanation of the purpose is also incorrect based on the actual view.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is being performed along one side of the abdomen, and what is the scanning objective?",
+    "answer": "The operator slides the probe superiorly along the maternal right side. The goal is to trace the fetal body to establish fetal position/orientation.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides the probe superiorly along the maternal right flank to follow and trace the fetal body for determining fetal lie.",
+    "time_start": 10.67,
+    "time_end": 16.18,
+    "model_prediction": "Based on the video clip, the probe is being moved in a sliding motion inferiorly down one side of the maternal abdomen. The scanning objective is to determine the fetal lie and position by tracing the fetal spine or side from the head downwards.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is being moved in a sliding motion inferiorly down one side of the maternal abdomen. The scanning objective is to determine the fetal lie and position by tracing the fetal spine or side from the head downwards.",
+      "latency_ms": 4916.975259780884,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.51,
+    "judge_explanation": "The AI correctly identifies the scanning objective (determining fetal lie/position) but incorrectly describes the direction of the probe motion. The ground truth states the probe slides superiorly, whereas the AI states it slides inferiorly.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being identified to confirm fetal sidedness/orientation, and what dynamic sign supports that identification?",
+    "answer": "The fetal back/spine region is identified to confirm the fetus is oriented with the back on the maternal right. A clearly visible beating heart supports correct localization within the thorax.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator identifies the fetal back on the maternal right and visualizes the thorax, using the fetal spine location and visible cardiac activity to confirm orientation.",
+    "time_start": 24.42,
+    "time_end": 28.8,
+    "model_prediction": "Based on the video clip, the **stomach bubble** is being identified to confirm fetal sidedness (situs). This identification is supported by the dynamic sign of the stomach filling or containing fluid, visualized as an anechoic (black) circular structure in the fetal abdomen, distinct from the surrounding tissues.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the **stomach bubble** is being identified to confirm fetal sidedness (situs). This identification is supported by the dynamic sign of the stomach filling or containing fluid, visualized as an anechoic (black) circular structure in the fetal abdomen, distinct from the surrounding tissues.",
+      "latency_ms": 5317.057132720947,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.379999999999999,
+    "judge_explanation": "The AI identifies the stomach bubble and fluid filling as the key features, whereas the ground truth explicitly states that the fetal back/spine and a beating heart are the features identified to confirm orientation. The prediction completely misses the structures mentioned in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the strategy being used to determine fetal lie from one side of the abdomen to a key confirming view.",
+    "answer": "The operator slides superiorly along the maternal right to follow the fetus and then confirms orientation by locating the back/spine and thoracic region. This sequence maps fetal lie relative to the maternal axis.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator scans superiorly along the maternal right side to trace the fetal body and then confirms fetal orientation by identifying the fetal back/spine on the right with thoracic visualization.",
+    "time_start": 10.67,
+    "time_end": 28.8,
+    "model_prediction": "Based on the video, the operator begins by identifying the fetal head in a transverse plane low in the pelvis (indicating a cephalic presentation). The probe is then swept longitudinally upwards along the fetal spine, tracing the back towards the fetus's upper pole to confirm the lie and spinal orientation relative to the maternal abdomen.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator begins by identifying the fetal head in a transverse plane low in the pelvis (indicating a cephalic presentation). The probe is then swept longitudinally upwards along the fetal spine, tracing the back towards the fetus's upper pole to confirm the lie and spinal orientation relative to the maternal abdomen.",
+      "latency_ms": 5256.6680908203125,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 18.130000000000003,
+    "judge_explanation": "The AI correctly summarizes the strategy described in the ground truth. Both the AI and the ground truth identify the key maneuver: moving the probe superiorly/upwards to trace the fetal anatomy (specifically the back/spine) to confirm the fetal lie and orientation.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing to isolate a specific maternal-fetal interface structure, and why does this adjustment help?",
+    "answer": "They adjust the scanning plane to isolate the placenta. This helps separate placental tissue from adjacent fetal structures and focus the evaluation on placental location.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator changes the scanning plane to isolate and evaluate the placenta, transitioning the scan focus to assess placental location.",
+    "time_start": 46.81,
+    "time_end": 53.45,
+    "model_prediction": "Based on the video clip, the operator is **adjusting the gain**, specifically lowering it, to better visualize the **placenta**.\n\nInitially, the image is quite bright and somewhat \"washed out,\" making it difficult to distinguish the specific texture and boundaries of the anterior placenta. As the video progresses, the operator reduces the gain, which darkens the image. This adjustment increases contrast and reduces noise, allowing for clearer visualization of the placental tissue texture and its interface with the uterine wall and amniotic fluid.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is **adjusting the gain**, specifically lowering it, to better visualize the **placenta**.\n\nInitially, the image is quite bright and somewhat \"washed out,\" making it difficult to distinguish the specific texture and boundaries of the anterior placenta. As the video progresses, the operator reduces the gain, which darkens the image. This adjustment increases contrast and reduces noise, allowing for clearer visualization of the placental tissue texture and its interface with the uterine wall and amniotic fluid.",
+      "latency_ms": 5032.977342605591,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.640000000000001,
+    "judge_explanation": "The AI incorrectly identifies the operator's action as 'adjusting the gain' to change image brightness/contrast. The ground truth states the operator is 'adjusting the scanning plane' (a physical probe manipulation) to separate the placenta from fetal structures. While the AI correctly identifies the placenta, the core answer regarding the operator's action is incorrect.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is the operator in, and what is the next key clinical objective being addressed by the sequence of actions?",
+    "answer": "They are in the placental localization phase. The next objective is to map placental position and margins to ensure it is appropriately located and not low-lying.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator transitions from fetal surveying to placental assessment, then traces the placental edge and body by scanning superiorly to confirm an anterior placenta and that it is not low-lying.",
+    "time_start": 46.81,
+    "time_end": 65.4,
+    "model_prediction": "Based on the video, the operator is in the process of determining fetal presentation. The probe initially scans across the fetal abdomen and spine, then moves towards the maternal pelvis to visualize the fetal head (cephalic presentation), confirming the presenting part is the next key clinical objective.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is in the process of determining fetal presentation. The probe initially scans across the fetal abdomen and spine, then moves towards the maternal pelvis to visualize the fetal head (cephalic presentation), confirming the presenting part is the next key clinical objective.",
+      "latency_ms": 5659.332036972046,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 18.590000000000003,
+    "judge_explanation": "The AI incorrectly identifies the phase of the exam as determining fetal presentation, whereas the ground truth states it is the placental localization phase. Consequently, the AI also misidentifies the next clinical objective.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

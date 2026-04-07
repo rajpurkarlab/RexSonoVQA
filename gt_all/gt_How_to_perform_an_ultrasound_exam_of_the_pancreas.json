@@ -1,0 +1,86 @@
+[
+  {
+    "start": 0.43,
+    "end": 4.71,
+    "action": "Instruct patient: 'Press out your body to make a round tummy.'",
+    "interpretation": "Use the distended abdomen maneuver to displace bowel gas and optimize the acoustic window."
+  },
+  {
+    "start": 8.01,
+    "end": 17.0,
+    "action": "Scan the epigastric region in the transverse plane. Identify anatomical landmarks surrounding the pancreas.",
+    "interpretation": "Visualize the stomach, the left liver lobe, the right liver lobe, and the interlobal fissure."
+  },
+  {
+    "start": 17.66,
+    "end": 21.76,
+    "action": "Focus scanning attention immediately posterior to the stomach.",
+    "interpretation": "Identify the structure located right behind the stomach as the pancreas body."
+  },
+  {
+    "start": 22.62,
+    "end": 39.55,
+    "action": "Position the probe transversely. Observe the anatomy, then slide the probe slightly to the patient's right side and downwards.",
+    "interpretation": "Visualize the pancreas tail extending posteriorly ('going back') and the pancreas body anteriorly ('in the front'). Upon moving right and down, identify the pancreas head."
+  },
+  {
+    "start": 41.06,
+    "end": 61.18,
+    "action": "Locate the 'leading structure' for the pancreas by tracing the vascular landmarks. Follow the veins to the center of the liver.",
+    "interpretation": "Identify the splenic vein coming from the back joining the mesenteric vein (coming from the caudal part) to produce the portal vein. Use the splenic vein as the primary landmark."
+  },
+  {
+    "start": 63.8,
+    "end": 74.06,
+    "action": "Rotate the probe 90 degrees into a longitudinal (sagittal) position.",
+    "interpretation": "Evaluate the pancreas in cross-section (seen as a long section relative to the body axis)."
+  },
+  {
+    "start": 74.72,
+    "end": 78.62,
+    "action": "Maintain the longitudinal probe position and look posterior to the stomach.",
+    "interpretation": "Visualize the pancreas body situated right behind the stomach."
+  },
+  {
+    "start": 79.56,
+    "end": 85.82,
+    "action": "Slide the probe further to the patient's right side while maintaining the longitudinal plane.",
+    "interpretation": "Locate and visualize the pancreas head in this region."
+  },
+  {
+    "start": 87.19,
+    "end": 105.77,
+    "action": "Slide the probe to the patient's left side. Trace the vascular structures posteriorly.",
+    "interpretation": "Visualize the splenic vein and the splenic artery (positioned cranial to the vein) extending back. Confirm the pancreas tail follows these vessels back to the 'spleen helix'."
+  },
+  {
+    "start": 108.33,
+    "end": 127.14,
+    "action": "If stomach gas obscures the view of the pancreas body and tail, reposition the probe to use a 'splenic window' (left lateral approach). Search for the splenic vein.",
+    "interpretation": "Attempt to find the splenic vein through the splenic window and look for the structure located immediately caudal to it."
+  },
+  {
+    "start": 127.8,
+    "end": 128.36,
+    "action": "Instruct patient: 'Hold your breath.'",
+    "interpretation": "Stabilize the image to reduce respiratory motion."
+  },
+  {
+    "start": 130.8,
+    "end": 131.32,
+    "action": "Instruct patient: 'Exhale again.'",
+    "interpretation": "Allow patient to relax before the next breath hold."
+  },
+  {
+    "start": 132.62,
+    "end": 133.12,
+    "action": "Instruct patient: 'Just hold it.'",
+    "interpretation": "Freeze respiration to capture the view through the splenic window."
+  },
+  {
+    "start": 134.57,
+    "end": 141.19,
+    "action": "Scan immediately caudal to the splenic vein.",
+    "interpretation": "Identify the structure caudal to the vein as the pancreas tail, extending right to the 'splenic helix'."
+  }
+]

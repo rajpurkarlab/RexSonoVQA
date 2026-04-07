@@ -1,0 +1,83 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what initial probe orientation/positioning strategy is being performed, and what is the immediate scanning objective of holding this starting view?",
+    "answer": "The probe is placed on the midline in a longitudinal orientation and held steady to establish key upper-abdominal landmarks. This starting view is used to orient the exam and set up subsequent sweeps and targeted views.",
+    "groundtruth": "The operator places the probe in the midline in a longitudinal plane and maintains this starting position to identify major abdominal landmarks (including the spine and major vessels) before proceeding, noting that deep inspiration can sometimes worsen the window by increasing gastric air.",
+    "time_start": 0.03,
+    "time_end": 48.7,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow step is being performed when the probe is rotated into a cross-sectional orientation and then tracked inferiorly, and what broader screening objective does this accomplish?",
+    "answer": "This is a transverse survey after returning to the midline, following the main midline vessel inferiorly. The goal is to screen for abnormal dilation and to look for additional midline abnormalities during the sweep.",
+    "groundtruth": "The operator returns superiorly to the midline, rotates the probe 90\u00b0 into transverse, and slides inferiorly while applying pressure to improve the acoustic window. This transverse midline sweep is used to rule out an aortic aneurysm and to check the midline for enlarged lymph nodes.",
+    "time_start": 94.56,
+    "time_end": 118.18,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient-assisted maneuver and probe action are used to obtain a clearer view of a deep upper-abdominal target, and what is the intended benefit of this combination?",
+    "answer": "A deep inspiration is used while the operator repositions on the target area and rotates the probe into the appropriate plane. This aims to improve the acoustic window and bring the target into a clearer, more complete view.",
+    "groundtruth": "The operator returns to the epigastrium and, when the target is difficult to see in transverse, returns to a longitudinal midline approach, asks for a big deep breath, and then places the probe on the pancreas and rotates 90\u00b0 to improve visualization.",
+    "time_start": 118.6,
+    "time_end": 152.4,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what optimization maneuver is performed when the view is intermittently unclear, and what imaging problem is it intended to overcome?",
+    "answer": "The operator applies firmer pressure and subtly rotates/adjusts the probe while coordinating with patient breathing. This is intended to improve the acoustic window by reducing intervening obscuration and better aligning the insonation plane with the target.",
+    "groundtruth": "To better visualize the pancreatic head, the operator slightly rotates the probe and applies pressure to displace bowel gas, again using a deep breath to try to improve the acoustic window for the region where masses are most commonly found.",
+    "time_start": 181.69,
+    "time_end": 206.22,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is used after standard breathing adjustments fail, and what is the intended imaging advantage?",
+    "answer": "The patient is asked to push the abdominal wall outward (abdominal distension). This can reposition anatomy and improve the acoustic window, providing a clearer view of the targeted deep structure.",
+    "groundtruth": "The operator instructs the patient to push the stomach muscles out to distend the abdomen, which proves to be the most effective maneuver in this patient for visualizing the pancreatic head.",
+    "time_start": 219.68,
+    "time_end": 232.63,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning motion is performed across the upper abdomen, and what new region is being brought into view as the next objective?",
+    "answer": "A transverse sweep is performed across toward the patient\u2019s left while coordinating with a deep inspiration. The objective is to bring the left-sided upper-abdominal parenchyma into view for assessment.",
+    "groundtruth": "With a big deep breath, the operator sweeps transversely across the abdomen to the left to visualize the left lobe of the liver.",
+    "time_start": 248.55,
+    "time_end": 260.78,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is shown when the probe is rotated into a different plane and then moved superiorly, and what broader objective does this accomplish?",
+    "answer": "The operator transitions into a longitudinal plane and scans more superiorly during a breath maneuver. This expands the survey to include more cranial structures while still assessing the upper-abdominal region in continuity.",
+    "groundtruth": "The operator rotates the probe 90\u00b0 into longitudinal, uses another big deep breath, and scans superiorly to visualize the heart and the entirety of the left lobe of the liver.",
+    "time_start": 281.12,
+    "time_end": 295.71,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging-parameter change is made to better interrogate deeper right-sided upper-abdominal structures, and what is the intended benefit?",
+    "answer": "The depth is increased and the focal zone is moved deeper. This improves visualization of deeper targets by placing maximum beam resolution at the level of interest and including the full region in the field of view.",
+    "groundtruth": "The operator increases depth and shifts the focal zone downward while coordinating a deep breath to visualize the gallbladder region and adjacent structures, including part of the pancreatic head and the portal triad/CBD area.",
+    "time_start": 312.11,
+    "time_end": 326.22,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what phase of the exam is occurring across this segment (including the brief control adjustment) and what the next logical imaging objective is after completing it.",
+    "answer": "This segment shows a transition away from a prior focused upper-abdominal target into a broader left-to-right upper-abdominal survey, with ongoing fine-tuning of image optimization. After completing this sweep and associated landmark views, the next objective is to continue the systematic upper-abdominal examination with remaining standard views on the right side.",
+    "groundtruth": "The operator sweeps transversely to the left to view the left lobe of the liver, adjusts focus slightly for optimization, then rotates to longitudinal and scans superiorly to include the heart and full left lobe, and finally slides rightward with deep inspiration to visualize the IVC and portal vein\u2014representing a transition from the pancreatic window into a broader upper-abdominal survey.",
+    "time_start": 248.55,
+    "time_end": 310.2,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

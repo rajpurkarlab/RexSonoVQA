@@ -1,0 +1,38 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what imaging adjustment is being made, and why?\nA. Decrease depth and set the focal region near the surface to better image a superficial target\nB. Increase depth and move the focal zone deeper to better visualize a deep structure in the far field\nC. Adjust overall gain/TGC to reduce near-field clutter and improve contrast of the target without changing depth\nD. Switch to a lower-frequency curvilinear transducer to improve penetration when the target is too deep for a linear probe",
+    "answer": "A",
+    "groundtruth": "Depth and focus are adjusted for near-field imaging because the tendon is a very superficial structure and requires superficial-focused settings for optimal visualization.",
+    "time_start": 8.67,
+    "time_end": 10.49,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video, what probe motion strategy is being used, and what is the objective?\nA. Use a heel-toe/rocking motion at the enthesis to center the cortical interface and look for cortical irregularity or enthesophytes.\nB. Fan/tilt in the long axis to maintain perpendicular insonation and minimize anisotropy while optimizing tendon echogenicity at the attachment.\nC. Rotate to a short-axis view and sweep proximally to assess tendon thickness and surrounding sheath for tenosynovitis.\nD. Slide along the long axis to track the structure from its distal attachment toward where muscle fibers begin",
+    "answer": "D",
+    "groundtruth": "With the scanning hand anchored, the probe is slid proximally to follow the tendon\u2019s length from the calcaneus up to the musculotendinous junction where muscle fibers begin.",
+    "time_start": 10.97,
+    "time_end": 17.68,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what maneuver is performed at the transition zone and what is the purpose?\nA. Fan/tilt the probe to maintain the long-axis view through the transition zone for a continuous assessment of echotexture.\nB. Apply color Doppler at the transition zone to confirm the structure is vascular before proceeding with measurements.\nC. Rotate the probe ~90\u00b0 to obtain an orthogonal (cross-sectional) view and then track the structure back distally\nD. Use a heel-toe (rocking) maneuver at the transition zone to minimize anisotropy and optimize tendon/nerve echogenicity.",
+    "answer": "C",
+    "groundtruth": "After reaching the musculotendinous junction, the probe is rotated 90 degrees into transverse orientation and then slid distally to follow the tendon in short axis.",
+    "time_start": 28.84,
+    "time_end": 37.58,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the workflow shown in this later segment, what stage is the operator in and what is the immediate objective?\nA. Targeted rescan of a suspicious region to optimize image settings and document a key attachment point in detail\nB. Transitioning from diagnostic imaging to preparation for an ultrasound-guided intervention at the identified site\nC. Continuing transverse scanning to re-establish key landmarks and confirm correct window/orientation before proceeding\nD. Final short-axis survey followed by concluding the examination",
+    "answer": "D",
+    "groundtruth": "The operator is finishing the transverse survey of the tendon\u2019s cross-section and then completes the ultrasonographic exam, marking the end of the scan.",
+    "time_start": 41.78,
+    "time_end": 58.16,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

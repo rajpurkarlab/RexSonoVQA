@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what phase of the exam is the operator performing across this segment?\nA. Performing dynamic compression to distinguish a vein from an adjacent artery and assess for thrombosis\nB. Transitioning into a long-axis view to align the probe for in-plane needle guidance once the vessel is found\nC. Confirming venous patency with color Doppler after identifying the target vessel in short axis\nD. Initial vessel localization followed by confirming depth/orientation using a posterior landmark",
+    "answer": "D",
+    "groundtruth": "After placing the probe transversely and finding the aorta, the operator checks posterior landmarks to confirm the depth is appropriate and the view is correctly oriented.",
+    "time_start": 0.96,
+    "time_end": 15.96,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being checked on the ultrasound image, and why?\nA. The pleural line, to confirm probe placement and assess for lung sliding at the surface.\nB. The rib shadows and intercostal space, to ensure the beam is centered between ribs and minimize acoustic shadowing.\nC. A deep posterior landmark to confirm adequate imaging depth\nD. The diaphragm and subdiaphragmatic organs, to verify you are scanning the correct hemithorax and window.",
+    "answer": "C",
+    "groundtruth": "The operator assesses posterior landmarks\u2014specifically the vertebral body/shadow\u2014to verify that the depth is set appropriately (about 10 cm) for the abdominal aorta view.",
+    "time_start": 7.15,
+    "time_end": 15.96,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what measurement technique is being performed with the calipers?\nA. Tracing the structure\u2019s perimeter to calculate cross-sectional area rather than a single linear diameter\nB. Measuring maximal diameter from inner wall to inner wall (luminal diameter)\nC. Measuring diameter using the leading-edge to leading-edge convention (anterior wall leading edge to posterior wall leading edge)\nD. Measuring maximal diameter from outer wall to outer wall",
+    "answer": "D",
+    "groundtruth": "With calipers activated, the operator places them on the outer walls of the aorta to measure the diameter.",
+    "time_start": 27.27,
+    "time_end": 39.0,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the next workflow step immediately after completing a measurement?\nA. Annotate the image with vessel segment and measurement details for documentation\nB. Reposition the probe to obtain an orthogonal view and repeat the measurement for confirmation\nC. Store the measured image/clip to the patient exam before moving on\nD. Unfreeze and continue scanning along the vessel",
+    "answer": "D",
+    "groundtruth": "The operator unfreezes the image and resumes scanning to continue evaluating the aorta beyond the initial measurement point.",
+    "time_start": 61.04,
+    "time_end": 67.04,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is performed to regain a clearer view, and what is it intended to address?\nA. Ask the patient to take a deep inspiration to shift the target into a better acoustic window and reduce rib shadowing\nB. Activate tissue harmonic imaging and adjust the focal zone to reduce near-field clutter and improve edge definition\nC. Decrease imaging depth and increase overall gain to compensate for attenuation from deeper structures\nD. Firm pressure with gentle fanning to improve the acoustic window by shifting interfering contents",
+    "answer": "D",
+    "groundtruth": "When the aorta view is obscured, the operator applies constant firm pressure and gently fans the probe to move bowel gas and restore visualization.",
+    "time_start": 69.28,
+    "time_end": 83.77,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine control is adjusted, and why does it help in this moment?\nA. Moving the focal zone to the level of interest to improve lateral resolution of the target structure\nB. Reducing overall gain to decrease far-field clutter and improve contrast of the target region\nC. Decreasing imaging depth to better frame the target region\nD. Narrowing the sector width to boost frame rate and improve real-time visualization during probe motion",
+    "answer": "C",
+    "groundtruth": "The operator decreases the depth setting to optimize the image by reducing unnecessary far-field and improving framing of the aorta.",
+    "time_start": 84.99,
+    "time_end": 88.42,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe motion is being used, and what is its purpose?\nA. Sliding the probe to relocate the structure after losing it and re-center it in the field of view\nB. Fanning back and forth to bring the target anatomy into the best plane\nC. Rocking (heel-toe) to optimize the insonation angle and improve border definition of the target structure\nD. Rotating the probe to switch between short- and long-axis views for confirmation of the target anatomy",
+    "answer": "B",
+    "groundtruth": "At the distal split, the operator fans the probe back and forth to clarify the anatomy so it is clearly visible on the screen.",
+    "time_start": 120.54,
+    "time_end": 124.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what multi-step transition is the operator performing in this segment?\nA. Centering the vessel in a longitudinal view, then rotating the probe to a transverse (short-axis) view while maintaining the lumen on screen\nB. Centering and aligning the target, then rotating the probe to switch from transverse to longitudinal while keeping the vessel in view\nC. Sliding the probe along the vessel to follow its course, then fanning to optimize patency and wall definition without changing imaging plane\nD. Applying a heel-toe maneuver to bring the vessel into the center of the image, then sweeping cranially\u2013caudally in the transverse plane to confirm continuity",
+    "answer": "B",
+    "groundtruth": "The operator prepares to switch to the sagittal plane by centering the vessel, aligning it with a posterior landmark, and then rotating the probe 90\u00b0 with the marker toward the head while maintaining visualization.",
+    "time_start": 132.21,
+    "time_end": 160.48,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, why does the operator deliberately scan the vessel completely in the longitudinal plane?\nA. To look for long-segment luminal narrowing or intraluminal thrombus that may be harder to follow in a single transverse slice.\nB. To better appreciate the course of the vessel and confirm it is the correct structure before taking diameter measurements.\nC. To keep the Doppler beam more parallel to flow for consistent spectral velocity measurements along the vessel.\nD. To reduce the chance of missing a focal outpouching that could be skipped in cross-sectional sweeps",
+    "answer": "D",
+    "groundtruth": "The operator scans the aorta completely in the sagittal plane to ensure abnormalities such as saccular aneurysms are not missed by relying only on transverse views.",
+    "time_start": 161.83,
+    "time_end": 175.12,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what verification maneuver is performed to resolve uncertainty between two adjacent tubular structures?\nA. Rotate the transducer 90\u00b0 into short axis and use graded compression to distinguish a compressible vein from a noncompressible artery\nB. Apply color Doppler to identify flow in one structure and confirm the adjacent structure lacks flow\nC. Trace each tubular structure proximally and distally to confirm its anatomic continuity and branching pattern\nD. Sliding laterally to isolate one structure, then sweeping back to confirm the other",
+    "answer": "D",
+    "groundtruth": "The operator slides the probe toward the patient\u2019s right to isolate the IVC, then slides back toward the left to confirm the aorta, using this sweep as a quick anatomy check.",
+    "time_start": 205.71,
+    "time_end": 218.66,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

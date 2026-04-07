@@ -1,0 +1,38 @@
+[
+  {
+    "start": 0.11,
+    "end": 10.92,
+    "action": "Start the scan in the transverse orientation. Place the transducer just above the suprapubic area and aim the beam into the pelvis.",
+    "interpretation": "Identify the bladder as the primary landmark."
+  },
+  {
+    "start": 11.54,
+    "end": 15.24,
+    "action": "Maintain focus on the bladder.",
+    "interpretation": "Use the bladder to establish anatomical bearings."
+  },
+  {
+    "start": 15.88,
+    "end": 22.26,
+    "action": "Scan away from the bladder to the adjacent tissue.",
+    "interpretation": "Identify the uterus, visualized just adjacent to the bladder."
+  },
+  {
+    "start": 23.25,
+    "end": 30.42,
+    "action": "Sweep continuously through the uterine tissue.",
+    "interpretation": "Search for the presence of an intrauterine pregnancy."
+  },
+  {
+    "start": 31.86,
+    "end": 36.71,
+    "action": "Focus on the gestational contents.",
+    "interpretation": "Look for early signs such as a yolk sac. Visualize fetal heart tones present within the sac."
+  },
+  {
+    "start": 41.13,
+    "end": 56.67,
+    "action": "Complete the transverse scan. Rotate the probe to the second axis with the indicator pointing toward the patient's head. Perform a longitudinal sweep.",
+    "interpretation": "Obtain a second axis view. Inspect the uterus to ensure there is no second gestational sac (Twin B) present."
+  }
+]

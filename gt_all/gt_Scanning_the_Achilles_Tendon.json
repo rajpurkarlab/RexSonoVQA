@@ -1,0 +1,44 @@
+[
+  {
+    "start": 0.53,
+    "end": 8.11,
+    "action": "Place probe at the distal posterior ankle (the bottom). Locate the calcaneal bone. Visualize the insertion point of the tendon.",
+    "interpretation": "Identify the calcaneal bone as a 'bright white line casting a shadow.' Confirm the Achilles tendon is attached to this bony landmark."
+  },
+  {
+    "start": 8.67,
+    "end": 10.49,
+    "action": "Optimize depth and focus for near-field imaging.",
+    "interpretation": "Note that the tendon is an 'extremely superficial structure,' requiring appropriate parameter settings."
+  },
+  {
+    "start": 10.97,
+    "end": 17.68,
+    "action": "Anchor the scanning hand by placing the pinky finger over the Achilles tendon. Slide the probe proximally to follow the tendon's length up to the musculotendinous junction.",
+    "interpretation": "Trace the continuous length of the tendon from the calcaneus to the point where muscle fibers begin."
+  },
+  {
+    "start": 18.76,
+    "end": 27.6,
+    "action": "Inspect the tissue integrity while scanning.",
+    "interpretation": "Check for rupture; if present, the 'longitudinal fibers will be interrupted by an area of blackness or echolucency.'"
+  },
+  {
+    "start": 28.84,
+    "end": 37.58,
+    "action": "Upon reaching the musculotendinous junction, rotate the probe 90 degrees into a transverse orientation. Slide the probe distally to follow the tendon down.",
+    "interpretation": "Establish a transverse view of the tendon and track it distally."
+  },
+  {
+    "start": 41.78,
+    "end": 47.69,
+    "action": "Continue scanning in transverse.",
+    "interpretation": "Examine the cross-section for any deformities within the fibers that make up the Achilles tendon."
+  },
+  {
+    "start": 53.8,
+    "end": 58.16,
+    "action": "Complete the scan.",
+    "interpretation": "This marks the conclusion of the ultrasonographic exam of the Achilles tendon."
+  }
+]

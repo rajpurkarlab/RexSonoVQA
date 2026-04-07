@@ -1,0 +1,68 @@
+[
+  {
+    "start": 1.3,
+    "end": 9.05,
+    "action": "Slide the probe up and down the thorax. Interrogate multiple intercostal spaces.",
+    "interpretation": "Scan the thoracic region to assess lung sliding and artifacts."
+  },
+  {
+    "start": 9.25,
+    "end": 14.76,
+    "action": "Focus attention on the top of the screen.",
+    "interpretation": "Identify the pleural line. Note that the pleural line is shimmering."
+  },
+  {
+    "start": 14.89,
+    "end": 19.62,
+    "action": "Decrease the depth.",
+    "interpretation": "Optimize settings to visualize motion and the pleural interface more clearly."
+  },
+  {
+    "start": 20.24,
+    "end": 23.14,
+    "action": "Verify the presence of shimmering at the pleural line.",
+    "interpretation": "Confirm clear shimmering. Conclude that there is no pneumothorax."
+  },
+  {
+    "start": 24.58,
+    "end": 36.71,
+    "action": "Identify A-lines on the screen.",
+    "interpretation": "Observe horizontal lines indicating the lung is air-filled in this area. Use this finding to rule out pneumonia or effusion."
+  },
+  {
+    "start": 38.41,
+    "end": 47.2,
+    "action": "Drag the probe inferiorly towards the base of the lung. Locate the diaphragm.",
+    "interpretation": "Transition the view from the upper intercostal spaces to the lung base."
+  },
+  {
+    "start": 48.26,
+    "end": 50.08,
+    "action": "Decrease depth slightly.",
+    "interpretation": "Adjust image parameters to optimize the view of the lung base structures."
+  },
+  {
+    "start": 51.89,
+    "end": 60.77,
+    "action": "Hold position at the lung base. Visualize the anatomical landmarks.",
+    "interpretation": "Identify the liver, the kidney, and the spine at the bottom of the screen. Identify the diaphragm as the diagonal hyperechoic line."
+  },
+  {
+    "start": 62.51,
+    "end": 69.59,
+    "action": "Assess the image for mirror image artifact.",
+    "interpretation": "Observe the liver reflecting over the diaphragm into the thorax."
+  },
+  {
+    "start": 70.07,
+    "end": 76.29,
+    "action": "Correlate the artifact with lung pathology status.",
+    "interpretation": "Recognize that the mirror image artifact indicates the lung is air-filled. Confirm this is a normal lung finding."
+  },
+  {
+    "start": 76.63,
+    "end": 82.36,
+    "action": "Conclude the assessment of the right lung base.",
+    "interpretation": "Determine that the patient has no effusion or pneumonia at the right base of the lung."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what visual check is used to decide which of the two side-by-side tubes is the artery?\nA. Look for spontaneous pulsation of one structure\nB. Apply gentle probe pressure and identify the vessel that remains relatively noncompressible as the artery\nC. Use color Doppler and select the channel with predominantly pulsatile flow as the artery\nD. Identify the tube with a thicker, more echogenic wall and a smaller, rounder lumen as the artery",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator differentiates the paired vessels by observing their behavior, identifying the pulsatile structure as the carotid artery.",
+    "time_start": 7.87,
+    "time_end": 12.54,
+    "original_question": "[MCQ] Based on the clip, what visual check is used to decide which of the two side-by-side tubes is the artery?\nA. Look for spontaneous pulsation of one structure\nB. Apply gentle probe pressure and identify the vessel that remains relatively noncompressible as the artery\nC. Identify the tube with a thicker, more echogenic wall and a smaller, rounder lumen as the artery\nD. Use color Doppler and select the channel with predominantly pulsatile flow as the artery",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video demonstrates the compression technique, a standard method for distinguishing veins from arteries. The operator applies gentle pressure with the ultrasound probe. As pressure is applied, one of the vessels (likely the internal jugular vein) compresses easily, while the other (likely the carotid artery) remains relatively round and noncompressible due to its thicker, more muscular walls and higher internal pressure. The lack of compression identifies the artery.",
+      "latency_ms": 6600.9111404418945,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 4.669999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] The clip shows an additional maneuver applied to the two vessels to confirm which is which. What is done, and why?\nA. Activate color Doppler to identify the vein by continuous low-velocity flow versus the artery by pulsatile flow.\nB. Ask the patient to perform a Valsalva maneuver to transiently dilate the vein and help differentiate it from the artery.\nC. Apply probe compression, to confirm vessel identity by compressibility\nD. Use spectral Doppler waveform analysis to distinguish the artery by high-resistance pulsatility from the vein by phasic respiratory variation.",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator applies probe pressure over the vessels and observes compression behavior to confirm the anatomic identification.",
+    "time_start": 19.86,
+    "time_end": 31.0,
+    "original_question": "[MCQ] The clip shows an additional maneuver applied to the two vessels to confirm which is which. What is done, and why?\nA. Activate color Doppler to identify the vein by continuous low-velocity flow versus the artery by pulsatile flow.\nB. Apply probe compression, to confirm vessel identity by compressibility\nC. Use spectral Doppler waveform analysis to distinguish the artery by high-resistance pulsatility from the vein by phasic respiratory variation.\nD. Ask the patient to perform a Valsalva maneuver to transiently dilate the vein and help differentiate it from the artery.",
+    "original_answer": "B",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. Apply probe compression, to confirm vessel identity by compressibility\n\nThe video shows a transverse ultrasound view of the neck vessels, likely the internal jugular vein (larger, more oval) and the common carotid artery (smaller, rounder). Towards the end of the clip (around the 14-second mark), the operator presses down with the ultrasound probe. The larger vessel (the vein) collapses completely under the pressure, while the smaller thick-walled vessel (the artery) remains patent and resists compression. This compression test is a standard technique to distinguish veins (compressible) from arteries (non-compressible) and to rule out deep vein thrombosis.",
+      "latency_ms": 8287.200927734375,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.14,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the clip, what probe movement is used to change imaging planes, and what is the goal?\nA. Rotate the probe ~90°, to obtain a long-axis view of the vessel\nB. Fan/tilt the probe through the vessel, to sweep adjacent anatomy and ensure you have not mistaken a vein for an artery.\nC. Slide the probe along the vessel’s course, to keep the vessel centered in the same transverse plane for tracking and confirmation.\nD. Rock (heel-toe) the probe to optimize insonation angle, to improve vessel wall definition without changing from short-axis.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator rotates the probe 90 degrees to transition from transverse to a longitudinal (sagittal) view of the carotid.",
+    "time_start": 36.43,
+    "time_end": 52.27,
+    "original_question": "[MCQ] Based on the clip, what probe movement is used to change imaging planes, and what is the goal?\nA. Rotate the probe ~90°, to obtain a long-axis view of the vessel\nB. Slide the probe along the vessel’s course, to keep the vessel centered in the same transverse plane for tracking and confirmation.\nC. Fan/tilt the probe through the vessel, to sweep adjacent anatomy and ensure you have not mistaken a vein for an artery.\nD. Rock (heel-toe) the probe to optimize insonation angle, to improve vessel wall definition without changing from short-axis.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Rotate the probe ~90°, to obtain a long-axis view of the vessel\n\nExplanation: The video begins with a transverse (short-axis) view of the neck vessels, showing the internal jugular vein and carotid artery in cross-section. Around the 6-second mark, the image shifts dramatically as the operator rotates the probe approximately 90 degrees. This maneuver transitions the view from a circular cross-section to a longitudinal (long-axis) view, displaying the vessel as a long, tubular structure running horizontally across the screen. This allows for visualization of the vessel's length and course.",
+      "latency_ms": 6491.7590618133545,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.840000000000003,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] The clip shows a control change made to clean up the grayscale image. What is adjusted, and what is the reason?\nA. Reduce TGC, to suppress noise/clutter\nB. Reduce overall 2D gain, to decrease background speckle without altering depth-dependent amplification.\nC. Move the focal zone deeper, to sharpen the region of interest and reduce apparent blur in the far field.\nD. Lower the dynamic range (increase compression), to improve contrast and make tissue interfaces stand out.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator reduces TGC to clear noise/artifacts and improve grayscale image clarity.",
+    "time_start": 70.01,
+    "time_end": 79.0,
+    "original_question": "[MCQ] The clip shows a control change made to clean up the grayscale image. What is adjusted, and what is the reason?\nA. Reduce overall 2D gain, to decrease background speckle without altering depth-dependent amplification.\nB. Reduce TGC, to suppress noise/clutter\nC. Lower the dynamic range (increase compression), to improve contrast and make tissue interfaces stand out.\nD. Move the focal zone deeper, to sharpen the region of interest and reduce apparent blur in the far field.",
+    "original_answer": "B",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nAt the beginning of the clip, there are faint echoes or \"noise\" visible within the anechoic lumen of the vessel, particularly in the near field (top part of the image). As the clip progresses, these echoes disappear, and the vessel lumen becomes cleaner and more purely anechoic (black). This change is characteristic of reducing the Time Gain Compensation (TGC), specifically the near-field gain sliders, to suppress reverberation artifacts or clutter that can mimic thrombus or plaque. Reducing overall 2D gain would darken the entire image uniformly, whereas this adjustment seems targeted at cleaning up the noise within the vessel while maintaining tissue visibility.",
+      "latency_ms": 8221.00019454956,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.989999999999995,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, which imaging mode is enabled next, and what is the purpose?\nA. Power Doppler, to increase sensitivity for low‑velocity flow when color signal is weak\nB. Color Doppler, to map flow within the target vessel\nC. M‑mode, to document cyclic wall motion and measure vessel diameter changes over time\nD. Spectral (pulsed‑wave) Doppler, to quantify peak systolic velocity and waveform morphology in the vessel",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Color Doppler is activated and a color box is positioned over the artery to visualize flow.",
+    "time_start": 79.01,
+    "time_end": 89.68,
+    "original_question": "[MCQ] Based on the clip, which imaging mode is enabled next, and what is the purpose?\nA. Color Doppler, to map flow within the target vessel\nB. Power Doppler, to increase sensitivity for low‑velocity flow when color signal is weak\nC. Spectral (pulsed‑wave) Doppler, to quantify peak systolic velocity and waveform morphology in the vessel\nD. M‑mode, to document cyclic wall motion and measure vessel diameter changes over time",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nAt the very end of the clip (around the 0:17 mark), a color box appears over the vessel, filling the lumen with red signal. This indicates the activation of Color Doppler mode, which is used here to map blood flow within the vessel, confirm patency, and assess flow direction relative to the probe.",
+      "latency_ms": 7463.386058807373,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.670000000000002,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] The clip shows a refinement of the color overlay to improve interpretability. What is changed, and why?\nA. Reduce color gain, to prevent color “bleeding” beyond the vessel\nB. Narrow the color box, to improve frame rate and spatial resolution of the flow overlay\nC. Increase color scale (PRF), to reduce aliasing and better display higher-velocity flow\nD. Raise the wall filter, to suppress low-frequency tissue motion (clutter) and clarify true vascular flow",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator reduces color gain to achieve proper intraluminal color filling without bleed artifacts while visualizing the common carotid artery.",
+    "time_start": 105.01,
+    "time_end": 118.7,
+    "original_question": "[MCQ] The clip shows a refinement of the color overlay to improve interpretability. What is changed, and why?\nA. Increase color scale (PRF), to reduce aliasing and better display higher-velocity flow\nB. Reduce color gain, to prevent color “bleeding” beyond the vessel\nC. Narrow the color box, to improve frame rate and spatial resolution of the flow overlay\nD. Raise the wall filter, to suppress low-frequency tissue motion (clutter) and clarify true vascular flow",
+    "original_answer": "B",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThroughout the clip, the width of the color Doppler sampling box (the trapezoidal overlay) is significantly reduced. Narrowing the color box reduces the amount of data the ultrasound machine needs to process per frame, which directly improves the frame rate (temporal resolution) and can also help with the spatial resolution of the color flow overlay, making the hemodynamic display more responsive and accurate.",
+      "latency_ms": 7529.7911167144775,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 13.689999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the sequence in the clip, what workflow phase is the operator in?\nA. Optimizing color Doppler to localize flow and confirm direction before placing a spectral Doppler gate\nB. Reviewing a previously saved Doppler tracing and measuring velocities during post-processing rather than acquiring a new sample\nC. Acquiring and evaluating a spectral Doppler velocity sample\nD. Optimizing B-mode image quality (depth, gain, focal zone) to better visualize the target vessel prior to Doppler",
+    "answer": "C",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator activates PW Doppler, centers the sample gate, freezes, and inspects the spectral trace to document a quality waveform from the common carotid artery.",
+    "time_start": 121.14,
+    "time_end": 149.15,
+    "original_question": "[MCQ] Based on the sequence in the clip, what workflow phase is the operator in?\nA. Acquiring and evaluating a spectral Doppler velocity sample\nB. Optimizing color Doppler to localize flow and confirm direction before placing a spectral Doppler gate\nC. Optimizing B-mode image quality (depth, gain, focal zone) to better visualize the target vessel prior to Doppler\nD. Reviewing a previously saved Doppler tracing and measuring velocities during post-processing rather than acquiring a new sample",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The clip demonstrates the active acquisition of a spectral Doppler waveform. After initially visualizing the vessel with color Doppler, the operator activates the spectral Doppler mode (evident from the appearance of the sample volume gate and cursor line). The system then generates a real-time spectral waveform at the bottom of the screen, which shows the velocity of blood flow over time corresponding to the cardiac cycle. The operator freezes the image and then places calipers to measure Peak Systolic Velocity (PS) and End Diastolic Velocity (ED), which confirms they are in the phase of acquiring and then evaluating the spectral sample.",
+      "latency_ms": 6780.692100524902,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 28.010000000000005,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what probe motion is used to progress to the next key landmark along the vessel, and what is the intent?\nA. Slide the probe superiorly along the vessel, to reach the next characteristic segment before branching\nB. Rock the probe to optimize the Doppler insonation angle and confirm flow within the current segment rather than advancing along the vessel.\nC. Rotate the probe 90° to obtain a transverse short-axis view to assess patency and surrounding structures at the same level.\nD. Fan/sweep the probe side-to-side to relocate the vessel after it drifts out of plane, without intentionally moving to the next landmark.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator returns to transverse view and slides the probe cephalad, following the common carotid artery until the morphology changes approaching the bulb region.",
+    "time_start": 170.26,
+    "time_end": 182.5,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Slide the probe superiorly along the vessel, to reach the next characteristic segment before branching\n\nExplanation:\nThe video demonstrates a sliding motion of the ultrasound probe. The initial view shows the internal jugular vein (IJV) and common carotid artery (CCA) in a transverse orientation. The probe is then moved (slid) superiorly up the neck. As this motion occurs, you can see the two vessels remain in view, but the anatomy changes slightly, eventually revealing the carotid bifurcation (where the CCA splits) towards the very end of the scan. This superior slide is the standard maneuver to trace the vessels from the base of the neck up towards the mandible to find the bifurcation.",
+      "latency_ms": 7320.603132247925,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 12.240000000000009,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] The clip shows that the initial spectral Doppler tracing at this new location is suboptimal, followed by a corrective adjustment. What is the adjustment, and why?\nA. Increase the Doppler scale/PRF to reduce aliasing and better display higher peak velocities.\nB. Optimize Doppler gain and wall filter settings to improve signal-to-noise while minimizing low-frequency motion artifact.\nC. Reposition and narrow the sample volume to the center of the lumen to avoid wall contamination and spectral broadening.\nD. Steer/angle the Doppler beam, to improve insonation angle and flow signal",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "At the bulb, PW Doppler initially shows a poor waveform; the operator steers the Doppler beam to correct the angle and improve the flow signal before documenting velocity.",
+    "time_start": 232.06,
+    "time_end": 244.18,
+    "original_question": "[MCQ] The clip shows that the initial spectral Doppler tracing at this new location is suboptimal, followed by a corrective adjustment. What is the adjustment, and why?\nA. Steer/angle the Doppler beam, to improve insonation angle and flow signal\nB. Increase the Doppler scale/PRF to reduce aliasing and better display higher peak velocities.\nC. Reposition and narrow the sample volume to the center of the lumen to avoid wall contamination and spectral broadening.\nD. Optimize Doppler gain and wall filter settings to improve signal-to-noise while minimizing low-frequency motion artifact.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The initial spectral Doppler tracing shows a noisy, filled-in spectral window (spectral broadening) because the sample volume is too wide and positioned too close to the vessel wall, picking up lower velocity flow and wall motion. The adjustment seen in the video is the narrowing of the sample volume gate and repositioning it to the center of the vessel lumen, where the flow is laminar and fastest (parabolic flow profile), which results in a cleaner spectral trace with a clear spectral window.",
+      "latency_ms": 6082.011938095093,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 12.120000000000005,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the later clip sequence, what broader objective is being pursued, and what method is used to confirm it?\nA. Differentiating an artery from a vein in the region and confirming with pulsed Doppler waveform analysis\nB. Identifying where one vessel splits into two branches and confirming with color flow\nC. Localizing a focal stenosis in the vessel and confirming hemodynamic significance with spectral Doppler velocities\nD. Assessing for vascular patency or thrombosis in a single vessel and confirming with color Doppler flow filling",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator scans superior to the bulb to locate the bifurcation, uses color Doppler to confirm two distinct vessels, and sweeps through the region to verify the transition from one vessel to two (ICA/ECA).",
+    "time_start": 259.49,
+    "time_end": 284.41,
+    "original_question": "[MCQ] Based on the later clip sequence, what broader objective is being pursued, and what method is used to confirm it?\nA. Identifying where one vessel splits into two branches and confirming with color flow\nB. Assessing for vascular patency or thrombosis in a single vessel and confirming with color Doppler flow filling\nC. Localizing a focal stenosis in the vessel and confirming hemodynamic significance with spectral Doppler velocities\nD. Differentiating an artery from a vein in the region and confirming with pulsed Doppler waveform analysis",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video shows a transverse ultrasound view of neck vessels. Initially, in B-mode, we see what appears to be a single large vessel (likely the common carotid artery) that then shows two distinct circular lumens side-by-side as the probe moves superiorly. This visualizes the bifurcation of the common carotid artery into the internal and external carotid arteries. The later part of the clip (from 00:12 onwards) applies color Doppler, filling both circular lumens with color (red/orange indicating flow), which confirms that both structures are patent blood vessels branching from the original source. This confirms the objective is identifying the bifurcation (splitting) of the vessel.",
+      "latency_ms": 7459.971189498901,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 24.920000000000016,
+    "keep": true
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe adjustment is performed after the initial landmark is identified, and what view is it intended to bring into frame?",
+    "answer": "The operator tilts/angles the probe toward the feet to bring the uterus into view and, if present, identify the fetus within it.",
+    "groundtruth": "After identifying the bladder, the operator tilts the transducer toward the feet to bring the uterus into view and ideally visualize a fetus within it.",
+    "time_start": 7.62,
+    "time_end": 19.09,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 7.62,
+    "original_time_end": 19.09,
+    "model_prediction": "After identifying the fluid-filled bladder as the initial landmark, the probe is rotated 90 degrees from a transverse to a sagittal (longitudinal) orientation. This adjustment is intended to bring the midline sagittal view of the uterus (the pelvic organ posterior to the bladder) into frame.",
+    "inference_metadata": {
+      "raw_response": "After identifying the fluid-filled bladder as the initial landmark, the probe is rotated 90 degrees from a transverse to a sagittal (longitudinal) orientation. This adjustment is intended to bring the midline sagittal view of the uterus (the pelvic organ posterior to the bladder) into frame.",
+      "latency_ms": 113100.47483444214,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what part of the overall workflow is being set up, and what imaging condition must be achieved before placing measurement markers?",
+    "answer": "They are setting up for the first-trimester dating measurement (CRL). Before placing markers, they optimize the plane by elongating the fetal view and adjusting until the true long axis/maximal end-to-end length is captured.",
+    "groundtruth": "The operator transitions into crown–rump length measurement setup and manipulates the probe to elongate the fetal view, then fans/rotates to ensure the true longitudinal axis and maximal crown–rump distance are captured before measuring.",
+    "time_start": 20.47,
+    "time_end": 35.68,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 20.47,
+    "original_time_end": 35.68,
+    "model_prediction": "This is a first-trimester obstetric ultrasound workflow step, preparing to perform crown-rump length (CRL) measurement to estimate gestational age of the early pregnancy.\nBefore placing measurement markers, a clear, properly oriented midsagittal view of the entire embryo must be achieved: the embryo must be in neutral position (not excessively flexed or extended), the full length from the fetal crown (head) to rump (bottom) must be fully visible with no parts cut off, and the image must be frozen at a frame where the embryo is not moving to ensure measurement accuracy.",
+    "inference_metadata": {
+      "raw_response": "This is a first-trimester obstetric ultrasound workflow step, preparing to perform crown-rump length (CRL) measurement to estimate gestational age of the early pregnancy.\nBefore placing measurement markers, a clear, properly oriented midsagittal view of the entire embryo must be achieved: the embryo must be in neutral position (not excessively flexed or extended), the full length from the fetal crown (head) to rump (bottom) must be fully visible with no parts cut off, and the image must be frozen at a frame where the embryo is not moving to ensure measurement accuracy.",
+      "latency_ms": 217093.608379364,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] This clip shows the target not yet displayed at its maximal end-to-end span. What optimization maneuver is performed, and why does it matter?",
+    "answer": "The probe is maneuvered to elongate the fetal view so the maximal crown-to-rump distance is shown, reducing foreshortening and improving measurement accuracy.",
+    "groundtruth": "The operator adjusts probe position/angle to elongate the fetal view to obtain the maximal crown–rump distance for an accurate CRL measurement.",
+    "time_start": 25.29,
+    "time_end": 31.25,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 25.29,
+    "original_time_end": 31.25,
+    "model_prediction": "The maneuver performed is transducer angulation/fanning to align the ultrasound imaging plane with the longest (maximal) axis of the target, which is an early first trimester intrauterine pregnancy, including the embryo and gestational sac.\nThis is critical because it allows accurate measurement of the embryo's crown-rump length, the most reliable metric for dating early pregnancies, and prevents underestimation of structure size that would lead to incorrect clinical assessment or misdiagnosis.",
+    "inference_metadata": {
+      "raw_response": "The maneuver performed is transducer angulation/fanning to align the ultrasound imaging plane with the longest (maximal) axis of the target, which is an early first trimester intrauterine pregnancy, including the embryo and gestational sac.\nThis is critical because it allows accurate measurement of the embryo's crown-rump length, the most reliable metric for dating early pregnancies, and prevents underestimation of structure size that would lead to incorrect clinical assessment or misdiagnosis.",
+      "latency_ms": 123848.57201576233,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what machine interaction is performed to refine the chosen image for measurement, and why is it used?",
+    "answer": "The operator freezes the live scan and then scrolls/cines through the saved frames to select the single frame that best shows the fetal poles for accurate measurement.",
+    "groundtruth": "The scan is frozen and cine review is used to move back through frames to choose the best frame demonstrating the optimal pole-to-pole view for measurement.",
+    "time_start": 36.4,
+    "time_end": 45.58,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 36.4,
+    "original_time_end": 45.58,
+    "model_prediction": "The interaction performed is first freezing the live dynamic ultrasound sequence to capture a static, optimally visualized frame of the early gestation fetus, then placing electronic caliper measurement markers on the structure of interest.\nFreezing is used to select the clearest, best-aligned frame without motion artifact to make an accurate measurement, while the calipers are used to obtain a standardized, precise quantitative length measurement (most commonly crown-rump length here, used to estimate gestational age of the pregnancy).",
+    "inference_metadata": {
+      "raw_response": "The interaction performed is first freezing the live dynamic ultrasound sequence to capture a static, optimally visualized frame of the early gestation fetus, then placing electronic caliper measurement markers on the structure of interest.\nFreezing is used to select the clearest, best-aligned frame without motion artifact to make an accurate measurement, while the calipers are used to obtain a standardized, precise quantitative length measurement (most commonly crown-rump length here, used to estimate gestational age of the pregnancy).",
+      "latency_ms": 193540.58289527893,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation is being used at the start of the scan, and what is the immediate acquisition goal?",
+    "answer": "The probe is placed in a transverse orientation to immediately bring the target pulsatile vessel into view. The goal is to rapidly identify the aorta as the starting landmark for the exam.",
+    "groundtruth": "The operator places the probe in a transverse position and immediately identifies the pulsatile aorta to establish the correct starting vessel view.",
+    "time_start": 0.96,
+    "time_end": 5.97,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing when the image is frozen, and what is the purpose of this step?",
+    "answer": "They freeze the image to lock in a clear cross-sectional view. The purpose is to prepare for an accurate diameter measurement.",
+    "groundtruth": "The operator freezes the image once a clear aorta view is obtained in order to prepare for measuring the aortic diameter.",
+    "time_start": 17.49,
+    "time_end": 26.43,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing after placing calipers, and what clinical judgment is this supporting?",
+    "answer": "They are reading/interpreting the diameter measurement they just obtained. This supports deciding whether the vessel caliber is normal versus abnormally enlarged.",
+    "groundtruth": "After placing calipers, the operator reads the diameter measurement and interprets it as a normal-sized aorta at that level.",
+    "time_start": 40.54,
+    "time_end": 47.42,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what adjustment is made to the measurement, and why does it improve the result?",
+    "answer": "The calipers are repositioned to better capture the true full width of the vessel. This improves measurement accuracy by ensuring the endpoints are correctly placed.",
+    "groundtruth": "The operator adjusts caliper placement to better capture the full aortic width, acknowledging the prior placement could slightly overestimate and prioritizing safe measurement technique.",
+    "time_start": 48.12,
+    "time_end": 57.62,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is shown while keeping the same cross-sectional orientation, and what scanning objective does it serve?",
+    "answer": "The probe is slid along the abdomen while staying in transverse. The objective is to trace the vessel along its course to evaluate it at additional levels.",
+    "groundtruth": "The operator drags the probe inferiorly toward the feet while maintaining a transverse orientation to scan down the length of the aorta.",
+    "time_start": 64.1,
+    "time_end": 67.04,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparative viewing strategy is being used across the image to confirm correct identification and orientation, and what is it meant to verify?",
+    "answer": "The operator visually checks different sides of the display and the deep posterior reference to ensure the correct vessel is centered and the anatomy is properly oriented. This helps confirm they are tracking the intended artery rather than a nearby vein.",
+    "groundtruth": "The operator inspects the right side of the screen to visualize the aorta, then inspects the left side and posterior field to see the neighboring vessel (IVC partially) and re-identify the vertebral shadow to confirm orientation.",
+    "time_start": 91.32,
+    "time_end": 101.49,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to reach by continuously sliding in one direction and then briefly holding position, and why is that endpoint important in the workflow?",
+    "answer": "They are tracking the vessel to its distal endpoint where it divides and then holding to document that level. This endpoint is important to complete the distal portion of the survey before changing scan planes.",
+    "groundtruth": "The operator drags the probe distally to follow the aorta until it splits, then holds at that split to visualize the bifurcation point.",
+    "time_start": 108.28,
+    "time_end": 120.4,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what two-handed probe maneuver is shown, and what is the imaging goal of doing it this way?",
+    "answer": "The probe is rotated about 90 degrees with a two-handed technique while keeping the vessel continuously on screen. The goal is to transition into a stable longitudinal view without losing the target.",
+    "groundtruth": "Using two hands, the operator rotates the probe 90 degrees so the marker points toward the patient\u2019s head, maintaining visualization of the aorta throughout the rotation to obtain a longitudinal view.",
+    "time_start": 150.86,
+    "time_end": 160.48,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient-positioning and probe-pressure strategy is used to improve the view, and what problem is it intended to overcome?",
+    "answer": "The patient bends their knees while the operator applies firm downward pressure and waits briefly. This is intended to improve the acoustic window by displacing interfering bowel gas.",
+    "groundtruth": "To troubleshoot poor visualization from bowel gas in the sagittal view, the operator has the patient bend their knees, presses down firmly, and waits for gas to shift.",
+    "time_start": 187.31,
+    "time_end": 204.77,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what final confirmation step is performed before continuing the exam, and what broader scanning objective does it support?",
+    "answer": "A brief side-to-side sweep is used to confirm which vessel is which after the longitudinal scan segment. This ensures the operator continues evaluating and measuring the intended artery rather than the neighboring vein.",
+    "groundtruth": "After scanning inferiorly in sagittal and troubleshooting, the operator identifies the IVC by sliding right, then slides back left to confirm the aorta, using this sweep as a quick confirmation before proceeding.",
+    "time_start": 179.93,
+    "time_end": 223.04,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

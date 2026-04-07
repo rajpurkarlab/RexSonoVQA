@@ -1,0 +1,254 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation/maneuver is shown, and what imaging goal does it serve?",
+    "answer": "The probe is oriented to obtain a transverse (cross-sectional) plane. The goal is to capture a cross-section of the left liver lobe from the epigastric window.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is oriented to acquire a transverse cross-section through the left liver lobe to visualize it in short axis.",
+    "time_start": 11.14,
+    "time_end": 15.12,
+    "model_prediction": "Based on the video clip, the probe is in a **subcostal transverse orientation**, performing a **fanning or sweeping maneuver**.\n\n**Explanation:**\nThe video shows a sweep through the liver parenchyma. As the probe fans, the hepatic veins (specifically the middle and left hepatic veins) are seen draining into the inferior vena cava (IVC) at the posterior aspect of the liver. This \"bunny ear\" or \"playboy bunny\" sign is a classic landmark obtained in the transverse subcostal view to visualize the hepatic venous confluence and the upper segments of the liver. The goal is to survey the liver parenchyma and hepatic vasculature.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is in a **subcostal transverse orientation**, performing a **fanning or sweeping maneuver**.\n\n**Explanation:**\nThe video shows a sweep through the liver parenchyma. As the probe fans, the hepatic veins (specifically the middle and left hepatic veins) are seen draining into the inferior vena cava (IVC) at the posterior aspect of the liver. This \"bunny ear\" or \"playboy bunny\" sign is a classic landmark obtained in the transverse subcostal view to visualize the hepatic venous confluence and the upper segments of the liver. The goal is to survey the liver parenchyma and hepatic vasculature.",
+      "latency_ms": 8640.321969985962,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 3.9799999999999986,
+    "judge_explanation": "The AI correctly identifies the probe orientation as transverse (subcostal) and correctly identifies the organ as the liver. The description of the hepatic veins and IVC is consistent with the anatomy seen in a transverse view of the liver (specifically the left lobe/epigastric region), aligning well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transition in scanning approach is being made, and what broader objective does it support?",
+    "answer": "The operator repositions from the initial midline/epigastric window toward a more right-sided epigastric window while resetting breathing. The objective is to shift the window to better evaluate the right liver lobe.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After resetting the breath cycle, the probe is moved to the right epigastrium to transition the scan toward views of the right liver lobe.",
+    "time_start": 19.1,
+    "time_end": 29.43,
+    "model_prediction": "Based on the video, the operator is transitioning from a **subcostal approach** (scanning under the rib cage, looking up into the liver) to an **intercostal approach** (scanning between the ribs).\n\nThis transition supports the broader objective of **comprehensively evaluating the liver parenchyma and the right kidney**, particularly to visualize the superior and lateral segments of the liver that are often obscured by the ribs or bowel gas in the subcostal view. The intercostal window allows for better visualization of the hepatic dome and the hepatorenal interface (Morison's pouch).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is transitioning from a **subcostal approach** (scanning under the rib cage, looking up into the liver) to an **intercostal approach** (scanning between the ribs).\n\nThis transition supports the broader objective of **comprehensively evaluating the liver parenchyma and the right kidney**, particularly to visualize the superior and lateral segments of the liver that are often obscured by the ribs or bowel gas in the subcostal view. The intercostal window allows for better visualization of the hepatic dome and the hepatorenal interface (Morison's pouch).",
+      "latency_ms": 6719.834804534912,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.329999999999998,
+    "judge_explanation": "The AI incorrectly identifies the transition as moving from a subcostal to an intercostal approach. The ground truth specifies that the operator is repositioning from a midline/epigastric window to a right-sided epigastric window (which remains subcostal), not an intercostal window. Therefore, the description of the maneuver is factually incorrect based on the provided truth.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient positioning adjustment is performed, and why is it used for optimization?",
+    "answer": "The patient is repositioned by moving the right arm up/over the head. This opens the intercostal spaces and can improve the acoustic window to the liver.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The patient is asked to place the right arm over the head to open intercostal spaces and improve the available scanning window.",
+    "time_start": 45.59,
+    "time_end": 49.28,
+    "model_prediction": "Based on the video clip, the patient is moved from a supine position into a **left lateral decubitus position** (rolling onto their left side). This maneuver is used for optimization because it helps displace bowel gas away from the area of interest and allows the liver to drop inferiorly, providing a better acoustic window to visualize the gallbladder and biliary tree.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the patient is moved from a supine position into a **left lateral decubitus position** (rolling onto their left side). This maneuver is used for optimization because it helps displace bowel gas away from the area of interest and allows the liver to drop inferiorly, providing a better acoustic window to visualize the gallbladder and biliary tree.",
+      "latency_ms": 5815.420150756836,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.6899999999999977,
+    "judge_explanation": "The AI incorrectly identified the patient positioning maneuver. The AI claimed the patient was rolled into a left lateral decubitus position, whereas the ground truth states the maneuver involved moving the right arm up/over the head to open intercostal spaces.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what respiratory-related optimization is used, and what is the intended effect on the target organ’s position?",
+    "answer": "A deep inspiration breath-hold is used. The goal is to push the liver inferiorly and improve the acoustic window/visibility.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator uses a deep inspiration to move the liver inferiorly to improve the scanning window and image quality.",
+    "time_start": 51.16,
+    "time_end": 57.06,
+    "model_prediction": "Based on the video clip, the respiratory-related optimization used is a deep inspiration (breath-hold). The intended effect is to move the target organ, the spleen, inferiorly (downwards) into the field of view, below the ribs and costophrenic angle, allowing for better visualization.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the respiratory-related optimization used is a deep inspiration (breath-hold). The intended effect is to move the target organ, the spleen, inferiorly (downwards) into the field of view, below the ribs and costophrenic angle, allowing for better visualization.",
+      "latency_ms": 7421.388149261475,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 5.900000000000006,
+    "judge_explanation": "The AI correctly identifies the respiratory optimization (deep inspiration) and the intended mechanical effect (moving the organ inferiorly). However, it misidentifies the target organ as the spleen, while the ground truth explicitly states the target is the liver.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is shown after repositioning, and what is the immediate objective?",
+    "answer": "This segment shows a reassessment scan after repositioning and breath optimization. The immediate objective is to rescan the right lobe and confirm the view has improved enough to proceed with standard images.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "In the new position, the operator re-establishes an inspiratory window and scans the right liver lobe to confirm improved clarity before moving on to standard views.",
+    "time_start": 69.2,
+    "time_end": 78.79,
+    "model_prediction": "Based on the video clip, the phase shown after repositioning is the **right upper quadrant (RUQ) abdominal ultrasound**, specifically targeting the **liver and gallbladder**. The immediate objective appears to be obtaining a clear view of the **gallbladder** and surrounding liver parenchyma, as the probe manipulates to bring the gallbladder (seen as an anechoic, fluid-filled structure) into view amidst bowel gas shadowing.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the phase shown after repositioning is the **right upper quadrant (RUQ) abdominal ultrasound**, specifically targeting the **liver and gallbladder**. The immediate objective appears to be obtaining a clear view of the **gallbladder** and surrounding liver parenchyma, as the probe manipulates to bring the gallbladder (seen as an anechoic, fluid-filled structure) into view amidst bowel gas shadowing.",
+      "latency_ms": 8746.547222137451,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.590000000000003,
+    "judge_explanation": "The AI correctly identifies the anatomical context (RUQ, liver, gallbladder) and the general action of trying to obtain a clear view. However, it fails to correctly identify the specific 'phase' of the exam requested. The ground truth specifies the phase as a 'reassessment scan' to check optimization, whereas the AI provides the exam type ('RUQ abdominal ultrasound').",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe angulation maneuver is performed, and what key superior landmark view is being targeted?",
+    "answer": "The probe is angled cranially to reach a more superior cross-section. The goal is to visualize the hepatic veins converging into the IVC (the classic superior confluence view).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is angled cranially to the most superior standard level to visualize the hepatic veins joining the inferior vena cava and to identify the IVC.",
+    "time_start": 84.88,
+    "time_end": 102.37,
+    "model_prediction": "Based on the video, the probe is being **angled or fanned superiorly** (cephalad) to visualize the **hepatic veins** draining into the inferior vena cava (IVC) at the top of the liver.\n\nIn the initial frames, the view is lower in the liver. As the clip progresses, the operator tilts the probe upwards, bringing into view the classic \"Playboy bunny\" or \"reindeer\" sign, which represents the confluence of the middle, left, and right hepatic veins entering the IVC.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is being **angled or fanned superiorly** (cephalad) to visualize the **hepatic veins** draining into the inferior vena cava (IVC) at the top of the liver.\n\nIn the initial frames, the view is lower in the liver. As the clip progresses, the operator tilts the probe upwards, bringing into view the classic \"Playboy bunny\" or \"reindeer\" sign, which represents the confluence of the middle, left, and right hepatic veins entering the IVC.",
+      "latency_ms": 10012.1431350708,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 17.49000000000001,
+    "judge_explanation": "The AI correctly identifies the probe maneuver (angling superiorly/cranially) and the specific anatomical landmark being targeted (the confluence of the hepatic veins into the IVC), matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being done when the probe is held steady on a distinctive central pattern, and why?",
+    "answer": "The probe is kept steady to carefully inspect and recognize a key standard landmark pattern. The goal is to identify and document the central portal venous branching pattern used for orientation in liver scanning.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is held steady on the “jumping stag sign” level to visualize its components and identify the central portal vein branching pattern in the liver.",
+    "time_start": 115.74,
+    "time_end": 128.27,
+    "model_prediction": "Based on the video clip, the sonographer is holding the probe steady over the porta hepatis (liver hilum) to visualize the **\"Mickey Mouse sign.\"** This is being done to identify the relationship between the portal triad structures: the common bile duct (the \"right ear\"), the hepatic artery (the \"left ear\"), and the portal vein (the \"face\").",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is holding the probe steady over the porta hepatis (liver hilum) to visualize the **\"Mickey Mouse sign.\"** This is being done to identify the relationship between the portal triad structures: the common bile duct (the \"right ear\"), the hepatic artery (the \"left ear\"), and the portal vein (the \"face\").",
+      "latency_ms": 8756.608009338379,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.530000000000015,
+    "judge_explanation": "The AI identifies the visual pattern as the \"Mickey Mouse sign\" (cross-section of the portal triad), whereas the ground truth identifies it as the \"central portal venous branching pattern\" (typically the bifurcation of the portal vein). These are distinct ultrasound landmarks representing different anatomical planes and structures. Consequently, the stated purpose (assessing triad relationships vs. orientation via branching) is also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning task is being performed when the operator searches for a boundary line, and what is the purpose of finding it?",
+    "answer": "The operator scans to locate the plane separating the main portions of the organ. The purpose is to identify the interlobar ligament/echogenic boundary and follow it toward the teres hepatis landmark for orientation.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans to find the echogenic line between right and left lobes, identifying it as the interlobar ligament and tracing it toward the teres hepatis ligament.",
+    "time_start": 132.71,
+    "time_end": 145.49,
+    "model_prediction": "Based on the video clip, the scanning task being performed is identifying the **main lobar fissure** to locate the **gallbladder**. The operator is searching for the hyperechoic (bright) line connecting the portal vein to the gallbladder neck, which serves as a reliable landmark for finding the gallbladder when it is difficult to visualize directly.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the scanning task being performed is identifying the **main lobar fissure** to locate the **gallbladder**. The operator is searching for the hyperechoic (bright) line connecting the portal vein to the gallbladder neck, which serves as a reliable landmark for finding the gallbladder when it is difficult to visualize directly.",
+      "latency_ms": 6689.815044403076,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 12.780000000000001,
+    "judge_explanation": "The AI identifies the structure as the main lobar fissure to find the gallbladder. However, the ground truth specifies that the operator is looking for the interlobar ligament/boundary to locate the teres hepatis (ligamentum teres). These are distinct anatomical landmarks (MLF vs. Ligamentum Teres/Falciform Ligament) with different scanning objectives.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement changes the imaging plane, and what is the goal of that change?",
+    "answer": "The probe is rotated to switch into a longitudinal (long-axis) plane. The goal is to evaluate the left liver lobe in long section from the current window.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is rotated to obtain a longitudinal (long-axis) section through the body to prepare for evaluating the left liver lobe in long section.",
+    "time_start": 163.84,
+    "time_end": 169.84,
+    "model_prediction": "Based on the video clip, the probe movement is a **fan (or tilt)**, and the goal is to sweep through the organ (specifically the gallbladder) to visualize it in its entirety from one wall to the other.\n\nInitially, the gallbladder is clearly seen. The operator then tilts the probe, causing the ultrasound beam to sweep across the anatomy. This fanning motion allows the clinician to scan through the 3D volume of the gallbladder, checking for stones, wall thickening, or other pathology that might not be visible in a single static plane, before the image eventually moves past the gallbladder and obscures the view with bowel gas or lung artifact.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe movement is a **fan (or tilt)**, and the goal is to sweep through the organ (specifically the gallbladder) to visualize it in its entirety from one wall to the other.\n\nInitially, the gallbladder is clearly seen. The operator then tilts the probe, causing the ultrasound beam to sweep across the anatomy. This fanning motion allows the clinician to scan through the 3D volume of the gallbladder, checking for stones, wall thickening, or other pathology that might not be visible in a single static plane, before the image eventually moves past the gallbladder and obscures the view with bowel gas or lung artifact.",
+      "latency_ms": 7743.427038192749,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.0,
+    "judge_explanation": "The AI incorrectly identifies the probe movement as a 'fan' or 'tilt' instead of a 'rotation'. Furthermore, the AI incorrectly identifies the goal as sweeping through the gallbladder, whereas the ground truth states the goal is to evaluate the left liver lobe in a longitudinal plane. Both the described action and the anatomical target are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what landmark at the boundary of two cavities is being identified, and what is the purpose of identifying it during this scan?",
+    "answer": "The diaphragm is identified at the thoracoabdominal boundary. The purpose is to establish the superior boundary between the heart/lungs and the liver and to help orient the cranial extent of the liver view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator focuses on the thoracoabdominal boundary to identify the diaphragm as an echogenic line between the heart and the liver.",
+    "time_start": 183.01,
+    "time_end": 190.57,
+    "model_prediction": "Based on the video clip, the landmark being identified is the **diaphragm**, which appears as a bright, curved, hyperechoic line separating the abdominal cavity (containing the liver) from the thoracic cavity. The purpose of identifying it is likely to assess for pathology such as pleural effusion or other abnormalities above the diaphragm in the thoracic space, or to confirm the cranial border of the liver.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the landmark being identified is the **diaphragm**, which appears as a bright, curved, hyperechoic line separating the abdominal cavity (containing the liver) from the thoracic cavity. The purpose of identifying it is likely to assess for pathology such as pleural effusion or other abnormalities above the diaphragm in the thoracic space, or to confirm the cranial border of the liver.",
+      "latency_ms": 7698.899030685425,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.560000000000002,
+    "judge_explanation": "The AI correctly identifies the landmark as the diaphragm and accurately describes its appearance and location at the boundary of the thoracic and abdominal cavities. The stated purpose of confirming the cranial border of the liver aligns well with the ground truth's explanation of establishing the superior boundary and orienting the liver view.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being maintained on screen during this segment, and what teaching point is being reinforced by holding the view?",
+    "answer": "A stable view of the hepatic vasculature is maintained. The teaching point is confirming that portal veins have echogenic connective tissue around them, whereas hepatic veins do not.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator maintains the hepatic vascular view to identify the vessel without connective tissue as a hepatic vein and reinforce that portal veins have echogenic walls while hepatic veins do not.",
+    "time_start": 215.91,
+    "time_end": 225.67,
+    "model_prediction": "Based on the video, the probe is being held steady to maintain a clear view of the **middle hepatic vein** as it drains into the IVC. This segment reinforces the teaching point that holding the probe still on a key landmark (in this case, the hepatic vein) allows the user to observe its dynamic behavior, specifically its pulsatility or respiratory variation, which helps distinguish it from portal veins.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is being held steady to maintain a clear view of the **middle hepatic vein** as it drains into the IVC. This segment reinforces the teaching point that holding the probe still on a key landmark (in this case, the hepatic vein) allows the user to observe its dynamic behavior, specifically its pulsatility or respiratory variation, which helps distinguish it from portal veins.",
+      "latency_ms": 7270.498037338257,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.759999999999991,
+    "judge_explanation": "The AI correctly identifies the anatomical region (hepatic vasculature/hepatic vein) and the general goal of distinguishing hepatic veins from portal veins. However, it fails to identify the specific teaching point described in the ground truth. The ground truth emphasizes the structural difference (echogenic connective tissue/walls), whereas the AI incorrectly attributes the lesson to observing dynamic behavior (pulsatility).",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the scan is shown as the probe moves further right and then sweeps down to a terminal edge, and what is the broader objective?",
+    "answer": "This is a completion sweep of the right-sided survey, moving toward the caudal margin. The objective is to document the right lobe down to its inferior edge and include the hepatorenal interface (right kidney coming into view) as an endpoint check.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is moved further to the patient’s right to visualize the right lobe and then slid inferiorly to the liver edge, where the right kidney appears, completing the caudal survey of this position.",
+    "time_start": 231.08,
+    "time_end": 250.62,
+    "model_prediction": "Based on the video clip, the phase shown is the transverse sweep of the liver. The broader objective is to survey the liver parenchyma for any focal lesions, masses, or abnormalities by sweeping through the entire organ from one edge to the other.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the phase shown is the transverse sweep of the liver. The broader objective is to survey the liver parenchyma for any focal lesions, masses, or abnormalities by sweeping through the entire organ from one edge to the other.",
+      "latency_ms": 6937.966108322144,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 19.539999999999992,
+    "judge_explanation": "The AI correctly identifies that the video shows a sweep of the liver. However, its response is overly generic. It fails to identify the specific phase (completion sweep toward the caudal margin) and misses the critical visual landmark defined in the ground truth: the hepatorenal interface (right kidney coming into view) which serves as the endpoint check.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe orientation adjustment is being performed, and what is the imaging objective?\nA. Slight counterclockwise obliquing while angling down to align the target organ’s long axis\nB. Slide the probe laterally while maintaining the same orientation to use an adjacent organ as an acoustic window and reduce bowel gas artifact.\nC. Slight clockwise rotation with a gentle heel-toe to obtain a true short-axis (transverse) view of the target organ.\nD. Angle the probe cephalad without rotation to center the organ’s head region and optimize visualization of nearby vessels with color Doppler.",
+    "answer": "A",
+    "groundtruth": "The operator places the probe high in the epigastrium, angles it inferiorly, and obliques slightly counterclockwise to better align the imaging plane with the pancreatic axis.",
+    "time_start": 0.25,
+    "time_end": 10.56,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe orientation adjustment is being performed, and what is the imaging objective?\nA. Slide the probe laterally while maintaining the same orientation to use an adjacent organ as an acoustic window and reduce bowel gas artifact.\nB. Angle the probe cephalad without rotation to center the organ’s head region and optimize visualization of nearby vessels with color Doppler.\nC. Slight clockwise rotation with a gentle heel-toe to obtain a true short-axis (transverse) view of the target organ.\nD. Slight counterclockwise obliquing while angling down to align the target organ’s long axis",
+    "original_answer": "D",
+    "original_time_start": 0.25,
+    "original_time_end": 10.56,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The observed probe movement is slight clockwise rotation paired with gentle heel-toe manipulation. The resulting ultrasound view shows rounded, ovoid cross-sections of vascular/ductal structures consistent with a transverse (short-axis) orientation, confirming the objective is obtaining a true short-axis view of the target organ.",
+      "latency_ms": 59815.26517868042,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is being used, and why?\nA. Sliding the probe along the skin to keep a similar plane while relocating to center a target structure, not to ensure full organ coverage.\nB. Fanning/tilting the probe in place to interrogate a focal area in multiple planes to optimize a specific finding.\nC. Performing a continuous sweep through the organ to ensure full coverage\nD. Capturing sequential static images at set intervals to document key anatomic landmarks rather than sweeping continuously.",
+    "answer": "C",
+    "groundtruth": "The operator sweeps through the entire pancreas rather than capturing static images of only the splenic vein, ensuring full anatomic coverage to avoid missing pathology on a single slice.",
+    "time_start": 32.93,
+    "time_end": 46.62,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what scanning strategy is being used, and why?\nA. Fanning/tilting the probe in place to interrogate a focal area in multiple planes to optimize a specific finding.\nB. Sliding the probe along the skin to keep a similar plane while relocating to center a target structure, not to ensure full organ coverage.\nC. Capturing sequential static images at set intervals to document key anatomic landmarks rather than sweeping continuously.\nD. Performing a continuous sweep through the organ to ensure full coverage",
+    "original_answer": "D",
+    "original_time_start": 32.93,
+    "original_time_end": 46.62,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe probe is fanned/tilted in a fixed position on the skin, repeatedly viewing the focal area initially marked by the green arrow from multiple imaging angles. This is done to optimize visualization of the specific targeted finding in that region, rather than performing a full organ sweep, sliding to relocate the probe, or capturing only static interval images.",
+      "latency_ms": 77233.12211036682,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what gross probe motion pattern is being performed, and what is the goal of that movement?\nA. Fanning/rocking the probe through the organ in place to interrogate its depth and look for focal lesions.\nB. Rotating the probe about 90° to obtain an orthogonal (short-axis/transverse) view for anatomic confirmation.\nC. A systematic sweep along the organ’s length to cover it end-to-end\nD. Sliding the probe slightly to bring an adjacent landmark organ or vessel into the same window to verify orientation.",
+    "answer": "C",
+    "groundtruth": "The operator scans along the pancreas from the head/uncinate region through to the tail to visualize the full length of pancreatic anatomy.",
+    "time_start": 49.91,
+    "time_end": 58.32,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what gross probe motion pattern is being performed, and what is the goal of that movement?\nA. Rotating the probe about 90° to obtain an orthogonal (short-axis/transverse) view for anatomic confirmation.\nB. A systematic sweep along the organ’s length to cover it end-to-end\nC. Sliding the probe slightly to bring an adjacent landmark organ or vessel into the same window to verify orientation.\nD. Fanning/rocking the probe through the organ in place to interrogate its depth and look for focal lesions.",
+    "original_answer": "B",
+    "original_time_start": 49.91,
+    "original_time_end": 58.32,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe probe is being fanned/rocked in place (no lateral sliding of the probe footprint across the skin) to obtain sequential cross-sectional slices through the imaged area, allowing interrogation of the full depth of the structure to identify any focal lesions. Other options are incorrect: there is no 90-degree rotation, no end-to-end sweep along the organ length, and no sliding to bring adjacent structures into view.",
+      "latency_ms": 76811.78975105286,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is being measured with on-screen calipers, and what is the clinical intent?\nA. Duct caliber to assess for dilatation\nB. Portal vein diameter to screen for portal hypertension\nC. Gallbladder wall thickness to evaluate for acute cholecystitis\nD. Inferior vena cava diameter to estimate intravascular volume status",
+    "answer": "A",
+    "groundtruth": "The operator visualizes the pancreatic duct and assesses its diameter, using a normal cutoff of about 2 mm to help determine whether the duct is dilated.",
+    "time_start": 88.91,
+    "time_end": 103.87,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what is being measured with on-screen calipers, and what is the clinical intent?\nA. Gallbladder wall thickness to evaluate for acute cholecystitis\nB. Duct caliber to assess for dilatation\nC. Inferior vena cava diameter to estimate intravascular volume status\nD. Portal vein diameter to screen for portal hypertension",
+    "original_answer": "B",
+    "original_time_start": 88.91,
+    "original_time_end": 103.87,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe on-screen caliper is measuring the thickness of the gallbladder wall, as seen by the measurement spanning the tissue layer superficial to the anechoic gallbladder lumen. Evaluation of gallbladder wall thickness (a value >3mm is abnormal) is a standard step in assessing for acute cholecystitis.",
+      "latency_ms": 54467.31686592102,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow objective best matches the sequence of evaluation in this segment?\nA. Identifying a key vascular landmark (e.g., portal vein or IVC) to localize the organ’s head region.\nB. Applying color Doppler to verify adjacent vessel patency and distinguish vascular from nonvascular structures.\nC. Alternating between orthogonal planes to confirm overall organ orientation before detailed evaluation.\nD. Distinguishing key anterior vs posterior structures adjacent to the organ’s head region",
+    "answer": "D",
+    "groundtruth": "The operator inspects the anterior aspect of the pancreatic head to identify the gastroduodenal artery, then inspects the posterior aspect to identify the common bile duct.",
+    "time_start": 117.23,
+    "time_end": 138.32,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what workflow objective best matches the sequence of evaluation in this segment?\nA. Applying color Doppler to verify adjacent vessel patency and distinguish vascular from nonvascular structures.\nB. Alternating between orthogonal planes to confirm overall organ orientation before detailed evaluation.\nC. Identifying a key vascular landmark (e.g., portal vein or IVC) to localize the organ’s head region.\nD. Distinguishing key anterior vs posterior structures adjacent to the organ’s head region",
+    "original_answer": "D",
+    "original_time_start": 117.23,
+    "original_time_end": 138.32,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The sequence first shows grayscale identification of the organ's head/uncinate region, then switches to color Doppler mode to visualize flow in adjacent structures, which is used to confirm vessel patency and distinguish vascular (colored flow signal) from nonvascular structures in the area.",
+      "latency_ms": 62331.287145614624,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe maneuver is performed after identifying a tubular target, and what is the purpose?\nA. Slide the probe to center an adjacent artery/vein to use as a landmark for orientation before further evaluation.\nB. Apply graded compression over the structure to assess compressibility and tenderness at the point of maximal pain.\nC. Rotating to align long-axis with the tube to elongate it and follow its course\nD. Turn on color Doppler while keeping the same plane to confirm whether the tubular structure is vascular.",
+    "answer": "C",
+    "groundtruth": "After finding the common bile duct, the operator rotates the probe to be sagittal relative to the duct, elongating it to trace its course toward the liver.",
+    "time_start": 138.34,
+    "time_end": 153.91,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe maneuver is performed after identifying a tubular target, and what is the purpose?\nA. Rotating to align long-axis with the tube to elongate it and follow its course\nB. Apply graded compression over the structure to assess compressibility and tenderness at the point of maximal pain.\nC. Slide the probe to center an adjacent artery/vein to use as a landmark for orientation before further evaluation.\nD. Turn on color Doppler while keeping the same plane to confirm whether the tubular structure is vascular.",
+    "original_answer": "A",
+    "original_time_start": 138.34,
+    "original_time_end": 153.91,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The tubular structure is first seen in short-axis (target) cross-sectional view, then the probe is rotated to align with the long axis of the structure. This rotation elongates the tubular structure, allowing the operator to visualize and follow its full course for further assessment.",
+      "latency_ms": 88264.1589641571,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what major plane change is being performed, and what does it accomplish?\nA. Fanning/rocking the probe to sweep through the organ while staying in the same imaging plane to survey its extent.\nB. Sliding (translating) the probe to a neighboring window to reacquire the organ without changing the imaging plane.\nC. A 90° rotation to obtain short-axis (transverse) images of the organ\nD. Angling/heel-toeing the probe to align with the organ’s true long axis and minimize foreshortening.",
+    "answer": "C",
+    "groundtruth": "The operator rotates the probe 90 degrees into a sagittal plane relative to the patient’s body to obtain transverse (short-axis) images of the pancreas.",
+    "time_start": 156.2,
+    "time_end": 170.91,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what major plane change is being performed, and what does it accomplish?\nA. Angling/heel-toeing the probe to align with the organ’s true long axis and minimize foreshortening.\nB. A 90° rotation to obtain short-axis (transverse) images of the organ\nC. Fanning/rocking the probe to sweep through the organ while staying in the same imaging plane to survey its extent.\nD. Sliding (translating) the probe to a neighboring window to reacquire the organ without changing the imaging plane.",
+    "original_answer": "B",
+    "original_time_start": 156.2,
+    "original_time_end": 170.91,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe observed probe movement is fanning/rocking: the probe is tilted back and forth to sweep the ultrasound beam through the organ while maintaining the same imaging plane orientation, allowing full survey of the organ's extent. The other options are incorrect: there is no sliding of the probe to a new window, no 90° rotation to switch to short axis, and no heel-toe angling performed to align specifically to the organ's long axis.",
+      "latency_ms": 222702.67701148987,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which posterior landmark is being used to confirm where the operator is within the organ during the transverse sweep?\nA. Inferior vena cava\nB. Splenic vein\nC. Vertebral body (spine)\nD. Aorta",
+    "answer": "D",
+    "groundtruth": "The operator identifies the aorta posterior to the pancreas to confirm they are imaging the pancreatic body based on expected anatomic relationships.",
+    "time_start": 185.64,
+    "time_end": 194.31,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, which posterior landmark is being used to confirm where the operator is within the organ during the transverse sweep?\nA. Aorta\nB. Inferior vena cava\nC. Splenic vein\nD. Vertebral body (spine)",
+    "original_answer": "A",
+    "original_time_start": 185.64,
+    "original_time_end": 194.31,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe vertebral body (spine) is the most posterior structure among the options, appearing as a hyperechoic (bright) posterior landmark with associated acoustic shadowing, which serves as the consistent posterior reference to confirm position during the transverse abdominal sweep. The other options (IVC, splenic vein, aorta) are located anterior to the vertebral body, so they are not the posterior landmark.",
+      "latency_ms": 155927.03795433044,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what landmark is sought after sweeping toward the patient’s right, and why is it being used?\nA. Umbilical vein/portal sinus to confirm you are at the standard transverse abdominal plane used for abdominal circumference measurement.\nB. Descending aorta to confirm you are in the upper abdomen and establish fetal left–right orientation.\nC. Inferior vena cava to confirm proximity to the head region\nD. Stomach bubble to verify normal situs and ensure you are scanning at the abdominal level rather than the thorax.",
+    "answer": "C",
+    "groundtruth": "The operator sweeps toward the patient’s right until the inferior vena cava is visualized, using it as a landmark to confirm location in or near the pancreatic head region.",
+    "time_start": 195.31,
+    "time_end": 206.96,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what landmark is sought after sweeping toward the patient’s right, and why is it being used?\nA. Descending aorta to confirm you are in the upper abdomen and establish fetal left–right orientation.\nB. Stomach bubble to verify normal situs and ensure you are scanning at the abdominal level rather than the thorax.\nC. Inferior vena cava to confirm proximity to the head region\nD. Umbilical vein/portal sinus to confirm you are at the standard transverse abdominal plane used for abdominal circumference measurement.",
+    "original_answer": "C",
+    "original_time_start": 195.31,
+    "original_time_end": 206.96,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nThe stomach bubble is located in the fetal left upper abdomen, which corresponds to the maternal right in standard cephalic presentation. Visualizing this landmark confirms the scan is being performed at the abdominal level (no stomach is present in the thorax) and verifies normal fetal situs, as the stomach should be positioned on the fetal left side.",
+      "latency_ms": 94573.40812683105,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

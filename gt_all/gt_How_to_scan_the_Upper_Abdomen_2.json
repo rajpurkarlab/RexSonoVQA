@@ -1,0 +1,44 @@
+[
+  {
+    "start": 0.67,
+    "end": 5.02,
+    "action": "Initiate scanning of the liver using an intercostal approach.",
+    "interpretation": "Change the scanning window to view the liver through the rib spaces."
+  },
+  {
+    "start": 5.64,
+    "end": 13.35,
+    "action": "Assess the superficial liver parenchyma via the intercostal window.",
+    "interpretation": "Observe that liver anatomy previously located in the far field (during subcostal scanning) is now visualized in the near field."
+  },
+  {
+    "start": 13.45,
+    "end": 20.07,
+    "action": "Slide the probe superiorly and inferiorly, moving up and down between the rib spaces.",
+    "interpretation": "Utilize this different angle to visualize the actual liver parenchyma, avoiding rib shadows."
+  },
+  {
+    "start": 20.31,
+    "end": 30.84,
+    "action": "Continue sliding the probe up and down through various rib spaces until the kidney is visualized.",
+    "interpretation": "Identify the right kidney as it comes into view during the intercostal sweep."
+  },
+  {
+    "start": 32.08,
+    "end": 35.13,
+    "action": "Focus on the right kidney structure.",
+    "interpretation": "Confirm that the kidney appears grossly normal."
+  },
+  {
+    "start": 36.15,
+    "end": 48.24,
+    "action": "Compare the echogenicity of the renal cortex to the adjacent liver parenchyma.",
+    "interpretation": "Assess the hepato-renal interface. Verify that the kidney is slightly darker (hypoechoic) or isoechoic ('just the same') relative to the liver."
+  },
+  {
+    "start": 51.78,
+    "end": 75.56,
+    "action": "Rotate the probe to a transverse orientation while intercostal. Subsequently, transition to scanning the right kidney in the supine position.",
+    "interpretation": "Inspect the liver in transverse to detect potential masses missed in other views. Re-evaluate the right kidney in the supine position to confirm it remains grossly normal."
+  }
+]

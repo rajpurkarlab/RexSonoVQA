@@ -1,0 +1,86 @@
+[
+  {
+    "start": 0.11,
+    "end": 5.46,
+    "action": "Place probe to obtain an initial view. Verify orientation relative to the bony landmarks.",
+    "interpretation": "Recognize the hyperechoic bone interface. Determine correct probe orientation on the screen."
+  },
+  {
+    "start": 5.47,
+    "end": 10.52,
+    "action": "Slide the probe distally (down). Center the view over the joint space.",
+    "interpretation": "Utilize the joint space as the primary reference point for the scan."
+  },
+  {
+    "start": 10.92,
+    "end": 14.12,
+    "action": "Hold position over the joint space to define anatomical laterality.",
+    "interpretation": "Identify the Femur located to the left of the screen and the Tibia located to the right."
+  },
+  {
+    "start": 14.7,
+    "end": 20.89,
+    "action": "Focus on the tissue spanning the joint space.",
+    "interpretation": "Identify the Medial Collateral Ligament (MCL) as the \"bright tissue\" laying across the joint. Note that the ligament appears \"super bright.\""
+  },
+  {
+    "start": 21.25,
+    "end": 26.99,
+    "action": "Inspect the space deep to the MCL.",
+    "interpretation": "Visualize the \"shadowing\" or \"shading\" of the meniscus located directly underneath the MCL."
+  },
+  {
+    "start": 27.51,
+    "end": 35.72,
+    "action": "Scan the medial side of the knee specifically.",
+    "interpretation": "Assess this location for intraarticular fluid, correlating with the clinical \"brush test.\""
+  },
+  {
+    "start": 36.16,
+    "end": 45.66,
+    "action": "Trace the MCL structure distally along the tibia.",
+    "interpretation": "Visualize the MCL as a \"broad, flat band\" of bright tissue overlying the tibia."
+  },
+  {
+    "start": 45.7,
+    "end": 51.88,
+    "action": "Scan the probe posteriorly along the MCL.",
+    "interpretation": "Assess the posterior fibers of the ligament to cover the breadth of the band."
+  },
+  {
+    "start": 51.94,
+    "end": 60.41,
+    "action": "Scan the probe superiorly along the MCL.",
+    "interpretation": "Inspect the fibers for any \"break,\" \"tearing,\" or a \"loss of those tight striations\" indicating pathology."
+  },
+  {
+    "start": 60.8,
+    "end": 81.03,
+    "action": "Position probe over the joint space for dynamic assessment. Instruct patient: 'Extend your knee slowly.'",
+    "interpretation": "Look for a \"little pocket of fluid\" to push or bubble out from the joint space during movement."
+  },
+  {
+    "start": 82.94,
+    "end": 91.99,
+    "action": "Observe the fluid dynamics during the extension maneuver.",
+    "interpretation": "Confirm intra-capsular pathology if fluid bubbles out. Distinguish this from interstitial swelling outside the capsule, which \"will not move around at all.\""
+  },
+  {
+    "start": 92.67,
+    "end": 97.64,
+    "action": "Re-acquire the standard view of the medial compartment.",
+    "interpretation": "Visualize the MCL, the joint space, and the medial meniscus."
+  },
+  {
+    "start": 100.16,
+    "end": 105.86,
+    "action": "Trace the anatomy distally, right to the edge of the tibial tuberosity.",
+    "interpretation": "Follow the structure down onto the tibia."
+  },
+  {
+    "start": 106.54,
+    "end": 113.28,
+    "action": "Inspect the distinct structures overlying the tibia at this distal level.",
+    "interpretation": "Identify \"those tendons\" appearing as \"bright tissue\" on top of the tibia."
+  }
+]

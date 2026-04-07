@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[MCQ] Based on the video, what optimization strategy is being demonstrated to improve the clarity of the cardiac view, and what is the primary reason for using it?\nA. Rotating the probe about 90\u00b0 to obtain an orthogonal view to confirm anatomy and reduce foreshortening of the cardiac chambers\nB. Rocking/tilting the probe (heel-toe) to align the ultrasound beam more perpendicular to the heart to reduce dropout and improve endocardial definition\nC. Increasing overall gain and adjusting time-gain compensation to brighten deeper structures and better visualize the posterior myocardium\nD. Sliding the probe along a line of adjacent interspaces to find a clearer acoustic window that avoids intervening aerated tissue",
+    "answer": "D",
+    "groundtruth": "With the probe angle held steady, the operator slides up and down the left sternal border to \u201cwindow shop,\u201d seeking the position where the heart appears brightest by finding an acoustic window through/around lung interference.",
+    "time_start": 8.57,
+    "time_end": 18.79,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video, what optimization strategy is being demonstrated to improve the clarity of the cardiac view, and what is the primary reason for using it?\nA. Rocking/tilting the probe (heel-toe) to align the ultrasound beam more perpendicular to the heart to reduce dropout and improve endocardial definition\nB. Rotating the probe about 90\u00b0 to obtain an orthogonal view to confirm anatomy and reduce foreshortening of the cardiac chambers\nC. Sliding the probe along a line of adjacent interspaces to find a clearer acoustic window that avoids intervening aerated tissue\nD. Increasing overall gain and adjusting time-gain compensation to brighten deeper structures and better visualize the posterior myocardium",
+    "original_answer": "C",
+    "original_time_start": 8.57,
+    "original_time_end": 18.79,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe video shows the probe being rocked/tilted (heel-toe movement) which changes the angle of the ultrasound beam relative to the cardiac structures. Aligning the beam more perpendicular to the myocardial walls improves the amount of ultrasound reflected back to the probe, reducing signal dropout and making endocardial borders much clearer to visualize for assessment of chamber size and wall motion.",
+      "latency_ms": 153492.68198013306,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 10.219999999999999
+  },
+  {
+    "question": "[MCQ] Based on the video, which probe adjustment is performed to optimize the apparent size/geometry of the main ventricular cavity, and why?\nA. Sliding to an adjacent intercostal space to obtain a clearer acoustic window with less lung interference.\nB. Rotation, to align the imaging plane so the ventricle is not artificially \u201ccut short\u201d\nC. Adjusting imaging depth/zoom to make the ventricle occupy more of the screen for easier measurement, without correcting foreshortening.\nD. Tilting/rocking the probe to center the ventricle and improve endocardial border definition without changing the imaging plane.",
+    "answer": "B",
+    "groundtruth": "The operator rotates the transducer to adjust the view so the ventricle opens to its widest true dimension, avoiding an artificially shortened (foreshortened) appearance.",
+    "time_start": 33.99,
+    "time_end": 41.95,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video, which probe adjustment is performed to optimize the apparent size/geometry of the main ventricular cavity, and why?\nA. Adjusting imaging depth/zoom to make the ventricle occupy more of the screen for easier measurement, without correcting foreshortening.\nB. Rotation, to align the imaging plane so the ventricle is not artificially \u201ccut short\u201d\nC. Tilting/rocking the probe to center the ventricle and improve endocardial border definition without changing the imaging plane.\nD. Sliding to an adjacent intercostal space to obtain a clearer acoustic window with less lung interference.",
+    "original_answer": "B",
+    "original_time_start": 33.99,
+    "original_time_end": 41.95,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe probe is rotated to adjust the orientation of the 2D imaging plane. This aligns the plane properly with the ventricular cavity to eliminate artificial foreshortening (where the ventricle appears incorrectly \"cut short\" and smaller/geometrically distorted relative to its true shape), optimizing the view of the cavity.",
+      "latency_ms": 208564.02206420898,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.960000000000001
+  },
+  {
+    "question": "[MCQ] Based on the video, the operator shifts attention to the deeper/posterior field. What is the main goal of this deeper survey in this view?\nA. Optimize visualization of the left ventricular posterior wall and mitral inflow region for functional assessment.\nB. Evaluate the diaphragm and dependent pleural space posterior to the heart for a pleural effusion.\nC. Bring posterior cardiac/outflow-related structures into view, including the outflow region, a posterior chamber, and a posterior vessel behind a bright boundary\nD. Assess for a posterior pericardial effusion by bringing the pericardial space into clearer view.",
+    "answer": "C",
+    "groundtruth": "The operator examines deeper/posterior structures to visualize the outflow tract and posterior anatomy, including the left atrium and the descending thoracic aorta behind the bright pericardium.",
+    "time_start": 58.09,
+    "time_end": 64.59,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video, the operator shifts attention to the deeper/posterior field. What is the main goal of this deeper survey in this view?\nA. Optimize visualization of the left ventricular posterior wall and mitral inflow region for functional assessment.\nB. Bring posterior cardiac/outflow-related structures into view, including the outflow region, a posterior chamber, and a posterior vessel behind a bright boundary\nC. Assess for a posterior pericardial effusion by bringing the pericardial space into clearer view.\nD. Evaluate the diaphragm and dependent pleural space posterior to the heart for a pleural effusion.",
+    "original_answer": "B",
+    "original_time_start": 58.09,
+    "original_time_end": 64.59,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The depth adjustment to the posterior/deeper field in this cardiac view is aimed at visualizing posterior cardiac and associated outflow/vascular structures. This includes the posterior cardiac chamber (left atrium), outflow-related structures, and the posterior vessel (descending aorta) that sits behind the bright echogenic pericardial boundary, which are all visible as depth is increased. The other options are incorrect: functional assessment (A) would require Doppler or other adjustments not seen here, pleural space/diaphragm evaluation (B) targets extra-cardiac pleural regions not visualized in this survey, and posterior pericardial effusion assessment (D) would focus on the pericardial space adjacent to the heart rather than the deeper structures shown.",
+      "latency_ms": 236328.96065711975,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.5
+  },
+  {
+    "question": "[MCQ] Based on the video, which standard parasternal view is the operator transitioning into by a simple rotational adjustment from the current window?\nA. Parasternal long-axis view\nB. Parasternal short-axis view\nC. Parasternal right ventricular inflow view\nD. Parasternal right ventricular outflow (pulmonary artery) view",
+    "answer": "B",
+    "groundtruth": "From the established parasternal window, the operator performs a simple rotation toward the patient\u2019s left shoulder to transition from a parasternal long-axis view to a parasternal short-axis view.",
+    "time_start": 66.23,
+    "time_end": 73.57,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video, which standard parasternal view is the operator transitioning into by a simple rotational adjustment from the current window?\nA. Parasternal right ventricular inflow view\nB. Parasternal short-axis view\nC. Parasternal long-axis view\nD. Parasternal right ventricular outflow (pulmonary artery) view",
+    "original_answer": "B",
+    "original_time_start": 66.23,
+    "original_time_end": 73.57,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThe initial view is the parasternal long-axis view, and a simple 90-degree clockwise rotational adjustment of the probe from this parasternal window produces the parasternal short-axis view. The other listed parasternal views (RV inflow, RV outflow) require probe angulation/tilt rather than just rotational adjustment, and the long-axis view is the starting view here, not the target of the transition.",
+      "latency_ms": 256112.36596107483,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.339999999999989
+  },
+  {
+    "question": "[MCQ] Based on the video, what adjustment is made to move to the target mid-ventricular level, and what quality criterion is being sought at that level?\nA. Rotating the transducer to reorient the short-axis plane, aiming to visualize the mitral valve \u201cfish\u2011mouth\u201d at the basal level.\nB. Sliding the probe toward the apex, aiming to see the LV cavity taper without papillary muscles at the apical short\u2011axis level.\nC. Sliding the probe to a new level, aiming for a round, symmetric cavity with balanced contraction\nD. Tilting (fanning) the probe inferiorly to avoid foreshortening, aiming for clear apical endocardial definition rather than mid\u2011ventricular symmetry.",
+    "answer": "C",
+    "groundtruth": "The operator slowly slides the transducer toward the ventricle to reach the ideal mid-ventricular short-axis level, seeking a round left ventricle with symmetric squeezing.",
+    "time_start": 87.64,
+    "time_end": 97.82,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video, what adjustment is made to move to the target mid-ventricular level, and what quality criterion is being sought at that level?\nA. Tilting (fanning) the probe inferiorly to avoid foreshortening, aiming for clear apical endocardial definition rather than mid\u2011ventricular symmetry.\nB. Sliding the probe toward the apex, aiming to see the LV cavity taper without papillary muscles at the apical short\u2011axis level.\nC. Sliding the probe to a new level, aiming for a round, symmetric cavity with balanced contraction\nD. Rotating the transducer to reorient the short-axis plane, aiming to visualize the mitral valve \u201cfish\u2011mouth\u201d at the basal level.",
+    "original_answer": "C",
+    "original_time_start": 87.64,
+    "original_time_end": 97.82,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video shows a left ventricular short-axis view: to reach the mid-ventricular level, the probe is slid to the correct imaging plane, and the expected quality criterion at this level is a round, symmetric left ventricular cavity with balanced, symmetric contraction of the myocardial walls, plus visible papillary muscles consistent with this level. The other options describe incorrect levels (basal, apical) or incorrect quality endpoints for mid-ventricular imaging.",
+      "latency_ms": 428866.93501472473,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.179999999999993
+  }
+]

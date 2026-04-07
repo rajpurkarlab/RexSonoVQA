@@ -1,0 +1,170 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what early workflow step is being performed, and what key readiness check is being made to guide whether image quality will be adequate for the rest of the scan?",
+    "answer": "The operator begins with an initial long-axis survey and then sweeps inferiorly to evaluate whether the acoustic window is adequate by checking pelvic fluid status (bladder volume). This helps determine if visualization of deeper pelvic structures will be limited.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator establishes a sagittal plane and then scans inferiorly to evaluate bladder volume, noting it is not full and that this limits the acoustic window while still attempting to visualize the lower pelvic structures.",
+    "time_start": 0.15,
+    "time_end": 12.12,
+    "model_prediction": "Based on the visual evidence, the early workflow step being performed is the **bladder fill check** (or assessing bladder distension). The key readiness check is determining if the bladder is sufficiently full to act as an acoustic window, which pushes bowel gas out of the way and allows for clear visualization of pelvic structures like the uterus behind it. In the clip, the probe is placed, and a fluid-filled (anechoic) structure—the bladder—comes into view, confirming an adequate acoustic window.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the early workflow step being performed is the **bladder fill check** (or assessing bladder distension). The key readiness check is determining if the bladder is sufficiently full to act as an acoustic window, which pushes bowel gas out of the way and allows for clear visualization of pelvic structures like the uterus behind it. In the clip, the probe is placed, and a fluid-filled (anechoic) structure—the bladder—comes into view, confirming an adequate acoustic window.",
+      "latency_ms": 6387.14599609375,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 11.969999999999999,
+    "judge_explanation": "The AI correctly identifies the workflow step as checking the bladder fill/volume to ensure an adequate acoustic window, which matches the ground truth's description of evaluating the acoustic window via pelvic fluid status.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what centering/alignment maneuver is being done, and what diagnostic confirmation is it intended to achieve at this point in the exam?",
+    "answer": "The probe is aligned to the midline target so the gestation can be centered in view. The goal is to confirm the pregnancy is located within the expected intra-pelvic organ (intrauterine) rather than elsewhere.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator orients the probe midline on the uterus to confirm the pregnancy is intrauterine.",
+    "time_start": 13.44,
+    "time_end": 18.2,
+    "model_prediction": "Based on the video, the clinician is fanning the probe to center the gestational sac and locate the yolk sac or fetal pole within the uterus. This maneuver is intended to confirm an intrauterine pregnancy by visualizing definitive structures (like a yolk sac or fetal pole) within the gestational sac.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is fanning the probe to center the gestational sac and locate the yolk sac or fetal pole within the uterus. This maneuver is intended to confirm an intrauterine pregnancy by visualizing definitive structures (like a yolk sac or fetal pole) within the gestational sac.",
+      "latency_ms": 5317.025184631348,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.76,
+    "judge_explanation": "The AI correctly identifies the maneuver as centering the view (specifically mentioning fanning) and correctly identifies the diagnostic goal as confirming an intrauterine pregnancy. The AI adds specific details about visualizing the yolk sac or fetal pole, which aligns with the clinical process of confirming an IUP, matching the intent of the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on this segment of the video, what phase of the exam is the operator completing before changing probe orientation, and what overall information is being verified by the repeated sweeps?",
+    "answer": "They are completing the initial targeted survey to localize the gestation and assess the overall intra-pelvic environment. The repeated sweeps are used to confirm a single intrauterine pregnancy and screen for more than one fetus.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator centers midline to confirm the pregnancy is intrauterine, then scans back and forth and continues sweeping to obtain an overall uterine view and confirm there is only one fetus.",
+    "time_start": 13.44,
+    "time_end": 31.0,
+    "model_prediction": "Based on the video, the operator is completing a **transverse sweep through the uterus** before changing orientation. The repeated sweeps verify the presence of an **intrauterine pregnancy (IUP)** by visualizing the gestational sac, yolk sac, and fetal pole within the endometrial cavity, surrounded by myometrium.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is completing a **transverse sweep through the uterus** before changing orientation. The repeated sweeps verify the presence of an **intrauterine pregnancy (IUP)** by visualizing the gestational sac, yolk sac, and fetal pole within the endometrial cavity, surrounded by myometrium.",
+      "latency_ms": 5329.8659324646,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 17.560000000000002,
+    "judge_explanation": "The AI correctly identifies the operator's action (transverse sweep) and the primary clinical objective (verifying the presence of an intrauterine pregnancy). Although the ground truth explicitly mentions screening for multiple fetuses as a reason for the repeated sweeps, the AI's answer regarding verifying the IUP and visualizing the gestational components is clinically accurate and aligns with the visual evidence.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what “start-low” positioning strategy is used in this plane, and what is the purpose of first identifying a consistent landmark before moving on?",
+    "answer": "The probe is positioned very low to pick up a consistent anterior pelvic landmark as the starting reference. This establishes orientation and a baseline field of view before sweeping to higher targets.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In the transverse plane, the operator scans low in the pelvis with the probe positioned just behind the pubic bone to identify the bladder posterior to it.",
+    "time_start": 40.39,
+    "time_end": 45.29,
+    "model_prediction": "Based on the video, the \"start-low\" strategy involves placing the probe initially in the transverse plane just superior to the pubic symphysis. This positioning allows the clinician to first identify the bladder as an acoustic window and landmark before sliding or angling the probe cephalad (upwards) to visualize the uterus and surrounding pelvic structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the \"start-low\" strategy involves placing the probe initially in the transverse plane just superior to the pubic symphysis. This positioning allows the clinician to first identify the bladder as an acoustic window and landmark before sliding or angling the probe cephalad (upwards) to visualize the uterus and surrounding pelvic structures.",
+      "latency_ms": 5516.538858413696,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.899999999999999,
+    "judge_explanation": "The AI correctly identifies the specific anatomical implementation of the 'start-low' strategy described in the ground truth. It correctly identifies the bladder as the consistent landmark (which is the standard anterior pelvic landmark used in this context) and explains the purpose of using it as a reference/acoustic window before moving to other structures, aligning perfectly with the ground truth's description of establishing orientation before sweeping higher.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what directional targeting maneuver is shown, and what is the clinical objective of scanning that side region during this exam?",
+    "answer": "The operator angles/directs the beam toward one lateral side of the pelvis to interrogate the adnexal region. The objective is to identify the ovary and assess for expected associated findings such as a corpus luteum cyst.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator directs the beam toward the right adnexa to visualize the right ovary and identify a possible corpus luteum cyst.",
+    "time_start": 50.57,
+    "time_end": 55.02,
+    "model_prediction": "Based on the video, the directional maneuver shown is a **lateral sweep** or fanning of the probe towards the patient's right side (viewer's left).\n\nThe clinical objective of scanning this side region during an early pregnancy exam is to visualize the **adnexa** to evaluate the ovaries and check for any adnexal masses or an ectopic pregnancy. The video starts centered on the uterus with a gestational sac and then sweeps laterally to inspect the adjacent structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the directional maneuver shown is a **lateral sweep** or fanning of the probe towards the patient's right side (viewer's left).\n\nThe clinical objective of scanning this side region during an early pregnancy exam is to visualize the **adnexa** to evaluate the ovaries and check for any adnexal masses or an ectopic pregnancy. The video starts centered on the uterus with a gestational sac and then sweeps laterally to inspect the adjacent structures.",
+      "latency_ms": 5780.855178833008,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 4.450000000000003,
+    "judge_explanation": "The AI correctly identifies the maneuver as a lateral sweep or angling of the beam and correctly states the clinical objective is to visualize the adnexa and ovaries. This aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what is the operator doing with the sweep direction at this point, and what specific confirmation is the sweep intended to provide?",
+    "answer": "They are sweeping superiorly through the full extent of the pelvis. The purpose is to confirm definitively that there is only one fetus present.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans superiorly through the extent of the pelvis to confirm definitively that only one baby is present.",
+    "time_start": 56.62,
+    "time_end": 63.19,
+    "model_prediction": "Based on the video clip, the operator is fanning or sweeping completely through the uterus in a transverse plane, moving from the fundus down to the cervix (or vice versa). This sweeping motion is intended to confirm that the gestational sac is located centrally within the uterus (specifically within the endometrial cavity) and is surrounded by myometrium on all sides, helping to rule out an interstitial or cornual ectopic pregnancy.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is fanning or sweeping completely through the uterus in a transverse plane, moving from the fundus down to the cervix (or vice versa). This sweeping motion is intended to confirm that the gestational sac is located centrally within the uterus (specifically within the endometrial cavity) and is surrounded by myometrium on all sides, helping to rule out an interstitial or cornual ectopic pregnancy.",
+      "latency_ms": 5820.544004440308,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 6.57,
+    "judge_explanation": "The AI correctly identifies the visual action of sweeping through the uterus. However, it incorrectly identifies the specific clinical purpose of this maneuver. The Ground Truth states the purpose is to confirm the presence of a single fetus, whereas the AI claims it is to confirm the central location of the sac and rule out ectopic pregnancy.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, a small internal structure is subtle and may not appear in every single slice. What technique is used to find/confirm it, and what is the clinical purpose of confirming it at this stage?",
+    "answer": "The operator sweeps systematically through the gestational sac to capture the feature in multiple adjacent planes. This confirms the presence and normal appearance of an expected early pregnancy structure (the yolk sac).",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps through the gestational sac to visualize a tiny yolk sac and confirm the appearance is normal for this stage of pregnancy.",
+    "time_start": 91.34,
+    "time_end": 101.88,
+    "model_prediction": "Based on the video, the technique used is **fanning** (slowly sweeping the probe back and forth), which allows the clinician to visualize the gestational sac in multiple planes to locate the subtle **yolk sac**. Confirming the presence of a yolk sac within the gestational sac is clinically important at this stage because it definitively confirms an intrauterine pregnancy (IUP) and rules out an ectopic pregnancy or a \"pseudogestational sac.\"",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the technique used is **fanning** (slowly sweeping the probe back and forth), which allows the clinician to visualize the gestational sac in multiple planes to locate the subtle **yolk sac**. Confirming the presence of a yolk sac within the gestational sac is clinically important at this stage because it definitively confirms an intrauterine pregnancy (IUP) and rules out an ectopic pregnancy or a \"pseudogestational sac.\"",
+      "latency_ms": 6103.624105453491,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 10.539999999999992,
+    "judge_explanation": "The AI correctly identifies the technique (fanning/sweeping) and the structure (yolk sac). It also correctly explains the clinical significance (confirming an intrauterine pregnancy), which aligns with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on this later segment of the video, what assessment phase is underway, and what are the key confirmations being pursued in sequence?",
+    "answer": "This is the detailed early embryo/gestational sac assessment phase. The operator identifies the embryo and its orientation, confirms viability by assessing motion, then sweeps for expected small internal structures (yolk sac) and inspects for the amnion membrane.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator visualizes the fetal pole to identify embryo orientation, assesses for fetal motion to see cardiac activity, sweeps through the sac to find a tiny yolk sac and confirm normal appearance, and then inspects for the amnion membrane (which may be hard to see if fused).",
+    "time_start": 79.33,
+    "time_end": 113.28,
+    "model_prediction": "Based on the video, the assessment phase underway is the confirmation of an early intrauterine pregnancy. The key confirmations being pursued in sequence are: first, visualizing the gestational sac within the uterus to confirm location; second, identifying the yolk sac; and third, identifying the fetal pole (embryo) with cardiac activity to confirm viability.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the assessment phase underway is the confirmation of an early intrauterine pregnancy. The key confirmations being pursued in sequence are: first, visualizing the gestational sac within the uterus to confirm location; second, identifying the yolk sac; and third, identifying the fetal pole (embryo) with cardiac activity to confirm viability.",
+      "latency_ms": 5880.647897720337,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 33.95,
+    "judge_explanation": "The AI correctly identifies the assessment phase as an early pregnancy confirmation/assessment. It correctly lists the key structures to be confirmed (gestational sac, yolk sac, embryo/fetal pole) and the assessment of viability (cardiac activity/motion), which aligns closely with the ground truth. Although the AI omits the specific mention of the 'amnion membrane' and lists the sequence slightly differently (standard clinical order vs. specific video order), the core clinical content is accurate and matches the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what phase of the scan is being performed, and what is the immediate objective?\nA. Initial setup at a superior chest zone to establish a normal baseline appearance\nB. End-of-exam image capture to document representative clips and measurements for reporting\nC. Targeted reassessment of an abnormal zone to confirm persistence of B-lines and exclude probe or gain artifact\nD. Systematic sweep of the dependent posterior lung bases to look for pleural effusion or basilar consolidation",
+    "answer": "A",
+    "groundtruth": "The operator positions the probe high on the anterior/lateral thorax and holds it steady to establish a baseline view of the superior lung fields, identifying the bright superficial interface and typical horizontal reverberation pattern.",
+    "time_start": 0.41,
+    "time_end": 10.16,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what phase of the scan is being performed, and what is the immediate objective?\nA. Initial setup at a superior chest zone to establish a normal baseline appearance\nB. Targeted reassessment of an abnormal zone to confirm persistence of B-lines and exclude probe or gain artifact\nC. Systematic sweep of the dependent posterior lung bases to look for pleural effusion or basilar consolidation\nD. End-of-exam image capture to document representative clips and measurements for reporting",
+    "original_answer": "A",
+    "original_time_start": 0.41,
+    "original_time_end": 10.16,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The probe remains stationary while gain settings are adjusted (image brightness is reduced sequentially) to evaluate if hyperechoic vertical findings persist. This is done to confirm these are true B-lines rather than artifacts from excessive gain or probe contact issues, consistent with targeted reassessment of a previously noted abnormal zone.",
+      "latency_ms": 100367.38300323486,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 9.75
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe-handling approach is being used, and what pattern is the operator trying to document?\nA. Rocking/angling the probe to optimize the pleural line while looking for vertical B-lines that extend to the bottom of the screen.\nB. Switching to M-mode with the probe over the pleura to document the seashore sign consistent with lung sliding.\nC. Holding the probe steady to visualize a bright superficial interface with a repeating horizontal reverberation pattern beneath it\nD. Sweeping the probe across adjacent intercostal spaces to identify a lung point with alternating lung sliding and absent sliding.",
+    "answer": "C",
+    "groundtruth": "The probe is kept steady to clearly visualize the hyperechoic pleural line and the horizontal reverberation artifact (A-lines) deep to it.",
+    "time_start": 2.85,
+    "time_end": 10.16,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe-handling approach is being used, and what pattern is the operator trying to document?\nA. Sweeping the probe across adjacent intercostal spaces to identify a lung point with alternating lung sliding and absent sliding.\nB. Switching to M-mode with the probe over the pleura to document the seashore sign consistent with lung sliding.\nC. Rocking/angling the probe to optimize the pleural line while looking for vertical B-lines that extend to the bottom of the screen.\nD. Holding the probe steady to visualize a bright superficial interface with a repeating horizontal reverberation pattern beneath it",
+    "original_answer": "D",
+    "original_time_start": 2.85,
+    "original_time_end": 10.16,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The probe is held stationary throughout the clip, and a bright superficial (pleural) interface is visible, with repeating horizontal reverberation (A-line) artifacts beneath it, consistent with the approach described in option C. There is no probe rocking/sweeping, M-mode imaging, or vertical B lines/lung point visualized to support the other options.",
+      "latency_ms": 82972.61714935303,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.3100000000000005
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what framing/positioning adjustment is being used to optimize the window, and what is its purpose?\nA. Rocking/heel-toeing the probe to align the beam perpendicular to the target in order to reduce anisotropy and improve border definition\nB. Sliding the probe slightly laterally to move the region of interest away from near-field artifact and improve visualization\nC. Centering the view between two strong shadowing margins to use the open acoustic window\nD. Rotating the probe 90\u00b0 to obtain an orthogonal view for confirmation and measurement of the structure",
+    "answer": "C",
+    "groundtruth": "The operator identifies the lateral borders of an intercostal space by the rib acoustic shadows on each side to ensure the scan is centered in the interspace.",
+    "time_start": 12.99,
+    "time_end": 15.91,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what framing/positioning adjustment is being used to optimize the window, and what is its purpose?\nA. Centering the view between two strong shadowing margins to use the open acoustic window\nB. Sliding the probe slightly laterally to move the region of interest away from near-field artifact and improve visualization\nC. Rocking/heel-toeing the probe to align the beam perpendicular to the target in order to reduce anisotropy and improve border definition\nD. Rotating the probe 90\u00b0 to obtain an orthogonal view for confirmation and measurement of the structure",
+    "original_answer": "A",
+    "original_time_start": 12.99,
+    "original_time_end": 15.91,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows the probe being rocked (heel-toed) to adjust the beam angle relative to the target structure. This adjustment aligns the ultrasound beam perpendicular to the target, which reduces anisotropic artifact and improves visualization of the structure's borders and internal characteristics.",
+      "latency_ms": 37524.68013763428,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 2.92
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what broader task is being performed during this continuous sweep, and what normal features are being monitored?\nA. Sweeping along dependent posterior bases to identify a pleural effusion while tracking the diaphragm and spine sign\nB. Holding the probe still to obtain M-mode and confirm the seashore sign for pneumothorax exclusion\nC. Scanning multiple intercostal spaces to quantify diffuse B-lines as a marker of interstitial edema\nD. Surveying multiple thoracic zones while confirming persistent interface motion and a consistent reverberation pattern",
+    "answer": "D",
+    "groundtruth": "The operator continues scanning inferiorly and assesses for pathology while confirming normal findings, including persistent pleural motion (lung sliding) and A-line reverberation.",
+    "time_start": 17.28,
+    "time_end": 27.77,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what broader task is being performed during this continuous sweep, and what normal features are being monitored?\nA. Holding the probe still to obtain M-mode and confirm the seashore sign for pneumothorax exclusion\nB. Surveying multiple thoracic zones while confirming persistent interface motion and a consistent reverberation pattern\nC. Scanning multiple intercostal spaces to quantify diffuse B-lines as a marker of interstitial edema\nD. Sweeping along dependent posterior bases to identify a pleural effusion while tracking the diaphragm and spine sign",
+    "original_answer": "B",
+    "original_time_start": 17.28,
+    "original_time_end": 27.77,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The clip shows a sweep through thoracic regions with visible normal horizontal reverberation (A-line) patterns below the pleural interface, and tracking of pleural sliding (persistent interface motion) as the probe moves across different thoracic zones. There is no evidence of pleural effusion, B-lines, or stationary probe placement for M-mode imaging to rule out the other options.",
+      "latency_ms": 181505.9142112732,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.489999999999998
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what transition in scanning location is shown, and what is the target objective?\nA. Sliding cephalad to the mid-thorax to reacquire the pleural line and assess for lung sliding\nB. Angling the probe subcostally and aiming toward the right shoulder to obtain a cardiac subxiphoid view for pericardial effusion evaluation\nC. Shifting laterally to the mid-axillary upper quadrant to use the liver/spleen as an acoustic window for pleural effusion assessment\nD. Sliding farther downward to reach the thoracoabdominal boundary to identify the diaphragm level",
+    "answer": "D",
+    "groundtruth": "The probe is slid further downward toward the abdominal-thoracic boundary to target the diaphragm.",
+    "time_start": 28.47,
+    "time_end": 32.53,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what transition in scanning location is shown, and what is the target objective?\nA. Sliding cephalad to the mid-thorax to reacquire the pleural line and assess for lung sliding\nB. Shifting laterally to the mid-axillary upper quadrant to use the liver/spleen as an acoustic window for pleural effusion assessment\nC. Sliding farther downward to reach the thoracoabdominal boundary to identify the diaphragm level\nD. Angling the probe subcostally and aiming toward the right shoulder to obtain a cardiac subxiphoid view for pericardial effusion evaluation",
+    "original_answer": "C",
+    "original_time_start": 28.47,
+    "original_time_end": 32.53,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The clip shows the initial pleural line is lost, then the probe is moved cephalad to reacquire the pleural line, which is the standard approach to assess for lung sliding during thoracic ultrasound. Other options are ruled out as no cardiac structures, liver/spleen acoustic windows, or diaphragm are visualized to match the other described objectives.",
+      "latency_ms": 52969.571113586426,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 4.060000000000002
+  }
+]

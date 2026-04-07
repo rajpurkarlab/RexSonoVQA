@@ -1,0 +1,135 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what visual comparison is used to tell two adjacent vessels apart, and what identification ambiguity does this resolve?",
+    "answer": "They are distinguished by relative depth: the artery is the more superficial vessel and the vein lies deeper. This resolves confusion between the paired vessels when both are seen together.",
+    "groundtruth": "The operator differentiates the iliac artery and vein by depth, identifying the artery as superficial and the vein as deeper to avoid mislabeling the vascular anatomy.",
+    "time_start": 8.07,
+    "time_end": 13.86,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 8.07,
+    "original_time_end": 13.86,
+    "model_prediction": "The visual comparison used is checking for the presence of pulsation: one adjacent vessel has clear visible pulsation (tracked by the moving orange marker) while the other does not pulsate. This resolves the ambiguity of distinguishing the pulsatile carotid artery from the non-pulsatile adjacent internal jugular vein, which look nearly identical on static grayscale ultrasound, to avoid misidentifying the artery as the vein for procedures like venous access.",
+    "inference_metadata": {
+      "raw_response": "The visual comparison used is checking for the presence of pulsation: one adjacent vessel has clear visible pulsation (tracked by the moving orange marker) while the other does not pulsate. This resolves the ambiguity of distinguishing the pulsatile carotid artery from the non-pulsatile adjacent internal jugular vein, which look nearly identical on static grayscale ultrasound, to avoid misidentifying the artery as the vein for procedures like venous access.",
+      "latency_ms": 570658.1270694733,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is used to conduct the search, and what is the acquisition goal of that sweep?",
+    "answer": "The probe is swept/slid cephalad while maintaining the scanning plane to systematically survey for the target tubular structure. The goal is to locate the appendix during the upward survey from the initial landmark region.",
+    "groundtruth": "The operator sweeps up into the abdomen while scanning for the characteristic tubular morphology of the appendix.",
+    "time_start": 23.17,
+    "time_end": 33.44,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 23.17,
+    "original_time_end": 33.44,
+    "model_prediction": "The probe is translated (slid) while held in a transverse (short-axis, cross-sectional) orientation relative to the imaged vascular structure, sweeping along the long axis of the vessel.\nThe goal of this sweep is to systematically evaluate the full visible length of the vessel and adjacent soft tissues in cross-section, to identify any luminal, vessel wall, or perivascular abnormalities along the vessel's course.",
+    "inference_metadata": {
+      "raw_response": "The probe is translated (slid) while held in a transverse (short-axis, cross-sectional) orientation relative to the imaged vascular structure, sweeping along the long axis of the vessel.\nThe goal of this sweep is to systematically evaluate the full visible length of the vessel and adjacent soft tissues in cross-section, to identify any luminal, vessel wall, or perivascular abnormalities along the vessel's course.",
+      "latency_ms": 516701.1470794678,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what verification maneuver is performed to confirm the structure’s identity, and what kind of mistake does it help avoid?",
+    "answer": "The operator traces the structure along its course and checks its expected relationship to a nearby vascular landmark. This helps avoid mistaking another tubular structure for the intended target.",
+    "groundtruth": "The operator traces the identified structure to verify it crosses directly over the iliac artery, helping confirm it is the appendix rather than an alternative structure.",
+    "time_start": 37.42,
+    "time_end": 42.25,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 37.42,
+    "original_time_end": 42.25,
+    "model_prediction": "The verification maneuver shown is first tracing the wall of the round structure to confirm it has the normal multi-layered gut signature typical of bowel, followed by minor gain adjustment to confirm these layers are not imaging artifact.\nThis avoids the error of misclassifying a normal transverse cross-section of bowel as a discrete abnormal mass, such as an enlarged lymph node, solid soft tissue tumor, or abscess.",
+    "inference_metadata": {
+      "raw_response": "The verification maneuver shown is first tracing the wall of the round structure to confirm it has the normal multi-layered gut signature typical of bowel, followed by minor gain adjustment to confirm these layers are not imaging artifact.\nThis avoids the error of misclassifying a normal transverse cross-section of bowel as a discrete abnormal mass, such as an enlarged lymph node, solid soft tissue tumor, or abscess.",
+      "latency_ms": 350383.57281684875,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging assessment is being done when the operator focuses on the structure’s internal appearance, and what is the goal of this step?",
+    "answer": "They are evaluating the structure’s internal architecture to confirm it has the expected layered wall and a lumen. The goal is to support correct identification and assess for abnormal features.",
+    "groundtruth": "The operator inspects the internal architecture of the structure to see a multi-layered appearance with a lumen, supporting identification of the appendix.",
+    "time_start": 46.95,
+    "time_end": 49.39,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 46.95,
+    "original_time_end": 49.39,
+    "model_prediction": "This is a grayscale B-mode assessment of the structure's internal echotexture (echo architecture/echo pattern). The goal of this step is to characterize the structure's composition: specifically identifying if it is solid, cystic, complex, or contains features like calcifications, to determine if the structure is normal anatomy or a pathological finding, and aid in diagnosis.",
+    "inference_metadata": {
+      "raw_response": "This is a grayscale B-mode assessment of the structure's internal echotexture (echo architecture/echo pattern). The goal of this step is to characterize the structure's composition: specifically identifying if it is solid, cystic, complex, or contains features like calcifications, to determine if the structure is normal anatomy or a pathological finding, and aid in diagnosis.",
+      "latency_ms": 165574.47600364685,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the sequence of diagnostic checks performed after the structure is centered, and what overall clinical question this sequence is addressing.",
+    "answer": "They perform graded compression and then interrogate the lumen for a specific obstructing intraluminal finding and its associated acoustic effect, followed by reassessing the response to compression. Together these steps are used to decide whether the findings support or argue against appendicitis.",
+    "groundtruth": "After compressing the structure and assessing patient response, the operator examines the lumen for an appendicolith (hyperechoic focus with posterior shadowing) and then reassesses the compression response to determine whether the appendix appears normal or inflamed.",
+    "time_start": 50.31,
+    "time_end": 73.46,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 50.31,
+    "original_time_end": 73.46,
+    "model_prediction": "After the structure (a transverse cross-section of a vein) is centered, the operator performs repeated cycles of gentle probe pressure (compression) followed by pressure release, to test if the vessel fully collapses with compression.\nThis sequence is assessing for deep vein thrombosis (DVT, intraluminal venous clot): normal, non-clotted veins fully collapse under this light compression, while veins containing thrombus will not fully compress.",
+    "inference_metadata": {
+      "raw_response": "After the structure (a transverse cross-section of a vein) is centered, the operator performs repeated cycles of gentle probe pressure (compression) followed by pressure release, to test if the vessel fully collapses with compression.\nThis sequence is assessing for deep vein thrombosis (DVT, intraluminal venous clot): normal, non-clotted veins fully collapse under this light compression, while veins containing thrombus will not fully compress.",
+      "latency_ms": 329548.6342906952,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is concluded from the structure’s behavior during/after the compression test, and what does that imply diagnostically?",
+    "answer": "It behaves like a normal, compressible, non-tender structure on compression. That supports a normal appendix rather than appendicitis.",
+    "groundtruth": "The operator assesses the structure’s response to compression and notes it is normal with no tenderness, consistent with a normal appendix.",
+    "time_start": 69.47,
+    "time_end": 73.46,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 69.47,
+    "original_time_end": 73.46,
+    "model_prediction": "The imaged venous structure is non-compressible (it does not fully collapse under the applied external probe pressure during the compression test). Non-compressibility of a vein on compression ultrasound is the primary diagnostic sign confirming an intraluminal venous thrombus (deep vein thrombosis, DVT) is present at this vessel segment.",
+    "inference_metadata": {
+      "raw_response": "The imaged venous structure is non-compressible (it does not fully collapse under the applied external probe pressure during the compression test). Non-compressibility of a vein on compression ultrasound is the primary diagnostic sign confirming an intraluminal venous thrombus (deep vein thrombosis, DVT) is present at this vessel segment.",
+      "latency_ms": 142728.34086418152,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, describe the multi-step strategy used to go from “search mode” to “confirmed target,” and state the next logical step to complete the evaluation.",
+    "answer": "The operator sweeps/slides to locate a candidate structure, then stabilizes the view and traces it to confirm it fits the expected anatomic course/relationship to a landmark. The next logical step is to characterize it further (internal features) and perform functional testing (e.g., compression and luminal interrogation) to assess for inflammation.",
+    "groundtruth": "The operator sweeps cephalad to find the appendix, holds the probe when it is identified, and traces its course to verify correct identification before proceeding with detailed assessment steps.",
+    "time_start": 23.17,
+    "time_end": 42.25,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 23.17,
+    "original_time_end": 42.25,
+    "model_prediction": "### Multi-step strategy:\n1.  **Search mode**: The operator performs a continuous transverse-plane sweep of the ultrasound probe across the soft tissue field to survey for and locate the candidate target structure.\n2.  **Target confirmation**: The operator stops sweeping, centers the candidate target in the image field, holds the probe stable to confirm the structure's consistent appearance, places perimeter annotation markers (orange dots) on the target, and adjusts image gain to optimize visualization of the target's margins and internal features, confirming the correct target.\n\n### Next logical step:\nRotate the ultrasound probe 90 degrees to acquire an orthogonal (longitudinal/sagittal) view of the target, to fully characterize its 3-dimensional size, morphology, and relationship to adjacent structures for complete diagnostic evaluation.",
+    "inference_metadata": {
+      "raw_response": "### Multi-step strategy:\n1.  **Search mode**: The operator performs a continuous transverse-plane sweep of the ultrasound probe across the soft tissue field to survey for and locate the candidate target structure.\n2.  **Target confirmation**: The operator stops sweeping, centers the candidate target in the image field, holds the probe stable to confirm the structure's consistent appearance, places perimeter annotation markers (orange dots) on the target, and adjusts image gain to optimize visualization of the target's margins and internal features, confirming the correct target.\n\n### Next logical step:\nRotate the ultrasound probe 90 degrees to acquire an orthogonal (longitudinal/sagittal) view of the target, to fully characterize its 3-dimensional size, morphology, and relationship to adjacent structures for complete diagnostic evaluation.",
+      "latency_ms": 508174.49021339417,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

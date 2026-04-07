@@ -1,0 +1,128 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe placement strategy is shown, and what is the scanning goal at this point?",
+    "answer": "The probe is placed high on the anterior or lateral chest to begin at the superior lung fields. The goal is to start the exam in the upper zones before scanning downward.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator positions the probe high on the anterior or lateral thorax to initiate the exam at the superior lung fields.",
+    "time_start": 0.41,
+    "time_end": 2.83,
+    "model_prediction": "Based on the video, the probe placement strategy involves **sliding the transducer cranially (upwards) along the anterior chest wall**. The scanning goal is to locate the **pleural line and lung sliding** to assess for pneumothorax or other lung pathology. The video initially shows a deeper, less distinct view, and as the probe slides up, the bright, horizontal pleural line comes into view with characteristic A-lines (horizontal reverberation artifacts) below it.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe placement strategy involves **sliding the transducer cranially (upwards) along the anterior chest wall**. The scanning goal is to locate the **pleural line and lung sliding** to assess for pneumothorax or other lung pathology. The video initially shows a deeper, less distinct view, and as the probe slides up, the bright, horizontal pleural line comes into view with characteristic A-lines (horizontal reverberation artifacts) below it.",
+      "latency_ms": 5714.756011962891,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 2.42,
+    "judge_explanation": "The AI correctly identifies the anatomical location (anterior chest) and the structures involved (pleural line, A-lines). While the Ground Truth focuses on the procedural strategy (starting high to scan downward), the AI correctly describes the immediate action shown in the video (sliding cranially/upwards) and the clinical goal (assessing the pleural line/pneumothorax), which aligns with the context of scanning the superior lung fields.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what dynamic assessment is being performed at the superficial interface, and why is it useful?",
+    "answer": "The operator focuses on the pleural interface to look for shimmering motion consistent with lung sliding. This confirms normal pleural apposition with respiration at that location.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator concentrates on the pleural interface to observe pleural shimmering, confirming lung sliding.",
+    "time_start": 10.22,
+    "time_end": 11.95,
+    "model_prediction": "Based on the video clip, the dynamic assessment being performed is **the \"lung point\" sign**, specifically observing the transition between normal lung sliding (seen on the right side of the screen as shimmering movement at the pleural line) and the absence of sliding (seen on the left side of the screen). This is useful for **diagnosing a pneumothorax**, as the lung point represents the specific anatomical location where the collapsed lung re-contacts the chest wall.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the dynamic assessment being performed is **the \"lung point\" sign**, specifically observing the transition between normal lung sliding (seen on the right side of the screen as shimmering movement at the pleural line) and the absence of sliding (seen on the left side of the screen). This is useful for **diagnosing a pneumothorax**, as the lung point represents the specific anatomical location where the collapsed lung re-contacts the chest wall.",
+      "latency_ms": 6189.311981201172,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 1.7299999999999986,
+    "judge_explanation": "The AI incorrectly identifies the assessment as looking for a \"lung point\" to diagnose a pneumothorax and describes a transition between sliding and non-sliding. The ground truth states the assessment is simply looking for lung sliding to confirm normal pleural apposition, implying a normal finding rather than the specific pathology described by the AI.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion is being performed, and what is the imaging objective of this movement?",
+    "answer": "The probe is slid inferiorly along the thorax. The objective is to survey multiple sequential scanning windows as the operator moves down the chest.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator slides the probe inferiorly along the thorax to scan downward through multiple rib spaces.",
+    "time_start": 17.28,
+    "time_end": 22.77,
+    "model_prediction": "Based on the video clip, the probe motion being performed is **fanning** (or tilting). The imaging objective is to sweep the ultrasound beam through the lung volume to visualize the extent of **B-lines** (vertical hyperechoic artifacts), which indicate interstitial syndrome or pulmonary edema. The fanning motion helps differentiate true B-lines from other artifacts and assesses their distribution.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe motion being performed is **fanning** (or tilting). The imaging objective is to sweep the ultrasound beam through the lung volume to visualize the extent of **B-lines** (vertical hyperechoic artifacts), which indicate interstitial syndrome or pulmonary edema. The fanning motion helps differentiate true B-lines from other artifacts and assesses their distribution.",
+      "latency_ms": 6448.978900909424,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.489999999999998,
+    "judge_explanation": "The AI incorrectly identifies the probe motion as 'fanning' instead of 'sliding inferiorly' as stated in the ground truth. Consequently, the described objective (sweeping the beam) does not match the ground truth objective (surveying sequential scanning windows).",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow step is being performed after reaching the lower chest, and what is the purpose of acquiring this adjacent abdominal window?",
+    "answer": "The operator acquires a left upper abdominal window to bring in clear landmarks that define the diaphragm and nearby structures. This supports assessment of the lung base region by confirming the correct boundary and orientation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After sliding down toward the diaphragm, the operator obtains a left upper quadrant view to visualize key landmarks (spleen, diaphragm, kidney, and spine) for orientation at the thoracoabdominal interface.",
+    "time_start": 28.47,
+    "time_end": 41.57,
+    "model_prediction": "Based on the video, the operator is performing a \"curtain sign\" assessment by sliding the probe from the lower chest into the upper abdomen to visualize the transition between the aerated lung and the abdominal organs (liver/spleen). This workflow step is used to rule out pleural effusion or thoracic pathology by demonstrating the diaphragm moving and the lung \"curtaining\" over the abdominal viscera during inspiration.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a \"curtain sign\" assessment by sliding the probe from the lower chest into the upper abdomen to visualize the transition between the aerated lung and the abdominal organs (liver/spleen). This workflow step is used to rule out pleural effusion or thoracic pathology by demonstrating the diaphragm moving and the lung \"curtaining\" over the abdominal viscera during inspiration.",
+      "latency_ms": 11585.843324661255,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.100000000000001,
+    "judge_explanation": "The AI correctly identifies the workflow step as moving the probe to the upper abdomen to visualize the interface between the lung and abdominal organs. Its explanation of the 'curtain sign' and the goal of ruling out pleural effusion/assessing the lung base aligns perfectly with the ground truth's description of acquiring an abdominal window to define the diaphragm and support lung base assessment.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what verification maneuver is performed to confirm the correct boundary, and what normal endpoint is expected?",
+    "answer": "The operator traces the bright posterior spinal line and confirms it terminates at the diaphragm. The expected normal endpoint is that this line stops at the diaphragm rather than extending above it.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator traces the hyperechoic spine line to verify that visualization of the spine ends at the diaphragm.",
+    "time_start": 41.61,
+    "time_end": 44.73,
+    "model_prediction": "Based on the video clip, the verification maneuver performed is sliding the ultrasound probe superiorly (cephalad) to visualize the **supradiaphragmatic space**. The normal endpoint expected is the visualization of **mirror image artifact** of the spleen (or liver) above the diaphragm, which confirms the absence of pleural effusion or pathology in the thoracic cavity at that level.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the verification maneuver performed is sliding the ultrasound probe superiorly (cephalad) to visualize the **supradiaphragmatic space**. The normal endpoint expected is the visualization of **mirror image artifact** of the spleen (or liver) above the diaphragm, which confirms the absence of pleural effusion or pathology in the thoracic cavity at that level.",
+      "latency_ms": 6267.228126525879,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.1199999999999974,
+    "judge_explanation": "The AI fails to identify the specific maneuver and feature described in the ground truth. The ground truth explicitly states the maneuver is tracing the 'posterior spinal line' to confirm it 'terminates at the diaphragm'. The AI instead describes looking for a 'mirror image artifact'. While both are signs of a normal lung interface, the AI missed the specific visual feature (spinal line) and the specific endpoint (termination of the line) required by the question and ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what artifact-based normal sign is being assessed above the boundary, and what does it indicate about the region being scanned?",
+    "answer": "They assess that the spine stops at the diaphragm and note a mirror-image artifact above the diaphragm. This normal pattern indicates the region above is air-filled lung rather than fluid-filled.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator assesses the area superior to the diaphragm, confirming the spine stops at the diaphragm (a normal sign) and observing a mirror image artifact, indicating air-filled lung in that area.",
+    "time_start": 44.74,
+    "time_end": 54.77,
+    "model_prediction": "Based on the video clip, the **curtain sign** is being assessed above the diaphragm boundary. This sign is characterized by the aerated lung moving inferiorly during inspiration, obscuring the underlying abdominal viscera (in this case, the liver) like a curtain being drawn, indicating normal lung sliding and the absence of a pneumothorax or pleural effusion at that location.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the **curtain sign** is being assessed above the diaphragm boundary. This sign is characterized by the aerated lung moving inferiorly during inspiration, obscuring the underlying abdominal viscera (in this case, the liver) like a curtain being drawn, indicating normal lung sliding and the absence of a pneumothorax or pleural effusion at that location.",
+      "latency_ms": 7166.312217712402,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 10.030000000000001,
+    "judge_explanation": "The AI correctly concludes that the findings indicate normal aerated lung and the absence of pleural effusion. However, the AI identifies the 'curtain sign' (dynamic movement) as the artifact, whereas the ground truth specifically identifies the 'mirror-image artifact' and the visual feature of the spine stopping at the diaphragm. While both signs appear in this anatomical region to indicate normal lung, the AI failed to identify the specific artifact described in the ground truth.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  }
+]

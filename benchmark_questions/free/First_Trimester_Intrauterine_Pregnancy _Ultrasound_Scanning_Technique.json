@@ -1,0 +1,29 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement is used to transition from the initial landmark to the next target region, and what is the goal of that transition?",
+    "answer": "The probe is slid/swept away from the initial landmark into the adjacent pelvic tissue. The goal is to bring the uterus into view after using the bladder for orientation.",
+    "groundtruth": "After using the bladder as the starting landmark, the operator scans away from it into adjacent tissue to identify the uterus next to the bladder.",
+    "time_start": 15.88,
+    "time_end": 22.26,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being assessed within the small internal structure that is centered on-screen, and what confirmation is the operator trying to obtain?",
+    "answer": "They are assessing early gestational contents, specifically looking for a yolk sac and visible fetal cardiac activity within the sac.",
+    "groundtruth": "The operator focuses on the gestational contents to look for early signs like a yolk sac and to visualize fetal heart activity within the sac.",
+    "time_start": 31.86,
+    "time_end": 36.71,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, a clear plane/orientation change is performed. What adjustment is made, and how does it improve certainty compared with staying in a single plane?",
+    "answer": "The probe is rotated into the orthogonal (longitudinal) axis and a sweep is performed. This provides a second-axis confirmation view to more completely inspect the uterus and ensure there is not an additional gestational sac.",
+    "groundtruth": "After completing the transverse scan, the operator rotates to the second axis (indicator toward the head) and performs a longitudinal sweep to obtain an orthogonal view and check that there is no second gestational sac present.",
+    "time_start": 41.13,
+    "time_end": 56.67,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

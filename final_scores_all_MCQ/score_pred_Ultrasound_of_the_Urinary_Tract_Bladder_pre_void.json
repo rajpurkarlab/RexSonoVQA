@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe movement pattern is being performed, and what is the main acquisition goal?\nA. A focused fanning/rocking motion to optimize one cross-sectional plane for detailed assessment of a focal lesion\nB. A deliberate probe rotation to obtain orthogonal long- and short-axis views for measurement rather than a complete cranio-caudal sweep\nC. A complete superior-to-inferior sweep to survey the entire organ volume\nD. A sliding tracking movement to follow a key vascular landmark and confirm organ orientation rather than survey the full volume",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps in transverse from superior to inferior to survey the entire bladder volume from top to bottom.",
+    "time_start": 5.33,
+    "time_end": 13.23,
+    "original_question": "[MCQ] Based on the video clip, what probe movement pattern is being performed, and what is the main acquisition goal?\nA. A complete superior-to-inferior sweep to survey the entire organ volume\nB. A focused fanning/rocking motion to optimize one cross-sectional plane for detailed assessment of a focal lesion\nC. A sliding tracking movement to follow a key vascular landmark and confirm organ orientation rather than survey the full volume\nD. A deliberate probe rotation to obtain orthogonal long- and short-axis views for measurement rather than a complete cranio-caudal sweep",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The video demonstrates a continuous sweeping motion of the probe, moving from one end of the bladder to the other (likely superior to inferior or vice versa). This is a standard \"sweep\" maneuver used to visualize the entire volume of the organ, ensuring that the full extent of the bladder walls and lumen are assessed for any abnormalities, rather than focusing on a single plane or just rotating.",
+      "latency_ms": 6764.951944351196,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.9,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator rotates the transducer and immediately changes image settings. What combination best describes what is happening and why?\nA. Rotate to re-center the target and increase probe frequency to improve near-field resolution for a more superficial view\nB. Switch to longitudinal orientation and adjust depth/focus to optimize the long-axis view\nC. Rotate 90° into a transverse (short-axis) plane and adjust gain to better delineate the structure in cross-section\nD. Rotate to an oblique plane to follow the course of a vessel and adjust color Doppler scale/PRF to assess flow without aliasing",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator rotates the probe into a longitudinal orientation and immediately adjusts focus and depth to optimize the longitudinal view.",
+    "time_start": 30.79,
+    "time_end": 39.86,
+    "original_question": "[MCQ] Based on the video clip, the operator rotates the transducer and immediately changes image settings. What combination best describes what is happening and why?\nA. Switch to longitudinal orientation and adjust depth/focus to optimize the long-axis view\nB. Rotate 90° into a transverse (short-axis) plane and adjust gain to better delineate the structure in cross-section\nC. Rotate to an oblique plane to follow the course of a vessel and adjust color Doppler scale/PRF to assess flow without aliasing\nD. Rotate to re-center the target and increase probe frequency to improve near-field resolution for a more superficial view",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. Rotate 90° into a transverse (short-axis) plane and adjust gain to better delineate the structure in cross-section\n\n**Explanation:**\nThe video starts with a longitudinal (sagittal) view of the bladder, which appears elongated. The operator then performs a deliberate 90-degree rotation of the probe. This changes the view of the bladder from a long, sagittal orientation to a more rounded, transverse (short-axis) cross-section. Following this rotation, there is a noticeable adjustment in the image brightness (gain) and depth, which helps to clearer delineate the walls and contents of the bladder in this new plane.",
+      "latency_ms": 7828.249931335449,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 9.07,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which best describes the exam phase and immediate objective during the early continuous survey segment?\nA. Color Doppler over the trigone to assess ureteral jets and bladder vascularity\nB. Post-void phase to calculate residual volume using three orthogonal bladder measurements\nC. Focused sweep of the bladder wall to evaluate for focal thickening or an intraluminal mass\nD. Global pre-void survey to judge overall distension/fullness",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After sweeping through the organ in transverse, the operator assesses distension and notes the bladder is extremely full as part of the initial pre-void survey.",
+    "time_start": 5.33,
+    "time_end": 16.23,
+    "original_question": "[MCQ] Based on the video clip, which best describes the exam phase and immediate objective during the early continuous survey segment?\nA. Global pre-void survey to judge overall distension/fullness\nB. Color Doppler over the trigone to assess ureteral jets and bladder vascularity\nC. Focused sweep of the bladder wall to evaluate for focal thickening or an intraluminal mass\nD. Post-void phase to calculate residual volume using three orthogonal bladder measurements",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Global pre-void survey to judge overall distension/fullness\n\nExplanation:\nThe video shows a transabdominal ultrasound sweep where the probe is initially searching and then successfully locates a large, fluid-filled, anechoic structure (the urinary bladder). The sweeping motion across the bladder is broad and continuous, characteristic of an initial \"scout\" or global survey to assess the general shape, position, and degree of distension (fullness) of the bladder before taking specific measurements or detailed wall assessments. There is no color Doppler box applied (ruling out A), the bladder is clearly full rather than empty (ruling out B), and the rapid, large-scale movements are more consistent with a general survey than a slow, focused wall evaluation (ruling out C).",
+      "latency_ms": 8203.248262405396,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 10.9,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after returning to transverse orientation the operator pauses as if transitioning tasks. What is most likely being prepared?\nA. Preparing to apply color Doppler to confirm the structure is not vascular\nB. Adjusting gain/TGC and focal zone to optimize wall–lumen contrast before continuing the sweep\nC. Capturing a representative transverse still image\nD. Freezing the image to place calipers for an anteroposterior diameter measurement",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator returns to transverse orientation and transitions from surveying to preparing to capture a representative transverse image.",
+    "time_start": 64.68,
+    "time_end": 71.89,
+    "original_question": "[MCQ] Based on the video clip, after returning to transverse orientation the operator pauses as if transitioning tasks. What is most likely being prepared?\nA. Capturing a representative transverse still image\nB. Freezing the image to place calipers for an anteroposterior diameter measurement\nC. Adjusting gain/TGC and focal zone to optimize wall–lumen contrast before continuing the sweep\nD. Preparing to apply color Doppler to confirm the structure is not vascular",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Freezing the image to place calipers for an anteroposterior diameter measurement\n\nExplanation:\nThe video shows an ultrasound examination of the bladder. The operator sweeps through the bladder in transverse and possibly longitudinal planes. Towards the end of the clip, the probe returns to a transverse orientation, centering the largest cross-section of the bladder, and then the image becomes static (pauses). This pause with a clear, central view of the bladder is characteristic of freezing the image to perform measurements, such as the anteroposterior diameter, which is a standard part of a bladder volume calculation.",
+      "latency_ms": 6689.856052398682,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.209999999999994,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what maneuver is used to obtain the next still image and what is its intent?\nA. Slide the probe laterally into a parasagittal window to document a paramedian long-axis view away from the midline\nB. Activate color Doppler in the same plane to confirm flow direction and differentiate vascular structures before saving the image\nC. Rotate 90° into a transverse (short-axis) orientation to obtain a cross-sectional view for measuring diameter and depth\nD. Rotate into longitudinal orientation in the midline to document a midline long-axis view",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator rotates to a longitudinal orientation, places the probe in the midline, and captures an image to document the midline bladder in long-axis (including a portion of the prostate).",
+    "time_start": 106.67,
+    "time_end": 121.55,
+    "original_question": "[MCQ] Based on the video clip, what maneuver is used to obtain the next still image and what is its intent?\nA. Rotate into longitudinal orientation in the midline to document a midline long-axis view\nB. Rotate 90° into a transverse (short-axis) orientation to obtain a cross-sectional view for measuring diameter and depth\nC. Slide the probe laterally into a parasagittal window to document a paramedian long-axis view away from the midline\nD. Activate color Doppler in the same plane to confirm flow direction and differentiate vascular structures before saving the image",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Rotate into longitudinal orientation in the midline to document a midline long-axis view\n\nExplanation:\nThe video begins with the probe in a transverse orientation, clearly labeled \"BLADDER TRANS\" on the screen, showing the bladder in cross-section. The operator then rotates the probe 90 degrees. As the rotation completes, the label on the screen changes to \"BLADDER LONG,\" indicating a longitudinal view. The resulting image shows the bladder in its long axis, which is the standard protocol for documenting the organ in two orthogonal planes (transverse and longitudinal). Therefore, the maneuver is a rotation to obtain a midline long-axis view.",
+      "latency_ms": 11777.148008346558,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 14.879999999999995,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator holds the probe very steady while a color overlay is displayed. What technique is this and why is it important?\nA. Stationary observation to detect intermittent flow events without motion artifact\nB. Power Doppler assessment of parenchymal perfusion by keeping the probe steady to improve sensitivity for low-velocity flow.\nC. Color Doppler vessel mapping to confirm continuous patency and flow direction within the lumen.\nD. Optimizing color Doppler gain/PRF while holding the probe still to minimize flash artifact and background noise.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "With Color Doppler on, the operator holds the probe steady at the bladder base to watch for flow signals consistent with ureteric jets.",
+    "time_start": 161.94,
+    "time_end": 175.79,
+    "original_question": "[MCQ] Based on the video clip, the operator holds the probe very steady while a color overlay is displayed. What technique is this and why is it important?\nA. Stationary observation to detect intermittent flow events without motion artifact\nB. Optimizing color Doppler gain/PRF while holding the probe still to minimize flash artifact and background noise.\nC. Color Doppler vessel mapping to confirm continuous patency and flow direction within the lumen.\nD. Power Doppler assessment of parenchymal perfusion by keeping the probe steady to improve sensitivity for low-velocity flow.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The operator is holding the probe stationary over the bladder with color Doppler active to observe for intermittent flow events. This technique is specifically used to detect \"ureteral jets\"—the periodic expulsion of urine from the ureter into the bladder—without creating motion artifact that could obscure or mimic the flow signal.",
+      "latency_ms": 7428.809881210327,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.849999999999994,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, a brief unilateral color-flow event is identified entering the bladder. What is being demonstrated and why is it checked?\nA. Color “flash” artifact from motion (e.g., bowel or patient movement) near the ureteric orifice, checked by adjusting settings to confirm it is not true urinary flow.\nB. Color Doppler flow within a bladder wall vessel, checked to distinguish vascularity from a ureteric jet when assessing a suspected mass.\nC. A ureteric jet, to document ureteral patency on that side\nD. Vesicoureteral reflux at the ureterovesical junction, checked to evaluate for retrograde flow from the bladder into the ureter.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator identifies a right-sided flow signal consistent with urine entering the bladder from the right ureter (a right ureteric jet).",
+    "time_start": 175.81,
+    "time_end": 182.01,
+    "original_question": "[MCQ] Based on the video clip, a brief unilateral color-flow event is identified entering the bladder. What is being demonstrated and why is it checked?\nA. A ureteric jet, to document ureteral patency on that side\nB. Vesicoureteral reflux at the ureterovesical junction, checked to evaluate for retrograde flow from the bladder into the ureter.\nC. Color Doppler flow within a bladder wall vessel, checked to distinguish vascularity from a ureteric jet when assessing a suspected mass.\nD. Color “flash” artifact from motion (e.g., bowel or patient movement) near the ureteric orifice, checked by adjusting settings to confirm it is not true urinary flow.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. A ureteric jet, to document ureteral patency on that side\n\nExplanation: The video demonstrates a ureteric jet, which is a stream of urine being ejected from the ureteral orifice into the bladder. This is visualized using color Doppler as a burst of color within the fluid-filled bladder. Clinicians check for these jets to confirm that the ureter on that side is patent (open) and not obstructed by a stone or other pathology.",
+      "latency_ms": 6165.462970733643,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.199999999999989,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, a similar color-flow event is identified on the opposite side. What is being demonstrated and what is the purpose?\nA. Turbulent color flow at the ureterovesical junction to suggest vesicoureteral reflux rather than confirming patency\nB. Color Doppler of the bladder wall to assess for hyperemia suggesting cystitis\nC. A ureteric jet, documenting ureteral patency on that side\nD. Color flow from adjacent iliac vessels to confirm correct probe position and midline orientation",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator identifies a left-sided flow signal consistent with a left ureteric jet entering the bladder.",
+    "time_start": 183.51,
+    "time_end": 190.64,
+    "original_question": "[MCQ] Based on the video clip, a similar color-flow event is identified on the opposite side. What is being demonstrated and what is the purpose?\nA. A ureteric jet, documenting ureteral patency on that side\nB. Color Doppler of the bladder wall to assess for hyperemia suggesting cystitis\nC. Color flow from adjacent iliac vessels to confirm correct probe position and midline orientation\nD. Turbulent color flow at the ureterovesical junction to suggest vesicoureteral reflux rather than confirming patency",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nThis video clip demonstrates a \"ureteric jet\" (also known as a ureteral jet). This is visualized using Color Doppler ultrasound as a burst of color entering the bladder from the ureterovesical junction (UVJ). The purpose of identifying these jets is to confirm ureteral patency, meaning that urine is successfully flowing from the kidney, down the ureter, and into the bladder on that specific side, ruling out complete obstruction. The prompt mentions a similar event is seen on the opposite side, which would confirm bilateral patency.",
+      "latency_ms": 6618.648052215576,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.1299999999999955,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the operator transitions into a measurement task by placing calipers in a transverse plane across the widest span. What exam step is this and what dimension is being obtained?\nA. Pre-void bladder volume calculation step; transverse width measurement\nB. Pre-void bladder volume calculation step; craniocaudal length measurement in the sagittal plane\nC. Pre-void bladder volume calculation step; anteroposterior (depth) measurement in the transverse plane\nD. Post-void residual bladder volume calculation step; transverse width measurement",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator prepares to measure pre-void bladder volume and, in transverse view, places calipers across the widest left-to-right span to obtain the bladder’s transverse width.",
+    "time_start": 231.4,
+    "time_end": 249.87,
+    "original_question": "[MCQ] Based on the video clip, the operator transitions into a measurement task by placing calipers in a transverse plane across the widest span. What exam step is this and what dimension is being obtained?\nA. Pre-void bladder volume calculation step; transverse width measurement\nB. Post-void residual bladder volume calculation step; transverse width measurement\nC. Pre-void bladder volume calculation step; anteroposterior (depth) measurement in the transverse plane\nD. Pre-void bladder volume calculation step; craniocaudal length measurement in the sagittal plane",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Pre-void bladder volume calculation step; transverse width measurement\n\nExplanation:\nThe video shows a transverse view of a fluid-filled bladder, as indicated by the label \"BLADDER TRANS\" visible at the beginning of the clip. The operator freezes the image and places calipers horizontally across the widest part of the bladder walls. This action corresponds to measuring the transverse width. Since the bladder appears full and distended, this is part of the pre-void bladder volume calculation. The other options are incorrect because the plane is clearly transverse, not sagittal (ruling out B), the measurement is horizontal width not vertical depth (ruling out C), and the fullness of the bladder suggests a pre-void rather than post-void assessment (ruling out D, though post-void measurements use similar techniques, the context of a full bladder usually implies pre-void first).",
+      "latency_ms": 8582.592964172363,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 18.47,
+    "keep": false
+  }
+]

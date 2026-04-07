@@ -1,0 +1,332 @@
+[
+  {
+    "start": 0.11,
+    "end": 8.34,
+    "action": "Place probe in transverse plane. Position the probe high (superior) in the right lobe of the liver.",
+    "interpretation": "Target the superior aspect of the right lobe to begin the scanning protocol."
+  },
+  {
+    "start": 8.98,
+    "end": 13.49,
+    "action": "Instruct patient: 'Take a big breath in.'",
+    "interpretation": "Prepare the patient for the sweep by expanding the lungs to displace the liver inferiorly."
+  },
+  {
+    "start": 14.19,
+    "end": 19.28,
+    "action": "Adjust depth. Start scanning superior to the liver. Sweep inferiorly (down).",
+    "interpretation": "Scanning from superior to inferior to cover the liver volume."
+  },
+  {
+    "start": 19.94,
+    "end": 28.36,
+    "action": "Change depth and focus dynamically while sweeping.",
+    "interpretation": "Keep visual attention on the middle portion of the liver during the sweep."
+  },
+  {
+    "start": 29.0,
+    "end": 31.5,
+    "action": "Instruct patient: 'Breathe normally.'",
+    "interpretation": "Allow patient to rest."
+  },
+  {
+    "start": 31.52,
+    "end": 40.67,
+    "action": "Reposition probe to the top of the liver to restart the sweep.",
+    "interpretation": "The previous breath hold was too long; resetting to ensure a continuous sweep from the top."
+  },
+  {
+    "start": 41.47,
+    "end": 47.31,
+    "action": "Instruct patient: 'Big breath and hold.' Sweep inferiorly (down).",
+    "interpretation": "Re-initiating the superior-to-inferior sweep."
+  },
+  {
+    "start": 47.43,
+    "end": 59.85,
+    "action": "Continue sweeping down. Instruct patient: 'Breathe.'",
+    "interpretation": "Focus strictly on the middle portion of the liver parenchyma. Ignore the edges for now, as they will be covered in subsequent sweeps."
+  },
+  {
+    "start": 60.8,
+    "end": 68.82,
+    "action": "Change grip on the transducer.",
+    "interpretation": "Adjusting ergonomics to visualize the lateral border effectively."
+  },
+  {
+    "start": 69.72,
+    "end": 79.63,
+    "action": "Locate the right portal vein as the starting landmark. Prepare for a 'scoop shot' maneuver.",
+    "interpretation": "Using the right portal vein to anchor the start of the lateral border sweep."
+  },
+  {
+    "start": 80.15,
+    "end": 82.25,
+    "action": "Instruct patient: 'Take a big breath in.'",
+    "interpretation": "Pre-oxygenate/displace liver for the scoop maneuver."
+  },
+  {
+    "start": 83.27,
+    "end": 90.72,
+    "action": "Visualize the right portal vein. Adjust depth. Sweep superiorly.",
+    "interpretation": "Maintain the liver border on the image while sweeping upwards."
+  },
+  {
+    "start": 90.74,
+    "end": 96.05,
+    "action": "Continue sweeping superiorly until hitting the rib shadows.",
+    "interpretation": "Keep the lateral border visible on the screen."
+  },
+  {
+    "start": 96.86,
+    "end": 101.75,
+    "action": "Sweep completely back down (inferiorly) until the portal vein is visualized again. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Returning to the landmark (portal vein)."
+  },
+  {
+    "start": 102.85,
+    "end": 113.95,
+    "action": "Use the portal vein as a landmark. Prepare to sweep inferiorly towards the kidney.",
+    "interpretation": "Ensure the diaphragm remains visible on the image throughout the sweep."
+  },
+  {
+    "start": 114.47,
+    "end": 118.11,
+    "action": "Instruct patient: 'Big breath in... and hold it.'",
+    "interpretation": "Stabilizing the liver for the inferior sweep."
+  },
+  {
+    "start": 118.61,
+    "end": 126.93,
+    "action": "Find the right portal vein. Sweep inferiorly.",
+    "interpretation": "Keep the liver border on the screen."
+  },
+  {
+    "start": 128.01,
+    "end": 139.8,
+    "action": "Sweep completely out of the liver inferiorly. Apply significant pressure ('push quite hard'). Sweep back up superiorly to the portal vein. Instruct patient: 'Breathe.'",
+    "interpretation": "Ensure complete interrogation of the inferior tip by sweeping out and back."
+  },
+  {
+    "start": 140.74,
+    "end": 144.74,
+    "action": "Rotate probe to the longitudinal (sagittal) plane.",
+    "interpretation": "Transitioning from transverse to longitudinal scanning."
+  },
+  {
+    "start": 145.57,
+    "end": 151.03,
+    "action": "Position probe to sweep the superior portion of the right lobe.",
+    "interpretation": "Targeting the dome/superior aspect."
+  },
+  {
+    "start": 151.5,
+    "end": 157.88,
+    "action": "Verify screen orientation (Superior, Inferior, Anterior, Posterior).",
+    "interpretation": "Ensuring correct anatomical orientation before sweeping."
+  },
+  {
+    "start": 158.46,
+    "end": 160.54,
+    "action": "Instruct patient: 'Take a big breath in.'",
+    "interpretation": "Displace liver for longitudinal visualization."
+  },
+  {
+    "start": 161.7,
+    "end": 173.13,
+    "action": "Locate the IVC. Angle (fan) towards the patient's right. Begin sweeping.",
+    "interpretation": "Focus on the superior portion of the liver parenchyma."
+  },
+  {
+    "start": 173.65,
+    "end": 184.8,
+    "action": "Sweep laterally, applying pressure ('pushing quite hard') until fully out of the liver. Sweep back medially to the IVC. Instruct patient: 'Breathe.'",
+    "interpretation": "Complete coverage of the superior right lobe from IVC to lateral edge and back."
+  },
+  {
+    "start": 186.12,
+    "end": 193.87,
+    "action": "None (Mental Check).",
+    "interpretation": "Confirm that the area from IVC through the left lobe was already covered in previous scans, ensuring no missed anatomy."
+  },
+  {
+    "start": 194.66,
+    "end": 204.89,
+    "action": "Target the inferior portion of the liver. Use the Kidney and IVC as landmarks.",
+    "interpretation": "Shift focus to the inferior right lobe."
+  },
+  {
+    "start": 205.43,
+    "end": 207.25,
+    "action": "Instruct patient: 'Big breath in.'",
+    "interpretation": "Preparation for inferior sweep."
+  },
+  {
+    "start": 208.2,
+    "end": 214.52,
+    "action": "Position probe to view the inferior border (tip of right lobe) and the kidney.",
+    "interpretation": "Establishing the starting view for the inferior sweep."
+  },
+  {
+    "start": 215.1,
+    "end": 220.56,
+    "action": "Sweep medially until the IVC is visualized.",
+    "interpretation": "Verifying medial coverage (IVC border)."
+  },
+  {
+    "start": 220.58,
+    "end": 233.85,
+    "action": "Angle/Sweep fully towards the patient's right (lateral). Sweep back. Instruct patient: 'Breathe.'",
+    "interpretation": "Maintain the liver tip on the screen throughout the sweep to ensure the entire inferior volume is interrogated."
+  },
+  {
+    "start": 235.16,
+    "end": 241.24,
+    "action": "Prepare to capture static images.",
+    "interpretation": "Scanning (interrogation) phase is complete; entering documentation phase."
+  },
+  {
+    "start": 241.74,
+    "end": 248.31,
+    "action": "Return probe to Transverse plane.",
+    "interpretation": "Starting image documentation in transverse."
+  },
+  {
+    "start": 249.05,
+    "end": 256.54,
+    "action": "Target the hepatic veins.",
+    "interpretation": "Goal is to visualize at least two branches, ideally all three (Right, Middle, Left)."
+  },
+  {
+    "start": 256.56,
+    "end": 257.9,
+    "action": "Instruct patient: 'Big breath in.'",
+    "interpretation": "Expand veins and displace liver."
+  },
+  {
+    "start": 259.04,
+    "end": 269.72,
+    "action": "Instruct patient: 'Hold.' Adjust depth. Move focus. Instruct patient: 'Breathe.'",
+    "interpretation": "Optimize image to demonstrate all three hepatic vein branches clearly."
+  },
+  {
+    "start": 271.86,
+    "end": 278.43,
+    "action": "Verify annotation reads 'trans right liver'. Instruct patient: 'Big breath in.'",
+    "interpretation": "Preparing for the next specific image (Right Hepatic Vein)."
+  },
+  {
+    "start": 279.31,
+    "end": 287.41,
+    "action": "Focus specifically on the Right Hepatic Vein. Include the liver border in the field of view.",
+    "interpretation": "Isolating the right hepatic vein and its relationship to the liver edge."
+  },
+  {
+    "start": 289.29,
+    "end": 291.41,
+    "action": "Instruct patient: 'Breathe normally.'",
+    "interpretation": "Relax patient between captures."
+  },
+  {
+    "start": 293.93,
+    "end": 299.9,
+    "action": "Prepare for the 'hockey stick' shot. Instruct patient: 'Big breath in.'",
+    "interpretation": "Targeting the portal vein structures."
+  },
+  {
+    "start": 300.96,
+    "end": 306.39,
+    "action": "Visualize the connection of the portal veins. Instruct patient: 'Breathe.'",
+    "interpretation": "Demonstrate the confluence/connection of the portal system."
+  },
+  {
+    "start": 310.2,
+    "end": 321.03,
+    "action": "Inspect the entire image frame.",
+    "interpretation": "Check for kidney intrusion ('peaking up') and ensure no pathology is visible in the background."
+  },
+  {
+    "start": 322.31,
+    "end": 331.48,
+    "action": "Instruct patient: 'Big breath in.' Use Right Portal Vein as landmark. Target a portal branch.",
+    "interpretation": "Isolating a specific branch of the right portal vein."
+  },
+  {
+    "start": 331.54,
+    "end": 338.92,
+    "action": "Visualize the posterior branch of the portal vein. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Confirming visualization of the posterior branch."
+  },
+  {
+    "start": 339.46,
+    "end": 344.2,
+    "action": "Observe the liver border.",
+    "interpretation": "Confirm the border is smooth and indicates no pathology."
+  },
+  {
+    "start": 345.08,
+    "end": 352.88,
+    "action": "Instruct patient: 'Big breath in.' Prepare to image the kidney-liver interface.",
+    "interpretation": "Targeting the hepatorenal space (Morrison's Pouch area)."
+  },
+  {
+    "start": 353.52,
+    "end": 365.27,
+    "action": "Sweep down to the kidney level. Focus image on the liver parenchyma. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Ensure kidney appears normal, but the primary subject of the image is the liver tissue."
+  },
+  {
+    "start": 366.87,
+    "end": 371.87,
+    "action": "Rotate probe to Longitudinal plane.",
+    "interpretation": "Preparing for longitudinal image set."
+  },
+  {
+    "start": 372.39,
+    "end": 378.07,
+    "action": "Change annotation to 'long right liver'.",
+    "interpretation": "Updating labels for the new plane."
+  },
+  {
+    "start": 378.09,
+    "end": 384.23,
+    "action": "Instruct patient: 'Big breath in.'",
+    "interpretation": "Displace liver for superior visualization."
+  },
+  {
+    "start": 384.89,
+    "end": 395.92,
+    "action": "Angle (fan) to visualize the superior portion (dome) of the liver. Instruct patient: 'Breathe.'",
+    "interpretation": "Capture the superior margin of the liver."
+  },
+  {
+    "start": 396.49,
+    "end": 405.53,
+    "action": "Move towards the middle of the liver. Instruct patient: 'Big breath.' Target the 'meat shot'.",
+    "interpretation": "Targeting the mid-parenchyma ('meat shot')."
+  },
+  {
+    "start": 405.55,
+    "end": 412.76,
+    "action": "Optimize image to maximize parenchyma visibility and minimize vessels. Instruct patient: 'Breathe normally.'",
+    "interpretation": "The goal is to show tissue texture."
+  },
+  {
+    "start": 413.36,
+    "end": 420.38,
+    "action": "Assess the image.",
+    "interpretation": "Acknowledge prominent vessels if present, but verify the underlying tissue is normal."
+  },
+  {
+    "start": 421.22,
+    "end": 427.05,
+    "action": "Target the Longitudinal Hepatorenal interface. Instruct patient: 'Big breath in.'",
+    "interpretation": "Preparing for the liver/kidney comparison shot."
+  },
+  {
+    "start": 428.66,
+    "end": 441.13,
+    "action": "Angle to show liver and kidney simultaneously. Instruct patient: 'Breathe.'",
+    "interpretation": "Compare the echogenicity of the liver parenchyma to the kidney cortex and verify normal kidney appearance."
+  }
+]

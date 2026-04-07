@@ -1,0 +1,78 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is being performed to recover/maintain a clear view, and what imaging limitation is it trying to overcome?",
+    "answer": "The probe is slid superiorly and inferiorly between adjacent intercostal spaces. This changes the insonation path to avoid intermittent obstruction and maintain a clearer view of the liver parenchyma.",
+    "groundtruth": "The probe is moved up and down between rib spaces to obtain a better angle on the liver parenchyma and reduce rib-shadow interference.",
+    "time_start": 13.45,
+    "time_end": 20.07,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 13.45,
+    "original_time_end": 20.07,
+    "model_prediction": "The maneuver performed is gentle probe rocking, tilting, and light compression to shift overlying structures. This is overcoming acoustic shadowing and reverberation artifact from luminal gas (bowel gas): gas almost entirely reflects ultrasound energy, completely obscuring views of the underlying abdominal parenchyma (visible as liver with vascular structures when the artifact is resolved) when it lies in the sound beam path.",
+    "inference_metadata": {
+      "raw_response": "The maneuver performed is gentle probe rocking, tilting, and light compression to shift overlying structures. This is overcoming acoustic shadowing and reverberation artifact from luminal gas (bowel gas): gas almost entirely reflects ultrasound energy, completely obscuring views of the underlying abdominal parenchyma (visible as liver with vascular structures when the artifact is resolved) when it lies in the sound beam path.",
+      "latency_ms": 42414.445877075195,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what comparison is being made between two adjacent tissues, and what is the clinical purpose of that comparison?",
+    "answer": "The echogenicity of the renal cortex is compared with adjacent liver parenchyma at the hepato-renal interface. This helps assess for abnormal renal cortical brightness versus the liver (e.g., ensuring the kidney is slightly darker or similar).",
+    "groundtruth": "The operator compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface, confirming the kidney is slightly darker (hypoechoic) or about the same as the liver.",
+    "time_start": 36.15,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 36.15,
+    "original_time_end": 48.24,
+    "model_prediction": "The comparison being made is the relative echogenicity (ultrasound brightness) of the renal cortex of the visualized kidney versus the adjacent hepatic (liver) parenchyma.\nThe clinical purpose of this comparison is to evaluate for renal parenchymal disease: normal renal cortex is less echogenic (darker) than adjacent liver, while increased cortical echogenicity relative to the liver indicates chronic renal parenchymal damage consistent with chronic kidney disease.",
+    "inference_metadata": {
+      "raw_response": "The comparison being made is the relative echogenicity (ultrasound brightness) of the renal cortex of the visualized kidney versus the adjacent hepatic (liver) parenchyma.\nThe clinical purpose of this comparison is to evaluate for renal parenchymal disease: normal renal cortex is less echogenic (darker) than adjacent liver, while increased cortical echogenicity relative to the liver indicates chronic renal parenchymal damage consistent with chronic kidney disease.",
+      "latency_ms": 84926.66506767273,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video segment, what workflow transition is shown (including the view/orientation change and patient context), and what is the reason for doing both steps?",
+    "answer": "The probe is rotated to a transverse orientation while scanning intercostally to re-check the liver in another plane, then the scan transitions to evaluating the right kidney with the patient supine to confirm it still appears grossly normal.",
+    "groundtruth": "The operator rotates to a transverse intercostal view to inspect the liver for masses that might be missed otherwise, then transitions to scanning the right kidney in the supine position to reconfirm it appears grossly normal.",
+    "time_start": 51.78,
+    "time_end": 75.56,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 51.78,
+    "original_time_end": 75.56,
+    "model_prediction": "The transition shown is from sagittal/axial views of the right hepatic (liver) parenchyma to a coronal/longitudinal view of the adjacent ipsilateral right kidney, for a supine patient right upper quadrant abdominal ultrasound workflow.\n\nThis dual evaluation is done to first assess the liver for intrinsic pathology (steatosis, masses, biliary/vascular abnormalities), then assess both the right kidney for intrinsic renal pathology, and the dependent hepatorenal recess (Morrison's pouch) between the two organs for abnormal free fluid (ascites, traumatic hemorrhage, etc.).",
+    "inference_metadata": {
+      "raw_response": "The transition shown is from sagittal/axial views of the right hepatic (liver) parenchyma to a coronal/longitudinal view of the adjacent ipsilateral right kidney, for a supine patient right upper quadrant abdominal ultrasound workflow.\n\nThis dual evaluation is done to first assess the liver for intrinsic pathology (steatosis, masses, biliary/vascular abnormalities), then assess both the right kidney for intrinsic renal pathology, and the dependent hepatorenal recess (Morrison's pouch) between the two organs for abnormal free fluid (ascites, traumatic hemorrhage, etc.).",
+      "latency_ms": 193223.93584251404,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video segment, after the adjacent organ is brought into view, what are the two immediate assessment steps being performed, and what is the overall intent?",
+    "answer": "First the right kidney is assessed for gross normal appearance, then its cortical echogenicity is compared with the adjacent liver at the hepato-renal interface. Together this screens for obvious renal abnormalities and abnormal cortical brightness relative to the liver.",
+    "groundtruth": "Once the right kidney is visualized, the operator focuses on its structure to confirm it appears grossly normal and then compares renal cortical echogenicity to the adjacent liver at the hepato-renal interface.",
+    "time_start": 32.08,
+    "time_end": 48.24,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 32.08,
+    "original_time_end": 48.24,
+    "model_prediction": "First, the clinician compares renal cortical echogenicity to the adjacent hepatic parenchyma to screen for parenchymal renal disease (increased cortical echogenicity relative to liver indicates abnormality). Second, the clinician performs a longitudinal sweep across the entire kidney to assess renal size, contour, parenchymal thickness, and screen for structural abnormalities such as cysts, masses, hydronephrosis, or stones.\nThe overall intent is to complete a structural diagnostic assessment of the kidney to identify acute or chronic renal pathology.",
+    "inference_metadata": {
+      "raw_response": "First, the clinician compares renal cortical echogenicity to the adjacent hepatic parenchyma to screen for parenchymal renal disease (increased cortical echogenicity relative to liver indicates abnormality). Second, the clinician performs a longitudinal sweep across the entire kidney to assess renal size, contour, parenchymal thickness, and screen for structural abnormalities such as cysts, masses, hydronephrosis, or stones.\nThe overall intent is to complete a structural diagnostic assessment of the kidney to identify acute or chronic renal pathology.",
+      "latency_ms": 79999.93014335632,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

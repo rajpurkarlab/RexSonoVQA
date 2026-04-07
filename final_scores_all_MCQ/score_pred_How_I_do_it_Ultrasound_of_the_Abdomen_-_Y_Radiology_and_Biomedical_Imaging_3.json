@@ -1,0 +1,128 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what phase of the scan is being performed, and what is the immediate objective?\nA. Switching to color Doppler to confirm vascularity and differentiate vessels from adjacent ducts or cystic structures\nB. Rotating the probe into an orthogonal transverse plane to confirm the finding and assess cross-sectional anatomy\nC. End-to-end caliper placement along the visualized structure to obtain a maximum length measurement for documentation\nD. Probe alignment and initial view acquisition so the organ’s long axis is properly captured",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator obliques the transducer to match the kidney’s natural oblique lie, then proceeds to obtain the standard long-axis kidney view for orientation.",
+    "time_start": 15.78,
+    "time_end": 27.77,
+    "original_question": "[MCQ] Based on the clip, what phase of the scan is being performed, and what is the immediate objective?\nA. Probe alignment and initial view acquisition so the organ’s long axis is properly captured\nB. End-to-end caliper placement along the visualized structure to obtain a maximum length measurement for documentation\nC. Switching to color Doppler to confirm vascularity and differentiate vessels from adjacent ducts or cystic structures\nD. Rotating the probe into an orthogonal transverse plane to confirm the finding and assess cross-sectional anatomy",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B. Rotating the probe into an orthogonal transverse plane to confirm the finding and assess cross-sectional anatomy\n\nExplanation:\nThe video shows the operator manipulating the probe while visualizing a kidney that demonstrates hydronephrosis (fluid-filled dilation of the collecting system). Throughout the clip, the view transitions from a longitudinal (long-axis) view of the kidney, where its full length is visible, to a view where the kidney begins to appear rounder and the internal structures change orientation. This movement is characteristic of rotating the probe 90 degrees to obtain an orthogonal (transverse/short-axis) view. Obtaining orthogonal views is a standard and critical step in ultrasound to confirm findings seen in the initial plane and to fully assess the anatomy in cross-section.",
+      "latency_ms": 6785.861015319824,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 11.99,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the operator trying to achieve while holding a steady window and refining the image?\nA. Rotate the probe 90° to obtain an orthogonal short-axis view and perform a systematic sweep for pathology.\nB. Fine-tune depth, gain, and focal zone to optimize a single-organ view for parenchymal detail without prioritizing adjacent landmarks.\nC. Rock (heel-toe) the probe to center the target structure and obtain a true long-axis plane for accurate assessment.\nD. Establish a standard organ view and include a nearby landmark organ in the same window for confirmation",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator obtains the standard kidney view and uses the same acoustic window to also visualize the spleen as a confirming landmark.",
+    "time_start": 21.24,
+    "time_end": 27.77,
+    "original_question": "[MCQ] Based on the clip, what is the operator trying to achieve while holding a steady window and refining the image?\nA. Establish a standard organ view and include a nearby landmark organ in the same window for confirmation\nB. Fine-tune depth, gain, and focal zone to optimize a single-organ view for parenchymal detail without prioritizing adjacent landmarks.\nC. Rock (heel-toe) the probe to center the target structure and obtain a true long-axis plane for accurate assessment.\nD. Rotate the probe 90° to obtain an orthogonal short-axis view and perform a systematic sweep for pathology.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation:\nThe operator is performing a \"heel-toe\" or rocking maneuver. In the video, the probe is being rocked along its long axis to bring the kidney into a central position and align the ultrasound beam with the true long axis of the organ. This technique helps in capturing the full length of the kidney and ensures the image plane is not oblique, which is critical for accurate measurement and assessment.",
+      "latency_ms": 6255.914926528931,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 6.530000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what major probe reorientation is performed, and why?\nA. Rock the probe to center the target and bring adjacent anatomy into view while maintaining the same axis.\nB. Rotate the probe 90° to convert a short-axis view into a long-axis (in-plane) view for continuous visualization along the structure.\nC. Rotate the probe to switch from a long-axis view to a perpendicular (short-axis) view\nD. Tilt (heel-toe) the probe to correct anisotropy and optimize echogenicity without changing imaging plane.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator looks at the probe and rotates it 90° to transition from the longitudinal (sagittal) plane to a transverse plane of the left kidney.",
+    "time_start": 42.01,
+    "time_end": 57.12,
+    "original_question": "[MCQ] Based on the clip, what major probe reorientation is performed, and why?\nA. Rotate the probe to switch from a long-axis view to a perpendicular (short-axis) view\nB. Rotate the probe 90° to convert a short-axis view into a long-axis (in-plane) view for continuous visualization along the structure.\nC. Tilt (heel-toe) the probe to correct anisotropy and optimize echogenicity without changing imaging plane.\nD. Rock the probe to center the target and bring adjacent anatomy into view while maintaining the same axis.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation:\nThe video begins with a classic longitudinal (long-axis) view of the kidney, showing its characteristic \"bean shape\" length-wise. Around the 4-second mark, the operator performs a 90-degree rotation of the probe. This maneuver transitions the image from the longitudinal view to a transverse (short-axis) view, where the kidney appears circular or \"C-shaped\" in cross-section. This is a standard technique to assess organ dimensions and pathology in two orthogonal planes.",
+      "latency_ms": 5562.283992767334,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 15.11,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the primary purpose of the continuous end-to-end sweep in the new plane?\nA. Estimate organ volume by sweeping through the organ to allow off-line volumetric reconstruction\nB. Ensure the entire organ is captured from its superior extent to its inferior extent\nC. Obtain a cine loop to assess respiratory motion and reduce motion artifact with breath-hold coaching\nD. Confirm a suspected focal lesion by imaging it dynamically through the organ in a single plane",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In the transverse window, the operator sweeps all the way from the superior portion down to the inferior portion of the left kidney to visualize its full transverse extent.",
+    "time_start": 58.18,
+    "time_end": 65.41,
+    "original_question": "[MCQ] Based on the clip, what is the primary purpose of the continuous end-to-end sweep in the new plane?\nA. Ensure the entire organ is captured from its superior extent to its inferior extent\nB. Confirm a suspected focal lesion by imaging it dynamically through the organ in a single plane\nC. Obtain a cine loop to assess respiratory motion and reduce motion artifact with breath-hold coaching\nD. Estimate organ volume by sweeping through the organ to allow off-line volumetric reconstruction",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nThe video demonstrates a continuous ultrasound sweep through the entire kidney. The primary purpose of performing a continuous end-to-end sweep in a new plane is to ensure that the entire organ is visualized and interrogated, from its superior pole to its inferior pole (or medial to lateral depending on orientation), so that no focal lesions or abnormalities are missed. This comprehensive sweep documents the complete parenchyma of the organ.",
+      "latency_ms": 5621.290445327759,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.229999999999997,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what strategy is used to restore a clear view when image quality is limited?\nA. Switch to a lower-frequency curvilinear probe to improve penetration when the target is poorly visualized\nB. Apply firm graded compression and use small probe tilts to displace overlying soft tissue and reduce artifact\nC. Reposition into a window between bony structures and sweep through that gap\nD. Increase overall gain and adjust depth/focus to optimize near-field resolution before reacquiring the view",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "When the transverse picture is obscured, the operator scans through an intercostal space to avoid rib shadows and improve visualization of the upper or lower pole.",
+    "time_start": 73.11,
+    "time_end": 86.86,
+    "original_question": "[MCQ] Based on the clip, what strategy is used to restore a clear view when image quality is limited?\nA. Reposition into a window between bony structures and sweep through that gap\nB. Increase overall gain and adjust depth/focus to optimize near-field resolution before reacquiring the view\nC. Apply firm graded compression and use small probe tilts to displace overlying soft tissue and reduce artifact\nD. Switch to a lower-frequency curvilinear probe to improve penetration when the target is poorly visualized",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video demonstrates a technique where the sonographer applies compression (pushing down) and uses small tilting or fanning movements of the probe. This is particularly visible when the image quality degrades due to overlying gas or soft tissue interference. By applying firm, graded compression, the operator displaces the intervening bowel gas or soft tissue to bring the target organ (a kidney) closer to the probe and establish a better acoustic window, thereby restoring a clearer view of the renal architecture.",
+      "latency_ms": 5790.335893630981,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 13.75,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the operator doing at the end of this segment, and why?\nA. Rotating into a longitudinal (long-axis) view to obtain a standard length measurement of the target organ.\nB. Continuing transverse scanning to re-establish key landmarks (including an adjacent organ) and confirm the window/orientation\nC. Activating color Doppler at the end of the sweep to assess vascular flow and help differentiate vessels from adjacent structures.\nD. Freezing and saving the image to document the best acoustic window once the target organ is centered and in focus.",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator continues scanning in the transverse window and re-identifies the spleen within the view to confirm correct positioning while imaging the left kidney.",
+    "time_start": 89.38,
+    "time_end": 96.79,
+    "original_question": "[MCQ] Based on the clip, what is the operator doing at the end of this segment, and why?\nA. Continuing transverse scanning to re-establish key landmarks (including an adjacent organ) and confirm the window/orientation\nB. Rotating into a longitudinal (long-axis) view to obtain a standard length measurement of the target organ.\nC. Activating color Doppler at the end of the sweep to assess vascular flow and help differentiate vessels from adjacent structures.\nD. Freezing and saving the image to document the best acoustic window once the target organ is centered and in focus.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nAt the end of this segment, the operator continues scanning in a transverse plane, moving the probe to visualize adjacent structures, most notably the kidney which comes into view posterior/inferior to the gallbladder/liver area. This maneuver helps to re-establish key anatomical landmarks (like the kidney relative to the gallbladder) to confirm the window, orientation, and relationship of the structures, rather than rotating to a long axis or applying Doppler.",
+      "latency_ms": 5800.791025161743,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 7.410000000000011,
+    "keep": true
+  }
+]

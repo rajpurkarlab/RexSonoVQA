@@ -1,0 +1,68 @@
+[
+  {
+    "start": 0.21,
+    "end": 8.15,
+    "action": "Place the transducer at the left sternal border. Prepare to execute the 'window shopping' technique.",
+    "interpretation": "Initiate the scan sequence by establishing contact at the parasternal region."
+  },
+  {
+    "start": 8.57,
+    "end": 18.79,
+    "action": "Hold the transducer at a fixed angle and slide up and down the left sternal border.",
+    "interpretation": "Search for the specific acoustic window where the heart appears brightest through the lung tissue ('window shopping')."
+  },
+  {
+    "start": 19.61,
+    "end": 32.6,
+    "action": "Once the optimal window is located, fan the transducer for the middle. Tilt the transducer towards the patient's head or towards the feet.",
+    "interpretation": "Scan through the plane to find the valves opening up at their maximal diameter."
+  },
+  {
+    "start": 33.99,
+    "end": 41.95,
+    "action": "Rotate the transducer.",
+    "interpretation": "Adjust the view until the ventricle opens up to its widest width, avoiding foreshortening."
+  },
+  {
+    "start": 44.82,
+    "end": 53.22,
+    "action": "Hold the probe steady to maintain the optimized image.",
+    "interpretation": "Confirm the presence of three key features: a great window, good opening valves, and the widest possible ventricle."
+  },
+  {
+    "start": 53.9,
+    "end": 57.2,
+    "action": "Inspect the vertical axis of the image.",
+    "interpretation": "Identify the right ventricle at the top of the screen and the left ventricle at the bottom."
+  },
+  {
+    "start": 58.09,
+    "end": 64.59,
+    "action": "Inspect the deeper structures and the posterior field.",
+    "interpretation": "Visualize the aortic outflow tract, the left atrium, and the descending thoracic aorta located behind the very bright pericardium."
+  },
+  {
+    "start": 66.23,
+    "end": 73.57,
+    "action": "Perform a simple rotation from the current window towards the patient's left shoulder.",
+    "interpretation": "Transition from the Parasternal Long Axis to the Parasternal Short Axis view."
+  },
+  {
+    "start": 76.6,
+    "end": 83.17,
+    "action": "Observe the morphological change of the ventricles.",
+    "interpretation": "Visualize the left ventricle appearing as a 'round donut' with the 'croissant' of the right ventricle positioned up on its left."
+  },
+  {
+    "start": 83.87,
+    "end": 87.26,
+    "action": "Focus on the center of the left ventricle.",
+    "interpretation": "Identify the mitral valve located right at the window in the middle of the ventricle."
+  },
+  {
+    "start": 87.64,
+    "end": 97.82,
+    "action": "Slowly slide the transducer towards the ventricle.",
+    "interpretation": "Navigate to the ideal mid-ventricular view. Look for a nice, round, symmetrically squeezing left ventricle."
+  }
+]

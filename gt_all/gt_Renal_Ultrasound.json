@@ -1,0 +1,98 @@
+[
+  {
+    "start": 0.31,
+    "end": 5.76,
+    "action": "Place the probe onto the upper right quadrant (URQ). Verify the system is set to 'Abdominal mode'.",
+    "interpretation": "Prepare the abdominal preset for right-sided scanning."
+  },
+  {
+    "start": 6.34,
+    "end": 11.06,
+    "action": "Instruct patient: 'Breathe in'. Scan through the acoustic window until the rib shadow passes.",
+    "interpretation": "Identify the rib artifact ('that was our rib') to locate the window."
+  },
+  {
+    "start": 11.56,
+    "end": 13.09,
+    "action": "Locate the liver. Instruct patient: 'Hold that please' (breath hold).",
+    "interpretation": "Visualize the liver."
+  },
+  {
+    "start": 13.43,
+    "end": 20.03,
+    "action": "Scan the liver parenchyma. Contour the probe down.",
+    "interpretation": "Note the 'homogenous structure' of the liver and visualize the 'portal system'."
+  },
+  {
+    "start": 21.6,
+    "end": 26.34,
+    "action": "Adjust the image position ('Move the C'). Center the image.",
+    "interpretation": "Optimize the view, noting a 'little refraction from the ribs'."
+  },
+  {
+    "start": 27.04,
+    "end": 30.45,
+    "action": "Identify the kidney area. Adjust the focal zone ('focus in on there').",
+    "interpretation": "Target the 'central fat of the kidney'."
+  },
+  {
+    "start": 31.09,
+    "end": 36.49,
+    "action": "Rotate the probe to align with the organ axis.",
+    "interpretation": "Visualize the kidney."
+  },
+  {
+    "start": 36.73,
+    "end": 40.35,
+    "action": "Instruct patient: 'Okay, you can breathe, sir.' Move the probe to 'follow the kidney' as the patient exhales.",
+    "interpretation": "Maintain visualization of the kidney during respiratory movement."
+  },
+  {
+    "start": 41.41,
+    "end": 44.33,
+    "action": "Instruct patient: 'And again, breathe in'. Apply probe pressure ('Push down').",
+    "interpretation": "Displace bowel gas and improve contact."
+  },
+  {
+    "start": 44.35,
+    "end": 51.06,
+    "action": "Scan the flank area.",
+    "interpretation": "Confirm visualization of the 'patient's right kidney'."
+  },
+  {
+    "start": 51.1,
+    "end": 60.26,
+    "action": "Adjust the view ('Lower it a bit there'). obtain a mid-sectional view.",
+    "interpretation": "Assess internal architecture: confirm 'renal fat' and the 'sinus in the central portion' seem normal."
+  },
+  {
+    "start": 60.52,
+    "end": 65.51,
+    "action": "Instruct patient: 'Take a deep breath'. Scan specifically for tissue boundaries.",
+    "interpretation": "Attempt to visualize the 'corticomedullary junction'."
+  },
+  {
+    "start": 65.53,
+    "end": 70.83,
+    "action": "Activate Zoom ('Zoom in here').",
+    "interpretation": "Magnify the view of the kidney."
+  },
+  {
+    "start": 71.65,
+    "end": 77.75,
+    "action": "Freeze the image. Use the caliper tool to 'measure' using 'multi-distance'.",
+    "interpretation": "Perform measurement on the 'longitudinal view'."
+  },
+  {
+    "start": 88.47,
+    "end": 91.61,
+    "action": "Prepare to transition scanning position.",
+    "interpretation": "Plan to repeat the protocol on the left side."
+  },
+  {
+    "start": 92.29,
+    "end": 98.88,
+    "action": "Sweep ('perusing') the kidney from 'lower pole to upper pole'.",
+    "interpretation": "Confirm negative findings: 'I don't see any evidence of any calcifications, stones, or tumors'."
+  }
+]

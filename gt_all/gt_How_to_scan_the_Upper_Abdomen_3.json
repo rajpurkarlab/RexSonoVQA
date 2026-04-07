@@ -1,0 +1,152 @@
+[
+  {
+    "start": 1.72,
+    "end": 5.66,
+    "action": "Place probe in the midline. Prepare to repeat the previous sweep maneuver.",
+    "interpretation": "Re-establishing the starting position for a midline scan."
+  },
+  {
+    "start": 5.82,
+    "end": 19.25,
+    "action": "Instruct patient: 'Take a big deep breath.' Sweep the probe across to the left, then sweep back across to the right.",
+    "interpretation": "Utilize the breath hold to displace abdominal organs inferiorly. Visualize midline structures in detail during the left-to-right sweep."
+  },
+  {
+    "start": 19.27,
+    "end": 21.49,
+    "action": "Direct probe attention specifically to the gallbladder region.",
+    "interpretation": "Identifying the gallbladder for focused assessment."
+  },
+  {
+    "start": 22.33,
+    "end": 25.15,
+    "action": "Adjust depth knob.",
+    "interpretation": "Optimizing depth specifically to frame the gallbladder, removing unnecessary posterior dead space."
+  },
+  {
+    "start": 28.68,
+    "end": 32.74,
+    "action": "Adjust the focal zone (focus) to the level of the gallbladder. Adjust the gain knob.",
+    "interpretation": "Placing the focus at the region of interest to improve lateral resolution. Modifying gain to achieve appropriate brightness."
+  },
+  {
+    "start": 34.97,
+    "end": 39.71,
+    "action": "Observe the image quality following gain optimization.",
+    "interpretation": "Confirm that the gallbladder lumen appears anechoic (black), indicating appropriate gain settings and lack of noise."
+  },
+  {
+    "start": 39.93,
+    "end": 48.77,
+    "action": "Scan the entire length of the gallbladder. Press 'Freeze' to capture the image.",
+    "interpretation": "Visualize the full anatomy of the gallbladder from the fundus down to the neck."
+  },
+  {
+    "start": 49.07,
+    "end": 54.12,
+    "action": "Identify surrounding anatomical landmarks on the frozen image.",
+    "interpretation": "Locate the porta hepatis/portal vein, the IVC (Inferior Vena Cava), and the renal artery posterior to the gallbladder."
+  },
+  {
+    "start": 60.09,
+    "end": 66.97,
+    "action": "Unfreeze. Orient probe for a longitudinal section, then rotate 90 degrees for a transverse section.",
+    "interpretation": "Standard protocol requires assessment of the gallbladder in two orthogonal planes (long and transverse)."
+  },
+  {
+    "start": 68.37,
+    "end": 71.14,
+    "action": "Decrease the sector width.",
+    "interpretation": "Narrowing the field of view to increase frame rate and focus on the gallbladder."
+  },
+  {
+    "start": 73.56,
+    "end": 75.82,
+    "action": "Activate the 'Zoom' function.",
+    "interpretation": "Magnifying the image to inspect the gallbladder wall and lumen detail."
+  },
+  {
+    "start": 75.86,
+    "end": 78.48,
+    "action": "Perform a detailed visual inspection of the gallbladder.",
+    "interpretation": "Assessing for pathology with optimized zoom and focus settings."
+  },
+  {
+    "start": 79.04,
+    "end": 85.84,
+    "action": "Scan the gallbladder through multiple positions and angles.",
+    "interpretation": "Checking for gallstones that may be hidden or impacted; looking for mobility of stones ('rolling') to confirm diagnosis."
+  },
+  {
+    "start": 90.78,
+    "end": 92.6,
+    "action": "Reposition probe to locate the Common Bile Duct (CBD).",
+    "interpretation": "Transitioning the exam to the biliary tree."
+  },
+  {
+    "start": 93.62,
+    "end": 98.29,
+    "action": "Increase sector range (width) slightly. Instruct patient: 'Take a big deep breath'.",
+    "interpretation": "Widening the view to catch landmarks. Inspiration moves the liver down to provide a better acoustic window for the porta hepatis."
+  },
+  {
+    "start": 100.69,
+    "end": 105.95,
+    "action": "Hold probe steady on the tubular structure in the porta hepatis.",
+    "interpretation": "Visualizing a clear view of the Common Bile Duct (CBD)."
+  },
+  {
+    "start": 107.85,
+    "end": 117.1,
+    "action": "Identify the structures of the portal triad and surrounding vessels.",
+    "interpretation": "Differentiate the anatomy: IVC (posterior), Portal Vein, Hepatic Artery (transverse view), and the CBD running anterior/superior ('coming over the top')."
+  },
+  {
+    "start": 121.43,
+    "end": 123.33,
+    "action": "Activate measurement calipers.",
+    "interpretation": "Prepare to measure the diameter of the CBD at the visualized point."
+  },
+  {
+    "start": 133.76,
+    "end": 137.85,
+    "action": "Slide the probe distally to trace the CBD.",
+    "interpretation": "Attempting to follow the course of the CBD downwards towards the head of the pancreas."
+  },
+  {
+    "start": 138.27,
+    "end": 139.57,
+    "action": "Instruct patient: 'Just take a big deep breath'.",
+    "interpretation": "Using inspiration to displace bowel gas that might obscure the pancreas."
+  },
+  {
+    "start": 145.25,
+    "end": 148.18,
+    "action": "Maintain visualization of the distal duct.",
+    "interpretation": "Observing the CBD as it courses over the top of the pancreatic head."
+  },
+  {
+    "start": 150.93,
+    "end": 160.5,
+    "action": "Follow the CBD caudally.",
+    "interpretation": "Tracing the full path of the CBD into the pancreatic tissue."
+  },
+  {
+    "start": 160.8,
+    "end": 162.34,
+    "action": "Identify the surrounding tissue.",
+    "interpretation": "Visualizing the head of the pancreas."
+  },
+  {
+    "start": 162.7,
+    "end": 172.61,
+    "action": "Confirm the extent of the scan.",
+    "interpretation": "Verify visualization of the CBD from the pancreatic head proximally up to the porta hepatis."
+  },
+  {
+    "start": 175.74,
+    "end": 177.0,
+    "action": "Conclude the scan of the biliary duct.",
+    "interpretation": "CBD assessment complete."
+  }
+]

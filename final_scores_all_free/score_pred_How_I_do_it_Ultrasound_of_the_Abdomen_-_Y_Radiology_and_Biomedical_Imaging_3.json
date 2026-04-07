@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what probe adjustment is being performed, and what imaging goal does it serve?",
+    "answer": "The transducer is angled into an oblique orientation to match the kidney’s oblique lie. This helps obtain a true long-axis view that includes the posterior upper pole and more anterior lower pole in the same plane.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator adjusts the transducer into an oblique position to align with the kidney’s oblique orientation (upper pole more posterior, lower pole more anterior).",
+    "time_start": 15.78,
+    "time_end": 19.96,
+    "model_prediction": "Based on the video clip, the operator is performing a **fanning (or tilting)** motion with the ultrasound probe. This adjustment is done to sweep through the entire volume of the kidney, allowing the clinician to visualize the organ from the superior pole to the inferior pole and assess for any abnormalities throughout its entire structure.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing a **fanning (or tilting)** motion with the ultrasound probe. This adjustment is done to sweep through the entire volume of the kidney, allowing the clinician to visualize the organ from the superior pole to the inferior pole and assess for any abnormalities throughout its entire structure.",
+      "latency_ms": 5207.369089126587,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.1800000000000015,
+    "judge_explanation": "The AI incorrectly identifies the probe adjustment as 'fanning' to sweep through the volume. The ground truth specifies that the probe is being 'angled into an oblique orientation' (likely rotation) to align with the kidney's oblique lie and obtain a true long-axis view. The movement and the specific imaging goal described by the AI do not match the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip, what scanning motion is shown, and what is the goal of doing it this way?",
+    "answer": "A systematic sweep is performed across the kidney from one side to the other while staying in the same long-axis/oblique plane. The goal is to ensure the entire renal parenchyma is evaluated without missing a segment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps through the kidney from lateral to medial in the sagittal/oblique plane to ensure complete coverage of the renal parenchyma.",
+    "time_start": 29.01,
+    "time_end": 42.0,
+    "model_prediction": "Based on the video, the scanning motion shown is **fanning** (also known as tilting or sweeping). The goal of this technique is to visualize the entire volume of the kidney from anterior to posterior (or vice versa) to ensure no pathology, such as hydronephrosis or renal masses, is missed throughout the entire organ.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the scanning motion shown is **fanning** (also known as tilting or sweeping). The goal of this technique is to visualize the entire volume of the kidney from anterior to posterior (or vice versa) to ensure no pathology, such as hydronephrosis or renal masses, is missed throughout the entire organ.",
+      "latency_ms": 5143.225193023682,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 12.989999999999998,
+    "judge_explanation": "The AI correctly identifies the scanning motion as fanning or sweeping, which corresponds to the 'systematic sweep' described in the ground truth. It also correctly identifies the goal as visualizing the entire volume of the organ to ensure no pathology is missed, which aligns with the ground truth's goal of evaluating the entire renal parenchyma.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the clip segment, what is the broader workflow objective being carried out across these consecutive actions?",
+    "answer": "The operator is completing a comprehensive survey of the kidney by scanning through it in one plane, then switching to the orthogonal plane and sweeping end-to-end. This workflow documents full coverage in both long and short axes.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After sweeping laterally-to-medially through the kidney in the sagittal/oblique plane, the operator rotates into transverse and then sweeps superior-to-inferior to cover the full kidney in the orthogonal plane.",
+    "time_start": 29.01,
+    "time_end": 65.41,
+    "model_prediction": "Based on the video clip, the broader workflow objective is a comprehensive assessment of the kidney, involving scanning through the organ in both longitudinal (long-axis) and transverse (short-axis) planes to visualize the entire renal parenchyma and collecting system. The clip shows the probe sweeping through the kidney to evaluate its size, echotexture, and check for any hydronephrosis or masses.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the broader workflow objective is a comprehensive assessment of the kidney, involving scanning through the organ in both longitudinal (long-axis) and transverse (short-axis) planes to visualize the entire renal parenchyma and collecting system. The clip shows the probe sweeping through the kidney to evaluate its size, echotexture, and check for any hydronephrosis or masses.",
+      "latency_ms": 6710.159778594971,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 36.39999999999999,
+    "judge_explanation": "The AI correctly identifies the broader workflow objective as a comprehensive assessment of the kidney involving scanning in both longitudinal and transverse planes, which aligns perfectly with the ground truth description of sweeping through orthogonal planes for full coverage.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] This clip shows the view becoming less reliable during scanning. Based on the video, what optimization maneuver is performed, and what limitation is it meant to overcome?",
+    "answer": "The operator moves to an intercostal window and sweeps through it. This is done to avoid rib-related shadowing/obstruction so the kidney (especially the poles) can be seen clearly.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After assessing for acoustic shadowing/obstruction that can occur from ribs, the operator uses an intercostal space and sweeps through it to improve visualization of the kidney by avoiding rib shadows.",
+    "time_start": 66.82,
+    "time_end": 86.86,
+    "model_prediction": "Based on the video, the optimization maneuver performed is **having the patient take a deep breath**, which is meant to overcome the limitation of **rib shadowing** (or obscuration by bowel gas/ribs).\n\n**Explanation:**\nInitially, the kidney is visible but somewhat intermittently obscured by dark acoustic shadows, which are characteristic of rib shadows. Around the middle of the clip, the image shifts significantly as the diaphragm contracts and pushes the abdominal organs, including the kidney, downwards (caudally). This movement brings the kidney out from behind the ribs and into a clearer acoustic window, allowing for a better, unobstructed view of the entire organ towards the end of the clip.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the optimization maneuver performed is **having the patient take a deep breath**, which is meant to overcome the limitation of **rib shadowing** (or obscuration by bowel gas/ribs).\n\n**Explanation:**\nInitially, the kidney is visible but somewhat intermittently obscured by dark acoustic shadows, which are characteristic of rib shadows. Around the middle of the clip, the image shifts significantly as the diaphragm contracts and pushes the abdominal organs, including the kidney, downwards (caudally). This movement brings the kidney out from behind the ribs and into a clearer acoustic window, allowing for a better, unobstructed view of the entire organ towards the end of the clip.",
+      "latency_ms": 6188.462018966675,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 20.040000000000006,
+    "judge_explanation": "The AI correctly identifies the limitation being overcome (rib shadowing/obstruction). However, it incorrectly identifies the maneuver performed. The ground truth states the operator moves to an intercostal window, whereas the AI claims the patient takes a deep breath.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  }
+]

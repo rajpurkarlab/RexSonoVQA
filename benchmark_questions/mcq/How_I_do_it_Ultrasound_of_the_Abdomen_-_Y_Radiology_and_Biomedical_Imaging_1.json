@@ -1,0 +1,92 @@
+[
+  {
+    "question": "[MCQ] Based on the clip, what scanning maneuver is being performed at the start of the exam, and what is the primary goal?\nA. Color Doppler interrogation of a vascular structure to confirm patency and direction of flow at the beginning of the exam\nB. Broad sweeping survey across an organ region to ensure complete coverage before saving images\nC. Targeted still-image acquisition in a single plane to document a specific anatomic landmark before continuing the survey\nD. Focused sweep to localize a suspected lesion and center it for caliper measurement rather than surveying the entire region",
+    "answer": "B",
+    "groundtruth": "The probe is placed in a sub-xiphoid position and swept laterally through the full extent of the left liver lobe to begin the exam with complete anatomic coverage.",
+    "time_start": 0.51,
+    "time_end": 14.28,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what workflow phase is being shown when the image motion stops and a still is stored, and what is the immediate purpose?\nA. Interventional guidance phase; freezing to confirm needle tip position relative to the target before advancing\nB. Optimization phase; freezing briefly to adjust gain/depth and focal zone before resuming the sweep\nC. Measurement phase; freezing to place calipers for a key dimension or area on the best frame\nD. Documentation phase; saving a representative still from the portion just surveyed",
+    "answer": "D",
+    "groundtruth": "The operator completes the initial sweep/reversal sequence and then freezes and captures a first still image to document the lateral portion of the left liver lobe.",
+    "time_start": 0.51,
+    "time_end": 21.63,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what probe movement strategy is being used to bring a major midline reference into view, and what is the goal?\nA. Tilting/rocking the probe to center the target and optimize the insonation angle for clearer Doppler signal.\nB. Rotating the probe 90\u00b0 to change from a transverse to a longitudinal view to follow the vessel along its course.\nC. Sliding medially to include a central vascular landmark for orientation within the scan\nD. Fanning the probe to sweep through adjacent planes to locate the structure\u2019s maximal diameter for measurement.",
+    "answer": "C",
+    "groundtruth": "The probe is moved more medially so that a central vascular landmark (the aorta) enters the field, helping orient the medial left lobe view.",
+    "time_start": 24.65,
+    "time_end": 31.14,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what mode/setting change is made over a large vessel, and what is the main reason?\nA. Pulse-wave spectral Doppler with angle correction is activated to quantify flow velocities and screen for stenosis.\nB. Color Doppler is enabled to confirm full flow filling and assess for thrombosis\nC. Power Doppler is selected to improve sensitivity to low-velocity flow when standard color signal is poor.\nD. The color Doppler scale/PRF is increased to reduce aliasing and better display high-velocity flow patterns.",
+    "answer": "B",
+    "groundtruth": "Color Doppler is activated and a color box is placed over the IVC to confirm it fills with color, helping rule out thrombosis.",
+    "time_start": 45.95,
+    "time_end": 50.55,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip, the operator relocates the transducer to a new region. What exam transition is being made, and what is the next objective?\nA. Transition to the gallbladder fossa; obtain long- and short-axis views to assess for cholelithiasis and wall thickening.\nB. Transition to the left hepatic lobe; sweep through the left lobe and ligamentum teres to assess for focal lesions.\nC. Transition to the hepatic hilum; identify the main portal vein and follow it to evaluate for dilation or thrombosis.\nD. Transition to the right liver lobe; begin the right-lobe survey",
+    "answer": "D",
+    "groundtruth": "The probe is repositioned to target the right lobe of the liver, transitioning from the completed left-lobe protocol to the right-lobe scan.",
+    "time_start": 56.49,
+    "time_end": 59.67,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what optimization maneuver is shown when the operator increases pressure and changes tilt, and what is the goal?\nA. Pressing in and angling upward to scan beneath the rib margin for a better subcostal window\nB. Sliding the probe along the costal margin to relocate the window while keeping the same subcostal plane.\nC. Using an intercostal approach with a heel-toe tilt to open the rib spaces for a clearer parasternal long-axis view.\nD. Rocking (fanning) the probe cephalad\u2013caudad to sweep through the heart and center the ventricles in view.",
+    "answer": "A",
+    "groundtruth": "The operator applies pressure and angles the probe upward under the rib to use a subcostal window and better visualize the superior portions of the liver.",
+    "time_start": 70.27,
+    "time_end": 76.39,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is being documented in the first stored image of this new sequence, and why is that starting-level image useful?\nA. A representative image of the collecting system to screen for hydronephrosis before proceeding with the full sweep.\nB. Parenchyma-only view at the most superior level to anchor a complete superior-to-inferior series\nC. A mid-organ longitudinal image saved to document optimal depth, gain, and focal zone settings for the remainder of the series.\nD. Including the diaphragm and adjacent liver at the upper pole to confirm laterality before sweeping inferiorly.",
+    "answer": "B",
+    "groundtruth": "The first right-lobe image is captured at the liver dome level to document the superior parenchyma as the starting point of the series.",
+    "time_start": 86.26,
+    "time_end": 90.8,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, the operator focuses on the appearance of vessel walls. What identification problem is being addressed?\nA. Distinguishing the common bile duct from the portal vein in the porta hepatis by their wall characteristics\nB. Distinguishing hepatic veins from portal veins using relative wall echogenicity\nC. Differentiating hepatic veins from the inferior vena cava by tracing venous confluence and wall appearance\nD. Identifying dilated intrahepatic bile ducts versus portal venous branches when parallel tubular structures are seen",
+    "answer": "B",
+    "groundtruth": "The operator assesses vessel wall echogenicity to identify hepatic veins, which have less echogenic walls than portal veins.",
+    "time_start": 101.92,
+    "time_end": 110.52,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the purpose of storing the second still image in this sequence?\nA. Capturing a sagittal image of the IVC confluence to assess for hepatic congestion\nB. Documenting the right lobe at the porta hepatis where portal veins and bile duct are visualized\nC. Storing a representative still image for right lobe size measurement by craniocaudal span\nD. Documenting the right lobe at the level where hepatic veins are seen",
+    "answer": "D",
+    "groundtruth": "A second image is captured to document the right liver lobe at the hepatic vein level during the inferior progression of the scan.",
+    "time_start": 117.19,
+    "time_end": 120.76,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the clip, this segment shows a structured sweep with identification and confirmation steps followed by image storage. What stage of the overall workflow is this, and what is the next logical action?\nA. Initial broad right-upper-quadrant survey; perform a systematic sweep in two orthogonal planes before any documentation series.\nB. End-of-exam wrap-up; acquire a final overview cine clip and then conclude the study.\nC. Targeted abnormality characterization; freeze and obtain caliper measurements with optional Color Doppler before resuming the survey.\nD. Right-lobe documentation series; continue the planned sequential inferior survey for complete coverage",
+    "answer": "D",
+    "groundtruth": "The operator starts at the dome of the right lobe, captures a superior parenchyma image, scans inferiorly to identify hepatic veins (using wall echogenicity and drainage to the IVC for confirmation), and captures a second image; the workflow implies continuing the sequential survey to complete right-lobe coverage.",
+    "time_start": 77.51,
+    "time_end": 120.76,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

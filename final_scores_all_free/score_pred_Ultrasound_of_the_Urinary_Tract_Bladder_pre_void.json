@@ -1,0 +1,233 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what imaging orientation is the operator establishing at the start of the exam, and what is the purpose of beginning this way?",
+    "answer": "They begin in a transverse (short-axis) orientation to establish a consistent left–right and anterior–posterior reference before surveying the organ.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator begins scanning in a transverse view to establish the initial transverse orientation before continuing the exam.",
+    "time_start": 0.53,
+    "time_end": 3.59,
+    "model_prediction": "Based on the video, the operator is establishing a **transverse orientation** at the start of the exam. The purpose of beginning this way is to **identify the midline landmarks**, such as the spine and aorta, to properly orient the image before proceeding with the scan.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is establishing a **transverse orientation** at the start of the exam. The purpose of beginning this way is to **identify the midline landmarks**, such as the spine and aorta, to properly orient the image before proceeding with the scan.",
+      "latency_ms": 8544.224977493286,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 3.0599999999999996,
+    "judge_explanation": "The AI correctly identifies the transverse orientation and accurately explains the purpose (orienting the image via landmarks), which aligns with the ground truth's explanation of establishing reference planes.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning maneuver is used to evaluate one lateral side in the long-axis orientation, and what is the goal of sweeping beyond the visible borders?",
+    "answer": "They sweep laterally from the midline out to one side and continue until the probe passes fully beyond the organ margins to ensure the entire lateral extent has been surveyed.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "In longitudinal view, the operator sweeps from the midline toward the patient’s right side and scans completely out of the bladder to survey the right lateral aspect.",
+    "time_start": 44.5,
+    "time_end": 50.52,
+    "model_prediction": "Based on the video, the operator is performing a **fan** or **sweep** maneuver.\n\nThe goal of sweeping completely through the structure and \"off the edge\" (beyond the visible borders of the bladder) is to ensure that the **entire organ is visualized** and that no pathology (such as stones, masses, or wall abnormalities) is missed at the extreme lateral edges, which can easily be overlooked if the sweep is incomplete.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a **fan** or **sweep** maneuver.\n\nThe goal of sweeping completely through the structure and \"off the edge\" (beyond the visible borders of the bladder) is to ensure that the **entire organ is visualized** and that no pathology (such as stones, masses, or wall abnormalities) is missed at the extreme lateral edges, which can easily be overlooked if the sweep is incomplete.",
+      "latency_ms": 6575.02293586731,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.020000000000003,
+    "judge_explanation": "The AI correctly identifies the maneuver as a sweep or fan and accurately explains the goal of ensuring the entire organ is visualized by scanning past the borders, which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scan path is performed after returning through the midline, and what coverage objective does it serve?",
+    "answer": "They sweep from the midline out to the opposite lateral side to complete bilateral long-axis coverage of the organ.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator sweeps back through the midline in longitudinal view and scans outward to the patient’s left to survey the left lateral aspect of the bladder.",
+    "time_start": 52.03,
+    "time_end": 59.73,
+    "model_prediction": "Based on the video, after returning through the midline around the 11-12 second mark, the probe fans or sweeps towards the patient's right side (viewer's left). This movement serves the objective of visualizing the lateral extent of the bladder and surrounding adnexa on that side to ensure complete coverage of the organ.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after returning through the midline around the 11-12 second mark, the probe fans or sweeps towards the patient's right side (viewer's left). This movement serves the objective of visualizing the lateral extent of the bladder and surrounding adnexa on that side to ensure complete coverage of the organ.",
+      "latency_ms": 6686.583757400513,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.699999999999996,
+    "judge_explanation": "The AI correctly identifies the scan path (sweeping from midline to the lateral side) and the objective (ensuring complete coverage of the organ), aligning well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what subtle probe angulation is performed, and what additional posterior structure is the operator trying to bring into view relative to the bladder?",
+    "answer": "The probe is angled slightly posteriorly to include the posterior region behind the bladder, aiming to visualize the prostate gland situated posterior to it.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator angles the probe slightly posteriorly to visualize the prostate gland located posterior to the bladder.",
+    "time_start": 73.79,
+    "time_end": 86.94,
+    "model_prediction": "Based on the video clip, the operator performs a subtle **inferior angulation (fanning down)** of the ultrasound probe. This maneuver is intended to bring the **prostate gland** into view, which appears as a hypoechoic structure posterior and inferior to the fluid-filled bladder. The operator even points to this posterior region on the screen towards the end of the clip to highlight the area of interest.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator performs a subtle **inferior angulation (fanning down)** of the ultrasound probe. This maneuver is intended to bring the **prostate gland** into view, which appears as a hypoechoic structure posterior and inferior to the fluid-filled bladder. The operator even points to this posterior region on the screen towards the end of the clip to highlight the area of interest.",
+      "latency_ms": 7638.6566162109375,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.149999999999991,
+    "judge_explanation": "The AI correctly identifies the probe maneuver (fanning down/inferiorly to visualize posterior structures) and correctly identifies the specific posterior structure being targeted as the prostate gland, matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-optimization changes are made immediately before documentation, and why are they done prior to freezing/capturing?",
+    "answer": "Focus and gain are adjusted to improve clarity and contrast so the saved still image is a high-quality representative view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator scans slightly and adjusts focus and gain to optimize clarity, then freezes and captures a representative transverse bladder image.",
+    "time_start": 87.96,
+    "time_end": 102.77,
+    "model_prediction": "Based on the video clip, the clinician increases the **depth** and adjusts the **gain** immediately before the image stabilizes.\n\n**Reasoning:**\n*   **Depth Increase:** Initially, the bladder fills most of the screen, but the posterior wall and deeper tissues are cut off or very close to the bottom edge. The sonographer increases the depth (you can see the scale on the right side change and the image \"zoom out\") to ensure the entire bladder, including the posterior wall and surrounding cul-de-sac fluid, is fully visualized within the frame. This provides complete anatomical context.\n*   **Gain Adjustment:** The image brightness changes slightly, optimizing the contrast between the fluid-filled bladder (anechoic/black) and the surrounding tissues. This helps to clearly delineate the bladder walls and any potential free fluid posterior to it.\n\nThese adjustments are made prior to freezing to ensure that the documented image captures the complete anatomy of interest with appropriate visualization settings, rather than cutting off key structures or having a suboptimal image quality.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the clinician increases the **depth** and adjusts the **gain** immediately before the image stabilizes.\n\n**Reasoning:**\n*   **Depth Increase:** Initially, the bladder fills most of the screen, but the posterior wall and deeper tissues are cut off or very close to the bottom edge. The sonographer increases the depth (you can see the scale on the right side change and the image \"zoom out\") to ensure the entire bladder, including the posterior wall and surrounding cul-de-sac fluid, is fully visualized within the frame. This provides complete anatomical context.\n*   **Gain Adjustment:** The image brightness changes slightly, optimizing the contrast between the fluid-filled bladder (anechoic/black) and the surrounding tissues. This helps to clearly delineate the bladder walls and any potential free fluid posterior to it.\n\nThese adjustments are made prior to freezing to ensure that the documented image captures the complete anatomy of interest with appropriate visualization settings, rather than cutting off key structures or having a suboptimal image quality.",
+      "latency_ms": 9483.276844024658,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 14.810000000000002,
+    "judge_explanation": "The AI correctly identifies that 'gain' is adjusted to improve image quality. However, the AI incorrectly identifies the second adjustment as 'depth' (claiming the scale changes and image zooms out), whereas the ground truth specifies that 'focus' is adjusted. Therefore, the visual evidence cited for the second adjustment is incorrect.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what workflow step the operator is performing from re-orienting the probe through saving an image, and what the deliverable of this step is.",
+    "answer": "They return to a standardized transverse view, fine-tune image quality, and then freeze/save a representative still as documentation of the exam findings in that plane.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator transitions back to transverse orientation, optimizes the view with posterior angulation and image settings, and captures a representative transverse image for documentation.",
+    "time_start": 64.68,
+    "time_end": 102.77,
+    "model_prediction": "Based on the video clip, the operator rotates the ultrasound probe 90 degrees from a longitudinal (sagittal) orientation to a transverse orientation to visualize the bladder in cross-section. The deliverable of this step is saving a transverse still image of the bladder.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator rotates the ultrasound probe 90 degrees from a longitudinal (sagittal) orientation to a transverse orientation to visualize the bladder in cross-section. The deliverable of this step is saving a transverse still image of the bladder.",
+      "latency_ms": 9666.455030441284,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 38.08999999999999,
+    "judge_explanation": "The AI correctly summarizes the workflow step: re-orienting the probe to a transverse view and saving a still image as the deliverable. Although the AI specifies the organ (bladder) while the ground truth remains generic, the core actions (rotating/returning to transverse, saving the image) and the deliverable match the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, an image-quality pattern appears during the lateral long-axis documentation. What artifact is it, and what underlying situation most likely contributes to it here?",
+    "answer": "This is reverberation artifact, which is commonly accentuated when the bladder is extremely distended and fluid-filled, promoting multiple reflections.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "During the right-sided longitudinal imaging, a reverberation artifact is present, attributed to the bladder being extremely full, while the right aspect is documented with a captured image.",
+    "time_start": 121.56,
+    "time_end": 135.42,
+    "model_prediction": "Based on the video, the image-quality pattern that appears during the lateral long-axis documentation is **side lobe artifact** (or grating lobe artifact).\n\nThis artifact presents as curved or linear echoes within the anechoic (black) fluid-filled bladder, appearing to extend from the strong reflectors of the bladder wall or adjacent structures. The underlying situation contributing to this is the **high-contrast interface** between the fluid-filled bladder and the surrounding bright, echogenic tissues (like bowel gas or pelvic sidewall), combined with the physics of the ultrasound beam where off-axis energy lobes pick up these strong reflectors and incorrectly display them within the main beam's path (inside the bladder lumen).",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the image-quality pattern that appears during the lateral long-axis documentation is **side lobe artifact** (or grating lobe artifact).\n\nThis artifact presents as curved or linear echoes within the anechoic (black) fluid-filled bladder, appearing to extend from the strong reflectors of the bladder wall or adjacent structures. The underlying situation contributing to this is the **high-contrast interface** between the fluid-filled bladder and the surrounding bright, echogenic tissues (like bowel gas or pelvic sidewall), combined with the physics of the ultrasound beam where off-axis energy lobes pick up these strong reflectors and incorrectly display them within the main beam's path (inside the bladder lumen).",
+      "latency_ms": 9663.836240768433,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 13.859999999999985,
+    "judge_explanation": "The AI incorrectly identifies the artifact as side lobe artifact, whereas the ground truth identifies it as reverberation artifact. Consequently, the explanation of the mechanism (off-axis energy vs. multiple reflections) is also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what mode change and probe repositioning occur, and what specific functional assessment does this enable?",
+    "answer": "Color Doppler is activated and the probe is moved to the bladder base to assess for ureteric jets entering the bladder.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator turns on Color Doppler and moves the probe to the base of the bladder to prepare to assess for ureteric jets.",
+    "time_start": 149.08,
+    "time_end": 160.3,
+    "model_prediction": "Based on the video, the operator switches from **B-mode (grayscale) to Color Doppler mode** and repositions the probe to obtain a **transverse view of the bladder**. This specific maneuver is performed to visualize the **ureteral jets**, which allows for the assessment of ureteral patency and urinary flow into the bladder.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator switches from **B-mode (grayscale) to Color Doppler mode** and repositions the probe to obtain a **transverse view of the bladder**. This specific maneuver is performed to visualize the **ureteral jets**, which allows for the assessment of ureteral patency and urinary flow into the bladder.",
+      "latency_ms": 6833.9948654174805,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 11.219999999999999,
+    "judge_explanation": "The AI correctly identifies the mode change to Color Doppler, the probe repositioning to view the bladder (specifically mentioning the transverse view to see the jets), and the functional assessment of ureteral jets, which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what assessment sequence is being completed when the operator activates color, observes bilateral events, captures them, and then re-checks them? What is the broader objective of this sequence?",
+    "answer": "This is the ureteric-jet assessment sequence: confirm and document bilateral ureteral outflow into the bladder as evidence of functional patency.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator uses Color Doppler at the bladder base to observe and identify right and left ureteric jets, captures documentation, and then reconfirms both jets for final verification of ureteric function.",
+    "time_start": 149.08,
+    "time_end": 222.51,
+    "model_prediction": "Based on the visual evidence in the video clip, the operator is performing an assessment of the **ureteral jets**.\n\nHere is the breakdown of the sequence and objective:\n\n1.  **The Procedure:** The operator positions the probe over the urinary bladder (indicated by the large, anechoic/black fluid-filled structure).\n2.  **Activation of Color:** Color Doppler is turned on (seen as the colored box overlay) to detect fluid movement.\n3.  **Bilateral Events:** The operator waits and scans the posterior wall of the bladder near the trigone. We see a burst of color (red/orange) shooting into the bladder from one side, followed later by a similar burst from the other side. These are the ureteral jets—urine being ejected from the ureters into the bladder.\n4.  **Capture and Re-check:** The operator freezes the image or captures clips when these jets appear, verifying that flow is occurring from both the left and right ureters.\n\n**Broader Objective:** The objective of this sequence is to verify **ureteral patency**. By documenting the presence of bilateral ureteral jets, the clinician confirms that there is no complete obstruction (such as a kidney stone) blocking the flow of urine from the kidneys to the bladder.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video clip, the operator is performing an assessment of the **ureteral jets**.\n\nHere is the breakdown of the sequence and objective:\n\n1.  **The Procedure:** The operator positions the probe over the urinary bladder (indicated by the large, anechoic/black fluid-filled structure).\n2.  **Activation of Color:** Color Doppler is turned on (seen as the colored box overlay) to detect fluid movement.\n3.  **Bilateral Events:** The operator waits and scans the posterior wall of the bladder near the trigone. We see a burst of color (red/orange) shooting into the bladder from one side, followed later by a similar burst from the other side. These are the ureteral jets—urine being ejected from the ureters into the bladder.\n4.  **Capture and Re-check:** The operator freezes the image or captures clips when these jets appear, verifying that flow is occurring from both the left and right ureters.\n\n**Broader Objective:** The objective of this sequence is to verify **ureteral patency**. By documenting the presence of bilateral ureteral jets, the clinician confirms that there is no complete obstruction (such as a kidney stone) blocking the flow of urine from the kidneys to the bladder.",
+      "latency_ms": 10248.045921325684,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 73.42999999999998,
+    "judge_explanation": "The AI correctly identifies the procedure as the assessment of ureteral jets. It accurately describes the visual evidence (bladder, color Doppler, bursts of color representing urine flow) and correctly states the broader objective (verifying ureteral patency/ruling out obstruction), matching the ground truth perfectly.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what physical probe maneuver is performed to transition into the next measurement plane, and what is the immediate goal before placing calipers?",
+    "answer": "They rotate the transducer clockwise into a longitudinal orientation and re-find the midline so measurements are taken in a standardized long-axis plane.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator turns the transducer clockwise to a longitudinal position and locates the midline to orient correctly for subsequent measurements.",
+    "time_start": 254.9,
+    "time_end": 263.37,
+    "model_prediction": "Based on the video, the probe is rotated 90 degrees (specifically, from a transverse/axial orientation to a longitudinal/sagittal orientation). The immediate goal of this maneuver is to visualize the bladder in its longest axis and center the image to obtain the length and height measurements in the sagittal plane.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is rotated 90 degrees (specifically, from a transverse/axial orientation to a longitudinal/sagittal orientation). The immediate goal of this maneuver is to visualize the bladder in its longest axis and center the image to obtain the length and height measurements in the sagittal plane.",
+      "latency_ms": 6279.705047607422,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.469999999999999,
+    "judge_explanation": "The AI correctly identifies the maneuver as a rotation from transverse to longitudinal (sagittal) and correctly states the goal is to center the image/find the longest axis for measurement, which aligns with the ground truth's instruction to re-find the midline.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the overall measurement strategy being performed across transverse and longitudinal views, and why are multiple orthogonal dimensions needed?",
+    "answer": "They measure three orthogonal bladder dimensions (transverse width, anterior–posterior depth, and craniocaudal length) to compute pre-void bladder volume using a standard volume approximation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "For pre-void volume calculation, the operator measures the transverse width in transverse view, then in longitudinal view measures anterior–posterior and craniocaudal dimensions to calculate total bladder volume.",
+    "time_start": 240.22,
+    "time_end": 281.97,
+    "model_prediction": "Based on the video clip, the clinician is performing a **bladder volume assessment** by measuring the bladder in three orthogonal dimensions (length, width, and anterior-posterior depth) across two different scanning planes.\n\nThis strategy is evident in the video as the operator first obtains a transverse view (\"BLADDER TRANS\" label appears) to measure the transverse diameter (width), and then switches to a longitudinal view (\"BLADDER LONG\" label appears) to measure the craniocaudal length and anterior-posterior height. These three orthogonal measurements (Length × Width × Height) are needed to calculate the total bladder volume using a mathematical formula (typically approximating an ellipsoid), which appears in the final frames as \"Bld Bladder Vol 547.28 cm³\".",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the clinician is performing a **bladder volume assessment** by measuring the bladder in three orthogonal dimensions (length, width, and anterior-posterior depth) across two different scanning planes.\n\nThis strategy is evident in the video as the operator first obtains a transverse view (\"BLADDER TRANS\" label appears) to measure the transverse diameter (width), and then switches to a longitudinal view (\"BLADDER LONG\" label appears) to measure the craniocaudal length and anterior-posterior height. These three orthogonal measurements (Length × Width × Height) are needed to calculate the total bladder volume using a mathematical formula (typically approximating an ellipsoid), which appears in the final frames as \"Bld Bladder Vol 547.28 cm³\".",
+      "latency_ms": 15553.457021713257,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 41.75000000000003,
+    "judge_explanation": "The AI correctly identifies the procedure as a bladder volume assessment involving three orthogonal measurements across transverse and longitudinal views. It provides specific visual evidence (labels and the final calculated volume) that aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  }
+]

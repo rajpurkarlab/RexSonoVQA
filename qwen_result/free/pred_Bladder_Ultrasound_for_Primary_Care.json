@@ -1,0 +1,117 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what machine setting is adjusted to improve the grayscale appearance, and what image-quality problem is it addressing?",
+    "answer": "The operator decreases the overall gain. This reduces excessive amplification so the image has better contrast and the target can be seen more clearly.",
+    "groundtruth": "The operator decreases gain to correct poor image quality caused by excessive gain washing out the image.",
+    "time_start": 3.17,
+    "time_end": 10.74,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 3.17,
+    "time_end_extended": 10.74,
+    "original_time_start": 3.17,
+    "original_time_end": 10.74,
+    "model_prediction": "The machine setting being adjusted is the **gain** (specifically, the overall gain is being lowered). This adjustment addresses the problem of the image being **too bright** (or over-gained), which initially washes out anatomical details and creates excessive background noise; reducing the gain improves contrast and allows for clearer visualization of the anechoic structure.",
+    "inference_metadata": {
+      "raw_response": "The machine setting being adjusted is the **gain** (specifically, the overall gain is being lowered). This adjustment addresses the problem of the image being **too bright** (or over-gained), which initially washes out anatomical details and creates excessive background noise; reducing the gain improves contrast and allows for clearer visualization of the anechoic structure.",
+      "latency_ms": 15713.865041732788,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator checking/adjusting with the measurement guides on the image, and what measurements are being captured in this view?",
+    "answer": "They are verifying the automatically placed calipers and ensuring they bracket the target correctly. The goal is to capture two orthogonal dimensions (e.g., width and height) for the volume calculation.",
+    "groundtruth": "The operator verifies auto-adjusted caliper placement to measure bladder width and height in the current view.",
+    "time_start": 25.45,
+    "time_end": 34.79,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 25.45,
+    "time_end_extended": 34.79,
+    "original_time_start": 25.45,
+    "original_time_end": 34.79,
+    "model_prediction": "The operator is adjusting electronic calipers to measure the dimensions of the urinary bladder, specifically selecting the \"Pre-Void\" mode to estimate bladder volume. In this view, the measurements being captured are the bladder's width (labeled PreVd1 W, measuring 10.5 cm) and height (labeled PreVd1 H, measuring 5.0 cm).",
+    "inference_metadata": {
+      "raw_response": "The operator is adjusting electronic calipers to measure the dimensions of the urinary bladder, specifically selecting the \"Pre-Void\" mode to estimate bladder volume. In this view, the measurements being captured are the bladder's width (labeled PreVd1 W, measuring 10.5 cm) and height (labeled PreVd1 H, measuring 5.0 cm).",
+      "latency_ms": 13277.040004730225,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video segment, after storing the first set of measurements, what is the next step shown and what broader objective does it serve?",
+    "answer": "The operator returns to live imaging and transitions to an orthogonal imaging plane. This is done to obtain the remaining dimension(s) needed to complete an accurate volume assessment.",
+    "groundtruth": "After saving the initial measurements, the operator unfreezes and rotates the probe to switch from the transverse plane to a sagittal plane for subsequent measurements.",
+    "time_start": 34.81,
+    "time_end": 46.23,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "time_start_extended": 34.81,
+    "time_end_extended": 46.23,
+    "original_time_start": 34.81,
+    "original_time_end": 46.23,
+    "model_prediction": "After storing the transverse width and height measurements, the operator adjusts the probe to a sagittal orientation. This step allows for the visualization of the prostate gland located inferior to the bladder base and facilitates the measurement of the anteroposterior (length) dimension, which is required to complete the bladder volume calculation.",
+    "inference_metadata": {
+      "raw_response": "After storing the transverse width and height measurements, the operator adjusts the probe to a sagittal orientation. This step allows for the visualization of the prostate gland located inferior to the bladder base and facilitates the measurement of the anteroposterior (length) dimension, which is required to complete the bladder volume calculation.",
+      "latency_ms": 19427.976846694946,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what orientation and fine probe adjustments are performed, and what viewing problem are they meant to fix?",
+    "answer": "The probe marker is oriented toward the patient’s head, and the operator tilts/rocks the probe (toward the feet) to optimize alignment. This is done to bring the full target structure into view and avoid incomplete/cut-off visualization.",
+    "groundtruth": "The operator orients the marker toward the head and tilts/rocks toward the feet to adjust the angle and visualize the whole bladder.",
+    "time_start": 46.53,
+    "time_end": 55.9,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "time_start_extended": 46.53,
+    "time_end_extended": 55.9,
+    "original_time_start": 46.53,
+    "original_time_end": 55.9,
+    "model_prediction": "Answer: The probe is oriented in a **sagittal (longitudinal)** plane. The operator performs fine **rocking or tilting** adjustments of the probe. These movements are meant to fix an **oblique view**, aligning the ultrasound beam with the long axis of the uterus to visualize its full length from the fundus to the cervix without foreshortening.",
+    "inference_metadata": {
+      "raw_response": "Answer: The probe is oriented in a **sagittal (longitudinal)** plane. The operator performs fine **rocking or tilting** adjustments of the probe. These movements are meant to fix an **oblique view**, aligning the ultrasound beam with the long axis of the uterus to visualize its full length from the fundus to the cervix without foreshortening.",
+      "latency_ms": 24222.370147705078,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning strategy is used to choose the measurement frame, and why is that strategy important before taking the final length measurement?",
+    "answer": "The operator fans/sweeps through the target to find the maximal dimension, then freezes and measures the length. Choosing the widest/maximum frame helps ensure the length (and resulting volume) is not underestimated.",
+    "groundtruth": "The operator fans through the bladder to find the widest cross-section, freezes the best frame, and measures length to capture the biggest orientation for the most accurate volume estimate.",
+    "time_start": 55.92,
+    "time_end": 70.94,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "time_start_extended": 55.92,
+    "time_end_extended": 70.94,
+    "original_time_start": 55.92,
+    "original_time_end": 70.94,
+    "model_prediction": "The scanning strategy used is **sweeping or fanning the transducer** through the structure to visualize different cross-sections. This is important because it allows the operator to identify the plane containing the **maximum dimension** (longest axis) of the organ. Measuring at this widest point ensures accuracy and prevents underestimating the size, which would happen if a smaller, off-center slice were selected.",
+    "inference_metadata": {
+      "raw_response": "The scanning strategy used is **sweeping or fanning the transducer** through the structure to visualize different cross-sections. This is important because it allows the operator to identify the plane containing the **maximum dimension** (longest axis) of the organ. Measuring at this widest point ensures accuracy and prevents underestimating the size, which would happen if a smaller, off-center slice were selected.",
+      "latency_ms": 13165.813207626343,
+      "success": true,
+      "error_message": "",
+      "extended_clip": true,
+      "extend_start_sec": 0,
+      "extend_end_sec": 0
+    }
+  }
+]

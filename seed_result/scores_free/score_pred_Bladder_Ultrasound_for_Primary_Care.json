@@ -1,0 +1,122 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what machine setting is adjusted to improve the grayscale appearance, and what image-quality problem is it addressing?",
+    "answer": "The operator decreases the overall gain. This reduces excessive amplification so the image has better contrast and the target can be seen more clearly.",
+    "groundtruth": "The operator decreases gain to correct poor image quality caused by excessive gain washing out the image.",
+    "time_start": 3.17,
+    "time_end": 10.74,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 3.17,
+    "original_time_end": 10.74,
+    "model_prediction": "The adjusted setting is gain (overall or time gain compensation/TGC, with the vertical percentage-marked sliders showing decreasing gain values). It is addressing overgain (excessive image brightness/washed out appearance): the initial image was uniformly overly bright with no visible contrast between different anatomical tissues, which resolved as gain was reduced to make structures like the anechoic fluid-filled structure and adjacent soft tissue distinguishable.",
+    "inference_metadata": {
+      "raw_response": "The adjusted setting is gain (overall or time gain compensation/TGC, with the vertical percentage-marked sliders showing decreasing gain values). It is addressing overgain (excessive image brightness/washed out appearance): the initial image was uniformly overly bright with no visible contrast between different anatomical tissues, which resolved as gain was reduced to make structures like the anechoic fluid-filled structure and adjacent soft tissue distinguishable.",
+      "latency_ms": 99272.83692359924,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.57,
+    "judge_explanation": "The AI correctly identifies that the gain is decreased to address the issue of overgain (excessive brightness/washed out appearance), which perfectly matches the ground truth.",
+    "judge_error_type": "none"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator checking/adjusting with the measurement guides on the image, and what measurements are being captured in this view?",
+    "answer": "They are verifying the automatically placed calipers and ensuring they bracket the target correctly. The goal is to capture two orthogonal dimensions (e.g., width and height) for the volume calculation.",
+    "groundtruth": "The operator verifies auto-adjusted caliper placement to measure bladder width and height in the current view.",
+    "time_start": 25.45,
+    "time_end": 34.79,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 25.45,
+    "original_time_end": 34.79,
+    "model_prediction": "The operator is measuring pre-void bladder volume, as indicated by the \"Pre-Void\" bladder preset and \"PreVd1\" labeling for the measurements.\nIn this view, the height (anteroposterior dimension, 5.0 cm) and width (transverse dimension, 10.5 cm) of the bladder are being captured, two of the three dimensions required to calculate pre-void bladder volume.",
+    "inference_metadata": {
+      "raw_response": "The operator is measuring pre-void bladder volume, as indicated by the \"Pre-Void\" bladder preset and \"PreVd1\" labeling for the measurements.\nIn this view, the height (anteroposterior dimension, 5.0 cm) and width (transverse dimension, 10.5 cm) of the bladder are being captured, two of the three dimensions required to calculate pre-void bladder volume.",
+      "latency_ms": 42371.6778755188,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.34,
+    "judge_explanation": "The AI correctly identifies that the measurements being captured are the height and width (two orthogonal dimensions) for a volume calculation. However, it fails to answer the first part of the question regarding what the operator is checking/adjusting (verifying the automatically placed calipers to ensure they bracket the target correctly).",
+    "judge_error_type": "wrong_conclusion"
+  },
+  {
+    "question": "[FREE] Based on the video segment, after storing the first set of measurements, what is the next step shown and what broader objective does it serve?",
+    "answer": "The operator returns to live imaging and transitions to an orthogonal imaging plane. This is done to obtain the remaining dimension(s) needed to complete an accurate volume assessment.",
+    "groundtruth": "After saving the initial measurements, the operator unfreezes and rotates the probe to switch from the transverse plane to a sagittal plane for subsequent measurements.",
+    "time_start": 34.81,
+    "time_end": 46.23,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 34.81,
+    "original_time_end": 46.23,
+    "model_prediction": "After storing the initial measurements of the anechoic urinary bladder, the operator adjusts the ultrasound probe to scan and visualize adjacent pelvic anatomical structures. This step serves the broader objective of performing a complete pelvic ultrasound examination, to evaluate all relevant pelvic organs (such as the uterus and adnexal structures) alongside the previously measured bladder as part of the full assessment.",
+    "inference_metadata": {
+      "raw_response": "After storing the initial measurements of the anechoic urinary bladder, the operator adjusts the ultrasound probe to scan and visualize adjacent pelvic anatomical structures. This step serves the broader objective of performing a complete pelvic ultrasound examination, to evaluate all relevant pelvic organs (such as the uterus and adnexal structures) alongside the previously measured bladder as part of the full assessment.",
+      "latency_ms": 142318.2451725006,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 11.419999999999995,
+    "judge_explanation": "The AI prediction incorrectly identifies the next step as scanning adjacent pelvic structures for a complete pelvic exam, whereas the ground truth states the operator transitions to an orthogonal imaging plane to obtain remaining dimensions for a volume assessment. Both the visual evidence and conclusion are incorrect.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what orientation and fine probe adjustments are performed, and what viewing problem are they meant to fix?",
+    "answer": "The probe marker is oriented toward the patient\u2019s head, and the operator tilts/rocks the probe (toward the feet) to optimize alignment. This is done to bring the full target structure into view and avoid incomplete/cut-off visualization.",
+    "groundtruth": "The operator orients the marker toward the head and tilts/rocks toward the feet to adjust the angle and visualize the whole bladder.",
+    "time_start": 46.53,
+    "time_end": 55.9,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 46.53,
+    "original_time_end": 55.9,
+    "model_prediction": "The operator performs slight rotational adjustment and side-to-side fanning (rocking) of the ultrasound probe.\nThese fine adjustments are meant to eliminate artifactual internal echoes (reverberation/side lobe artifact) within the imaged fluid-filled anechoic structure, removing false echoes that could be mistaken for pathologic findings (like debris or soft tissue lesions) inside the fluid-filled space, to clearly visualize the true structure of the lumen and adjacent walls.",
+    "inference_metadata": {
+      "raw_response": "The operator performs slight rotational adjustment and side-to-side fanning (rocking) of the ultrasound probe.\nThese fine adjustments are meant to eliminate artifactual internal echoes (reverberation/side lobe artifact) within the imaged fluid-filled anechoic structure, removing false echoes that could be mistaken for pathologic findings (like debris or soft tissue lesions) inside the fluid-filled space, to clearly visualize the true structure of the lumen and adjacent walls.",
+      "latency_ms": 523617.5308227539,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 9.369999999999997,
+    "judge_explanation": "The AI prediction fails to identify the correct probe orientation (toward the patient's head) and incorrectly identifies the viewing problem as eliminating artifactual internal echoes rather than bringing the full target structure into view to avoid cut-off visualization.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning strategy is used to choose the measurement frame, and why is that strategy important before taking the final length measurement?",
+    "answer": "The operator fans/sweeps through the target to find the maximal dimension, then freezes and measures the length. Choosing the widest/maximum frame helps ensure the length (and resulting volume) is not underestimated.",
+    "groundtruth": "The operator fans through the bladder to find the widest cross-section, freezes the best frame, and measures length to capture the biggest orientation for the most accurate volume estimate.",
+    "time_start": 55.92,
+    "time_end": 70.94,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 55.92,
+    "original_time_end": 70.94,
+    "model_prediction": "The scanning strategy used is fanning/angulating the ultrasound probe across the entire structure of interest to locate the imaging plane that shows the *maximal long-axis (true maximum length)* of the structure, rather than an oblique/partial cut of it.\n\nThis strategy is critical because measuring a non-maximal, off-axis plane would produce an erroneously short, inaccurate length measurement that does not represent the true largest dimension of the structure, which is required for correct clinical interpretation.",
+    "inference_metadata": {
+      "raw_response": "The scanning strategy used is fanning/angulating the ultrasound probe across the entire structure of interest to locate the imaging plane that shows the *maximal long-axis (true maximum length)* of the structure, rather than an oblique/partial cut of it.\n\nThis strategy is critical because measuring a non-maximal, off-axis plane would produce an erroneously short, inaccurate length measurement that does not represent the true largest dimension of the structure, which is required for correct clinical interpretation.",
+      "latency_ms": 570330.3318023682,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 15.019999999999996,
+    "judge_explanation": "The AI correctly identifies the scanning strategy as fanning/sweeping to find the maximal dimension and accurately explains that this prevents underestimating the length measurement, matching the ground truth.",
+    "judge_error_type": "none"
+  }
+]

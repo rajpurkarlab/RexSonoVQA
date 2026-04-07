@@ -1,0 +1,56 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe placement strategy is being shown, and what is the imaging goal?\nA. Position at the distal attachment region to identify the bony insertion before tracking the structure proximally\nB. Start at the mid-substance of the tendon to evaluate for fiber disruption, then sweep distally toward the insertion\nC. Center the probe over the area of maximal pain to look for focal tendinopathy or partial-thickness tearing rather than using an anatomic insertion-first approach\nD. Begin at the proximal origin near the joint line to identify the tendinous origin before following it distally to its insertion",
+    "answer": "A",
+    "groundtruth": "The operator places the probe at the posterior aspect of the heel to visualize the calcaneus and identify the tendon\u2019s insertion point clearly.",
+    "time_start": 0.44,
+    "time_end": 6.5,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what confirmation strategy is used to verify the correct attachment/bone interface location, and why is it helpful?\nA. Use color Doppler to identify hyperemia at the suspected enthesis and assume that marks the attachment site\nB. Confirm the location by comparing tendon thickness and echotexture with the contralateral side rather than using a bony landmark\nC. Use a strong bone-interface landmark (with characteristic acoustic behavior deep to it) to confirm the correct attachment site\nD. Rely on dynamic contraction of the attached muscle/tendon to confirm the correct insertion point by observing tendon motion only",
+    "answer": "C",
+    "groundtruth": "The operator identifies acoustic landmarks at the bone interface, using the deep shadow beneath the calcaneus to confirm the correct attachment region of the Achilles tendon.",
+    "time_start": 7.0,
+    "time_end": 14.12,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what adjustment is performed to correct the prior appearance change, and what is the purpose?\nA. Increase overall gain/TGC to compensate for the darkened image, brightening the field without correcting the underlying angle artifact.\nB. Slide the transducer to re-center the target under the footprint, improving contact but not restoring true perpendicular insonation.\nC. Heel-toe/tilt to make the beam perpendicular again so the artifactual darkening disappears\nD. Rotate the probe 90\u00b0 to obtain an orthogonal view, changing the apparent echogenicity by imaging the structure in a different plane.",
+    "answer": "C",
+    "groundtruth": "A heel-toe adjustment is used to return the ultrasound beam to a perpendicular angle to the tendon, making the hypoechoic anisotropy disappear and confirming it was artifact, not a tear.",
+    "time_start": 36.89,
+    "time_end": 47.43,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning technique is being applied during the longitudinal survey, and what is the goal?\nA. Firm, methodical scan along fibers to look for discontinuity or fluid suggesting injury\nB. Heel-toe (anisotropy correction) while keeping the structure centered to optimize echogenicity rather than assess for a tear\nC. Slow longitudinal sweep with color Doppler over the area of maximal tenderness to assess for hyperemia suggestive of inflammation\nD. Static long-axis view with caliper measurements of tendon thickness to compare with the contralateral side rather than search for fiber disruption",
+    "answer": "A",
+    "groundtruth": "The operator scans firmly along the tendon fibers to inspect for fiber interruption, complete disruption, or fluid.",
+    "time_start": 67.03,
+    "time_end": 78.21,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which sequence of machine/probe actions is used to enable a quantitative measurement, and why?\nA. Rotate to an orthogonal (long-axis) view and measure without freezing so the calipers track the structure throughout the cardiac/respiratory cycle.\nB. Activate Color Doppler to outline the target, then freeze and place calipers based on the color-filled lumen for more accurate sizing.\nC. Increase depth and overall gain, then place calipers in real time to ensure the entire structure is included in the measurement.\nD. Reduce depth, freeze the image, and place calipers to measure with better resolution and stability",
+    "answer": "D",
+    "groundtruth": "To measure thickness, the operator decreases depth to optimize the tendon view, freezes the image, and places calipers for measurement.",
+    "time_start": 79.01,
+    "time_end": 93.94,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe re-orientation is performed, and what is the purpose?\nA. Rotate 90\u00b0 to obtain a transverse (short-axis) view for cross-sectional assessment\nB. Rotate 90\u00b0 to obtain a longitudinal (long-axis) view for tracking the structure along its length\nC. Fan/sweep the probe through the target to survey the full extent of the structure without changing from the current imaging plane\nD. Rock (heel-toe) the probe to align the beam with a tubular structure for improved Doppler angle and flow assessment",
+    "answer": "A",
+    "groundtruth": "The probe is rotated 90 degrees into a transverse orientation to scan the Achilles tendon in short-axis.",
+    "time_start": 115.14,
+    "time_end": 126.28,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

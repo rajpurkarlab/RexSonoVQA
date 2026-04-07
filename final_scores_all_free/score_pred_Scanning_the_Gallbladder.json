@@ -1,0 +1,107 @@
+[
+  {
+    "question": "[FREE] Based on the video, what probe orientation (including probe marker direction) is being set up, and what imaging goal does this establish?",
+    "answer": "The probe is oriented in a longitudinal (sagittal) plane with the marker directed toward the patient’s head. This establishes a long-axis view for initial evaluation of the target.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator aligns the probe in a sagittal/longitudinal orientation with the indicator toward the head to establish the longitudinal scanning plane.",
+    "time_start": 4.59,
+    "time_end": 13.2,
+    "model_prediction": "Based on the video, the probe is being oriented in a transverse plane with the probe marker directed towards the patient's right side. This setup is designed to image the pancreas, using the splenic vein as a key landmark (the \"tadpole\" sign) to locate the pancreatic tail and body draped over it.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is being oriented in a transverse plane with the probe marker directed towards the patient's right side. This setup is designed to image the pancreas, using the splenic vein as a key landmark (the \"tadpole\" sign) to locate the pancreatic tail and body draped over it.",
+      "latency_ms": 5320.380210876465,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.61,
+    "judge_explanation": "The AI prediction completely contradicts the ground truth. The ground truth states the probe is oriented in a longitudinal (sagittal) plane with the marker towards the head, while the AI incorrectly identifies it as a transverse plane with the marker towards the patient's right.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, when the target is not yet clearly visible, what probe adjustment is performed and what problem is it intended to solve?",
+    "answer": "The operator fine-tunes the view with small probe movements (e.g., subtle sliding/tilting/fanning) to bring the target into the imaging plane. The goal is to optimize the window and reliably bring the target into view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator adjusts the probe/view until the gallbladder appears, optimizing visualization and confirming the correct target location using the expected visual sign.",
+    "time_start": 17.66,
+    "time_end": 24.79,
+    "model_prediction": "Based on the video, the clinician applies pressure with the probe (compression) to displace bowel gas that is obscuring the view. This maneuver pushes the gas-filled intestinal loops out of the way, allowing for a clearer visualization of the underlying vascular structures, specifically the abdominal aorta and its branches.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician applies pressure with the probe (compression) to displace bowel gas that is obscuring the view. This maneuver pushes the gas-filled intestinal loops out of the way, allowing for a clearer visualization of the underlying vascular structures, specifically the abdominal aorta and its branches.",
+      "latency_ms": 5199.702024459839,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.129999999999999,
+    "judge_explanation": "The AI describes applying pressure to displace bowel gas, whereas the ground truth specifies using small probe movements (sliding, tilting, fanning) to bring the target into the imaging plane. The AI identifies a different maneuver and a different problem than what is stated in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, after the target is centered, what probe motion is used to fully evaluate it, and what is the objective of doing so?",
+    "answer": "The operator fans/sweeps through the structure to interrogate it throughout its full extent, with special attention to the narrow end region. The objective is a complete survey so focal findings aren’t missed.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With the gallbladder in view, the operator fans through it to interrogate the entire organ, paying particular attention to the neck to complete a thorough volumetric survey.",
+    "time_start": 28.93,
+    "time_end": 37.15,
+    "model_prediction": "Based on the video, the probe motion used is **fanning** (or sweeping) through the gallbladder. The objective of this motion is to visualize the entire organ from one wall to the other to check for abnormalities such as stones or wall thickening throughout its entire volume, not just a single slice.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe motion used is **fanning** (or sweeping) through the gallbladder. The objective of this motion is to visualize the entire organ from one wall to the other to check for abnormalities such as stones or wall thickening throughout its entire volume, not just a single slice.",
+      "latency_ms": 5120.742082595825,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.219999999999999,
+    "judge_explanation": "The AI correctly identifies the probe motion as fanning/sweeping and accurately describes the objective as visualizing the entire volume of the structure to ensure no abnormalities are missed, which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video, what determination is being made in the current imaging plane, and what does that represent in the exam workflow?",
+    "answer": "The operator is assessing the current view for pathology and documenting that no stones are seen in this plane. This serves as the first-plane conclusion before moving to confirmatory views.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator evaluates the sagittal view for pathology and confirms that no stones are visible in this longitudinal view.",
+    "time_start": 43.6,
+    "time_end": 45.12,
+    "model_prediction": "Based on the video, the determination being made is the presence of the \"Mickey Mouse sign,\" which represents the identification of the portal triad in the porta hepatis.\n\nIn this imaging plane, three distinct circular/tubular structures are visualized: the portal vein (the \"face\"), the common bile duct (the \"right ear\"), and the hepatic artery (the \"left ear\"). Identifying this landmark is a crucial step in the exam workflow to orient the anatomy, assess biliary dilation, and verify normal vascular relationships before proceeding to evaluate the gallbladder or liver parenchyma.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the determination being made is the presence of the \"Mickey Mouse sign,\" which represents the identification of the portal triad in the porta hepatis.\n\nIn this imaging plane, three distinct circular/tubular structures are visualized: the portal vein (the \"face\"), the common bile duct (the \"right ear\"), and the hepatic artery (the \"left ear\"). Identifying this landmark is a crucial step in the exam workflow to orient the anatomy, assess biliary dilation, and verify normal vascular relationships before proceeding to evaluate the gallbladder or liver parenchyma.",
+      "latency_ms": 6098.824024200439,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 1.519999999999996,
+    "judge_explanation": "The AI incorrectly identifies the determination as the identification of the 'Mickey Mouse sign' (portal triad) for anatomical orientation. The Ground Truth clarifies that the determination is a clinical assessment documenting the absence of stones in the current plane, serving as a conclusion for that view before moving on. The AI misses the clinical context and the specific workflow step.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video sequence, what workflow step is being completed, and why is it clinically important to do it in this second plane?",
+    "answer": "The operator is finishing the orthogonal-plane survey and re-confirming the exam conclusion. This is important to reduce missed findings by ensuring the assessment holds across planes.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After rotating to a transverse orientation, the operator completes the transverse survey of the gallbladder and re-confirms negative findings in this second plane.",
+    "time_start": 46.0,
+    "time_end": 57.23,
+    "model_prediction": "Based on the video, the clinician is **visualizing the gallbladder in the transverse (short-axis) plane**.\n\nIt is clinically important to scan the gallbladder in a second plane (transverse, after the longitudinal view) to:\n1.  **Confirm pathology:** Ensure that what appears to be a stone or polyp is a real 3D structure and not an artifact or slice-thickness error.\n2.  **Evaluate for mobility:** A stone seen in the neck of the gallbladder in the long axis might appear impacted, but a transverse sweep can help confirm its location and whether it is lodged.\n3.  **Ensure comprehensive visualization:** The transverse sweep allows the clinician to see the entire width of the gallbladder, minimizing the chance of missing small stones or pathology that might be \"off-axis\" in a single longitudinal slice.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is **visualizing the gallbladder in the transverse (short-axis) plane**.\n\nIt is clinically important to scan the gallbladder in a second plane (transverse, after the longitudinal view) to:\n1.  **Confirm pathology:** Ensure that what appears to be a stone or polyp is a real 3D structure and not an artifact or slice-thickness error.\n2.  **Evaluate for mobility:** A stone seen in the neck of the gallbladder in the long axis might appear impacted, but a transverse sweep can help confirm its location and whether it is lodged.\n3.  **Ensure comprehensive visualization:** The transverse sweep allows the clinician to see the entire width of the gallbladder, minimizing the chance of missing small stones or pathology that might be \"off-axis\" in a single longitudinal slice.",
+      "latency_ms": 7848.029136657715,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 11.229999999999997,
+    "judge_explanation": "The AI correctly identifies the action as scanning in a second (transverse) plane, which corresponds to the 'orthogonal-plane survey' mentioned in the ground truth. The AI's reasoning regarding confirming pathology (real 3D structure vs artifact) and ensuring comprehensive visualization aligns perfectly with the ground truth's rationale of reducing missed findings and ensuring the assessment holds across planes.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

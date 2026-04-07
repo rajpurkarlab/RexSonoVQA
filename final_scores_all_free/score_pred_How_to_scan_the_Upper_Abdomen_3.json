@@ -1,0 +1,233 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what workflow phase is the operator starting, and what scanning strategy is used to re-establish a comprehensive overview before focusing on a specific target?",
+    "answer": "They reset to a central starting position and perform a broad sweeping survey during a controlled breath phase to regain a consistent baseline view before transitioning to a focused target evaluation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator returns the probe to the midline as a repeatable starting point, then uses a deep inspiration/breath hold while sweeping left and right to bring structures into a better window for a detailed midline survey.",
+    "time_start": 1.72,
+    "time_end": 19.25,
+    "model_prediction": "Based on the video, the operator is starting the **survey phase** of the examination. The scanning strategy used is a **longitudinal sweep**, where the operator moves the probe across the abdomen to re-establish a comprehensive overview of the anatomy, specifically visualizing the liver, large vessels (IVC/Aorta), and surrounding structures, before focusing on a specific target.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is starting the **survey phase** of the examination. The scanning strategy used is a **longitudinal sweep**, where the operator moves the probe across the abdomen to re-establish a comprehensive overview of the anatomy, specifically visualizing the liver, large vessels (IVC/Aorta), and surrounding structures, before focusing on a specific target.",
+      "latency_ms": 6918.678998947144,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 17.53,
+    "judge_explanation": "The AI correctly identifies the workflow phase as a survey phase and describes the scanning strategy as a sweep (specifically longitudinal) to visualize key landmarks like the liver and vessels. This aligns well with the ground truth's description of performing a broad sweeping survey to regain a baseline view.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what specific organ becomes the new primary target of the exam at this moment, and what is the purpose of shifting attention to it?",
+    "answer": "The gallbladder becomes the target, shifting from the general survey to a focused assessment of that organ.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator redirects the scan to the gallbladder region to begin a focused gallbladder evaluation.",
+    "time_start": 19.27,
+    "time_end": 21.49,
+    "model_prediction": "Based on the video, the new primary target becomes the **gallbladder**. The purpose of shifting attention to it is to visualize the **gallbladder wall** (specifically the anterior wall) to measure its thickness, which is a key step in evaluating for cholecystitis or other gallbladder pathology.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the new primary target becomes the **gallbladder**. The purpose of shifting attention to it is to visualize the **gallbladder wall** (specifically the anterior wall) to measure its thickness, which is a key step in evaluating for cholecystitis or other gallbladder pathology.",
+      "latency_ms": 5745.575189590454,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 2.219999999999999,
+    "judge_explanation": "The AI correctly identifies the gallbladder as the new primary target. Its explanation of the purpose (measuring wall thickness/evaluating pathology) is a specific and correct interpretation of the ground truth's broader 'focused assessment'.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what two machine settings are adjusted in sequence, and why are they changed for this focused view?",
+    "answer": "The focal zone is moved to the level of the target and overall gain is adjusted to achieve appropriate brightness and improved detail at the region of interest.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sets the focal zone at the gallbladder level to improve resolution there and adjusts gain to reach appropriate image brightness.",
+    "time_start": 28.68,
+    "time_end": 32.74,
+    "model_prediction": "Based on the video clip, the two machine settings adjusted in sequence are **depth** and **focus (focal zone)**.\n\n1.  **Depth:** Initially, the image displays deeper structures with significant unused space at the bottom of the screen. The depth is then decreased, bringing the structures of interest (the portal vein, hepatic artery, and common bile duct) larger on the screen and removing the unnecessary deeper tissue. This optimizes the resolution and frame rate for the area of interest.\n2.  **Focus:** After the depth is adjusted, the small triangular indicator on the right side of the scale (representing the focal zone) is moved up to align with the level of the portal triad structures. This concentrates the ultrasound beam's narrowest point at that specific depth, providing the highest lateral resolution for the specific anatomy being examined.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the two machine settings adjusted in sequence are **depth** and **focus (focal zone)**.\n\n1.  **Depth:** Initially, the image displays deeper structures with significant unused space at the bottom of the screen. The depth is then decreased, bringing the structures of interest (the portal vein, hepatic artery, and common bile duct) larger on the screen and removing the unnecessary deeper tissue. This optimizes the resolution and frame rate for the area of interest.\n2.  **Focus:** After the depth is adjusted, the small triangular indicator on the right side of the scale (representing the focal zone) is moved up to align with the level of the portal triad structures. This concentrates the ultrasound beam's narrowest point at that specific depth, providing the highest lateral resolution for the specific anatomy being examined.",
+      "latency_ms": 6716.259002685547,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 4.060000000000002,
+    "judge_explanation": "The AI correctly identified the adjustment of the focal zone and provided valid reasoning for it. However, it incorrectly identified the second setting as 'depth' instead of 'overall gain'. The AI described visual changes related to depth (removing unused space, changing image scale) which contradicts the ground truth's description of brightness adjustments (gain).",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scan maneuver is performed immediately before the image is paused, and what anatomic coverage is the operator trying to achieve?",
+    "answer": "They sweep through the full length of the target structure and then freeze the image to capture a representative view showing it from end to end.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans along the entire gallbladder from fundus to neck and then freezes the image to capture it.",
+    "time_start": 39.93,
+    "time_end": 48.77,
+    "model_prediction": "Based on the video clip, the operator performs a **sliding** maneuver, moving the probe towards the patient's right (on the screen, the image pans left). The goal of this maneuver is to trace the **portal vein** laterally towards the portal hepatis and right liver lobe to visualize its bifurcation and surrounding structures like the gallbladder neck/body and the common bile duct.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator performs a **sliding** maneuver, moving the probe towards the patient's right (on the screen, the image pans left). The goal of this maneuver is to trace the **portal vein** laterally towards the portal hepatis and right liver lobe to visualize its bifurcation and surrounding structures like the gallbladder neck/body and the common bile duct.",
+      "latency_ms": 5878.039836883545,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.840000000000003,
+    "judge_explanation": "The AI identifies specific anatomy (portal vein) and a goal of visualizing the bifurcation, which are not present in the ground truth. The ground truth describes a generic 'target structure' and a goal of sweeping through its 'full length' to capture a view 'end to end.' The AI's specific anatomical claims and coverage goals do not align with the ground truth's emphasis on full-length visualization.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe re-orientation maneuver is performed to obtain a second standard view, and why is this change required?",
+    "answer": "The probe is reoriented into a long-axis view and then rotated 90° to obtain an orthogonal short-axis view, because standard evaluation requires imaging the target in two perpendicular planes.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator unfreezes, obtains a longitudinal view, and rotates 90 degrees to acquire a transverse view to assess the gallbladder in two orthogonal planes.",
+    "time_start": 60.09,
+    "time_end": 66.97,
+    "model_prediction": "Based on the video clip, the probe is rotated 90 degrees from a longitudinal (long-axis) view of the gallbladder to a transverse (short-axis) view. This re-orientation is required to visualize the gallbladder in its transverse plane to confirm its dimensions, wall thickness, and check for pathology (like stones) in a second orthogonal plane, which is a standard part of a complete biliary ultrasound exam.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe is rotated 90 degrees from a longitudinal (long-axis) view of the gallbladder to a transverse (short-axis) view. This re-orientation is required to visualize the gallbladder in its transverse plane to confirm its dimensions, wall thickness, and check for pathology (like stones) in a second orthogonal plane, which is a standard part of a complete biliary ultrasound exam.",
+      "latency_ms": 6669.731140136719,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.8799999999999955,
+    "judge_explanation": "The AI correctly identifies the maneuver (rotating 90 degrees from long-axis to short-axis) and the reasoning (obtaining an orthogonal view for standard evaluation), matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what display function is activated here, and what diagnostic advantage does it provide for close inspection?",
+    "answer": "Zoom is activated to magnify the region of interest, allowing closer inspection of fine detail such as the wall and internal lumen characteristics.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator activates zoom to magnify the gallbladder for more detailed assessment of the wall and lumen.",
+    "time_start": 73.56,
+    "time_end": 75.82,
+    "model_prediction": "Based on the video clip, the **zoom** function is activated. This function magnifies a specific region of interest on the screen, allowing for a more detailed assessment of small anatomical structures without sacrificing resolution as much as simple digital magnification might.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the **zoom** function is activated. This function magnifies a specific region of interest on the screen, allowing for a more detailed assessment of small anatomical structures without sacrificing resolution as much as simple digital magnification might.",
+      "latency_ms": 5525.8800983428955,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 2.259999999999991,
+    "judge_explanation": "The AI correctly identifies the activated function as 'zoom' and accurately describes its diagnostic advantage (magnifying a region of interest for detailed assessment), which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the optimization-and-assessment sequence performed here and the overall clinical objective of that sequence.",
+    "answer": "They narrow the field of view, zoom in, carefully inspect, and then scan from multiple angles to maximize detail and reduce the chance of missing pathology (including potentially mobile intraluminal findings).",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator decreases sector width, activates zoom, performs a detailed inspection, and scans through multiple positions/angles to optimize the gallbladder evaluation and check for stones and their mobility.",
+    "time_start": 68.37,
+    "time_end": 85.84,
+    "model_prediction": "Based on the video, the optimization-and-assessment sequence begins with a longitudinal scan of the abdominal aorta and IVC, followed by a transition into a transverse plane to visualize these vessels in cross-section. The probe is then swept inferiorly and tilted to maintain a clear view of the vascular structures and surrounding anatomy. The overall clinical objective of this sequence appears to be a focused assessment of the abdominal aorta to evaluate for aneurysmal dilation and to examine the surrounding retroperitoneal structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the optimization-and-assessment sequence begins with a longitudinal scan of the abdominal aorta and IVC, followed by a transition into a transverse plane to visualize these vessels in cross-section. The probe is then swept inferiorly and tilted to maintain a clear view of the vascular structures and surrounding anatomy. The overall clinical objective of this sequence appears to be a focused assessment of the abdominal aorta to evaluate for aneurysmal dilation and to examine the surrounding retroperitoneal structures.",
+      "latency_ms": 7431.721925735474,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 17.47,
+    "judge_explanation": "The AI fails to identify the specific technical optimization maneuvers shown in the video. The ground truth specifies that the operator narrows the field of view and zooms in to maximize detail, whereas the AI describes a generic anatomical scanning protocol (longitudinal to transverse sweep) without mentioning the specific image optimization adjustments (zooming, narrowing sector) requested by the prompt.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what two changes are made to improve the acoustic window and situational awareness, and why are both helpful at this stage?",
+    "answer": "The field of view is widened slightly and the patient is prompted into a deep inspiratory phase; together these help capture key landmarks while moving anatomy into a better window for locating the next target.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator slightly increases sector width to include more landmarks and uses deep inspiration to move the liver down, improving the window for the porta hepatis and common bile duct search.",
+    "time_start": 93.62,
+    "time_end": 98.29,
+    "model_prediction": "Based on the video clip, the two changes made to improve the image are:\n\n1.  **Increasing the Depth:** The operator increases the depth of the field of view. Initially, the vessels of interest (IVC and aorta) are near the bottom of the screen. As the depth is increased, we can see structures deeper than the vessels, particularly the vertebral body shadowing. This provides better situational awareness by confirming the posterior landmark (spine) relative to the vessels.\n\n2.  **Adjusting the Focal Zone:** The focal zone (indicated by the small arrow or triangle on the side of the scale) is moved downwards. Initially, it is set quite shallow, optimized for the liver parenchyma near the surface. The operator moves the focal point deeper to align with the level of the inferior vena cava (IVC) and aorta. This improves the lateral resolution and clarity specifically at the depth of these target vessels.\n\n**Why they are helpful:** These adjustments ensure the entire relevant anatomy is visible with spatial context (seeing \"past\" the target to the spine) and that the ultrasound beam is optimized for sharpness specifically at the level of the vessels being interrogated, rather than the superficial tissue.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the two changes made to improve the image are:\n\n1.  **Increasing the Depth:** The operator increases the depth of the field of view. Initially, the vessels of interest (IVC and aorta) are near the bottom of the screen. As the depth is increased, we can see structures deeper than the vessels, particularly the vertebral body shadowing. This provides better situational awareness by confirming the posterior landmark (spine) relative to the vessels.\n\n2.  **Adjusting the Focal Zone:** The focal zone (indicated by the small arrow or triangle on the side of the scale) is moved downwards. Initially, it is set quite shallow, optimized for the liver parenchyma near the surface. The operator moves the focal point deeper to align with the level of the inferior vena cava (IVC) and aorta. This improves the lateral resolution and clarity specifically at the depth of these target vessels.\n\n**Why they are helpful:** These adjustments ensure the entire relevant anatomy is visible with spatial context (seeing \"past\" the target to the spine) and that the ultrasound beam is optimized for sharpness specifically at the level of the vessels being interrogated, rather than the superficial tissue.",
+      "latency_ms": 7466.4740562438965,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 4.670000000000002,
+    "judge_explanation": "The AI correctly identifies that the imaging parameters were adjusted to see more anatomy (increasing depth aligns with widening the field of view/capturing landmarks). However, it completely misses the second key change: the patient maneuver (deep inspiration). Instead, the AI incorrectly attributes the second change to a focal zone adjustment.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what action is performed to lock in a clear view of a small tubular target, and what is the immediate imaging objective?",
+    "answer": "The probe is held very steady to stabilize the image and obtain a clear, diagnostic view of the common bile duct for evaluation (and potential measurement).",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator holds the probe steady on the tubular structure at the porta hepatis to obtain a clear view of the common bile duct.",
+    "time_start": 100.69,
+    "time_end": 105.95,
+    "model_prediction": "Based on the video, the operator performs a **subtle rotational or \"rocking\" maneuver** with the transducer to center and stabilize the view of a small, anechoic (black) tubular structure (a vessel). The immediate imaging objective appears to be obtaining a clean, longitudinal view of this vessel, likely the **common bile duct**, as it courses anterior to the portal vein.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator performs a **subtle rotational or \"rocking\" maneuver** with the transducer to center and stabilize the view of a small, anechoic (black) tubular structure (a vessel). The immediate imaging objective appears to be obtaining a clean, longitudinal view of this vessel, likely the **common bile duct**, as it courses anterior to the portal vein.",
+      "latency_ms": 6157.855987548828,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.260000000000005,
+    "judge_explanation": "The AI correctly identifies the specific anatomical structure (common bile duct) and the imaging objective (obtaining a clear view/stabilizing). While the AI describes the action as a \"subtle rotational or rocking maneuver\" to stabilize, whereas the ground truth describes it as holding the probe \"very steady,\" these describe complementary aspects of the \"locking in\" process (fine adjustment vs. the resulting stability). The core diagnostic element is correctly identified.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, when the view becomes more challenging during distal tracking, what patient-related maneuver is used to improve visualization, and what problem is it meant to overcome?",
+    "answer": "A deeper inspiratory breath is used to shift anatomy and reduce interference from gas, improving the acoustic window so the distal portion can be seen more clearly.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator asks for a deep breath to help displace bowel gas that may be obscuring the pancreas while trying to follow the distal common bile duct.",
+    "time_start": 138.27,
+    "time_end": 139.57,
+    "model_prediction": "Based on the video, the patient is asked to take a deep breath (inspiration) to improve visualization. This maneuver is used to overcome the obstruction caused by bowel gas, which pushes the bowel downwards and brings the pancreas and splenic vein back into clearer view for the sonographer.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the patient is asked to take a deep breath (inspiration) to improve visualization. This maneuver is used to overcome the obstruction caused by bowel gas, which pushes the bowel downwards and brings the pancreas and splenic vein back into clearer view for the sonographer.",
+      "latency_ms": 5746.0877895355225,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 1.299999999999983,
+    "judge_explanation": "The AI correctly identifies the maneuver (deep breath/inspiration) and accurately explains the mechanism (overcoming bowel gas obstruction by shifting anatomy), which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the duct evaluation is shown near the end, and what endpoint confirms the survey is complete?",
+    "answer": "They finish tracing the duct through its distal course into deeper tissue and then confirm they have visualized it back to its proximal origin; completion is indicated by verifying coverage from distal to proximal and then ending the duct scan.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator follows the CBD caudally into the pancreatic head, identifies the surrounding pancreatic tissue, confirms the scan covers the CBD from the pancreatic head back up to the porta hepatis, and then concludes the CBD assessment.",
+    "time_start": 150.93,
+    "time_end": 177.0,
+    "model_prediction": "Based on the video clip, the phase shown near the end is the distal sweep or evaluation of the distal common bile duct as it courses towards the pancreas. The endpoint that confirms the survey is complete is the visualization of the pancreatic head, which appears as the structure into which the duct is seen traveling before the clip ends.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the phase shown near the end is the distal sweep or evaluation of the distal common bile duct as it courses towards the pancreas. The endpoint that confirms the survey is complete is the visualization of the pancreatic head, which appears as the structure into which the duct is seen traveling before the clip ends.",
+      "latency_ms": 6441.112995147705,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 26.069999999999993,
+    "judge_explanation": "The AI correctly identifies the phase of the evaluation as the distal sweep/evaluation, matching the ground truth's description of tracing the duct through its distal course. The AI also correctly identifies the specific anatomical landmark (pancreatic head) that corresponds to the 'deeper tissue' mentioned in the ground truth. While the ground truth describes the procedural endpoint (verifying coverage back to proximal), the AI describes the anatomical endpoint of the distal trace (pancreatic head), which is a valid and clinically accurate interpretation of the visual evidence.",
+    "judge_error_type": "none",
+    "keep": false
+  }
+]

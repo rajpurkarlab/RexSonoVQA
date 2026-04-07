@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[FREE] Based on the video, what stage of the exam is the operator in at the start of the clip, and what is the immediate objective of the subsequent probe movements?",
+    "answer": "They are initiating the parasternal scan by establishing probe contact and then performing a systematic search for the best acoustic window. The objective is to find the position where the cardiac image becomes brightest/clearest through the intervening lung tissue.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator places the transducer at the parasternal region and begins the “window shopping” approach by sliding along the left sternal border while keeping the angle fixed, aiming to locate the brightest cardiac acoustic window through lung tissue.",
+    "time_start": 0.21,
+    "time_end": 18.79,
+    "model_prediction": "Based on the video, the operator begins with the probe disconnected from the skin or in poor contact, showing a mostly black screen (air interface). The immediate objective of the subsequent movements is to establish initial acoustic coupling and locate the cardiac window, specifically aiming for a parasternal long-axis view of the heart as the structures come into focus.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator begins with the probe disconnected from the skin or in poor contact, showing a mostly black screen (air interface). The immediate objective of the subsequent movements is to establish initial acoustic coupling and locate the cardiac window, specifically aiming for a parasternal long-axis view of the heart as the structures come into focus.",
+      "latency_ms": 7927.560329437256,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 18.58,
+    "judge_explanation": "The AI correctly identifies the starting state (probe disconnected/poor contact) and the objective (establishing coupling and locating the cardiac window), which aligns perfectly with the ground truth's description of initiating the scan and searching for the best acoustic window.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what probe motion is being used to scan through the imaging plane, and what viewing objective is it meant to achieve?",
+    "answer": "The operator is fanning/tilting the probe (cranial–caudal) to sweep through the plane. The goal is to find the level where the valves are seen opening to their maximal diameter.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After locating an optimal window, the operator fans/tilts the transducer toward the head and feet to scan through the plane, aiming to capture the valves at their maximal opening.",
+    "time_start": 19.61,
+    "time_end": 32.6,
+    "model_prediction": "Based on the video, the probe is being **tilted (or swept)** to scan through the heart from the **inflow tract** (specifically looking towards the tricuspid valve and right ventricle inflow) to the **outflow tract** (looking towards the aortic valve and pulmonary valve).\n\nThe primary objective of this tilting motion is to visualize and assess the **right ventricular inflow and outflow tracts** alongside the standard left-sided structures. This sweep allows the clinician to inspect the tricuspid valve, right ventricle, and pulmonary valve in addition to the standard left ventricle and aorta view.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is being **tilted (or swept)** to scan through the heart from the **inflow tract** (specifically looking towards the tricuspid valve and right ventricle inflow) to the **outflow tract** (looking towards the aortic valve and pulmonary valve).\n\nThe primary objective of this tilting motion is to visualize and assess the **right ventricular inflow and outflow tracts** alongside the standard left-sided structures. This sweep allows the clinician to inspect the tricuspid valve, right ventricle, and pulmonary valve in addition to the standard left ventricle and aorta view.",
+      "latency_ms": 6694.791078567505,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 12.990000000000002,
+    "judge_explanation": "The AI correctly identifies the probe motion as tilting or sweeping. However, the AI misidentifies the specific viewing objective. The Ground Truth states the goal is to find the level where the valves are seen opening to their maximal diameter (optimization), whereas the AI claims the goal is to assess the right ventricular inflow and outflow tracts (anatomical survey).",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what does the operator do after optimizing the view, and why is this stabilization step important before proceeding?",
+    "answer": "They hold the probe steady to maintain the optimized image. This confirms the window quality and that key structures (including widely opening valves and a maximally open ventricle) are consistently captured before changing views or levels.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The probe is held steady to preserve the optimized parasternal image, allowing confirmation of a good window, well-opening valves, and the widest possible ventricle before moving on.",
+    "time_start": 44.82,
+    "time_end": 53.22,
+    "model_prediction": "Based on the video, after optimizing the view, the operator **anchors the probe** (likely by resting their hand or fingers on the patient's chest wall) to stabilize the image. This stabilization step is crucial because it prevents the probe from sliding or shifting, ensuring a consistent view for accurate assessment and measurements, and reducing operator fatigue during the examination.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, after optimizing the view, the operator **anchors the probe** (likely by resting their hand or fingers on the patient's chest wall) to stabilize the image. This stabilization step is crucial because it prevents the probe from sliding or shifting, ensuring a consistent view for accurate assessment and measurements, and reducing operator fatigue during the examination.",
+      "latency_ms": 6708.189964294434,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.399999999999999,
+    "judge_explanation": "The AI correctly identifies the action (anchoring/stabilizing the probe) and the reason (maintaining a consistent view/image quality), which aligns well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what orientation check is being performed using the image’s vertical axis, and what is the purpose of doing this?",
+    "answer": "They are confirming which ventricle lies nearest the probe (top of the screen) versus deeper in the image (bottom). This ensures the view is correctly oriented for interpretation and for consistent scanning/measurements.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator inspects the vertical axis to orient the view, identifying the right ventricle near the top of the screen and the left ventricle deeper, to confirm correct image orientation.",
+    "time_start": 53.9,
+    "time_end": 57.2,
+    "model_prediction": "Based on the video, the user is checking the probe's orientation by touching the side of the probe corresponding to the top of the ultrasound screen. This maneuver, where the clinician places their finger on the probe/patient interface to create a visual disturbance or \"shadow\" at the top of the image, confirms that the top of the screen corresponds to the superficial structures (skin surface) and verifies the probe is not inverted vertically.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the user is checking the probe's orientation by touching the side of the probe corresponding to the top of the ultrasound screen. This maneuver, where the clinician places their finger on the probe/patient interface to create a visual disturbance or \"shadow\" at the top of the image, confirms that the top of the screen corresponds to the superficial structures (skin surface) and verifies the probe is not inverted vertically.",
+      "latency_ms": 5780.893087387085,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.3000000000000043,
+    "judge_explanation": "The AI describes a specific physical maneuver (touching the probe to create a visual disturbance) that is not supported by the ground truth. The ground truth indicates the check is anatomical, specifically identifying which ventricle is nearest the probe (top of screen) versus deeper, to ensure correct interpretation. The AI likely hallucinated the finger tap action.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, what imaging-plane change has occurred, and what gross shape change is used to confirm that the new view has been obtained?",
+    "answer": "The scan has transitioned from a long-axis to a short-axis (cross-sectional) view. This is confirmed by the left ventricle appearing circular in cross-section with the right ventricle taking a crescent-like shape adjacent to it.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "After rotating into the parasternal short-axis view, the operator confirms the transition by observing the ventricles’ characteristic cross-sectional morphology (round left ventricle with crescent-shaped right ventricle).",
+    "time_start": 76.6,
+    "time_end": 83.17,
+    "model_prediction": "Based on the video, the imaging plane has changed from the **parasternal short axis** view to the **parasternal long axis** view. This change is confirmed by the left ventricle's shape transitioning from a **circular** (donut-like) appearance to an **elongated** (bullet-like) shape.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the imaging plane has changed from the **parasternal short axis** view to the **parasternal long axis** view. This change is confirmed by the left ventricle's shape transitioning from a **circular** (donut-like) appearance to an **elongated** (bullet-like) shape.",
+      "latency_ms": 5155.265092849731,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.570000000000007,
+    "judge_explanation": "The AI prediction completely reverses the sequence of events described in the ground truth. The ground truth states the scan transitions from a long-axis to a short-axis view (resulting in a circular LV), whereas the AI claims the transition is from short-axis to long-axis (resulting in an elongated LV). Therefore, both the conclusion and the described visual evolution are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, within the new view, what level is the operator centering on next, and what key structure is used as confirmation before continuing the sweep?",
+    "answer": "They center the scan on the mid-cavity level where the mitral valve is seen in the middle of the left ventricle. Seeing the mitral valve at this level confirms correct centering before moving to adjacent levels.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "In the parasternal short-axis view, the operator focuses on the center of the left ventricle to identify the mitral valve level as a landmark before proceeding to further short-axis levels.",
+    "time_start": 76.6,
+    "time_end": 87.26,
+    "model_prediction": "Based on the video, the operator tilts the probe superiorly to center on the **basal level** (specifically the aortic valve level) for the next view. The key structure used as confirmation before continuing the sweep is the **aortic valve**, which appears in cross-section as a circular structure with three cusps (often described as looking like a Mercedes-Benz sign) in the center of the image.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator tilts the probe superiorly to center on the **basal level** (specifically the aortic valve level) for the next view. The key structure used as confirmation before continuing the sweep is the **aortic valve**, which appears in cross-section as a circular structure with three cusps (often described as looking like a Mercedes-Benz sign) in the center of the image.",
+      "latency_ms": 5453.048944473267,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 10.66000000000001,
+    "judge_explanation": "The AI prediction incorrectly identifies the target level as the basal level (aortic valve), whereas the ground truth specifies that the operator centers on the mid-cavity level using the mitral valve as confirmation.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video, summarize the multi-step optimization phase being performed before the operator holds the final view, and state the visual endpoints that indicate the view is optimized.",
+    "answer": "They refine the view by sweeping through the plane (fan/tilt) and then adjusting alignment (rotation) before stabilizing the probe. The endpoints are a consistently bright window, valves opening maximally, and a maximally wide ventricle without geometric distortion.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After finding an optimal window, the operator fans/tilts to locate maximal valve opening, rotates to achieve the ventricle’s widest non-foreshortened appearance, and then holds the probe steady to confirm the window quality and optimized anatomy.",
+    "time_start": 19.61,
+    "time_end": 53.22,
+    "model_prediction": "Based on the video, the operator manipulates the probe by sliding, tilting, and rotating to align the ultrasound beam along the long axis of the heart, transitioning from a suboptimal oblique cut to a standard parasternal long-axis view. The visual endpoints indicating optimization are the clear visualization of the mitral and aortic valves opening and closing, the left atrium and left ventricle in continuity without foreshortening, and the distinct separation between the right ventricle outflow tract anteriorly and the descending aorta posteriorly.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator manipulates the probe by sliding, tilting, and rotating to align the ultrasound beam along the long axis of the heart, transitioning from a suboptimal oblique cut to a standard parasternal long-axis view. The visual endpoints indicating optimization are the clear visualization of the mitral and aortic valves opening and closing, the left atrium and left ventricle in continuity without foreshortening, and the distinct separation between the right ventricle outflow tract anteriorly and the descending aorta posteriorly.",
+      "latency_ms": 5872.413873672485,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 33.61,
+    "judge_explanation": "The AI correctly identifies the optimization steps (manipulating the probe via tilting/rotating) and the visual endpoints (valve movement, lack of foreshortening/distortion) consistent with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

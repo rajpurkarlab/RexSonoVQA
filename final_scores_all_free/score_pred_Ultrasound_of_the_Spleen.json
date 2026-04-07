@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe orientation/maneuver is being used, and what initial acquisition goal is it meant to achieve?",
+    "answer": "The operator places the probe to obtain a long-axis (longitudinal) view and searches until the organ is confidently identified. The goal is to establish correct orientation and find the far end of the organ to start a proper survey.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is positioned in a longitudinal plane to locate the spleen, specifically aiming to visualize its tip and confirm the scan orientation is long-axis.",
+    "time_start": 1.61,
+    "time_end": 7.61,
+    "model_prediction": "Based on the video, the probe is oriented in a **longitudinal (sagittal)** plane relative to the body, placed inferior to the rib cage on the right side. The maneuver being performed is a **fanning or sweeping motion**, moving the beam through the liver parenchyma. This initial acquisition is meant to **identify the gallbladder** and assess the liver architecture. The characteristic hyperechoic line of the diaphragm is visible superiorly, and the gallbladder appears as an anechoic (black) structure as the probe fans through it.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is oriented in a **longitudinal (sagittal)** plane relative to the body, placed inferior to the rib cage on the right side. The maneuver being performed is a **fanning or sweeping motion**, moving the beam through the liver parenchyma. This initial acquisition is meant to **identify the gallbladder** and assess the liver architecture. The characteristic hyperechoic line of the diaphragm is visible superiorly, and the gallbladder appears as an anechoic (black) structure as the probe fans through it.",
+      "latency_ms": 8670.769929885864,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 6.0,
+    "judge_explanation": "The AI correctly identifies the probe orientation (longitudinal) and the maneuver (fanning/sweeping to search/identify). The AI's specific identification of the gallbladder and liver aligns with the generic 'organ' mentioned in the ground truth, and the goal of identification and survey is consistent.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what patient breathing maneuver is prompted, and why is it used at this point in the scan?",
+    "answer": "A deep inspiration (often with a brief hold) is used to improve the acoustic window and stabilize/bring the target organ into a better view for optimization.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The patient is prompted to take a big breath in to help optimize the imaging window before continuing adjustments.",
+    "time_start": 15.4,
+    "time_end": 18.94,
+    "model_prediction": "Based on the video, the patient is prompted to take a deep breath in and hold it (inspiration). This maneuver is used to push the diaphragm downward, which displaces the spleen (or liver) inferiorly. This brings more of the organ and the potential spaces around it (like the splenorenal recess) into the ultrasound window, allowing for a better view of the superior pole of the spleen and diaphragm that was previously obscured by the ribs or lung gas.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the patient is prompted to take a deep breath in and hold it (inspiration). This maneuver is used to push the diaphragm downward, which displaces the spleen (or liver) inferiorly. This brings more of the organ and the potential spaces around it (like the splenorenal recess) into the ultrasound window, allowing for a better view of the superior pole of the spleen and diaphragm that was previously obscured by the ribs or lung gas.",
+      "latency_ms": 7734.09104347229,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 3.540000000000001,
+    "judge_explanation": "The AI correctly identifies the breathing maneuver (deep inspiration/breath hold) and accurately explains the reasoning (displacing the organ inferiorly to improve the acoustic window/view), which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is being performed across this segment, and what is the next major scanning objective that follows?",
+    "answer": "This segment is the setup phase: finding the organ and optimizing image settings for a clear long-axis view. The next objective is a systematic sweep through the entire organ to ensure complete coverage.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first locates the spleen in longitudinal and optimizes gain/focus and the breathing window; once satisfied with clarity and orientation, they are ready to proceed to a systematic sweep.",
+    "time_start": 1.61,
+    "time_end": 28.39,
+    "model_prediction": "Based on the visual evidence in the video clip, the sonographer is scanning the **left upper quadrant (LUQ)**, specifically focusing on the **spleen and the left kidney**.\n\n*   **Observation:** The clip shows a crescent-shaped organ with a homogeneous echotexture characteristic of the spleen in the left upper quadrant. As the probe fans, the left kidney comes into view inferior and medial to the spleen. The splenorenal recess (the space between the spleen and the left kidney) is clearly visualized.\n*   **Scanning Phase:** This is the **Left Upper Quadrant (LUQ) or \"Perisplenic\" view** of a FAST (Focused Assessment with Sonography for Trauma) or eFAST exam.\n*   **Next Objective:** In the standard FAST exam sequence, after completing the LUQ view, the next major objective is typically the **pelvic view (suprapubic view)** to evaluate the rectovesical or rectouterine pouch (Pouch of Douglas) for free fluid. Some protocols might move to the subxiphoid cardiac view if not already done, but the standard abdominal progression usually moves from RUQ -> LUQ -> Pelvis.\n\n**Answer:** The exam is performing the **Left Upper Quadrant (LUQ)** or **Splenorenal view** of a FAST exam, visualizing the spleen and left kidney. The next major scanning objective is typically the **pelvic (suprapubic) view** to assess the bladder and surrounding potential spaces for free fluid.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video clip, the sonographer is scanning the **left upper quadrant (LUQ)**, specifically focusing on the **spleen and the left kidney**.\n\n*   **Observation:** The clip shows a crescent-shaped organ with a homogeneous echotexture characteristic of the spleen in the left upper quadrant. As the probe fans, the left kidney comes into view inferior and medial to the spleen. The splenorenal recess (the space between the spleen and the left kidney) is clearly visualized.\n*   **Scanning Phase:** This is the **Left Upper Quadrant (LUQ) or \"Perisplenic\" view** of a FAST (Focused Assessment with Sonography for Trauma) or eFAST exam.\n*   **Next Objective:** In the standard FAST exam sequence, after completing the LUQ view, the next major objective is typically the **pelvic view (suprapubic view)** to evaluate the rectovesical or rectouterine pouch (Pouch of Douglas) for free fluid. Some protocols might move to the subxiphoid cardiac view if not already done, but the standard abdominal progression usually moves from RUQ -> LUQ -> Pelvis.\n\n**Answer:** The exam is performing the **Left Upper Quadrant (LUQ)** or **Splenorenal view** of a FAST exam, visualizing the spleen and left kidney. The next major scanning objective is typically the **pelvic (suprapubic) view** to assess the bladder and surrounding potential spaces for free fluid.",
+      "latency_ms": 9387.166261672974,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 26.78,
+    "judge_explanation": "The AI misinterpreted the question's scope. The Ground Truth defines the 'phase' as the procedural step of image acquisition (setup/optimization) and the 'next objective' as the immediate scanning maneuver (sweeping the organ). The AI incorrectly identified the 'phase' as the anatomical view (LUQ) within a FAST protocol and the 'next objective' as the next anatomical region (Pelvis). Consequently, both the visual interpretation of the action and the conclusion are incorrect relative to the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe motion strategy is demonstrated, and what coverage goal does it accomplish?",
+    "answer": "The operator performs a deliberate sweep through the organ and then returns, using controlled angling to maintain a view through intervening structures. The goal is to interrogate the entire organ from end to end.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The probe is angled between ribs while sweeping all the way down and back up to scan through the full volume of splenic tissue and cover the entire organ.",
+    "time_start": 35.7,
+    "time_end": 49.67,
+    "model_prediction": "Based on the video clip, the probe motion strategy demonstrated is **fanning**, also known as tilting or sweeping. The sonographer holds the transducer in a relatively fixed position on the skin surface while angling the beam back and forth (anterior to posterior or side-to-side) to sweep through the volume of the underlying organ, which in this case appears to be the spleen and left kidney. This motion accomplishes the goal of interrogating the entire organ from one acoustic window, allowing the operator to build a 3D mental model of the structure and check for pathology throughout its volume.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the probe motion strategy demonstrated is **fanning**, also known as tilting or sweeping. The sonographer holds the transducer in a relatively fixed position on the skin surface while angling the beam back and forth (anterior to posterior or side-to-side) to sweep through the volume of the underlying organ, which in this case appears to be the spleen and left kidney. This motion accomplishes the goal of interrogating the entire organ from one acoustic window, allowing the operator to build a 3D mental model of the structure and check for pathology throughout its volume.",
+      "latency_ms": 8023.712873458862,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 13.969999999999999,
+    "judge_explanation": "The AI correctly identifies the probe motion as fanning/sweeping (controlled angling) and correctly states the goal is to interrogate the entire organ volume, matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition occurs here, and what is the broader objective of the actions that follow?",
+    "answer": "The scan transitions from one plane to another (long-axis to short-axis) and then proceeds into systematic sweeps in the new plane. The objective is complete anatomic coverage of the organ in an orthogonal view.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After rotating to transverse, the operator angles between ribs and performs a transverse sweep through the spleen (using breathing to help) to fully survey the tissue in the new plane.",
+    "time_start": 50.87,
+    "time_end": 72.72,
+    "model_prediction": "Based on the video, the workflow transitions from scanning the abdominal aorta (evidenced by the on-screen label \"LONG AORTA INF\" and the visual representation of a pulsatile vessel) to a period where the probe is lifted from the skin, resulting in image loss and noise. This is followed by a new scanning action where the probe is placed back on the patient to presumably search for a different anatomical view, likely to continue assessing the abdominal vessels or surrounding organs.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the workflow transitions from scanning the abdominal aorta (evidenced by the on-screen label \"LONG AORTA INF\" and the visual representation of a pulsatile vessel) to a period where the probe is lifted from the skin, resulting in image loss and noise. This is followed by a new scanning action where the probe is placed back on the patient to presumably search for a different anatomical view, likely to continue assessing the abdominal vessels or surrounding organs.",
+      "latency_ms": 6324.561357498169,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 21.85,
+    "judge_explanation": "The AI correctly identifies the starting view (Long Aorta) but fails to identify the specific workflow transition (Long-axis to Short-axis) and the subsequent action (systematic sweeps) described in the ground truth. The AI describes the physical movement of the probe (lifting/noise) and vaguely guesses a search for a view, whereas the ground truth indicates that a specific orthogonal view and sweeping motion were achieved.",
+    "judge_error_type": "wrong_visual_evidence",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what targeted comparative view is being set up, and what is the purpose of obtaining it?",
+    "answer": "A comparative interface view between the target organ and an adjacent organ is set up. The purpose is to compare echotexture/appearance across that interface as part of a normality check and documentation.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator prepares to image the spleen–kidney interface specifically to compare echotexture between the spleen and kidney.",
+    "time_start": 74.3,
+    "time_end": 81.85,
+    "model_prediction": "Based on the video clip, the sonographer is setting up a view of the **left diaphragm/spleen interface** (often part of a FAST exam or thoracic ultrasound) to compare it with the right side. The purpose of obtaining this view is to assess for the presence of **pleural effusion** or fluid above the diaphragm, or to evaluate for **splenic injury/hemoperitoneum** in the left upper quadrant.\n\nIn the clip, we can see the probe being manipulated to bring the spleen and the diaphragm into view. The echogenic (bright) curved line represents the diaphragm. The area above the diaphragm (to the left/top of the screen) is being interrogated to see if it is black (anechoic fluid) or filled with artifacts (normal lung). The area below (spleen) is also being checked. This is a standard maneuver to rule out pathology in the left hemithorax and upper abdomen.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is setting up a view of the **left diaphragm/spleen interface** (often part of a FAST exam or thoracic ultrasound) to compare it with the right side. The purpose of obtaining this view is to assess for the presence of **pleural effusion** or fluid above the diaphragm, or to evaluate for **splenic injury/hemoperitoneum** in the left upper quadrant.\n\nIn the clip, we can see the probe being manipulated to bring the spleen and the diaphragm into view. The echogenic (bright) curved line represents the diaphragm. The area above the diaphragm (to the left/top of the screen) is being interrogated to see if it is black (anechoic fluid) or filled with artifacts (normal lung). The area below (spleen) is also being checked. This is a standard maneuver to rule out pathology in the left hemithorax and upper abdomen.",
+      "latency_ms": 10962.347984313965,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 7.549999999999997,
+    "judge_explanation": "The AI's response contradicts the Ground Truth regarding the purpose and likely the anatomy of the view. The Ground Truth states the purpose is to 'compare echotexture/appearance' between the target and an adjacent organ, which is standard for assessing parenchymal disease (e.g., liver vs. kidney or spleen vs. kidney). The AI incorrectly identifies the purpose as assessing for 'pleural effusion' or 'fluid' (a FAST exam context) and identifies the interface as 'spleen/diaphragm'. You do not compare echotexture between the spleen and the diaphragm; thus, the AI has misidentified the clinical goal and the specific anatomical interface required for that goal.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, after the comparative image is obtained, what documentation step is performed next and what is its purpose?",
+    "answer": "The operator labels/annotates the saved image to identify what view and structures are shown. This ensures correct documentation and prevents later misinterpretation when reviewing images.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After acquiring the spleen–kidney comparison image, the operator uses the keyboard to annotate/label the view appropriately for documentation.",
+    "time_start": 74.3,
+    "time_end": 110.91,
+    "model_prediction": "Based on the video clip, the sonographer freezes the image showing the spleen and left kidney together and then adds a text annotation labeled **\"LONG SPLEEN\"** at the top left of the screen. This step documents the specific organ and view being imaged for the medical record.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer freezes the image showing the spleen and left kidney together and then adds a text annotation labeled **\"LONG SPLEEN\"** at the top left of the screen. This step documents the specific organ and view being imaged for the medical record.",
+      "latency_ms": 9000.830888748169,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 36.61,
+    "judge_explanation": "The AI correctly identifies the next step as adding an annotation/label to the image and correctly explains its purpose (documentation of the organ/view), matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what measurement is being obtained with calipers, and what clinical parameter does it represent?",
+    "answer": "Calipers are used to measure the organ’s maximal long-axis length from one end to the other. This represents organ size for standard assessment and comparison to expected ranges.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Calipers are placed to measure the spleen from the superior to inferior border, obtaining the longitudinal splenic length.",
+    "time_start": 129.94,
+    "time_end": 138.72,
+    "model_prediction": "Based on the video clip, the measurement being obtained with calipers is the longitudinal length of the spleen. The clinician places calipers at the superior and inferior poles of the spleen to measure its maximum craniocaudal dimension, which represents spleen size (splenomegaly assessment).",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the measurement being obtained with calipers is the longitudinal length of the spleen. The clinician places calipers at the superior and inferior poles of the spleen to measure its maximum craniocaudal dimension, which represents spleen size (splenomegaly assessment).",
+      "latency_ms": 8532.052993774414,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 8.780000000000001,
+    "judge_explanation": "The AI correctly identifies the measurement (maximal long-axis length) and the clinical parameter (organ size), aligning perfectly with the ground truth. The AI specifies the organ as the spleen, which is consistent with the measurement description provided in the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize the workflow from setting up the dedicated view through measurement, and state the next logical evaluation step that follows in this exam.",
+    "answer": "The operator isolates a clean long-axis view, freezes a representative frame, and measures the organ’s length with calipers. The next logical step is to assess vascular features (e.g., with flow imaging) as part of a complete evaluation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "A longitudinal spleen image is prepared, frozen, and measured with calipers for splenic length; the exam then proceeds to additional assessment steps beyond size documentation.",
+    "time_start": 114.39,
+    "time_end": 138.72,
+    "model_prediction": "Based on the video, the workflow begins by visualizing the spleen and left kidney together (splenorenal view) to establish anatomical landmarks. The probe is then adjusted to isolate the spleen specifically, optimizing the image to display its full longitudinal axis. Once a clear, elongated view of the spleen is obtained, the clinician freezes the image and uses calipers to measure the maximum longitudinal length (cranial-caudal dimension), recorded here as 12.53 cm.\n\nFollowing this specific measurement of spleen size, the next logical evaluation step in a standard abdominal or renal/spleen protocol would be to interrogate the splenic parenchyma for echotexture abnormalities and to assess the left kidney separately for hydronephrosis, masses, or stones.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the workflow begins by visualizing the spleen and left kidney together (splenorenal view) to establish anatomical landmarks. The probe is then adjusted to isolate the spleen specifically, optimizing the image to display its full longitudinal axis. Once a clear, elongated view of the spleen is obtained, the clinician freezes the image and uses calipers to measure the maximum longitudinal length (cranial-caudal dimension), recorded here as 12.53 cm.\n\nFollowing this specific measurement of spleen size, the next logical evaluation step in a standard abdominal or renal/spleen protocol would be to interrogate the splenic parenchyma for echotexture abnormalities and to assess the left kidney separately for hydronephrosis, masses, or stones.",
+      "latency_ms": 7290.813207626343,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 24.33,
+    "judge_explanation": "The AI correctly summarizes the workflow shown in the video (isolating the view, freezing, and measuring), and correctly identifies the organ as the spleen based on the measurement shown. However, the AI's prediction for the 'next logical evaluation step' differs from the ground truth. The ground truth specifies assessing vascular features (flow imaging), whereas the AI suggests assessing the parenchyma or the left kidney.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is being accomplished in this final segment, and why are the optimization and labeling actions included before finishing?",
+    "answer": "A standard short-axis (transverse) still image is captured, then the focal depth is adjusted to best emphasize the deeper portion of the organ, and the image is labeled for correct documentation. These steps ensure the saved transverse view is both well-focused and clearly identified in the study.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "A transverse spleen image is acquired, the focus depth is adjusted to the posterior level of the spleen, and the image is annotated as a transverse view for proper documentation.",
+    "time_start": 162.93,
+    "time_end": 176.32,
+    "model_prediction": "Based on the video, the clinician is capturing a final still image of the spleen (\"Long Spleen\") to document normal findings before concluding the scan. The optimization (using color Doppler to check blood flow) and labeling (\"Long Spleen\") are performed first to prove the organ is normal and properly identified for the medical record before freezing the image.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the clinician is capturing a final still image of the spleen (\"Long Spleen\") to document normal findings before concluding the scan. The optimization (using color Doppler to check blood flow) and labeling (\"Long Spleen\") are performed first to prove the organ is normal and properly identified for the medical record before freezing the image.",
+      "latency_ms": 7392.98415184021,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 13.389999999999986,
+    "judge_explanation": "The AI prediction contradicts the ground truth on multiple key points. The AI identifies the view as 'Long Spleen' (longitudinal) and claims color Doppler is used, whereas the ground truth states it is a 'short-axis (transverse)' view and the optimization involves adjusting 'focal depth'.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  }
+]

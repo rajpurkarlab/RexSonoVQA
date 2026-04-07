@@ -1,0 +1,192 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what phase of the exam is the operator performing as the probe is first placed and the image is searched and oriented?\nA) Initial localization and orientation of the target organ using key landmarks\nB) Optimizing a diagnostic long-axis view for formal measurements once the organ is centered in the field\nC) Applying Color Doppler to assess vascular flow and confirm vessel patency after grayscale identification\nD) Transitioning to documentation by capturing labeled still images or cine loops of standard views",
+    "answer": "A",
+    "groundtruth": "The operator places the probe on the abdomen and begins scanning to find the pancreas, then looks for key vascular landmarks (splenic vein/portal confluence) to orient the initial view.",
+    "time_start": 0.05,
+    "time_end": 14.28,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 0.05,
+    "original_time_end": 14.28,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The video shows the probe is just placed on the patient, and the operator is adjusting the probe to bring anatomical structures into view and orient the image, which is consistent with the initial phase of localizing the target organ and orienting using anatomical landmarks, before optimization for measurements, Doppler application, or documentation steps.",
+      "latency_ms": 19433.6519241333,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which optimization change is being made before proceeding to detailed evaluation, and why?\nA) Increasing imaging depth and repositioning the focal zone to match the target’s location\nB) Reducing overall gain and adjusting TGC to improve contrast and reduce background noise before assessing the structure\nC) Switching to a higher-frequency transducer setting to increase near-field resolution for more detailed evaluation of superficial anatomy\nD) Activating color Doppler and optimizing the PRF to confirm vascular flow prior to making structural measurements",
+    "answer": "A",
+    "groundtruth": "After noting the target is very anterior on the display, the operator adjusts depth and focus so the settings are appropriate for the pancreas prior to detailed scanning.",
+    "time_start": 14.4,
+    "time_end": 28.72,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 14.4,
+    "original_time_end": 28.72,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The video only shows grayscale 2D imaging (no color Doppler, so D is eliminated), depth is *decreased* (not increased, so A is eliminated), and there is no indication of a transducer frequency switch to a higher frequency (so C is eliminated). The image demonstrates improved contrast and reduced background noise after adjustment, consistent with reducing overall gain and adjusting TGC to optimize visualization of the abdominal structures before evaluation.",
+      "latency_ms": 38084.34510231018,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what probe motion is being performed during the continuous pass through the first segment, and what is its purpose?\nA) A full through-and-back sweep to interrogate the entire segment of tissue\nB) A slow one-way sweep along the segment to identify a focal lesion before returning for focused measurements.\nC) A controlled heel-toe rocking/fanning motion to optimize insonation angle and reduce anisotropy across the tissue.\nD) A short in-place tilting and sliding adjustment to center the structure and improve border definition prior to documentation.",
+    "answer": "A",
+    "groundtruth": "The operator sweeps the probe all the way through the pancreatic head tissue and then sweeps back to complete a full interrogation of that segment.",
+    "time_start": 47.12,
+    "time_end": 55.14,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 47.12,
+    "original_time_end": 55.14,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The probe executes a full through-and-back sweep across the tissue segment, which is intended to fully interrogate/evaluate all parts of the entire tissue segment being assessed in this pass.",
+      "latency_ms": 16024.815082550049,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after finishing the first segment and letting the patient relax, what is the next planned step?\nA) Transition to interrogate the remaining portions in the same plane with another breath-hold\nB) Rotate 90° into a longitudinal orientation to obtain a midline long-axis view before proceeding.\nC) Activate color Doppler to assess vascular flow and confirm patency in the imaged segment.\nD) Zoom the region of interest and place calipers to document a key measurement before moving on.",
+    "answer": "A",
+    "groundtruth": "After completing the initial sweep and allowing the patient to breathe, the operator shifts focus to the body and tail of the pancreas and prepares another breath-hold to re-establish an optimal window.",
+    "time_start": 56.81,
+    "time_end": 71.24,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 56.81,
+    "original_time_end": 71.24,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The initial imaging is done in a consistent transverse cross-sectional plane. Standard scanning protocol first completes evaluation of all relevant anatomy in the current imaging plane, using additional breath holds as needed to assess remaining portions in this plane, before reorienting the probe, activating Doppler, or taking measurements.",
+      "latency_ms": 26273.580074310303,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what real-time optimization is performed during the sweep, and why?\nA) Depth is adjusted dynamically to keep the target appropriately framed as anatomy changes across the sweep\nB) Overall gain is adjusted during the sweep to normalize echogenicity as attenuation varies with depth\nC) The focal zone is shifted in real time to keep the area of interest at the point of best lateral resolution throughout the sweep\nD) Time-gain compensation is tweaked during the sweep to balance near- and far-field brightness as the insonation path changes",
+    "answer": "A",
+    "groundtruth": "During the superior-to-inferior sweep through the tail, the operator adjusts depth dynamically so the displayed field matches the changing anatomy and maintains optimal visualization during the pass and return sweep.",
+    "time_start": 71.96,
+    "time_end": 82.57,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 71.96,
+    "original_time_end": 82.57,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The depth marker visible at the bottom left of the ultrasound display changes dynamically across the sweep (from 14cm down to 9cm then back to 10cm as the sweep progresses). This adjustment of depth is done to keep the target anatomical structures appropriately framed in the image as the imaged anatomy changes with probe movement.",
+      "latency_ms": 16036.500930786133,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what maneuver is used to switch into the orthogonal imaging plane, and what is the immediate goal?\nA) Rotating the transducer to obtain a longitudinal view and re-locating the first segment in that plane\nB) Rotating the transducer 90° into a transverse (short-axis) view to start a systematic top-to-bottom survey of the structure.\nC) Rotating the transducer into the transverse plane to obtain a short-axis view and immediately assess compressibility to help distinguish vein from artery.\nD) Rotating the transducer into the transverse plane to obtain orthogonal dimensions and begin two-plane measurements for size/volume estimation.",
+    "answer": "A",
+    "groundtruth": "The transducer is rotated into the longitudinal plane and the pancreatic head is re-identified (anterior to the IVC) to begin longitudinal interrogation.",
+    "time_start": 90.35,
+    "time_end": 98.44,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 90.35,
+    "original_time_end": 98.44,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe transducer is rotated 90 degrees to switch from the initial long-axis view to the orthogonal short-axis (transverse) view of the vascular structures. The standard immediate goal of obtaining this short-axis view of vessels is to assess compressibility, as veins will compress under gentle probe pressure while arteries do not, allowing differentiation between the two structure types.",
+      "latency_ms": 29131.197929382324,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after sweeping out and returning to the start location in the longitudinal plane, what does this sequence represent in the workflow?\nA) Completion of a full longitudinal interrogation loop before ending the breath-hold\nB) Returning to the initial landmark to transition from longitudinal to transverse imaging for follow-up views.\nC) Re-centering on the target at the start position to acquire a representative still image for measurements and documentation.\nD) Resetting probe position after a sweep to prepare for Doppler assessment of flow at the region of interest.",
+    "answer": "A",
+    "groundtruth": "The operator completes the longitudinal interrogation by sweeping out and returning to the starting position, then ends the breath-hold by allowing the patient to breathe.",
+    "time_start": 115.22,
+    "time_end": 124.38,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 115.22,
+    "original_time_end": 124.38,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe sequence of sweeping across the full region of interest in the longitudinal plane and returning to the starting point constitutes a complete longitudinal interrogation of the target area, typically performed while the patient holds their breath to ensure full, unobscured assessment of the anatomy before the breath hold ends. No transition to transverse imaging, still image acquisition, or Doppler preparation is indicated as part of this observed sequence.",
+      "latency_ms": 32152.127981185913,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action indicates the operator is documenting a key view, and why is it done?\nA) Freezing the image to capture a still frame for documentation\nB) Activating color Doppler to assess blood flow, which is used for hemodynamic evaluation rather than documenting a static key view.\nC) Placing calipers to measure a structure, which is done for quantification instead of capturing a representative key image.\nD) Rotating the transducer to obtain an orthogonal plane, which is performed to improve anatomic assessment rather than to document the current view.",
+    "answer": "A",
+    "groundtruth": "The operator freezes the image to document a representative transverse view of the pancreatic body and tail.",
+    "time_start": 151.88,
+    "time_end": 158.69,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 151.88,
+    "original_time_end": 158.69,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe final frames of the video show the ultrasound image is frozen, capturing a static still frame. This action is performed to save a clear, representative key anatomic view for documentation in patient records, clinical review, or formal reporting of the examination.",
+      "latency_ms": 14831.5110206604,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which optimization change is made for the targeted still image, and why?\nA) Adjusting depth to match the specific structure being imaged for better framing and resolution\nB) Adjusting overall gain/TGC to improve contrast between the target structure and surrounding tissue without changing the imaging plane\nC) Shifting the focal zone to the level of the structure of interest to sharpen borders and reduce blurring\nD) Activating tissue harmonic imaging to reduce clutter and enhance definition of deeper structures",
+    "answer": "A",
+    "groundtruth": "The operator adjusts depth to optimize the view for the pancreatic head and then allows the patient to return to normal breathing after the capture.",
+    "time_start": 175.3,
+    "time_end": 181.61,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 175.3,
+    "original_time_end": 181.61,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe first visible change in the clip is the imaging depth being reduced from 8cm to 7cm, which adjusts the framing to prioritize the pancreatic/upper abdominal structures being imaged, increasing their relative size on screen for better resolution and optimal framing of the target anatomy.",
+      "latency_ms": 20271.54016494751,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what best describes the operator’s broader workflow in this later segment?\nA) Sequentially documenting multiple segments in an orthogonal plane by rotating, repositioning, using breath control, and freezing still images\nB) Performing a continuous longitudinal sweep through the structure while saving a cine loop rather than freezing sequential still images in orthogonal views\nC) Maintaining the same imaging plane but switching to color Doppler intermittently to assess vascularity before documenting a single representative image\nD) Focusing on optimizing one segment in a single plane with subtle fanning and rocking to reduce respiratory motion rather than systematically rotating and repositioning for multiple segments",
+    "answer": "A",
+    "groundtruth": "The operator rotates to longitudinal to document the pancreatic head with a frozen annotated image, then repositions to the body and captures a longitudinal body image with a breath-hold; finally, they move to the tail and adjust depth/focus (with posterior focus placement) to optimize the last segment’s imaging.",
+    "time_start": 214.36,
+    "time_end": 263.49,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 214.36,
+    "original_time_end": 263.49,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nExplanation: The clip shows a transverse (orthogonal to longitudinal) view of the pancreas, with the operator repositioning the probe to view multiple segments of the pancreas, adjusting depth settings, and ending on a frozen still image consistent with documentation of findings, matching the description in option A. No color Doppler is seen (eliminating C), the plane is transverse not longitudinal (eliminating B), and multiple segments are imaged rather than just one optimized segment (eliminating D).",
+      "latency_ms": 40566.05887413025,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe motion pattern is being performed, and what is the primary imaging goal?\nA. Fanning (rocking) the probe in place to obtain a complete long-axis view for standardized measurement of a target organ.\nB. Lateral sweeping across the abdomen to systematically survey a central region in one continuous pass\nC. Performing a stepwise, overlapping quadrant sweep to evaluate dependent spaces for free intraperitoneal fluid.\nD. Using a heel-toe angulation to optimize the insonation angle through an acoustic window and reduce rib shadowing.",
+    "answer": "B",
+    "groundtruth": "A leftward sweep followed by a rightward sweep is performed during an inspiratory hold to obtain a systematic survey of midline anatomy with improved acoustic access.",
+    "time_start": 5.82,
+    "time_end": 19.25,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what probe motion pattern is being performed, and what is the primary imaging goal?\nA. Fanning (rocking) the probe in place to obtain a complete long-axis view for standardized measurement of a target organ.\nB. Using a heel-toe angulation to optimize the insonation angle through an acoustic window and reduce rib shadowing.\nC. Lateral sweeping across the abdomen to systematically survey a central region in one continuous pass\nD. Performing a stepwise, overlapping quadrant sweep to evaluate dependent spaces for free intraperitoneal fluid.",
+    "original_answer": "C",
+    "original_time_start": 5.82,
+    "original_time_end": 19.25,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The probe is moving linearly across the abdominal wall (not tilting/fanning in place, not performing stepwise quadrant checks, nor adjusting angulation to avoid rib shadow), producing a continuous shift in the imaged anatomy consistent with a lateral sweeping pass to systematically survey the central abdominal region.",
+      "latency_ms": 89968.9610004425,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, which imaging control is adjusted, and what is the purpose of that adjustment?\nA. Move the focal zone to the level of the target to improve lateral resolution at that depth\nB. Activate image zoom on the region of interest to enlarge the target for more precise assessment\nC. Decrease imaging depth to better frame the target and reduce unnecessary posterior field\nD. Increase overall gain to brighten the image and improve visualization of low‑echo structures",
+    "answer": "C",
+    "groundtruth": "The depth is adjusted to optimize framing of the gallbladder and eliminate unnecessary posterior dead space.",
+    "time_start": 22.33,
+    "time_end": 25.15,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, which imaging control is adjusted, and what is the purpose of that adjustment?\nA. Move the focal zone to the level of the target to improve lateral resolution at that depth\nB. Decrease imaging depth to better frame the target and reduce unnecessary posterior field\nC. Increase overall gain to brighten the image and improve visualization of low‑echo structures\nD. Activate image zoom on the region of interest to enlarge the target for more precise assessment",
+    "original_answer": "B",
+    "original_time_start": 22.33,
+    "original_time_end": 25.15,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe imaging control adjusted is the focal zone, moved to the depth of the visible tubular target structures. Moving the focal zone to the target depth optimizes lateral resolution at that specific depth, which is evident as the target structures become better defined as the adjustment occurs. Other options are incorrect: no zoom/enlargement of the field (ruling out B), imaging depth remains unchanged (ruling out C), and gain is not increased as the anechoic vascular structures remain appropriately dark without increased background echo (ruling out D).",
+      "latency_ms": 53116.719245910645,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, why does the operator briefly pause after brightness optimization?\nA. To confirm the target’s fluid space is appropriately dark and free of excessive noise\nB. To fine-tune time gain compensation so deeper tissues are not overbrightened after changing overall gain\nC. To reposition the focal zone and adjust depth so the region of interest sits at the point of best lateral resolution\nD. To briefly freeze the image to capture and label an optimized frame for documentation before proceeding",
+    "answer": "A",
+    "groundtruth": "After gain optimization, the operator assesses image quality to ensure the gallbladder lumen appears anechoic with appropriate gain and minimal noise.",
+    "time_start": 34.97,
+    "time_end": 39.71,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, why does the operator briefly pause after brightness optimization?\nA. To confirm the target’s fluid space is appropriately dark and free of excessive noise\nB. To briefly freeze the image to capture and label an optimized frame for documentation before proceeding\nC. To fine-tune time gain compensation so deeper tissues are not overbrightened after changing overall gain\nD. To reposition the focal zone and adjust depth so the region of interest sits at the point of best lateral resolution",
+    "original_answer": "A",
+    "original_time_start": 34.97,
+    "original_time_end": 39.71,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nAfter adjusting the overall brightness (gain) of the ultrasound image, the operator pauses to verify that the fluid-containing structure (the anechoic target, consistent with gallbladder here) is appropriately dark (anechoic) without extra image noise, confirming the gain adjustment is correct for the target anatomy. The other options are not supported: no time gain compensation fine-tuning, focal zone/depth adjustment, or image freezing for documentation is observed in the clip.",
+      "latency_ms": 53604.432821273804,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing in this short sequence?\nA. Repositioning the focal zone and adjusting imaging depth to optimize resolution at the structure of interest.\nB. Saving a representative still frame and then using that frozen frame to confirm surrounding landmarks/orientation\nC. Freezing the image to place calipers and obtain a quick measurement of the target structure.\nD. Widening the imaging sector to increase anatomic coverage, accepting a lower frame rate.",
+    "answer": "B",
+    "groundtruth": "After freezing a complete gallbladder view, the operator uses the frozen image to identify key adjacent landmarks (porta hepatis/portal vein region, IVC, and a posterior arterial structure).",
+    "time_start": 39.93,
+    "time_end": 54.12,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what is the operator doing in this short sequence?\nA. Freezing the image to place calipers and obtain a quick measurement of the target structure.\nB. Widening the imaging sector to increase anatomic coverage, accepting a lower frame rate.\nC. Repositioning the focal zone and adjusting imaging depth to optimize resolution at the structure of interest.\nD. Saving a representative still frame and then using that frozen frame to confirm surrounding landmarks/orientation",
+    "original_answer": "D",
+    "original_time_start": 39.93,
+    "original_time_end": 54.12,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The ultrasound image freezes into a still frame, and then a cursor arrow is moved across the frozen image to point to different adjacent structures, which corresponds to confirming surrounding landmarks and orientation after capturing a representative still frame. No calipers for measurement, changes to depth/focal zone, or sector width adjustment are observed.",
+      "latency_ms": 69093.39594841003,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what setting change is made, and what is the main benefit?\nA. Reducing overall gain to minimize artifactual echoes and better delineate tissue interfaces\nB. Changing to a higher-frequency linear preset to improve near-field detail for a superficial region of interest\nC. Decreasing the imaging depth to enlarge the target and improve spatial resolution of superficial structures\nD. Narrowing the imaging sector to improve frame rate and concentrate on the region of interest",
+    "answer": "D",
+    "groundtruth": "The sector width is decreased to narrow the field of view, increasing frame rate and focusing attention on the gallbladder.",
+    "time_start": 68.37,
+    "time_end": 71.14,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what setting change is made, and what is the main benefit?\nA. Decreasing the imaging depth to enlarge the target and improve spatial resolution of superficial structures\nB. Changing to a higher-frequency linear preset to improve near-field detail for a superficial region of interest\nC. Narrowing the imaging sector to improve frame rate and concentrate on the region of interest\nD. Reducing overall gain to minimize artifactual echoes and better delineate tissue interfaces",
+    "original_answer": "C",
+    "original_time_start": 68.37,
+    "original_time_end": 71.14,
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\nExplanation: The video ends with the imaging sector being narrowed, visible as the triangular field of view gets smaller with defined white borders. Narrowing the imaging sector reduces the number of scan lines needed per frame, increasing frame rate, while focusing the acquisition on the relevant anatomical region of interest.",
+      "latency_ms": 163232.20491409302,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning strategy is demonstrated, and what is the goal of doing it?\nA. Holding the probe steady on the target to observe for transient findings (e.g., intermittent flow or brief peristalsis) without introducing motion artifact\nB. Changing angles/positions to see whether a suspected finding moves with gravity and to avoid missing a hidden abnormality\nC. Performing a full systematic sweep through the entire structure to ensure complete coverage and reduce sampling error\nD. Reducing depth and narrowing the sector to improve resolution and frame rate for a more detailed assessment of the suspected area",
+    "answer": "B",
+    "groundtruth": "The operator scans the gallbladder from multiple positions and angles to look for gallstones that may be hidden/impacted and to assess for mobility (“rolling”) to confirm stones.",
+    "time_start": 79.04,
+    "time_end": 85.84,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what scanning strategy is demonstrated, and what is the goal of doing it?\nA. Reducing depth and narrowing the sector to improve resolution and frame rate for a more detailed assessment of the suspected area\nB. Performing a full systematic sweep through the entire structure to ensure complete coverage and reduce sampling error\nC. Holding the probe steady on the target to observe for transient findings (e.g., intermittent flow or brief peristalsis) without introducing motion artifact\nD. Changing angles/positions to see whether a suspected finding moves with gravity and to avoid missing a hidden abnormality",
+    "original_answer": "D",
+    "original_time_start": 79.04,
+    "original_time_end": 85.84,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nThe video demonstrates a systematic sweeping motion of the probe across the entire anatomical structure being imaged. This strategy ensures full coverage of the area of interest, reducing sampling error that could lead to missed abnormalities present in unsampled portions of the structure.",
+      "latency_ms": 95520.42579650879,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what broader workflow transition occurs at this point?\nA. Transition from longitudinal sweep to transverse cross-sectional imaging to complete the standard organ survey\nB. Transition from overall survey imaging to focused measurements and documentation of a suspected focal lesion\nC. Transition from grayscale anatomic survey to color/spectral Doppler assessment of regional vascular flow\nD. Transition from evaluating the primary organ to evaluating its associated outflow duct system",
+    "answer": "D",
+    "groundtruth": "After completing multi-angle gallbladder assessment, the operator repositions to locate the common bile duct, transitioning the exam from gallbladder to biliary tree evaluation.",
+    "time_start": 79.04,
+    "time_end": 92.6,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip, what broader workflow transition occurs at this point?\nA. Transition from longitudinal sweep to transverse cross-sectional imaging to complete the standard organ survey\nB. Transition from grayscale anatomic survey to color/spectral Doppler assessment of regional vascular flow\nC. Transition from evaluating the primary organ to evaluating its associated outflow duct system\nD. Transition from overall survey imaging to focused measurements and documentation of a suspected focal lesion",
+    "original_answer": "C",
+    "original_time_start": 79.04,
+    "original_time_end": 92.6,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\nThe video shows a transition from a sweeping motion along the long axis of the structure (longitudinal survey) to cross-sectional transverse views, which is consistent with completing a standard multi-planar organ survey protocol. No Doppler imaging, focal lesion measurement, or separate duct system evaluation is observed to support the other options.",
+      "latency_ms": 131889.99891281128,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what interpretation task is being performed while the probe remains on a stable view?\nA. Measuring the diameter of a tubular structure on a frozen stable image for documentation\nB. Applying color Doppler on the same view to assess flow direction and patency within the identified vessel\nC. Differentiating adjacent members of a vascular/duct bundle to correctly identify which tube is the duct versus vessels\nD. Observing for posterior acoustic shadowing or enhancement behind a structure to help characterize it as stone versus fluid",
+    "answer": "C",
+    "groundtruth": "The operator identifies and differentiates the portal triad region and nearby vessels (including posterior venous structures and a transverse arterial structure) to confirm the CBD’s position relative to them.",
+    "time_start": 107.85,
+    "time_end": 117.1,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what interpretation task is being performed while the probe remains on a stable view?\nA. Observing for posterior acoustic shadowing or enhancement behind a structure to help characterize it as stone versus fluid\nB. Differentiating adjacent members of a vascular/duct bundle to correctly identify which tube is the duct versus vessels\nC. Measuring the diameter of a tubular structure on a frozen stable image for documentation\nD. Applying color Doppler on the same view to assess flow direction and patency within the identified vessel",
+    "original_answer": "B",
+    "original_time_start": 107.85,
+    "original_time_end": 117.1,
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\nExplanation: The video shows a stable ultrasound view with a pointer cursor moving to mark adjacent tubular structures in a bundle, indicating the task is differentiating which structure is the duct versus adjacent vascular structures. No measurement calipers, color Doppler overlay, or assessment of posterior acoustic features is visible in the clip.",
+      "latency_ms": 25118.520259857178,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what tool is activated, and what is the reason for activating it?\nA. Measurement calipers to measure the diameter of the tubular target\nB. Color Doppler to confirm intraluminal flow and distinguish a vessel from a nonvascular tubular structure\nC. M-mode to document pulsatility and help differentiate a vascular structure from a nonpulsatile duct\nD. Spectral Doppler with angle correction to quantify peak systolic velocity within the tubular structure",
+    "answer": "A",
+    "groundtruth": "Measurement calipers are activated to prepare to measure the common bile duct diameter at the visualized point.",
+    "time_start": 121.43,
+    "time_end": 123.33,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what tool is activated, and what is the reason for activating it?\nA. Color Doppler to confirm intraluminal flow and distinguish a vessel from a nonvascular tubular structure\nB. M-mode to document pulsatility and help differentiate a vascular structure from a nonpulsatile duct\nC. Measurement calipers to measure the diameter of the tubular target\nD. Spectral Doppler with angle correction to quantify peak systolic velocity within the tubular structure",
+    "original_answer": "C",
+    "original_time_start": 121.43,
+    "original_time_end": 123.33,
+    "model_prediction": "",
+    "inference_metadata": {
+      "raw_response": "It is not possible to determine the answer from the provided video. The video only shows a grayscale 2D ultrasound image with a moveable pointing cursor over a tubular structure: no measurement calipers, color Doppler overlay, M-mode tracing, or spectral Doppler waveform/angle correction tool are visible as activated in the clip.",
+      "latency_ms": 35360.86201667786,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "start": 0.51,
+    "end": 9.22,
+    "action": "Place probe in transverse. Immediately adjust depth.",
+    "interpretation": "Visualize the superior portion of the aorta in transverse."
+  },
+  {
+    "start": 9.86,
+    "end": 13.82,
+    "action": "Instruct patient: 'Take a nice big breath in.'",
+    "interpretation": "Prepare patient for scanning."
+  },
+  {
+    "start": 14.7,
+    "end": 22.2,
+    "action": "Start sweeping probe. Ensure depth and focus remain set on the aorta.",
+    "interpretation": "Identify the aorta located 'right here'."
+  },
+  {
+    "start": 22.22,
+    "end": 25.04,
+    "action": "Sweep probe all the way down. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Follow the aorta distally."
+  },
+  {
+    "start": 25.06,
+    "end": 27.7,
+    "action": "Adjust gain.",
+    "interpretation": "Optimize image brightness."
+  },
+  {
+    "start": 28.52,
+    "end": 38.11,
+    "action": "Move probe distally. Maintain current depth limits. Scan until the bifurcation.",
+    "interpretation": "Visualize the aorta until it reaches the bifurcation."
+  },
+  {
+    "start": 38.63,
+    "end": 45.18,
+    "action": "Return probe to superior position for a second sweep. Instruct patient: 'Big breath in.'",
+    "interpretation": "Perform mandatory second interrogation of the organ."
+  },
+  {
+    "start": 46.11,
+    "end": 53.96,
+    "action": "Instruct patient: 'Hold that breath.' Follow the aorta all the way down. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Track the aorta distally."
+  },
+  {
+    "start": 54.92,
+    "end": 62.82,
+    "action": "Apply pressure at the mid-portion of the aorta.",
+    "interpretation": "Recognize that breath holding is ineffective at mid-portion; rely on pressure."
+  },
+  {
+    "start": 65.12,
+    "end": 73.93,
+    "action": "Adjust depth. Adjust zoom. Move focus to be posterior to the aorta.",
+    "interpretation": "Optimize image resolution and focal zone."
+  },
+  {
+    "start": 74.45,
+    "end": 80.57,
+    "action": "Adjust Time Gain Compensation (TGC).",
+    "interpretation": "Ensure appropriate gain to prevent excessive reverb within the aorta."
+  },
+  {
+    "start": 81.49,
+    "end": 92.66,
+    "action": "Perform mini-sweeps through the aorta while moving distally.",
+    "interpretation": "Verify there is 'nothing hanging off those sides of the walls'."
+  },
+  {
+    "start": 92.84,
+    "end": 103.06,
+    "action": "Scan through the midline, maintaining position through obstruction.",
+    "interpretation": "Visualize through bowel gas."
+  },
+  {
+    "start": 103.08,
+    "end": 107.23,
+    "action": "Scan distally until the vessel tapers.",
+    "interpretation": "Identify the tapering indicating the bifurcation."
+  },
+  {
+    "start": 108.29,
+    "end": 122.6,
+    "action": "Perform a final sweep all the way down. Sweep side-to-side through the structure.",
+    "interpretation": "Confirm the aorta as the 'really strong tubular structure' located 'right here'."
+  },
+  {
+    "start": 122.62,
+    "end": 131.45,
+    "action": "Increase probe pressure to displace bowel gas. Check patient comfort.",
+    "interpretation": "Overcome bowel gas obstruction."
+  },
+  {
+    "start": 131.97,
+    "end": 134.97,
+    "action": "Continue scanning. Instruct patient: 'Breathe normally.'",
+    "interpretation": "Maintain visualization while patient breathes."
+  },
+  {
+    "start": 135.44,
+    "end": 146.91,
+    "action": "Differentiate vessels to avoid interrogating the IVC.",
+    "interpretation": "Identify the Inferior Vena Cava (IVC) by noting it is 'not as strong or pulsatile as the aorta'."
+  },
+  {
+    "start": 147.69,
+    "end": 162.91,
+    "action": "Position probe in transverse. Activate dual screen. Target the celiac axis/trunk.",
+    "interpretation": "Use the celiac axis/trunk as a landmark for the superior portion image."
+  },
+  {
+    "start": 163.29,
+    "end": 165.84,
+    "action": "Instruct patient: 'Take a nice big breath in.'",
+    "interpretation": "Prepare for superior image capture."
+  },
+  {
+    "start": 166.68,
+    "end": 179.62,
+    "action": "Freeze image. Instruct patient: 'Breathe normally.' Then instruct: 'Breath in.'",
+    "interpretation": "Visualize 'lovely celiac axis'."
+  },
+  {
+    "start": 182.15,
+    "end": 185.73,
+    "action": "Hit update. Instruct patient: 'Breathe.'",
+    "interpretation": "Retry image capture on dual screen."
+  },
+  {
+    "start": 185.74,
+    "end": 213.75,
+    "action": "Move to mid-portion. Use SMA as landmark. Observe anatomical layout.",
+    "interpretation": "Visualize SMA. Note anatomical variant: IVC is on the left-hand side beside the aorta, rather than the typical right-hand side."
+  },
+  {
+    "start": 214.39,
+    "end": 219.54,
+    "action": "Acquire image. Begin annotation.",
+    "interpretation": "Capture mid-aorta image."
+  },
+  {
+    "start": 219.84,
+    "end": 226.78,
+    "action": "Annotate image: 'Trans', 'Aorta', 'Superior', and 'Mid'.",
+    "interpretation": "Label the dual screen image appropriately."
+  },
+  {
+    "start": 226.81,
+    "end": 245.99,
+    "action": "Take one image without calipers. Take one image with calipers at mid-aorta level. Measure from outer wall to outer wall.",
+    "interpretation": "Observe measurement is approximately 1.7. Ensure measurement is done in transverse plane."
+  },
+  {
+    "start": 247.62,
+    "end": 261.43,
+    "action": "Scan distally to bifurcation. Return to transverse. Activate dual screen.",
+    "interpretation": "Prepare for distal bifurcation imaging."
+  },
+  {
+    "start": 262.21,
+    "end": 273.72,
+    "action": "Assess focus position. Maintain current focus. Activate dual.",
+    "interpretation": "Optimize settings for distal image."
+  },
+  {
+    "start": 275.88,
+    "end": 284.23,
+    "action": "Locate bifurcation. Annotate: 'Trans AO distal'.",
+    "interpretation": "Visualize bifurcation."
+  },
+  {
+    "start": 284.25,
+    "end": 289.57,
+    "action": "Type annotation: 'Bifurcation'.",
+    "interpretation": "Complete labeling."
+  },
+  {
+    "start": 292.92,
+    "end": 304.47,
+    "action": "Rotate probe 90 degrees to longitudinal. Position for superior image.",
+    "interpretation": "Prepare for longitudinal scan."
+  },
+  {
+    "start": 304.79,
+    "end": 310.95,
+    "action": "Target aorta at the diaphragm. Instruct patient: 'Big breath in.'",
+    "interpretation": "Visualize aorta emerging 'right by the diaphragm'."
+  },
+  {
+    "start": 311.43,
+    "end": 326.28,
+    "action": "Instruct patient: 'Hold in that breath.' Scan superior aorta.",
+    "interpretation": "Monitor for reverb within aorta. Ensure liver does not appear too hypoechoic."
+  },
+  {
+    "start": 329.92,
+    "end": 340.09,
+    "action": "Instruct patient: 'Breathe.' Annotate: 'Long Aorta' and 'Superior'. Slide to mid-aorta.",
+    "interpretation": "Capture and label superior longitudinal view."
+  },
+  {
+    "start": 345.18,
+    "end": 350.52,
+    "action": "Center the aorta in the image.",
+    "interpretation": "Ensure strongest beams by keeping aorta in the middle portion of the image."
+  },
+  {
+    "start": 351.28,
+    "end": 360.88,
+    "action": "Look at patient for orientation. Scan for SMA branching off aorta.",
+    "interpretation": "Confirm mid-portion location by identifying the SMA."
+  },
+  {
+    "start": 362.15,
+    "end": 380.24,
+    "action": "Capture mid-image. Move to distal/inferior aorta. Adjust angle coronally.",
+    "interpretation": "Look for 'tuning fork appearance'. Identify IVC posterior to the aorta."
+  },
+  {
+    "start": 380.94,
+    "end": 387.08,
+    "action": "Confirm distal level. Move focus.",
+    "interpretation": "Be confident of distal level location."
+  },
+  {
+    "start": 389.16,
+    "end": 395.63,
+    "action": "Adjust TGCs.",
+    "interpretation": "Ensure lumen looks 'nice and anechoic'."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement pattern is being performed through the target organ, and what diagnostic objective is it meant to address?",
+    "answer": "The operator sweeps through the kidney to survey the renal parenchyma. The goal is to look for obstructive findings such as collecting-system dilation (e.g., dilated calyces or renal pelvis).",
+    "groundtruth": "The operator sweeps through the kidney to assess the renal parenchyma and specifically evaluate for signs of obstruction such as dilated calyces or a dilated renal pelvis.",
+    "time_start": 9.19,
+    "time_end": 17.74,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 9.19,
+    "original_time_end": 17.74,
+    "model_prediction": "The probe is performing a continuous, systematic caudal (inferior) sliding sweep through the target organ (appearing to be the gallbladder).\nThis movement is intended to fully survey the entire organ to identify and characterize focal abnormalities, specifically confirming the presence of the marked hyperechoic intraluminal structure and its associated posterior acoustic shadowing, consistent with a diagnosis of cholelithiasis (gallstone).",
+    "inference_metadata": {
+      "raw_response": "The probe is performing a continuous, systematic caudal (inferior) sliding sweep through the target organ (appearing to be the gallbladder).\nThis movement is intended to fully survey the entire organ to identify and characterize focal abnormalities, specifically confirming the presence of the marked hyperechoic intraluminal structure and its associated posterior acoustic shadowing, consistent with a diagnosis of cholelithiasis (gallstone).",
+      "latency_ms": 170487.63704299927,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 8.549999999999999,
+    "judge_explanation": "The AI incorrectly identifies the target organ as the gallbladder instead of the kidney, and incorrectly states the diagnostic objective is to look for gallstones rather than surveying the renal parenchyma for obstructive findings.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, the view becomes suboptimal and a brief controlled inhalation is used. What optimization strategy is being shown, and why does it help?",
+    "answer": "The scan is timed with a small inspiration to shift the kidney inferiorly so it comes out from behind acoustic shadowing and into a clearer intercostal window.",
+    "groundtruth": "When the view is obscured by rib shadowing, the operator uses a small inspiratory breath to displace the anatomy inferiorly, moving the kidney out of the shadow and improving visualization.",
+    "time_start": 18.5,
+    "time_end": 29.35,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 18.5,
+    "original_time_end": 29.35,
+    "model_prediction": "The optimization strategy shown is a controlled patient inspiratory respiratory maneuver.\nInhalation moves the diaphragm inferiorly, which pushes the target upper abdominal anatomical structure (e.g. liver, biliary structures, upper renal pole) downward out from underneath the ribcage, eliminating the obscuring acoustic shadow from overlying bony rib tissue to improve visualization of the target anatomy.",
+    "inference_metadata": {
+      "raw_response": "The optimization strategy shown is a controlled patient inspiratory respiratory maneuver.\nInhalation moves the diaphragm inferiorly, which pushes the target upper abdominal anatomical structure (e.g. liver, biliary structures, upper renal pole) downward out from underneath the ribcage, eliminating the obscuring acoustic shadow from overlying bony rib tissue to improve visualization of the target anatomy.",
+      "latency_ms": 170824.54991340637,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 10.850000000000001,
+    "judge_explanation": "The AI correctly identifies the optimization strategy (inspiration) and the general mechanism (shifting structures inferiorly to avoid rib shadows). However, it fails to specifically identify the kidney as the organ being visualized in the clip, providing only a generic list of possible structures instead.",
+    "judge_error_type": "wrong_visual_evidence"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transducer repositioning is performed to recover/improve the view, and what problem is it intended to solve?",
+    "answer": "The probe is moved down by one rib space and the sweep is continued. This changes the intercostal window to avoid persistent shadow/limited access and regain a clear view.",
+    "groundtruth": "The operator moves the probe down one rib space and continues sweeping to use an alternative intercostal window and maintain/regain visualization.",
+    "time_start": 33.16,
+    "time_end": 38.18,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 33.16,
+    "original_time_end": 38.18,
+    "model_prediction": "The operator applies gentle downward compression (pushes the transducer inward toward the patient's abdominal cavity). This is intended to displace overlying gas-filled bowel loops that are causing acoustic shadowing and obscuring the deeper target anatomical structure (the kidney visible briefly at ~3 seconds when compression is applied), to recover clear visualization of the target structure.",
+    "inference_metadata": {
+      "raw_response": "The operator applies gentle downward compression (pushes the transducer inward toward the patient's abdominal cavity). This is intended to displace overlying gas-filled bowel loops that are causing acoustic shadowing and obscuring the deeper target anatomical structure (the kidney visible briefly at ~3 seconds when compression is applied), to recover clear visualization of the target structure.",
+      "latency_ms": 90132.21716880798,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.020000000000003,
+    "judge_explanation": "The AI incorrectly identifies the transducer repositioning as downward compression to displace bowel gas, whereas the ground truth states the probe is moved down by one rib space to avoid persistent rib shadowing.",
+    "judge_error_type": "both_fail"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what systematic coverage pattern is performed at the end of the scan, and what is the broader endpoint of this step?",
+    "answer": "The operator sweeps completely through the kidney from anterior to posterior to ensure full volume coverage. This final pass confirms the entire organ has been assessed before ending the exam.",
+    "groundtruth": "The operator performs a complete anterior-to-posterior sweep through the kidney to ensure the entire organ volume is assessed, then concludes the exam.",
+    "time_start": 39.41,
+    "time_end": 46.9,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 39.41,
+    "original_time_end": 46.9,
+    "model_prediction": "The systematic coverage pattern performed at the end is slow, continuous fanning (tilting/sweeping the probe side to side across the scanned plane) through the entire imaged field of the target anatomic region.\nThe broader endpoint of this step is to ensure full, complete interrogation of the entire region of interest, so that no potential pathologic findings in that space are missed.",
+    "inference_metadata": {
+      "raw_response": "The systematic coverage pattern performed at the end is slow, continuous fanning (tilting/sweeping the probe side to side across the scanned plane) through the entire imaged field of the target anatomic region.\nThe broader endpoint of this step is to ensure full, complete interrogation of the entire region of interest, so that no potential pathologic findings in that space are missed.",
+      "latency_ms": 197905.51686286926,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 7.490000000000002,
+    "judge_explanation": "The AI correctly identifies the broader endpoint of ensuring full volume coverage/interrogation of the region of interest. However, it fails to specifically identify the kidney and the anterior-to-posterior sweep mentioned in the ground truth, using generic terms instead.",
+    "judge_error_type": "wrong_visual_evidence"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial probe setup is being used, and what is the first imaging objective?\nA. Begin with a transverse low-abdominal view to bring a consistent pelvic reference landmark into view for orientation\nB. Begin with a sagittal suprapubic view to identify the bladder as an acoustic window and establish midline pelvic orientation\nC. Begin with an endovaginal sagittal view to immediately locate the cervix and uterine fundus before surveying the adnexa\nD. Start with a transverse suprapubic view focused on identifying free intraperitoneal fluid in the cul-de-sac as the first priority",
+    "answer": "A",
+    "groundtruth": "The operator starts scanning in a transverse orientation just above the suprapubic region with the beam aimed into the pelvis to first identify the bladder as the primary landmark.",
+    "time_start": 0.11,
+    "time_end": 10.92,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what initial probe setup is being used, and what is the first imaging objective?\nA. Begin with an endovaginal sagittal view to immediately locate the cervix and uterine fundus before surveying the adnexa\nB. Begin with a sagittal suprapubic view to identify the bladder as an acoustic window and establish midline pelvic orientation\nC. Start with a transverse suprapubic view focused on identifying free intraperitoneal fluid in the cul-de-sac as the first priority\nD. Begin with a transverse low-abdominal view to bring a consistent pelvic reference landmark into view for orientation",
+    "original_answer": "D",
+    "original_time_start": 0.11,
+    "original_time_end": 10.92,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The footage shows a transabdominal curvilinear probe in an initial sagittal suprapubic orientation. The first structure visualized is the anechoic bladder, which is used as an acoustic window to view deeper pelvic structures, and this sagittal view first establishes midline pelvic orientation for the rest of the exam. Options A and D incorrectly state the initial view is transverse, option C incorrectly identifies the probe as endovaginal, so they are not consistent with the observed footage.",
+      "latency_ms": 74694.7193145752,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what scanning motion is being performed, and what is the main purpose of doing it in this segment?\nA. A deliberate rotation into the orthogonal plane to confirm anatomy and characterize a suspected lesion rather than perform a full screening sweep\nB. A controlled fan/tilt through the organ to keep the structure centered and optimize the imaging plane rather than screen for focal lesions\nC. A continuous systematic sweep to screen the target organ for a focal intracavitary finding\nD. A brief pause with minimal probe movement to obtain an optimized still image for caliper measurement of a suspected finding",
+    "answer": "C",
+    "groundtruth": "The operator performs a continuous sweep through the uterine tissue to search for an intrauterine pregnancy.",
+    "time_start": 23.25,
+    "time_end": 30.42,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_question": "[MCQ] Based on the video clip, what scanning motion is being performed, and what is the main purpose of doing it in this segment?\nA. A continuous systematic sweep to screen the target organ for a focal intracavitary finding\nB. A deliberate rotation into the orthogonal plane to confirm anatomy and characterize a suspected lesion rather than perform a full screening sweep\nC. A controlled fan/tilt through the organ to keep the structure centered and optimize the imaging plane rather than screen for focal lesions\nD. A brief pause with minimal probe movement to obtain an optimized still image for caliper measurement of a suspected finding",
+    "original_answer": "A",
+    "original_time_start": 23.25,
+    "original_time_end": 30.42,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: The probe is performing a controlled fan/tilt motion through the uterus, adjusting the imaging plane to keep the intrauterine gestational/embryonic structure centered and optimize its visualization, rather than conducting a screening sweep for lesions, rotating probe orientation, or pausing for measurement.",
+      "latency_ms": 115947.0682144165,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what image-optimization strategy is being used in this segment, and why does it help?\nA. Using the zoom function on the region of interest (e.g., adnexa) to improve perceived detail for characterization.\nB. Keeping a stable reference landmark centered to maintain orientation and anatomical bearings during pelvic scanning\nC. Adjusting overall gain and TGC to optimize contrast so the endometrium and myometrium are more clearly delineated.\nD. Decreasing imaging depth and placing the focal zone at the uterus to improve lateral resolution and frame rate.",
+    "answer": "B",
+    "groundtruth": "The operator maintains focus on the bladder so it can be used as a consistent reference to establish anatomical bearings.",
+    "time_start": 11.54,
+    "time_end": 15.24,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_question": "[MCQ] Based on the video clip, what image-optimization strategy is being used in this segment, and why does it help?\nA. Using the zoom function on the region of interest (e.g., adnexa) to improve perceived detail for characterization.\nB. Adjusting overall gain and TGC to optimize contrast so the endometrium and myometrium are more clearly delineated.\nC. Keeping a stable reference landmark centered to maintain orientation and anatomical bearings during pelvic scanning\nD. Decreasing imaging depth and placing the focal zone at the uterus to improve lateral resolution and frame rate.",
+    "original_answer": "C",
+    "original_time_start": 11.54,
+    "original_time_end": 15.24,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nThroughout the clip, the operator maintains relevant pelvic anatomical landmarks (starting with the bladder, then the uterus) centered in the frame as they sweep the probe. This strategy prevents losing anatomical orientation during the pelvic scan, so the sonographer can correctly map adjacent structures as they move the probe through the field of view.",
+      "latency_ms": 175220.16596794128,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[MCQ] Based on the video clip sequence, what phase of the workflow is the operator in, and what is the next broader objective?\nA. Performing a rapid uterine sweep in a single plane to screen overall pelvic anatomy before returning to the initial finding.\nB. Moving from an initial finding to orthogonal confirmation with a more complete survey to exclude an additional gestation\nC. Switching to M-mode over the fetal pole to document cardiac activity and obtain a fetal heart rate.\nD. Freezing the image to take biometric measurements of the identified gestational sac or embryo to establish dating.",
+    "answer": "B",
+    "groundtruth": "After focusing on gestational contents in one plane, the operator transitions to a second-axis (longitudinal) sweep to complete the survey of the uterus and ensure there is not a second gestational sac (twin).",
+    "time_start": 31.86,
+    "time_end": 56.67,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_question": "[MCQ] Based on the video clip sequence, what phase of the workflow is the operator in, and what is the next broader objective?\nA. Freezing the image to take biometric measurements of the identified gestational sac or embryo to establish dating.\nB. Moving from an initial finding to orthogonal confirmation with a more complete survey to exclude an additional gestation\nC. Switching to M-mode over the fetal pole to document cardiac activity and obtain a fetal heart rate.\nD. Performing a rapid uterine sweep in a single plane to screen overall pelvic anatomy before returning to the initial finding.",
+    "original_answer": "B",
+    "original_time_start": 31.86,
+    "original_time_end": 56.67,
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\nExplanation: First, options C and D are eliminated: no M-mode interface/tracing is visible, and the scan is live (not frozen with calipers for biometric measurements). The operator starts focused on an initial intrauterine pregnancy finding, then sweeps the rest of the uterus to conduct a broader survey, which identifies a second separate gestational sac, consistent with working to exclude additional gestations after an initial pregnancy is found, rather than just general pelvic anatomy screening as described in option A.",
+      "latency_ms": 387391.69096946716,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

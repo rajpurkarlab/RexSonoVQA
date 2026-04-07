@@ -1,0 +1,104 @@
+[
+  {
+    "start": 0.25,
+    "end": 10.56,
+    "action": "Place the probe high in the epigastrium. Angle the probe down. Oblique the transducer slightly counterclockwise.",
+    "interpretation": "Prepare the probe orientation to align with the pancreatic axis."
+  },
+  {
+    "start": 12.14,
+    "end": 15.88,
+    "action": "Maintain the oblique counterclockwise position.",
+    "interpretation": "Establish a 'sagittal' pancreas image (long-axis view of the organ)."
+  },
+  {
+    "start": 17.36,
+    "end": 31.65,
+    "action": "Inspect the image for the splenic vein.",
+    "interpretation": "Use the splenic vein as a primary landmark to confirm proximity to, or direct visualization of, the pancreas."
+  },
+  {
+    "start": 32.93,
+    "end": 46.62,
+    "action": "Sweep through the entire organ. Do not capture static images of the splenic vein only.",
+    "interpretation": "Ensure full coverage to avoid missing pathology that is not visible on a single slice."
+  },
+  {
+    "start": 49.91,
+    "end": 58.32,
+    "action": "Scan from the head and uncinate process all the way down to the tail.",
+    "interpretation": "Visualize the full length of the pancreas anatomy."
+  },
+  {
+    "start": 59.3,
+    "end": 68.91,
+    "action": "Attempt to visualize the tail, but acknowledge geometric limitations.",
+    "interpretation": "Note that the entire tail is often not visible as it dives deep from the epigastric scanning position."
+  },
+  {
+    "start": 69.33,
+    "end": 88.12,
+    "action": "Inspect the parenchyma specifically for the pancreatic duct. Trace it through the body.",
+    "interpretation": "Identify the pancreatic duct running throughout the entire length of the pancreas."
+  },
+  {
+    "start": 88.91,
+    "end": 103.87,
+    "action": "Visualize the pancreatic duct.",
+    "interpretation": "Assess the duct diameter. Apply a 2mm cutoff for normal pancreatic duct measurement."
+  },
+  {
+    "start": 106.0,
+    "end": 115.59,
+    "action": "Angle the probe towards the patient's right side.",
+    "interpretation": "Isolate and visualize the pancreatic head and uncinate process."
+  },
+  {
+    "start": 117.23,
+    "end": 128.15,
+    "action": "Inspect the anterior aspect of the pancreatic head.",
+    "interpretation": "Identify the Gastroduodenal Artery (GDA)."
+  },
+  {
+    "start": 129.05,
+    "end": 138.32,
+    "action": "Inspect the posterior aspect of the pancreatic head.",
+    "interpretation": "Identify the Common Bile Duct (CBD)."
+  },
+  {
+    "start": 138.34,
+    "end": 153.91,
+    "action": "Upon finding the CBD, rotate the probe to be sagittal relative to the CBD. Elongate the structure.",
+    "interpretation": "Trace the CBD as it courses into the liver."
+  },
+  {
+    "start": 156.2,
+    "end": 170.91,
+    "action": "Rotate the probe 90 degrees so it is in a sagittal plane relative to the patient's body.",
+    "interpretation": "Obtain transverse (short-axis) images of the pancreas."
+  },
+  {
+    "start": 173.17,
+    "end": 184.34,
+    "action": "Sweep through the pancreas while maintaining the sagittal body plane.",
+    "interpretation": "Use surrounding anatomical structures as landmarks to determine specific location within the pancreas."
+  },
+  {
+    "start": 185.64,
+    "end": 194.31,
+    "action": "Identify the aorta posterior to the pancreas.",
+    "interpretation": "Confirm location in the pancreatic body based on the position of the aorta."
+  },
+  {
+    "start": 195.31,
+    "end": 206.96,
+    "action": "Sweep towards the patient's right side until the IVC is visualized.",
+    "interpretation": "Confirm location in or around the pancreatic head based on the presence of the IVC."
+  },
+  {
+    "start": 208.92,
+    "end": 215.61,
+    "action": "Continue sweeping through the area.",
+    "interpretation": "Evaluate the pancreas in the transverse plane."
+  }
+]

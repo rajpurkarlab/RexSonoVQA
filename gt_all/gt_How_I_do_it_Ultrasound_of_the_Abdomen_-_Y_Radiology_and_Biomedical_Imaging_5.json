@@ -1,0 +1,38 @@
+[
+  {
+    "start": 0.17,
+    "end": 26.48,
+    "action": "Place probe in the subcostal window. Orient the probe slightly oblique to the patient's body rather than perfectly sagittal. Manipulate the angle to 'open up' the organ completely.",
+    "interpretation": "Target the gallbladder. Acknowledge that a sagittal view of the gallbladder usually requires an oblique probe angle relative to the body axis."
+  },
+  {
+    "start": 27.59,
+    "end": 32.67,
+    "action": "Identify the structure and sweep through the entire organ.",
+    "interpretation": "Visualize the elongated gallbladder."
+  },
+  {
+    "start": 35.63,
+    "end": 41.18,
+    "action": "Maintain position in the subcostal window. Prepare to change planes.",
+    "interpretation": "Transitioning to obtain a transverse image of the gallbladder."
+  },
+  {
+    "start": 42.1,
+    "end": 54.65,
+    "action": "Visually assess probe physical orientation. Rotate the probe exactly 90 degrees.",
+    "interpretation": "Align probe geometry to be perfectly set up for the transverse view."
+  },
+  {
+    "start": 55.55,
+    "end": 57.84,
+    "action": "Stabilize the probe.",
+    "interpretation": "Confirm visualization of the transverse plane."
+  },
+  {
+    "start": 58.4,
+    "end": 63.87,
+    "action": "Rotate the probe 90 degrees in the opposite direction.",
+    "interpretation": "Return to and confirm the sagittal plane."
+  }
+]

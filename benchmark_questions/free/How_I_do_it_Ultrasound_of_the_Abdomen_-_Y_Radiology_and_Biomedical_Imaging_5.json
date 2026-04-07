@@ -1,0 +1,29 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe positioning and angulation strategy is being used, and what imaging objective is it meant to achieve?",
+    "answer": "The operator uses a subcostal window and keeps the probe slightly oblique rather than perfectly aligned with the body axis. The goal is to fully \u201copen up\u201d and capture the gallbladder in a complete long-axis (sagittal) view.",
+    "groundtruth": "The probe is placed in the subcostal window and angled obliquely relative to the patient to open the gallbladder fully. This is done because the best sagittal gallbladder view often requires an oblique probe angle rather than a perfectly sagittal body-axis alignment.",
+    "time_start": 0.17,
+    "time_end": 26.48,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what phase of the exam is the operator in, and what is the broader workflow objective of the next actions?",
+    "answer": "They are transitioning from one imaging plane to an orthogonal plane and then holding steady to confirm the new view. The workflow goal is to obtain and verify complementary long-axis/short-axis images of the gallbladder for a complete evaluation.",
+    "groundtruth": "The operator stays in the subcostal window and prepares to change planes, then rotates the probe 90 degrees and stabilizes it. This sequence is used to transition into and confirm a transverse view of the gallbladder as part of a standard multi-plane survey.",
+    "time_start": 35.63,
+    "time_end": 57.84,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-optimization action is performed immediately after the plane change, and why is it done?",
+    "answer": "The operator stabilizes the probe and holds it steady after rotating. This reduces unintended drift and confirms that the transverse plane of the gallbladder is consistently maintained for interpretation.",
+    "groundtruth": "After rotating into the transverse orientation, the operator stabilizes the probe. This is done to confirm and maintain the transverse gallbladder view without motion or plane drift.",
+    "time_start": 55.55,
+    "time_end": 57.84,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

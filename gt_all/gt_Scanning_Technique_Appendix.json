@@ -1,0 +1,38 @@
+[
+  {
+    "start": 0.03,
+    "end": 3.11,
+    "action": "Place the probe in a transverse orientation. Ensure the probe indicator points to the patient's right.",
+    "interpretation": "Establish the standard transverse scanning plane."
+  },
+  {
+    "start": 3.99,
+    "end": 12.79,
+    "action": "Apply gentle pressure. Slide the transducer towards the patient's right.",
+    "interpretation": "Scan laterally to locate the colon. Identify the characteristic 'dirty shadowing' artifact produced by bowel gas in the colon."
+  },
+  {
+    "start": 13.71,
+    "end": 17.0,
+    "action": "Focus attention on the superficial near field.",
+    "interpretation": "Visualize the abdominal wall musculature located above the deeper structures."
+  },
+  {
+    "start": 18.23,
+    "end": 28.22,
+    "action": "Slide the transducer inferiorly towards the patient's feet.",
+    "interpretation": "Follow the dirty shadowing until it ends. Identify this termination point as the level of the cecum."
+  },
+  {
+    "start": 30.94,
+    "end": 42.45,
+    "action": "Slide the probe superiorly back up into the abdomen. Perform exploratory micro-movements.",
+    "interpretation": "Search the area to identify the structure most consistent with the appendix."
+  },
+  {
+    "start": 44.15,
+    "end": 62.21,
+    "action": "Locate the attachment to the cecum. Optimize the image to resolve fine details.",
+    "interpretation": "Identify a 'small, blind-ended structure' attached to the cecum. Note that the structure measures only a couple of millimeters in thickness, confirming it is a normal, healthy appendix."
+  }
+]

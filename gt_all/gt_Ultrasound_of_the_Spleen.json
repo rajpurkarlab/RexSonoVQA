@@ -1,0 +1,110 @@
+[
+  {
+    "start": 1.61,
+    "end": 7.61,
+    "action": "Place probe in the longitudinal plane. Locate the spleen.",
+    "interpretation": "Visualize the tip of the spleen. Confirm orientation is currently in the longitudinal plane."
+  },
+  {
+    "start": 7.63,
+    "end": 14.98,
+    "action": "Adjust gain settings.",
+    "interpretation": "Ensure gain is set appropriately to see the spleen nice and clearly."
+  },
+  {
+    "start": 15.4,
+    "end": 18.94,
+    "action": "Instruct patient: 'So a big breath in when you're ready'.",
+    "interpretation": "Prepare patient for image optimization."
+  },
+  {
+    "start": 19.38,
+    "end": 28.39,
+    "action": "Adjust focus controls. Instruct patient: 'And breathe'.",
+    "interpretation": "Confirm the spleen is seen quite well. Adjust parameters until the view is optimized."
+  },
+  {
+    "start": 29.32,
+    "end": 32.74,
+    "action": "Confirm acoustic window. Instruct patient: 'A big breath'.",
+    "interpretation": "Verify satisfaction with the window before starting the sweep."
+  },
+  {
+    "start": 35.7,
+    "end": 49.67,
+    "action": "Angle through the ribs. Sweep probe all the way down and come back up. Instruct patient: 'And breathe'.",
+    "interpretation": "Visualize through the splenic tissue, angling through the ribs to cover the entire organ."
+  },
+  {
+    "start": 50.87,
+    "end": 58.38,
+    "action": "Rotate transducer to the transverse plane. Prepare to perform sweeps.",
+    "interpretation": "Change view to look at the spleen in the transverse plane."
+  },
+  {
+    "start": 58.55,
+    "end": 72.72,
+    "action": "Angle probe specifically between the ribs. Instruct patient: 'Big breath in'. Sweep through the spleen. Instruct patient: 'Breathe normally'.",
+    "interpretation": "Ensure proper angle between ribs. Perform transverse sweep through the tissue."
+  },
+  {
+    "start": 74.3,
+    "end": 81.85,
+    "action": "Prepare to acquire a comparison image of the spleen and kidney.",
+    "interpretation": "Target the interface to compare the echotexture of the spleen and the kidney (correcting self-correction from liver)."
+  },
+  {
+    "start": 82.49,
+    "end": 98.12,
+    "action": "Instruct patient: 'A big breath in'. Capture image at the spleen-kidney interface. Instruct patient: 'Breathe normally'.",
+    "interpretation": "Show the echotexture between the spleen and the kidney to prove that it's completely normal."
+  },
+  {
+    "start": 98.6,
+    "end": 110.91,
+    "action": "Annotate image using the keyboard: 'Long Spleen / Left Kidney'.",
+    "interpretation": "Label the comparison view correctly."
+  },
+  {
+    "start": 114.39,
+    "end": 124.68,
+    "action": "Prepare for longitudinal spleen image. Instruct patient: 'Big breath'. Focus specifically on the spleen.",
+    "interpretation": "Isolate the long spleen view."
+  },
+  {
+    "start": 128.28,
+    "end": 129.92,
+    "action": "Freeze image. Instruct patient: 'Breathe normally'.",
+    "interpretation": "Capture the static image of the spleen."
+  },
+  {
+    "start": 129.94,
+    "end": 138.72,
+    "action": "Place calipers to measure the spleen from the superior to the inferior border.",
+    "interpretation": "Obtain longitudinal measurement of the spleen."
+  },
+  {
+    "start": 140.78,
+    "end": 161.65,
+    "action": "Instruct patient: 'Big breath'. Activate color Doppler. Scan the spleen in longitudinal. Instruct patient: 'Breathe normally'.",
+    "interpretation": "Look at the spleen with color on to prove that there are no varices."
+  },
+  {
+    "start": 162.93,
+    "end": 168.76,
+    "action": "Acquire image of the transverse spleen.",
+    "interpretation": "Capture the standard transverse view."
+  },
+  {
+    "start": 168.92,
+    "end": 173.19,
+    "action": "Adjust focus depth.",
+    "interpretation": "Ensure focus is set at the posterior level of the spleen."
+  },
+  {
+    "start": 173.85,
+    "end": 176.32,
+    "action": "Select 'Trans' annotation on the keyboard.",
+    "interpretation": "Annotate the image properly as transverse."
+  }
+]

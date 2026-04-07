@@ -1,0 +1,212 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what acquisition strategy is shown while the operator searches for orientation landmarks, and what is the goal of doing this before detailed scanning?",
+    "answer": "The operator performs a targeted search for consistent landmarks (e.g., major adjacent vessels) to orient the image. The goal is to confirm the correct region and scanning plane so the pancreas can be identified reliably before a systematic sweep.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans specifically for landmarks (splenic vein and portal confluence) to orient the view and correctly localize the pancreas for subsequent interrogation.",
+    "time_start": 6.47,
+    "time_end": 14.28,
+    "model_prediction": "Based on the video, the operator is performing a rapid sweep or survey scan, moving the probe quickly across the abdomen to identify key anatomical landmarks like the aorta, IVC, liver, and pancreas. The goal of this initial rapid sweeping strategy is to gain a general orientation of the patient's anatomy and locate the best acoustic windows before slowing down to perform a detailed, focused examination of specific structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is performing a rapid sweep or survey scan, moving the probe quickly across the abdomen to identify key anatomical landmarks like the aorta, IVC, liver, and pancreas. The goal of this initial rapid sweeping strategy is to gain a general orientation of the patient's anatomy and locate the best acoustic windows before slowing down to perform a detailed, focused examination of specific structures.",
+      "latency_ms": 10045.58515548706,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 7.81,
+    "judge_explanation": "The AI correctly identifies the acquisition strategy as a sweep or survey to locate key landmarks (specifically mentioning the aorta, IVC, and pancreas, which aligns with the ground truth's mention of major adjacent vessels). It also correctly states the goal is to establish orientation and find acoustic windows before detailed scanning, which matches the ground truth's intent.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator transitions into a structured, section-by-section survey in one imaging plane. What is being done, and what is the broader objective of this approach?",
+    "answer": "They plan a transverse interrogation broken into segments and begin with an isolated sweep of the first segment. The objective is a complete, systematic evaluation of the gland rather than trying to see everything at once.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator plans a transverse scan in sections, isolating the pancreatic head first; a breath-hold is used to improve the window, then attention is focused on the head and a full sweep through it is performed.",
+    "time_start": 29.84,
+    "time_end": 55.14,
+    "model_prediction": "Based on the video clip, the operator is performing a **transverse sweep (or survey) of the pancreas**.\n\nThe broader objective of this approach is to systematically visualize the entire organ from the head to the tail. The operator is sliding the probe transversely across the upper abdomen to image the pancreatic head (near the duodenum/IVC), then the neck and body (draped over the splenic vein and superior mesenteric artery), and finally attempting to visualize the tail extending toward the spleen. This section-by-section sweep ensures no part of the organ is missed during the examination.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing a **transverse sweep (or survey) of the pancreas**.\n\nThe broader objective of this approach is to systematically visualize the entire organ from the head to the tail. The operator is sliding the probe transversely across the upper abdomen to image the pancreatic head (near the duodenum/IVC), then the neck and body (draped over the splenic vein and superior mesenteric artery), and finally attempting to visualize the tail extending toward the spleen. This section-by-section sweep ensures no part of the organ is missed during the examination.",
+      "latency_ms": 8470.506191253662,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 25.3,
+    "judge_explanation": "The AI correctly identifies the imaging plane (transverse), the specific technique (section-by-section/segmental sweep), and the broader objective (systematic evaluation of the entire organ). The AI specifically identifies the organ as the pancreas, which fits the description of the 'gland' in the ground truth and the anatomical landmarks described.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, the image quality improves after the patient briefly stops breathing. What is being done and what problem is this intended to overcome?",
+    "answer": "A deep-inspiration breath-hold is used while scanning. This is intended to improve the acoustic window by reducing motion and helping displace intervening gas/structures that obscure the view.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The patient is instructed to take a big breath in and hold it to optimize the acoustic window by displacing bowel gas and stabilizing the view during pancreatic imaging.",
+    "time_start": 36.85,
+    "time_end": 42.39,
+    "model_prediction": "Based on the video, the patient is asked to hold their breath (breath-hold maneuver). This is intended to overcome motion artifact caused by respiration, which blurs the image and makes it difficult to visualize anatomical structures clearly. By having the patient hold their breath, the internal organs (like the liver and portal vein seen here) become stationary, allowing for a sharper, clearer image.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the patient is asked to hold their breath (breath-hold maneuver). This is intended to overcome motion artifact caused by respiration, which blurs the image and makes it difficult to visualize anatomical structures clearly. By having the patient hold their breath, the internal organs (like the liver and portal vein seen here) become stationary, allowing for a sharper, clearer image.",
+      "latency_ms": 6383.431911468506,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 5.539999999999999,
+    "judge_explanation": "The AI correctly identifies the maneuver as a breath-hold and explains that it is used to reduce motion artifact and stabilize the image, aligning well with the ground truth.",
+    "judge_error_type": "none",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what sweep direction is used for the next segment and what is the imaging objective of that pass?",
+    "answer": "The operator begins superiorly and sweeps inferiorly through the remaining segment, then returns to the starting position. The goal is to fully visualize and assess the tail (and adjacent body) across its extent.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "With a breath-hold, the operator starts superiorly and sweeps inferiorly through the pancreatic tail (adjusting depth as needed), then sweeps back up to complete the interrogation.",
+    "time_start": 71.96,
+    "time_end": 82.57,
+    "model_prediction": "Based on the visual evidence in the video clip:\n\nThe operator is performing a transverse sweep of the upper abdomen, specifically targeting the pancreas. The sweep direction is **cranial to caudal** (or superior to inferior).\n\n*   **Evidence:** The video begins with the probe high in the epigastrium, visualizing the liver. As the clip progresses, the view moves downwards, revealing the classic landmarks of the pancreas: first the splenic vein and superior mesenteric artery (SMA), then the body and tail of the pancreas draping over these vessels. The probe is sweeping down through the retroperitoneum to scan the entire pancreatic organ from top to bottom.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence in the video clip:\n\nThe operator is performing a transverse sweep of the upper abdomen, specifically targeting the pancreas. The sweep direction is **cranial to caudal** (or superior to inferior).\n\n*   **Evidence:** The video begins with the probe high in the epigastrium, visualizing the liver. As the clip progresses, the view moves downwards, revealing the classic landmarks of the pancreas: first the splenic vein and superior mesenteric artery (SMA), then the body and tail of the pancreas draping over these vessels. The probe is sweeping down through the retroperitoneum to scan the entire pancreatic organ from top to bottom.",
+      "latency_ms": 7533.577919006348,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 10.61,
+    "judge_explanation": "The AI correctly identifies the sweep direction as superior to inferior (cranial to caudal) and accurately describes the imaging objective as visualizing the pancreas, specifically noting the body and tail, which aligns perfectly with the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition occurs as the operator prepares to change scanning planes, and what is the purpose of adding this second plane?",
+    "answer": "They transition from the transverse survey to a longitudinal interrogation by rotating the transducer and re-acquiring the target. The purpose is to complete assessment in an orthogonal plane for better confirmation and documentation.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator prepares for and transitions to longitudinal interrogation by rotating the transducer, locating the pancreatic head in the new plane, and initiating the longitudinal scan to ensure a complete assessment.",
+    "time_start": 84.91,
+    "time_end": 106.32,
+    "model_prediction": "Based on the video, the operator transitions from a transverse scan of the pancreas/epigastric region to a longitudinal (sagittal) scan of the right upper quadrant, specifically targeting the porta hepatis. This second plane is added to provide an orthogonal view, allowing for a comprehensive evaluation of the portal triad structures (portal vein, common bile duct, and hepatic artery) in their long axis, which is crucial for assessing their patency, diameter, and anatomical relationships.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator transitions from a transverse scan of the pancreas/epigastric region to a longitudinal (sagittal) scan of the right upper quadrant, specifically targeting the porta hepatis. This second plane is added to provide an orthogonal view, allowing for a comprehensive evaluation of the portal triad structures (portal vein, common bile duct, and hepatic artery) in their long axis, which is crucial for assessing their patency, diameter, and anatomical relationships.",
+      "latency_ms": 8486.746072769165,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 21.409999999999997,
+    "judge_explanation": "The AI correctly identifies the workflow transition (transverse to longitudinal) and the purpose (obtaining an orthogonal view/plane), which aligns perfectly with the ground truth. The AI includes specific anatomical details (porta hepatis) which are compatible with the generic description in the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator changes their approach to patient breathing partway through setup for the next sweep. What adjustment is made and why would it help image optimization?",
+    "answer": "They abandon a breath-hold attempt and allow normal breathing instead. This can help by reducing patient strain and allowing the operator to re-time acquisition when the view is stable rather than forcing an unhelpful hold.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator briefly asks for a big breath but then corrects to normal breathing, adjusting breathing strategy based on what best optimizes the imaging window at that moment.",
+    "time_start": 98.98,
+    "time_end": 103.76,
+    "model_prediction": "Based on the video clip, the operator asks the patient to take a deep breath in. This maneuver pushes the liver inferiorly (downwards) into the field of view, expanding the acoustic window and making the liver structures and vessels more visible and easier to visualize.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator asks the patient to take a deep breath in. This maneuver pushes the liver inferiorly (downwards) into the field of view, expanding the acoustic window and making the liver structures and vessels more visible and easier to visualize.",
+      "latency_ms": 6742.114067077637,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.780000000000001,
+    "judge_explanation": "The AI prediction contradicts the ground truth. The ground truth states the operator abandons a breath-hold to allow normal breathing, whereas the AI claims the operator asks for a deep breath in. Consequently, the reasoning provided is also inapplicable to the actual event described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what continuous optimization is performed during the longitudinal sweep, and what is the goal of doing it throughout the pass?",
+    "answer": "The operator continuously adjusts depth and the focal zone while sweeping. The goal is to maintain optimal resolution and framing of the pancreas as the scan traverses different portions.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "While sweeping longitudinally, the operator continuously adjusts focus and depth to match the anatomy and maintain optimal detail across the sweep.",
+    "time_start": 108.6,
+    "time_end": 115.2,
+    "model_prediction": "Based on the video clip, the continuous optimization performed is the **adjustment of the focal zone (focus position)** to match the depth of the structure being imaged.\n\nThe goal of doing this throughout the pass is to maintain the highest lateral resolution at the specific depth of the aorta as the probe sweeps caudally and the vessel's depth changes relative to the skin surface.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the continuous optimization performed is the **adjustment of the focal zone (focus position)** to match the depth of the structure being imaged.\n\nThe goal of doing this throughout the pass is to maintain the highest lateral resolution at the specific depth of the aorta as the probe sweeps caudally and the vessel's depth changes relative to the skin surface.",
+      "latency_ms": 7395.502805709839,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.6000000000000085,
+    "judge_explanation": "The AI correctly identifies the focal zone adjustment but fails to note the depth adjustment mentioned in the ground truth. More importantly, the AI misidentifies the target organ as the aorta, whereas the ground truth specifies the pancreas. Per the strictness rules, misidentifying the specific organ constitutes an error in visual evidence, and consequently, the stated goal is also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator sets up an overall documentation image in the transverse plane and then captures it. What is being prepared and what is the objective of this capture?",
+    "answer": "They prepare a general transverse overview view and then freeze to document it. The objective is to obtain a representative overall image of the gland for the record.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator prepares an overall transverse image of the pancreas, uses a breath-hold to optimize the view, and then freezes to document the pancreatic body and tail.",
+    "time_start": 141.59,
+    "time_end": 158.69,
+    "model_prediction": "Based on the video clip, the operator is preparing and capturing a transverse view of the pancreatic region, specifically focusing on the **pancreas**.\n\nThe objective of this capture is to document the anatomy of the **pancreatic head, uncinate process, and body**, alongside the surrounding vascular landmarks such as the splenic vein (which drapes over the superior mesenteric artery), the superior mesenteric artery (SMA), and the aorta. This specific view allows for the assessment of pancreatic parenchyma and the relationship between these key vascular structures.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is preparing and capturing a transverse view of the pancreatic region, specifically focusing on the **pancreas**.\n\nThe objective of this capture is to document the anatomy of the **pancreatic head, uncinate process, and body**, alongside the surrounding vascular landmarks such as the splenic vein (which drapes over the superior mesenteric artery), the superior mesenteric artery (SMA), and the aorta. This specific view allows for the assessment of pancreatic parenchyma and the relationship between these key vascular structures.",
+      "latency_ms": 21553.30204963684,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 17.099999999999994,
+    "judge_explanation": "The AI correctly identifies the procedure as setting up a transverse view for documentation. While the ground truth refers generically to \"the gland,\" the AI correctly identifies it as the pancreas and provides specific, accurate anatomical details (splenic vein, SMA, aorta) that define this standard view. The objective of documenting the anatomy aligns with the ground truth's objective of obtaining a representative image.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator then isolates a smaller region for targeted documentation and performs additional steps before moving on. What is this documentation step, and what is its purpose within the exam?",
+    "answer": "They isolate the head region for a dedicated still image, optimize settings, and annotate the stored image. The purpose is to document each segment separately with appropriate optimization for that view.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator prepares a dedicated transverse image of the pancreatic head, uses a breath-hold to optimize the window, adjusts depth appropriately, and then annotates the captured head image for documentation.",
+    "time_start": 165.19,
+    "time_end": 189.77,
+    "model_prediction": "Based on the video clip, the operator isolates the left lobe of the liver and the hepatic veins, changing the label to \"TRANS PANCREAS HEPATIC V\". This documentation step is specifically aimed at visualizing the **hepatic veins** draining into the inferior vena cava (IVC). Its purpose is to assess the hepatic venous outflow and check for patency or dilation, which is a standard component of a complete abdominal or liver ultrasound exam.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator isolates the left lobe of the liver and the hepatic veins, changing the label to \"TRANS PANCREAS HEPATIC V\". This documentation step is specifically aimed at visualizing the **hepatic veins** draining into the inferior vena cava (IVC). Its purpose is to assess the hepatic venous outflow and check for patency or dilation, which is a standard component of a complete abdominal or liver ultrasound exam.",
+      "latency_ms": 8229.975700378418,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 24.580000000000013,
+    "judge_explanation": "The AI incorrectly identifies the anatomical region being isolated. The ground truth states the operator isolates the 'head region' (referring to the head of the pancreas), whereas the AI claims the operator isolates the 'left lobe of the liver and the hepatic veins'. Consequently, the stated purpose is also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe angulation strategy is used to obtain the next documentation image, and what is the imaging goal?",
+    "answer": "The operator angles the transducer to bring the more distal portion into view together with the mid-portion. The goal is to document the body and tail together in a single optimized view.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "To capture body and tail, the operator angles the transducer to visualize the tail along with the body, then captures the image after ending the breath-hold.",
+    "time_start": 198.79,
+    "time_end": 213.08,
+    "model_prediction": "Based on the video, the probe is **angled caudally** (angled towards the patient's feet) to visualize the **pancreatic head**.\n\nThe clip begins with a transverse view of the pancreas, showing the splenic vein and the body/tail region. The operator then tilts the probe downwards (caudally), which brings the head of the pancreas and the uncinate process into view as the splenic vein and body move out of the primary focus.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is **angled caudally** (angled towards the patient's feet) to visualize the **pancreatic head**.\n\nThe clip begins with a transverse view of the pancreas, showing the splenic vein and the body/tail region. The operator then tilts the probe downwards (caudally), which brings the head of the pancreas and the uncinate process into view as the splenic vein and body move out of the primary focus.",
+      "latency_ms": 8729.318141937256,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 14.29000000000002,
+    "judge_explanation": "The AI incorrectly identifies the imaging goal as visualizing the pancreatic head, whereas the ground truth states the goal is to document the body and tail. Consequently, the described probe angulation and visual interpretation contradict the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what patient maneuver is requested/used and what scanning objective does it serve?",
+    "answer": "The patient is prompted to take a deep breath to shift anatomy and open a better acoustic window. This helps the operator scan past an obstructing interface and stabilize a usable view for the next target.",
+    "groundtruth": "The operator uses an inspiratory breath maneuver while scanning until an obstructing rib-related shadow passes, helping them locate the optimal acoustic window.",
+    "time_start": 6.34,
+    "time_end": 11.06,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 6.34,
+    "original_time_end": 11.06,
+    "model_prediction": "The patient is asked to take a deep breath in and hold it (deep sustained inspiration).\nThis maneuver inferiorly displaces upper abdominal structures (including the liver, right kidney, and gallbladder) out from under the ribcage, reducing rib shadowing and placing these structures fully within the ultrasound imaging window to improve visualization of the organs and potential spaces between them (such as the hepatorenal recess).",
+    "inference_metadata": {
+      "raw_response": "The patient is asked to take a deep breath in and hold it (deep sustained inspiration).\nThis maneuver inferiorly displaces upper abdominal structures (including the liver, right kidney, and gallbladder) out from under the ribcage, reducing rib shadowing and placing these structures fully within the ultrasound imaging window to improve visualization of the organs and potential spaces between them (such as the hepatorenal recess).",
+      "latency_ms": 58686.84720993042,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe movement strategy is shown, and what imaging goal does it accomplish?",
+    "answer": "The operator sweeps/contours the probe through the parenchyma in a controlled scan to survey the organ. The goal is to obtain a representative assessment of tissue appearance and key internal vascular anatomy.",
+    "groundtruth": "The operator scans through the liver tissue while contouring the probe inferiorly to assess homogeneous parenchyma and bring the portal system into view.",
+    "time_start": 13.43,
+    "time_end": 20.03,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 13.43,
+    "original_time_end": 20.03,
+    "model_prediction": "The probe is using a systematic sweeping (fanning + sliding) motion across the upper abdomen.\nThis movement achieves a full survey of the entire imaged organ (the liver, the dominant solid abdominal structure visible here), ensuring all segments of the organ are visualized, so no anatomical regions are missed when evaluating parenchymal texture and looking for focal abnormalities or structural pathology.",
+    "inference_metadata": {
+      "raw_response": "The probe is using a systematic sweeping (fanning + sliding) motion across the upper abdomen.\nThis movement achieves a full survey of the entire imaged organ (the liver, the dominant solid abdominal structure visible here), ensuring all segments of the organ are visualized, so no anatomical regions are missed when evaluating parenchymal texture and looking for focal abnormalities or structural pathology.",
+      "latency_ms": 62826.92885398865,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what imaging parameter is being adjusted on-screen, and what is the objective of that change?",
+    "answer": "The focal zone is adjusted to place best resolution at the depth of interest. This optimizes detail in the central portion of the target organ.",
+    "groundtruth": "The operator adjusts the focal zone to concentrate image resolution on the central renal region, targeting the kidney’s central echogenic area for clearer visualization.",
+    "time_start": 27.04,
+    "time_end": 30.45,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 27.04,
+    "original_time_end": 30.45,
+    "model_prediction": "The parameter being adjusted is *overall ultrasound gain* (image brightness, seen as the entire image sequentially darkening and brightening).\nThe objective of this adjustment is to optimize image contrast/brightness to accurately distinguish the echogenicity of different tissues (parenchyma, fluid-filled structures, deeper tissues) so normal anatomy and any potential pathology can be correctly visualized and assessed, avoiding over-gained (too bright) or under-gained (too dark) images that obscure findings.",
+    "inference_metadata": {
+      "raw_response": "The parameter being adjusted is *overall ultrasound gain* (image brightness, seen as the entire image sequentially darkening and brightening).\nThe objective of this adjustment is to optimize image contrast/brightness to accurately distinguish the echogenicity of different tissues (parenchyma, fluid-filled structures, deeper tissues) so normal anatomy and any potential pathology can be correctly visualized and assessed, avoiding over-gained (too bright) or under-gained (too dark) images that obscure findings.",
+      "latency_ms": 53046.58365249634,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what tracking action is performed during the patient’s breathing cycle, and why is it necessary?",
+    "answer": "The operator follows the organ’s motion by subtly repositioning the probe as the patient exhales. This maintains the target in plane despite respiratory movement.",
+    "groundtruth": "As the patient resumes breathing and exhales, the operator moves the probe to follow the kidney so it stays visible despite respiratory displacement.",
+    "time_start": 36.73,
+    "time_end": 40.35,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 36.73,
+    "original_time_end": 40.35,
+    "model_prediction": "The clinician adjusts the position/angle of the ultrasound probe to track the target abdominal structure (first the liver, then the ipsilateral kidney) and keep it within the ultrasound field of view as the structure shifts position during the patient's breathing cycle.\n\nThis is necessary because abdominal organs move significantly with diaphragmatic motion during respiration: without this tracking, the structure being evaluated would move out of the image frame, preventing complete assessment of the anatomy and potential pathology.",
+    "inference_metadata": {
+      "raw_response": "The clinician adjusts the position/angle of the ultrasound probe to track the target abdominal structure (first the liver, then the ipsilateral kidney) and keep it within the ultrasound field of view as the structure shifts position during the patient's breathing cycle.\n\nThis is necessary because abdominal organs move significantly with diaphragmatic motion during respiration: without this tracking, the structure being evaluated would move out of the image frame, preventing complete assessment of the anatomy and potential pathology.",
+      "latency_ms": 239970.7589149475,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what scanning step is being performed in this segment, and what is the goal of doing it here?",
+    "answer": "The operator scans through the flank region to bring the target organ fully into view. The goal is to confirm the correct structure is visualized before detailed assessment and documentation.",
+    "groundtruth": "The operator scans the flank area to confirm visualization of the patient’s right kidney.",
+    "time_start": 44.35,
+    "time_end": 51.06,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 44.35,
+    "original_time_end": 51.06,
+    "model_prediction": "This is a longitudinal probe sweep/fan through the right upper quadrant to evaluate the entire gallbladder.\nThe goal of this sweeping motion is to visualize *all* segments of the gallbladder (fundus, body, neck, entire lumen and wall) so small pathologies like gallstones, polyps, or focal wall thickening that do not appear on a single static frame are not missed.",
+    "inference_metadata": {
+      "raw_response": "This is a longitudinal probe sweep/fan through the right upper quadrant to evaluate the entire gallbladder.\nThe goal of this sweeping motion is to visualize *all* segments of the gallbladder (fundus, body, neck, entire lumen and wall) so small pathologies like gallstones, polyps, or focal wall thickening that do not appear on a single static frame are not missed.",
+      "latency_ms": 164432.541847229,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to delineate with the current breathing-assisted scan, and why?",
+    "answer": "They are scanning to better delineate internal tissue layer boundaries within the target organ. The goal is to improve visualization of subtle interfaces that are best seen when the window is optimized by respiration.",
+    "groundtruth": "The operator asks for a deep breath and scans specifically to try to visualize the corticomedullary junction more clearly.",
+    "time_start": 60.52,
+    "time_end": 65.51,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 60.52,
+    "original_time_end": 65.51,
+    "model_prediction": "The operator is delineating whether an observed finding at the diaphragm interface is real subdiaphragmatic (abdominal, e.g. hepatic/renal) pathology, intrathoracic pathology, or a mirror image artifact. Respiratory motion is used for this differentiation: real subdiaphragmatic structures move synchronously with the liver/abdominal viscera during breathing, intrathoracic lesions do not move with abdominal organs, and mirror artifacts track in tandem with the real structure they reflect, confirming they are not true pathology.",
+    "inference_metadata": {
+      "raw_response": "The operator is delineating whether an observed finding at the diaphragm interface is real subdiaphragmatic (abdominal, e.g. hepatic/renal) pathology, intrathoracic pathology, or a mirror image artifact. Respiratory motion is used for this differentiation: real subdiaphragmatic structures move synchronously with the liver/abdominal viscera during breathing, intrathoracic lesions do not move with abdominal organs, and mirror artifacts track in tandem with the real structure they reflect, confirming they are not true pathology.",
+      "latency_ms": 79155.61819076538,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what documentation action is performed after the image is stabilized, and what is being quantified?",
+    "answer": "The image is frozen and calipers are used to take a measurement. This documents the target organ’s size/dimension in a standardized view.",
+    "groundtruth": "The operator freezes the longitudinal kidney image and uses a multi-distance caliper measurement tool to measure the kidney.",
+    "time_start": 71.65,
+    "time_end": 77.75,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 71.65,
+    "original_time_end": 77.75,
+    "model_prediction": "After the image is stabilized, the ultrasound system's tool menu is opened, and the multi-distance measurement tool is selected as the documentation/measurement action. This tool will be used to quantify multiple linear dimensions (such as overall length, wall thickness, or sub-region size) of the imaged elongated, curved abdominal organ (adjacent to homogeneous liver parenchyma, appearing either as a sludge-filled gallbladder or longitudinal view of a kidney).",
+    "inference_metadata": {
+      "raw_response": "After the image is stabilized, the ultrasound system's tool menu is opened, and the multi-distance measurement tool is selected as the documentation/measurement action. This tool will be used to quantify multiple linear dimensions (such as overall length, wall thickness, or sub-region size) of the imaged elongated, curved abdominal organ (adjacent to homogeneous liver parenchyma, appearing either as a sludge-filled gallbladder or longitudinal view of a kidney).",
+      "latency_ms": 87699.56421852112,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is happening, and what is the next overall scanning objective?",
+    "answer": "The operator is preparing to move on from the completed side/region. The next objective is to repeat the same renal scanning protocol on the opposite side.",
+    "groundtruth": "The operator prepares to change scanning position in order to repeat the renal ultrasound protocol on the left side.",
+    "time_start": 88.47,
+    "time_end": 91.61,
+    "keep": false,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 88.47,
+    "original_time_end": 91.61,
+    "model_prediction": "The workflow transition shown is finalization of a longitudinal length measurement of the imaged elongated anatomic structure, as the measurement caliper/overlay markings are cleared from the display after the measurement value is confirmed. The next scanning objective is to perform a broader survey of adjacent abdominal anatomical structures in the region, as the probe repositions to visualize additional adjacent structures immediately after the measurement is completed.",
+    "inference_metadata": {
+      "raw_response": "The workflow transition shown is finalization of a longitudinal length measurement of the imaged elongated anatomic structure, as the measurement caliper/overlay markings are cleared from the display after the measurement value is confirmed. The next scanning objective is to perform a broader survey of adjacent abdominal anatomical structures in the region, as the probe repositions to visualize additional adjacent structures immediately after the measurement is completed.",
+      "latency_ms": 36539.61491584778,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

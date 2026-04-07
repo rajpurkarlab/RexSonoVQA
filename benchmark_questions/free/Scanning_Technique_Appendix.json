@@ -1,0 +1,29 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe handling/motion is performed during the lateral sweep, and what is the operator trying to find with that pass?",
+    "answer": "The operator applies gentle pressure and slides the probe toward the patient\u2019s right. The goal is to scan laterally to locate the colon and use the bowel-gas-related dirty shadowing as a recognizable landmark.",
+    "groundtruth": "With gentle pressure, the transducer is slid toward the patient\u2019s right to scan laterally to the colon and recognize the dirty shadowing produced by bowel gas as a key landmark.",
+    "time_start": 3.99,
+    "time_end": 12.79,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what directional sweep is performed to track a consistent visual cue until it ends, and what anatomical level does that endpoint establish for the exam?",
+    "answer": "The probe is slid inferiorly toward the patient\u2019s feet while following the cue until it terminates. That termination point is used to identify the level of the cecum.",
+    "groundtruth": "The transducer is slid inferiorly to follow the dirty shadowing to its endpoint, using that termination as the level of the cecum.",
+    "time_start": 18.23,
+    "time_end": 28.22,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, once the suspected target is found near a junction, what optimization maneuvers are performed and what confirmation are they aiming to obtain?",
+    "answer": "The operator centers the structure at its attachment point and optimizes the image to bring out fine detail. This is done to identify a small blind-ended structure attached to the cecum and confirm it appears normal and thin.",
+    "groundtruth": "After locating the attachment to the cecum, the operator optimizes the image to resolve fine details and confirm a small blind-ended structure consistent with a normal appendix with only a couple millimeters of thickness.",
+    "time_start": 44.15,
+    "time_end": 62.21,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  }
+]

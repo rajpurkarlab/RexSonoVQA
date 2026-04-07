@@ -1,0 +1,83 @@
+[
+  {
+    "question": "[FREE] Based on the clip, what change in sweep direction is performed, and why is that reversal done at this point?",
+    "answer": "The operator reverses the sweep to come back toward the midline. This returns to the area intended for image documentation after completing the initial pass.",
+    "groundtruth": "After sweeping laterally, the operator reverses direction and sweeps back medially to return to the area of interest for image capture.",
+    "time_start": 15.46,
+    "time_end": 16.5,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what is being captured at this moment in the survey, and why is this specific capture taken here?",
+    "answer": "A still image is captured to document the medial portion of the left-lobe view. It is taken once the intended landmark and anatomy are included in the field of view.",
+    "groundtruth": "The operator captures an image to document the medial left liver lobe view that includes the aorta.",
+    "time_start": 32.6,
+    "time_end": 33.88,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what continued sweep is performed after the prior capture, and what additional target view does it aim to include?",
+    "answer": "The operator continues sweeping further medially. The goal is to bring the adjacent major venous structure and associated liver region into view for a more complete survey.",
+    "groundtruth": "The sweep continues further medially to visualize the IVC and caudate lobe as part of completing the left-lobe protocol coverage.",
+    "time_start": 35.94,
+    "time_end": 44.21,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, after applying the flow-display overlay, what documentation step is performed next and what broader protocol milestone does it mark?",
+    "answer": "A final still image is captured. This serves as the concluding documentation for the left-lobe sequence before moving on to the next region.",
+    "groundtruth": "After verifying flow with Color Doppler over the IVC, the operator captures the final image of the sagittal left-lobe sequence, concluding the left-lobe protocol.",
+    "time_start": 45.95,
+    "time_end": 55.63,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what positioning adjustment along the rib line (including orientation change) is performed, and why does it help the acquisition?",
+    "answer": "The probe is slid inferiorly following the rib line and rotated into a slightly oblique orientation. This aligns the scan with the rib spaces to improve the acoustic window for the intended view.",
+    "groundtruth": "The operator slides inferiorly along the rib line and rotates slightly oblique to align the probe with rib anatomy for optimal technical positioning.",
+    "time_start": 60.57,
+    "time_end": 69.37,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what survey strategy is set up before a series of images is taken, and what is the planned direction of coverage?",
+    "answer": "The operator establishes the initial (most superior) starting view and plans sequential stills while scanning inferiorly. This ensures systematic coverage through the region from top to bottom.",
+    "groundtruth": "The probe is positioned to obtain the dome view of the right liver lobe as a starting point, preparing to capture sequential images while scanning inferiorly.",
+    "time_start": 77.51,
+    "time_end": 84.9,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what deliberate \u201chold\u201d or stability choice is made immediately after the first capture, and what is it confirming before proceeding?",
+    "answer": "The operator holds position at the superior level rather than immediately moving on. This confirms the view is above the major intrahepatic vessels before scanning down.",
+    "groundtruth": "The probe is kept at the superior aspect to confirm the view is above the hepatic and portal veins before continuing inferiorly.",
+    "time_start": 90.98,
+    "time_end": 94.31,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the clip, what scan progression is performed next, and what new anatomic information is the operator trying to bring into view?",
+    "answer": "The probe is moved inferiorly. The goal is to bring the hepatic veins into the field as the survey proceeds downward.",
+    "groundtruth": "The operator scans inferiorly to bring the hepatic veins into view.",
+    "time_start": 95.37,
+    "time_end": 99.67,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the clip, what verification maneuver is performed by following the vessels, and what confirmation does it provide?",
+    "answer": "The operator traces the vessels to where they terminate. This confirms they are hepatic veins by demonstrating direct drainage into the IVC.",
+    "groundtruth": "The vessels are traced to their termination to confirm they drain directly into the IVC, verifying they are hepatic veins.",
+    "time_start": 111.42,
+    "time_end": 115.79,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  }
+]

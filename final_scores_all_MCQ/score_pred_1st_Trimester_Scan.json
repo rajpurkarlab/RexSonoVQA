@@ -1,0 +1,189 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what initial probe orientation is being established, and what is the main purpose of starting the exam this way?\nA. Oblique orientation aligned with an anatomic landmark to optimize the acoustic window and reduce shadowing from overlying structures\nB. Transverse (short-axis) orientation to quickly identify midline anatomy and locate the target before detailed scanning\nC. Long-axis orientation to obtain accurate measurements of the target structure rather than to establish a survey plane\nD. Long-axis (sagittal) orientation to establish the initial survey plane",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the transducer in the sagittal plane to establish the initial scanning plane for the exam.",
+    "time_start": 0.15,
+    "time_end": 3.51,
+    "original_question": "[MCQ] Based on the video clip, what initial probe orientation is being established, and what is the main purpose of starting the exam this way?\nA. Long-axis (sagittal) orientation to establish the initial survey plane\nB. Transverse (short-axis) orientation to quickly identify midline anatomy and locate the target before detailed scanning\nC. Oblique orientation aligned with an anatomic landmark to optimize the acoustic window and reduce shadowing from overlying structures\nD. Long-axis orientation to obtain accurate measurements of the target structure rather than to establish a survey plane",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation: The video clip demonstrates the probe initially being maneuvered to find a window, then aligning with a tubular structure in a longitudinal plane. This initial movement establishes a long-axis (sagittal) orientation to survey the anatomy and identify the structure of interest in its length before proceeding with a more detailed interrogation or measurement. The long axis is typically the starting point for surveying abdominal or pelvic organs to understand their lie and extent.",
+      "latency_ms": 6443.593978881836,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.36,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, the image window appears suboptimal early on. What check/adjustment is being performed, and why?\nA. Increasing overall gain to brighten the near and far field when the image appears uniformly undergained.\nB. Checking whether a fluid-filled window is adequate to improve penetration and pelvic visualization\nC. Increasing imaging depth to include the posterior pelvis and bring deeper structures into the field of view.\nD. Repositioning and angling the probe to obtain a different suprapubic acoustic window when the initial view is limited.",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator scans inferiorly to evaluate bladder volume, recognizing it is not full; despite the limited acoustic window, they attempt to visualize the vagina and cervix.",
+    "time_start": 5.75,
+    "time_end": 12.12,
+    "original_question": "[MCQ] Based on the video clip, the image window appears suboptimal early on. What check/adjustment is being performed, and why?\nA. Checking whether a fluid-filled window is adequate to improve penetration and pelvic visualization\nB. Increasing overall gain to brighten the near and far field when the image appears uniformly undergained.\nC. Increasing imaging depth to include the posterior pelvis and bring deeper structures into the field of view.\nD. Repositioning and angling the probe to obtain a different suprapubic acoustic window when the initial view is limited.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video begins with a hazy, obscured view where anatomical structures are not clearly visible, likely due to bowel gas or lack of an acoustic window. The operator then maneuvers to find a large, anechoic (black) area, which is the fluid-filled urinary bladder. This action demonstrates checking whether the bladder is adequately filled to serve as an acoustic window, which displaces gas-filled bowel loops and allows for sound wave transmission to visualize the pelvic organs (like the uterus seen posterior to the bladder) more clearly.",
+      "latency_ms": 8477.050065994263,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 6.369999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what probe movement strategy is being used, and what is the goal of that movement?\nA. Sliding the probe (translation) along the skin to follow a structure longitudinally and map its extent.\nB. Applying graded compression to displace bowel gas and improve visualization of deeper abdominal structures.\nC. Repetitive fanning/rocking through the organ to obtain a complete overall survey\nD. Rotating the probe 90° to obtain an orthogonal view and confirm anatomy in two planes.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans back and forth through the uterus to obtain an overall view of uterine structure.",
+    "time_start": 18.76,
+    "time_end": 24.05,
+    "original_question": "[MCQ] Based on the clip, what probe movement strategy is being used, and what is the goal of that movement?\nA. Repetitive fanning/rocking through the organ to obtain a complete overall survey\nB. Sliding the probe (translation) along the skin to follow a structure longitudinally and map its extent.\nC. Rotating the probe 90° to obtain an orthogonal view and confirm anatomy in two planes.\nD. Applying graded compression to displace bowel gas and improve visualization of deeper abdominal structures.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The video demonstrates the operator fanning (also called tilting or rocking) the probe back and forth. This movement sweeps the ultrasound beam through the volume of the uterus and gestational sac, allowing the clinician to survey the entire structure from one side to the other to check for contents, position, and any abnormalities. It is not sliding (A) because the overall position of the anatomy on the screen stays centered while the slice changes. It is not rotating (D) because the orientation remains consistent (transverse or longitudinal) throughout. It is not compression (B) because the structures are not being squashed or displaced significantly.",
+      "latency_ms": 6787.37998008728,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.289999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator primarily trying to determine during the continued systematic sweep?\nA. Whether fetal cardiac activity is present to confirm viability\nB. Whether there are any adnexal masses or free pelvic fluid suggesting an ectopic pregnancy\nC. Whether there is a single gestation with only one fetus present\nD. Whether the crown–rump length can be measured to estimate gestational age",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator continues sweeping through the uterus to establish that there is a single pregnancy with only one fetus.",
+    "time_start": 25.62,
+    "time_end": 31.0,
+    "original_question": "[MCQ] Based on the video clip, what is the operator primarily trying to determine during the continued systematic sweep?\nA. Whether there is a single gestation with only one fetus present\nB. Whether fetal cardiac activity is present to confirm viability\nC. Whether the crown–rump length can be measured to estimate gestational age\nD. Whether there are any adnexal masses or free pelvic fluid suggesting an ectopic pregnancy",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C\n\nExplanation: The operator is performing a continued systematic sweep through the entire gestational sac and uterus. This sweeping motion allows the clinician to visualize the entire contents of the sac to ensure no other fetal poles or yolk sacs are present, thereby confirming whether there is a single gestation or a multiple pregnancy (like twins). While cardiac activity and gestational age are important, the broad sweeping motion shown is most characteristic of surveying the entire sac content to check for additional fetuses.",
+      "latency_ms": 5785.869121551514,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.379999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the clip, what major probe re-orientation is performed, and what is its purpose?\nA. Fanning/sweeping the probe through a small arc to interrogate the region in multiple slices and identify the optimal window.\nB. Rocking (tilting) the probe to better center the structure in a long-axis view and maximize its apparent length.\nC. Heel-toe angulation of the probe to steer the beam toward the target and improve endocardial border definition without changing axis.\nD. Rotating the probe ~90° to switch into a short-axis (transverse) assessment",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator rotates the transducer 90 degrees to transition from sagittal to transverse imaging.",
+    "time_start": 36.29,
+    "time_end": 40.35,
+    "original_question": "[MCQ] Based on the clip, what major probe re-orientation is performed, and what is its purpose?\nA. Rotating the probe ~90° to switch into a short-axis (transverse) assessment\nB. Rocking (tilting) the probe to better center the structure in a long-axis view and maximize its apparent length.\nC. Heel-toe angulation of the probe to steer the beam toward the target and improve endocardial border definition without changing axis.\nD. Fanning/sweeping the probe through a small arc to interrogate the region in multiple slices and identify the optimal window.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video begins with a cross-sectional view of the uterus containing a gestational sac (likely a transverse view). At around the 3-4 second mark, the image shifts dramatically as the operator rotates the probe approximately 90 degrees. This maneuver changes the perspective from a transverse/short-axis view to a longitudinal/sagittal view, elongating the uterus on the screen to assess its length and the gestational sac in a perpendicular plane. This corresponds to rotating the probe ~90° to switch axes.",
+      "latency_ms": 5751.164197921753,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 4.060000000000002,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the clip, after finding the low starting landmark, what optimization movement is performed next and why?\nA. A slow controlled slide upward to maintain orientation and avoid skipping key anatomy\nB. A gentle heel-toe (rocking) maneuver to bring the target into the center of the beam and maximize sharpness.\nC. A small clockwise rotation to align the probe with the long axis of the structure before continuing the sweep.\nD. A brief fan (tilt) through the region to confirm the landmark in two planes before moving cranially.",
+    "answer": "A",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After identifying the bladder low in the pelvis, the operator slowly slides superiorly to move the field of view upward from the bladder.",
+    "time_start": 40.39,
+    "time_end": 49.17,
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. A slow controlled slide upward to maintain orientation and avoid skipping key anatomy\n\nExplanation: The video clip begins with a transverse view of the bladder (the low starting landmark). The subsequent movement is a steady, linear translation of the probe in a cranial direction (sliding upward) along the patient's abdomen. This allows the operator to systematically sweep through the pelvic and abdominal structures superior to the bladder without losing anatomical context or missing structures, which can happen with rapid or jerky movements.",
+      "latency_ms": 6003.471851348877,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.780000000000001,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video segment, which exam step is being carried out, and what is the broader goal of the sequence?\nA. Mid-sagittal longitudinal uterine sweep to center the gestational sac and obtain dating measurements such as CRL.\nB. Focused adnexal interrogation with color Doppler to assess ovarian blood flow and exclude torsion or ectopic pregnancy.\nC. Systematic transverse pelvic survey including lateral side evaluation to complete early pregnancy assessment\nD. Targeted cervical and lower uterine segment scan to evaluate cervical canal integrity and look for signs of impending miscarriage.",
+    "answer": "C",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "In transverse imaging, the operator starts low to identify the bladder as a landmark, slides superiorly, angles to the right adnexa to see the right ovary/corpus luteum, and continues scanning superiorly through the pelvis to confirm only one baby.",
+    "time_start": 40.39,
+    "time_end": 63.19,
+    "original_question": "[MCQ] Based on the video segment, which exam step is being carried out, and what is the broader goal of the sequence?\nA. Systematic transverse pelvic survey including lateral side evaluation to complete early pregnancy assessment\nB. Mid-sagittal longitudinal uterine sweep to center the gestational sac and obtain dating measurements such as CRL.\nC. Focused adnexal interrogation with color Doppler to assess ovarian blood flow and exclude torsion or ectopic pregnancy.\nD. Targeted cervical and lower uterine segment scan to evaluate cervical canal integrity and look for signs of impending miscarriage.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. Systematic transverse pelvic survey including lateral side evaluation to complete early pregnancy assessment\n\nExplanation:\nThe video demonstrates a systematic sweep of the pelvis in the transverse plane. Initially, the probe scans through the uterus, showing a gestational sac centrally. The sonographer then fans or sweeps the probe laterally to the sides (adnexa) to evaluate the areas adjacent to the uterus, likely checking the ovaries and surrounding structures, which is a standard part of a complete pelvic or early pregnancy ultrasound survey. The view is clearly transverse (cross-sectional anatomy) rather than longitudinal (sagittal).",
+      "latency_ms": 8043.260812759399,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 22.799999999999997,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what image optimization is performed to improve inspection of small internal details, and why?\nA. Decreasing imaging depth to focus the field of view on the region of interest without magnifying it\nB. Activating tissue harmonic imaging to reduce clutter and improve border definition instead of increasing apparent size\nC. Zooming in to increase apparent size/resolution of the area of interest\nD. Adjusting overall gain and time-gain compensation to improve brightness/contrast rather than detail size",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator focuses on the contents of the gestational sac and zooms the image to optimize resolution for inspecting the sac contents.",
+    "time_start": 65.83,
+    "time_end": 70.05,
+    "original_question": "[MCQ] Based on the video clip, what image optimization is performed to improve inspection of small internal details, and why?\nA. Zooming in to increase apparent size/resolution of the area of interest\nB. Decreasing imaging depth to focus the field of view on the region of interest without magnifying it\nC. Adjusting overall gain and time-gain compensation to improve brightness/contrast rather than detail size\nD. Activating tissue harmonic imaging to reduce clutter and improve border definition instead of increasing apparent size",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video shows the sonographer progressively decreasing the depth setting. Initially, the uterus and gestational sac occupy only a small portion of the screen in the middle of a deeper field. As the depth is decreased, the unnecessary deeper tissues are removed from view, and the region of interest (the gestational sac) fills more of the screen, allowing for better visualization of internal details like the yolk sac and fetal pole without using electronic zoom.",
+      "latency_ms": 5929.383993148804,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 4.219999999999999,
+    "keep": false
+  },
+  {
+    "question": "[MCQ] Based on the clip, what is the operator’s strategy for resolving uncertainty about viability, and what is the goal?\nA. Optimize depth/gain and sweep through multiple planes to ensure the embryo is truly in view before deciding on viability.\nB. Activate M-mode to obtain a heart rate tracing for documentation of viability.\nC. Turn on color Doppler to look for intracardiac flow and distinguish true activity from artifact.\nD. Watching for intrinsic rhythmic motion to confirm cardiac activity",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator assesses the fetus for motion in order to visualize fetal cardiac activity.",
+    "time_start": 87.64,
+    "time_end": 90.8,
+    "original_question": "[MCQ] Based on the clip, what is the operator’s strategy for resolving uncertainty about viability, and what is the goal?\nA. Watching for intrinsic rhythmic motion to confirm cardiac activity\nB. Activate M-mode to obtain a heart rate tracing for documentation of viability.\nC. Turn on color Doppler to look for intracardiac flow and distinguish true activity from artifact.\nD. Optimize depth/gain and sweep through multiple planes to ensure the embryo is truly in view before deciding on viability.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video clip shows a first-trimester pregnancy scan. The operator holds the probe steady on a view of the embryo within the gestational sac. There is no activation of M-mode (Option B) or color Doppler (Option C), nor is there significant sweeping or optimization of controls happening during this specific segment (Option A). Instead, the operator maintains a fixed, steady view of the embryo for several seconds. An orange dot appears and moves around, highlighting the embryo, drawing attention to it. The visual focus is on observing the embryo directly to detect the \"flicker\" of cardiac activity. Therefore, the strategy shown is essentially staring or watching intently for intrinsic rhythmic motion (the heartbeat) to confirm viability.",
+      "latency_ms": 6036.00287437439,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 3.1599999999999966,
+    "keep": true
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what stable probe orientation is being maintained, and what view is the operator trying to establish by holding that position?",
+    "answer": "They keep the probe in a slightly oblique, counterclockwise orientation to hold a long-axis (“sagittal”) view of the pancreas.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator maintains the oblique counterclockwise position to establish and hold a long-axis (sagittal-type) image of the pancreas.",
+    "time_start": 12.14,
+    "time_end": 15.88,
+    "model_prediction": "Based on the video clip, the operator is maintaining a stable **transverse** probe orientation. By holding this position, the operator is trying to establish a standard **pancreatic view** (also known as the transverse view of the pancreas), using the splenic vein as a primary landmark to visualize the pancreatic body and tail draped over it.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is maintaining a stable **transverse** probe orientation. By holding this position, the operator is trying to establish a standard **pancreatic view** (also known as the transverse view of the pancreas), using the splenic vein as a primary landmark to visualize the pancreatic body and tail draped over it.",
+      "latency_ms": 5078.237771987915,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 3.74,
+    "judge_explanation": "The AI incorrectly identifies the probe orientation as transverse and the intended view as a transverse view of the pancreas. The ground truth explicitly states the probe is held in a slightly oblique, counterclockwise orientation to establish a long-axis (sagittal) view of the pancreas. These are orthogonal planes.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what landmark-seeking behavior is shown, and what is it being used to confirm about the acquisition?",
+    "answer": "The operator scans the image looking for a consistent vascular landmark to confirm they are at (or immediately adjacent to) the pancreas in the intended plane.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator inspects the image for the splenic vein, using it as a key landmark to confirm correct proximity to or visualization of the pancreas.",
+    "time_start": 17.36,
+    "time_end": 31.65,
+    "model_prediction": "Based on the video clip, the landmark-seeking behavior shown is **tail-wagging** (fanning or tilting the probe slightly), which is being used to confirm the **long axis of the pancreas**.\n\nThe operator is making small, subtle fanning movements to visualize the full length of the pancreas as it drapes over the splenic vein, ensuring the standard transverse view of the pancreatic body and tail is adequately captured.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the landmark-seeking behavior shown is **tail-wagging** (fanning or tilting the probe slightly), which is being used to confirm the **long axis of the pancreas**.\n\nThe operator is making small, subtle fanning movements to visualize the full length of the pancreas as it drapes over the splenic vein, ensuring the standard transverse view of the pancreatic body and tail is adequately captured.",
+      "latency_ms": 7671.25391960144,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 14.29,
+    "judge_explanation": "The AI correctly identifies the anatomical context (pancreas) and the specific vascular landmark (splenic vein) alluded to in the ground truth. It describes the specific probe maneuver (fanning/tail-wagging) that constitutes the 'scanning' mentioned in the ground truth, and correctly identifies the purpose as confirming the standard view (long axis/intended plane) of the pancreas.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, the operator attempts to include the far end of the target anatomy but it remains difficult. What are they trying to capture, and what common limitation is being encountered?",
+    "answer": "They are trying to visualize the distal tail portion, but it can be hard to keep in view because it often dives deeper and out of the best acoustic window from an epigastric approach.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator attempts to visualize the pancreatic tail and notes a common geometric limitation: from the epigastric window the tail frequently extends deeper, so it may not be fully visualized.",
+    "time_start": 59.3,
+    "time_end": 68.91,
+    "model_prediction": "Based on the video, the operator is scanning the **pancreas**, specifically trying to visualize the **pancreatic tail**. The limitation encountered is obscuration by **bowel gas** (likely from the stomach or transverse colon), which creates \"dirty shadowing\" and prevents clear visualization of the distal tail of the pancreas.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is scanning the **pancreas**, specifically trying to visualize the **pancreatic tail**. The limitation encountered is obscuration by **bowel gas** (likely from the stomach or transverse colon), which creates \"dirty shadowing\" and prevents clear visualization of the distal tail of the pancreas.",
+      "latency_ms": 5129.75811958313,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 9.61,
+    "judge_explanation": "The AI correctly identifies the target anatomy as the pancreatic tail (specifically the distal portion). Regarding the limitation, the AI attributes it to 'bowel gas,' while the ground truth states the tail 'dives deeper and out of the best acoustic window.' Clinically, these are consistent: the tail dives posteriorly behind the stomach, where gas obscures the acoustic window. The AI's answer is medically accurate and aligns with the ground truth's meaning.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what targeted tracing task is being performed within the organ, and what is the purpose of following it across the field?",
+    "answer": "They are tracing a thin tubular structure through the organ to confirm its course and evaluate it throughout the length rather than at a single point.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator inspects the pancreatic parenchyma for the pancreatic duct and traces it through the body to identify the duct along the length of the pancreas.",
+    "time_start": 69.33,
+    "time_end": 88.12,
+    "model_prediction": "Based on the video, the user is tracing the **pancreatic duct** within the pancreas. This is being done to identify any dilation, obstruction, or other abnormalities throughout the length of the duct, which appears more prominent than usual in this examination.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the user is tracing the **pancreatic duct** within the pancreas. This is being done to identify any dilation, obstruction, or other abnormalities throughout the length of the duct, which appears more prominent than usual in this examination.",
+      "latency_ms": 4656.5868854522705,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 18.790000000000006,
+    "judge_explanation": "The AI correctly identifies the action (tracing a structure) and the purpose (evaluating it throughout its length/course) described in the ground truth. The AI specifies the structure as the 'pancreatic duct', which fits the description of a 'thin tubular structure' in the ground truth, and the reasoning aligns perfectly.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe redirection is shown, and what specific sub-region is the operator trying to isolate by doing this?",
+    "answer": "They angle the probe toward the patient’s right to isolate the pancreatic head and uncinate process more clearly.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator angles the probe toward the patient’s right side to better isolate and visualize the pancreatic head and uncinate process.",
+    "time_start": 106.0,
+    "time_end": 115.59,
+    "model_prediction": "Based on the visual evidence, the probe is being **angled inferiorly** (tilted towards the patient's feet) or slid inferiorly. The operator is doing this to isolate and visualize the **uncinate process** of the pancreas.\n\n**Explanation:**\nThe video starts with a standard transverse view of the pancreas, showing the body and tail draping over the splenic vein. As the clip progresses (around 0:06 onwards), the view shifts downwards. The splenic vein disappears or moves out of the primary focus, and the view centers on the region deep to the superior mesenteric vein/portal confluence. This downward angulation brings the uncinate process—the part of the pancreas that hooks around the superior mesenteric vessels posteriorly—into view. The uncinate process is visible deep to the superior mesenteric vein in the latter part of the clip.",
+    "inference_metadata": {
+      "raw_response": "Based on the visual evidence, the probe is being **angled inferiorly** (tilted towards the patient's feet) or slid inferiorly. The operator is doing this to isolate and visualize the **uncinate process** of the pancreas.\n\n**Explanation:**\nThe video starts with a standard transverse view of the pancreas, showing the body and tail draping over the splenic vein. As the clip progresses (around 0:06 onwards), the view shifts downwards. The splenic vein disappears or moves out of the primary focus, and the view centers on the region deep to the superior mesenteric vein/portal confluence. This downward angulation brings the uncinate process—the part of the pancreas that hooks around the superior mesenteric vessels posteriorly—into view. The uncinate process is visible deep to the superior mesenteric vein in the latter part of the clip.",
+      "latency_ms": 7037.02974319458,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 9.590000000000003,
+    "judge_explanation": "The AI correctly identifies the specific sub-region being isolated (the uncinate process) and correctly describes the visual anatomy (uncinate deep to the superior mesenteric vein). However, the AI incorrectly identifies the probe redirection as angling inferiorly, whereas the ground truth specifies angling toward the patient's right. While the uncinate is inferior, the primary lateral movement described in the ground truth is rightward.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator doing during the continued sweep in the new plane, and what is the broader purpose of this mapping?",
+    "answer": "They sweep through the organ while keeping the same body-plane orientation, using surrounding landmarks to understand where they are within the pancreas as they move.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "Maintaining the sagittal body plane, the operator sweeps through the pancreas in transverse view and uses surrounding structures as landmarks to localize specific pancreatic regions.",
+    "time_start": 173.17,
+    "time_end": 184.34,
+    "model_prediction": "Based on the video clip, the operator is pivoting the probe to follow the course of the **Common Bile Duct (CBD)** towards the **pancreatic head**. This maneuver is part of a broader mapping effort to trace the entire biliary tree, moving from the intrahepatic ducts down to the distal CBD where it enters the pancreas, checking for any obstruction or pathology.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is pivoting the probe to follow the course of the **Common Bile Duct (CBD)** towards the **pancreatic head**. This maneuver is part of a broader mapping effort to trace the entire biliary tree, moving from the intrahepatic ducts down to the distal CBD where it enters the pancreas, checking for any obstruction or pathology.",
+      "latency_ms": 5415.38405418396,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 11.170000000000016,
+    "judge_explanation": "The AI prediction describes pivoting to follow the Common Bile Duct, whereas the ground truth describes a sweep through the pancreas maintaining the same body-plane orientation to map the organ. The AI identifies the wrong action, structure, and purpose compared to the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, summarize what exam phase the operator is in across this segment, and what the next logical objective is after establishing the initial view.",
+    "answer": "They are setting up and confirming a long-axis view using a landmark for orientation; the next step is to sweep through the entire pancreas to ensure complete coverage.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator positions and obliques the probe to align with the pancreatic axis, holds a long-axis pancreas view, and checks for the splenic vein landmark before proceeding to comprehensive evaluation.",
+    "time_start": 0.25,
+    "time_end": 31.65,
+    "model_prediction": "Based on the video clip, the operator is in the initial **probe placement and optimization phase**, attempting to obtain a standard transverse view of the pancreas. After establishing the initial view showing the splenic vein and pancreas landmarks, the next logical objective is to **fan or sweep the probe superiorly and inferiorly (or tilt the probe tail down/up)** to visualize the entire extent of the pancreas, from head to tail, ensuring complete coverage of the organ.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is in the initial **probe placement and optimization phase**, attempting to obtain a standard transverse view of the pancreas. After establishing the initial view showing the splenic vein and pancreas landmarks, the next logical objective is to **fan or sweep the probe superiorly and inferiorly (or tilt the probe tail down/up)** to visualize the entire extent of the pancreas, from head to tail, ensuring complete coverage of the organ.",
+      "latency_ms": 5657.592058181763,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 31.4,
+    "judge_explanation": "The AI correctly identifies the phase as the initial setup/optimization to obtain the standard view (transverse view of the abdomen provides the long-axis view of the pancreas) and correctly identifies the next step as sweeping/fanning to ensure complete coverage of the organ, matching the ground truth.",
+    "judge_error_type": "none",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what workflow transition is occurring here, and what is the purpose of doing this before continuing the survey?",
+    "answer": "They transition from a long-axis-style view to a transverse/short-axis survey by rotating the probe, then begin sweeping to map the organ using landmarks for localization.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator rotates the probe to a sagittal plane relative to the patient to obtain transverse images, then sweeps through the pancreas while using surrounding structures as landmarks to determine location.",
+    "time_start": 156.2,
+    "time_end": 184.34,
+    "model_prediction": "Based on the video clip, the sonographer is transitioning from a transverse (axial) view of the pancreas to a longitudinal (sagittal) orientation. This transition is done to sweep through the liver and other upper abdominal organs in a second plane, which is a standard part of a complete abdominal survey to ensure no pathology is missed by viewing structures from multiple angles.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the sonographer is transitioning from a transverse (axial) view of the pancreas to a longitudinal (sagittal) orientation. This transition is done to sweep through the liver and other upper abdominal organs in a second plane, which is a standard part of a complete abdominal survey to ensure no pathology is missed by viewing structures from multiple angles.",
+      "latency_ms": 9404.352903366089,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 28.140000000000015,
+    "judge_explanation": "The AI describes the transition in the exact opposite direction of the ground truth. The ground truth states the transition is from a long-axis view to a transverse/short-axis survey, whereas the AI claims it is transitioning from a transverse view to a longitudinal orientation.",
+    "judge_error_type": "both_fail",
+    "keep": false
+  },
+  {
+    "question": "[FREE] Based on the video clip, what is the operator trying to accomplish by sequentially checking deep landmarks during the sweep, and how does this guide the remainder of the evaluation?",
+    "answer": "They are using consistent posterior vascular landmarks to verify which portion of the pancreas they are scanning as they sweep, ensuring systematic coverage from body toward head while staying in the transverse plane.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator identifies the aorta posteriorly to confirm the pancreatic body, then sweeps toward the patient’s right to find the IVC to confirm the head region, and continues sweeping to evaluate the pancreas in transverse plane.",
+    "time_start": 185.64,
+    "time_end": 215.61,
+    "model_prediction": "Based on the video clip, the operator is checking deep vascular landmarks, specifically the **inferior vena cava (IVC)** and the **abdominal aorta**, to serve as a roadmap for identifying the pancreas. By tracing these vessels (the IVC is seen posteriorly on the right screen/patient's right, and the aorta is seen pulsating on the left screen/patient's left), the operator can confidently locate the pancreas, which drapes anteriorly over these major vessels, particularly utilizing the splenic vein as a key posterior border for the pancreatic body and tail.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is checking deep vascular landmarks, specifically the **inferior vena cava (IVC)** and the **abdominal aorta**, to serve as a roadmap for identifying the pancreas. By tracing these vessels (the IVC is seen posteriorly on the right screen/patient's right, and the aorta is seen pulsating on the left screen/patient's left), the operator can confidently locate the pancreas, which drapes anteriorly over these major vessels, particularly utilizing the splenic vein as a key posterior border for the pancreatic body and tail.",
+      "latency_ms": 5828.255891799927,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 2,
+    "eval_max_score": 2,
+    "duration": 29.970000000000027,
+    "judge_explanation": "The AI correctly identifies the specific deep vascular landmarks (IVC, Aorta) mentioned generally in the ground truth and accurately explains their role as a roadmap for locating and evaluating the pancreas. While the AI does not explicitly state the direction of the sweep (body toward head), it correctly describes the anatomical strategy used to guide the evaluation.",
+    "judge_error_type": "none",
+    "keep": true
+  }
+]

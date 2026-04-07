@@ -1,0 +1,38 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what probe movement pattern is being performed through the target organ, and what diagnostic objective is it meant to address?",
+    "answer": "The operator sweeps through the kidney to survey the renal parenchyma. The goal is to look for obstructive findings such as collecting-system dilation (e.g., dilated calyces or renal pelvis).",
+    "groundtruth": "The operator sweeps through the kidney to assess the renal parenchyma and specifically evaluate for signs of obstruction such as dilated calyces or a dilated renal pelvis.",
+    "time_start": 9.19,
+    "time_end": 17.74,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[FREE] Based on the video clip, the view becomes suboptimal and a brief controlled inhalation is used. What optimization strategy is being shown, and why does it help?",
+    "answer": "The scan is timed with a small inspiration to shift the kidney inferiorly so it comes out from behind acoustic shadowing and into a clearer intercostal window.",
+    "groundtruth": "When the view is obscured by rib shadowing, the operator uses a small inspiratory breath to displace the anatomy inferiorly, moving the kidney out of the shadow and improving visualization.",
+    "time_start": 18.5,
+    "time_end": 29.35,
+    "keep": false,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what transducer repositioning is performed to recover/improve the view, and what problem is it intended to solve?",
+    "answer": "The probe is moved down by one rib space and the sweep is continued. This changes the intercostal window to avoid persistent shadow/limited access and regain a clear view.",
+    "groundtruth": "The operator moves the probe down one rib space and continues sweeping to use an alternative intercostal window and maintain/regain visualization.",
+    "time_start": 33.16,
+    "time_end": 38.18,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[FREE] Based on the video clip, what systematic coverage pattern is performed at the end of the scan, and what is the broader endpoint of this step?",
+    "answer": "The operator sweeps completely through the kidney from anterior to posterior to ensure full volume coverage. This final pass confirms the entire organ has been assessed before ending the exam.",
+    "groundtruth": "The operator performs a complete anterior-to-posterior sweep through the kidney to ensure the entire organ volume is assessed, then concludes the exam.",
+    "time_start": 39.41,
+    "time_end": 46.9,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

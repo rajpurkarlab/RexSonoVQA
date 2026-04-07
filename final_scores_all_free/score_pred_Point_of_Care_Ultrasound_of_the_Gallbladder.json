@@ -1,0 +1,149 @@
+[
+  {
+    "question": "[FREE] Based on the video clip, what change in probe pointing/beam direction is being performed, and what imaging objective does it serve?",
+    "answer": "The probe is angled slightly toward the patient’s head (cephalad) to steer the ultrasound beam upward. The goal is to bring the gallbladder into the insonation path for better visualization.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator angles the probe slightly toward the patient’s head to direct the ultrasound beam cephalad and improve alignment for gallbladder imaging.",
+    "time_start": 0.03,
+    "time_end": 3.49,
+    "model_prediction": "Based on the video clip, the operator is performing a **cranial (upward) tilt or sweep** of the ultrasound probe. This maneuver is used to visualize the superior portions of the liver and diaphragm to look for pathology such as pleural effusion or consolidation in the lung base, or to assess the diaphragm itself.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is performing a **cranial (upward) tilt or sweep** of the ultrasound probe. This maneuver is used to visualize the superior portions of the liver and diaphragm to look for pathology such as pleural effusion or consolidation in the lung base, or to assess the diaphragm itself.",
+      "latency_ms": 5835.363149642944,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 3.4600000000000004,
+    "judge_explanation": "The AI correctly identified the physical maneuver (cranial tilt/angling cephalad), matching the ground truth regarding the change in probe direction. However, it failed to identify the correct imaging objective. The ground truth specifies the goal is to visualize the gallbladder, while the AI incorrectly suggests the goal is to assess the lung base or diaphragm.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what stage of the exam is the operator in across this segment, and what is the immediate acquisition goal?",
+    "answer": "This is the localization-and-optimization phase: the operator first scales the image appropriately and then systematically sweeps/rocks to keep the gallbladder centered. The goal is to obtain a complete, well-centered view along the structure’s full length.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first adjusts depth to suit a superficial gallbladder, then identifies it and uses fanning/rocking to keep it centered while scanning along its entire length.",
+    "time_start": 4.15,
+    "time_end": 20.85,
+    "model_prediction": "Based on the video clip, the operator is in the survey or exploration stage of the exam, actively scanning through the left upper quadrant (spleen/kidney interface) to find the best acoustic window. The immediate acquisition goal is to optimize the view of the splenorenal recess and the spleen to rule out free fluid, as evidenced by the continuous probe movements and fanning to clear bowel gas and improve image clarity.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the operator is in the survey or exploration stage of the exam, actively scanning through the left upper quadrant (spleen/kidney interface) to find the best acoustic window. The immediate acquisition goal is to optimize the view of the splenorenal recess and the spleen to rule out free fluid, as evidenced by the continuous probe movements and fanning to clear bowel gas and improve image clarity.",
+      "latency_ms": 5299.947023391724,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 16.700000000000003,
+    "judge_explanation": "The AI completely misidentified the anatomical structure shown in the video. The ground truth states the video shows the gallbladder and the operator is optimizing the view of it. The AI claimed the video showed the left upper quadrant (spleen/kidney interface) and discussed goals related to the splenorenal recess. Therefore, both the visual evidence interpretation and the conclusion are incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what probe maneuver is performed to change the imaging plane, and what view-acquisition goal does that accomplish?",
+    "answer": "The probe is turned/rotated to obtain an orthogonal (cross-sectional) plane. This provides a short-axis view of the gallbladder to complement the prior long-axis assessment.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator turns the probe to acquire a cross-sectional view of the gallbladder.",
+    "time_start": 22.01,
+    "time_end": 26.03,
+    "model_prediction": "Based on the video, the probe is **rotated (specifically counter-clockwise)** to change the imaging plane from a longitudinal (long-axis) view to a transverse (short-axis) view. This maneuver is performed to transition from viewing the abdominal aorta in its long axis to obtaining a cross-sectional view of the aorta and inferior vena cava (IVC) side-by-side.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is **rotated (specifically counter-clockwise)** to change the imaging plane from a longitudinal (long-axis) view to a transverse (short-axis) view. This maneuver is performed to transition from viewing the abdominal aorta in its long axis to obtaining a cross-sectional view of the aorta and inferior vena cava (IVC) side-by-side.",
+      "latency_ms": 7073.719024658203,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 4.02,
+    "judge_explanation": "The AI correctly identifies the probe maneuver (rotation) but incorrectly identifies the anatomical structure being imaged. The Ground Truth states the goal is to obtain a short-axis view of the gallbladder, whereas the AI incorrectly claims the goal is to view the aorta and IVC. Misidentifying the organ renders the answer regarding the view-acquisition goal incorrect.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what specific probe orientation change is performed, and what is the intended scanning outcome?",
+    "answer": "The probe marker is redirected (e.g., toward a lateral ‘clock-face’ position) to shift the short-axis slice being interrogated. The goal is to visualize a different portion of the gallbladder in short axis.",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator points the marker toward the three o’clock position to obtain a different short-axis section of the gallbladder.",
+    "time_start": 32.12,
+    "time_end": 37.67,
+    "model_prediction": "Based on the video, the probe is rotated 90 degrees from a transverse orientation to a longitudinal orientation. This maneuver is performed to orthogonalize the view of the gallbladder, transitioning from a short-axis cross-section to a long-axis view to visualize the organ's full length and neck.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the probe is rotated 90 degrees from a transverse orientation to a longitudinal orientation. This maneuver is performed to orthogonalize the view of the gallbladder, transitioning from a short-axis cross-section to a long-axis view to visualize the organ's full length and neck.",
+      "latency_ms": 6071.243047714233,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 5.550000000000004,
+    "judge_explanation": "The AI incorrectly identifies the maneuver as a 90-degree rotation to transition from short-axis to long-axis. The Ground Truth states the probe is redirected to visualize a different portion of the gallbladder while remaining in the short-axis view.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what troubleshooting step is being initiated for improved visualization, and what is the next immediate action?",
+    "answer": "The operator is preparing to use a patient breathing maneuver to improve the acoustic window and bring the gallbladder into view. The next step is to have the patient take a deep breath in and hold it while scanning.",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator prepares for an inspiratory hold maneuver to troubleshoot difficult gallbladder visualization and then initiates the maneuver by having the patient inhale and hold.",
+    "time_start": 50.0,
+    "time_end": 56.94,
+    "model_prediction": "Based on the video clip, the troubleshooting step being initiated is the addition of ultrasound gel to the transducer footprint to address poor acoustic coupling. The next immediate action is to place the probe back on the patient's skin to reassess the image quality with the improved contact medium.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the troubleshooting step being initiated is the addition of ultrasound gel to the transducer footprint to address poor acoustic coupling. The next immediate action is to place the probe back on the patient's skin to reassess the image quality with the improved contact medium.",
+      "latency_ms": 5910.736083984375,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 6.939999999999998,
+    "judge_explanation": "The AI prediction identifies the action as adding ultrasound gel, whereas the ground truth states the operator is initiating a patient breathing maneuver. The conclusion and the next steps are completely different, indicating a failure to correctly interpret the visual scenario described in the ground truth.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what image-quality problem is being addressed by the probe-angle check, and what correction strategy is being emphasized?",
+    "answer": "The operator is addressing suboptimal insonation from an overly perpendicular approach that can miss the intended target. The correction is to adjust angulation so the beam trajectory better intersects the gallbladder.",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator checks that the probe is not too perpendicular to the skin to ensure the beam trajectory is appropriate for visualizing the gallbladder.",
+    "time_start": 66.49,
+    "time_end": 74.68,
+    "model_prediction": "Based on the video clip, the image-quality problem being addressed is **poor contact or lack of coupling**, resulting in air artifacts (vertical hazy lines) and a very dark, obscured image. The correction strategy emphasized is **fanning or tilting the probe** (changing the angle of insonation) to find a better acoustic window where the ultrasound beam can penetrate effectively without obstruction by air or ribs. As the probe angle changes, the image becomes clearer, revealing anatomical structures that were previously hidden.",
+    "inference_metadata": {
+      "raw_response": "Based on the video clip, the image-quality problem being addressed is **poor contact or lack of coupling**, resulting in air artifacts (vertical hazy lines) and a very dark, obscured image. The correction strategy emphasized is **fanning or tilting the probe** (changing the angle of insonation) to find a better acoustic window where the ultrasound beam can penetrate effectively without obstruction by air or ribs. As the probe angle changes, the image becomes clearer, revealing anatomical structures that were previously hidden.",
+      "latency_ms": 5991.4422035217285,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 2,
+    "duration": 8.190000000000012,
+    "judge_explanation": "The AI correctly identifies the correction strategy (changing the angle/fanning to find a better window). However, it incorrectly identifies the primary image-quality problem as 'poor contact or lack of coupling' (a technical issue with gel/pressure) rather than the 'overly perpendicular approach' (a geometric trajectory issue) specified in the ground truth.",
+    "judge_error_type": "wrong_conclusion",
+    "keep": true
+  },
+  {
+    "question": "[FREE] Based on the video clip, what broader troubleshooting strategy is being applied across this segment, and what is the intended end result before moving on?",
+    "answer": "The operator is iteratively adjusting probe angulation (avoiding a perpendicular approach and then aiming more cephalad with fine heel-toe control) to reacquire and optimize the target. The intended end result is a stable, clearly visualized gallbladder view suitable for complete assessment in the chosen plane(s).",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "Across this segment, the operator verifies the probe is not too perpendicular, then angles the probe cephalad and drops the tail to redirect the beam upward, improving the trajectory needed to visualize the gallbladder.",
+    "time_start": 66.49,
+    "time_end": 83.87,
+    "model_prediction": "Based on the video, the operator is applying a \"rocking\" or \"tilting\" troubleshooting strategy with the probe. The intended end result is to bring the specific structure of interest—a subpleural consolidation—directly into the center of the image to optimize visualization and resolution before proceeding with further assessment.",
+    "inference_metadata": {
+      "raw_response": "Based on the video, the operator is applying a \"rocking\" or \"tilting\" troubleshooting strategy with the probe. The intended end result is to bring the specific structure of interest—a subpleural consolidation—directly into the center of the image to optimize visualization and resolution before proceeding with further assessment.",
+      "latency_ms": 5238.7049198150635,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 2,
+    "duration": 17.38000000000001,
+    "judge_explanation": "The AI incorrectly identifies the anatomical target as a 'subpleural consolidation' (lung ultrasound), whereas the ground truth specifies the target is the 'gallbladder'. Because the anatomical context is wrong, the description of the troubleshooting strategy and the intended result are also incorrect.",
+    "judge_error_type": "both_fail",
+    "keep": true
+  }
+]

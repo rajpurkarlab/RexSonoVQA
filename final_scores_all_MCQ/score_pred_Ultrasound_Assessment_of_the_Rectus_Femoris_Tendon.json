@@ -1,0 +1,170 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe movement is being performed at the beginning of the exam, and what is the main imaging objective?\nA. Maintain a cross-sectional view while sliding proximally to track the target muscle toward its proximal attachment\nB. Rotate the probe into a longitudinal plane to obtain a long-axis view for assessment of fiber and tendon continuity.\nC. Sweep side-to-side in short axis to screen the muscle belly for a focal tear or hematoma rather than following it proximally to its attachment.\nD. Rock (heel-toe) the probe in place to reduce anisotropy and better delineate the myotendinous junction without translating along the limb.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator identifies the rectus femoris in transverse (short-axis) and then tracks it proximally toward the hip/AIIS region, noting the muscle cross-section progressively narrows as the scan approaches the proximal attachment.",
+    "time_start": 0.13,
+    "time_end": 25.5,
+    "original_question": "[MCQ] Based on the video clip, what probe movement is being performed at the beginning of the exam, and what is the main imaging objective?\nA. Maintain a cross-sectional view while sliding proximally to track the target muscle toward its proximal attachment\nB. Rotate the probe into a longitudinal plane to obtain a long-axis view for assessment of fiber and tendon continuity.\nC. Rock (heel-toe) the probe in place to reduce anisotropy and better delineate the myotendinous junction without translating along the limb.\nD. Sweep side-to-side in short axis to screen the muscle belly for a focal tear or hematoma rather than following it proximally to its attachment.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Maintain a cross-sectional view while sliding proximally to track the target muscle toward its proximal attachment\n\nExplanation:\nThe video begins with the probe in a transverse (short-axis) orientation relative to the muscle fibers. The sonographer then steadily translates (slides) the probe along the limb. As the scan progresses, the muscle belly being tracked changes shape and eventually tapers, showing the characteristic appearance of a muscle transitioning towards its myotendinous junction and proximal attachment. The view remains cross-sectional throughout this movement, which is the standard technique for following a muscle from its belly to its origin or insertion to assess for pathology along its length. There is no rotation into a longitudinal axis (B), no stationary rocking (D), and the movement is a consistent slide along the length of the muscle rather than a side-to-side sweep (C).",
+      "latency_ms": 11529.247999191284,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 25.37,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what stage of the workflow is being shown across this segment, and what is the next logical step?\nA. Image optimization and confirmation of depth/orientation; next, obtain static measurements (e.g., cross-sectional area or thickness) at the point of maximal clarity.\nB. Initial localization and proximal tracking; next, stabilize at the proximal attachment to identify key reference landmarks\nC. Establishing the primary bony reference landmark first; next, sweep proximally and distally from that landmark to map the course of the target structure.\nD. Initial localization and distal tracking; next, apply color Doppler to distinguish the structure from adjacent vessels before continuing the sweep.",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator first localizes the rectus femoris in transverse view and tracks it proximally until it becomes tendinous. The workflow then proceeds to holding at the proximal attachment to identify nearby bony/joint landmarks before detailed insertion interrogation.",
+    "time_start": 0.13,
+    "time_end": 33.36,
+    "original_question": "[MCQ] Based on the video clip, what stage of the workflow is being shown across this segment, and what is the next logical step?\nA. Initial localization and proximal tracking; next, stabilize at the proximal attachment to identify key reference landmarks\nB. Initial localization and distal tracking; next, apply color Doppler to distinguish the structure from adjacent vessels before continuing the sweep.\nC. Image optimization and confirmation of depth/orientation; next, obtain static measurements (e.g., cross-sectional area or thickness) at the point of maximal clarity.\nD. Establishing the primary bony reference landmark first; next, sweep proximally and distally from that landmark to map the course of the target structure.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Image optimization and confirmation of depth/orientation; next, obtain static measurements (e.g., cross-sectional area or thickness) at the point of maximal clarity.\n\n**Explanation:**\nThe video clip demonstrates the sonographer making fine adjustments to the probe position, angle (toggling/tilting), and depth to obtain the clearest possible cross-sectional view of the target structure (likely a peripheral nerve given the honeycomb fascicular appearance). The probe is held relatively steady over one area while these micro-adjustments are made to maximize contrast and border definition. This is characteristic of the image optimization phase once a structure has been localized. The logical next step after optimizing the image quality is to freeze the image and take measurements, such as cross-sectional area (CSA), to document any pathology like enlargement.\n\n*   **Option B** is incorrect because the video doesn't show a long, continuous tracking motion to a proximal attachment.\n*   **Option C** is incorrect because the clip focuses on soft tissue optimization rather than establishing a bony landmark first.\n*   **Option D** is incorrect because while color Doppler is a useful tool, the specific actions here—fine-tuning the grayscale image for clarity—are the immediate precursor to taking precise measurements in B-mode.",
+      "latency_ms": 7620.627880096436,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 33.23,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the primary acquisition goal during this segment?\nA. Demonstrate the tendon’s insertion region in relation to nearby bony contours to localize the attachment precisely\nB. Survey the adjacent bursa and soft tissues for distention or fluid that could indicate bursitis.\nC. Optimize the long-axis view to evaluate the tendon’s fibrillar echotexture for tendinosis or partial-thickness tearing.\nD. Apply color or power Doppler over the tendon to assess for hyperemia or neovascularity suggesting active inflammation.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator highlights the bony landmarks (femoral head and AIIS contour) and the tendon insertion zone, emphasizing the hyperechoic tendon tissue at the attachment site.",
+    "time_start": 48.21,
+    "time_end": 62.97,
+    "original_question": "[MCQ] Based on the video clip, what is the primary acquisition goal during this segment?\nA. Demonstrate the tendon’s insertion region in relation to nearby bony contours to localize the attachment precisely\nB. Optimize the long-axis view to evaluate the tendon’s fibrillar echotexture for tendinosis or partial-thickness tearing.\nC. Survey the adjacent bursa and soft tissues for distention or fluid that could indicate bursitis.\nD. Apply color or power Doppler over the tendon to assess for hyperemia or neovascularity suggesting active inflammation.",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. Optimize the long-axis view to evaluate the tendon’s fibrillar echotexture for tendinosis or partial-thickness tearing.\n\nExplanation:\nThe video shows the clinician manipulating the probe to obtain a clear longitudinal view of a tendon (likely the supraspinatus or gluteus tendon). The primary focus is on aligning the probe parallel to the tendon fibers to minimize anisotropy and clearly display the linear, fibrillar pattern of the tendon. This optimization allows for the assessment of the internal structure, looking for hypoechoic areas that would suggest tendinosis or disruption of fibers indicating a tear. While bony contours (A) are visible, the sustained effort is on perfecting the view of the tendon substance itself rather than just locating the insertion. There is no Doppler applied (D), and the focus is not primarily on the bursa (B).",
+      "latency_ms": 6791.973829269409,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 14.759999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is being used at the attachment region, and what is its purpose?\nA. Fan/tilt the probe through the attachment to interrogate for focal partial-thickness tearing or calcific enthesopathy.\nB. Rotate the probe into the orthogonal (short-axis) plane to confirm the attachment margins and differentiate tendon from adjacent structures.\nC. Translate the probe side-to-side across the attachment to survey the full footprint/origin\nD. Heel-toe (rock) the probe to keep the ultrasound beam perpendicular to the tendon/enthesis and reduce anisotropy.",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator slides the transducer from medial to lateral across the insertion point to visualize the full tendon origin at the inferior iliac spine region.",
+    "time_start": 66.65,
+    "time_end": 79.12,
+    "original_question": "[MCQ] Based on the video clip, what optimization maneuver is being used at the attachment region, and what is its purpose?\nA. Translate the probe side-to-side across the attachment to survey the full footprint/origin\nB. Heel-toe (rock) the probe to keep the ultrasound beam perpendicular to the tendon/enthesis and reduce anisotropy.\nC. Rotate the probe into the orthogonal (short-axis) plane to confirm the attachment margins and differentiate tendon from adjacent structures.\nD. Fan/tilt the probe through the attachment to interrogate for focal partial-thickness tearing or calcific enthesopathy.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation: The video demonstrates a \"heel-toe\" or rocking maneuver. The operator is rocking the probe along its long axis to change the angle of insonation relative to the tendon fibers as they attach to the bone. This is done to ensure the ultrasound beam is perpendicular to the fibers, which maximizes their echogenicity and eliminates anisotropy (an artifact where the tendon appears artificially hypoechoic/dark when not scanned at 90 degrees). This allows for a true assessment of the tendon's echotexture at the attachment site.",
+      "latency_ms": 8112.50376701355,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 12.469999999999999,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what specific pathology is the operator actively screening for during this focused survey?\nA. Enthesitis with insertional thickening and Doppler hyperemia without calcific foci\nB. Calcific change within or near the tendon insertion\nC. Partial-thickness tear at the tendon insertion with fiber discontinuity\nD. Adjacent bursitis with fluid distention and synovial hypertrophy near the enthesis",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator scans the region for hyperechoic reflective foci that would indicate calcifications.",
+    "time_start": 91.91,
+    "time_end": 101.85,
+    "original_question": "[MCQ] Based on the video clip, what specific pathology is the operator actively screening for during this focused survey?\nA. Calcific change within or near the tendon insertion\nB. Partial-thickness tear at the tendon insertion with fiber discontinuity\nC. Adjacent bursitis with fluid distention and synovial hypertrophy near the enthesis\nD. Enthesitis with insertional thickening and Doppler hyperemia without calcific foci",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video demonstrates a focused ultrasound examination of a tendon insertion (enthesis). The operator is carefully scanning the area where the tendon attaches to the bone. Throughout the clip, a distinct, bright (hyperechoic) focus is visible within the tendon substance near its insertion onto the bone. This hyperechoic area exhibits posterior acoustic shadowing, which is a classic sonographic feature of calcification. The operator's specific attention to this bright, shadowing structure indicates they are screening for calcific tendinopathy or calcific changes within or near the tendon insertion. There is no evidence of significant fluid (bursitis), gross fiber discontinuity (tear), or Doppler signal (hyperemia) being evaluated in this specific clip.",
+      "latency_ms": 6410.335063934326,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.939999999999998,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, a component is difficult to visualize in the current approach. What limitation is being recognized, and what general adjustment is needed?\nA. Posterior acoustic shadowing from overlying calcification or bone; use an alternative acoustic window or probe position to bypass the shadow.\nB. Angle-dependent dropout (anisotropy) from oblique insonation; change the probe position/approach to obtain a better insonation angle\nC. Suboptimal focal zone/near-field clutter obscuring the structure; adjust the focal depth or use a stand-off pad to improve resolution.\nD. Insufficient penetration from attenuation at depth (e.g., obese habitus); switch to a lower-frequency transducer and optimize TGC/depth.",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator recognizes that one tendon component is hard to see from the current position because obliquity causes full anisotropy, so a different scanning position/approach is needed to visualize it.",
+    "time_start": 122.14,
+    "time_end": 134.61,
+    "original_question": "[MCQ] Based on the video clip, a component is difficult to visualize in the current approach. What limitation is being recognized, and what general adjustment is needed?\nA. Angle-dependent dropout (anisotropy) from oblique insonation; change the probe position/approach to obtain a better insonation angle\nB. Posterior acoustic shadowing from overlying calcification or bone; use an alternative acoustic window or probe position to bypass the shadow.\nC. Insufficient penetration from attenuation at depth (e.g., obese habitus); switch to a lower-frequency transducer and optimize TGC/depth.\nD. Suboptimal focal zone/near-field clutter obscuring the structure; adjust the focal depth or use a stand-off pad to improve resolution.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nThe video demonstrates angle-dependent dropout (anisotropy) where certain structures, particularly tendons or ligaments, appear hypoechoic or \"drop out\" because the ultrasound beam is not perpendicular to the fibers. The limitation being recognized is this anisotropy, and the general adjustment needed is to change the probe position or approach (often by heel-toeing or rocking the transducer) to obtain a more perpendicular angle of insonation, making the fibers appear hyperechoic and clearly visible again.",
+      "latency_ms": 6203.697919845581,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 12.470000000000013,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after recognizing the current approach is inadequate, what next scanning strategy is shown?\nA. Rotate into a long-axis view and follow the tendon proximally toward its musculotendinous junction to regain orientation\nB. Activate color Doppler and identify the adjacent neurovascular bundle as a landmark before re-attempting the scan\nC. Return to a standard cross-sectional view over the muscle and track distally along the limb to re-establish anatomy\nD. Re-center on a nearby bony cortex and fan/heel-toe until the muscle attachment and fascial planes come back into view",
+    "answer": "C",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After noting limited visualization of the indirect tendon due to anisotropy and planning a different approach, the operator returns to a standard transverse view over the quadriceps and scans distally to re-identify the rectus femoris muscle belly.",
+    "time_start": 117.96,
+    "time_end": 155.66,
+    "original_question": "[MCQ] Based on the video clip, after recognizing the current approach is inadequate, what next scanning strategy is shown?\nA. Return to a standard cross-sectional view over the muscle and track distally along the limb to re-establish anatomy\nB. Rotate into a long-axis view and follow the tendon proximally toward its musculotendinous junction to regain orientation\nC. Activate color Doppler and identify the adjacent neurovascular bundle as a landmark before re-attempting the scan\nD. Re-center on a nearby bony cortex and fan/heel-toe until the muscle attachment and fascial planes come back into view",
+    "original_answer": "A",
+    "model_prediction": "C",
+    "inference_metadata": {
+      "raw_response": "Answer: C. Return to a standard cross-sectional view over the muscle and track distally along the limb to re-establish anatomy\n\nExplanation:\nThe video begins in a longitudinal view where the anatomy becomes somewhat ambiguous or \"lost.\" Around the 23-second mark, the operator clearly rotates the probe 90 degrees to obtain a short-axis (cross-sectional) view. This is the \"home base\" or standard view for identifying muscle bellies and their relationships. Once in this transverse plane, the probe is then swept or tracked distally along the limb, allowing the operator to re-establish the anatomical landmarks and orientation before presumably proceeding. This is a common \"bail-out\" maneuver when orientation is lost during a musculoskeletal ultrasound exam.",
+      "latency_ms": 7714.210033416748,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 37.7,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what internal feature is being emphasized during this later scanning segment, and why?\nA. The muscle’s internal architecture/central aponeurosis to understand how the proximal tendons continue into the muscle belly\nB. The myotendinous junction to identify the tendon–muscle transition and look for a partial tear.\nC. The superficial and deep fascial planes to delineate muscle compartment boundaries and exclude fascial disruption.\nD. The intramuscular echotexture and interstitial fluid planes to assess for strain-related edema or hematoma.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "While scanning, the operator focuses on muscle fibers and the internal tendon (central aponeurosis), recognizing it as the aponeurotic expansion of the combined indirect and direct tendons flowing into the muscle belly.",
+    "time_start": 156.56,
+    "time_end": 178.18,
+    "original_question": "[MCQ] Based on the video clip, what internal feature is being emphasized during this later scanning segment, and why?\nA. The muscle’s internal architecture/central aponeurosis to understand how the proximal tendons continue into the muscle belly\nB. The myotendinous junction to identify the tendon–muscle transition and look for a partial tear.\nC. The intramuscular echotexture and interstitial fluid planes to assess for strain-related edema or hematoma.\nD. The superficial and deep fascial planes to delineate muscle compartment boundaries and exclude fascial disruption.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nBased on the visual evidence in the video clip, the correct answer is **A**. The clip shows a scanning technique that follows the muscle's structure, specifically highlighting the internal architecture. As the probe moves, you can clearly see the hyperechoic (bright) central line running longitudinally through the muscle belly, which represents the **central aponeurosis**. The scanning segment traces how this structure relates to the surrounding muscle fibers (pennation), allowing the clinician to understand the continuity of the proximal tendinous structures into the muscle belly itself. This is a key step in evaluating the structural integrity of muscles like the rectus femoris, where the central aponeurosis acts as a \"tendon within a muscle.\"",
+      "latency_ms": 6733.649969100952,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.620000000000005,
+    "keep": true
+  }
+]

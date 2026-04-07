@@ -1,0 +1,170 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what early workflow step is being performed, and what is the immediate imaging objective?\nA. Establish an upper-abdominal acoustic window and obtain an initial cross-sectional survey view\nB. Rotate the probe into a longitudinal midline view to identify the abdominal aorta and screen for aneurysm\nC. Fan through the gallbladder in long axis to look for cholelithiasis and wall thickening\nD. Optimize depth and gain to clearly visualize Morison’s pouch for an initial FAST assessment",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator places the probe in the right epigastric/epigastric region and uses a deep inspiration breath-hold to establish an epigastric window, then orients for an initial transverse (cross-sectional) view of the left liver lobe.",
+    "time_start": 0.69,
+    "time_end": 15.12,
+    "original_question": "[MCQ] Based on the video clip, what early workflow step is being performed, and what is the immediate imaging objective?\nA. Establish an upper-abdominal acoustic window and obtain an initial cross-sectional survey view\nB. Optimize depth and gain to clearly visualize Morison’s pouch for an initial FAST assessment\nC. Rotate the probe into a longitudinal midline view to identify the abdominal aorta and screen for aneurysm\nD. Fan through the gallbladder in long axis to look for cholelithiasis and wall thickening",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video clip demonstrates the very beginning of an abdominal ultrasound exam. Initially, the image is dark and obscured as the probe is placed. The clinician then manipulates the probe to find an acoustic window, bringing the liver parenchyma into view. The probe is oriented transversely (cross-sectional), scanning across the liver to obtain a general survey of the organ's echotexture and vasculature before focusing on specific structures. This corresponds to establishing an initial window and performing a survey scan.",
+      "latency_ms": 10837.862014770508,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 14.43,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator doing immediately before changing strategy, and what problem are they screening for?\nA. Holding the probe still while asking for a breath hold to see if respiratory motion artifact is obscuring the target structure\nB. Pausing to judge whether acoustic window limitations are preventing adequate visualization\nC. Briefly applying color Doppler to assess whether absent signal reflects true lack of flow versus Doppler angle/scale limitations\nD. Pausing to adjust depth and overall gain to determine whether poor image settings rather than anatomy are limiting visualization",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator evaluates the current image quality to determine whether visualization is being limited by obstructing factors (e.g., bowel gas causing blank/nonvisualized areas) before proceeding with optimization steps.",
+    "time_start": 35.09,
+    "time_end": 44.79,
+    "original_question": "[MCQ] Based on the video clip, what is the operator doing immediately before changing strategy, and what problem are they screening for?\nA. Pausing to judge whether acoustic window limitations are preventing adequate visualization\nB. Pausing to adjust depth and overall gain to determine whether poor image settings rather than anatomy are limiting visualization\nC. Briefly applying color Doppler to assess whether absent signal reflects true lack of flow versus Doppler angle/scale limitations\nD. Holding the probe still while asking for a breath hold to see if respiratory motion artifact is obscuring the target structure",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B. Pausing to judge whether acoustic window limitations are preventing adequate visualization\n\nExplanation: In the video, the operator initially scans the liver and gallbladder but encounters an area where the image quality degrades significantly, appearing \"foggy\" or obscured, likely due to bowel gas or rib shadowing. The operator holds the probe relatively steady for a moment (around 00:09-00:13) while looking at this suboptimal image. This pause allows them to assess if the poor visualization is due to a fixed acoustic window limitation (like gas or bone) before they decide to change their approach, such as moving the probe to a different intercostal space or changing patient position. There is no color Doppler applied, no audible request for a breath hold is depicted visually (though the question asks what they are doing based on visual evidence), and no on-screen adjustment of depth or gain settings is observed during the pause.",
+      "latency_ms": 8304.861068725586,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.699999999999996,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what major optimization change is made when the view remains suboptimal, and what is the purpose?\nA. Switch to a lower-frequency probe to increase penetration and improve visualization through overlying tissue.\nB. Have the patient take a deep inspiration and hold it to lower the diaphragm and improve the acoustic window.\nC. Roll the patient partially onto the left side to shift gas and improve the window\nD. Move the probe to a more posterior intercostal space to reduce rib shadowing and obtain a clearer view.",
+    "answer": "C",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "After reassessing and finding the view still not optimal, the patient is repositioned into a left lateral decubitus posture to help displace bowel gas and improve liver visualization.",
+    "time_start": 60.6,
+    "time_end": 66.8,
+    "original_question": "[MCQ] Based on the video clip, what major optimization change is made when the view remains suboptimal, and what is the purpose?\nA. Roll the patient partially onto the left side to shift gas and improve the window\nB. Have the patient take a deep inspiration and hold it to lower the diaphragm and improve the acoustic window.\nC. Move the probe to a more posterior intercostal space to reduce rib shadowing and obtain a clearer view.\nD. Switch to a lower-frequency probe to increase penetration and improve visualization through overlying tissue.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: At approximately the 00:07 mark, the screen goes black as the probe is lifted or repositioned, and when imaging resumes around 00:10, a much clearer view is obtained. This significant change in the acoustic window, bringing the liver and gallbladder into better view below the ribs, is characteristic of having the patient take a deep breath (deep inspiration). This maneuver lowers the diaphragm, pushing the liver and gallbladder inferiorly below the costal margin, thereby improving the acoustic window and allowing better visualization.",
+      "latency_ms": 7186.946153640747,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 6.199999999999996,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow step is shown as the operator finishes improving the window and then changes probe position?\nA. Rotating the probe into an intercostal approach to obtain a true hepatic vein long-axis view for IVC/hepatic vein confluence assessment\nB. Switching to color Doppler to interrogate the portal vein flow once the acoustic window is optimized\nC. Repositioning into a dedicated gallbladder long-axis view to assess for cholelithiasis after improving the right upper quadrant window\nD. Transitioning into standard central survey cross-sections after a clearer right-lobe view is achieved",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "With improved right-lobe visualization, the operator shifts the probe to acquire standard cross-sections through the central liver as part of the routine survey.",
+    "time_start": 76.41,
+    "time_end": 83.62,
+    "original_question": "[MCQ] Based on the video clip, what workflow step is shown as the operator finishes improving the window and then changes probe position?\nA. Transitioning into standard central survey cross-sections after a clearer right-lobe view is achieved\nB. Switching to color Doppler to interrogate the portal vein flow once the acoustic window is optimized\nC. Repositioning into a dedicated gallbladder long-axis view to assess for cholelithiasis after improving the right upper quadrant window\nD. Rotating the probe into an intercostal approach to obtain a true hepatic vein long-axis view for IVC/hepatic vein confluence assessment",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation: The video shows the operator manipulating the probe to obtain a clearer view of the liver vasculature. Toward the end of the clip, the probe is repositioned, and the view shifts to reveal the hepatic veins draining into the inferior vena cava (IVC), which is characteristic of rotating into an intercostal or subcostal approach to achieve a long-axis view of the hepatic veins and their confluence with the IVC. This specific anatomical landmark (the \"Playboy Bunny\" sign of the hepatic veins) confirms the intention described in option A.",
+      "latency_ms": 7349.853038787842,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 7.210000000000008,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what sequence of actions is performed, and what is the intent?\nA. Refresh a breath-hold and then slide to the next standard cross-sectional level\nB. Refresh a breath-hold and then rotate the probe to obtain a longitudinal view for confirmation in a second plane.\nC. Release the breath-hold, adjust global settings (depth/gain), and reacquire the current level for better visualization.\nD. Refresh a breath-hold and then fan/angle to optimize the same cross-sectional level before measuring.",
+    "answer": "A",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The operator refreshes the breath-hold to maintain the window and then slides the probe inferiorly to the next standard cross-section to continue the systematic liver survey.",
+    "time_start": 103.93,
+    "time_end": 115.04,
+    "original_question": "[MCQ] Based on the video clip, what sequence of actions is performed, and what is the intent?\nA. Refresh a breath-hold and then slide to the next standard cross-sectional level\nB. Refresh a breath-hold and then fan/angle to optimize the same cross-sectional level before measuring.\nC. Release the breath-hold, adjust global settings (depth/gain), and reacquire the current level for better visualization.\nD. Refresh a breath-hold and then rotate the probe to obtain a longitudinal view for confirmation in a second plane.",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Refresh a breath-hold and then slide to the next standard cross-sectional level\n\nExplanation:\nThe video begins with a transverse view of the liver. The image then shifts significantly as the patient likely takes a breath (refreshing the breath-hold) and the probe is moved. The subsequent view settles on a slightly different anatomical plane within the liver, consistent with sliding the probe superiorly or inferiorly to capture the \"next standard cross-sectional level\" as part of a systematic survey of the organ. The abrupt transition and stabilization at a new level are characteristic of moving between standard imaging stations.",
+      "latency_ms": 6833.944082260132,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.11,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what “follow-the-structure” strategy is being used, and what endpoint is being sought?\nA. Follow the common bile duct inferiorly from the porta hepatis to the pancreatic head/ampulla as the endpoint\nB. Track the inferior vena cava cranially to find the hepatic vein confluence into the IVC as the endpoint\nC. Track the main portal vein from the porta hepatis to identify its bifurcation into right and left portal veins as the endpoint\nD. Track the branch extending from the central landmark level to locate the gallbladder at its end",
+    "answer": "D",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator follows the anatomy corresponding to the “tail” of the jumping stag sign to the endpoint in order to locate the gallbladder.",
+    "time_start": 150.77,
+    "time_end": 161.92,
+    "original_question": "[MCQ] Based on the video clip, what “follow-the-structure” strategy is being used, and what endpoint is being sought?\nA. Track the branch extending from the central landmark level to locate the gallbladder at its end\nB. Track the main portal vein from the porta hepatis to identify its bifurcation into right and left portal veins as the endpoint\nC. Follow the common bile duct inferiorly from the porta hepatis to the pancreatic head/ampulla as the endpoint\nD. Track the inferior vena cava cranially to find the hepatic vein confluence into the IVC as the endpoint",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D. Track the branch extending from the central landmark level to locate the gallbladder at its end\n\nExplanation:\nThe video demonstrates the \"main lobar fissure\" (MLF) strategy. The operator identifies the main portal vein at the porta hepatis and then follows the hyperechoic line of the main lobar fissure (the \"branch\") which extends from the right portal vein/gallbladder neck area. By tracking this bright, linear structure, the probe is guided directly to the gallbladder fossa, revealing the gallbladder as the endpoint of the scan. This is a classic landmark technique for locating the gallbladder when it is difficult to find.",
+      "latency_ms": 6623.843193054199,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.149999999999977,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what is the operator intentionally surveying at the edge of the field, and why is it useful?\nA. An adjacent hollow organ interface to confirm orientation and avoid confusing neighboring structures with the target organ\nB. A rib/pleural line interface to identify acoustic shadowing at the edge and adjust probe angle to reduce artifact\nC. A posterior diaphragmatic interface to confirm the cranial boundary of the view and optimize depth settings\nD. A major vascular landmark (aorta/IVC) at the margin to re-center the target and estimate its depth from the midline",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "While scanning, the operator examines the left side of the image to visualize the stomach (and its entrance) as an adjacent structure for orientation.",
+    "time_start": 173.12,
+    "time_end": 181.17,
+    "original_question": "[MCQ] Based on the video clip, what is the operator intentionally surveying at the edge of the field, and why is it useful?\nA. An adjacent hollow organ interface to confirm orientation and avoid confusing neighboring structures with the target organ\nB. A posterior diaphragmatic interface to confirm the cranial boundary of the view and optimize depth settings\nC. A major vascular landmark (aorta/IVC) at the margin to re-center the target and estimate its depth from the midline\nD. A rib/pleural line interface to identify acoustic shadowing at the edge and adjust probe angle to reduce artifact",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video shows an ultrasound sweep of the spleen. Initially, the operator is adjusting the probe. Then, as the image stabilizes, there is a clear, bright, curvilinear interface seen adjacent to the spleen (on the right side of the screen/inferior aspect of the spleen in this view). This bright, echogenic interface with dirty shadowing represents gas in the stomach or bowel (likely stomach given the location next to the spleen). Surveying this \"adjacent hollow organ interface\" helps the operator confirm the anatomical orientation, define the boundaries of the spleen, and ensure that adjacent structures like the stomach are not mistaken for splenic pathology or fluid collections. It provides a landmark to confirm exactly what is being viewed.",
+      "latency_ms": 7760.173797607422,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.049999999999983,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, two similar tubular structures are compared. What disambiguation method is used, and what distinction is being made?\nA. Identify portal triad anatomy by looking for an accompanying hepatic artery and bile duct adjacent to the portal vein.\nB. Compare echogenicity of the vessel walls to distinguish portal veins (echogenic walls) from hepatic veins (non-echogenic walls)\nC. Trace the vessel’s course to distinguish hepatic veins draining into the IVC from portal veins branching at the porta hepatis.\nD. Use spectral Doppler waveform to differentiate hepatic veins (triphasic, cardiac pulsatility) from portal veins (continuous hepatopetal flow).",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator compares the vessel wall appearance to differentiate a portal vein branch (with surrounding echogenic connective tissue) from a hepatic vein (without an echogenic rim).",
+    "time_start": 201.48,
+    "time_end": 215.43,
+    "original_question": "[MCQ] Based on the video clip, two similar tubular structures are compared. What disambiguation method is used, and what distinction is being made?\nA. Compare echogenicity of the vessel walls to distinguish portal veins (echogenic walls) from hepatic veins (non-echogenic walls)\nB. Use spectral Doppler waveform to differentiate hepatic veins (triphasic, cardiac pulsatility) from portal veins (continuous hepatopetal flow).\nC. Trace the vessel’s course to distinguish hepatic veins draining into the IVC from portal veins branching at the porta hepatis.\nD. Identify portal triad anatomy by looking for an accompanying hepatic artery and bile duct adjacent to the portal vein.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video demonstrates the operator scanning through the liver parenchyma and visualizing intrahepatic vessels. The method used for disambiguation in this B-mode clip relies on comparing the vessel walls. The portal veins are distinguished by their thick, hyperechoic (bright) walls, due to the presence of Glisson's capsule / fibrous sheath. In contrast, the hepatic veins have thin, imperceptible walls that blend into the surrounding liver parenchyma. This is the classic B-mode visual distinction between these two vascular systems without using Doppler.",
+      "latency_ms": 8430.191993713379,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 13.950000000000017,
+    "keep": true
+  }
+]

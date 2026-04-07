@@ -1,0 +1,170 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what probe orientation is being used at the start of the scan, and what is the acquisition objective?\nA. Transverse plane; begin at the superior portion to start a full-volume sweep\nB. Longitudinal (sagittal) plane; start at the midline to obtain a standard 2D survey sweep of the target organ.\nC. Transverse plane; center the structure of interest to optimize depth and focus before acquiring representative still images rather than a full-volume sweep.\nD. Oblique plane; begin at the inferior margin to locate the landmark anatomy before sweeping superiorly for partial coverage.",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The operator places the probe in a transverse orientation high on the right liver lobe to start the protocol from the superior aspect before sweeping through the liver.",
+    "time_start": 0.11,
+    "time_end": 8.34,
+    "original_question": "[MCQ] Based on the video clip, what probe orientation is being used at the start of the scan, and what is the acquisition objective?\nA. Longitudinal (sagittal) plane; start at the midline to obtain a standard 2D survey sweep of the target organ.\nB. Transverse plane; begin at the superior portion to start a full-volume sweep\nC. Transverse plane; center the structure of interest to optimize depth and focus before acquiring representative still images rather than a full-volume sweep.\nD. Oblique plane; begin at the inferior margin to locate the landmark anatomy before sweeping superiorly for partial coverage.",
+    "original_answer": "B",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A\n\nExplanation:\nThe video label \"TRANS RIGHT LIVER\" clearly indicates that the probe is oriented in the transverse plane. The scanning motion begins high (superiorly) in the liver, where the hepatic veins are seen entering the IVC, and then sweeps inferiorly through the liver parenchyma. This movement, starting from the top and sweeping down, is characteristic of beginning a \"full-volume sweep\" to visualize the entire organ in that plane.",
+      "latency_ms": 7743.215084075928,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.23,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what physical technique change is shown, and what is the main reason for doing it?\nA. Applying graded compression with the probe; to assess compressibility and differentiate bowel or vein from a noncompressible structure.\nB. Changing transducer grip/hand position; to better reach and visualize the lateral boundary ergonomically\nC. Rotating the transducer 90° into a longitudinal view; to confirm the structure’s course in an orthogonal plane.\nD. Switching to an intercostal scanning window; to reduce rib shadowing and improve visualization of the target area.",
+    "answer": "B",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator changes grip on the transducer to improve ergonomics and enable effective visualization of the lateral border.",
+    "time_start": 60.8,
+    "time_end": 68.82,
+    "original_question": "[MCQ] Based on the video clip, what physical technique change is shown, and what is the main reason for doing it?\nA. Rotating the transducer 90° into a longitudinal view; to confirm the structure’s course in an orthogonal plane.\nB. Changing transducer grip/hand position; to better reach and visualize the lateral boundary ergonomically\nC. Applying graded compression with the probe; to assess compressibility and differentiate bowel or vein from a noncompressible structure.\nD. Switching to an intercostal scanning window; to reduce rib shadowing and improve visualization of the target area.",
+    "original_answer": "B",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation: The video clip demonstrates the sonographer changing their hand position and grip on the transducer. Initially, the probe is held in a standard grip. Then, the sonographer explicitly points to the lateral edge of the liver on the screen, indicating the area of interest that is difficult to see. Following this, the video shows the operator shifting their grip to an \"overhand\" or modified hold. This ergonomic adjustment allows them to reach further around the patient's side (laterally) to image the most lateral edge of the liver without straining their wrist or losing contact, thereby visualizing the full extent of the organ.",
+      "latency_ms": 7689.448118209839,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 8.019999999999996,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what landmark is used to anchor the next specialized sweep, and what is the purpose of using it?\nA. A portal venous branch; to standardize the starting point for a border-focused sweep\nB. A hepatic vein; to follow it centrally to the IVC as a reference for a venous flow assessment sweep\nC. The inferior vena cava; to standardize a longitudinal sweep for estimating volume status and right heart filling pressures\nD. The gallbladder neck; to anchor a sweep through the porta hepatis to screen for biliary obstruction",
+    "answer": "A",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The right portal vein is located as the starting landmark so the operator can initiate a structured lateral border sweep (“scoop shot”) from a consistent reference point.",
+    "time_start": 69.72,
+    "time_end": 79.63,
+    "original_question": "[MCQ] Based on the video clip, what landmark is used to anchor the next specialized sweep, and what is the purpose of using it?\nA. A hepatic vein; to follow it centrally to the IVC as a reference for a venous flow assessment sweep\nB. A portal venous branch; to standardize the starting point for a border-focused sweep\nC. The gallbladder neck; to anchor a sweep through the porta hepatis to screen for biliary obstruction\nD. The inferior vena cava; to standardize a longitudinal sweep for estimating volume status and right heart filling pressures",
+    "original_answer": "B",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. A portal venous branch; to standardize the starting point for a border-focused sweep\n\nExplanation:\nIn the video, the sonographer identifies a specific branch of the portal vein within the liver parenchyma (visible as a vessel with echogenic walls running horizontally across the screen) and points to it. This landmark is typically used to anchor or standardize the starting level for a specialized sweep, often to assess liver borders or segmental anatomy systematically. While the diaphragm is also pointed out earlier, the specific freeze-frame and gesture towards the internal vasculature (the portal vein branch running transversely) indicate it as the key anchor point for the subsequent maneuver described in this context.",
+      "latency_ms": 8261.337041854858,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 9.909999999999997,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what motion is performed after reacquiring the landmark, and what is the goal?\nA. Rotate the probe 90 degrees; switch to a transverse view to confirm anatomic orientation before continuing.\nB. Sweep superiorly; keep the landmark centered to survey the cranial portion of the organ.\nC. Sweep inferiorly; maintain the organ border on-screen during the pass\nD. Fan (rock) through the landmark; obtain the maximal cross-sectional view for measurement.",
+    "answer": "C",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "The right portal vein is found again and the probe sweeps inferiorly with the goal of keeping the liver border visible throughout the sweep.",
+    "time_start": 118.61,
+    "time_end": 126.93,
+    "original_question": "[MCQ] Based on the video clip, what motion is performed after reacquiring the landmark, and what is the goal?\nA. Sweep inferiorly; maintain the organ border on-screen during the pass\nB. Sweep superiorly; keep the landmark centered to survey the cranial portion of the organ.\nC. Fan (rock) through the landmark; obtain the maximal cross-sectional view for measurement.\nD. Rotate the probe 90 degrees; switch to a transverse view to confirm anatomic orientation before continuing.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video starts with a transverse view of the right liver (\"TRANS RIGHT LIVER\"). After the presenter's hand points to the screen, the probe motion changes. The image sweeps, moving through the liver parenchyma. The motion appears to be moving \"up\" through the liver towards the diaphragm (superiorly). The goal of this sweeping motion is to survey the entire cranial portion of the liver while keeping the main landmark (likely the overall liver structure or a specific vein) centered in the view to ensure complete coverage of that segment. Options A, C, and D describe different motions (rotation, inferior sweep, fanning) that do not match the observed continuous superior sweep through the liver tissue.",
+      "latency_ms": 7640.774965286255,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 8.320000000000007,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what workflow transition is occurring, and what is the next scanning objective?\nA. Switching from transverse to longitudinal; obtain a representative mid-portion long-axis image for measurement before continuing the sweep\nB. Switching from transverse to longitudinal; begin covering the superior portion in the new plane\nC. Staying in transverse; fan/rock through the superior pole to ensure full coverage before rotating to long axis\nD. Switching from longitudinal to transverse; restart the sweep at the inferior pole in the short-axis plane",
+    "answer": "B",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "The probe is rotated into a longitudinal (sagittal) plane and positioned to begin sweeping the superior portion of the right liver lobe.",
+    "time_start": 140.74,
+    "time_end": 151.03,
+    "original_question": "[MCQ] Based on the video clip, what workflow transition is occurring, and what is the next scanning objective?\nA. Switching from transverse to longitudinal; begin covering the superior portion in the new plane\nB. Switching from longitudinal to transverse; restart the sweep at the inferior pole in the short-axis plane\nC. Staying in transverse; fan/rock through the superior pole to ensure full coverage before rotating to long axis\nD. Switching from transverse to longitudinal; obtain a representative mid-portion long-axis image for measurement before continuing the sweep",
+    "original_answer": "A",
+    "model_prediction": "A",
+    "inference_metadata": {
+      "raw_response": "Answer: A. Switching from transverse to longitudinal; obtain a representative mid-portion long-axis image for measurement before continuing the sweep\n\nExplanation: The video begins with the label \"TRANS RIGHT LIVER,\" indicating the previous scanning plane. As the image appears, the probe is rotated 90 degrees (implied by the change in anatomical presentation and typical protocol). The sonographer then settles on a sagittal (longitudinal) view of the liver, freezing the image to measure the liver's span (craniocaudal dimension) in the mid-clavicular line. This is a standard step: moving from transverse sweeps to a longitudinal plane, taking a representative measurement image, and then proceeding with the longitudinal sweep.",
+      "latency_ms": 8035.6481075286865,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 0,
+    "eval_max_score": 1,
+    "duration": 10.289999999999992,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what coverage strategy is demonstrated, and why is it used?\nA. Cranial-to-caudal sweep along the long axis without leaving the organ; used to assess superior–inferior extent and look for focal lesions rather than to avoid missing edge anatomy.\nB. Sliding the probe slightly medially with lighter pressure; used to optimize an intercostal window and reduce rib shadowing, not to interrogate the far lateral margin.\nC. Fanning (rocking) the probe through the organ while keeping it in view; used to sample different insonation angles and reduce anisotropy rather than to ensure lateral edge coverage.\nD. Lateral sweep fully out of the organ with added pressure, then return to the landmark; ensures complete lateral coverage and avoids missed edge anatomy",
+    "answer": "D",
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "groundtruth": "The operator sweeps laterally with firm pressure until fully out of the liver, then sweeps back medially to the IVC, completing coverage of the superior right lobe from the IVC to the lateral edge and back.",
+    "time_start": 173.65,
+    "time_end": 184.8,
+    "original_question": "[MCQ] Based on the video clip, what coverage strategy is demonstrated, and why is it used?\nA. Lateral sweep fully out of the organ with added pressure, then return to the landmark; ensures complete lateral coverage and avoids missed edge anatomy\nB. Fanning (rocking) the probe through the organ while keeping it in view; used to sample different insonation angles and reduce anisotropy rather than to ensure lateral edge coverage.\nC. Sliding the probe slightly medially with lighter pressure; used to optimize an intercostal window and reduce rib shadowing, not to interrogate the far lateral margin.\nD. Cranial-to-caudal sweep along the long axis without leaving the organ; used to assess superior–inferior extent and look for focal lesions rather than to avoid missing edge anatomy.",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video demonstrates a transverse sweep of the right liver lobe where the probe is swept laterally until the liver tissue completely disappears from the screen (sweeping \"fully out of the organ\"), and then sweeping back medially to regain the landmark. This \"sweep through and out\" technique is specifically designed to ensure complete coverage of the lateral edge of the organ, preventing any pathology at the periphery from being missed. The \"added pressure\" mentioned in the option often accompanies subcostal sweeping to maintain contact and push bowel gas aside, though the visual key here is the complete disappearance of the organ edge to prove full coverage.",
+      "latency_ms": 7399.873971939087,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 11.150000000000006,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what sweep direction is used to verify medial coverage, and what endpoint confirms it?\nA. Sweep laterally; adequate coverage is confirmed when the right kidney and lateral recess are fully visualized.\nB. Sweep medially; a central venous landmark comes into view\nC. Sweep medially; coverage is confirmed when the aorta is identified as the midline vascular landmark.\nD. Sweep cranially; the endpoint is visualization of the diaphragm and pleural line at the lung base.",
+    "answer": "B",
+    "question_type": "Type1_ActionGoalReasoning",
+    "groundtruth": "From the inferior starting view, the probe sweeps medially until the IVC is visualized to confirm medial coverage.",
+    "time_start": 215.1,
+    "time_end": 220.56,
+    "original_question": "[MCQ] Based on the video clip, what sweep direction is used to verify medial coverage, and what endpoint confirms it?\nA. Sweep medially; a central venous landmark comes into view\nB. Sweep laterally; adequate coverage is confirmed when the right kidney and lateral recess are fully visualized.\nC. Sweep cranially; the endpoint is visualization of the diaphragm and pleural line at the lung base.\nD. Sweep medially; coverage is confirmed when the aorta is identified as the midline vascular landmark.",
+    "original_answer": "A",
+    "model_prediction": "B",
+    "inference_metadata": {
+      "raw_response": "Answer: B\n\nExplanation:\nThe video demonstrates a transverse sweep of the right liver. To verify medial coverage, the probe is swept medially (towards the patient's left). The endpoint that confirms adequate medial coverage is the appearance of a central venous landmark, typically the Inferior Vena Cava (IVC) or the hepatic veins draining into it, which are visible as anechoic (black) tubular structures in the medial aspect of the liver. In this clip, as the view pans, we see vascular structures centrally, confirming the medial extent of the sweep.",
+      "latency_ms": 11204.325914382935,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 5.460000000000008,
+    "keep": true
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what phase change is occurring, and what is the immediate documentation target?\nA. Transition from gray-scale imaging to color Doppler; document color filling through the venous confluence to assess patency\nB. Transition from scanning to documentation; save a longitudinal image showing full venous compressibility at the target segment\nC. Transition from B-mode to spectral Doppler; obtain a venous waveform tracing to evaluate phasicity and augmentation\nD. Transition from scanning to documentation; capture a multi-branch venous view in transverse",
+    "answer": "D",
+    "question_type": "Type3_ProcedureContextPlanning",
+    "groundtruth": "After completing interrogation, the operator prepares to capture static images, returns to a transverse plane, and targets hepatic veins for documentation.",
+    "time_start": 235.16,
+    "time_end": 256.54,
+    "original_question": "[MCQ] Based on the video clip, what phase change is occurring, and what is the immediate documentation target?\nA. Transition from scanning to documentation; capture a multi-branch venous view in transverse\nB. Transition from scanning to documentation; save a longitudinal image showing full venous compressibility at the target segment\nC. Transition from gray-scale imaging to color Doppler; document color filling through the venous confluence to assess patency\nD. Transition from B-mode to spectral Doppler; obtain a venous waveform tracing to evaluate phasicity and augmentation",
+    "original_answer": "A",
+    "model_prediction": "D",
+    "inference_metadata": {
+      "raw_response": "Answer: D\n\nExplanation:\nThe video shows the sonographer actively scanning the liver in a transverse plane (indicated by the \"TRANS RIGHT LIVER\" annotation). Throughout the clip, the probe is manipulated to optimize the window. Toward the end of the clip, the image settles on a clear view of the hepatic veins converging (often referred to as the \"Playboy bunny\" sign) within the liver parenchyma. This indicates a transition from the active searching/scanning phase to the documentation phase, where the goal is to freeze and capture this specific multi-branch venous anatomical landmark in the transverse plane. There is no evidence of color Doppler (A), spectral Doppler (C), or a longitudinal compression maneuver (B).",
+      "latency_ms": 20269.511222839355,
+      "success": true,
+      "error_message": ""
+    },
+    "eval_score": 1,
+    "eval_max_score": 1,
+    "duration": 21.380000000000024,
+    "keep": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "[MCQ] Based on the video clip, what procedural phase is being shown, and what is the operator\u2019s broader objective?\nA) Reposition to the contralateral upper-chest region to repeat the same lung view for comparison\nB) Switch to M-mode at the same interspace to document lung sliding (seashore sign) and evaluate for pneumothorax\nC) Slide inferiorly and posteriorly to assess the costophrenic angle for pleural effusion and consolidation\nD) Rotate the probe 90\u00b0 to obtain a transverse intercostal view to better visualize pleural line continuity and artifacts",
+    "answer": "A",
+    "groundtruth": "The operator moves the probe to the left apical chest and repeats the prior scanning maneuver to assess the contralateral apex.",
+    "time_start": 0.7,
+    "time_end": 6.04,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what optimization maneuver is performed, and why?\nA) Slide the probe to an adjacent window to avoid shadowing and open a clearer acoustic path\nB) Rock/heel-toe the probe to align the ultrasound beam perpendicular to the structure and reduce anisotropy\nC) Decrease depth and adjust overall gain to magnify the region of interest and improve contrast resolution\nD) Rotate the probe 90 degrees to obtain an orthogonal long-axis view and better delineate anatomy",
+    "answer": "A",
+    "groundtruth": "The operator prepares to reposition and then slides the probe upward to move off the rib and into an intercostal space, clearing the obstructed view.",
+    "time_start": 10.63,
+    "time_end": 17.69,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what action is shown, and what is the diagnostic goal?\nA) Hold the probe steady to confirm sliding at the lung interface and screen for pneumothorax\nB) Switch to M-mode over the pleural line to look for a barcode/stratosphere sign suggestive of pneumothorax\nC) Fan the probe through multiple interspaces to assess for diffuse B-lines consistent with interstitial edema\nD) Slide the probe posterolaterally to evaluate the costophrenic recess for pleural effusion",
+    "answer": "A",
+    "groundtruth": "With a stable hand, the operator observes the pleural line for shimmering/lung sliding to confirm pleural apposition and exclude pneumothorax in this region.",
+    "time_start": 20.63,
+    "time_end": 25.45,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, what machine adjustment is made, and what is the purpose?\nA) Increase imaging depth to better display repeated horizontal reverberation artifacts down the screen\nB) Decrease imaging depth to enlarge near-field structures and improve apparent resolution of the pleural line\nC) Increase overall gain to brighten the image and enhance visibility of low-amplitude echoes within the far field\nD) Move the focal zone to the level of the pleural line to optimize lateral resolution at the area of interest",
+    "answer": "A",
+    "groundtruth": "The operator identifies horizontal reverberation artifacts and increases depth so their repetitions (A-lines) are more clearly visualized.",
+    "time_start": 25.89,
+    "time_end": 32.28,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization"
+  },
+  {
+    "question": "[MCQ] Based on the video clip, after changing image settings, what is the next logical step being performed, and why?\nA) Continue scanning additional nearby windows to ensure the pattern is consistent and representative\nB) Freeze and save a representative still image or cine loop now that the settings are optimized for documentation.\nC) Apply color Doppler over the region to assess for vascular flow that could mimic the observed echogenic pattern.\nD) Rotate the transducer 90\u00b0 to obtain the orthogonal plane and ensure the appearance is not due to anisotropy.",
+    "answer": "A",
+    "groundtruth": "After increasing depth to better display reverberation artifacts, the operator continues scanning the intercostal space to confirm the pattern is consistently normal.",
+    "time_start": 25.89,
+    "time_end": 37.1,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning"
+  }
+]

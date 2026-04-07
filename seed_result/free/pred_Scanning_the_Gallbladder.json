@@ -1,0 +1,97 @@
+[
+  {
+    "question": "[FREE] Based on the video, what probe orientation (including probe marker direction) is being set up, and what imaging goal does this establish?",
+    "answer": "The probe is oriented in a longitudinal (sagittal) plane with the marker directed toward the patient’s head. This establishes a long-axis view for initial evaluation of the target.",
+    "groundtruth": "The operator aligns the probe in a sagittal/longitudinal orientation with the indicator toward the head to establish the longitudinal scanning plane.",
+    "time_start": 4.59,
+    "time_end": 13.2,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 4.59,
+    "original_time_end": 13.2,
+    "model_prediction": "This is a transabdominal sagittal (longitudinal) probe orientation, with the probe marker directed cephalad (toward the patient's head). This setup establishes the goal of acquiring longitudinal views of the gravid uterus, to assess obstetric structures (the fetus, placenta, and amniotic cavity) along the patient's craniocaudal axis.",
+    "inference_metadata": {
+      "raw_response": "This is a transabdominal sagittal (longitudinal) probe orientation, with the probe marker directed cephalad (toward the patient's head). This setup establishes the goal of acquiring longitudinal views of the gravid uterus, to assess obstetric structures (the fetus, placenta, and amniotic cavity) along the patient's craniocaudal axis.",
+      "latency_ms": 263849.5440483093,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, when the target is not yet clearly visible, what probe adjustment is performed and what problem is it intended to solve?",
+    "answer": "The operator fine-tunes the view with small probe movements (e.g., subtle sliding/tilting/fanning) to bring the target into the imaging plane. The goal is to optimize the window and reliably bring the target into view.",
+    "groundtruth": "The operator adjusts the probe/view until the gallbladder appears, optimizing visualization and confirming the correct target location using the expected visual sign.",
+    "time_start": 17.66,
+    "time_end": 24.79,
+    "keep": true,
+    "question_type": "Type2_ArtifactResolutionOptimization",
+    "original_time_start": 17.66,
+    "original_time_end": 24.79,
+    "model_prediction": "The probe is fanned (angled/rocked side to side) to sweep the ultrasound imaging plane laterally. This adjustment is intended to bring the target structure, which was outside of the initial imaging plane, into the scan field of view so it can be clearly visualized.",
+    "inference_metadata": {
+      "raw_response": "The probe is fanned (angled/rocked side to side) to sweep the ultrasound imaging plane laterally. This adjustment is intended to bring the target structure, which was outside of the initial imaging plane, into the scan field of view so it can be clearly visualized.",
+      "latency_ms": 361986.0019683838,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, after the target is centered, what probe motion is used to fully evaluate it, and what is the objective of doing so?",
+    "answer": "The operator fans/sweeps through the structure to interrogate it throughout its full extent, with special attention to the narrow end region. The objective is a complete survey so focal findings aren’t missed.",
+    "groundtruth": "With the gallbladder in view, the operator fans through it to interrogate the entire organ, paying particular attention to the neck to complete a thorough volumetric survey.",
+    "time_start": 28.93,
+    "time_end": 37.15,
+    "keep": false,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 28.93,
+    "original_time_end": 37.15,
+    "model_prediction": "After the target is centered, the probe is fanned (rocked/tilted back and forth along its axis to sweep through the target's full volume).\nThe objective is to visualize the entire target structure in sequential cross-sectional planes, to fully characterize its morphology, size, borders, internal features, and any associated findings (such as the posterior acoustic shadowing present here) without missing any portion of the target.",
+    "inference_metadata": {
+      "raw_response": "After the target is centered, the probe is fanned (rocked/tilted back and forth along its axis to sweep through the target's full volume).\nThe objective is to visualize the entire target structure in sequential cross-sectional planes, to fully characterize its morphology, size, borders, internal features, and any associated findings (such as the posterior acoustic shadowing present here) without missing any portion of the target.",
+      "latency_ms": 345685.3108406067,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video, what determination is being made in the current imaging plane, and what does that represent in the exam workflow?",
+    "answer": "The operator is assessing the current view for pathology and documenting that no stones are seen in this plane. This serves as the first-plane conclusion before moving to confirmatory views.",
+    "groundtruth": "The operator evaluates the sagittal view for pathology and confirms that no stones are visible in this longitudinal view.",
+    "time_start": 43.6,
+    "time_end": 45.12,
+    "keep": true,
+    "question_type": "Type1_ActionGoalReasoning",
+    "original_time_start": 43.6,
+    "original_time_end": 45.12,
+    "model_prediction": "The clip shows a longitudinal view of the porta hepatis/portal triad, where the operator is identifying the common bile duct (CBD, the small tubular structure anterior to the larger portal vein) to confirm its position prior to measuring its diameter.\nThis is a standard step in right upper quadrant abdominal ultrasound workflow: assessment of CBD caliber is used to evaluate for biliary dilatation that indicates biliary tract obstruction, as part of workup for conditions like gallstone disease, jaundice, or right upper quadrant pain.",
+    "inference_metadata": {
+      "raw_response": "The clip shows a longitudinal view of the porta hepatis/portal triad, where the operator is identifying the common bile duct (CBD, the small tubular structure anterior to the larger portal vein) to confirm its position prior to measuring its diameter.\nThis is a standard step in right upper quadrant abdominal ultrasound workflow: assessment of CBD caliber is used to evaluate for biliary dilatation that indicates biliary tract obstruction, as part of workup for conditions like gallstone disease, jaundice, or right upper quadrant pain.",
+      "latency_ms": 184408.18095207214,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  },
+  {
+    "question": "[FREE] Based on the video sequence, what workflow step is being completed, and why is it clinically important to do it in this second plane?",
+    "answer": "The operator is finishing the orthogonal-plane survey and re-confirming the exam conclusion. This is important to reduce missed findings by ensuring the assessment holds across planes.",
+    "groundtruth": "After rotating to a transverse orientation, the operator completes the transverse survey of the gallbladder and re-confirms negative findings in this second plane.",
+    "time_start": 46.0,
+    "time_end": 57.23,
+    "keep": true,
+    "question_type": "Type3_ProcedureContextPlanning",
+    "original_time_start": 46.0,
+    "original_time_end": 57.23,
+    "model_prediction": "The workflow step completed is orthogonal (perpendicular/second plane) confirmation of a suspected gallstone (hyperechoic focus with posterior acoustic shadowing in the gallbladder region), with biliary tree assessment.\nImaging this finding in a second plane is clinically important because it confirms the finding is a real anatomic/pathologic structure rather than an ultrasound artifact (artifacts do not persist across perpendicular imaging planes), and allows accurate localization of the stone to confirm it is within the gallbladder rather than the adjacent common bile duct, while also enabling assessment for associated biliary duct dilation that would indicate obstruction.",
+    "inference_metadata": {
+      "raw_response": "The workflow step completed is orthogonal (perpendicular/second plane) confirmation of a suspected gallstone (hyperechoic focus with posterior acoustic shadowing in the gallbladder region), with biliary tree assessment.\nImaging this finding in a second plane is clinically important because it confirms the finding is a real anatomic/pathologic structure rather than an ultrasound artifact (artifacts do not persist across perpendicular imaging planes), and allows accurate localization of the stone to confirm it is within the gallbladder rather than the adjacent common bile duct, while also enabling assessment for associated biliary duct dilation that would indicate obstruction.",
+      "latency_ms": 209632.82823562622,
+      "success": true,
+      "error_message": "",
+      "extended_clip": false
+    }
+  }
+]

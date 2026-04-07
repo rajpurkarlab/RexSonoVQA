@@ -1,0 +1,613 @@
+{
+  "1st_Trimester_Scan": {
+    "youtube_url": "https://www.youtube.com/watch?v=PnoPvJXhanI",
+    "start_time": 18.22,
+    "end_time": 131.15,
+    "roi": {
+      "x_prop": 0.459016,
+      "y_prop": 0.297917,
+      "w_prop": 0.440281,
+      "h_prop": 0.4375
+    },
+    "_alignment_score": 0.9731,
+    "_validated_frames": 5
+  },
+  "Achilles_Assessment_for_Primary_Care": {
+    "youtube_url": "https://www.youtube.com/watch?v=YR-fj6WJtf8",
+    "start_time": 63.05,
+    "end_time": 229.55,
+    "roi": {
+      "x_prop": 0.416862,
+      "y_prop": 0.1625,
+      "w_prop": 0.533958,
+      "h_prop": 0.679167
+    },
+    "_alignment_score": 0.8854,
+    "_validated_frames": 5
+  },
+  "Bladder_Ultrasound_for_Primary_Care": {
+    "youtube_url": "https://www.youtube.com/watch?v=EUPi7bannio",
+    "start_time": 328.1,
+    "end_time": 399.7,
+    "roi": {
+      "x_prop": 0.429742,
+      "y_prop": 0.2625,
+      "w_prop": 0.5,
+      "h_prop": 0.45625
+    },
+    "_alignment_score": 0.9886,
+    "_validated_frames": 5
+  },
+  "Cardiac_Parasternal_View_-_Ultrasound_Scanning_Technique": {
+    "youtube_url": "https://www.youtube.com/watch?v=-RrN2G9YBjA",
+    "start_time": 14.87,
+    "end_time": 113.13,
+    "roi": {
+      "x_prop": 0.19375,
+      "y_prop": 0.205556,
+      "w_prop": 0.220312,
+      "h_prop": 0.566667
+    },
+    "_alignment_score": 0.9024,
+    "_validated_frames": 4
+  },
+  "Carotid_and_Vertebral_Arteries_Doppler_Ultrasound_Protocols": {
+    "youtube_url": "https://www.youtube.com/watch?v=r8egrNqH2YU",
+    "start_time": 70.0,
+    "end_time": 354.4,
+    "roi": {
+      "x_prop": 0.552693,
+      "y_prop": 0.058333,
+      "w_prop": 0.447307,
+      "h_prop": 0.625
+    },
+    "_alignment_score": 0.9124,
+    "_validated_frames": 4
+  },
+  "First_Trimester_Intrauterine_Pregnancy _Ultrasound_Scanning_Technique_CC": {
+    "youtube_url": "https://www.youtube.com/watch?v=co0F5_HewXU",
+    "start_time": 16.7,
+    "end_time": 75.59,
+    "roi": {
+      "x_prop": 0.194379,
+      "y_prop": 0.222917,
+      "w_prop": 0.221311,
+      "h_prop": 0.54375
+    },
+    "_alignment_score": 0.981,
+    "_validated_frames": 5
+  },
+  "How_I_do_it_Ultrasound_of_the_Abdomen_-_Y_Radiology_and_Biomedical_Imaging_1": {
+    "youtube_url": "https://www.youtube.com/watch?v=i73ovcEL3OI",
+    "start_time": 16.7,
+    "end_time": 137.77,
+    "roi": {
+      "x_prop": 0.052693,
+      "y_prop": 0.520833,
+      "w_prop": 0.337237,
+      "h_prop": 0.4375
+    },
+    "_alignment_score": 0.9969,
+    "_validated_frames": 5
+  },
+  "How_I_do_it_Ultrasound_of_the_Abdomen_-_Y_Radiology_and_Biomedical_Imaging_2": {
+    "youtube_url": "https://www.youtube.com/watch?v=i73ovcEL3OI",
+    "start_time": 278.7,
+    "end_time": 361.7,
+    "roi": {
+      "x_prop": 0.576112,
+      "y_prop": 0.45,
+      "w_prop": 0.374707,
+      "h_prop": 0.483333
+    },
+    "_alignment_score": 0.9946,
+    "_validated_frames": 2
+  },
+  "How_I_do_it_Ultrasound_of_the_Abdomen_-_Y_Radiology_and_Biomedical_Imaging_3": {
+    "youtube_url": "https://www.youtube.com/watch?v=i73ovcEL3OI",
+    "start_time": 980.0,
+    "end_time": 1077.3,
+    "roi": {
+      "x_prop": 0.571429,
+      "y_prop": 0.508333,
+      "w_prop": 0.391101,
+      "h_prop": 0.458333
+    },
+    "_alignment_score": 0.9991,
+    "_validated_frames": 2
+  },
+  "How_I_do_it_Ultrasound_of_the_Abdomen_-_Y_Radiology_and_Biomedical_Imaging_5": {
+    "youtube_url": "https://www.youtube.com/watch?v=i73ovcEL3OI",
+    "start_time": 374.6,
+    "end_time": 439.0,
+    "roi": {
+      "x_prop": 0.559719,
+      "y_prop": 0.497917,
+      "w_prop": 0.388759,
+      "h_prop": 0.491667
+    },
+    "_alignment_score": 0.9976,
+    "_validated_frames": 2
+  },
+  "How_I_do_it_Ultrasound_of_the_Abdomen_-_Y_Radiology_and_Biomedical_Imaging_4": {
+    "youtube_url": "https://www.youtube.com/watch?v=i73ovcEL3OI",
+    "start_time": 672.1,
+    "end_time": 887.9,
+    "roi": {
+      "x_prop": 0.07377,
+      "y_prop": 0.483333,
+      "w_prop": 0.355972,
+      "h_prop": 0.483333
+    },
+    "_alignment_score": 0.9975,
+    "_validated_frames": 2
+  },
+  "How_to_Scan_the_Pancreas": {
+    "youtube_url": "https://www.youtube.com/watch?v=HkegFQhONO8",
+    "start_time": -0.43,
+    "end_time": 103.0,
+    "roi": {
+      "x_prop": 0.0,
+      "y_prop": 0.0,
+      "w_prop": 0.61875,
+      "h_prop": 0.744444
+    },
+    "_alignment_score": 0.9989,
+    "_validated_frames": 4
+  },
+  "How_to_perform_an_ultrasound_exam_of_the_gastrointestinal_(GI)_tract.": {
+    "youtube_url": "https://www.youtube.com/watch?v=m4UH3WN9Wtk",
+    "start_time": 21.76,
+    "end_time": 217.2,
+    "roi": {
+      "x_prop": 0.415625,
+      "y_prop": 0.019444,
+      "w_prop": 0.557813,
+      "h_prop": 0.9
+    },
+    "_alignment_score": 0.8572,
+    "_validated_frames": 4
+  },
+  "How_to_scan_the_Upper_Abdomen": {
+    "youtube_url": "https://www.youtube.com/watch?v=TlckvYhqaFE",
+    "start_time": 7.77,
+    "end_time": 357.0,
+    "roi": {
+      "x_prop": 0.092506,
+      "y_prop": 0.152083,
+      "w_prop": 0.489461,
+      "h_prop": 0.610417
+    },
+    "_alignment_score": 0.949,
+    "_validated_frames": 3
+  },
+  "How_to_perform_an_ultrasound_exam_of_the_pancreas": {
+    "youtube_url": "https://www.youtube.com/watch?v=IsJeMgxTFMU",
+    "start_time": 15.4,
+    "end_time": 157.68,
+    "roi": {
+      "x_prop": 0.37822,
+      "y_prop": 0.079167,
+      "w_prop": 0.56089,
+      "h_prop": 0.9
+    },
+    "_alignment_score": 0.8442,
+    "_validated_frames": 1
+  },
+  "How_to_scan_the_Upper_Abdomen_2": {
+    "youtube_url": "https://www.youtube.com/watch?v=TlckvYhqaFE",
+    "start_time": 378.77,
+    "end_time": 454.64,
+    "roi": {
+      "x_prop": 0.11007,
+      "y_prop": 0.166667,
+      "w_prop": 0.462529,
+      "h_prop": 0.608333
+    },
+    "_alignment_score": 0.9496,
+    "_validated_frames": 3
+  },
+  "How_to_scan_the_Upper_Abdomen_3": {
+    "youtube_url": "https://www.youtube.com/watch?v=TlckvYhqaFE",
+    "start_time": 474.6,
+    "end_time": 655.7,
+    "roi": {
+      "x_prop": 0.12178,
+      "y_prop": 0.191667,
+      "w_prop": 0.467213,
+      "h_prop": 0.575
+    },
+    "_alignment_score": 0.9366,
+    "_validated_frames": 3
+  },
+  "Left_Kidney_Ultrasound": {
+    "youtube_url": "https://www.youtube.com/watch?v=2F54SVismNY",
+    "start_time": 16.18,
+    "end_time": 69.8,
+    "roi": {
+      "x_prop": 0.457813,
+      "y_prop": 0.277778,
+      "w_prop": 0.434375,
+      "h_prop": 0.491667
+    },
+    "_alignment_score": 0.9429,
+    "_validated_frames": 4
+  },
+  "How_to_ultrasound_the_liver": {
+    "youtube_url": "https://www.youtube.com/watch?v=J5gRFeZ7cZU",
+    "start_time": 28.2,
+    "end_time": 314.4,
+    "roi": {
+      "x_prop": 0.420375,
+      "y_prop": 0.029167,
+      "w_prop": 0.56089,
+      "h_prop": 0.9
+    },
+    "_alignment_score": 0.906,
+    "_validated_frames": 4
+  },
+  "Lung_Ultrasound_in_a_Primary_Care_Setting": {
+    "youtube_url": "https://www.youtube.com/watch?v=OXkp2zjdeew",
+    "start_time": 196.68,
+    "end_time": 243.72,
+    "roi": {
+      "x_prop": 0.4375,
+      "y_prop": 0.280556,
+      "w_prop": 0.442188,
+      "h_prop": 0.441667
+    },
+    "_alignment_score": 0.9505,
+    "_validated_frames": 2
+  },
+  "Lower_Extremity_DVT_Ultrasound": {
+    "youtube_url": "https://www.youtube.com/watch?v=BFYTQ2LQhQo",
+    "start_time": 89.36,
+    "end_time": 257.39,
+    "roi": {
+      "x_prop": 0.419204,
+      "y_prop": 0.260417,
+      "w_prop": 0.523419,
+      "h_prop": 0.4625
+    },
+    "_alignment_score": 0.9574,
+    "_validated_frames": 4
+  },
+  "Lung_Ultrasound_in_a_Primary_Care_Setting_3": {
+    "youtube_url": "https://www.youtube.com/watch?v=OXkp2zjdeew",
+    "start_time": 283.1,
+    "end_time": 365.68,
+    "roi": {
+      "x_prop": 0.45625,
+      "y_prop": 0.269444,
+      "w_prop": 0.40625,
+      "h_prop": 0.4
+    },
+    "_alignment_score": 0.9633,
+    "_validated_frames": 3
+  },
+  "Lung_Ultrasound_in_a_Primary_Care_Setting_2": {
+    "youtube_url": "https://www.youtube.com/watch?v=OXkp2zjdeew",
+    "start_time": 107.5,
+    "end_time": 164.62,
+    "roi": {
+      "x_prop": 0.420312,
+      "y_prop": 0.266667,
+      "w_prop": 0.490625,
+      "h_prop": 0.461111
+    },
+    "_alignment_score": 0.9306,
+    "_validated_frames": 3
+  },
+  "Lung_Ultrasound_in_a_Primary_Care_Setting_4": {
+    "youtube_url": "https://www.youtube.com/watch?v=OXkp2zjdeew",
+    "start_time": 396.11,
+    "end_time": 451.09,
+    "roi": {
+      "x_prop": 0.460938,
+      "y_prop": 0.272222,
+      "w_prop": 0.403125,
+      "h_prop": 0.4
+    },
+    "_alignment_score": 0.9679,
+    "_validated_frames": 3
+  },
+  "Medial_Knee_Ultrasound": {
+    "youtube_url": "https://www.youtube.com/watch?v=eJDnGh8f87U",
+    "start_time": 109.62,
+    "end_time": 223.77,
+    "roi": {
+      "x_prop": 0.152225,
+      "y_prop": 0.289583,
+      "w_prop": 0.295082,
+      "h_prop": 0.4
+    },
+    "_alignment_score": 0.9832,
+    "_validated_frames": 4
+  },
+  "POCUS_of_the_Abdominal_Aorta": {
+    "youtube_url": "https://www.youtube.com/watch?v=5btyrsWv8WA",
+    "start_time": 118.16,
+    "end_time": 341.92,
+    "roi": {
+      "x_prop": 0.417187,
+      "y_prop": 0.252778,
+      "w_prop": 0.521875,
+      "h_prop": 0.486111
+    },
+    "_alignment_score": 0.8829,
+    "_validated_frames": 4
+  },
+  "POCUS_of_the_Lateral_Hip": {
+    "youtube_url": "https://www.youtube.com/watch?v=vEEQgToysqk",
+    "start_time": 41.8,
+    "end_time": 258.0,
+    "roi": {
+      "x_prop": 0.446136,
+      "y_prop": 0.247917,
+      "w_prop": 0.441452,
+      "h_prop": 0.483333
+    },
+    "_alignment_score": 0.9759,
+    "_validated_frames": 4
+  },
+  "Point_of_Care_Ultrasound_of_the_Gallbladder": {
+    "youtube_url": "https://www.youtube.com/watch?v=7TT1lTv83Fc",
+    "start_time": 125.76,
+    "end_time": 210.26,
+    "roi": {
+      "x_prop": 0.665625,
+      "y_prop": 0.272222,
+      "w_prop": 0.253125,
+      "h_prop": 0.344444
+    },
+    "_alignment_score": 0.984,
+    "_validated_frames": 5
+  },
+  "Renal_Ultrasound": {
+    "youtube_url": "https://www.youtube.com/watch?v=gN9VOlRfNag",
+    "start_time": 28.6,
+    "end_time": 127.8,
+    "roi": {
+      "x_prop": 0.694379,
+      "y_prop": 0.204167,
+      "w_prop": 0.221311,
+      "h_prop": 0.595833
+    },
+    "_alignment_score": 0.9271,
+    "_validated_frames": 4
+  },
+  "Renal_Ultrasound_for_Primary_Care_": {
+    "youtube_url": "https://www.youtube.com/watch?v=EUPi7bannio",
+    "start_time": 98.28,
+    "end_time": 230.72,
+    "roi": {
+      "x_prop": 0.421546,
+      "y_prop": 0.258333,
+      "w_prop": 0.501171,
+      "h_prop": 0.4625
+    },
+    "_alignment_score": 0.9325,
+    "_validated_frames": 2
+  },
+  "Right_Kidney_Ultrasound": {
+    "youtube_url": "https://www.youtube.com/watch?v=in9jysNSU5o",
+    "start_time": 14.26,
+    "end_time": 100.61,
+    "roi": {
+      "x_prop": 0.480094,
+      "y_prop": 0.275,
+      "w_prop": 0.418033,
+      "h_prop": 0.491667
+    },
+    "_alignment_score": 0.9763,
+    "_validated_frames": 4
+  },
+  "Rule_Out_Knee_Effusion": {
+    "youtube_url": "https://www.youtube.com/watch?v=eUkzZ6BmzWI",
+    "start_time": 63.0,
+    "end_time": 156.16,
+    "roi": {
+      "x_prop": 0.42623,
+      "y_prop": 0.258333,
+      "w_prop": 0.504684,
+      "h_prop": 0.4625
+    },
+    "_alignment_score": 0.9699,
+    "_validated_frames": 4
+  },
+  "Scanning_Technique_Appendix": {
+    "youtube_url": "https://www.youtube.com/watch?v=7xxUhQs_Vss",
+    "start_time": 32.0,
+    "end_time": 94.66,
+    "roi": {
+      "x_prop": 0.1875,
+      "y_prop": 0.172222,
+      "w_prop": 0.232813,
+      "h_prop": 0.597222
+    },
+    "_alignment_score": 0.9302,
+    "_validated_frames": 7
+  },
+  "Scanning_Technique_First_Trimester_Gestational_Age": {
+    "youtube_url": "https://www.youtube.com/watch?v=ZARLJu9ouqg",
+    "start_time": 15.0,
+    "end_time": 72.22,
+    "roi": {
+      "x_prop": 0.188525,
+      "y_prop": 0.2375,
+      "w_prop": 0.221311,
+      "h_prop": 0.525
+    },
+    "_alignment_score": 0.9821,
+    "_validated_frames": 4
+  },
+  "Scanning_Technique_Gallbladder": {
+    "youtube_url": "https://www.youtube.com/watch?v=xuIcltzKkSY",
+    "start_time": 20.6,
+    "end_time": 86.5,
+    "roi": {
+      "x_prop": 0.189696,
+      "y_prop": 0.247917,
+      "w_prop": 0.223653,
+      "h_prop": 0.497917
+    },
+    "_alignment_score": 0.9772,
+    "_validated_frames": 4
+  },
+  "Scanning_the_Achilles_Tendon": {
+    "youtube_url": "https://www.youtube.com/watch?v=KhOMw_x5JgY",
+    "start_time": 22.27,
+    "end_time": 81.0,
+    "roi": {
+      "x_prop": 0.134375,
+      "y_prop": 0.419444,
+      "w_prop": 0.2375,
+      "h_prop": 0.194444
+    },
+    "_alignment_score": 0.8634,
+    "_validated_frames": 6
+  },
+  "Scanning_the_Appendix": {
+    "youtube_url": "https://www.youtube.com/watch?v=oFthY2lo53Q",
+    "start_time": 66.29,
+    "end_time": 147.8,
+    "roi": {
+      "x_prop": 0.64637,
+      "y_prop": 0.039583,
+      "w_prop": 0.242389,
+      "h_prop": 0.9125
+    },
+    "_alignment_score": 0.7546,
+    "_validated_frames": 4
+  },
+  "Scanning_the_Gallbladder": {
+    "youtube_url": "https://www.youtube.com/watch?v=tsV1xiQUQoE",
+    "start_time": 17.1,
+    "end_time": 76.99,
+    "roi": {
+      "x_prop": 0.134375,
+      "y_prop": 0.233333,
+      "w_prop": 0.228125,
+      "h_prop": 0.558333
+    },
+    "_alignment_score": 0.8843,
+    "_validated_frames": 4
+  },
+  "Scanning_the_Right_Kidney": {
+    "youtube_url": "https://www.youtube.com/watch?v=GTcUCF9svso",
+    "start_time": 14.83,
+    "end_time": 61.8,
+    "roi": {
+      "x_prop": 0.135937,
+      "y_prop": 0.216667,
+      "w_prop": 0.229687,
+      "h_prop": 0.588889
+    },
+    "_alignment_score": 0.8774,
+    "_validated_frames": 4
+  },
+  "Third_Trimester_Locate_Fetus_and_Placenta": {
+    "youtube_url": "https://www.youtube.com/watch?v=kR_SY3E8rPE",
+    "start_time": 16.77,
+    "end_time": 87.8,
+    "roi": {
+      "x_prop": 0.56089,
+      "y_prop": 0.495833,
+      "w_prop": 0.357143,
+      "h_prop": 0.366667
+    },
+    "_alignment_score": 0.979,
+    "_validated_frames": 4
+  },
+  "Ultrasound_Assessment_of_the_Rectus_Femoris_Tendon": {
+    "youtube_url": "https://www.youtube.com/watch?v=Dj80q8PGea8",
+    "start_time": 11.63,
+    "end_time": 189.95,
+    "roi": {
+      "x_prop": 0.42623,
+      "y_prop": 0.24375,
+      "w_prop": 0.497658,
+      "h_prop": 0.502083
+    },
+    "_alignment_score": 0.9357,
+    "_validated_frames": 4
+  },
+  "Ultrasound_of_the_Aorta": {
+    "youtube_url": "https://www.youtube.com/watch?v=9iUh6g52zKg",
+    "start_time": 42.36,
+    "end_time": 441.0,
+    "roi": {
+      "x_prop": 0.04375,
+      "y_prop": 0.122222,
+      "w_prop": 0.775,
+      "h_prop": 0.819444
+    },
+    "_alignment_score": 0.7879,
+    "_validated_frames": 2
+  },
+  "Ultrasound_of_the_Pancreas": {
+    "youtube_url": "https://www.youtube.com/watch?v=sLrg9mo1NaA",
+    "start_time": 76.27,
+    "end_time": 339.95,
+    "roi": {
+      "x_prop": 0.125,
+      "y_prop": 0.061111,
+      "w_prop": 0.734375,
+      "h_prop": 0.794444
+    },
+    "_alignment_score": 0.8274,
+    "_validated_frames": 3
+  },
+  "Ultrasound_of_the_Right_Liver_Lobe": {
+    "youtube_url": "https://www.youtube.com/watch?v=9EYp-1TruKw",
+    "start_time": 37.49,
+    "end_time": 480.69,
+    "roi": {
+      "x_prop": 0.221875,
+      "y_prop": 0.077778,
+      "w_prop": 0.626563,
+      "h_prop": 0.766667
+    },
+    "_alignment_score": 0.8637,
+    "_validated_frames": 1
+  },
+  "Ultrasound_of_the_Spleen": {
+    "youtube_url": "https://www.youtube.com/watch?v=9iUh6g52zKg",
+    "start_time": 455.23,
+    "end_time": 631.99,
+    "roi": {
+      "x_prop": 0.154688,
+      "y_prop": 0.147222,
+      "w_prop": 0.651563,
+      "h_prop": 0.708333
+    },
+    "_alignment_score": 0.873,
+    "_validated_frames": 6
+  },
+  "Ultrasound_of_the_Urinary_Tract_Bladder_pre_void": {
+    "youtube_url": "https://www.youtube.com/watch?v=Kim7GfMVmPQ",
+    "start_time": 41.38,
+    "end_time": 323.5,
+    "roi": {
+      "x_prop": 0.187354,
+      "y_prop": 0.145833,
+      "w_prop": 0.629977,
+      "h_prop": 0.63125
+    },
+    "_alignment_score": 0.9586,
+    "_validated_frames": 3
+  },
+  "Ultrasound_of_the_Urinary_Tract_Kidney": {
+    "youtube_url": "https://www.youtube.com/watch?v=Kim7GfMVmPQ",
+    "start_time": 519.32,
+    "end_time": 957.6,
+    "roi": {
+      "x_prop": 0.206089,
+      "y_prop": 0.16875,
+      "w_prop": 0.619438,
+      "h_prop": 0.63125
+    },
+    "_alignment_score": 0.8796,
+    "_validated_frames": 3
+  }
+}
